@@ -238,7 +238,7 @@ msgid "IfcBridge_DEFINITION"
 msgstr "Een Bridge is een civiele techniek die voetgangers, dieren doorgeeft voertuigen, diensten boven obstakels of tussen twee punten op een bovengrondse hoogte."
 
 msgid "Pset_BridgeCommon"
-msgstr "Property Set: Bridge Common"
+msgstr "Eigenschappen set: Brug generiek"
 
 msgid "Pset_BridgeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschap ingesteld voor bridges."
@@ -271,7 +271,7 @@ msgid "IfcBuilding_DEFINITION"
 msgstr "Een gebouw is een bouwwerk dat onderdak biedt aan zijn bewoners of inhoud en op één plaats staat. Het gebouw wordt ook gebruikt om een basiselement binnen de ruimtelijke structuur hiërarchie te bieden voor de onderdelen van een bouwproject (samen met de site, verhaal- en ruimte)."
 
 msgid "Pset_BuildingCommon"
-msgstr "Eigenschapsset: Gewoon bouwen"
+msgstr "Eigenschappen set: Gebouw generiek"
 
 msgid "Pset_BuildingCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcBuilding]]. Houd er rekening mee dat verschillende kenmerken van het gebouw direct worden afgehandeld in de [[IfcBuilding]], het huisnummer (of korte naam) door [[IfcBuilding]].[Name]], de bouwnaam (of lange naam) door [[IfcBuilding]].[LongName]], en de beschrijving (of commentaar) van [[IfcBuilding]].[[Description]]. Werkelijke hoeveelheden van gebouwen, zoals perimeter, bouwgebied en bouwvolume worden geleverd door IfcElementQuantity, en de classificatie van het gebouw volgens nationale bouwcode door IfcClassificationReferentie."
@@ -421,7 +421,7 @@ msgid "Pset_BuildingUseAdjacent_DEFINITION"
 msgstr "Biedt informatie over aangrenzende gebouwen en het gebruik ervan om de invloed ervan op de bouw van rente te bepalen. Merk op dat voor elk exemplaar van de gebruikte propertyset waar er een risico bestaat, er zal een exemplaar zijn van de propertyset [[Pset_Risk]] (q.v)."
 
 msgid "Qto_BuildingBaseQuantities"
-msgstr "Hoeveelheid set: Bouw basishoeveelheid"
+msgstr "Hoeveelheden set: Gebouw basis hoeveelheden"
 
 msgid "Qto_BuildingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van gebouwen."
@@ -577,7 +577,7 @@ msgid "IfcBuildingStorey_DEFINITION"
 msgstr "De verdieping van het gebouw heeft een hoogte en vertegenwoordigt meestal een (bijna) horizontale samenvoeging van ruimtes die verticaal gebonden zijn."
 
 msgid "Pset_BuildingStoreyCommon"
-msgstr "Eigenschappen Set: Bouw Storey Gemeenschappelijk"
+msgstr "Eigenschappen set: Bouw Storey generiek"
 
 msgid "Pset_BuildingStoreyCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcBuildingStorey]]. Houd er rekening mee dat verschillende kenmerken van het gebouw rechtstreeks worden afgehandeld in de [[IfcBuildingStorey]] instantie. de gebouw verdieping (of korte naam) door [[IfcBuildingStorey]].[Name]], de bouwverdieping (of lange naam) door [[IfcBuildingStorey]].[LongName]], en de beschrijving (of commentaar) van [[IfcBuildingStorey]].[[Description]]. Echte aantallen verdiepingen in gebouwen, zoals torenperimeter, gebouw verdiepingsgebied en gebouw verdiepingsvolume zijn voorzien door IfcElementQuantity, en de classificatie van de gebouw verdieping, volgens nationale bouwcode door IfcClassificationReferentie."
@@ -613,7 +613,7 @@ msgid "LoadBearingCapacity_DEFINITION"
 msgstr "Maximale draagcapaciteit van de vloer door de verdieping zoals ontworpen is."
 
 msgid "Qto_BuildingStoreyBaseQuantities"
-msgstr "Hoeveelheid Set: Bouw Storey basisaantallen"
+msgstr "Hoeveelheden set: Bouw Storey basis hoeveelheden"
 
 msgid "Qto_BuildingStoreyBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het bouwen van de opslagplaats."
@@ -778,7 +778,7 @@ msgid "IfcElementAssembly_DEFINITION"
 msgstr "De [[IfcElementAssembly]] staat voor complexe elementen samengevoegd uit verschillende elementen, zoals discrete elementen, bouwelementen, of andere elementen."
 
 msgid "Pset_ElementAssemblyCommon"
-msgstr "Eigenschapsset: Element Assembly Gemeenschappelijk"
+msgstr "Eigenschappen set: Samengesteld element generiek"
 
 msgid "Pset_ElementAssemblyCommon_DEFINITION"
 msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van element assemblage."
@@ -856,7 +856,7 @@ msgid "IfcImpactProtectionDevice_DEFINITION"
 msgstr "Een impact beveiligingsapparaat is een onderdeel dat wordt gebruikt om andere gebouwde elementen te beschermen tegen kinetische schade."
 
 msgid "Qto_ImpactProtectionDeviceBaseQuantities"
-msgstr "Hoeveelheid Set: Impact Bescherming Apparaat Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Impact Bescherming Apparaat basis hoeveelheden"
 
 msgid "Qto_ImpactProtectionDeviceBaseQuantities_DEFINITION"
 msgstr "Hoeveelheid instellen Impact Bescherming Apparaat Basis."
@@ -880,7 +880,7 @@ msgid "IfcOpeningElement_DEFINITION"
 msgstr "Het openingselement staat voor opening, recess of achteruitgang. Het vertegenwoordigt een leegte binnen elk element met fysieke uitstraling. Openingen kunnen worden ingevoegd in muren, slaven, stralen, kolommen, of andere elementen."
 
 msgid "Pset_OpeningElementCommon"
-msgstr "Eigenschapsset: Openingselement gemeenschappelijk"
+msgstr "Eigenschappen set: Openings element generiek"
 
 msgid "Pset_OpeningElementCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcOpeningElement]]."
@@ -892,7 +892,7 @@ msgid "AcousticRating_DEFINITION"
 msgstr "Akoestische beoordeling voor dit object; het wordt verstrekt volgens de nationale bouwcode. Het geeft de geluidstransmissie weerstand van dit object aan door een index ratio (in plaats van volledige geluidsabsorptie waarden)."
 
 msgid "Qto_OpeningElementBaseQuantities"
-msgstr "Hoeveelheid Set: Openings element basishoeveelheden"
+msgstr "Hoeveelheden set: Openings element basis hoeveelheden"
 
 msgid "Qto_OpeningElementBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van openingselementen."
@@ -922,7 +922,7 @@ msgid "IfcProjectionElement_DEFINITION"
 msgstr "Het projectie-element is een specialisatie van het algemene feature element om projecties weer te geven die worden toegepast op bouwelementen. Het is een solide gehechtheid aan elk element dat fysieke uitingen bevat."
 
 msgid "Qto_ProjectionElementBaseQuantities"
-msgstr "Aantal instellingen: Projectie Element Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Projectie element basis hoeveelheden"
 
 msgid "Qto_ProjectionElementBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van projectieelementen."
@@ -934,7 +934,7 @@ msgid "IfcReferent_DEFINITION"
 msgstr "[[IfcReferent]] definieert een positie op een bepaalde offset langs een uitlijningscurve."
 
 msgid "Pset_ReferentCommon"
-msgstr "Eigenschapsset: Verwijzend gemeenschappelijk"
+msgstr "Eigenschappen set: Referentie generiek"
 
 msgid "Pset_ReferentCommon_DEFINITION"
 msgstr "Specificeert algemene eigenschappen van [[IfcReferent]]"
@@ -1012,7 +1012,7 @@ msgid "LandTitleID_DEFINITION"
 msgstr "[[Identification]] nummer toegewezen door de wettelijke registratieautoriteit aan de titel van een landpakket."
 
 msgid "Pset_SiteCommon"
-msgstr "Eigenschapsset: Gemeenschappelijke site"
+msgstr "Eigenschappen set: Terrein generiek"
 
 msgid "Pset_SiteCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcSite]]. Houd er rekening mee dat verschillende site-attributen direct worden afgehandeld in de [[IfcSite]], het sitenummer (of korte naam) door [[IfcSite]].[Name]], de naam (of lange naam) van [[IfcSite]].[[LongName]], en de beschrijving (of commentaar) door [[IfcSite]].[Description]]. Het land titelnummer wordt ook als expliciet kenmerk [[IfcSite]].LandTitleNumber. Werkelijke site-hoeveelheden, zoals site perimeter, site area en sitevolume worden verstrekt door IfcElementQuantity, en site classificatie volgens nationale bouwcode door IfcClassificationReference. De globale plaatsing van de locatie in termen van Northing and Easting and height boven de zeespiegel wordt gegeven door [[IfcSite]]. efLongitude, [[IfcSite]].RefLatitude, [[IfcSite]].[[RefElevation]] en het postadres van [[IfcSite]].SiteAddress."
@@ -1048,7 +1048,7 @@ msgid "TotalArea_DEFINITION"
 msgstr "Totaal gepland gebied voor de site. Gebruikt voor het programmeren van de site ruimte."
 
 msgid "Qto_SiteBaseQuantities"
-msgstr "Hoeveelheid set: Site basisaantallen"
+msgstr "Hoeveelheden set: Terrein basis hoeveelheden"
 
 msgid "Qto_SiteBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle exemplaren van de site."
@@ -1066,7 +1066,7 @@ msgid "IfcSpace_DEFINITION"
 msgstr "Een ruimte vertegenwoordigt een gebied of volume dat feitelijk of theoretisch beperkt is. Ruimtes zijn gebieden of volumes die bepaalde functies binnen een gebouw bieden."
 
 msgid "Qto_SpaceBaseQuantities"
-msgstr "Hoeveelheden Set: Ruimte basishoeveelheden"
+msgstr "Hoeveelheden set: Ruimte basis hoeveelheden"
 
 msgid "Qto_SpaceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ruimten."
@@ -1138,13 +1138,13 @@ msgid "IfcSpatialZone_DEFINITION"
 msgstr "Een ruimtelijke zone is een niet-hiërarchische en mogelijk overlappende decompositie van het project onder een bepaalde functionele overweging. Een ruimtelijke zone kan worden gebruikt om een thermische zone, een constructiezone, een verlichtingszone, een bruikbare zone weer te geven. Een ruimtelijke zone kan een onafhankelijke plaatsing en vormrepresentatie hebben."
 
 msgid "Pset_SpatialZoneCommon"
-msgstr "Eigenschappen Set: Ruimtelijke Zone Generiek"
+msgstr "Eigenschappen set: Ruimtelijke Zone generiek"
 
 msgid "Pset_SpatialZoneCommon_DEFINITION"
 msgstr "Generieke eigenschappen voor Ruimtelijke Zone."
 
 msgid "Qto_SpatialZoneBaseQuantities"
-msgstr "Hoeveelheden Set: Ruimtelijke Zone basishoeveelheden"
+msgstr "Hoeveelheden set: Ruimtelijke Zone basis hoeveelheden"
 
 msgid "Qto_SpatialZoneBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden set voor Ruimtelijke Zone."
@@ -1162,7 +1162,7 @@ msgid "IfcTransportationDevice_DEFINITION"
 msgstr "Abstract tussentype voor transportapparaten."
 
 msgid "Pset_TransportElementCommon"
-msgstr "Eigenschapsset: Transport element gemeenschappelijk"
+msgstr "Eigenschappen set: Transportelement generiek"
 
 msgid "Pset_TransportElementCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcTransportElement]] of IfcTransportElementType"
@@ -1210,7 +1210,7 @@ msgid "IfcZone_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ruimten."
 
 msgid "Pset_ZoneCommon"
-msgstr "Eigenschapsset: Zone Gemeenschappelijk"
+msgstr "Eigenschappen set: Ruimte basisaantallen generiek"
 
 msgid "Pset_ZoneCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcZone]]."

@@ -22,7 +22,7 @@ msgid "IfcKerb_DEFINITION"
 msgstr "Een grens van steen, beton of ander rigide materiaal gevormd aan de rand van de wagon of voetbal."
 
 msgid "Pset_KerbCommon"
-msgstr "Eigenschapsset: Kerb Gemeenschappelijk"
+msgstr "Eigenschappen set: Kerb generiek"
 
 msgid "Pset_KerbCommon_DEFINITION"
 msgstr "Eigenschappen van een kerb."
@@ -100,7 +100,7 @@ msgid "Radius_DEFINITION"
 msgstr "De straal van het object. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
 
 msgid "Qto_KerbBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kerb basishoeveelheid"
+msgstr "Hoeveelheden set: Kerb basis hoeveelheden"
 
 msgid "Qto_KerbBaseQuantities_DEFINITION"
 msgstr "Hoeveelheid ingesteld voor Kerb Basis."

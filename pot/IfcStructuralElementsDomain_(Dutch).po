@@ -40,7 +40,7 @@ msgid "IfcFooting_DEFINITION"
 msgstr "Een ondergrond is onderdeel van het fundament van een structuur die de lading verspreidt en doorstuurt naar de grond. Een basis wordt ook gekarakteriseerd als een ondiep fundament, waar de lasten worden overgebracht naar de grond aan de oppervlak."
 
 msgid "Pset_FootingCommon"
-msgstr "Eigenschapsset: Gemeenschappelijk Voedsel"
+msgstr "Eigenschappen set: Fundering generiek"
 
 msgid "Pset_FootingCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcFooting]]."
@@ -94,7 +94,7 @@ msgid "CrossingUpperBarPitch_DEFINITION"
 msgstr "De toonhoogte van de grensbalk."
 
 msgid "Qto_FootingBaseQuantities"
-msgstr "Hoeveelheid ingesteld: footing basishoeveelheid"
+msgstr "Hoeveelheden set: Fundering basis hoeveelheden"
 
 msgid "Qto_FootingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van voeten."
@@ -106,13 +106,13 @@ msgid "IfcPile_DEFINITION"
 msgstr "Een stapel is een slordig hout, beton of staal structureel element, gedroogd, gejeted, of anders ingesloten op de grond om een lading te ondersteunen. Een stapel is ook een diepe basis, waar de lasten worden overgebracht naar diepere ondergrondse lagen."
 
 msgid "Pset_PileCommon"
-msgstr "Eigenteigeningenset: Hoger Gemeenschappelijk"
+msgstr "Eigenschappen set: Paal generiek"
 
 msgid "Pset_PileCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcPile]]."
 
 msgid "Qto_PileBaseQuantities"
-msgstr "Hoeveelheid Set: Tegel basishoeveelheden"
+msgstr "Hoeveelheden set: Paal basis hoeveelheden"
 
 msgid "Qto_PileBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van stapels."
@@ -172,7 +172,7 @@ msgid "BendingShapeCode_DEFINITION"
 msgstr "Vorm code per standaard zoals ACI 315, ISO 3766, of een soortgelijke standaard. Vermoedelijk wordt er in het hele project een enkele norm gebruikt voor het definiëren van de barbuiging en wordt deze standaard genoemd van het [[IfcProject]object via de IfcDocumentReferentiefunctie."
 
 msgid "Qto_ReinforcingElementBaseQuantities"
-msgstr "Hoeveelheid set: Versterking Element Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Versterking element basis hoeveelheden"
 
 msgid "Qto_ReinforcingElementBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van versterking."
@@ -256,7 +256,7 @@ msgid "IfcSurfaceFeature_DEFINITION"
 msgstr "Een oppervlakte functie is een wijziging bij (aan of into) van het oppervlak van een element. Delen van het oppervlak van het hele oppervlak kunnen worden aangetast. Het volume en de massa van het element kunnen worden verhoogd, onveranderd blijven of worden verminderd door de oppervlaktekenmerk, afhankelijk van de productietechnologie. Een eventuele toename of vermindering van het volume is echter klein in vergelijking met het totale volume van het element."
 
 msgid "Qto_SurfaceFeatureBaseQuantities"
-msgstr "Aantal Set: Oppervlakte functie basisaantallen"
+msgstr "Hoeveelheden set: Oppervlakte functie basis hoeveelheden"
 
 msgid "Qto_SurfaceFeatureBaseQuantities_DEFINITION"
 msgstr "Basis hoeveelheden voor oppervlaktefuncties."

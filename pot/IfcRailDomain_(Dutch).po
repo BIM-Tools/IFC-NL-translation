@@ -22,7 +22,7 @@ msgid "IfcRail_DEFINITION"
 msgstr "Een spoor is een overwegend lineair gebouwd element met een speciaal sectieprofiel. Het spoor is onderscheidend van de bouwstenen met vergelijkbare geometrische vormen (bijv. . - Laak, leed) De belangrijkste taak van het centrum is het sturen van voertuigen of andere machines."
 
 msgid "Qto_RailBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Spoor basishoeveelheid"
+msgstr "Hoeveelheden set: Spoor basis hoeveelheden"
 
 msgid "Qto_RailBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het spoor."

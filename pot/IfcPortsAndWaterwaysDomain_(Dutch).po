@@ -58,7 +58,7 @@ msgid "Berths_DEFINITION"
 msgstr "Aantal standaard liggenden binnen de faciliteit"
 
 msgid "Qto_MarineFacilityBaseQuantities"
-msgstr "Hoeveelheid Set: Marine Faciliteit Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Mariene faciliteit basis hoeveelheden"
 
 msgid "Qto_MarineFacilityBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van [[IfcMarineFacility]]."
@@ -1147,7 +1147,7 @@ msgid "IfcMooringDevice_DEFINITION"
 msgstr "Een aanmeren apparaat is een actief of passief bouwend element dat de primaire functie is om deel te nemen aan de afvaart van een boot, dit kan in de vorm van een vette gebruikt worden als bijlage punt voor lijnen of actieve apparatuur zoals snelle releasehaken."
 
 msgid "Pset_MooringDeviceCommon"
-msgstr "Eigenschap Set: Mooring Device Common"
+msgstr "Eigenschappen set: Betoverend apparaat generiek"
 
 msgid "Pset_MooringDeviceCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMooringDevice]] en IfcMooringDeviceType."

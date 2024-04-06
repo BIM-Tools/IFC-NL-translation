@@ -88,7 +88,7 @@ msgid "MediaSource_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
 
 msgid "Qto_AudioVisualApplianceBaseQuantities"
-msgstr "Hoeveelheid set: AudioVisuele Toepassing Basishoeveelheden"
+msgstr "Hoeveelheden set: Audio-visumapparaat basis hoeveelheden"
 
 msgid "Qto_AudioVisualApplianceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle exemplaren van audiovisueel apparaat."
@@ -145,7 +145,7 @@ msgid "Pset_CableCarrierFittingTypeCommon_DEFINITION"
 msgstr "Veelvoorkomende eigenschappen voor de compatibiliteit van de kabeldrager."
 
 msgid "Qto_CableCarrierFittingBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kabel vervoerder Passende basishoeveelheden"
+msgstr "Hoeveelheden set: Kabeldrager koppelstuk basis hoeveelheden"
 
 msgid "Qto_CableCarrierFittingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van kabeltransporteur."
@@ -163,7 +163,7 @@ msgid "Pset_CableCarrierSegmentTypeCommon_DEFINITION"
 msgstr "Veelvoorkomende eigenschappen voor kabeltransporteur-segmenten."
 
 msgid "Qto_CableCarrierSegmentBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kabel vervoerderssegment basisaantallen"
+msgstr "Hoeveelheden set: Kabeldrager segment basis hoeveelheden"
 
 msgid "Qto_CableCarrierSegmentBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het segment van kabelvervoerder."
@@ -211,7 +211,7 @@ msgid "Pset_CableFittingTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor kabelconstructies."
 
 msgid "Qto_CableFittingBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kabel aansluiting basishoeveelheden"
+msgstr "Hoeveelheden set: Kabel koppelstuk basis hoeveelheden"
 
 msgid "Qto_CableFittingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van een stroomkabel passend zijn."
@@ -439,7 +439,7 @@ msgid "Pset_CableSegmentTypeCommon_DEFINITION"
 msgstr "Eigenschappen voor de definities van elektriciteitskabelsegmenten."
 
 msgid "Qto_CableSegmentBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kabel Segment Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Kabel basis hoeveelheden"
 
 msgid "Qto_CableSegmentBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het kabelsegment."
@@ -535,7 +535,7 @@ msgid "Pset_CommunicationsApplianceTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor communicatie-apparaten."
 
 msgid "Qto_CommunicationsApplianceBaseQuantities"
-msgstr "Aantallen set: Toedieningsapparatuur apparatuur hoeveelheden"
+msgstr "Hoeveelheden set: Toestel voor communicatie basis hoeveelheden"
 
 msgid "Qto_CommunicationsApplianceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van communicatieapparaat."
@@ -565,7 +565,7 @@ msgid "Pset_ElectricApplianceTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor elektrische apparaten."
 
 msgid "Qto_ElectricApplianceBaseQuantities"
-msgstr "Hoeveelheidsset: Elektrische apparatenbasishoeveelheden"
+msgstr "Hoeveelheden set: Elektrische apparaat basis hoeveelheden"
 
 msgid "Qto_ElectricApplianceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van elektrische apparaten."
@@ -724,7 +724,7 @@ msgid "ShortCircuit3PolePowerFactorMaximumState_DEFINITION"
 msgstr "[[Power]] factor van de maximale 3 pool short circuit stroom geboden bij de plaats van toevoer."
 
 msgid "Qto_ElectricFlowStorageDeviceBaseQuantities"
-msgstr "Hoeveelheid Set: Elektrische storing apparaat basishoeveelheid"
+msgstr "Hoeveelheden set: Elektrische flow opslagapparaat basis hoeveelheden"
 
 msgid "Qto_ElectricFlowStorageDeviceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle exemplaren van elektrische stroom opslagapparaat."
@@ -766,7 +766,7 @@ msgid "StartCurrentFactor_DEFINITION"
 msgstr "IEC. Start huidige factor definieert hoe groot de piek die begint op de motor zal worden. [[StartCurrentFactor]] wordt vermenigvuldigd tot [[NominalCurrent]] en om de start stroom te geven."
 
 msgid "Qto_ElectricGeneratorBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Elektrische generator basishoeveelheid"
+msgstr "Hoeveelheden set: Elektrische Generator basis hoeveelheden"
 
 msgid "Qto_ElectricGeneratorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de elektrische generator."
@@ -853,7 +853,7 @@ msgid "TeTime_DEFINITION"
 msgstr "De maximale tijd (in s) waarop de motor kan werken met vergrendelde rotor wanneer de motor wordt gebruikt in een EX-omgeving. De tijd geeft aan dat een beschermend apparaat voor deze tijd moet rijden wanneer de startstroom van de motor door het apparaat stroomt."
 
 msgid "Qto_ElectricMotorBaseQuantities"
-msgstr "Hoeveelheid Set: Elektrische motorbasishoeveelheid"
+msgstr "Hoeveelheden set: Elektrische Motor basis hoeveelheden"
 
 msgid "Qto_ElectricMotorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van elektrische motor."
@@ -871,7 +871,7 @@ msgid "Pset_ElectricTimeControlTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor elektrische tijdregelapparaten."
 
 msgid "Qto_ElectricTimeControlBaseQuantities"
-msgstr "Hoeveelheid Set: Elektrische tijdcontrole basishoeveelheid"
+msgstr "Hoeveelheden set: Elektrische tijdcontrole basis hoeveelheden"
 
 msgid "Qto_ElectricTimeControlBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van elektrische tijdcontrole."
@@ -979,7 +979,7 @@ msgid "ShapeType_UNSET"
 msgstr "Uitzetten"
 
 msgid "Qto_JunctionBoxBaseQuantities"
-msgstr "Aantal Set: Junction Box Base Hoeveelheden"
+msgstr "Hoeveelheden set: Junction Box basis hoeveelheden"
 
 msgid "Qto_JunctionBoxBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van junction box."
@@ -1102,7 +1102,7 @@ msgid "Spectrum_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
 
 msgid "Qto_LampBaseQuantities"
-msgstr "Hoeveelheid set: Lamp basishoeveelheid"
+msgstr "Hoeveelheden set: Lamp basis hoeveelheden"
 
 msgid "Qto_LampBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van de lamp."
@@ -1225,7 +1225,7 @@ msgid "TotalWattage_DEFINITION"
 msgstr "Aan het hele lichtfitingapparaat hangen met alle bronnen intact."
 
 msgid "Qto_LightFixtureBaseQuantities"
-msgstr "Hoeveelheid Set: Lichte Fixture Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Lichte Fixture basis hoeveelheden"
 
 msgid "Qto_LightFixtureBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van lichte fixatie."
@@ -1255,7 +1255,7 @@ msgid "Pset_MotorConnectionTypeCommon_DEFINITION"
 msgstr "Veelvoorkomende eigenschappen voor motorverbindingen."
 
 msgid "Qto_MotorConnectionBaseQuantities"
-msgstr "Hoeveelheid set: Motor verbinding basishoeveelheden"
+msgstr "Hoeveelheden set: Motor verbinding basis hoeveelheden"
 
 msgid "Qto_MotorConnectionBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van motorverbinding."
@@ -1285,7 +1285,7 @@ msgid "NumberOfSockets_DEFINITION"
 msgstr "Het aantal sockets dat verbonden kan zijn. In geval van inconsistentie hebben sockets die gedefinieerd zijn in havens voorrang gekregen."
 
 msgid "Qto_OutletBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Uitlaat basishoeveelheden"
+msgstr "Hoeveelheden set: Contactdoos basis hoeveelheden"
 
 msgid "Qto_OutletBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van de outlet."
@@ -1585,7 +1585,7 @@ msgid "Pset_ProtectiveDeviceTypeCommon_DEFINITION"
 msgstr "Eigenschappen die worden toegepast op een definitie van een beschermend apparaat."
 
 msgid "Qto_ProtectiveDeviceBaseQuantities"
-msgstr "Aantal Set: Beschermende apparaat basishoeveelheden"
+msgstr "Hoeveelheden set: Beschermend apparaat basis hoeveelheden"
 
 msgid "Qto_ProtectiveDeviceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van beschermende toestellen."
@@ -1603,7 +1603,7 @@ msgid "Pset_SolarDeviceTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor type zonne-apparaten."
 
 msgid "Qto_SolarDeviceBaseQuantities"
-msgstr "Hoeveelheid Set: Zonneapparaat basishoeveelheden"
+msgstr "Hoeveelheden set: Zonne-energie apparaat basis hoeveelheden"
 
 msgid "Qto_SolarDeviceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van zonne-koolwaterstoffen."
@@ -1684,7 +1684,7 @@ msgid "SetPointHistory_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
 
 msgid "Qto_SwitchingDeviceBaseQuantities"
-msgstr "Hoeveelheid Set: Schakelen apparaat basishoeveelheden"
+msgstr "Hoeveelheden set: Schakelen van apparaat basis hoeveelheden"
 
 msgid "Qto_SwitchingDeviceBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van het wisselen van apparaat."
@@ -1855,7 +1855,7 @@ msgid "TransformerVectorGroup_YZ5"
 msgstr "Yz5"
 
 msgid "Qto_TransformerBaseQuantities"
-msgstr "Hoeveelheid set: Transformer basishoeveelheid"
+msgstr "Hoeveelheden set: Transformator basis hoeveelheden"
 
 msgid "Qto_TransformerBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van transformatie."

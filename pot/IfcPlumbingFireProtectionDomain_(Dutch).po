@@ -28,7 +28,7 @@ msgid "Pset_FireSuppressionTerminalTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor brandbestrijdingsterminal."
 
 msgid "Qto_FireSuppressionTerminalBaseQuantities"
-msgstr "Hoeveelheid set: Brandbestrijdingsterminal basishoeveelheden"
+msgstr "Hoeveelheden set: Brandblusser basis hoeveelheden"
 
 msgid "Qto_FireSuppressionTerminalBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die generiek zijn met de definitie van alle voorvallen van brandbestrijding terminal."
@@ -94,7 +94,7 @@ msgid "VentilatingPipeSize_DEFINITION"
 msgstr "[[Size]] van de ventilerende buis(en)."
 
 msgid "Qto_InterceptorBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Interceptor basishoeveelheid"
+msgstr "Hoeveelheden set: Interceptor basis hoeveelheden"
 
 msgid "Qto_InterceptorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van onderschepper."
@@ -112,7 +112,7 @@ msgid "Pset_SanitaryTerminalTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor sanitaire terminals."
 
 msgid "Qto_SanitaryTerminalBaseQuantities"
-msgstr "Aantallen instellen: Sanitaire Terminal basishoeveelheden"
+msgstr "Hoeveelheden set: Sanitair basis hoeveelheden"
 
 msgid "Qto_SanitaryTerminalBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van sanitaire terminal."
@@ -130,7 +130,7 @@ msgid "Pset_StackTerminalTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor stapelaansluitingen."
 
 msgid "Qto_StackTerminalBaseQuantities"
-msgstr "Aantal Set: Stack Terminal Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Stack Terminal basis hoeveelheden"
 
 msgid "Qto_StackTerminalBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle gebeurtenissen van de stapelterminal."
@@ -148,7 +148,7 @@ msgid "Pset_WasteTerminalTypeCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor afvalterminals."
 
 msgid "Qto_WasteTerminalBaseQuantities"
-msgstr "Hoeveelheid Set: Afval Terminal basishoeveelheden"
+msgstr "Hoeveelheden set: Terminal verspilling basis hoeveelheden"
 
 msgid "Qto_WasteTerminalBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van afvalterminal."

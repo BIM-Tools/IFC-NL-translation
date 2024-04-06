@@ -22,7 +22,7 @@ msgid "IfcBeam_DEFINITION"
 msgstr "Een [[IfcBeam]] is doorgaans een horizontaal of bijna horizontaal constructie onderdeel dat in staat is om belasting te weerstaan, voornamelijk doorbuiging. LoadBearing [true]. Vanuit architectonisch oogpunt bekeken behoeft het onderdeel niet te worden belast. LoadBearing [false]."
 
 msgid "Pset_BeamCommon"
-msgstr "Eigenschappen Set: Ligger Generiek"
+msgstr "Eigenschappen set: Ligger generiek"
 
 msgid "Pset_BeamCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen en type objecten van ligger."
@@ -58,7 +58,7 @@ msgid "ThermalTransmittance_DEFINITION"
 msgstr "Warmtedoorgangscoëfficiënt (U-[[Value]]) van een element, in de richting van de thermische geleiding (inclusief alle materialen binnen het element)."
 
 msgid "Qto_BeamBaseQuantities"
-msgstr "Hoeveelheden Set: Ligger basishoeveelheden"
+msgstr "Hoeveelheden set: Ligger basis hoeveelheden"
 
 msgid "Qto_BeamBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomende liggers."
@@ -340,7 +340,7 @@ msgid "IfcBearing_DEFINITION"
 msgstr "[[Type]] bouwelement dat meestal wordt gebruikt voor het verzenden van lasten van superstructuur naar substructuur. en meestal staat u beweging (verdrijving of rotatie) toe in één of meer graden van vrijheid. Het is meestal een mechanische component die als geheel is aangeleverd en op de locatie is geïnstalleerd. maar in eenvoudige gevallen kan het op de site worden gebouwd (bestaande uit andere gebouwen, element componenten, enz.)."
 
 msgid "Pset_BearingCommon"
-msgstr "Eigenschapsset: Richting Gemeenschappelijk"
+msgstr "Eigenschappen set: Dragend generiek"
 
 msgid "Pset_BearingCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen van [[IfcBearing]]."
@@ -364,13 +364,13 @@ msgid "IfcBuildingElementProxy_DEFINITION"
 msgstr "De [[IfcBuildingElementProxy]] is een proxydefinitie die dezelfde functionaliteit biedt als subtypes van [[IfcBuiltElement]], zonder een vooraf gedefinieerde betekenis te hebben voor het speciale type gebouw dat het vertegenwoordigt."
 
 msgid "Pset_BuildingElementProxyCommon"
-msgstr "Eigenschap set: Gebouw element Proxy"
+msgstr "Eigenschappen set: Generiek gebouwelement generiek"
 
 msgid "Pset_BuildingElementProxyCommon_DEFINITION"
 msgstr "Veelvoorkomende eigenschappen voor ingebouwde elementen die geen specifieke entiteitnaam hebben."
 
 msgid "Qto_BuildingElementProxyQuantities"
-msgstr "Hoeveelheid set: Inbouw element Proxy hoeveelheid"
+msgstr "Hoeveelheden set: Generiek gebouwelement hoeveelheden"
 
 msgid "Qto_BuildingElementProxyQuantities_DEFINITION"
 msgstr "Hoeveelheid ingesteld voor Gebouw element Proxie."
@@ -382,7 +382,7 @@ msgid "IfcChimney_DEFINITION"
 msgstr "Chimneys zijn doorgaans verticaal, of zelfs dicht bij verticaal, delen van het gebouw en een deel van de bouwstof. Vaak gemaakt door beton vooraf of insitu, tegenwoordig zelden door bakstenen. Chimneys worden gebruikt om vloeistoffen te evacueren van bijvoorbeeld ketels of brandplekken."
 
 msgid "Pset_ChimneyCommon"
-msgstr "Eigenschapsset: Schoorsteen Gemeenschappelijk"
+msgstr "Eigenschappen set: Schoorsteen generiek"
 
 msgid "Pset_ChimneyCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen en type objecten van schoorvoeten."
@@ -394,7 +394,7 @@ msgid "NumberOfDrafts_DEFINITION"
 msgstr "Aantal schoorteksten, voortdurende gaten in de schoorsteen waar de lucht doorheen gaat, binnen de schoorsteen."
 
 msgid "Qto_ChimneyBaseQuantities"
-msgstr "Hoeveelheid Set: Chimney Base Hoeveelheid"
+msgstr "Hoeveelheden set: Schoorsteen basis hoeveelheden"
 
 msgid "Qto_ChimneyBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van schoorvoeten."
@@ -406,13 +406,13 @@ msgid "IfcColumn_DEFINITION"
 msgstr "Een [[IfcColumn]] is een verticaal structureel of architectonisch lid dat vaak is afgestemd op een structurele raster kruising. In de meeste gevallen vertegenwoordigt het een verticaal, of bijna verticaal, structureel lid dat zendt, door compressie, het gewicht van de structuur boven op andere structurele elementen hieronder. Het kan ook een dergelijk lid vertegenwoordigen vanuit architectonisch oogpunt en in dat geval kan het een element van niet te belasten zijn. Of het een structureel draagpuntelement is of een niet laaddragend element wordt bepaald door de [[Pset_ColumnCommon]].[[LoadBearing]] eigenschappen."
 
 msgid "Pset_ColumnCommon"
-msgstr "Eigenschappenset: Kolom Generiek"
+msgstr "Eigenschappen set: Kolom generiek"
 
 msgid "Pset_ColumnCommon_DEFINITION"
 msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van kolom."
 
 msgid "Qto_ColumnBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Kolombasishoeveelheden"
+msgstr "Hoeveelheden set: Kolom basis hoeveelheden"
 
 msgid "Qto_ColumnBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomende kolommen."
@@ -481,7 +481,7 @@ msgid "IfcCovering_DEFINITION"
 msgstr "Een deksel is een onderdeel van een ander element en is volledig afhankelijk van dat andere element. De [[IfcCovering]] definieert de aanwezigheid van een dekkingstype, die (indien gegeven) is uitgedrukt door het IfcCoveringType."
 
 msgid "Pset_CoveringCommon"
-msgstr "Eigenschappen Set: Afdekking Gemeenschappelijk"
+msgstr "Eigenschappen set: Gevelstucwerk generiek"
 
 msgid "Pset_CoveringCommon_DEFINITION"
 msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van dekking"
@@ -541,7 +541,7 @@ msgid "TileWidth_DEFINITION"
 msgstr "[[Width]] van plafondtegels. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
 
 msgid "Qto_CoveringBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Omslag basishoeveelheden"
+msgstr "Hoeveelheden set: Gevelstucwerk basis hoeveelheden"
 
 msgid "Qto_CoveringBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van bedekkingen toegepast op ruimten."
@@ -559,13 +559,13 @@ msgid "IfcCurtainWall_DEFINITION"
 msgstr "Een gordijn is een muur van een gebouw dat een assemblee van componenten is, hing aan de rand van de vloer/dakstructuur in plaats van op de vloer. Gordijnmuur is aangeduid als een bouwelement assemblage en geïmplementeerd als een subtype van [[IfcBuiltElement]] dat een IfcRelAggregates relatie gebruikt. Een gordijnmuur is vaak extern, maar het gebruik van [[Pset_CurtainWallCommon]].[[IsExternal]] kan worden gebruikt om de muur van het binnenste gordijn te definiëren."
 
 msgid "Pset_CurtainWallCommon"
-msgstr "Eigenschappen Set: Vliesgevel Gemeenschappelijk"
+msgstr "Eigenschappen set: Vliesgevel  generiek"
 
 msgid "Pset_CurtainWallCommon_DEFINITION"
 msgstr "Eigenschappen die generiek zijn voor de definitie van alle voorvallen van [[IfcCurtainWall]]."
 
 msgid "Qto_CurtainWallQuantities"
-msgstr "Aantal set: Gordijn Muur Hoeveelheid"
+msgstr "Hoeveelheden set: Vliesgevel  hoeveelheden"
 
 msgid "Qto_CurtainWallQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van gordijnmuren."
@@ -778,7 +778,7 @@ msgid "OperationType_UNSET"
 msgstr "Uitzetten"
 
 msgid "Pset_DoorCommon"
-msgstr "Eigenschappen Set: Deur Gemeenschappelijk"
+msgstr "Eigenschappen set: Garagedeur generiek"
 
 msgid "Pset_DoorCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van voorkomende gevallen van [[IfcDoor]]."
@@ -964,7 +964,7 @@ msgid "VisibleLightTransmittance_DEFINITION"
 msgstr "Breuk van het zichtbare licht dat het object passeert bij normale incidentie. Het is een waarde zonder eenheid."
 
 msgid "Qto_DoorBaseQuantities"
-msgstr "Hoeveelheid Set: deur basishoeveelheid"
+msgstr "Hoeveelheden set: Garagedeur basis hoeveelheden"
 
 msgid "Qto_DoorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van deuren."
@@ -1036,13 +1036,13 @@ msgid "SecondTransomOffset_DEFINITION"
 msgstr "Offset van het transom centerline voor de tweede tranem, gemeten langs de x-as van het raamplaatsing coördinatiesysteem. Een offset waarde = 0,666 geeft aan dat de tweede transactie op twee/derde van het venster is geplaatst."
 
 msgid "Pset_MemberCommon"
-msgstr "Eigenschapsset: Lid Gemeenschappelijk"
+msgstr "Eigenschappen set: Lid generiek"
 
 msgid "Pset_MemberCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMember]]."
 
 msgid "Qto_MemberBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Lid basishoeveelheid"
+msgstr "Hoeveelheden set: Lid basis hoeveelheden"
 
 msgid "Qto_MemberBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomens van leden."
@@ -1060,13 +1060,13 @@ msgid "Pset_WindowPanelProperties_DEFINITION"
 msgstr "Eigenschappen van het vensterpaneel."
 
 msgid "Pset_PlateCommon"
-msgstr "Eigenschapsset: Plaat Gemeenschappelijk"
+msgstr "Eigenschappen set: Plaat generiek"
 
 msgid "Pset_PlateCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcPlate]]."
 
 msgid "Qto_PlateBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Plaat basishoeveelheid"
+msgstr "Hoeveelheden set: Plaat basis hoeveelheden"
 
 msgid "Qto_PlateBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van platen."
@@ -1078,7 +1078,7 @@ msgid "IfcRailing_DEFINITION"
 msgstr "De railing is een montagekader naast mensen of het verkeer van voertuigen en langs bepaalde ruimten waar het wordt gebruikt in de ruiten of in aanvulling op muren. Ontworpen als optionele fysieke ondersteuning, of om letsel of schade te voorkomen, door te vallen of te botsen."
 
 msgid "Pset_RailingCommon"
-msgstr "Eigenschapsset: Railing Gemeenschappelijk"
+msgstr "Eigenschappen set: Reling generiek"
 
 msgid "Pset_RailingCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRailing]]."
@@ -1090,7 +1090,7 @@ msgid "Diameter_DEFINITION"
 msgstr "De [[Diameter]] van het object."
 
 msgid "Qto_RailingBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Railing basishoeveelheden"
+msgstr "Hoeveelheden set: Reling basis hoeveelheden"
 
 msgid "Qto_RailingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van rails."
@@ -1102,7 +1102,7 @@ msgid "IfcRamp_DEFINITION"
 msgstr "Een helling is een verticale doorgang die zorgt voor een band tussen het verkeer van mensen of voertuigen tussen de vloer en een ander vloerniveau op een andere hoogte. Het kan een landing zijn als een tussenvloerslaap. Een helling bevat normaal gesproken geen stappen."
 
 msgid "Pset_RampCommon"
-msgstr "Eigenschapsset: Helling gemeenschappelijk"
+msgstr "Eigenschappen set: Hellingbaan generiek"
 
 msgid "Pset_RampCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRamp]]."
@@ -1132,7 +1132,7 @@ msgid "IfcRampFlight_DEFINITION"
 msgstr "Een helling bestaat uit één bepaald segment, of meerdere uitgesproken segmenten die verbonden zijn door een horizontaal segment, aangeduid als een landing. Een platformvlucht is het enkele schuine segment en deel van de platformconstructie. In het geval van enkele vluchtbruggen, zijn de platformvlucht en de helling identiek."
 
 msgid "Pset_RampFlightCommon"
-msgstr "Eigenschapsset: Heldervacht voorkomende"
+msgstr "Eigenschappen set: Hellingbaansegment generiek"
 
 msgid "Pset_RampFlightCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRampFlight]]."
@@ -1156,7 +1156,7 @@ msgid "Headroom_DEFINITION"
 msgstr "Werkelijke opruiming van de voorpagina volgens het huidige ontwerp. De informatie over de vorm wordt verstrekt naast de vorm van vertegenwoordiging en de meetparameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen in het aangesloten eigendom, hebben de geometrische parameters voorrang."
 
 msgid "Qto_RampFlightBaseQuantities"
-msgstr "Hoeveelheid instellen: Help-verlichting basishoeveelheden"
+msgstr "Hoeveelheden set: Hellingbaansegment basis hoeveelheden"
 
 msgid "Qto_RampFlightBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomens van platformvluchten."
@@ -1168,13 +1168,13 @@ msgid "IfcRoof_DEFINITION"
 msgstr "Een dak is het bedekken van het bovenste deel van een gebouw, het beschermt het gebouw tegen de gevolgen van het weer."
 
 msgid "Pset_RoofCommon"
-msgstr "Eigenschapsset: Gemeenschappelijk dak"
+msgstr "Eigenschappen set: Dak generiek"
 
 msgid "Pset_RoofCommon_DEFINITION"
 msgstr "Eigenschappen die gemeen zijn met de definitie van alle voorvallen van [[IfcRoof]].Eigenschappen van [[ProjectedArea]] en [[TotalArea]] toegevoegd aan IFC 2x3"
 
 msgid "Qto_RoofBaseQuantities"
-msgstr "Hoeveelheid Set: Daagse Basis Hoeveelheid"
+msgstr "Hoeveelheden set: Dak basis hoeveelheden"
 
 msgid "Qto_RoofBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van dak."
@@ -1216,7 +1216,7 @@ msgid "TiltAngle_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
 
 msgid "Pset_ShadingDeviceCommon"
-msgstr "Eigenschap ingesteld: Shading Device Common"
+msgstr "Eigenschappen set: Zonwering generiek"
 
 msgid "Pset_ShadingDeviceCommon_DEFINITION"
 msgstr "Apparaateigenschappen die zijn verbonden met een element dat een schaduw apparaat vertegenwoordigt"
@@ -1273,7 +1273,7 @@ msgid "IfcSlab_DEFINITION"
 msgstr "Een plaat is een onderdeel van de constructie die een ruimte verticaal kan omslaan. De plaat kan in elke ruimte in een gebouw de onderste ondersteuning (verdieping) of bovenste constructie (dak sla) bieden."
 
 msgid "Pset_SlabCommon"
-msgstr "Eigenschappen: Standaard plaat"
+msgstr "Eigenschappen set: Vloer generiek"
 
 msgid "Pset_SlabCommon_DEFINITION"
 msgstr "Eigenschappen die generiek zijn aan de definitie van alle voorvallen van [[IfcSlab]].Eigenschappen van [[PitchAngle]] toegevoegd aan IFC 2x3"
@@ -1291,7 +1291,7 @@ msgid "PitchAngle_DEFINITION"
 msgstr "Hoek van de plaat naar de horizontale wanneer gebruikt als onderdeel voor het dak (opgegeven als 0 graden of niet bevestigd voor gevallen waarin de plaat niet als dak onderdeel wordt gebruikt). Hij geeft informatie naast de vorm van vertegenwoordiging en de geometrische parameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen in het aangesloten eigendom, hebben de geometrische parameters voorrang. Voor geometrie bewerkingsapplicaties, moet deze waarde alleen schrijfbaar zijn."
 
 msgid "Qto_SlabBaseQuantities"
-msgstr "Hoeveelheid Set: Slab Basis Hoeveelheid"
+msgstr "Hoeveelheden set: Vloer basis hoeveelheden"
 
 msgid "Qto_SlabBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van slaven."
@@ -1429,7 +1429,7 @@ msgid "IfcStair_DEFINITION"
 msgstr "Een trap is een verticale doorgang waarlangs mensen van het ene vloerniveau naar een ander vloerniveau op een andere hoogte kunnen lopen (stappen). De trap kan een overloop bevatten als tussenvloer."
 
 msgid "Pset_StairCommon"
-msgstr "Eigenschap set: Trap gemeenschappelijk"
+msgstr "Eigenschappen set: Trap generiek"
 
 msgid "Pset_StairCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcStair]]."
@@ -1495,13 +1495,13 @@ msgid "IfcStairFlight_DEFINITION"
 msgstr "Een trappenvlucht is een assemblee van bouwonderdelen in een enkele 'run' van trapstappen (niet onderbroken door een landing). De traptreden en de stringers zijn opgenomen in de trapvlucht. Een winder wordt ook als onderdeel van een trapvlucht beschouwd."
 
 msgid "Pset_StairFlightCommon"
-msgstr "Eigenschap Set: Trap Vlucht algemeen"
+msgstr "Eigenschappen set: Looplijn generiek"
 
 msgid "Pset_StairFlightCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcStairFlight]]."
 
 msgid "Qto_StairFlightBaseQuantities"
-msgstr "Hoeveelheid Set: Trap Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Looplijn basis hoeveelheden"
 
 msgid "Qto_StairFlightBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van trapvluchten."
@@ -1519,7 +1519,7 @@ msgid "IfcWall_DEFINITION"
 msgstr "De wand vertegenwoordigt een verticale constructie die ruimtes kan begrenzen of onderverdelen. Wanden bestaan ​​meestal uit verticale of bijna verticale vlakke elementen, vaak ontworpen om structurele belastingen te dragen. Een muur hoeft echter niet dragend te zijn."
 
 msgid "Pset_WallCommon"
-msgstr "Eigenschapsset: Muur Gemeenschappelijk"
+msgstr "Eigenschappen set: Wand generiek"
 
 msgid "Pset_WallCommon_DEFINITION"
 msgstr "Eigenschappen die generiek zijn met de definitie van alle wanden van [[IfcWall]]."
@@ -1531,7 +1531,7 @@ msgid "ExtendToStructure_DEFINITION"
 msgstr "Geeft aan of het object uitstrekt naar de structuur boven (WAAR ) of niet (FALSE)."
 
 msgid "Qto_WallBaseQuantities"
-msgstr "Hoeveelheid Set: Wall Base Hoeveelheid"
+msgstr "Hoeveelheden set: Wand basis hoeveelheden"
 
 msgid "Qto_WallBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van muren."
@@ -1591,7 +1591,7 @@ msgid "IfcWindow_DEFINITION"
 msgstr "Het raam is een bouwonderdeel dat overwegend wordt gebruikt om natuurlijk licht en frisse lucht te bieden. Het gaat onder meer om verticale opening, maar ook om horizontale opening, zoals luchtlampen of lichtdomen. Het omvat constructies met swing-, draai-, slid- of draaiende panelen en vaste panelen. Een venster bestaat uit een voering en een of meerdere panelen."
 
 msgid "Pset_WindowCommon"
-msgstr "Eigenschap Set: Venster Gemeenschappelijk"
+msgstr "Eigenschappen set: Raam generiek"
 
 msgid "Pset_WindowCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van Window."
@@ -1609,7 +1609,7 @@ msgid "HasSillInternal_DEFINITION"
 msgstr "Indicatie of het openen van het venster een interne sill (WAAR ) heeft of niet (FALSE)."
 
 msgid "Qto_WindowBaseQuantities"
-msgstr "Hoeveelheid Set: Venster Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Raam basis hoeveelheden"
 
 msgid "Qto_WindowBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ramen."

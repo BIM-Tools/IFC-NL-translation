@@ -145,7 +145,7 @@ msgid "WWWHomePageURL_DEFINITION"
 msgstr "Het wereldwijde webadres waarop de voorlopige pagina van informatie voor de persoon of organisatie kan worden gevonden."
 
 msgid "Pset_ActorCommon"
-msgstr "Eigenschapsset: Actor Gemeenschappelijk"
+msgstr "Eigenschappen set: Acteur generiek"
 
 msgid "Pset_ActorCommon_DEFINITION"
 msgstr "Een vastgoedset dat verdere classificatie van actoren mogelijk maakt, waaronder de mogelijkheid om een aantal actoren aan te wijzen als bevolking. het nummer dat wordt opgegeven als een eigenschap die als een enkele waarde moet worden behandeld in plaats van een aantal exemplaren van [[IfcActor] ] samen te voegen."
@@ -229,7 +229,7 @@ msgid "IfcProject_DEFINITION"
 msgstr "[[IfcProject]] stelt de context vast om informatie uit te wisselen of te delen, en het kan een bouwproject zijn maar dat hoeft niet te gebeuren. Het belangrijkste doel van de [[IfcProject]] in een uitwisselingsstructuur is het bieden van de root instantie en de context voor alle andere informatie in de lijst."
 
 msgid "Pset_ProjectCommon"
-msgstr "Eigenschapsset: Project Gemeenschappelijk"
+msgstr "Eigenschappen set: Project generiek"
 
 msgid "Pset_ProjectCommon_DEFINITION"
 msgstr "Eigenschap ingesteld voor de toepassing van projectinformatie op hoog niveau."

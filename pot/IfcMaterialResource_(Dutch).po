@@ -52,7 +52,7 @@ msgid "SpecificHeatCapacity_DEFINITION"
 msgstr "Definieert de specifieke warmtecapaciteit van een materiaal."
 
 msgid "Pset_MaterialCommon"
-msgstr "Eigenschapsset: Materiaal gemeenschappelijke"
+msgstr "Eigenschappen set: Materiaal generiek"
 
 msgid "Pset_MaterialCommon_DEFINITION"
 msgstr "Een set algemene materiële eigenschappen."

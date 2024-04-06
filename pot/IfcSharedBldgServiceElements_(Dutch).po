@@ -22,13 +22,13 @@ msgid "IfcDistributionChamberElement_DEFINITION"
 msgstr "Een distributiekamer definieert een plaats waar distributiesystemen en hun bestanddelen gecontroleerd kunnen worden of waar ze doorheen kunnen reizen."
 
 msgid "Pset_DistributionChamberElementCommon"
-msgstr "Eigenschapsset: Gedeelde distributiekamer"
+msgstr "Eigenschappen set: Verdeelkamer element generiek"
 
 msgid "Pset_DistributionChamberElementCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen van alle voorvallen van [[IfcDistributionChamberElement]]."
 
 msgid "Qto_DistributionChamberElementBaseQuantities"
-msgstr "Hoeveelheid set: Distributie Kamer element basishoeveelheden"
+msgstr "Hoeveelheden set: Verdeelkamer element basis hoeveelheden"
 
 msgid "Qto_DistributionChamberElementBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van distributiekamerelementen."
@@ -58,7 +58,7 @@ msgid "IfcDistributionPort_DEFINITION"
 msgstr "Een distributiehaven is een inlaat of uitlaat van een product waar een bepaalde stof doorheen kan stromen."
 
 msgid "Pset_DistributionPortCommon"
-msgstr "Property Set: Distribution Port Common"
+msgstr "Eigenschappen set: Verdeelpunt generiek"
 
 msgid "Pset_DistributionPortCommon_DEFINITION"
 msgstr "Gemeenschappelijke attributen gekoppeld aan een instantie van [[IfcDistributionPort]]."

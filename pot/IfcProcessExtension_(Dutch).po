@@ -94,7 +94,7 @@ msgid "IfcWorkControl_DEFINITION"
 msgstr "Een [[IfcWorkControl]] is een abstract supertype dat informatie opneemt die zowel [[IfcWorkPlan]] als [[IfcWorkSchedule] ] gemeenschappelijk is."
 
 msgid "Pset_WorkControlCommon"
-msgstr "Eigenschap set: Work Control Common"
+msgstr "Eigenschappen set: Werk controle generiek"
 
 msgid "Pset_WorkControlCommon_DEFINITION"
 msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcWorkPlan]] en [[IfcWorkSchedule]] (subtypes van [[IfcWorkControl]])."

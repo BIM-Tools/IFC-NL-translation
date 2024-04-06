@@ -22,7 +22,7 @@ msgid "IfcBorehole_DEFINITION"
 msgstr "Vertegenwoordiging van het concept van een lineair geologisch en geotechnisch model, meestal een interpretatie, maar soms direct gebaseerd op doordringing van de bodem; De assemblage kan een van meer strata en andere elementen bevatten, zoals het aftappen en linken. De ingesloten subtypes van [[IfcGeotechnicalStratum]] zullen vorm representaties hebben gemaakt van rechte of gebogen buizen die de saaie diameter weerspiegelen. of schijft als een 'Yabuki'-topmodel wordt gebruikt."
 
 msgid "Pset_BoreholeCommon"
-msgstr "Eigenschapsset: Gewoon boorgat"
+msgstr "Eigenschappen set: Borehole generiek"
 
 msgid "Pset_BoreholeCommon_DEFINITION"
 msgstr "Eigenschappen die de functies van een boorgat beschrijven (indien niet apart gemodelleerd)."
@@ -112,7 +112,7 @@ msgid "LiningMaterial_DEFINITION"
 msgstr "Eend materiaal of 'NIET LINED' of '[[UNKNOWN]]' (boreholeML)."
 
 msgid "Pset_GeotechnicalAssemblyCommon"
-msgstr "Eigenschappen instellen: Gewone Geotechnische Assembly"
+msgstr "Eigenschappen set: Geotechnische Assembly generiek"
 
 msgid "Pset_GeotechnicalAssemblyCommon_DEFINITION"
 msgstr "Eigenschappen die de kenmerken van elk geotechnisch model beschrijven. Een [[Status]] van 'Nieuw' moet niet worden geassocieerd met een [[IfcGeotechnicalAssembly]] of [[IfcGeotechnicalStratum]], als andere entiteiten worden gebruikt voor aardwerken en cursussen."
@@ -214,13 +214,13 @@ msgid "WeatherConditions_DEFINITION"
 msgstr "Geeft de weersomstandigheden aan tijdens de toepassing van de cursus"
 
 msgid "Pset_CourseCommon"
-msgstr "Eigenschapsset: Cursus Gemeenschappelijk"
+msgstr "Eigenschappen set: Cursus generiek"
 
 msgid "Pset_CourseCommon_DEFINITION"
 msgstr "Gemeenschappelijke eigenschappen voor cursussen."
 
 msgid "Qto_CourseBaseQuantities"
-msgstr "Hoeveelheid Set: Cursus basishoeveelheden"
+msgstr "Hoeveelheden set: Cursus basis hoeveelheden"
 
 msgid "Qto_CourseBaseQuantities_DEFINITION"
 msgstr "Aantal ingesteld voor cursus base."
@@ -238,7 +238,7 @@ msgid "IfcEarthworksCut_DEFINITION"
 msgstr "Het gevolg is dat bestaande terrein- of wegenstructuur niet aangepast kan worden door opgraving of door andere middelen om materiaal te verwijderen."
 
 msgid "Qto_EarthworksCutBaseQuantities"
-msgstr "Aantal Set: Aardwerken Kut Basis Hoeveelheid"
+msgstr "Hoeveelheden set: Aardwerk Knip basis hoeveelheden"
 
 msgid "Qto_EarthworksCutBaseQuantities_DEFINITION"
 msgstr "Hoeveelheid ingesteld voor Aardwerk Knip basis."
@@ -268,7 +268,7 @@ msgid "IfcEarthworksFill_DEFINITION"
 msgstr "Een type aardwerkelement dat door aardwerk wordt gecreëerd om onderwaardigheid te bouwen of om het niveau van de grond in het algemeen te verhogen."
 
 msgid "Qto_EarthworksFillBaseQuantities"
-msgstr "Hoeveelheid Set: Aardwerken Vul basishoeveelheden"
+msgstr "Hoeveelheden set: Aardwerk Vullen basis hoeveelheden"
 
 msgid "Qto_EarthworksFillBaseQuantities_DEFINITION"
 msgstr "Hoeveelheid ingesteld voor Earthworks Vul basis."
@@ -310,7 +310,7 @@ msgid "IfcGeotechnicalStratum_DEFINITION"
 msgstr "Representatie van het concept van een geïdentificeerd discreet en vrijwel homogeen geologisch kenmerk met een onregelmatige solide of 'Yabuki' bovenoppervlakte of een gewone voxel kubieke vorm. Een stratum wordt voorgesteld als een discrete entiteit, gespecialiseerd (sub getyped) van [[IfcElement]]. Een stratum kan worden opgesplitst in kleinere entiteiten als eigenschappen variëren tussen de stratum of als alternatief eigenschappen kunnen worden beschreven in een gebonden numerieke bereik. Een stratum kan informatie verstrekken over de fysieke vorm en de interpretatie ervan als geologisch product (GML). De gebruikte vorm weergaven moeten overeenkomen met het subtype van [[IfcGeotechnicalAssembly]] waarin het voorkomt"
 
 msgid "Pset_GeotechnicalStratumCommon"
-msgstr "Eigenschapsset: Geotechnische Stratum Gemeenschappelijk"
+msgstr "Eigenschappen set: Geotechnisch Stratum generiek"
 
 msgid "Pset_GeotechnicalStratumCommon_DEFINITION"
 msgstr "Eigenschappen beschrijven de kenmerken van elk solide, water of leeg stratum. Een status van 'Nieuw' moet niet worden geassocieerd met een [[IfcGeotechnicalAssembly]] of IfcSolidStratum, omdat andere entiteiten worden gebruikt voor aardwerk en cursussen."
@@ -388,7 +388,7 @@ msgid "IfcPavement_DEFINITION"
 msgstr "[[Type]] van gebouwd element in een weg- of ander geplaveerde gebied om een zelfvoorzienende belasting van voertuigen of voetgangers te leveren meestal meerdere cursussen omvatten;"
 
 msgid "Pset_PavementCommon"
-msgstr "Eigenschapset: Stoepwerk Gemeenschappelijk"
+msgstr "Eigenschappen set: Stoepwerk generiek"
 
 msgid "Pset_PavementCommon_DEFINITION"
 msgstr "Beschrijft de gemeenschappelijke eigenschappen en de nominale afmetingen van het plak."
@@ -430,7 +430,7 @@ msgid "PavementTexture_DEFINITION"
 msgstr "Karakterisatie van de troepentextuur met gemiddelde profieldiepte"
 
 msgid "Qto_PavementBaseQuantities"
-msgstr "Set: Svement Base Hoeveelheid"
+msgstr "Hoeveelheden set: Stoepwerk basis hoeveelheden"
 
 msgid "Qto_PavementBaseQuantities_DEFINITION"
 msgstr "Aantal ingesteld voor Pavement."
@@ -442,7 +442,7 @@ msgid "IfcReinforcedSoil_DEFINITION"
 msgstr "De bodem wordt versterkt of gestabiliseerd door een of andere mechanische of chemische methode."
 
 msgid "Qto_ReinforcedSoilBaseQuantities"
-msgstr "Hoeveelheid set: Verstevigde bodembasishoeveelheden"
+msgstr "Hoeveelheden set: Verstevigde grond basis hoeveelheden"
 
 msgid "Qto_ReinforcedSoilBaseQuantities_DEFINITION"
 msgstr "Hoeveelheid sets voor Verstevigde Bodembasis."
@@ -550,7 +550,7 @@ msgid "SignalViewingMinimumInFront_DEFINITION"
 msgstr "Kleinere afstand waar het signaal leesbaar moet zijn (voor de trein zeer dicht bij het signaal)."
 
 msgid "Pset_SignCommon"
-msgstr "Eigenschap Set: Bord Gemeenschappelijk"
+msgstr "Eigenschappen set: Ondertekenen generiek"
 
 msgid "Pset_SignCommon_DEFINITION"
 msgstr "Veel voorkomende eigenschappen voor Signs."
@@ -562,7 +562,7 @@ msgid "TactileMarking_DEFINITION"
 msgstr "Het soort tactische markering van het element."
 
 msgid "Qto_SignBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Onderteken basishoeveelheid"
+msgstr "Hoeveelheden set: Ondertekenen basis hoeveelheden"
 
 msgid "Qto_SignBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden voor Signs."
@@ -838,7 +838,7 @@ msgid "SignalFrameType_DEFINITION"
 msgstr "[[Type]] frame, bijvoorbeeld hoofdframe, route indicator, snelheidsindicator, richting indicator, etc."
 
 msgid "Qto_SignalBaseQuantities"
-msgstr "Hoeveelheid ingesteld: signaalbasishoeveelheid"
+msgstr "Hoeveelheden set: Signaal basis hoeveelheden"
 
 msgid "Qto_SignalBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden voor signalen."

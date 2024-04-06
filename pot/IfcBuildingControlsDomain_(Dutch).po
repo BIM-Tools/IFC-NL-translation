@@ -184,7 +184,7 @@ msgid "Torque_DEFINITION"
 msgstr "Geeft het maximale sluit-off torque aan voor de actuator."
 
 msgid "Qto_ActuatorBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Actuator basishoeveelheden"
+msgstr "Hoeveelheden set: Actuator basis hoeveelheden"
 
 msgid "Qto_ActuatorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de actuator."
@@ -2326,7 +2326,7 @@ msgid "Status_UNSET"
 msgstr "Uitzetten"
 
 msgid "Qto_AlarmBaseQuantities"
-msgstr "Hoeveelheid Set: Alarm basishoeveelheden"
+msgstr "Hoeveelheden set: Alarm basis hoeveelheden"
 
 msgid "Qto_AlarmBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van paniek."
@@ -2368,7 +2368,7 @@ msgid "Pset_ControllerTypeCommon_DEFINITION"
 msgstr "Regelaar type gemeenschappelijke attributen."
 
 msgid "Qto_ControllerBaseQuantities"
-msgstr "Hoeveelheid ingesteld: Controller basishoeveelheden"
+msgstr "Hoeveelheden set: Regelaar basis hoeveelheden"
 
 msgid "Qto_ControllerBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de controller."
@@ -2476,7 +2476,7 @@ msgid "Pset_FlowInstrumentTypeCommon_DEFINITION"
 msgstr "Flow Instrument type veelvoorkomende kenmerken."
 
 msgid "Qto_FlowInstrumentBaseQuantities"
-msgstr "Hoeveelheid Set: Flow Instrument Basis Hoeveelheden"
+msgstr "Hoeveelheden set: Stroom Instrument basis hoeveelheden"
 
 msgid "Qto_FlowInstrumentBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van het stroominstrument."
@@ -2509,7 +2509,7 @@ msgid "Pset_SensorTypeCommon_DEFINITION"
 msgstr "Sensor type veelgebruikte kenmerken."
 
 msgid "Qto_SensorBaseQuantities"
-msgstr "Hoeveelheid set: Sensor Basishoeveelheid"
+msgstr "Hoeveelheden set: Sensor basis hoeveelheden"
 
 msgid "Qto_SensorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van sensor."
@@ -2578,7 +2578,7 @@ msgid "OperationMode_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
 
 msgid "Qto_UnitaryControlElementBaseQuantities"
-msgstr "Aantallen instellen: Unitary Control element basis hoeveelheden"
+msgstr "Hoeveelheden set: Unitary Control Element basis hoeveelheden"
 
 msgid "Qto_UnitaryControlElementBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van het unitaire controleelement."
