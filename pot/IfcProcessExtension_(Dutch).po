@@ -1,0 +1,527 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcProcessExtension.pot\n"
+"X-Crowdin-File-ID: 178\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcEvent"
+msgstr "Gebeurtenis"
+
+msgid "IfcEvent_DEFINITION"
+msgstr "Een [[IfcEvent]] is iets dat gebeurt dat een actie of reactie veroorzaakt."
+
+msgid "EventTriggerType"
+msgstr "Event Trigger Type"
+
+msgid "EventTriggerType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde soorten event trigger van waaruit het type mag worden ingesteld."
+
+msgid "EventTriggerType_EVENTCOMPLEX"
+msgstr "Evenement Complex"
+
+msgid "EventTriggerType_EVENTMESSAGE"
+msgstr "Event Bericht"
+
+msgid "EventTriggerType_EVENTRULE"
+msgstr "Regel voor gebeurtenis"
+
+msgid "EventTriggerType_EVENTTIME"
+msgstr "Gebeurtenis tijd"
+
+msgid "EventTriggerType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "EventTriggerType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "UserDefinedEventTriggerType"
+msgstr "Gebruiker gedefinieerd Event Trigger Type"
+
+msgid "UserDefinedEventTriggerType_DEFINITION"
+msgstr "Een gebruiker gedefinieerde event trigger type, de waarde van de gebeurtenis waarvan de waarde wordt bevestigd wanneer de waarde van een gebeurtenis trigger wordt aangeduid als [[USERDEFINED]]."
+
+msgid "IfcProcedure"
+msgstr "Procedure"
+
+msgid "IfcProcedure_DEFINITION"
+msgstr "Een [[IfcProcedure]] is een logische reeks acties die moeten worden ondernomen als reactie op een gebeurtenis of als gevolg van een gebeurtenis."
+
+msgid "IfcTask"
+msgstr "Opdracht"
+
+msgid "IfcTask_DEFINITION"
+msgstr "Een [[IfcTask]] is een identificeerbare werkeenheid die uitgevoerd moet worden in een bouwproject."
+
+msgid "IsMilestone"
+msgstr "Is mijlpaal"
+
+msgid "IsMilestone_DEFINITION"
+msgstr "Identificeert of een taak een mijlpaal is (= WAAR ) of niet (= FALSE)."
+
+msgid "Priority"
+msgstr "Prioriteit"
+
+msgid "Priority_DEFINITION"
+msgstr "Een waarde die de relatieve prioriteit van de taak aangeeft (in vergelijking met de prioriteiten van andere taken)."
+
+msgid "WorkMethod"
+msgstr "Werk methode"
+
+msgid "WorkMethod_DEFINITION"
+msgstr "De werkwijze die wordt gebruikt bij het uitvoeren van een taak."
+
+msgid "IfcWorkCalendar"
+msgstr "Werk kalender"
+
+msgid "IfcWorkCalendar_DEFINITION"
+msgstr "Een [[IfcWorkCalendar]] definieert werk- en niet-werktijden voor taken en middelen. Het maakt het mogelijk om beide specifieke tijdsperiodes te definiëren,00 op 25 augustus 2009 evenals herhalende tijdsperioden op basis van vaak gebruikte herhalingspatronen,00 tussen 1 maart 2009 en 31 december 2009."
+
+msgid "IfcWorkControl"
+msgstr "Werk controle"
+
+msgid "IfcWorkControl_DEFINITION"
+msgstr "Een [[IfcWorkControl]] is een abstract supertype dat informatie opneemt die zowel [[IfcWorkPlan]] als [[IfcWorkSchedule] ] gemeenschappelijk is."
+
+msgid "Pset_WorkControlCommon"
+msgstr "Eigenschap set: Work Control Common"
+
+msgid "Pset_WorkControlCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcWorkPlan]] en [[IfcWorkSchedule]] (subtypes van [[IfcWorkControl]])."
+
+msgid "WorkDayDuration"
+msgstr "Duur van de werkdag"
+
+msgid "WorkDayDuration_DEFINITION"
+msgstr "De verstreken tijd binnen een werkdag. Voor presentatiedoeleinden, kunnen applicaties kiezen om [[IfcTask]] werkdagen waarin IfcTaskTime bestaat. urationType=WORKTIME. Deze waarde moet minder dan of gelijk zijn aan 24 uur (een verstreken dag); als deze wordt weggelaten dan 8 uur aangenomen."
+
+msgid "WorkFinishTime"
+msgstr "Werktijd afronden"
+
+msgid "WorkFinishTime_DEFINITION"
+msgstr "De standaard tijd van de dag waarop een taak is gepland om te voltooien. Voor presentatiedoeleinden, als de eindtijd van een taak overeenkomt met de [[WorkFinishTime]], kunnen toepassingen ervoor kiezen om alleen de datum weer te geven. Omgekeerd kunnen applicaties automatisch de [[WorkFinishTime] ] toevoegen wanneer ze datums invoeren zonder de tijd op te geven."
+
+msgid "WorkMonthDuration"
+msgstr "Duur van de werkmaand"
+
+msgid "WorkMonthDuration_DEFINITION"
+msgstr "De verstreken tijd binnen een werktijd gebaseerde maand. Voor presentatiedoeleinden, kunnen applicaties ervoor kiezen om [[IfcTask]] tijdsduur in werkmaanden te tonen waar IfcTaskTime. urationType=WORKTIME. Deze waarde moet kleiner of gelijk zijn aan 744 uur (een verstreken maand van 31 dagen); als deze wordt weggelaten worden 160 uur aangenomen."
+
+msgid "WorkStartTime"
+msgstr "Werk begintijd"
+
+msgid "WorkStartTime_DEFINITION"
+msgstr "De standaard tijd van de dag waarop een taak is gepland om te beginnen. Voor presentatiedoeleinden, als de starttijd van een taak overeenkomt met de [[WorkStartTime]], kunnen toepassingen kiezen om de datum alleen weer te geven. Omgekeerd kunnen applicaties automatisch de [[WorkStartTime] ] toevoegen wanneer ze datums invoeren zonder de tijd op te geven."
+
+msgid "WorkWeekDuration"
+msgstr "Duur werkweek"
+
+msgid "WorkWeekDuration_DEFINITION"
+msgstr "De verstreken tijd binnen een werktijdgebaseerde week. Voor presentatiedoeleinden, kunnen applicaties ervoor kiezen om [[IfcTask]] werktijden weer te geven waar IfcTaskTime. urationType=WORKTIME. Deze waarde moet minder dan of gelijk zijn aan 168 uur (een verstreken week); indien weggelaten dan 40 uur wordt aangenomen."
+
+msgid "CreationDate"
+msgstr "Aanmaak datum"
+
+msgid "CreationDate_DEFINITION"
+msgstr "De datum waarop het plan is aangemaakt."
+
+msgid "FinishTime"
+msgstr "Tijd beëindigen"
+
+msgid "FinishTime_DEFINITION"
+msgstr "De eindtijd van het schema."
+
+msgid "StartTime"
+msgstr "Start tijd"
+
+msgid "StartTime_DEFINITION"
+msgstr "De begintijd van de schedule."
+
+msgid "TotalFloat"
+msgstr "Totale Float"
+
+msgid "TotalFloat_DEFINITION"
+msgstr "De totale tijd drijft van het gehele werkschema."
+
+msgid "IfcWorkPlan"
+msgstr "Werk Plan"
+
+msgid "IfcWorkPlan_DEFINITION"
+msgstr "Een [[IfcWorkPlan]] vertegenwoordigt werkplannen in een constructie of een faciliteitenbeheerproject."
+
+msgid "IfcWorkSchedule"
+msgstr "Work Control Common"
+
+msgid "IfcWorkSchedule_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcWorkPlan]] en [[IfcWorkSchedule]] (subtypes van [[IfcWorkControl]])."
+
+msgid "IfcEventENDEVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEventENDEVENT"
+msgstr "Beëindig evenement"
+
+msgid "IfcEventENDEVENT_DEFINITION"
+msgstr "Een afsluitende gebeurtenis van een proces."
+
+msgid "IfcEventINTERMEDIATEEVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEventINTERMEDIATEEVENT"
+msgstr "Tussentijdse gebeurtenis"
+
+msgid "IfcEventINTERMEDIATEEVENT_DEFINITION"
+msgstr "Een gebeurtenis die zich voordoet in een tussenfase van een proces."
+
+msgid "IfcEventSTARTEVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEventSTARTEVENT"
+msgstr "Start Evenement"
+
+msgid "IfcEventSTARTEVENT_DEFINITION"
+msgstr "Een initiërende gebeurtenis van een proces."
+
+msgid "IfcProcedureADVICE_CAUTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureADVICE_CAUTION"
+msgstr "Advies behoedzaam"
+
+msgid "IfcProcedureADVICE_CAUTION_DEFINITION"
+msgstr "Een voorzichtigheid die als procedure of bij het uitvoeren van een procedure in acht moet worden genomen."
+
+msgid "IfcProcedureADVICE_NOTE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureADVICE_NOTE"
+msgstr "Advies Opmerking"
+
+msgid "IfcProcedureADVICE_NOTE_DEFINITION"
+msgstr "Aanvullende informatie of advies die als procedure of tijdens de uitvoering van een procedure in aanmerking moet worden genomen."
+
+msgid "IfcProcedureADVICE_WARNING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureADVICE_WARNING"
+msgstr "Advies Waarschuwing"
+
+msgid "IfcProcedureADVICE_WARNING_DEFINITION"
+msgstr "Een waarschuwing voor mogelijke gevaren die als procedure of bij de uitvoering van een procedure in aanmerking moeten worden genomen."
+
+msgid "IfcProcedureCALIBRATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureCALIBRATION"
+msgstr "Kalibratie"
+
+msgid "IfcProcedureCALIBRATION_DEFINITION"
+msgstr "Een procedure die is ingesteld om een artefact te kalibreren."
+
+msgid "IfcProcedureDIAGNOSTIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureDIAGNOSTIC"
+msgstr "Diagnostisch"
+
+msgid "IfcProcedureDIAGNOSTIC_DEFINITION"
+msgstr "Diagnostisch"
+
+msgid "IfcProcedureSHUTDOWN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureSHUTDOWN"
+msgstr "Afsluiten"
+
+msgid "IfcProcedureSHUTDOWN_DEFINITION"
+msgstr "Een procedure die is ingesteld om de werking van een artefact te beëindigen."
+
+msgid "IfcProcedureSTARTUP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProcedureSTARTUP"
+msgstr "Startup"
+
+msgid "IfcProcedureSTARTUP_DEFINITION"
+msgstr "Een procedure die is ingesteld om de werking van een artefact op gang te brengen."
+
+msgid "IfcTaskADJUSTMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskADJUSTMENT"
+msgstr "Aanpassing"
+
+msgid "IfcTaskADJUSTMENT_DEFINITION"
+msgstr "Wijziging aanbrengen in de fysieke configuratie van iets."
+
+msgid "IfcTaskATTENDANCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskATTENDANCE"
+msgstr "Kijkers"
+
+msgid "IfcTaskATTENDANCE_DEFINITION"
+msgstr "Aanwezigheid of wachten op andere zaken."
+
+msgid "IfcTaskCALIBRATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskCALIBRATION"
+msgstr "Kalibratie"
+
+msgid "IfcTaskCALIBRATION_DEFINITION"
+msgstr "Wijziging van de operationele configuratie van iets aanbrengen."
+
+msgid "IfcTaskCONSTRUCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskCONSTRUCTION"
+msgstr "Constructie"
+
+msgid "IfcTaskCONSTRUCTION_DEFINITION"
+msgstr "Bouw of bouw iets."
+
+msgid "IfcTaskDEMOLITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskDEMOLITION"
+msgstr "Sloop"
+
+msgid "IfcTaskDEMOLITION_DEFINITION"
+msgstr "Iets vernietigen of breken."
+
+msgid "IfcTaskDISMANTLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskDISMANTLE"
+msgstr "Ontmantel"
+
+msgid "IfcTaskDISMANTLE_DEFINITION"
+msgstr "Iets zorgvuldig uit elkaar nemen zodat het gerecycled of hergebruikt kan worden."
+
+msgid "IfcTaskDISPOSAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskDISPOSAL"
+msgstr "Vuilnisbak"
+
+msgid "IfcTaskDISPOSAL_DEFINITION"
+msgstr "Trek iets af of doe iets af."
+
+msgid "IfcTaskEMERGENCY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskEMERGENCY"
+msgstr "Noodgevallen"
+
+msgid "IfcTaskEMERGENCY_DEFINITION"
+msgstr "Taken die nodig zijn om te reageren op een noodsituatie of om te zorgen dat er kan worden gereageerd."
+
+msgid "IfcTaskINSPECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskINSPECTION"
+msgstr "Inspectie"
+
+msgid "IfcTaskINSPECTION_DEFINITION"
+msgstr "Controleer of iets is geïnstalleerd en werkt binnen de verwachte parameters."
+
+msgid "IfcTaskINSTALLATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskINSTALLATION"
+msgstr "Installatie"
+
+msgid "IfcTaskINSTALLATION_DEFINITION"
+msgstr "Iets installeren (gelijk aan constructie, maar vaker gebruikt voor engineering taks)."
+
+msgid "IfcTaskLOGISTIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskLOGISTIC"
+msgstr "Logistiek"
+
+msgid "IfcTaskLOGISTIC_DEFINITION"
+msgstr "Transportatie of levering van iets."
+
+msgid "IfcTaskMAINTENANCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskMAINTENANCE"
+msgstr "Onderhoud"
+
+msgid "IfcTaskMAINTENANCE_DEFINITION"
+msgstr "Taken zijn nodig om objecten goed te laten werken."
+
+msgid "IfcTaskMOVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskMOVE"
+msgstr "Verplaatsen"
+
+msgid "IfcTaskMOVE_DEFINITION"
+msgstr "De dingen verplaatsen van de ene naar de andere."
+
+msgid "IfcTaskOPERATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskOPERATION"
+msgstr "Bewerking"
+
+msgid "IfcTaskOPERATION_DEFINITION"
+msgstr "Een procedure die in gang is gezet om de operatie een artefact op te starten."
+
+msgid "IfcTaskREMOVAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskREMOVAL"
+msgstr "Verwijderen"
+
+msgid "IfcTaskREMOVAL_DEFINITION"
+msgstr "Verwijderen van een item van het gebruik en het uit de plaats van gebruik halen."
+
+msgid "IfcTaskRENOVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskRENOVATION"
+msgstr "Renovatie"
+
+msgid "IfcTaskRENOVATION_DEFINITION"
+msgstr "Breng iets naar een \"zoalsnieuw\" staat."
+
+msgid "IfcTaskSAFETY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskSAFETY"
+msgstr "Veiligheid"
+
+msgid "IfcTaskSAFETY_DEFINITION"
+msgstr "Taken die nodig zijn om een veilig gebruik van het object te waarborgen. Bijvoorbeeld de instructies voor een elektrische 'lock-out'."
+
+msgid "IfcTaskSHUTDOWN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskSHUTDOWN"
+msgstr "Afsluiten"
+
+msgid "IfcTaskSHUTDOWN_DEFINITION"
+msgstr "De reeks taken die vereist is voor een ordelijke stopzetting zonder nadelige gevolgen, meestal toegepast op systemen."
+
+msgid "IfcTaskSTARTUP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskSTARTUP"
+msgstr "Startup"
+
+msgid "IfcTaskSTARTUP_DEFINITION"
+msgstr "De set van taken vereist om de bewerking te starten of te herstarten, zonder nadelige gevolgen, meestal toegepast op systemen."
+
+msgid "IfcTaskTESTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskTESTING"
+msgstr "Testen"
+
+msgid "IfcTaskTESTING_DEFINITION"
+msgstr "De set taken die nodig is om de prestaties van een object te beoordelen, om ervoor te zorgen dat iets is geïnstalleerd en werkt binnen de verwachte parameters."
+
+msgid "IfcTaskTROUBLESHOOTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTaskTROUBLESHOOTING"
+msgstr "Probleemoplossing"
+
+msgid "IfcTaskTROUBLESHOOTING_DEFINITION"
+msgstr "De set van de taken die nodig zijn voor de diagnose van de taken ondervonden vaak prestatieproblemen, meestal toegepast op element types en systemen."
+
+msgid "IfcWorkCalendarFIRSTSHIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkCalendarFIRSTSHIFT"
+msgstr "Eerste dienst"
+
+msgid "IfcWorkCalendarFIRSTSHIFT_DEFINITION"
+msgstr "Behoort tot de eerste shift."
+
+msgid "IfcWorkCalendarSECONDSHIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkCalendarSECONDSHIFT"
+msgstr "Tweede dienst"
+
+msgid "IfcWorkCalendarSECONDSHIFT_DEFINITION"
+msgstr "Behoort tot de tweede shift."
+
+msgid "IfcWorkCalendarTHIRDSHIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkCalendarTHIRDSHIFT"
+msgstr "Derde dienst"
+
+msgid "IfcWorkCalendarTHIRDSHIFT_DEFINITION"
+msgstr "Behoort tot de derde ploeg."
+
+msgid "IfcWorkPlanACTUAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkPlanACTUAL"
+msgstr "Werkelijk"
+
+msgid "IfcWorkPlanACTUAL_DEFINITION"
+msgstr "Een controle waarin de werkelijke goederen worden vermeld."
+
+msgid "IfcWorkPlanBASELINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkPlanBASELINE"
+msgstr "Baselijn"
+
+msgid "IfcWorkPlanBASELINE_DEFINITION"
+msgstr "Een controle die een basislijn is waarvan wijzigingen die later worden aangebracht herkend kunnen worden."
+
+msgid "IfcWorkPlanPLANNED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkPlanPLANNED"
+msgstr "Gepland"
+
+msgid "IfcWorkPlanPLANNED_DEFINITION"
+msgstr "Gepland"
+
+msgid "IfcWorkScheduleACTUAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkScheduleACTUAL"
+msgstr "Werkelijk"
+
+msgid "IfcWorkScheduleACTUAL_DEFINITION"
+msgstr "Een proces waarin daadwerkelijk goederen worden opgestart."
+
+msgid "IfcWorkScheduleBASELINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkScheduleBASELINE"
+msgstr "Baselijn"
+
+msgid "IfcWorkScheduleBASELINE_DEFINITION"
+msgstr "Een proces dat een basislijn is waarvandaan wijzigingen worden aangebracht kunnen worden herkend."
+
+msgid "IfcWorkSchedulePLANNED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWorkSchedulePLANNED"
+msgstr "Gepland"
+
+msgid "IfcWorkSchedulePLANNED_DEFINITION"
+msgstr "Een proces dat geplande artikelen toont."
+

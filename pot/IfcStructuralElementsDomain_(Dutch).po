@@ -1,0 +1,782 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcStructuralElementsDomain.pot\n"
+"X-Crowdin-File-ID: 200\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcStructuralSurfaceReaction"
+msgstr "Structurele oppervlakte lid Varying Dikte"
+
+msgid "IfcStructuralSurfaceReaction_DEFINITION"
+msgstr "[[Thickness]] parameters van een oppervlaktelid (structurele analyse item) met verschillende dikte, vooral met lineair verschillende dikte. De dikte is interpolated/ geextrapoleerd op drie punten. De locaties van deze punten worden gegeven in de lokale x,y coördinaten van het oppervlak lid of in de globale X,Y,Z coördinaten. Hoe dan ook, deze punten moeten zich in het gezicht bevinden of op de rand van het gezicht van het oppervlak van het oppervlak en ze mogen niet op een gemeenschappelijke lijn worden geplaatst. Lokale en mondiale coördinaten zullen niet gemengd worden binnen dezelfde propertyset instantie."
+
+msgid "IfcCaissonFoundation"
+msgstr "Caisson stichting"
+
+msgid "IfcCaissonFoundation_DEFINITION"
+msgstr "CaissonFoundation is in wezen een lege doos die open of gesloten kan worden."
+
+msgid "IfcDeepFoundation"
+msgstr "Diepe fundering"
+
+msgid "IfcDeepFoundation_DEFINITION"
+msgstr "Diepe fundering is een type stichting die meer belasting overbrengt dan ondiep fundament onder de zachte grond die de bovenstaande structuur niet kan dragen. Afhankelijk van de bodemsterkte kan het naar beneden naar de steenlaag moeten komen."
+
+msgid "IfcFooting"
+msgstr "Voetstukken"
+
+msgid "IfcFooting_DEFINITION"
+msgstr "Een ondergrond is onderdeel van het fundament van een structuur die de lading verspreidt en doorstuurt naar de grond. Een basis wordt ook gekarakteriseerd als een ondiep fundament, waar de lasten worden overgebracht naar de grond aan de oppervlak."
+
+msgid "Pset_FootingCommon"
+msgstr "Eigenschapsset: Gemeenschappelijk Voedsel"
+
+msgid "Pset_FootingCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcFooting]]."
+
+msgid "Pset_ReinforcementBarCountOfIndependentFooting"
+msgstr "Eigenschapsset: Versterkingsbalk aantal van Onafhankelijke Voedsel"
+
+msgid "Pset_ReinforcementBarCountOfIndependentFooting_DEFINITION"
+msgstr "De informatie over de versterking van de balk met de onafhankelijke basis. De X-en Y-richting is gebaseerd op het lokale coördinaatsysteem van de bouw storey. De X-en Y-richting van de versterkingsbalk zijn parallel met de X-en Y-as van het [[IfcBuildingStorey]]-lokale coördinatensysteem. respectievelijk."
+
+msgid "XDirectionLowerBarCount"
+msgstr "Xrichting Lager aantal"
+
+msgid "XDirectionLowerBarCount_DEFINITION"
+msgstr "Het aantal balken met X-richting onderbalk."
+
+msgid "XDirectionUpperBarCount"
+msgstr "Xdirection Bovenste Bar aantal"
+
+msgid "XDirectionUpperBarCount_DEFINITION"
+msgstr "Het aantal balken met X-richting bovenbalk."
+
+msgid "YDirectionLowerBarCount"
+msgstr "Ydirection Lager aantal"
+
+msgid "YDirectionLowerBarCount_DEFINITION"
+msgstr "Het aantal balken met Y-richting onderbalk."
+
+msgid "YDirectionUpperBarCount"
+msgstr "Ydirection Bovenste Bar aantal"
+
+msgid "YDirectionUpperBarCount_DEFINITION"
+msgstr "Het aantal balken met Y-richting bovenbalk."
+
+msgid "Pset_ReinforcementBarPitchOfContinuousFooting"
+msgstr "Eigenschapsset: Versterkingsbalk Pitch van Continuous Footing"
+
+msgid "Pset_ReinforcementBarPitchOfContinuousFooting_DEFINITION"
+msgstr "De pitch length informatie van versterking bar met de voortdurende voeding."
+
+msgid "CrossingLowerBarPitch"
+msgstr "Onderste Bar kruisingen"
+
+msgid "CrossingLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte van de grensstreepje."
+
+msgid "CrossingUpperBarPitch"
+msgstr "Kruising bovenste Bar Pitch"
+
+msgid "CrossingUpperBarPitch_DEFINITION"
+msgstr "De toonhoogte van de grensbalk."
+
+msgid "Qto_FootingBaseQuantities"
+msgstr "Hoeveelheid ingesteld: footing basishoeveelheid"
+
+msgid "Qto_FootingBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van voeten."
+
+msgid "IfcPile"
+msgstr "Hoop"
+
+msgid "IfcPile_DEFINITION"
+msgstr "Een stapel is een slordig hout, beton of staal structureel element, gedroogd, gejeted, of anders ingesloten op de grond om een lading te ondersteunen. Een stapel is ook een diepe basis, waar de lasten worden overgebracht naar diepere ondergrondse lagen."
+
+msgid "Pset_PileCommon"
+msgstr "Eigenteigeningenset: Hoger Gemeenschappelijk"
+
+msgid "Pset_PileCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcPile]]."
+
+msgid "Qto_PileBaseQuantities"
+msgstr "Hoeveelheid Set: Tegel basishoeveelheden"
+
+msgid "Qto_PileBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van stapels."
+
+msgid "ConstructionType"
+msgstr "Type constructie"
+
+msgid "ConstructionType_DEFINITION"
+msgstr "Afgekeurd."
+
+msgid "ConstructionType_CAST_IN_PLACE"
+msgstr "Cast In Plaats"
+
+msgid "ConstructionType_COMPOSITE"
+msgstr "Compo site"
+
+msgid "ConstructionType_PRECAST_CONCRETE"
+msgstr "Precast beton"
+
+msgid "ConstructionType_PREFAB_STEEL"
+msgstr "Prefab staal"
+
+msgid "ConstructionType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "ConstructionType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "IfcReinforcingBar"
+msgstr "Versterking Balk"
+
+msgid "IfcReinforcingBar_DEFINITION"
+msgstr "Een versterkende bar is meestal gemaakt van staal met geproduceerde deformaties in het oppervlak en wordt gebruikt in beton en masoniebouw om extra kracht te geven. Een enkel geval van deze klasse kan een of veel van de werkelijke rebars vertegenwoordigen, bijvoorbeeld een rij van scharreleieren."
+
+msgid "BarLength"
+msgstr "Balk lengte"
+
+msgid "BarLength_DEFINITION"
+msgstr "De totale lengte van de verstevigingsbalk. De totale lengte van de buigbalken wordt berekend op basis van lokale standaarden met correcties voor de bodes."
+
+msgid "BarSurface"
+msgstr "Balk oppervlak"
+
+msgid "BarSurface_DEFINITION"
+msgstr "Indicator of het balkoppervlak platte of textureerd is."
+
+msgid "BarSurface_PLAIN"
+msgstr "Indicator of het balkoppervlak vlek of textured is"
+
+msgid "BarSurface_TEXTURED"
+msgstr "Indicator of het balkoppervlak vlek of textured is"
+
+msgid "BendingShapeCode"
+msgstr "Bending Shape Code"
+
+msgid "BendingShapeCode_DEFINITION"
+msgstr "Vorm code per standaard zoals ACI 315, ISO 3766, of een soortgelijke standaard. Vermoedelijk wordt er in het hele project een enkele norm gebruikt voor het definiëren van de barbuiging en wordt deze standaard genoemd van het [[IfcProject]object via de IfcDocumentReferentiefunctie."
+
+msgid "Qto_ReinforcingElementBaseQuantities"
+msgstr "Hoeveelheid set: Versterking Element Basis Hoeveelheden"
+
+msgid "Qto_ReinforcingElementBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van versterking."
+
+msgid "Count"
+msgstr "Tel"
+
+msgid "Count_DEFINITION"
+msgstr "Totaal aantal versterkende items."
+
+msgid "SteelGrade"
+msgstr "Stalen kwaliteit"
+
+msgid "SteelGrade_DEFINITION"
+msgstr "Afgekeurd."
+
+msgid "IfcReinforcingElement"
+msgstr "Versterking element"
+
+msgid "IfcReinforcingElement_DEFINITION"
+msgstr "Een verstevigingselement vertegenwoordigt bars, draden, stranden, meshes, tendons, en andere componenten ingebed in beton op een zodanige manier dat de versterking en het beton samen optreden in verzet tegen krachten."
+
+msgid "IfcReinforcingMesh"
+msgstr "Versterking Mesh"
+
+msgid "IfcReinforcingMesh_DEFINITION"
+msgstr "Een verstevigingsmaas is een reeks longitudinale en transversale draden of balken van verschillende meters, op basis van de juiste hoeken naar elkaar gerangschikt en op alle kruispunten gelekt; meestal gebruikt voor betonnen slab versterking. Het is ook bekend als gelast draadstof. In bereik zijn vlakmaaswerken en omliggende mazen."
+
+msgid "LongitudinalBarCrossSectionArea"
+msgstr "Longitudinale Balk Cross Sectie Gebied"
+
+msgid "LongitudinalBarCrossSectionArea_DEFINITION"
+msgstr "Het effectieve kruisgedeelte van de longitudinale balken van het maas."
+
+msgid "LongitudinalBarNominalDiameter"
+msgstr "Longitudinale Balk Nominale Diameter"
+
+msgid "LongitudinalBarNominalDiameter_DEFINITION"
+msgstr "De nominale diameter denoteert de transsectie grootte van de longitudinale balken."
+
+msgid "LongitudinalBarSpacing"
+msgstr "Longitudinale staafafstand"
+
+msgid "LongitudinalBarSpacing_DEFINITION"
+msgstr "De afstand tussen de longitudinale bars.een gelijke verdeling van bars wordt verondersteld; andere gevallen worden behandeld door classificatie- of vastgoedsets."
+
+msgid "MeshLength"
+msgstr "Gaas lengte"
+
+msgid "MeshLength_DEFINITION"
+msgstr "De lengte van de maaswijdte werd in zijn longitudinale richting gemeten."
+
+msgid "MeshWidth"
+msgstr "Mesh breedte"
+
+msgid "MeshWidth_DEFINITION"
+msgstr "De totale breedte van het maaswerk werd in zijn horizontale richting gemeten."
+
+msgid "TransverseBarCrossSectionArea"
+msgstr "Transversale Balk Cross Sectie Gebied"
+
+msgid "TransverseBarCrossSectionArea_DEFINITION"
+msgstr "Het effectieve horizontale gedeelte van het transversale deel van het maas."
+
+msgid "TransverseBarNominalDiameter"
+msgstr "Transversale Balk Nominale Diameter"
+
+msgid "TransverseBarNominalDiameter_DEFINITION"
+msgstr "De nominale diameter denoting van de kruisafmetingen van de transversale bars."
+
+msgid "TransverseBarSpacing"
+msgstr "Transversale Balk Afstand"
+
+msgid "TransverseBarSpacing_DEFINITION"
+msgstr "De afstand tussen de transversale bars.een gelijke verdeling van bars is aangenomen; andere gevallen worden behandeld door classificatie- of vastgoedsets."
+
+msgid "IfcSurfaceFeature"
+msgstr "Oppervlakte functie"
+
+msgid "IfcSurfaceFeature_DEFINITION"
+msgstr "Een oppervlakte functie is een wijziging bij (aan of into) van het oppervlak van een element. Delen van het oppervlak van het hele oppervlak kunnen worden aangetast. Het volume en de massa van het element kunnen worden verhoogd, onveranderd blijven of worden verminderd door de oppervlaktekenmerk, afhankelijk van de productietechnologie. Een eventuele toename of vermindering van het volume is echter klein in vergelijking met het totale volume van het element."
+
+msgid "Qto_SurfaceFeatureBaseQuantities"
+msgstr "Aantal Set: Oppervlakte functie basisaantallen"
+
+msgid "Qto_SurfaceFeatureBaseQuantities_DEFINITION"
+msgstr "Basis hoeveelheden voor oppervlaktefuncties."
+
+msgid "IfcTendon"
+msgstr "Tendon"
+
+msgid "IfcTendon_DEFINITION"
+msgstr "De tolerantie is een staalelement zoals een draad, kabel, bar, staaf, staad, of onderdeel dat gebruikt wordt om beton te bevestigen wanneer het element gespannen is."
+
+msgid "AnchorageSlip"
+msgstr "Ankerteken kaartje"
+
+msgid "AnchorageSlip_DEFINITION"
+msgstr "De vervorming van een anker of een glijbaan van tiendennen wanneer het Voorkeurige apparaat wordt losgelaten."
+
+msgid "FrictionCoefficient"
+msgstr "Wrijving Coëfficiënt"
+
+msgid "FrictionCoefficient_DEFINITION"
+msgstr "De wrijvingscoëfficiënt tussen tendon en peesproef terwijl de tendon niet is gekoppeld."
+
+msgid "MinCurvatureRadius"
+msgstr "Minimale kromming straal"
+
+msgid "MinCurvatureRadius_DEFINITION"
+msgstr "De kleinste kromingsradius berekend op de hele effectieve lengte van de tendon waar de spanningseigenschappen nog steeds geldig zijn."
+
+msgid "PreStress"
+msgstr "Vooraf spanning"
+
+msgid "PreStress_DEFINITION"
+msgstr "De prestress die op de tendon moet worden toegepast."
+
+msgid "TensionForce"
+msgstr "Trek Kracht"
+
+msgid "TensionForce_DEFINITION"
+msgstr "De maximaal toegestane spanningskracht die kan worden toegepast op de tendon."
+
+msgid "SheathDiameter"
+msgstr "S Warmte H Diameter"
+
+msgid "SheathDiameter_DEFINITION"
+msgstr "[[Diameter]] van het schaafje (kanaal) rond de tiende, als er een is met dit type tendon."
+
+msgid "IfcTendonAnchor"
+msgstr "Tendon anker"
+
+msgid "IfcTendonAnchor_DEFINITION"
+msgstr "Een pedd-anker is het eindverband voor tienden in beton met voorgestreken of posttuin."
+
+msgid "IfcTendonConduit"
+msgstr "Tendon Leider"
+
+msgid "IfcTendonConduit_DEFINITION"
+msgstr "Een TendonConduit vertegenwoordigt de onderdelen van het draagraketsysteem voor tienden die zijn ingebed in een betonnen constructie."
+
+msgid "IfcVoidingFeature"
+msgstr "Versterking element basis hoeveelheden"
+
+msgid "IfcVoidingFeature_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van versterking."
+
+msgid "IfcCaissonFoundationCAISSON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCaissonFoundationCAISSON"
+msgstr "Caisson"
+
+msgid "IfcCaissonFoundationCAISSON_DEFINITION"
+msgstr "Gesloten doos."
+
+msgid "IfcCaissonFoundationWELL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCaissonFoundationWELL"
+msgstr "Bron"
+
+msgid "IfcCaissonFoundationWELL_DEFINITION"
+msgstr "Open doos."
+
+msgid "IfcFootingCAISSON_FOUNDATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFootingCAISSON_FOUNDATION"
+msgstr "Caisson stichting"
+
+msgid "IfcFootingCAISSON_FOUNDATION_DEFINITION"
+msgstr "Een stichting type gebruikt in onderwaterconstructie."
+
+msgid "IfcFootingFOOTING_BEAM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFootingFOOTING_BEAM"
+msgstr "Footing Straal"
+
+msgid "IfcFootingFOOTING_BEAM_DEFINITION"
+msgstr "Het eten van elementen die in buiging zijn en niet beschikbaar zijn over de grond. Ze zullen normaal gesproken tussen pieren, stapels of stapelcaps lopen. Ze onderscheiden zich van balken in de superstructuur van het gebouw, omdat ze normaal gesproken een lager niveau van afwerking nodig hebben. Ze onderscheiden zich van STRIP_FOOTING omdat ze buiten de grond liggen en daarom steun nodig hebben voor de onderste geest, terwijl het beton wordt gereden."
+
+msgid "IfcFootingPAD_FOOTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFootingPAD_FOOTING"
+msgstr "Pad Footing"
+
+msgid "IfcFootingPAD_FOOTING_DEFINITION"
+msgstr "Een element dat de lading van een enkele kolom (mogelijk twee) naar de grond verplaatst."
+
+msgid "IfcFootingPILE_CAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFootingPILE_CAP"
+msgstr "Pile Cap"
+
+msgid "IfcFootingPILE_CAP_DEFINITION"
+msgstr "Een element dat de lading verplaatst van een kolom of groep kolommen naar een pier of stapel of een groep pieren of stapels."
+
+msgid "IfcFootingSTRIP_FOOTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFootingSTRIP_FOOTING"
+msgstr "Strip Footing"
+
+msgid "IfcFootingSTRIP_FOOTING_DEFINITION"
+msgstr "Een lineair element dat lasten in de grond overdraagt van een continu element, zoals een muur of een reeks elementen, zoals kolommen."
+
+msgid "IfcPileBORED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileBORED"
+msgstr "Vervelen"
+
+msgid "IfcPileBORED_DEFINITION"
+msgstr "Een saaie stapel."
+
+msgid "IfcPileCOHESION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileCOHESION"
+msgstr "Cohesie"
+
+msgid "IfcPileCOHESION_DEFINITION"
+msgstr "Een cohesiepijp."
+
+msgid "IfcPileDRIVEN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileDRIVEN"
+msgstr "Gedroogd"
+
+msgid "IfcPileDRIVEN_DEFINITION"
+msgstr "Een gerauwde, trilde of anderszins geduwde stapel."
+
+msgid "IfcPileFRICTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileFRICTION"
+msgstr "Wrijving"
+
+msgid "IfcPileFRICTION_DEFINITION"
+msgstr "Een wrijving stapel."
+
+msgid "IfcPileJETGROUTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileJETGROUTING"
+msgstr "Jetgrouting"
+
+msgid "IfcPileJETGROUTING_DEFINITION"
+msgstr "Een geïnjecteerde pile-achtige constructie."
+
+msgid "IfcPileSUPPORT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPileSUPPORT"
+msgstr "Ondersteuning"
+
+msgid "IfcPileSUPPORT_DEFINITION"
+msgstr "Een steunstapel."
+
+msgid "IfcReinforcingBarANCHORING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarANCHORING"
+msgstr "Ankerend"
+
+msgid "IfcReinforcingBarANCHORING_DEFINITION"
+msgstr "Verankering versterking."
+
+msgid "IfcReinforcingBarEDGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarEDGE"
+msgstr "Rand"
+
+msgid "IfcReinforcingBarEDGE_DEFINITION"
+msgstr "Rand versterking."
+
+msgid "IfcReinforcingBarLIGATURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarLIGATURE"
+msgstr "Ligatuur"
+
+msgid "IfcReinforcingBarLIGATURE_DEFINITION"
+msgstr "De verstevigingsbalk is een ligatuur (link, roest)."
+
+msgid "IfcReinforcingBarMAIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarMAIN"
+msgstr "Algemeen"
+
+msgid "IfcReinforcingBarMAIN_DEFINITION"
+msgstr "De verstevigingsbalk is een hoofdbalk."
+
+msgid "IfcReinforcingBarPUNCHING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarPUNCHING"
+msgstr "Terugslaan"
+
+msgid "IfcReinforcingBarPUNCHING_DEFINITION"
+msgstr "Sla versterking."
+
+msgid "IfcReinforcingBarRING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarRING"
+msgstr "Beltoon"
+
+msgid "IfcReinforcingBarRING_DEFINITION"
+msgstr "Ring versterking."
+
+msgid "IfcReinforcingBarSHEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarSHEAR"
+msgstr "Schoor"
+
+msgid "IfcReinforcingBarSHEAR_DEFINITION"
+msgstr "De verstevigingsbalk is een schuifbalk."
+
+msgid "IfcReinforcingBarSPACEBAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarSPACEBAR"
+msgstr "Ruimte Balk"
+
+msgid "IfcReinforcingBarSPACEBAR_DEFINITION"
+msgstr "Een primitief systeem om TendonConduit te positioneren, is op gang gekomen."
+
+msgid "IfcReinforcingBarSTUD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcingBarSTUD"
+msgstr "Stud"
+
+msgid "IfcReinforcingBarSTUD_DEFINITION"
+msgstr "De versterkingsbalie is een stuk."
+
+msgid "IfcSurfaceFeatureDEFECT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureDEFECT"
+msgstr "Ontmantel"
+
+msgid "IfcSurfaceFeatureDEFECT_DEFINITION"
+msgstr "Fout gedetecteerd op het oppervlak van een element, zoals aangetast of uitgeeroteerd gebied."
+
+msgid "IfcSurfaceFeatureHATCHMARKING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureHATCHMARKING"
+msgstr "Luik Markering"
+
+msgid "IfcSurfaceFeatureHATCHMARKING_DEFINITION"
+msgstr "oppervlakte markeringen gedefinieerd door ingesloten 2d vorm met gedefinieerde haastvullingen."
+
+msgid "IfcSurfaceFeatureLINEMARKING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureLINEMARKING"
+msgstr "Regel Markering"
+
+msgid "IfcSurfaceFeatureLINEMARKING_DEFINITION"
+msgstr "2D-lijnen op stoepoppervlakken geschilderd om grenzen, middenlijnen en randmarkeringen te vormen."
+
+msgid "IfcSurfaceFeatureMARK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureMARK"
+msgstr "Markeren"
+
+msgid "IfcSurfaceFeatureMARK_DEFINITION"
+msgstr "Een punt, lijn, kruis of een andere markering werd bijvoorbeeld toegepast om elementen gemakkelijker aan te passen tijdens het samenstellen."
+
+msgid "IfcSurfaceFeatureNONSKIDSURFACING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureNONSKIDSURFACING"
+msgstr "Niet-Overgezige Surface"
+
+msgid "IfcSurfaceFeatureNONSKIDSURFACING_DEFINITION"
+msgstr "Verf of onderbeleg om te voorkomen dat je glijdt of schiet."
+
+msgid "IfcSurfaceFeaturePAVEMENTSURFACEMARKING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeaturePAVEMENTSURFACEMARKING"
+msgstr "Stoepvlak Markering"
+
+msgid "IfcSurfaceFeaturePAVEMENTSURFACEMARKING_DEFINITION"
+msgstr "Gelakt of chemische lijnen of symbolen op het oppervlak van trofeeën (een weg- of geplaveerde gebied)"
+
+msgid "IfcSurfaceFeatureRUMBLESTRIP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureRUMBLESTRIP"
+msgstr "Rumble Strip"
+
+msgid "IfcSurfaceFeatureRUMBLESTRIP_DEFINITION"
+msgstr "Opgeroepen en vaak getextureerde strips op het centrum van de weg of op schouder, of over de rijstrook om chauffeurs te waarschuwen door trillingen en lawaai. Ook Britse streepjes."
+
+msgid "IfcSurfaceFeatureSYMBOLMARKING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureSYMBOLMARKING"
+msgstr "Symbool Markering"
+
+msgid "IfcSurfaceFeatureSYMBOLMARKING_DEFINITION"
+msgstr "Oppervlaktemerken die informatie in de vorm van symbolen en vormen zoals pijlen, tekst of afbeeldingssymbolen overbrengen."
+
+msgid "IfcSurfaceFeatureTAG_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureTAG"
+msgstr "Label"
+
+msgid "IfcSurfaceFeatureTAG_DEFINITION"
+msgstr "Een naam-tag die het mogelijk maakt om een element te identificeren tijdens productie, levering en assemblage. Kan op verschillende manieren gemaakt worden. . door de trackingcode op het element te drukken of door een werkelijke tag toe te voegen."
+
+msgid "IfcSurfaceFeatureTRANSVERSERUMBLESTRIP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureTRANSVERSERUMBLESTRIP"
+msgstr "Transversale reumble Strip"
+
+msgid "IfcSurfaceFeatureTRANSVERSERUMBLESTRIP_DEFINITION"
+msgstr "[[Type]] geruchtelijke strip over lan(de)(s)."
+
+msgid "IfcSurfaceFeatureTREATMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSurfaceFeatureTREATMENT"
+msgstr "Behandeling"
+
+msgid "IfcSurfaceFeatureTREATMENT_DEFINITION"
+msgstr "Een subtractieve oppervlakte functie, bijvoorbeeld rooien, of een additieve oppervlakte functie, b.v. leren of een onaangename behandeling of een reeks van dit soort behandelingen."
+
+msgid "IfcTendonBAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonBAR"
+msgstr "Balk"
+
+msgid "IfcTendonBAR_DEFINITION"
+msgstr "De tendon is geconfigureerd als een balk."
+
+msgid "IfcTendonCOATED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonCOATED"
+msgstr "Gecombineerd"
+
+msgid "IfcTendonCOATED_DEFINITION"
+msgstr "De tendon is gecoëerd."
+
+msgid "IfcTendonSTRAND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonSTRAND"
+msgstr "Strand"
+
+msgid "IfcTendonSTRAND_DEFINITION"
+msgstr "De pees is een strand."
+
+msgid "IfcTendonWIRE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonWIRE"
+msgstr "Draad"
+
+msgid "IfcTendonWIRE_DEFINITION"
+msgstr "De pees is een draad."
+
+msgid "IfcTendonAnchorCOUPLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonAnchorCOUPLER"
+msgstr "Kortingscode"
+
+msgid "IfcTendonAnchorCOUPLER_DEFINITION"
+msgstr "De anker is een intermediair apparaat dat twee tendons verbindt."
+
+msgid "IfcTendonAnchorFIXED_END_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonAnchorFIXED_END"
+msgstr "Vaste eind"
+
+msgid "IfcTendonAnchorFIXED_END_DEFINITION"
+msgstr "De anker fixeert het einde van een tendon."
+
+msgid "IfcTendonAnchorTENSIONING_END_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonAnchorTENSIONING_END"
+msgstr "Spanning Einde"
+
+msgid "IfcTendonAnchorTENSIONING_END_DEFINITION"
+msgstr "Het anker wordt gebruikt of kan worden gebruikt om de tendon te voorkomen."
+
+msgid "IfcTendonConduitCOUPLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonConduitCOUPLER"
+msgstr "Kortingscode"
+
+msgid "IfcTendonConduitCOUPLER_DEFINITION"
+msgstr "Een deel om de conduits te verbinden gelegen in twee verschillende segmenten van het dek en gerelateerd aan dezelfde tendon."
+
+msgid "IfcTendonConduitDIABOLO_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonConduitDIABOLO"
+msgstr "Diabolo"
+
+msgid "IfcTendonConduitDIABOLO_DEFINITION"
+msgstr "Een deel van de pedongleiding geassocieerd met de afwijker."
+
+msgid "IfcTendonConduitDUCT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonConduitDUCT"
+msgstr "Leiding"
+
+msgid "IfcTendonConduitDUCT_DEFINITION"
+msgstr "Een mouw of buis is gerelateerd aan de dikte van de leiding afhankelijk van de leiding, of in de betonnen structuur gegoten of grenst eraan."
+
+msgid "IfcTendonConduitGROUTING_DUCT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonConduitGROUTING_DUCT"
+msgstr "Groeit kanaal"
+
+msgid "IfcTendonConduitGROUTING_DUCT_DEFINITION"
+msgstr "Een extra kleine leiding aangesloten op de hoofdleiding om grouting toe te staan in geval van verbonden post-spanning, zoals Groep, Groepeer Uitlaat en Groepeer vent."
+
+msgid "IfcTendonConduitTRUMPET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTendonConduitTRUMPET"
+msgstr "Trompet"
+
+msgid "IfcTendonConduitTRUMPET_DEFINITION"
+msgstr "Een specifiek deel van de leiding die moet worden verruimd bij het bereiken van de tendon anker omdat de stranden individueel op de anker zijn aangesloten."
+
+msgid "IfcVoidingFeatureCHAMFER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureCHAMFER"
+msgstr "Afschuining"
+
+msgid "IfcVoidingFeatureCHAMFER_DEFINITION"
+msgstr "Een geswwwond vlak eindsnede, materiaal verwijderen dat slechts een deel van het profiel van het geselecteerde element bevat."
+
+msgid "IfcVoidingFeatureCUTOUT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureCUTOUT"
+msgstr "Uitsnijding"
+
+msgid "IfcVoidingFeatureCUTOUT_DEFINITION"
+msgstr "Een interne uitsnijding (creëert een opening) of externe uitsnijding (creëert een recess) van willekeurige vorm. De randen tussen het knippen van vliegtuigen kunnen overschreden of ondergeknipt worden, dat wil zeggen afgerond worden."
+
+msgid "IfcVoidingFeatureEDGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureEDGE"
+msgstr "Rand"
+
+msgid "IfcVoidingFeatureEDGE_DEFINITION"
+msgstr "Een vorm wijziging langs een rand van het element met de randlengte als de dominante dimensie van de functie, en de afmetingen van het profiel die meestal veel kleiner zijn dan de lengte van het randprofiel. Kan bijvoorbeeld een chamferrand zijn (gedifferentieerd van een chamfer volgens de verhouding van de afmetingen en dus meestal op een andere manier vervaardigd), afgeronde rand (een convexe randfunctie), of de rand van de afronding (een concave rand)."
+
+msgid "IfcVoidingFeatureHOLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureHOLE"
+msgstr "Gat"
+
+msgid "IfcVoidingFeatureHOLE_DEFINITION"
+msgstr "Een circulaire of driekleurde gat, meestal maar niet noodzakelijkerwijs van een kleinere dimensie dan wat als een uitsnijding zou worden beschouwd."
+
+msgid "IfcVoidingFeatureMITER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureMITER"
+msgstr "Miter"
+
+msgid "IfcVoidingFeatureMITER_DEFINITION"
+msgstr "Een scheefgetrokken vlak eindsnede, materiaal uit het hele profiel van het element dat is ongeldig verklaard."
+
+msgid "IfcVoidingFeatureNOTCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVoidingFeatureNOTCH"
+msgstr "Notch"
+
+msgid "IfcVoidingFeatureNOTCH_DEFINITION"
+msgstr "Een externe uitsnijding met een overwegend rechthoekig snijprofiel. De randen tussen het knippen van vliegtuigen kunnen worden overschreven of onderknipt, d.w.z. afgerond."
+

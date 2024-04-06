@@ -1,0 +1,2498 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcProductExtension.pot\n"
+"X-Crowdin-File-ID: 180\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcAlignment"
+msgstr "Uitlijning"
+
+msgid "IfcAlignment_DEFINITION"
+msgstr "Voor de IFC definieert de Engelse term 'alignment' drie afzonderlijke maar nauw met elkaar verbonden concepten."
+
+msgid "Pset_LinearReferencingMethod"
+msgstr "Eigenschapsset: Lineaire verwijzingsmethode"
+
+msgid "Pset_LinearReferencingMethod_DEFINITION"
+msgstr "Beschrijft de manier waarop de metingen worden gemaakt langs (en optioneel offset van) een lineair element."
+
+msgid "LRMConstraint"
+msgstr "LRM beperking"
+
+msgid "LRMConstraint_DEFINITION"
+msgstr "Geeft toestemming voor de specificatie van de beperkingen opgelegd door deze lineaire verwijzingsmethode. Een Referentie Post Lineaire ReferencMethode kan bijvoorbeeld aangeven dat referenten van het type referentie marker zijn."
+
+msgid "LRMName"
+msgstr "LRM naam"
+
+msgid "LRMName_DEFINITION"
+msgstr "Geeft de naam van deze lineaire verwijzingsmethode, zoals bijvoorbeeld het herpunt van kilometer."
+
+msgid "LRMType"
+msgstr "LRM Type"
+
+msgid "LRMType_DEFINITION"
+msgstr "Geeft het type van deze lineaire verwijzingsmethode."
+
+msgid "LRMType_LRM_ABSOLUTE"
+msgstr "LRM Absoluut"
+
+msgid "LRMType_LRM_INTERPOLATIVE"
+msgstr "LRM interpolatief"
+
+msgid "LRMType_LRM_RELATIVE"
+msgstr "LRM relatief"
+
+msgid "LRMType_LRM_USERDEFINED"
+msgstr "In deze set wordt dit afgehandeld door de enumeringconstante [[LRM_USERDEFINED]] en de aanvullende eigenschap [[UserDefinedLRMType] ] toe te voegen"
+
+msgid "LRMUnit"
+msgstr "LRM eenheid"
+
+msgid "LRMUnit_DEFINITION"
+msgstr "Hiermee geeft u de eenheden aan die worden gebruikt door deze lineaire verwijzingsmethode voor metingen langs het lineaire element dat wordt gemeten."
+
+msgid "UserDefinedLRMType"
+msgstr "Gebruiker gedefinieerd LRM type"
+
+msgid "UserDefinedLRMType_DEFINITION"
+msgstr "Geeft het gebruiker gedefinieerde type van deze lineaire referentie methode wanneer eigenschap [[LRMType]] [[LRM_USERDEFINED] ] is ]."
+
+msgid "IfcAlignmentCant"
+msgstr "Uitlijning Kapot"
+
+msgid "IfcAlignmentCant_DEFINITION"
+msgstr "Een [[IfcAlignmentCant]] is een later inclinatieprofiel gedefinieerd in de horizontale uitlijning. Alle punten in dit profiel hebben twee coördinatenwaarden. De eerste waarde is de afstand langs de horizontale uitlijning, en de tweede waarde is de hoogte relatief aan de projectie van het punt langs de verticale uitlijning."
+
+msgid "RailHeadDistance"
+msgstr "Hoofdafstand van spoor"
+
+msgid "RailHeadDistance_DEFINITION"
+msgstr "[[Length]] gemeten als afstand tussen de nominale centrumpunten van de twee contactpunten van een wielset en rails."
+
+msgid "IfcAlignmentHorizontal"
+msgstr "Uitlijning Horizontaal"
+
+msgid "IfcAlignmentHorizontal_DEFINITION"
+msgstr "Een [[IfcAlignmentHorizontal]] is een lineaire referentie geprojecteerd op het horizontale x/y-vliegtuig. Punten langs een horizontale uitlijning hebben twee coördinatenwaarden, x en y in het lokale cartesiaanse constructiesysteem."
+
+msgid "IfcAlignmentSegment"
+msgstr "Uitlijning segment"
+
+msgid "IfcAlignmentSegment_DEFINITION"
+msgstr "Een [[IfcAlignmentSegment]] is een segment van een [[IfcAlignment]] waar de verticale of horizontale richting of cant (in het geval van trackdesign) een unieke wiskundige beschrijving gehoorzaamt als een functie van de horizontale projectieguntsegmentlengte van de uitlijning."
+
+msgid "Pset_AlignmentCantSegmentCommon"
+msgstr "Eigenschapsset: Uitlijning Cant Segment Gemeenschappelijk"
+
+msgid "Pset_AlignmentCantSegmentCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle exemplaren van het uitlijningssegment met designParameters voor kans."
+
+msgid "CantDeficiency"
+msgstr "Cant Deficiëntie"
+
+msgid "CantDeficiency_DEFINITION"
+msgstr "Verschil tussen toegepast blikje en een hoger evenwicht kanaal."
+
+msgid "CantEquilibrium"
+msgstr "Cant Equilibrium"
+
+msgid "CantEquilibrium_DEFINITION"
+msgstr "Het rijdend vliegtuig mag niet met een bepaald tempo worden uitgerust."
+
+msgid "EndSmoothingLength"
+msgstr "Stop vloeiende lengte"
+
+msgid "EndSmoothingLength_DEFINITION"
+msgstr "[[Length]] voor de circulaire transitie-verandering van kromming aan het einde van het kant segment, gemeten vanaf het begin van de circulaire transitie verandering van kromming naar het einde van het kant segment."
+
+msgid "StartSmoothingLength"
+msgstr "Start vloeiende lengte"
+
+msgid "StartSmoothingLength_DEFINITION"
+msgstr "[[Length]] voor de circulaire transitie-verandering van kromming aan het begin van het kant segment, gemeten vanaf het begin van het kant segment tot het einde van de circulaire transitie verandering van curvat."
+
+msgid "Pset_AlignmentVerticalSegmentCommon"
+msgstr "Eigenschapsset: Uitlijning Verticale Segment Gemeenschappelijk"
+
+msgid "Pset_AlignmentVerticalSegmentCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle exemplaren van het verticale uitlijningssegment."
+
+msgid "EndElevation"
+msgstr "Einde hoogte"
+
+msgid "EndElevation_DEFINITION"
+msgstr "[[Elevation]] van het eindpunt ten opzichte van de gemiddelde zeespiegel."
+
+msgid "StartElevation"
+msgstr "Start hoogte"
+
+msgid "StartElevation_DEFINITION"
+msgstr "[[Elevation]] van het beginpunt ten opzichte van het gemiddelde zeeniveau."
+
+msgid "IfcAlignmentVertical"
+msgstr "Uitlijning verticaal"
+
+msgid "IfcAlignmentVertical_DEFINITION"
+msgstr "Een [[IfcAlignmentVertical]] is een hoogteprofiel langs de horizontale uitlijning. Punten langs een verticale uitlijning hebben twee coördinatenwaarden. De eerste waarde is de afstand langs de horizontale uitlijning, de tweede waarde is de hoogte volgens het coördinaatsysteem van de projecttechniek. Gebaseerd op de context van het project, zijn ze georeferenced en de hoogte waarde is converteerbaar naar orthogonale hoogte boven/onder de verticale datum."
+
+msgid "IfcAnnotation"
+msgstr "Aantekening"
+
+msgid "IfcAnnotation_DEFINITION"
+msgstr "Een aantekening is een informatieelement binnen de geometrische (en ruimte) context van een project. dat een notitie of betekenis toevoegt aan de objecten die het projectmodel vormen. Aantekeningen bevatten extra punten, curven, tekst, dimensie, hakken en andere grafische aantekeningen. Het omvat ook virtuele of symbolische vertegenwoordigingen van aanvullende modelcomponenten, vertegenwoordigt geen producten of ruimtelijke structuren, zoals onderzoekspunten en lijnen, contouren of vergelijkbare lijnen."
+
+msgid "Pset_AnnotationLineOfSight"
+msgstr "Property Set: Annotatielijn van licht"
+
+msgid "Pset_AnnotationLineOfSight_DEFINITION"
+msgstr "Specificeert de eigenschappen van de lijn van het zicht. Bijvoorbeeld het kan worden gebruikt om de lijn van de zichtbaarheid van het zicht op de weg tussen twee wegen (vooral tussen een toegangsweg en een openbare weg); of in het ontwerp van een stadion of theater."
+
+msgid "RoadVisibleDistanceLeft"
+msgstr "Zichtbare wegafstand links"
+
+msgid "RoadVisibleDistanceLeft_DEFINITION"
+msgstr "Afstand zichtbaar naar links van de toegang."
+
+msgid "RoadVisibleDistanceRight"
+msgstr "Zichtbare wegafstand rechts"
+
+msgid "RoadVisibleDistanceRight_DEFINITION"
+msgstr "Afstand zichtbaar voor het recht op toegang."
+
+msgid "SetbackDistance"
+msgstr "Afstand terugzetten"
+
+msgid "SetbackDistance_DEFINITION"
+msgstr "Setback afstand van het verbindingspunt op het belangrijkste element langs de as van het kleine element (bijv. . Afstand van een openbare weg waarop de richting van de ondertekenaar wordt gemeten."
+
+msgid "VisibleAngleLeft"
+msgstr "Zichtbare Hoek Links"
+
+msgid "VisibleAngleLeft_DEFINITION"
+msgstr "Hoek van zichtbaarheid links van de toegang."
+
+msgid "VisibleAngleRight"
+msgstr "Zichtbare Hoek Rechts"
+
+msgid "VisibleAngleRight_DEFINITION"
+msgstr "Hoek van zichtbaarheid naar rechts van toegang."
+
+msgid "Pset_SoundAttenuation"
+msgstr "Eigenschap Set: Geluid Attenuatie"
+
+msgid "Pset_SoundAttenuation_DEFINITION"
+msgstr "Gemeenschappelijke definitie om geluidsdruk af te dwingen op een punt namens een apparaat dat typisch wordt gebruikt in de context van bouwdiensten en distributiesystemen. Om geluidswaarden van een instantie van [[IfcDistributionFlowElement]] op een bepaalde locatie aan te geven, [[IfcAnnotation]] instantie(s) moeten worden toegewezen aan de [[IfcDistributionFlowElement]] via de IfcRelAssignsToProduct relatie. De [[IfcAnnotation]] moet [[ObjectType]] van '[[Sound]]' en de geometrische vertegenwoordiging van 'Annotatie Point' specificeren, bestaande uit één IfcPoint subtype zoals beschreven op [[IfcAnnotation]]. Deze eigenschap wordt meerdere keren geïnstantieerd op een object voor elke frequentieband."
+
+msgid "SoundFrequency"
+msgstr "Frequentie geluid"
+
+msgid "SoundFrequency_DEFINITION"
+msgstr "Lijst van nominale geluidsfrequenties, correlatie met de [[SoundPressure]] tijdreekswaarden (IfcTimeSeries.ListValues)"
+
+msgid "SoundPressure"
+msgstr "Geluid druk"
+
+msgid "SoundPressure_DEFINITION"
+msgstr "Een tijdreeks geluidsdrukwaarden gemeten in decibels aan een referentiedruk van 20 microPascals voor de genoemde octave-bandfrequentie. Elke waarde in IfcTimeSeries.ListValues is corgerelateerd aan de geluidsfrequentie op dezelfde positie binnen SoundFrequencies."
+
+msgid "SoundPressure_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "SoundScale"
+msgstr "Geluid Schaal"
+
+msgid "SoundScale_DEFINITION"
+msgstr "De referentie geluidsschaal. Decibels in een A-gewogen schaal; Decibels in een B-gewogen schaal; Decibels in een C-gewogen schaal; Geluidscriteria"
+
+msgid "SoundScale_DBA"
+msgstr "Decibels in een A-gewogen schaal; Decibels in een B-gewogen schaal; Decibels in een C-gewogen schaal; Noiscriteria; Noise beoordeling"
+
+msgid "SoundScale_DBB"
+msgstr "Decibels in een A-gewogen schaal; Decibels in een B-gewogen schaal; Decibels in een C-gewogen schaal; Noiscriteria; Noise beoordeling"
+
+msgid "SoundScale_DBC"
+msgstr "Decibels in een A-gewogen schaal; Decibels in een B-gewogen schaal; Decibels in een C-gewogen schaal; Noiscriteria; Noise beoordeling"
+
+msgid "SoundScale_NC"
+msgstr "De referentie geluidsschaal"
+
+msgid "SoundScale_NR"
+msgstr "Decibels in een A-gewogen schaal; Decibels in een B-gewogen schaal; Decibels in een C-gewogen schaal; Noiscriteria; Noise beoordeling"
+
+msgid "IfcBridge"
+msgstr "Brug"
+
+msgid "IfcBridge_DEFINITION"
+msgstr "Een Bridge is een civiele techniek die voetgangers, dieren doorgeeft voertuigen, diensten boven obstakels of tussen twee punten op een bovengrondse hoogte."
+
+msgid "Pset_BridgeCommon"
+msgstr "Property Set: Bridge Common"
+
+msgid "Pset_BridgeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschap ingesteld voor bridges."
+
+msgid "StructureIndicator"
+msgstr "Structuur Indicator"
+
+msgid "StructureIndicator_DEFINITION"
+msgstr "Het type brugstructuur (samengesteld, gecoateerd, homogeen of andere)"
+
+msgid "StructureIndicator_COATED"
+msgstr "gecodeerd"
+
+msgid "StructureIndicator_COMPOSITE"
+msgstr "Het type brugstructuur (samengesteld"
+
+msgid "StructureIndicator_HOMOGENEOUS"
+msgstr "homogeen of andere)"
+
+msgid "IfcBridgePart"
+msgstr "Brug Onderdeel"
+
+msgid "IfcBridgePart_DEFINITION"
+msgstr "Deel van een bridge."
+
+msgid "IfcBuilding"
+msgstr "Gebouw"
+
+msgid "IfcBuilding_DEFINITION"
+msgstr "Een gebouw is een bouwwerk dat onderdak biedt aan zijn bewoners of inhoud en op één plaats staat. Het gebouw wordt ook gebruikt om een basiselement binnen de ruimtelijke structuur hiërarchie te bieden voor de onderdelen van een bouwproject (samen met de site, verhaal- en ruimte)."
+
+msgid "Pset_BuildingCommon"
+msgstr "Eigenschapsset: Gewoon bouwen"
+
+msgid "Pset_BuildingCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcBuilding]]. Houd er rekening mee dat verschillende kenmerken van het gebouw direct worden afgehandeld in de [[IfcBuilding]], het huisnummer (of korte naam) door [[IfcBuilding]].[Name]], de bouwnaam (of lange naam) door [[IfcBuilding]].[LongName]], en de beschrijving (of commentaar) van [[IfcBuilding]].[[Description]]. Werkelijke hoeveelheden van gebouwen, zoals perimeter, bouwgebied en bouwvolume worden geleverd door IfcElementQuantity, en de classificatie van het gebouw volgens nationale bouwcode door IfcClassificationReferentie."
+
+msgid "BuildingID"
+msgstr "Opbouw ID"
+
+msgid "BuildingID_DEFINITION"
+msgstr "Een unieke id toegewezen aan een gebouw. Een tijdelijke identificatie is oorspronkelijk toegewezen op het moment van het maken van een planningsaanvraag. Deze tijdelijke identificatie wordt gewijzigd naar een permanente identificatie wanneer het gebouw is geregistreerd in een wettelijke gebouwen en accommodatiedatabase."
+
+msgid "ConstructionMethod"
+msgstr "Constructie Methode"
+
+msgid "ConstructionMethod_DEFINITION"
+msgstr "Het type bouwactie voor het object, bijvoorbeeld nieuwe bouw, renovatie, restauratie, etc."
+
+msgid "ElevationOfRefHeight"
+msgstr "Hoogte van Ref Hoogte"
+
+msgid "ElevationOfRefHeight_DEFINITION"
+msgstr "[[Elevation]] boven de zeespiegel van de referentiehoogte die gebruikt wordt voor alle waardes met de verdieping, is gelijk aan hoogte 0. . - Meestal gaat het om de onderste verdieping."
+
+msgid "ElevationOfTerrain"
+msgstr "Hoogte van de Ter regen"
+
+msgid "ElevationOfTerrain_DEFINITION"
+msgstr "[[Elevation]] boven de minimale terreinwaarde rond de voetafdruk van het gebouw, gegeven in hoogte boven zeeniveau."
+
+msgid "FireProtectionClass"
+msgstr "Vuurbescherming Klasse"
+
+msgid "FireProtectionClass_DEFINITION"
+msgstr "Hoofdbeschermingsklasse tegen brand voor het gebouw dat is toegewezen uit de classificatie brandbeveiliging zoals gegeven door de relevante nationale bouwcode."
+
+msgid "IsLandmarked"
+msgstr "Is aangeduid"
+
+msgid "IsLandmarked_DEFINITION"
+msgstr "Dit bouwwerk staat vermeld als een historisch gebouw (TRUE), of niet (FALSE), of onbekend."
+
+msgid "IsPermanentID"
+msgstr "Is Permanent ID"
+
+msgid "IsPermanentID_DEFINITION"
+msgstr "Geeft aan of de identiteit van het object permanent is (= WAAR of tijdelijk (=FALSE)."
+
+msgid "NumberOfStoreys"
+msgstr "Aantal opslagplaatsen"
+
+msgid "NumberOfStoreys_DEFINITION"
+msgstr "Het aantal opslagplaatsen in een gebouw.; Gevangen voor die gevallen waarin de [[IfcBuildingStorey]] entiteit niet wordt gebruikt. Merk op dat als [[IfcBuildingStorey]] wordt beweerd en het aantal opslagplaatsen in een gebouw kan worden bepaald ervanuit, dan moet deze aanpak worden toegepast in de voorkeur geven aan het vaststellen van een onroerend goed voor het aantal storeyes."
+
+msgid "YearOfConstruction"
+msgstr "Jaar van de bouw"
+
+msgid "YearOfConstruction_DEFINITION"
+msgstr "Jaar van de bouw van dit gebouw, met inbegrip van het verwachte jaar van voltooiing van dit gebouw."
+
+msgid "YearOfLastRefurbishment"
+msgstr "Laatste Reparatie Jaar"
+
+msgid "YearOfLastRefurbishment_DEFINITION"
+msgstr "Jaar van laatste grote renovatie, of wederopbouw, van het gebouw (van toepassing op wederopbouwwerken)."
+
+msgid "Pset_BuildingUse"
+msgstr "Eigenschapsset: Gebouw gebruik"
+
+msgid "Pset_BuildingUse_DEFINITION"
+msgstr "Biedt informatie over de onroerend-goedcontext van het wekken van belangstelling, zowel op dit moment als in de verwachtingen."
+
+msgid "MarketCategory"
+msgstr "Markt Categorie"
+
+msgid "MarketCategory_DEFINITION"
+msgstr "[[Category]] van gebruik b.v. residentieel, commercieel, recreatie etc."
+
+msgid "MarketSubCategoriesAvailableFuture"
+msgstr "Markt Sub Categorieën Beschikbaar toekomst"
+
+msgid "MarketSubCategoriesAvailableFuture_DEFINITION"
+msgstr "Een lijst van de subcategorieën van eigendommen die in de toekomst naar verwachting beschikbaar zullen zijn, uitgedrukt in IfcLabel."
+
+msgid "MarketSubCategoriesAvailableNow"
+msgstr "Markt Sub Categorieën Nu Beschikbaar"
+
+msgid "MarketSubCategoriesAvailableNow_DEFINITION"
+msgstr "Een lijst van de subcategorieën van eigenschap die momenteel beschikbaar zijn uitgedrukt in IfcLabel."
+
+msgid "MarketSubCategory"
+msgstr "Markt Sub categorie"
+
+msgid "MarketSubCategory_DEFINITION"
+msgstr "Subset categorie voor gebruik b.v. multi-familie, 2 slaapkamer, lage stijging."
+
+msgid "NarrativeText"
+msgstr "Oorspronkelijke tekst"
+
+msgid "NarrativeText_DEFINITION"
+msgstr "Gegevens met betrekking tot het aangrenzende gebouw toegevoegd die niet geschikt zijn voor de algemene beschrijvende tekst van een entiteit via de overgenomen [[IfcRoot]].[Description]]."
+
+msgid "PlanningControlStatus"
+msgstr "Planning Controlestatus"
+
+msgid "PlanningControlStatus_DEFINITION"
+msgstr "Label van zoningcategorie of -klasse of planningsregelcategorie voor de site of faciliteit."
+
+msgid "RentalRatesInCategoryFuture"
+msgstr "Verhuurprijzen in de toekomstige categorie"
+
+msgid "RentalRatesInCategoryFuture_DEFINITION"
+msgstr "[[Range]] van de kostenkoersen voor onroerend goed zal naar verwachting in de toekomst beschikbaar zijn in de vereiste categorie."
+
+msgid "RentalRatesInCategoryNow"
+msgstr "Verhuurprijzen in categorie nu"
+
+msgid "RentalRatesInCategoryNow_DEFINITION"
+msgstr "[[Range]] van de kosten van de accommodatie momenteel beschikbaar in de vereiste categorie."
+
+msgid "TenureModesAvailableFuture"
+msgstr "Duratiemodi beschikbaar voor toekomst"
+
+msgid "TenureModesAvailableFuture_DEFINITION"
+msgstr "Een lijst van de tenuremodi die naar verwachting in de toekomst beschikbaar zullen zijn met betrekking tot IfcLabel."
+
+msgid "TenureModesAvailableNow"
+msgstr "Trek modi nu beschikbaar"
+
+msgid "TenureModesAvailableNow_DEFINITION"
+msgstr "Een lijst van de tenure modi die momenteel beschikbaar zijn uitgedrukt in termen van IfcLabel."
+
+msgid "VacancyRateInCategoryFuture"
+msgstr "Vacancy tarief in de categorie toekomst"
+
+msgid "VacancyRateInCategoryFuture_DEFINITION"
+msgstr "Percentage vacant in de specifieke categorie die in de toekomst wordt verwacht."
+
+msgid "VacancyRateInCategoryNow"
+msgstr "Vakantie percentage in categorie"
+
+msgid "VacancyRateInCategoryNow_DEFINITION"
+msgstr "Percentage vacant op dit moment in de specifieke categorie."
+
+msgid "Pset_BuildingUseAdjacent"
+msgstr "Eigenschapsset: Bouw Gebruik Adjacent"
+
+msgid "Pset_BuildingUseAdjacent_DEFINITION"
+msgstr "Biedt informatie over aangrenzende gebouwen en het gebruik ervan om de invloed ervan op de bouw van rente te bepalen. Merk op dat voor elk exemplaar van de gebruikte propertyset waar er een risico bestaat, er zal een exemplaar zijn van de propertyset [[Pset_Risk]] (q.v)."
+
+msgid "Qto_BuildingBaseQuantities"
+msgstr "Hoeveelheid set: Bouw basishoeveelheid"
+
+msgid "Qto_BuildingBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van gebouwen."
+
+msgid "EavesHeight"
+msgstr "Eaves hoogte"
+
+msgid "EavesHeight_DEFINITION"
+msgstr "[[Standard]] nettohoogte van dit verhaal, vanaf de bovenzijde van de constructie verdieping, naar het onderste oppervlak van de constructievloer of het dak boven. Er is alleen sprake van een constante hoogte."
+
+msgid "GrossFloorArea"
+msgstr "Bruto vloergebied"
+
+msgid "GrossFloorArea_DEFINITION"
+msgstr "Som van alle brutovloergebieden binnen het ruimtelijke structuurelement."
+
+msgid "NetFloorArea"
+msgstr "Netto vloer gebied"
+
+msgid "NetFloorArea_DEFINITION"
+msgstr "Som van alle netto bruikbare vloeren."
+
+msgid "Pset_OutsideDesignCriteria"
+msgstr "Eigenschapsset: Buiten Ontwerp Criteria"
+
+msgid "Pset_OutsideDesignCriteria_DEFINITION"
+msgstr "Buiten de luchtomstandigheden gebruikt als basis voor het berekenen van thermische ladingen bij piekomstandigheden, evenals de plaats van weergegevens waaruit deze voorwaarden zijn verkregen."
+
+msgid "BuildingThermalExposure"
+msgstr "Thermische blootstelling aan gebouwen"
+
+msgid "BuildingThermalExposure_DEFINITION"
+msgstr "De thermische blootstelling die wordt verwacht door het gebouw op basis van de omgevingsomstandigheden."
+
+msgid "BuildingThermalExposure_HEAVY"
+msgstr "Zwaar"
+
+msgid "BuildingThermalExposure_LIGHT"
+msgstr "Licht"
+
+msgid "BuildingThermalExposure_MEDIUM"
+msgstr "Middelgroot"
+
+msgid "BuildingThermalExposure_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "BuildingThermalExposure_UNSET"
+msgstr "Uitzetten"
+
+msgid "CoolingDesignDay"
+msgstr "Koeling ontwerpdag"
+
+msgid "CoolingDesignDay_DEFINITION"
+msgstr "De maand, dag en tijd die is geselecteerd voor de berekening van het koelontwerp."
+
+msgid "CoolingWetBulb"
+msgstr "Koelende natte kogel"
+
+msgid "CoolingWetBulb_DEFINITION"
+msgstr "Buiten natte lamptemperatuur voor koeling ontwerp."
+
+msgid "HeatingDesignDay"
+msgstr "Verwarming Ontwerpdag"
+
+msgid "HeatingDesignDay_DEFINITION"
+msgstr "De maand, dag en tijd die is geselecteerd voor de berekeningen van verwarmingsontwerp."
+
+msgid "HeatingWetBulb"
+msgstr "Verwarming Natte Kogel"
+
+msgid "HeatingWetBulb_DEFINITION"
+msgstr "Buiten natte lamptemperatuur voor verwarming ontwerp."
+
+msgid "PrevailingWindDirection"
+msgstr "Windrichting voorkomen"
+
+msgid "PrevailingWindDirection_DEFINITION"
+msgstr "De huidige windhoekrichting gemeten vanuit True North (0 graden) in de klok richting"
+
+msgid "PrevailingWindVelocity"
+msgstr "Voorkomen van wind snelheid"
+
+msgid "PrevailingWindVelocity_DEFINITION"
+msgstr "De ontwerpwindsnelheid die afkomstig is uit de richting die is opgegeven door het [[PrevailingWindDirection]] attribuut."
+
+msgid "WeatherDataDate"
+msgstr "Weer Data Datum"
+
+msgid "WeatherDataDate_DEFINITION"
+msgstr "De datum waarop de weergegevens verzameld zijn."
+
+msgid "WeatherDataStation"
+msgstr "Weergegevensstation"
+
+msgid "WeatherDataStation_DEFINITION"
+msgstr "Het weerstation van de site beschrijft of verwijst naar de gegevensbron waaruit weergegevens zijn verkregen voor gebruik in berekeningen."
+
+msgid "Pset_UtilityConsumptionPHistory"
+msgstr "Eigenschapsset: Hulpgeschiedenis"
+
+msgid "Pset_UtilityConsumptionPHistory_DEFINITION"
+msgstr "Verbruik van hulpbronnen, meestal toegepast op de [[IfcBuilding]], gebruikt om vast te stellen hoeveel verbruikt werd op I.e., een maandelijkse basis."
+
+msgid "Electricity"
+msgstr "Elektriciteit"
+
+msgid "Electricity_DEFINITION"
+msgstr "De hoeveelheid elektriciteit verbruikt tijdens de periode die is opgegeven in de tijdserie."
+
+msgid "Electricity_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Fuel"
+msgstr "Brandstof"
+
+msgid "Fuel_DEFINITION"
+msgstr "De hoeveelheid brandstof verbruikt tijdens de periode die is opgegeven in de tijdserie."
+
+msgid "Fuel_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Heat"
+msgstr "Warmte"
+
+msgid "Heat_DEFINITION"
+msgstr "De hoeveelheid verbruikte warmteenergie tijdens de periode die is opgegeven in de tijdserie."
+
+msgid "Heat_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Steam"
+msgstr "Stoom"
+
+msgid "Steam_DEFINITION"
+msgstr "De hoeveelheid stoom verbruikt tijdens de periode die is opgegeven in de tijdserie."
+
+msgid "Steam_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Water"
+msgstr "Water"
+
+msgid "Water_DEFINITION"
+msgstr "De hoeveelheid water verbruikt tijdens de periode die is opgegeven in de tijdserie."
+
+msgid "Water_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "IfcBuildingStorey"
+msgstr "Bouw Storey"
+
+msgid "IfcBuildingStorey_DEFINITION"
+msgstr "De verdieping van het gebouw heeft een hoogte en vertegenwoordigt meestal een (bijna) horizontale samenvoeging van ruimtes die verticaal gebonden zijn."
+
+msgid "Pset_BuildingStoreyCommon"
+msgstr "Eigenschappen Set: Bouw Storey Gemeenschappelijk"
+
+msgid "Pset_BuildingStoreyCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcBuildingStorey]]. Houd er rekening mee dat verschillende kenmerken van het gebouw rechtstreeks worden afgehandeld in de [[IfcBuildingStorey]] instantie. de gebouw verdieping (of korte naam) door [[IfcBuildingStorey]].[Name]], de bouwverdieping (of lange naam) door [[IfcBuildingStorey]].[LongName]], en de beschrijving (of commentaar) van [[IfcBuildingStorey]].[[Description]]. Echte aantallen verdiepingen in gebouwen, zoals torenperimeter, gebouw verdiepingsgebied en gebouw verdiepingsvolume zijn voorzien door IfcElementQuantity, en de classificatie van de gebouw verdieping, volgens nationale bouwcode door IfcClassificationReferentie."
+
+msgid "AboveGround"
+msgstr "Boven grond"
+
+msgid "AboveGround_DEFINITION"
+msgstr "Bepaal of deze bouwverdiepingen volledig boven de grond liggen (WAAR of onder de grond (FALSE), of gedeeltelijk boven en onder de grond ([[UNKNOWN]]) - zoals in schuin terrein."
+
+msgid "ElevationOfFFLRelative"
+msgstr "Hoogte van FFL relatief"
+
+msgid "ElevationOfFFLRelative_DEFINITION"
+msgstr "[[Elevation]] van de bovenzijde van het voltooide vloerniveau dat is gegeven in de hoogte boven de lokale nulhoogte. Als het niveau varieert en er geen aanzienlijk prominentere hoogte is, dan kan deze eigenschap worden weggelaten. In het geval van een eventuele inconsistentie met de geometrische positionering van het topoppervlak heeft de geometrische vertegenwoordiging voorrang."
+
+msgid "ElevationOfSSLRelative"
+msgstr "Hoogte van SSL relatief"
+
+msgid "ElevationOfSSLRelative_DEFINITION"
+msgstr "[[Elevation]] van de bovenste oppervlakte van het structurele slabniveau gegeven in hoogte boven de lokale nulhoogte. Als het niveau varieert en er geen aanzienlijk prominentere hoogte is, dan kan deze eigenschap worden weggelaten. In het geval van een eventuele inconsistentie met de geometrische positionering van het topoppervlak heeft de geometrische vertegenwoordiging voorrang."
+
+msgid "EntranceLevel"
+msgstr "Ingang Niveau"
+
+msgid "EntranceLevel_DEFINITION"
+msgstr "Geef aan of deze verdieping een ingangniveau is voor het gebouw (WAAR ), of (FALSE) als dit niet het geval is."
+
+msgid "LoadBearingCapacity"
+msgstr "Laad peiling capaciteit"
+
+msgid "LoadBearingCapacity_DEFINITION"
+msgstr "Maximale draagcapaciteit van de vloer door de verdieping zoals ontworpen is."
+
+msgid "Qto_BuildingStoreyBaseQuantities"
+msgstr "Hoeveelheid Set: Bouw Storey basisaantallen"
+
+msgid "Qto_BuildingStoreyBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het bouwen van de opslagplaats."
+
+msgid "GrossHeight"
+msgstr "Bruto hoogte"
+
+msgid "GrossHeight_DEFINITION"
+msgstr "[[Standard]] grove hoogte van dit verhaal, vanaf de bovenzijde van de bouwvloer, naar boven van de bouwvloer of dak. Er is alleen sprake van een constante hoogte."
+
+msgid "GrossPerimeter"
+msgstr "Bruto Peri Meter"
+
+msgid "GrossPerimeter_DEFINITION"
+msgstr "Bruto omtrek bij de buitenste contouren van het object."
+
+msgid "NetHeight"
+msgstr "Netto hoogte"
+
+msgid "NetHeight_DEFINITION"
+msgstr "[[Standard]] nettohoogte van dit verhaal, vanaf de bovenzijde van de constructie verdieping, naar het onderste oppervlak van de constructievloer of het dak boven. Er is alleen sprake van een constante hoogte."
+
+msgid "IfcBuiltElement"
+msgstr "Gebouwd element"
+
+msgid "IfcBuiltElement_DEFINITION"
+msgstr "Het bouwwerk bestaat uit alle elementen die in de eerste plaats deel uitmaken van de bouw van een bouwfaciliteit, d.w.z. zijn structurele en ruimtescheidingssysteem. Gebouwde elementen zijn allemaal fysiek aanwezig en tastbaar."
+
+msgid "IfcBuiltSystem"
+msgstr "Gebouwd systeem"
+
+msgid "IfcBuiltSystem_DEFINITION"
+msgstr "Een gebouwd systeem is een groep waarin de bouwstenen worden gegroepeerd volgens een gemeenschappelijke functie binnen de faciliteit."
+
+msgid "Pset_ProcessCapacity"
+msgstr "Eigenschapsset: Proces Capaciteit"
+
+msgid "Pset_ProcessCapacity_DEFINITION"
+msgstr "Eigenschap ingesteld voor de toepassing van procesgegevens op ruimtelijke elementen en transport van goederen"
+
+msgid "DownstreamConnections"
+msgstr "Stroomafwaarts verbindingen"
+
+msgid "DownstreamConnections_DEFINITION"
+msgstr "Namen van stroomafwaarts verbonden apparatuur en ruimten, indien niet anders vertegenwoordigd"
+
+msgid "ProcessCapacity"
+msgstr "Proces Capaciteit"
+
+msgid "ProcessCapacity_DEFINITION"
+msgstr "Het aantal eenheden dat kan worden verwerkt in de tijd gedefinieerd in [[ProcessPerformance]]"
+
+msgid "ProcessItem"
+msgstr "Verwerk Item"
+
+msgid "ProcessItem_DEFINITION"
+msgstr "Het type product (en zijn meetmethode) wordt gemodelleerd binnen een proces. Dit kan vrachtvervoer, passagiers of voertuigen zijn die door het systeem lopen."
+
+msgid "ProcessItem_BARREL"
+msgstr "Vat"
+
+msgid "ProcessItem_CGT"
+msgstr "CGT"
+
+msgid "ProcessItem_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ProcessItem_OTHER"
+msgstr "anders"
+
+msgid "ProcessItem_PASSENGER"
+msgstr "passagiers of voertuigen die door het systeem rijden"
+
+msgid "ProcessItem_TEU"
+msgstr "TEU"
+
+msgid "ProcessItem_TONNE"
+msgstr "Tonne"
+
+msgid "ProcessItem_UNSET"
+msgstr "Uitzetten"
+
+msgid "ProcessItem_VEHICLE"
+msgstr "passagiers of voertuigen die door het systeem rijden"
+
+msgid "ProcessPerformance"
+msgstr "Verwerk prestaties"
+
+msgid "ProcessPerformance_DEFINITION"
+msgstr "Minimale tijd om de gehele artikelcapaciteit te accepteren of te verzenden."
+
+msgid "UpstreamConnections"
+msgstr "Stroomopwaarts verbindingen"
+
+msgid "UpstreamConnections_DEFINITION"
+msgstr "Namen van stroomopwaartse apparaten en ruimten, indien niet anders vertegenwoordigd"
+
+msgid "Pset_ServiceLifeFactors"
+msgstr "Eigenschap set: Service Leven Factoren"
+
+msgid "Pset_ServiceLifeFactors_DEFINITION"
+msgstr "Bepaalt verschillende factoren die van invloed zijn op het verwachte levensduur van elementen binnen het systeem of zone."
+
+msgid "DesignLevel"
+msgstr "Ontwerp niveau"
+
+msgid "DesignLevel_DEFINITION"
+msgstr "Aanpassing van de levensduur is het gevolg van het effect van het inzetbare modelniveau."
+
+msgid "IndoorEnvironment"
+msgstr "Binnen omgeving"
+
+msgid "IndoorEnvironment_DEFINITION"
+msgstr "Aanpassing van de levensduur als gevolg van het effect van de binnenomgeving (indien gewenst)."
+
+msgid "InUseConditions"
+msgstr "In Gebruik Voorwaarden"
+
+msgid "InUseConditions_DEFINITION"
+msgstr "Aanpassing van de levensduur is het gevolg van het effect van de omstandigheden waarin de onderdelen werken."
+
+msgid "MaintenanceLevel"
+msgstr "Onderhoudsniveau"
+
+msgid "MaintenanceLevel_DEFINITION"
+msgstr "Aanpassing van de levensduur is het gevolg van het effect van het onderhoudsniveau of de mate van onderhoud van componenten."
+
+msgid "OutdoorEnvironment"
+msgstr "Buitenlucht omgeving"
+
+msgid "OutdoorEnvironment_DEFINITION"
+msgstr "Aanpassing van de levensduur als gevolg van het effect van de buitenomgeving (indien toepasselijk)"
+
+msgid "QualityOfComponents"
+msgstr "Kwaliteit van componenten"
+
+msgid "QualityOfComponents_DEFINITION"
+msgstr "Aanpassing van de levensduur is het gevolg van de kwaliteit van de gebruikte onderdelen."
+
+msgid "WorkExecutionLevel"
+msgstr "Werkuitvoeringsniveau"
+
+msgid "WorkExecutionLevel_DEFINITION"
+msgstr "Aanpassing van de dienstverlening is het gevolg van het effect van de kwaliteit van het uitgevoerde werk."
+
+msgid "IfcDistributionElement"
+msgstr "Distributie element"
+
+msgid "IfcDistributionElement_DEFINITION"
+msgstr "[[IfcDistributionElement]] is een generalisatie van alle elementen die deelnemen aan een distributiesysteem."
+
+msgid "IfcElement"
+msgstr "Element"
+
+msgid "IfcElement_DEFINITION"
+msgstr "Een element is een generalisatie van alle componenten die een faciliteit vormen."
+
+msgid "IfcElementAssembly"
+msgstr "Element Assembly"
+
+msgid "IfcElementAssembly_DEFINITION"
+msgstr "De [[IfcElementAssembly]] staat voor complexe elementen samengevoegd uit verschillende elementen, zoals discrete elementen, bouwelementen, of andere elementen."
+
+msgid "Pset_ElementAssemblyCommon"
+msgstr "Eigenschapsset: Element Assembly Gemeenschappelijk"
+
+msgid "Pset_ElementAssemblyCommon_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van element assemblage."
+
+msgid "IfcExternalSpatialElement"
+msgstr "Extern ruimtelijk element"
+
+msgid "IfcExternalSpatialElement_DEFINITION"
+msgstr "Het externe ruimtelijke element definieert externe regio's in de bouwplaats."
+
+msgid "IfcExternalSpatialStructureElement"
+msgstr "Externe ruimtelijke structuur element"
+
+msgid "IfcExternalSpatialStructureElement_DEFINITION"
+msgstr "Het externe element van de ruimtelijke ordening is een abstracte entiteit die voorziet in verschillende soorten externe ruimten, regio's en volumes."
+
+msgid "IfcFacility"
+msgstr "Faciliteit"
+
+msgid "IfcFacility_DEFINITION"
+msgstr "Een faciliteit (afgeleid van [[IfcSpatialStructureElement]]) kan een [[IfcBuilding]], een [[IfcBridge]], een [[IfcRailway]], zijn, een [[IfcRoad]], een [[IfcMarineFacility]] (of een ander type gebouwde faciliteit in de toekomst, zoals IfcTunnel)."
+
+msgid "IfcFacilityPart"
+msgstr "Faciliteit Onderdeel"
+
+msgid "IfcFacilityPart_DEFINITION"
+msgstr "[[IfcFacilityPart]] voorziet in een ruimtelijke uitsplitsing van de gebouwde faciliteiten. Het kan verder gespecialiseerd zijn op basis van het type faciliteit dat wordt afgebroken."
+
+msgid "IfcFacilityPartCommon"
+msgstr "Gemeenschappelijk onderdeel"
+
+msgid "IfcFacilityPartCommon_DEFINITION"
+msgstr "Een onderdeel dat niet duidelijk deel uitmaakt van één domein, maar een hybride is en gedeelde verantwoordelijkheden heeft op meerdere terreinen."
+
+msgid "IfcFeatureElement"
+msgstr "Functie element"
+
+msgid "IfcFeatureElement_DEFINITION"
+msgstr "Een kenmerk is een generalisatie van alle bestaansafhankelijke elementen die de vorm en het uiterlijk van het bijbehorende hoofdelement wijzigen. De [[IfcFeatureElement]] biedt de mogelijkheid om vorm modifiers als semantische objecten binnen het IFC-objectmodel te behandelen."
+
+msgid "IfcFeatureElementAddition"
+msgstr "Functie element toevoeging"
+
+msgid "IfcFeatureElementAddition_DEFINITION"
+msgstr "Een toevoeging van een kenmerk is een specialisatie van het algemene feature element, dat betekent een bestaansafhankelijke element dat de vorm en het uiterlijk van het bijbehorende hoofdelement verandert. De [[IfcFeatureElementAddition]] biedt de mogelijkheid om vorm modifiers te behandelen als semantische objecten binnen het IFC-objectmodel dat de vorm van het hoofdelement toevoegt."
+
+msgid "IfcFeatureElementSubtraction"
+msgstr "Functie element aftrekken"
+
+msgid "IfcFeatureElementSubtraction_DEFINITION"
+msgstr "De [[IfcFeatureElementSubtraction]] is gespecialiseerd in het algemene feature element, dat betekent een bestaansafhankelijke element dat de vorm en het uiterlijk van het bijbehorende hoofdelement verandert. De [[IfcFeatureElementSubtraction]] biedt de mogelijkheid om vorm modifiers te behandelen als semantische objecten binnen het IFC-objectmodel die aftrekken van de vorm van het hoofdelement."
+
+msgid "IfcFurnishingElement"
+msgstr "Meubilair element"
+
+msgid "IfcFurnishingElement_DEFINITION"
+msgstr "Een meubilair element is een generalisatie van alle meubilair gerelateerde objecten. Inrichting van objecten worden gekarakteriseerd als zijnde"
+
+msgid "IfcGeographicElement"
+msgstr "Geografisch Element"
+
+msgid "IfcGeographicElement_DEFINITION"
+msgstr "Een [[IfcGeographicElement]] is een generalisatie van alle elementen binnen een geografisch landschap. Het omvat voorbeelden van typische geografische elementen, vaak kenmerken zoals bomen of terreinen. Veel voorkomende informatie achter verschillende gebeurtenissen van [[IfcGeographicElement]] wordt verstrekt door het IfcGeographicElementType."
+
+msgid "IfcGrid"
+msgstr "Rooster"
+
+msgid "IfcGrid_DEFINITION"
+msgstr "[[IfcGrid]] ia een planair ontwerpraster gedefinieerd in 3D-ruimte die gebruikt wordt als hulp bij het vinden van structurele en ontwerpelementen. De positie van het raster (ObjectPlacement) is bepaald door een 3D-coördinatensysteem (en dus kan het ontwerpraster worden gebruikt in het plan, sectie of in elke positie ten opzichte van het wereldwijde coördinaatsysteem). De positie kan relatief zijn ten opzichte van het object plaatsing van andere producten of rasters. Het XY-vlak van het 3D-coördinaatsysteem wordt gebruikt om de rasterassen te plaatsen, die 2D-curves zijn (bijvoorbeeld, lijn, cirkel, boog, polylijn)."
+
+msgid "IfcImpactProtectionDevice"
+msgstr "Impact Bescherming Apparaat"
+
+msgid "IfcImpactProtectionDevice_DEFINITION"
+msgstr "Een impact beveiligingsapparaat is een onderdeel dat wordt gebruikt om andere gebouwde elementen te beschermen tegen kinetische schade."
+
+msgid "Qto_ImpactProtectionDeviceBaseQuantities"
+msgstr "Hoeveelheid Set: Impact Bescherming Apparaat Basis Hoeveelheden"
+
+msgid "Qto_ImpactProtectionDeviceBaseQuantities_DEFINITION"
+msgstr "Hoeveelheid instellen Impact Bescherming Apparaat Basis."
+
+msgid "IfcLinearElement"
+msgstr "Lineair element"
+
+msgid "IfcLinearElement_DEFINITION"
+msgstr "Een generalisatie van alle lineaire elementen die delen van een uitlijning zijn."
+
+msgid "IfcLinearPositioningElement"
+msgstr "Lineaire positionering element"
+
+msgid "IfcLinearPositioningElement_DEFINITION"
+msgstr "Een [[IfcLinearPositioningElement]] is een entiteit die de positie op een curve beschrijft."
+
+msgid "IfcOpeningElement"
+msgstr "Openings element"
+
+msgid "IfcOpeningElement_DEFINITION"
+msgstr "Het openingselement staat voor opening, recess of achteruitgang. Het vertegenwoordigt een leegte binnen elk element met fysieke uitstraling. Openingen kunnen worden ingevoegd in muren, slaven, stralen, kolommen, of andere elementen."
+
+msgid "Pset_OpeningElementCommon"
+msgstr "Eigenschapsset: Openingselement gemeenschappelijk"
+
+msgid "Pset_OpeningElementCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle instanties van [[IfcOpeningElement]]."
+
+msgid "AcousticRating"
+msgstr "Akoestische waardering"
+
+msgid "AcousticRating_DEFINITION"
+msgstr "Akoestische beoordeling voor dit object; het wordt verstrekt volgens de nationale bouwcode. Het geeft de geluidstransmissie weerstand van dit object aan door een index ratio (in plaats van volledige geluidsabsorptie waarden)."
+
+msgid "Qto_OpeningElementBaseQuantities"
+msgstr "Hoeveelheid Set: Openings element basishoeveelheden"
+
+msgid "Qto_OpeningElementBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van openingselementen."
+
+msgid "Depth"
+msgstr "Diepte"
+
+msgid "Depth_DEFINITION"
+msgstr "De diepte van het object."
+
+msgid "IfcPort"
+msgstr "Poort"
+
+msgid "IfcPort_DEFINITION"
+msgstr "Een poort biedt de middelen voor een element om te verbinden met andere elementen."
+
+msgid "IfcPositioningElement"
+msgstr "Positionering element"
+
+msgid "IfcPositioningElement_DEFINITION"
+msgstr "Nieuwe en abstracte entiteitdefinitie voor positionering en aantekening van elementen die gebruikt worden om andere elementen relatief, te positioneren."
+
+msgid "IfcProjectionElement"
+msgstr "Projectie element"
+
+msgid "IfcProjectionElement_DEFINITION"
+msgstr "Het projectie-element is een specialisatie van het algemene feature element om projecties weer te geven die worden toegepast op bouwelementen. Het is een solide gehechtheid aan elk element dat fysieke uitingen bevat."
+
+msgid "Qto_ProjectionElementBaseQuantities"
+msgstr "Aantal instellingen: Projectie Element Basis Hoeveelheden"
+
+msgid "Qto_ProjectionElementBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van projectieelementen."
+
+msgid "IfcReferent"
+msgstr "Referentie"
+
+msgid "IfcReferent_DEFINITION"
+msgstr "[[IfcReferent]] definieert een positie op een bepaalde offset langs een uitlijningscurve."
+
+msgid "Pset_ReferentCommon"
+msgstr "Eigenschapsset: Verwijzend gemeenschappelijk"
+
+msgid "Pset_ReferentCommon_DEFINITION"
+msgstr "Specificeert algemene eigenschappen van [[IfcReferent]]"
+
+msgid "NameFormat"
+msgstr "Naam formaat"
+
+msgid "NameFormat_DEFINITION"
+msgstr "Specificeert een verwijzing naar of beschrijving van de opmaak of codering van de [[Name]] attribuut van de [[IfcReferent]]."
+
+msgid "Pset_Stationing"
+msgstr "Eigenschapsset: Stationing"
+
+msgid "Pset_Stationing_DEFINITION"
+msgstr "Specificeert stationering parameters voor [[IfcReferent]]."
+
+msgid "HasIncreasingStation"
+msgstr "Heeft Station verhoogd"
+
+msgid "HasIncreasingStation_DEFINITION"
+msgstr "Informeer of vermindert de voortgang van de stationering van waarden, voor verwijzingen genezen in een bepaalde uitlijning. f present en waar, of indien niet aanwezig, dan zullen de relevante relevante geneste verwijzers naar verwachting meer [[Pset_Stationing]] hebben.[Station]] waarden (d.w.z. hogere stations).Indien aanwezig en onwaar, dan zullen de relevante verwijzers lager [[Pset_Stationing]] hebben.[Station]] waarden (d.w.z. dalende zenders)."
+
+msgid "IncomingStation"
+msgstr "Binnenkomend station"
+
+msgid "IncomingStation_DEFINITION"
+msgstr "De optionele stationwaarde van het inkomende segment dat op deze locatie eindigt. Deze waarde moet worden ingesteld als de bedoeling is om een station vergelijking op te geven, d.w.z. een locatie waar wijzigingen worden aangebracht in de stationering."
+
+msgid "Station"
+msgstr "Standplaats"
+
+msgid "Station_DEFINITION"
+msgstr "De stationswaarde op deze locatie."
+
+msgid "IfcSite"
+msgstr "Website"
+
+msgid "IfcSite_DEFINITION"
+msgstr "Een bouwterrein is een afgebakend gebied met water waarop de bouw van het project voltooid moet worden. Een site kan worden gebruikt voor het bouwen, retrofit of omdraaien van gebouw(en), of voor andere bouwgerelateerde ontwikkelingen."
+
+msgid "Pset_SiteWeather"
+msgstr "Eigenschapsset: Site weer"
+
+msgid "Pset_SiteWeather_DEFINITION"
+msgstr "Eigenschappen voor het weer van de site"
+
+msgid "MaxAmbientTemp"
+msgstr "Max Ambient Temp"
+
+msgid "MaxAmbientTemp_DEFINITION"
+msgstr "Maximale omgevingstemperatuur van de werkruimte op basis van ontwerp"
+
+msgid "MinAmbientTemp"
+msgstr "Min Ambient Temp"
+
+msgid "MinAmbientTemp_DEFINITION"
+msgstr "Minimale omgevingstemperatuur van de site die wordt gebruikt als basis voor ontwerp"
+
+msgid "Pset_LandRegistration"
+msgstr "Eigenschapset: Land registratie"
+
+msgid "Pset_LandRegistration_DEFINITION"
+msgstr "Specificeert de identiteit van land binnen een wettelijk registratiesysteem."
+
+msgid "LandID"
+msgstr "Land ID"
+
+msgid "LandID_DEFINITION"
+msgstr "[[Identification]] nummer toegewezen door de wettelijke registratieautoriteit aan een landpakket."
+
+msgid "LandTitleID"
+msgstr "Land titel ID"
+
+msgid "LandTitleID_DEFINITION"
+msgstr "[[Identification]] nummer toegewezen door de wettelijke registratieautoriteit aan de titel van een landpakket."
+
+msgid "Pset_SiteCommon"
+msgstr "Eigenschapsset: Gemeenschappelijke site"
+
+msgid "Pset_SiteCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcSite]]. Houd er rekening mee dat verschillende site-attributen direct worden afgehandeld in de [[IfcSite]], het sitenummer (of korte naam) door [[IfcSite]].[Name]], de naam (of lange naam) van [[IfcSite]].[[LongName]], en de beschrijving (of commentaar) door [[IfcSite]].[Description]]. Het land titelnummer wordt ook als expliciet kenmerk [[IfcSite]].LandTitleNumber. Werkelijke site-hoeveelheden, zoals site perimeter, site area en sitevolume worden verstrekt door IfcElementQuantity, en site classificatie volgens nationale bouwcode door IfcClassificationReference. De globale plaatsing van de locatie in termen van Northing and Easting and height boven de zeespiegel wordt gegeven door [[IfcSite]]. efLongitude, [[IfcSite]].RefLatitude, [[IfcSite]].[[RefElevation]] en het postadres van [[IfcSite]].SiteAddress."
+
+msgid "BuildableArea"
+msgstr "Gebouwbaar gebied"
+
+msgid "BuildableArea_DEFINITION"
+msgstr "Het gebruik van de grond wordt uitgedrukt als maximale waarde volgens lokale bouwcodes."
+
+msgid "BuildingHeightLimit"
+msgstr "Bouw hoogte limiet"
+
+msgid "BuildingHeightLimit_DEFINITION"
+msgstr "Toegestaan maximale hoogte van gebouwen op deze site - volgens lokale bouwcode."
+
+msgid "FloorAreaRatio"
+msgstr "Vloergebied verhouding"
+
+msgid "FloorAreaRatio_DEFINITION"
+msgstr "De verhouding van alle vloergebieden tot het bouwbare gebied als maximale vloergebruik van de site als maximale waarde volgens lokale bouwcodes."
+
+msgid "SiteCoverageRatio"
+msgstr "Omslagverhouding site-dekking"
+
+msgid "SiteCoverageRatio_DEFINITION"
+msgstr "De verhouding van het gebruik, [[TotalArea]] / [[BuildableArea]], uitgedrukt als een maximumwaarde. De ratio waarde kan worden gebruikt om [[BuildableArea] ] af te leiden."
+
+msgid "TotalArea"
+msgstr "Totale oppervlakte"
+
+msgid "TotalArea_DEFINITION"
+msgstr "Totaal gepland gebied voor de site. Gebruikt voor het programmeren van de site ruimte."
+
+msgid "Qto_SiteBaseQuantities"
+msgstr "Hoeveelheid set: Site basisaantallen"
+
+msgid "Qto_SiteBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle exemplaren van de site."
+
+msgid "RefElevation"
+msgstr "Hoogte ref"
+
+msgid "RefElevation_DEFINITION"
+msgstr "Datum hoogte ten opzichte van de zeespiegel."
+
+msgid "IfcSpace"
+msgstr "Ruimte"
+
+msgid "IfcSpace_DEFINITION"
+msgstr "Een ruimte vertegenwoordigt een gebied of volume dat feitelijk of theoretisch beperkt is. Ruimtes zijn gebieden of volumes die bepaalde functies binnen een gebouw bieden."
+
+msgid "Qto_SpaceBaseQuantities"
+msgstr "Hoeveelheden Set: Ruimte basishoeveelheden"
+
+msgid "Qto_SpaceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ruimten."
+
+msgid "FinishCeilingHeight"
+msgstr "Beëindig plafond hoogte"
+
+msgid "FinishCeilingHeight_DEFINITION"
+msgstr "[[Height]] van het verlaagde plafond (van bovenste vloer tot aan de onderkant van het verlaagde plafond). Alleen als de ruimte een vast plafond heeft met een constante hoogte."
+
+msgid "FinishFloorHeight"
+msgstr "Werk vloerhoogte af"
+
+msgid "FinishFloorHeight_DEFINITION"
+msgstr "[[Height]] van de vloer (van de basis plaat zonder vloer tot de vloerhoogte). Alleen beschikbaar worden gesteld als de ruimte een constante vloerhoogte heeft."
+
+msgid "GrossCeilingArea"
+msgstr "Bruto plafondgebied"
+
+msgid "GrossCeilingArea_DEFINITION"
+msgstr "Som van alle plafondgebieden van de ruimte. Het omvat het gebied dat wordt bedekt door elementsinside de ruimte (kolommen, binnenste muren, etc. . Het plafondgebied is het reële (en niet het project) gebied (bijvoorbeeld in het geval van verlaagde plafonden)."
+
+msgid "GrossWallArea"
+msgstr "Bruto muur gebied"
+
+msgid "GrossWallArea_DEFINITION"
+msgstr "Som van alle muurgebieden (en andere verticaal gebonden elementen, zoals kolommen) die door de ruimte worden begrensd. Het betreft het gebied dat wordt bedekt door elementen in het wandgebied (deuren, ramen, andere openingen, enz.)."
+
+msgid "NetCeilingArea"
+msgstr "Netto plafondgebied"
+
+msgid "NetCeilingArea_DEFINITION"
+msgstr "Som van alle plafondgebieden van de ruimte. Het sluit het gebied uit dat wordt bedekt met de elementen van de ruimte (kolommen, binnenste muren, etc. . Het plafondgebied is het reële (en niet het project) gebied (bijvoorbeeld in het geval van verlaagde plafonden)."
+
+msgid "NetPerimeter"
+msgstr "Netto Peri Meter"
+
+msgid "NetPerimeter_DEFINITION"
+msgstr "Netto omtrek op vloerniveau van deze ruimte. Het sluit die delen van de omtrek uit die gemaakt zijn door virtuele grenzen en openingen (zoals deuren). Het is de meting die wordt gebruikt voor rokborden en kan de omtrek van interne vaste objecten bevatten, zoals kolommen."
+
+msgid "NetWallArea"
+msgstr "Netto muur gebied"
+
+msgid "NetWallArea_DEFINITION"
+msgstr "Som van alle muurgebieden (en andere verticaal gebonden elementen, zoals kolommen) die door de ruimte worden begrensd. Uitsluitend het gebied dat wordt gedekt door elementen binnen het wandgebied (deuren, ramen en andere openingen, enz.)."
+
+msgid "ElevationWithFlooring"
+msgstr "Hoogte met vloer"
+
+msgid "ElevationWithFlooring_DEFINITION"
+msgstr "Niveau van vloeren van deze ruimte; het gemiddelde zal worden genomen, als het grondoppervlak van de ruimte afdunkt of als er niveauverschillen zijn binnen deze ruimte."
+
+msgid "IfcSpatialElement"
+msgstr "Ruimtelijk element"
+
+msgid "IfcSpatialElement_DEFINITION"
+msgstr "Een ruimtelijk element is de generalisering van alle ruimtelijke elementen die gebruikt kunnen worden om een ruimtelijke structuur of ruimtelijke zones te definiëren."
+
+msgid "IfcSpatialStructureElement"
+msgstr "Ruimtelijke Structuur Element"
+
+msgid "IfcSpatialStructureElement_DEFINITION"
+msgstr "Een ruimtelijke structuurelement is de generalisering van alle ruimtelijke elementen die gebruikt kunnen worden om een ruimtelijke structuur vast te stellen. De ruimtelijke structuur kan worden gebruikt om een ruimtelijke organisatie van een project te bieden."
+
+msgid "IfcSpatialZone"
+msgstr "Ruimtelijke Zone"
+
+msgid "IfcSpatialZone_DEFINITION"
+msgstr "Een ruimtelijke zone is een niet-hiërarchische en mogelijk overlappende decompositie van het project onder een bepaalde functionele overweging. Een ruimtelijke zone kan worden gebruikt om een thermische zone, een constructiezone, een verlichtingszone, een bruikbare zone weer te geven. Een ruimtelijke zone kan een onafhankelijke plaatsing en vormrepresentatie hebben."
+
+msgid "Pset_SpatialZoneCommon"
+msgstr "Eigenschappen Set: Ruimtelijke Zone Generiek"
+
+msgid "Pset_SpatialZoneCommon_DEFINITION"
+msgstr "Generieke eigenschappen voor Ruimtelijke Zone."
+
+msgid "Qto_SpatialZoneBaseQuantities"
+msgstr "Hoeveelheden Set: Ruimtelijke Zone basishoeveelheden"
+
+msgid "Qto_SpatialZoneBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden set voor Ruimtelijke Zone."
+
+msgid "IfcSystem"
+msgstr "Systeem"
+
+msgid "IfcSystem_DEFINITION"
+msgstr "Een systeem is een georganiseerde combinatie van gerelateerde onderdelen binnen een AEC-product, samengesteld voor een gemeenschappelijk doel of functie of om een dienst te verlenen. Een systeem is in wezen een functioneel gerelateerde samenvoeging van producten. De groepering relatie met één of meerdere instanties van [[IfcProduct]] (de systeemleden) wordt door IfcRelAssignsTogroep behandeld."
+
+msgid "IfcTransportationDevice"
+msgstr "Transportatie Apparaat"
+
+msgid "IfcTransportationDevice_DEFINITION"
+msgstr "Abstract tussentype voor transportapparaten."
+
+msgid "Pset_TransportElementCommon"
+msgstr "Eigenschapsset: Transport element gemeenschappelijk"
+
+msgid "Pset_TransportElementCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcTransportElement]] of IfcTransportElementType"
+
+msgid "CapacityPeople"
+msgstr "Capaciteit mensen"
+
+msgid "CapacityPeople_DEFINITION"
+msgstr "[[Capacity]] van het transportelement gemeten in het aantal mensen."
+
+msgid "CapacityWeight"
+msgstr "Capaciteit Gewicht"
+
+msgid "CapacityWeight_DEFINITION"
+msgstr "[[Capacity]] van het transportelement gemeten naar gewicht."
+
+msgid "IfcTransportElement"
+msgstr "Transport element"
+
+msgid "IfcTransportElement_DEFINITION"
+msgstr "Een vervoerselement is een algemene toepassing van alle vervoergerelateerde voorwerpen die mensen, dieren of goederen binnen de faciliteit verplaatsen. De [[IfcTransportElement]] definieert de aanwezigheid van een vervoerselement dat (indien gegeven) wordt uitgedrukt door het IfcTransportElementtype."
+
+msgid "IfcVehicle"
+msgstr "Voortuig"
+
+msgid "IfcVehicle_DEFINITION"
+msgstr "Stuk van apparatuur die is ontworpen om mensen of ladingen te vervoeren."
+
+msgid "IfcVibrationDamper"
+msgstr "Trilklep"
+
+msgid "IfcVibrationDamper_DEFINITION"
+msgstr "Een trillingsdemper is een apparaat dat gebruikt wordt om de effecten van trillingen in een structuur te minimaliseren door kinetische energie te verspillen. De demper kan passief zijn (elastisch, frictioneel, inertie) of actief (in een systeem met behulp van sensoren en actuators)."
+
+msgid "IfcVirtualElement"
+msgstr "Virtueel element"
+
+msgid "IfcVirtualElement_DEFINITION"
+msgstr "Een virtueel element is een speciaal element dat gebruikt wordt om fantasierijen, tijdelijke aanduidingen en grenzen te bieden. Virtuele elementen worden meestal niet getoond en hebben geen kwantiteit, aanverwante materialen en andere maatregelen."
+
+msgid "IfcZone"
+msgstr "Ruimte basisaantallen"
+
+msgid "IfcZone_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ruimten."
+
+msgid "Pset_ZoneCommon"
+msgstr "Eigenschapsset: Zone Gemeenschappelijk"
+
+msgid "Pset_ZoneCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcZone]]."
+
+msgid "IfcAnnotationCONTOURLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationCONTOURLINE"
+msgstr "Contourlijn"
+
+msgid "IfcAnnotationCONTOURLINE_DEFINITION"
+msgstr "Annotatie wordt gebruikt om lijnen te illustreren die punten met gelijke hoogte of diepte verbinden, op een kaart of grafiek."
+
+msgid "IfcAnnotationDIMENSION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationDIMENSION"
+msgstr "Mål"
+
+msgid "IfcAnnotationDIMENSION_DEFINITION"
+msgstr "Annotatie vormde een illustratie van de meting of afmeting van een object, vaak vergezeld van numerieke waarden."
+
+msgid "IfcAnnotationISOBAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationISOBAR"
+msgstr "Isobar"
+
+msgid "IfcAnnotationISOBAR_DEFINITION"
+msgstr "Annotatie wordt gebruikt om lijnen te illustreren die gelijke druk op een kaart of grafiek met elkaar verbinden."
+
+msgid "IfcAnnotationISOLUX_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationISOLUX"
+msgstr "Isolux"
+
+msgid "IfcAnnotationISOLUX_DEFINITION"
+msgstr "Annotatie wordt gebruikt om lijnen die verbindingspunten met gelijke helderheid of lichtintensiteit te illustreren."
+
+msgid "IfcAnnotationISOTHERM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationISOTHERM"
+msgstr "Isotherm"
+
+msgid "IfcAnnotationISOTHERM_DEFINITION"
+msgstr "Annotatie gebruikt om lijnen die verbindingspunten van gelijke temperatuur op een kaart of grafiek te illustreren."
+
+msgid "IfcAnnotationLEADER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationLEADER"
+msgstr "Leider"
+
+msgid "IfcAnnotationLEADER_DEFINITION"
+msgstr "Aantekening die een lijn of pijl bevat."
+
+msgid "IfcAnnotationSURVEY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationSURVEY"
+msgstr "Vragenlijst"
+
+msgid "IfcAnnotationSURVEY_DEFINITION"
+msgstr "Aantekeningen die worden gebruikt voor enquête-informatie, zoals enquêtepunten, enquêtelijnen of onderzoeksgebieden."
+
+msgid "IfcAnnotationSYMBOL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationSYMBOL"
+msgstr "Symbool"
+
+msgid "IfcAnnotationSYMBOL_DEFINITION"
+msgstr "Aantekening waarbij grafische symbolen of pictogrammen worden gebruikt om specifieke betekenis te geven."
+
+msgid "IfcAnnotationTEXT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAnnotationTEXT"
+msgstr "Tekstveld"
+
+msgid "IfcAnnotationTEXT_DEFINITION"
+msgstr "Een tekstuele aantekening."
+
+msgid "IfcBridgeARCHED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeARCHED"
+msgstr "Arched"
+
+msgid "IfcBridgeARCHED_DEFINITION"
+msgstr "Brug die een of meerdere boogschutters als hoofdstructuur heeft."
+
+msgid "IfcBridgeCABLE_STAYED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeCABLE_STAYED"
+msgstr "Kabel Verblijven"
+
+msgid "IfcBridgeCABLE_STAYED_DEFINITION"
+msgstr "Brug met één of meer GSM-masten en hellende kabels die zijn aangesloten op de bovenkant of de as van de toren en ondersteunen het dek."
+
+msgid "IfcBridgeCANTILEVER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeCANTILEVER"
+msgstr "Cantilever"
+
+msgid "IfcBridgeCANTILEVER_DEFINITION"
+msgstr "Brugge, waarvan de belangrijkste structurele leden cantilevers zijn."
+
+msgid "IfcBridgeCULVERT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeCULVERT"
+msgstr "Culvert"
+
+msgid "IfcBridgeCULVERT_DEFINITION"
+msgstr "Transversale afvoer of waterbouw onder een weg, spoor, of kanaal of via een embanking, in de vorm van een grote pijp of een ingesloten kanaal."
+
+msgid "IfcBridgeFRAMEWORK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeFRAMEWORK"
+msgstr "Framework"
+
+msgid "IfcBridgeFRAMEWORK_DEFINITION"
+msgstr "Framework bridge."
+
+msgid "IfcBridgeGIRDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeGIRDER"
+msgstr "Girder"
+
+msgid "IfcBridgeGIRDER_DEFINITION"
+msgstr "Een brug die meisjes gebruikt als middel om hun dek te steunen."
+
+msgid "IfcBridgeSUSPENSION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeSUSPENSION"
+msgstr "Opschorten"
+
+msgid "IfcBridgeSUSPENSION_DEFINITION"
+msgstr "Bridge, waarvan de belangrijkste structurele leden catenary kabels zijn waarvan het dek is opgeschort."
+
+msgid "IfcBridgeTRUSS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgeTRUSS"
+msgstr "Trussen"
+
+msgid "IfcBridgeTRUSS_DEFINITION"
+msgstr "Brug met gebonden driehoekig frame ontworpen om te fungeren als een balk."
+
+msgid "IfcBridgePartABUTMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartABUTMENT"
+msgstr "Aboter"
+
+msgid "IfcBridgePartABUTMENT_DEFINITION"
+msgstr "De substructuren aan het einde van een brug, die zijn superstructuur ondersteunt. Ze kunnen bestaan uit wingmuren (aan elke kant), hoofdmuur, stammuur, en kegel"
+
+msgid "IfcBridgePartDECK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartDECK"
+msgstr "Dek"
+
+msgid "IfcBridgePartDECK_DEFINITION"
+msgstr "Een brugdek bestaat uit de elementen die worden gebruikt voor het vervoer van verkeer maar die geen structurele functies van de superstructuur vervullen"
+
+msgid "IfcBridgePartDECK_SEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartDECK_SEGMENT"
+msgstr "Segment van dek"
+
+msgid "IfcBridgePartDECK_SEGMENT_DEFINITION"
+msgstr "Een segment van het brugdek. Segmenten kunnen worden gescheiden door constructie of expansie gewrichten"
+
+msgid "IfcBridgePartFOUNDATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartFOUNDATION"
+msgstr "Fundering"
+
+msgid "IfcBridgePartFOUNDATION_DEFINITION"
+msgstr "De structurele elementen die de brug naar de grond ondersteunen en verankeren, sturen alle lasten naar de ondersteunende lagen"
+
+msgid "IfcBridgePartPIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartPIER"
+msgstr "Pier"
+
+msgid "IfcBridgePartPIER_DEFINITION"
+msgstr "Een bruggenier is een type bouwwerk dat zich uitstrekt tot de grond onder of in het water. Het wordt gebruikt om bruggen te ondersteunen en de lasten naar de stichting over te hevelen."
+
+msgid "IfcBridgePartPIER_SEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartPIER_SEGMENT"
+msgstr "Pier segment"
+
+msgid "IfcBridgePartPIER_SEGMENT_DEFINITION"
+msgstr "Een segment van de bridge pier. Segmenten kunnen worden gescheiden door constructie of expansie gewrichten"
+
+msgid "IfcBridgePartPYLON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartPYLON"
+msgstr "Pylon"
+
+msgid "IfcBridgePartPYLON_DEFINITION"
+msgstr "Een verticale structuur ter ondersteuning van kabels in opgeschort of gebleven structuren"
+
+msgid "IfcBridgePartSUBSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartSUBSTRUCTURE"
+msgstr "Sub structuur"
+
+msgid "IfcBridgePartSUBSTRUCTURE_DEFINITION"
+msgstr "De elementen die overdragen naar de grond. Het bevat misstanden en pieren"
+
+msgid "IfcBridgePartSUPERSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartSUPERSTRUCTURE"
+msgstr "Super Structuur"
+
+msgid "IfcBridgePartSUPERSTRUCTURE_DEFINITION"
+msgstr "Het deel van de brug dat horizontaal overspan en de verkeersbelasting overhevelen naar de omslagsubstructuren"
+
+msgid "IfcBridgePartSURFACESTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBridgePartSURFACESTRUCTURE"
+msgstr "Oppervlakte Structuur"
+
+msgid "IfcBuiltSystemEROSIONPREVENTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemEROSIONPREVENTION"
+msgstr "Erosie preventie"
+
+msgid "IfcBuiltSystemEROSIONPREVENTION_DEFINITION"
+msgstr "Een groepering van elementen in een gebouwd systeem om ongewenste verplaatsing van materiaaldeeltjes in aardewerkhellingen of rotsgezichten te voorkomen. Plannen; Solid; Kader; Geïmneerd kader; Shotcrete; Schermvorming; Geosynthetica (geotextiels)"
+
+msgid "IfcBuiltSystemFENESTRATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemFENESTRATION"
+msgstr "Fenestratie"
+
+msgid "IfcBuiltSystemFENESTRATION_DEFINITION"
+msgstr "[[System]] deuren, ramen, en andere vullingen in openingen in een gebouwde envelop die is ontworpen om lucht of licht door te laten gaan."
+
+msgid "IfcBuiltSystemFOUNDATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemFOUNDATION"
+msgstr "Fundering"
+
+msgid "IfcBuiltSystemFOUNDATION_DEFINITION"
+msgstr "[[System]] van ondiepe en diepgewortelde elementen die troepen naar de ondersteunende grond zenden."
+
+msgid "IfcBuiltSystemLOADBEARING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemLOADBEARING"
+msgstr "Ladingshulling"
+
+msgid "IfcBuiltSystemLOADBEARING_DEFINITION"
+msgstr "[[System]] van gebouwde elementen die krachten zenden en de constructie versterken."
+
+msgid "IfcBuiltSystemMOORING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemMOORING"
+msgstr "Slecht"
+
+msgid "IfcBuiltSystemMOORING_DEFINITION"
+msgstr "[[System]] van onderdelen en elementen die verantwoordelijk zijn voor het bewaren of vasthouden van een element (een boot, platform of set catenary lijnen in een gewenste positie."
+
+msgid "IfcBuiltSystemOUTERSHELL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemOUTERSHELL"
+msgstr "Buitenste Schil"
+
+msgid "IfcBuiltSystemOUTERSHELL_DEFINITION"
+msgstr "[[System]] van gebouwde elementen die de buitenhuid bieden om de constructie te beschermen (zoals de facade)."
+
+msgid "IfcBuiltSystemPRESTRESSING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemPRESTRESSING"
+msgstr "Voorkeursaanduiding"
+
+msgid "IfcBuiltSystemPRESTRESSING_DEFINITION"
+msgstr "[[System]] van elementen die vooraf worden benadrukt aan de structuur, inclusief typisch vervaardigde producten zoals tendons, ankerplaatsen (actief, dood, koppeling), ducten, vents en afwijkingen, en in situ betonnen segmenten, tendon spacers, blisters en extra versterkingen."
+
+msgid "IfcBuiltSystemRAILWAYLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemRAILWAYLINE"
+msgstr "Railway Lijn"
+
+msgid "IfcBuiltSystemRAILWAYLINE_DEFINITION"
+msgstr "Een set van functionele tracks met expliciete aansluitingen. Deze bestaat meestal uit een set tracks met doorlopende onderdelen en uitlijningen."
+
+msgid "IfcBuiltSystemRAILWAYTRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemRAILWAYTRACK"
+msgstr "Spoorweg Track"
+
+msgid "IfcBuiltSystemRAILWAYTRACK_DEFINITION"
+msgstr "Sailway track systeem. Het is meestal samengesteld uit doorlopende reeksen van track-onderdelen en uitlijningen."
+
+msgid "IfcBuiltSystemREINFORCING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemREINFORCING"
+msgstr "Versterken"
+
+msgid "IfcBuiltSystemREINFORCING_DEFINITION"
+msgstr "[[System]] van elementen die de structuur versterken."
+
+msgid "IfcBuiltSystemSHADING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemSHADING"
+msgstr "Schaduw"
+
+msgid "IfcBuiltSystemSHADING_DEFINITION"
+msgstr "[[System]] van schaduwelementen (extern of intern) waarmee de beperking of beheersing van de impact van natuurlijke zonlicht mogelijk is."
+
+msgid "IfcBuiltSystemTRACKCIRCUIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemTRACKCIRCUIT"
+msgstr "Track Circuit"
+
+msgid "IfcBuiltSystemTRACKCIRCUIT_DEFINITION"
+msgstr "Een track circuit is een elektrisch circuit waarvan de rails van een track sectie een deel vormen met meestal een aan de ene kant aangesloten bron aan de andere kant en een detectie-apparaat aan de andere kant om te detecteren of deze track sectie is leeg of bezet door een voertuig. In een continu signaleringssysteem kan het track circuit worden gebruikt om informatie tussen de grond en de trein te verzenden.;definitie van IEC 60050-82."
+
+msgid "IfcBuiltSystemTRANSPORT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuiltSystemTRANSPORT"
+msgstr "Vervoer"
+
+msgid "IfcBuiltSystemTRANSPORT_DEFINITION"
+msgstr "[[System]] van alle vervoerselementen in een voorziening die het vervoer van personen of goederen mogelijk maakt."
+
+msgid "IfcElementAssemblyABUTMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyABUTMENT"
+msgstr "Aboter"
+
+msgid "IfcElementAssemblyABUTMENT_DEFINITION"
+msgstr "Een brugontgroet gebouwd aan muren, balken, slabben etc."
+
+msgid "IfcElementAssemblyACCESSORY_ASSEMBLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyACCESSORY_ASSEMBLY"
+msgstr "Bijkomende Buurderij"
+
+msgid "IfcElementAssemblyACCESSORY_ASSEMBLY_DEFINITION"
+msgstr "Montageaccessoires of onderdelen."
+
+msgid "IfcElementAssemblyARCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyARCH"
+msgstr "Boog"
+
+msgid "IfcElementAssemblyARCH_DEFINITION"
+msgstr "Een gebogen constructie."
+
+msgid "IfcElementAssemblyBEAM_GRID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyBEAM_GRID"
+msgstr "Profiel raster"
+
+msgid "IfcElementAssemblyBEAM_GRID_DEFINITION"
+msgstr "Gekoppelde stralen, gelegen in één (meestal horizontaal) vliegtuig."
+
+msgid "IfcElementAssemblyBRACED_FRAME_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyBRACED_FRAME"
+msgstr "Gebarsten frame"
+
+msgid "IfcElementAssemblyBRACED_FRAME_DEFINITION"
+msgstr "Een rigide kader met extra beugels."
+
+msgid "IfcElementAssemblyCROSS_BRACING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyCROSS_BRACING"
+msgstr "Kruis beoefenen"
+
+msgid "IfcElementAssemblyCROSS_BRACING_DEFINITION"
+msgstr "Een structureel lineair lid of vergadering van leden in een doosje of tussen meisjes, Meestal op een pier om laterale krachten te weerstaan en ze naar de steun over te brengen."
+
+msgid "IfcElementAssemblyDECK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyDECK"
+msgstr "Dek"
+
+msgid "IfcElementAssemblyDECK_DEFINITION"
+msgstr "Een platform (zoals vloer of brugdek) gebouwd aan stralen, slabs."
+
+msgid "IfcElementAssemblyDILATATIONPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyDILATATIONPANEL"
+msgstr "Dilatatie paneel"
+
+msgid "IfcElementAssemblyDILATATIONPANEL_DEFINITION"
+msgstr "Apparaat dat longitudinale relatieve treinverkeer van twee aangrenzende rails toestaat, met behoud van de juiste begeleiding en ondersteuning."
+
+msgid "IfcElementAssemblyENTRANCEWORKS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyENTRANCEWORKS"
+msgstr "Entree werken"
+
+msgid "IfcElementAssemblyENTRANCEWORKS_DEFINITION"
+msgstr "Een assemblage die de ondersteuningsstructuur vormt van een kamer (lock, dock) poort en bijbehorende elementen, plus de begrenzing van operationele apparatuur."
+
+msgid "IfcElementAssemblyGIRDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyGIRDER"
+msgstr "Girder"
+
+msgid "IfcElementAssemblyGIRDER_DEFINITION"
+msgstr "Een balkachtige superstructuur, zoals bijvoorbeeld een overbruggingsmeisje dat zich uitstrekt tussen abutments en piers die een balk, accolades (zoals leden) hebben opgebouwd, enz. - kan ook een samensmelting van meisjessegmenten zijn."
+
+msgid "IfcElementAssemblyGRID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyGRID"
+msgstr "Rooster"
+
+msgid "IfcElementAssemblyGRID_DEFINITION"
+msgstr "Een raamwerk van uitgespaarde kabels of staven die parallel zijn met of over elkaar heen."
+
+msgid "IfcElementAssemblyMAST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyMAST"
+msgstr "Mast"
+
+msgid "IfcElementAssemblyMAST_DEFINITION"
+msgstr "Een verzameling van platen, leden, kabels of bevestigingssystemen die een verticale structuur vormen voor de ondersteuning of montage van andere apparatuur zoals lichten, sonar of draadloze zenders."
+
+msgid "IfcElementAssemblyPIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyPIER"
+msgstr "Pier"
+
+msgid "IfcElementAssemblyPIER_DEFINITION"
+msgstr "Een tussenliggende ondersteuning, bijv. in een bridge, gebouwd aan muren, kolommen, balken, enz."
+
+msgid "IfcElementAssemblyPYLON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyPYLON"
+msgstr "Pylon"
+
+msgid "IfcElementAssemblyPYLON_DEFINITION"
+msgstr "Een verticale structuur die kabels ondersteunt in opgeschort of gebleven structuur."
+
+msgid "IfcElementAssemblyRAIL_MECHANICAL_EQUIPMENT_ASSEMB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyRAIL_MECHANICAL_EQUIPMENT_ASSEMB"
+msgstr "Rail Mechanische Uitrustings Assemblee"
+
+msgid "IfcElementAssemblyRAIL_MECHANICAL_EQUIPMENT_ASSEMB_DEFINITION"
+msgstr "Een complexe assemblage bestaande uit verschillende componenten zoals blokkerend apparaat, snelheidsregelaar, bevoorrechte inspecteur, track schaal- of controleerbare retarder."
+
+msgid "IfcElementAssemblyREINFORCEMENT_UNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyREINFORCEMENT_UNIT"
+msgstr "Versterking Eenheid"
+
+msgid "IfcElementAssemblyREINFORCEMENT_UNIT_DEFINITION"
+msgstr "Versterkte samengestelde elementen."
+
+msgid "IfcElementAssemblyRIGID_FRAME_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyRIGID_FRAME"
+msgstr "Rigide Frame"
+
+msgid "IfcElementAssemblyRIGID_FRAME_DEFINITION"
+msgstr "Een structuur gebouwd aan stralen, kolommen, etc. met kortstondige gewassen, zoals gantry"
+
+msgid "IfcElementAssemblySHELTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySHELTER"
+msgstr "Schuilplaats"
+
+msgid "IfcElementAssemblySHELTER_DEFINITION"
+msgstr "Een structuur, die vrij snel op te zetten, te verplaatsen of te ontmantelen, wordt gebruikt om bescherming te bieden, met name tegen het weer of de inbraak van het water."
+
+msgid "IfcElementAssemblySIGNALASSEMBLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySIGNALASSEMBLY"
+msgstr "Signaal Assembly"
+
+msgid "IfcElementAssemblySIGNALASSEMBLY_DEFINITION"
+msgstr "Een assemblage die fysiek een of meer signaalexemplaren (en instanties tekenen) samenvoegt, inclusief ondersteuning van structurele elementen zoals een eenvoudige pool of een rigide frame."
+
+msgid "IfcElementAssemblySLAB_FIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySLAB_FIELD"
+msgstr "Plaat veld"
+
+msgid "IfcElementAssemblySLAB_FIELD_DEFINITION"
+msgstr "Slapen, uiteengezet in één vliegtuig."
+
+msgid "IfcElementAssemblySUMPBUSTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySUMPBUSTER"
+msgstr "Sump Buster"
+
+msgid "IfcElementAssemblySUMPBUSTER_DEFINITION"
+msgstr "Een obstakel (met stroomgebied) is meestal in een buslijn geïnstalleerd om te voorkomen dat ander verkeer met ondergrondse opruiming het gebruikt. Vat ook breaker of Sump val samen."
+
+msgid "IfcElementAssemblySUPPORTINGASSEMBLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySUPPORTINGASSEMBLY"
+msgstr "Een Buurderij steunen"
+
+msgid "IfcElementAssemblySUPPORTINGASSEMBLY_DEFINITION"
+msgstr "Een bijeenkomst is van plan om Overhead Contact Line [[System]] te ondersteunen. Het omvat Stichting, ondersteuning van elementen en opzegging."
+
+msgid "IfcElementAssemblySUSPENSIONASSEMBLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblySUSPENSIONASSEMBLY"
+msgstr "Assemblage opschorten"
+
+msgid "IfcElementAssemblySUSPENSIONASSEMBLY_DEFINITION"
+msgstr "Een complexe verzameling van componenten gebruikt om elementen of kabelsegmenten op te schorten."
+
+msgid "IfcElementAssemblyTRACKPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyTRACKPANEL"
+msgstr "Volg Paneel"
+
+msgid "IfcElementAssemblyTRACKPANEL_DEFINITION"
+msgstr "Trackwork die zorgt voor de ondersteuning en begeleiding van een voertuig langs een route. Het bestaat uit montage van rails, slapen en sluitingen."
+
+msgid "IfcElementAssemblyTRACTION_SWITCHING_ASSEMBLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyTRACTION_SWITCHING_ASSEMBLY"
+msgstr "Traction Switch Assembly"
+
+msgid "IfcElementAssemblyTRACTION_SWITCHING_ASSEMBLY_DEFINITION"
+msgstr "Een gewone assemblage die gebruikt wordt om de wisselfunctie te verzekeren. Hij bestaat uit schakelaars, controle-instrumenten en andere componenten."
+
+msgid "IfcElementAssemblyTRAFFIC_CALMING_DEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyTRAFFIC_CALMING_DEVICE"
+msgstr "Verkeer Calming Apparaat"
+
+msgid "IfcElementAssemblyTRAFFIC_CALMING_DEVICE_DEFINITION"
+msgstr "Een structuur op de cabine om de snelheid van voertuigen te controleren."
+
+msgid "IfcElementAssemblyTRUSS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyTRUSS"
+msgstr "Trussen"
+
+msgid "IfcElementAssemblyTRUSS_DEFINITION"
+msgstr "Een structuur gebouwd aan leden met (quasi) gewricht."
+
+msgid "IfcElementAssemblyTURNOUTPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElementAssemblyTURNOUTPANEL"
+msgstr "Paneel uitzetten"
+
+msgid "IfcElementAssemblyTURNOUTPANEL_DEFINITION"
+msgstr "Trackwork zorgt voor de ondersteuning en begeleiding van een voertuig langs elke bepaalde route tussen verschillende verschillende scheidingslijnen of kruisspoorlijnen."
+
+msgid "IfcExternalSpatialElementEXTERNAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcExternalSpatialElementEXTERNAL"
+msgstr "Extern"
+
+msgid "IfcExternalSpatialElementEXTERNAL_DEFINITION"
+msgstr "Buitenlucht rond het gebouw."
+
+msgid "IfcExternalSpatialElementEXTERNAL_EARTH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcExternalSpatialElementEXTERNAL_EARTH"
+msgstr "Externe Aarde"
+
+msgid "IfcExternalSpatialElementEXTERNAL_EARTH_DEFINITION"
+msgstr "Extern volume dat rond het gebouw door de aarde wordt bedekt."
+
+msgid "IfcExternalSpatialElementEXTERNAL_FIRE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcExternalSpatialElementEXTERNAL_FIRE"
+msgstr "Externe brand"
+
+msgid "IfcExternalSpatialElementEXTERNAL_FIRE_DEFINITION"
+msgstr "Ruimte bezet door een aangrenzend gebouw."
+
+msgid "IfcExternalSpatialElementEXTERNAL_WATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcExternalSpatialElementEXTERNAL_WATER"
+msgstr "Extern water"
+
+msgid "IfcExternalSpatialElementEXTERNAL_WATER_DEFINITION"
+msgstr "Extern volume bedekt met water rond het gebouw."
+
+msgid "IfcFacilityPartCommonABOVEGROUND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonABOVEGROUND"
+msgstr "Boven grond"
+
+msgid "IfcFacilityPartCommonABOVEGROUND_DEFINITION"
+msgstr "Een verticaal faciliteringsonderdeel voor elementen die behoren tot de ruimte boven de eindgrond."
+
+msgid "IfcFacilityPartCommonBELOWGROUND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonBELOWGROUND"
+msgstr "Onder de grond"
+
+msgid "IfcFacilityPartCommonBELOWGROUND_DEFINITION"
+msgstr "Een verticaal faciliteringsonderdeel voor het indammen van elementen onder de eindgrond. Dit kan bijvoorbeeld elementen en elementen in een stoepstructuur omvatten."
+
+msgid "IfcFacilityPartCommonJUNCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonJUNCTION"
+msgstr "Wissel"
+
+msgid "IfcFacilityPartCommonJUNCTION_DEFINITION"
+msgstr "Een longitudinaal faciliteringsonderdeel dat een kruispunt biedt tussen twee of meer segmenten van longitudinale voorzieningen meestal van hetzelfde type."
+
+msgid "IfcFacilityPartCommonLEVELCROSSING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonLEVELCROSSING"
+msgstr "Niveau oversteken"
+
+msgid "IfcFacilityPartCommonLEVELCROSSING_DEFINITION"
+msgstr "Een langitudinaal onderdeel dat voorziet in een grensovergang tussen twee of meer verschillende vervoerswijzen, bijvoorbeeld over de weg en over de weg en voetganger."
+
+msgid "IfcFacilityPartCommonSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonSEGMENT"
+msgstr "Segment"
+
+msgid "IfcFacilityPartCommonSEGMENT_DEFINITION"
+msgstr "Een langitudinaal faciliteringsonderdeel met een lineair deel van de faciliteit, gedefinieerd door een aantal uniforme kenmerken, of een overgang tussen segmenten van uniforme kenmerken."
+
+msgid "IfcFacilityPartCommonSUBSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonSUBSTRUCTURE"
+msgstr "Sub structuur"
+
+msgid "IfcFacilityPartCommonSUBSTRUCTURE_DEFINITION"
+msgstr "Een verticaal faciliteringsonderdeel met een onderliggende of ondersteunende structuur, dit kan boven of onder het eindniveau liggen."
+
+msgid "IfcFacilityPartCommonSUPERSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonSUPERSTRUCTURE"
+msgstr "Super Structuur"
+
+msgid "IfcFacilityPartCommonSUPERSTRUCTURE_DEFINITION"
+msgstr "Een verticaal faciliteringsonderdeel dat het bovenste volume van een structuur omvat, meestal het werkingsvolume of het ontvangen van live loading."
+
+msgid "IfcFacilityPartCommonTERMINAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFacilityPartCommonTERMINAL"
+msgstr "Terminal"
+
+msgid "IfcFacilityPartCommonTERMINAL_DEFINITION"
+msgstr "Een langitudinaal faciliteringsonderdeel dat een opzeggingssegment van een longitudinale faciliteit weergeeft, zoals het einde van een adempauze, weg- of spoortraject."
+
+msgid "IfcGeographicElementSOIL_BORING_POINT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeographicElementSOIL_BORING_POINT"
+msgstr "Bodem saaipunt"
+
+msgid "IfcGeographicElementSOIL_BORING_POINT_DEFINITION"
+msgstr "Bodem saai punt"
+
+msgid "IfcGeographicElementTERRAIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeographicElementTERRAIN"
+msgstr "Regen Regen"
+
+msgid "IfcGeographicElementTERRAIN_DEFINITION"
+msgstr "Terrain"
+
+msgid "IfcGeographicElementVEGETATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeographicElementVEGETATION"
+msgstr "Vegetatie"
+
+msgid "IfcGeographicElementVEGETATION_DEFINITION"
+msgstr "Plant- of plantenafdekking (vanaf een gebied). Bijvoorbeeld: bomen, klachten, kruiden, verven en moses."
+
+msgid "IfcGridIRREGULAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGridIRREGULAR"
+msgstr "Irregulair"
+
+msgid "IfcGridIRREGULAR_DEFINITION"
+msgstr "Een [[IfcGrid]] met u-assen, v-assen en optioneel w-assen die niet kunnen worden beschreven door de patronen."
+
+msgid "IfcGridRADIAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGridRADIAL"
+msgstr "Radial"
+
+msgid "IfcGridRADIAL_DEFINITION"
+msgstr "Een [[IfcGrid]] met rechte u-assen en gebogen v-assen. Alle rasterassen die deel uitmaken van V-assen hebben hetzelfde middelpunt en zijn concentrische circulaire bogen. Alle rasterassen die deel uitmaken van u-assen zijn snijpunt op hetzelfde middelpunt en draai de klok mee."
+
+msgid "IfcGridRECTANGULAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGridRECTANGULAR"
+msgstr "Rechthoekig"
+
+msgid "IfcGridRECTANGULAR_DEFINITION"
+msgstr "Een [[IfcGrid]] met rechte u-assen en rechte v-assen die haaks staan op elkaar. Alle rasterassen die deel uitmaken van u-assen kunnen worden beschreven door één as lijn en alle andere assen zijn 2D offsets vanaf deze as lijn. Hetzelfde geldt voor alle roosterassen die deel uitmaken van V-assen."
+
+msgid "IfcGridTRIANGULAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGridTRIANGULAR"
+msgstr "Driehoekig"
+
+msgid "IfcGridTRIANGULAR_DEFINITION"
+msgstr "Een [[IfcGrid]] met u-assen, v-assen en w-assen is allemaal co-lineaire as lijnen met een 2D offset. De v-assen worden op 60 graden gedraaid tegenklokrichting vanuit de u-assen en de w-assen staan op 120 graden gedraaide tegenklok van de u-assen."
+
+msgid "IfcImpactProtectionDeviceBUMPER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcImpactProtectionDeviceBUMPER"
+msgstr "Bumper"
+
+msgid "IfcImpactProtectionDeviceBUMPER_DEFINITION"
+msgstr "Een bumper is een bufferobject aan het einde van het nummer dat het over rijden. Het kan gerepareerd worden op rails of op het track paneel, of het kan ook een natuurlijk element zijn (bijv. steen, zand)."
+
+msgid "IfcImpactProtectionDeviceCRASHCUSHION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcImpactProtectionDeviceCRASHCUSHION"
+msgstr "Crashcushion"
+
+msgid "IfcImpactProtectionDeviceDAMPINGSYSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcImpactProtectionDeviceDAMPINGSYSTEM"
+msgstr "Demping systeem"
+
+msgid "IfcImpactProtectionDeviceDAMPINGSYSTEM_DEFINITION"
+msgstr "Een elastisch element geplaatst tussen de bovenstructuur (track en plaat op plaat spoor of ballast bed met ballast ingevoegd in) en de tunnelstructuur (tunnelverdieping). Sommige van de elastische elementen hebben een gedeeltelijk ontkoppelingseffect tussen de superstructuur en de ondergrond als gevolg van trillingen. Zowel helische veren als elastomerblokken of elastomerstrips kunnen worden gebruikt als ophangsystemen."
+
+msgid "IfcImpactProtectionDeviceFENDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcImpactProtectionDeviceFENDER"
+msgstr "Renderen"
+
+msgid "IfcImpactProtectionDeviceFENDER_DEFINITION"
+msgstr "Een passief of actief apparaat is gevormd door een demper- en impact-paneel dat op de kade is gemonteerd om te beschermen tegen gevolgen voor schepen."
+
+msgid "IfcOpeningElementOPENING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOpeningElementOPENING"
+msgstr "Open Ing"
+
+msgid "IfcOpeningElementOPENING_DEFINITION"
+msgstr "Een opening als aftrekkingsfunctie die door het element dat het vernietigt snijdt. Hierdoor wordt een gat gecreëerd. Een extra opening heeft een bijzondere betekenis om ofwel een leegte voor deuren of ramen te bieden, of een opening om lucht en licht te laten vloeien."
+
+msgid "IfcOpeningElementRECESS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOpeningElementRECESS"
+msgstr "Herkennen"
+
+msgid "IfcOpeningElementRECESS_DEFINITION"
+msgstr "Een opening als aftrek functie die niet doorsnijdt door het element dat het vernietigt. Het creëert een niche of een vergelijkbaar ongeldig patroon."
+
+msgid "IfcProjectionElementBLISTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectionElementBLISTER"
+msgstr "Blister"
+
+msgid "IfcProjectionElementBLISTER_DEFINITION"
+msgstr "Een deel van beton waar de anker voor het vooraf benadrukken van tendon kan worden ingebed."
+
+msgid "IfcProjectionElementDEVIATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectionElementDEVIATOR"
+msgstr "Deviator"
+
+msgid "IfcProjectionElementDEVIATOR_DEFINITION"
+msgstr "Een deel van beton waar omleiding van een extern vooraf gestresseerde tendon kan worden ingebed."
+
+msgid "IfcReferentBOUNDARY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentBOUNDARY"
+msgstr "Gebiedsgrens"
+
+msgid "IfcReferentBOUNDARY_DEFINITION"
+msgstr "De referent vertegenwoordigt waar een administratieve of onderhoudsgrens de gemeten lineaire grens overschrijdt. Dit is meestal de eerste keer dat de grens het lineaire element overschrijdt. Als de grens langs het lineaire element loopt, zou dat het punt zijn waarop ze eerst collineair worden. Het LRS (lineaire referentiesysteem) moet specifieke regels bevatten voor de manier waarop wordt omgegaan met grenzen als dit type referent is toegestaan. Als het lineaire element verandert aan de grens van een provinciale route die begint aan de grens van het graafschap, dan is de LRM (lineaire referentiemethode) beter gecategoriseerd als absoluut."
+
+msgid "IfcReferentINTERSECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentINTERSECTION"
+msgstr "Doorsnede"
+
+msgid "IfcReferentINTERSECTION_DEFINITION"
+msgstr "De referent is de locatie van een snijpunt gespecificeerd door de naam van de referent. De locatie van het kruispunt wordt doorgaans beschouwd als de locatie van het snijpunt van de referentielijnen van de straten met het snijpunt en is dat Dus niet noodzakelijkerwijs precies of deterministisch. Fysieke markers kunnen worden geïnstalleerd om dit te verhelpen. Het LRS (lineaire referentie systeem) moet specifieke regels bevatten over hoe intersectie locaties worden bepaald als dit type referent is toegestaan."
+
+msgid "IfcReferentKILOPOINT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentKILOPOINT"
+msgstr "Kilo Punt"
+
+msgid "IfcReferentKILOPOINT_DEFINITION"
+msgstr "Kilo punt"
+
+msgid "IfcReferentLANDMARK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentLANDMARK"
+msgstr "Bezienswaardigheid"
+
+msgid "IfcReferentLANDMARK_DEFINITION"
+msgstr "Deze referent is de locatie van een fysieke bezienswaardigheid in het veld."
+
+msgid "IfcReferentMILEPOINT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentMILEPOINT"
+msgstr "Thuis punt"
+
+msgid "IfcReferentMILEPOINT_DEFINITION"
+msgstr "Mijl punt"
+
+msgid "IfcReferentPOSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentPOSITION"
+msgstr "Positie"
+
+msgid "IfcReferentPOSITION_DEFINITION"
+msgstr "Wordt gebruikt om een volledige beschrijving te geven van de locatie waarnaar wordt verwezen door het lineaire element dat wordt gemeten (de [[IfcAlignment]] waarin de [[IfcReferent]] is geplaatst), de meetmethode ([[Pset_LinearReferencingMethod]]) en een meetwaarde ([[Pset_Stationing]]). Als een lineaire verwijzingsmethode is opgegeven voor de positie, overschrijft het elke lineaire verwijzingsmethode opgegeven voor de uitlijning."
+
+msgid "IfcReferentREFERENCEMARKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentREFERENCEMARKER"
+msgstr "Referentie Marker"
+
+msgid "IfcReferentREFERENCEMARKER_DEFINITION"
+msgstr "Het referentiepunt is een referentiepunt en ligt meestal op de juiste manier op het weg-, spoorweg- of ander vervoerssysteem. Meestal zijn er referentie markers in eerste instantie op een eenvormige afstand langs het lineaire element dat wordt gemeten, hoewel daaropvolgende heruitlijningen kunnen resulteren in ongelijke afstand tussen de markers."
+
+msgid "IfcReferentSTATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentSTATION"
+msgstr "Standplaats"
+
+msgid "IfcReferentSTATION_DEFINITION"
+msgstr "[[Station]]"
+
+msgid "IfcReferentSUPERELEVATIONEVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentSUPERELEVATIONEVENT"
+msgstr "Super Hoogte evenement"
+
+msgid "IfcReferentSUPERELEVATIONEVENT_DEFINITION"
+msgstr "Een soort gebeurtenis die de bovenhoogte (kruishelling) op een specifieke locatie langs de weg specificeert, en het type overgang van de vorige locatie. De locaties zijn aangegeven met behulp van een IfcLinearPlaatsing gemeten langs de uitlijningsas curve. De element(en) die beïnvloed zijn door het superhoogteevenement worden momenteel voorgesteld om de gebeurtenis op te nemen in een specifiek lateraal verdelingselement van de wegenruimtelijke structuur (bijv. . een lan)."
+
+msgid "IfcReferentWIDTHEVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReferentWIDTHEVENT"
+msgstr "Breedte gebeurtenis"
+
+msgid "IfcReferentWIDTHEVENT_DEFINITION"
+msgstr "Een soort gebeurtenis die de breedte op een specifieke locatie langs een weguitlijning specificeert, en het type overgang van de vorige locatie. De locaties zijn aangegeven met behulp van een IfcLinearPlaatsing gemeten langs de uitlijningsas curve. De element(en) die beïnvloed zijn door de breedte-gebeurtenis worden momenteel voorgesteld om het event te bevatten in een specifiek lateraal deeldelingselement van de wegenruimtelijke structuur (bijv. . een Rane of de hele wag)."
+
+msgid "IfcSpaceBERTH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpaceBERTH"
+msgstr "Band"
+
+msgid "IfcSpaceBERTH_DEFINITION"
+msgstr "Een ruimte die is gewijd aan de berging van schepen binnen een haven of beheerd gebied"
+
+msgid "IfcSpaceEXTERNAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpaceEXTERNAL"
+msgstr "Extern"
+
+msgid "IfcSpaceEXTERNAL_DEFINITION"
+msgstr "Een ruimte buiten een faciliteit."
+
+msgid "IfcSpaceGFA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpaceGFA"
+msgstr "BVO"
+
+msgid "IfcSpaceGFA_DEFINITION"
+msgstr "Bruto Vloer Oppervlak [[Area]] - een specifiek soort ruimte voor elk bouwverhaal dat alle netto-gebied en bouwgebied omvat (ook de externe envelop). Regelgeving vereist vaak een dergelijke specifieke ruimte."
+
+msgid "IfcSpaceINTERNAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpaceINTERNAL"
+msgstr "Binnen"
+
+msgid "IfcSpaceINTERNAL_DEFINITION"
+msgstr "Een ruimte binnen een faciliteit."
+
+msgid "IfcSpacePARKING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpacePARKING"
+msgstr "Parkeerplaats"
+
+msgid "IfcSpacePARKING_DEFINITION"
+msgstr "Een ruimte reservering voor het gebruik als parkeerplaats voor voertuigen, met inbegrip van toegang, zoals een gangpad."
+
+msgid "IfcSpaceSPACE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpaceSPACE"
+msgstr "Ruimte"
+
+msgid "IfcSpaceSPACE_DEFINITION"
+msgstr "Elke ruimte die niet valt in een andere categorie."
+
+msgid "IfcSpatialZoneCONSTRUCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneCONSTRUCTION"
+msgstr "Bouwen"
+
+msgid "IfcSpatialZoneCONSTRUCTION_DEFINITION"
+msgstr "De ruimtelijkezone wordt gebruikt om een bouwzone voor het productieproces te vormen."
+
+msgid "IfcSpatialZoneFIRESAFETY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneFIRESAFETY"
+msgstr "Brandveiligheid"
+
+msgid "IfcSpatialZoneFIRESAFETY_DEFINITION"
+msgstr "De ruimtelijke zone wordt gebruikt om een brandveiligheidszone of brandcompartiment te vertegenwoordigen."
+
+msgid "IfcSpatialZoneINTERFERENCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneINTERFERENCE"
+msgstr "Beïnvloeding"
+
+msgid "IfcSpatialZoneINTERFERENCE_DEFINITION"
+msgstr "De ruimtelijke zone wordt gebruikt om de beïnvloeding tussen [[IfcSpatialElement]] voorvallen te definiëren."
+
+msgid "IfcSpatialZoneLIGHTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneLIGHTING"
+msgstr "Lichte Ing"
+
+msgid "IfcSpatialZoneLIGHTING_DEFINITION"
+msgstr "De ruimtelijke zone wordt gebruikt om een verlichtingszone aan te duiden; een daglichtzone of een kunstmatige verlichtingszone."
+
+msgid "IfcSpatialZoneOCCUPANCY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneOCCUPANCY"
+msgstr "Bezetting"
+
+msgid "IfcSpatialZoneOCCUPANCY_DEFINITION"
+msgstr "De ruimtelijkezone wordt gebruikt om een gebied van bijzondere bezetting te vormen."
+
+msgid "IfcSpatialZoneRESERVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneRESERVATION"
+msgstr "Reservering"
+
+msgid "IfcSpatialZoneRESERVATION_DEFINITION"
+msgstr "Een ruimtelijk gebied dat een soort voorbehoud maakt binnen het project."
+
+msgid "IfcSpatialZoneSECURITY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneSECURITY"
+msgstr "Beveiliging"
+
+msgid "IfcSpatialZoneSECURITY_DEFINITION"
+msgstr "De ruimtelijke zone wordt gebruikt als een zone voor het plannen en onderhoud van de beveiliging."
+
+msgid "IfcSpatialZoneTHERMAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneTHERMAL"
+msgstr "Thermisch"
+
+msgid "IfcSpatialZoneTHERMAL_DEFINITION"
+msgstr "De ruimtelijke zone wordt gebruikt om een thermische zone weer te geven."
+
+msgid "IfcSpatialZoneTRANSPORT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneTRANSPORT"
+msgstr "Vervoer"
+
+msgid "IfcSpatialZoneTRANSPORT_DEFINITION"
+msgstr "De ruimtelijke ordening wordt gebruikt om een gebied te vertegenwoordigen dat in de eerste plaats gericht is op het verkeer van personen of goederen."
+
+msgid "IfcSpatialZoneVENTILATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSpatialZoneVENTILATION"
+msgstr "Ventilatie"
+
+msgid "IfcSpatialZoneVENTILATION_DEFINITION"
+msgstr "De ruimtelijke-zone wordt gebruikt als een ventilatiezone."
+
+msgid "IfcTransportElementCRANEWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementCRANEWAY"
+msgstr "Craneway"
+
+msgid "IfcTransportElementCRANEWAY_DEFINITION"
+msgstr "Een kraanwegsysteem, meestal inclusief de kraanrails, sluiters en de kraan. Het wordt voornamelijk gebruikt om zware goederen te verplaatsen in een fabriek of andere industriegebouwen."
+
+msgid "IfcTransportElementELEVATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementELEVATOR"
+msgstr "Lift"
+
+msgid "IfcTransportElementELEVATOR_DEFINITION"
+msgstr "Lift of til je als transportapparaat op om mensen of goederen verticaal te verplaatsen."
+
+msgid "IfcTransportElementESCALATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementESCALATOR"
+msgstr "Escalator"
+
+msgid "IfcTransportElementESCALATOR_DEFINITION"
+msgstr "Escalator is een transportmiddel om mensen te verplaatsen. Het bestaat uit individuele gekoppelde stappen die omhoog en omlaag bewegen op het spoor terwijl de threads horizontaal blijven."
+
+msgid "IfcTransportElementHAULINGGEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementHAULINGGEAR"
+msgstr "Hauling Gear"
+
+msgid "IfcTransportElementHAULINGGEAR_DEFINITION"
+msgstr "Een apparaat dat gebruikt wordt voor het vervoer van goederen."
+
+msgid "IfcTransportElementLIFTINGGEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementLIFTINGGEAR"
+msgstr "Lifting Uitrusting"
+
+msgid "IfcTransportElementLIFTINGGEAR_DEFINITION"
+msgstr "Een apparaat dat gebruikt wordt om zware goederen op te heffen of te verlagen. Het kan handmatig worden geëxploiteerd, elektrisch of draaiend worden gedreven."
+
+msgid "IfcTransportElementMOVINGWALKWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransportElementMOVINGWALKWAY"
+msgstr "Bewegende Loopweg"
+
+msgid "IfcTransportElementMOVINGWALKWAY_DEFINITION"
+msgstr "Wandelen verplaatsen is een transportapparaat om mensen horizontaal of op een helling te verplaatsen. Het is een langzame transportband die mensen vervoert."
+
+msgid "IfcVehicleCARGO_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleCARGO"
+msgstr "Vracht"
+
+msgid "IfcVehicleCARGO_DEFINITION"
+msgstr "Een mobiel vervoerselement dat een discrete vrachteenheid vormt die door een installatie wordt beheerd."
+
+msgid "IfcVehicleROLLINGSTOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleROLLINGSTOCK"
+msgstr "Rollende voorraad"
+
+msgid "IfcVehicleROLLINGSTOCK_DEFINITION"
+msgstr "Verwijs naar spoorwegvoertuigen, met inbegrip van zowel aangedreven als niet-aangedreven voertuigen, zoals locomotieven, railauto's, touringcars, particuliere spoorwegauto's en wagons."
+
+msgid "IfcVehicleVEHICLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleVEHICLE"
+msgstr "Voortuig"
+
+msgid "IfcVehicleVEHICLE_DEFINITION"
+msgstr "Een generalisatie van een voertuig dat interactie heeft met een faciliteit (bijvoorbeeld als gebruiker/klant) of als een gespecificeerd operationeel activum binnen de faciliteit."
+
+msgid "IfcVehicleVEHICLEAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleVEHICLEAIR"
+msgstr "Voertuig lucht"
+
+msgid "IfcVehicleVEHICLEAIR_DEFINITION"
+msgstr "Een specialisatie van een voertuig dat aangedreven en niet-aangedreven vliegvoertuigen vertegenwoordigt, zoals vliegtuigen, helikopters, gliders, enz."
+
+msgid "IfcVehicleVEHICLEMARINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleVEHICLEMARINE"
+msgstr "Voertuig marine"
+
+msgid "IfcVehicleVEHICLEMARINE_DEFINITION"
+msgstr "Een specialisatie van een voertuig dat op water opereert als zeeschepen."
+
+msgid "IfcVehicleVEHICLETRACKED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleVEHICLETRACKED"
+msgstr "Voertuig gevolgd"
+
+msgid "IfcVehicleVEHICLETRACKED_DEFINITION"
+msgstr "Een specialisatie van een voertuig op het land (pijler)."
+
+msgid "IfcVehicleVEHICLEWHEELED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVehicleVEHICLEWHEELED"
+msgstr "Voertuig wiel"
+
+msgid "IfcVehicleVEHICLEWHEELED_DEFINITION"
+msgstr "Een specialisatie van een voertuig dat aan land opereert als een multiwielig voertuig zoals een auto, vrachtwagen, forklift enz."
+
+msgid "IfcVibrationDamperAXIAL_YIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperAXIAL_YIELD"
+msgstr "Axiale Yield"
+
+msgid "IfcVibrationDamperAXIAL_YIELD_DEFINITION"
+msgstr "Een verplaatsingsafhankelijke typegoedsdemper waarin de gegenereerde weerstandskracht wordt bepaald door de kunststof bandbreedte waarbij de kunststof vervorming van het stalen materiaal wordt gebruikt. Het axiale rendementtype is een demper dat energie oplevert door het staalmateriaal te absorberen tegen vervorming in de axiale richting. dat is in de richting van uitbreiding en inkrimping."
+
+msgid "IfcVibrationDamperBENDING_YIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperBENDING_YIELD"
+msgstr "Bending Yield"
+
+msgid "IfcVibrationDamperBENDING_YIELD_DEFINITION"
+msgstr "Een verplaatsingsafhankelijke typegoedsdemper waarin de gegenereerde weerstandskracht wordt bepaald door de kunststof bandbreedte waarbij de kunststof vervorming van het stalen materiaal wordt gebruikt. Het buigende rendement is een damper, die staal produceert door te buigen."
+
+msgid "IfcVibrationDamperFRICTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperFRICTION"
+msgstr "Wrijving"
+
+msgid "IfcVibrationDamperFRICTION_DEFINITION"
+msgstr "Het wrijving type is een demper bij het gebruik van wrijving op het contactoppervlak van een materiaal."
+
+msgid "IfcVibrationDamperRUBBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperRUBBER"
+msgstr "Rubber"
+
+msgid "IfcVibrationDamperRUBBER_DEFINITION"
+msgstr "De rubbermold is een demper dat energie opneemt door vervorming van gelamineerd rubber te gebruiken. Het verschil tussen de seismische isolatie met de rubberen type demper is het al dan niet draagvlak van de bovenliggende structuren. De rubberdemper zendt het gewicht van de bovenste constructies niet naar de sub constructie."
+
+msgid "IfcVibrationDamperSHEAR_YIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperSHEAR_YIELD"
+msgstr "Afschuiving rente"
+
+msgid "IfcVibrationDamperSHEAR_YIELD_DEFINITION"
+msgstr "Een verplaatsingsafhankelijke typegoedsdemper waarin de gegenereerde weerstandskracht wordt bepaald door de kunststof bandbreedte waarbij de kunststof vervorming van het stalen materiaal wordt gebruikt. Het schoeiselrendement is een damper, waardoor het staalmateriaal vervormd wordt in de richting van de leer."
+
+msgid "IfcVibrationDamperVISCOUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVibrationDamperVISCOUS"
+msgstr "Bezoekend"
+
+msgid "IfcVibrationDamperVISCOUS_DEFINITION"
+msgstr "Het dunne type is een demper dat energie absorbeert door de weerstand van een toffe stof te gebruiken."
+
+msgid "IfcVirtualElementBOUNDARY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVirtualElementBOUNDARY"
+msgstr "Gebiedsgrens"
+
+msgid "IfcVirtualElementBOUNDARY_DEFINITION"
+msgstr "Een denkbeeldige grens, zoals tussen twee naast elkaar gelegen ruimtes die niet gescheiden zijn door een fysieke grens."
+
+msgid "IfcVirtualElementCLEARANCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVirtualElementCLEARANCE"
+msgstr "Uitverkoop"
+
+msgid "IfcVirtualElementCLEARANCE_DEFINITION"
+msgstr "Het virtuele element duidt op een uitklaring gebied of volume."
+
+msgid "IfcVirtualElementPROVISIONFORVOID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcVirtualElementPROVISIONFORVOID"
+msgstr "Provisie voor leegte"
+
+msgid "IfcVirtualElementPROVISIONFORVOID_DEFINITION"
+msgstr "Het virtuele element duidt een voorgestelde bepaling voor leegte (een voorgestelde opening nog niet als ongeldig geldig)."
+

@@ -1,0 +1,3215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcBuildingControlsDomain.pot\n"
+"X-Crowdin-File-ID: 158\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 05:08\n"
+
+msgid "IfcActuator"
+msgstr "Actuator"
+
+msgid "IfcActuator_DEFINITION"
+msgstr "Een actuator is een mechanisch apparaat voor het verplaatsen of beheren van een mechanisme of systeem. Een actuator gebruikt energie, meestal gemaakt door lucht, elektriciteit of vloeistof, en zet die om in een beweging."
+
+msgid "Pset_ActuatorPHistory"
+msgstr "Eigenschap Set: Actuator geschiedenis"
+
+msgid "Pset_ActuatorPHistory_DEFINITION"
+msgstr "Eigenschappen voor de geschiedenis van de actuatoren."
+
+msgid "PositionHistory"
+msgstr "Positie geschiedenis"
+
+msgid "PositionHistory_DEFINITION"
+msgstr "Geeft de positie aan van de actuator na verloop van tijd waar 0.0 volledig is gesloten en 1.0 volledig open is."
+
+msgid "PositionHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "QualityHistory"
+msgstr "Kwaliteit geschiedenis"
+
+msgid "QualityHistory_DEFINITION"
+msgstr "Geeft de kwaliteit aan van de meting of fout staat, welke verder gekwalificeerd kunnen zijn door de [[Status]]. stabiele waarden worden beschouwd als betrouwbaar; gemeten waarden worden niet betrouwbaar geacht (d.w.z. er is een fout ontdekt);betrouwbaarheid van waarden is onzeker."
+
+msgid "QualityHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "StatusHistory"
+msgstr "Status geschiedenis"
+
+msgid "StatusHistory_DEFINITION"
+msgstr "Geeft een foutcode of identificatie aan, wiens betekenis specifiek is voor het specifieke automatiseringssysteem.'ConfigurationError', 'NotConnected', 'DeviceFailure', 'SensorFailure', 'LastKnown, 'CommunicationsFailure', 'OutOfService'."
+
+msgid "StatusHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ActuatorTypeCommon"
+msgstr "Eigenschap Set: Actuator type (Gemeens)"
+
+msgid "Pset_ActuatorTypeCommon_DEFINITION"
+msgstr "Actuator type gemeenschappelijke attributen."
+
+msgid "ActuatorApplication"
+msgstr "Actuator applicatie"
+
+msgid "ActuatorApplication_DEFINITION"
+msgstr "Geeft de toepassing van de actuator aan."
+
+msgid "ActuatorApplication_DAMPERACTUATOR"
+msgstr "Demper Actuator"
+
+msgid "ActuatorApplication_ENTRYEXITDEVICE"
+msgstr "Bericht afsluiten apparaat"
+
+msgid "ActuatorApplication_FIRESMOKEDAMPERACTUATOR"
+msgstr "Vuur Rookmelder Actuator"
+
+msgid "ActuatorApplication_LAMPACTUATOR"
+msgstr "Lamp actuator"
+
+msgid "ActuatorApplication_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ActuatorApplication_OTHER"
+msgstr "anders"
+
+msgid "ActuatorApplication_SUNBLINDACTUATOR"
+msgstr "Sunblind Actuator"
+
+msgid "ActuatorApplication_UNSET"
+msgstr "Uitzetten"
+
+msgid "ActuatorApplication_VALVEPOSITIONER"
+msgstr "Radiatorkraan Positioner"
+
+msgid "ActuatorStatus"
+msgstr "Actuator Status"
+
+msgid "ActuatorStatus_DEFINITION"
+msgstr "[[Status]] van het element, overwegend gebruikt in renovatie of retrofitting van projecten. De status kan worden toegewezen als 'Nieuw' - element ontworpen als nieuwe toevoeging, 'Beëindiging' - element bestaat en blijft, 'Afbreken' - element bestaat al, maar moet worden gesloopt, 'Tijdig' - element zal alleen tijdelijk bestaan (zoals een tijdelijke ondersteuningsstructuur)."
+
+msgid "ActuatorStatus_DEMOLISH"
+msgstr "'Vernietig' - element bestond al, maar moet worden vernietigd"
+
+msgid "ActuatorStatus_EXISTING"
+msgstr "'Bestaat' - element bestaat en blijft"
+
+msgid "ActuatorStatus_NEW"
+msgstr "De status kan worden toegewezen als 'Nieuw' - element ontworpen als nieuwe toevoeging"
+
+msgid "ActuatorStatus_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ActuatorStatus_OTHER"
+msgstr "anders"
+
+msgid "ActuatorStatus_TEMPORARY"
+msgstr "'Tijdelijk' - element bestaat alleen tijdelijk (zoals een tijdelijke steunstructuur)"
+
+msgid "ActuatorStatus_UNSET"
+msgstr "Uitzetten"
+
+msgid "FailPosition"
+msgstr "Positie mislukt"
+
+msgid "FailPosition_DEFINITION"
+msgstr "Specificeert de vereiste failliete positie van de actuator."
+
+msgid "FailPosition_FAILCLOSED"
+msgstr "Mislukt gesloten"
+
+msgid "FailPosition_FAILOPEN"
+msgstr "Fout bij openen"
+
+msgid "FailPosition_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "FailPosition_OTHER"
+msgstr "anders"
+
+msgid "FailPosition_UNSET"
+msgstr "Uitzetten"
+
+msgid "ManualOverride"
+msgstr "Handmatige overschrijving"
+
+msgid "ManualOverride_DEFINITION"
+msgstr "Identificeert of hand-operated operatie wordt verstrekt als een overschrijving (= WAAR ) of niet (= FALSE). Merk op dat deze waarde standaard op FALSE moet worden gezet in het geval van een Hand Operated Actuator."
+
+msgid "Pset_ActuatorTypeLinearActuation"
+msgstr "Eigenschap Set: Actuator type Lineaire Actuatie"
+
+msgid "Pset_ActuatorTypeLinearActuation_DEFINITION"
+msgstr "Personage van lineaire bediening van een actuator; Vervangingsplek_LinearActuator"
+
+msgid "Force"
+msgstr "Kracht"
+
+msgid "Force_DEFINITION"
+msgstr "Geeft de maximale sluitings-off kracht aan voor de actuator."
+
+msgid "Stroke"
+msgstr "Stijl"
+
+msgid "Stroke_DEFINITION"
+msgstr "Geeft aan welke maximale afstand de actuator moet traversen."
+
+msgid "Pset_ActuatorTypeRotationalActuation"
+msgstr "Eigenschapsset: Actuator Type Rotational Actuation"
+
+msgid "Pset_ActuatorTypeRotationalActuation_DEFINITION"
+msgstr "Karakteristiek van rotatie van een actuator; Vervangingen Pset_RotationalActuator"
+
+msgid "RangeAngle"
+msgstr "Range Angle"
+
+msgid "RangeAngle_DEFINITION"
+msgstr "Geeft aan welke maximale rotatie de actuator moet traversen."
+
+msgid "Torque"
+msgstr "Moment"
+
+msgid "Torque_DEFINITION"
+msgstr "Geeft het maximale sluit-off torque aan voor de actuator."
+
+msgid "Qto_ActuatorBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Actuator basishoeveelheden"
+
+msgid "Qto_ActuatorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de actuator."
+
+msgid "GrossWeight"
+msgstr "Bruto gewicht"
+
+msgid "GrossWeight_DEFINITION"
+msgstr "Totaal Bruto [[Weight]] van het object zonder add-on-onderdelen en zonder rekening te houden met mogelijke verwerkingsfuncties (uitsnijden, etc. of openingen en recessen."
+
+msgid "Pset_ElectricalDeviceCommon"
+msgstr "Eigenschapsset: Elektrisch apparaat gemeenschappelijk"
+
+msgid "Pset_ElectricalDeviceCommon_DEFINITION"
+msgstr "Een verzameling van eigenschappen die vaak worden gebruikt door typen elektrische apparaten."
+
+msgid "ConductorFunction"
+msgstr "Leider Functie"
+
+msgid "ConductorFunction_DEFINITION"
+msgstr "Geeft de functie aan van de conducteurs waarmee de lading is verbonden. Waar L1, L2 en L3 de faselijsten vertegenwoordigen volgens IEC 60446 notatie (soms kan de faselijn worden verwezen door een kleurenred, Blauw, geel of getal 1, 2, 3 etc). Beschermende aarde wordt soms ook wel CPC of gangbare beschermende dirigent genoemd. Houd er rekening mee dat voor een elektrisch apparaat een set van lijngeleiders kan worden toegepast."
+
+msgid "ConductorFunction_NEUTRAL"
+msgstr "Neutraal"
+
+msgid "ConductorFunction_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ConductorFunction_OTHER"
+msgstr "anders"
+
+msgid "ConductorFunction_PHASE_L1"
+msgstr "[[Phase]] L1"
+
+msgid "ConductorFunction_PHASE_L2"
+msgstr "[[Phase]] L2"
+
+msgid "ConductorFunction_PHASE_L3"
+msgstr "[[Phase]] L3"
+
+msgid "ConductorFunction_PROTECTIVEEARTH"
+msgstr "Beschermende aarde"
+
+msgid "ConductorFunction_PROTECTIVEEARTHNEUTRAL"
+msgstr "Beschermende Aarde Neutraal"
+
+msgid "ConductorFunction_UNSET"
+msgstr "Uitzetten"
+
+msgid "EarthingStyle"
+msgstr "Aarding Stijl"
+
+msgid "EarthingStyle_DEFINITION"
+msgstr "Geeft de aardingsstijl aan van het elektrische apparaat."
+
+msgid "HasProtectiveEarth"
+msgstr "Heeft Beschermende Aarde"
+
+msgid "HasProtectiveEarth_DEFINITION"
+msgstr "Geeft aan of het object een beschermende aardingsverbinding heeft (=WAAR ) of niet (= FALSE)."
+
+msgid "HeatDissipation"
+msgstr "Warmte uitsparing"
+
+msgid "HeatDissipation_DEFINITION"
+msgstr "Geeft de warmtedissipatie aan van het elektrische apparaat gemeten in vermogen."
+
+msgid "IK_Code"
+msgstr "Ik Code"
+
+msgid "IK_Code_DEFINITION"
+msgstr "IK-code volgens IEC 62262 (2002) is een numerieke classificatie voor de mate van bescherming die wordt geboden door toedoen van elektrische apparatuur tegen externe mechanische effecten."
+
+msgid "InsulationStandardClass"
+msgstr "Isolatie Standaard Les"
+
+msgid "InsulationStandardClass_DEFINITION"
+msgstr "Isolatie standaardklassen bieden basisbeschermingsinformatie tegen elektrische schok. Definieert de isolatieniveaus die nodig zijn in termen van constructievereisten (creepage en kaalafstanden) en elektrische vereisten (voldoen aan de tests op elektrische kracht). Onder enkele storingsomstandigheden wordt de isolatie van de basisgebieden ingekort. De werkelijke waarden die nodig zijn hangen af van de arbeidsinspanning waaraan de isolatie is onderworpen, evenals van andere factoren. Geeft ook aan of het elektrische apparaat een beschermende aardverbinding heeft."
+
+msgid "InsulationStandardClass_CLASS0APPLIANCE"
+msgstr "Klasse 0 toestel"
+
+msgid "InsulationStandardClass_CLASS0IAPPLIANCE"
+msgstr "Klasse 0I apparaat"
+
+msgid "InsulationStandardClass_CLASSIAPPLIANCE"
+msgstr "Class I toestel"
+
+msgid "InsulationStandardClass_CLASSIIAPPLIANCE"
+msgstr "Klas II apparaat"
+
+msgid "InsulationStandardClass_CLASSIIIAPPLIANCE"
+msgstr "Klasse III apparaat"
+
+msgid "InsulationStandardClass_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "InsulationStandardClass_OTHER"
+msgstr "en andere factoren"
+
+msgid "InsulationStandardClass_UNSET"
+msgstr "Uitzetten"
+
+msgid "IP_Code"
+msgstr "IP Code"
+
+msgid "IP_Code_DEFINITION"
+msgstr "De IP-code, de internationale beschermingsaanwijzing, IEC 60529), classificeert en beoordeelt de mate van bescherming die wordt geboden tegen inbraak"
+
+msgid "NominalFrequencyRange"
+msgstr "Nominale frequentie bereik"
+
+msgid "NominalFrequencyRange_DEFINITION"
+msgstr "De bovenste en onderste limieten van de frequentie waarvoor de werking van het apparaat is gecertificeerd."
+
+msgid "NominalPowerConsumption"
+msgstr "Nominaal stroomverbruik"
+
+msgid "NominalPowerConsumption_DEFINITION"
+msgstr "Nominaal totaal energieverbruik."
+
+msgid "NumberOfPoles"
+msgstr "Aantal polen"
+
+msgid "NumberOfPoles_DEFINITION"
+msgstr "Aantal polen waarop het object van invloed zou zijn."
+
+msgid "NumberOfPowerSupplyPorts"
+msgstr "Aantal bevoorradingspoorten van stroom"
+
+msgid "NumberOfPowerSupplyPorts_DEFINITION"
+msgstr "Geeft het aantal leveringspoorten van het elektrische apparaat aan."
+
+msgid "NumberOfPowerSupplyPorts_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Power"
+msgstr "Vermogen"
+
+msgid "Power_DEFINITION"
+msgstr "Het werkelijke vermogen en opereerbare bereik."
+
+msgid "PowerFactor"
+msgstr "Stroom factor"
+
+msgid "PowerFactor_DEFINITION"
+msgstr "[[Power]] factor; meestal als verhouding."
+
+msgid "RatedCurrent"
+msgstr "Nominale stroom"
+
+msgid "RatedCurrent_DEFINITION"
+msgstr "Het huidige apparaat is ontworpen om te verwerken."
+
+msgid "RatedVoltage"
+msgstr "Nominale spanning"
+
+msgid "RatedVoltage_DEFINITION"
+msgstr "Het bereik van de toegestane spanning die een apparaat gecertificeerd heeft om af te handelen. De bovengrens van deze waarde is het maximum."
+
+msgid "Pset_EnergyRequirements"
+msgstr "Eigenschapsset: Energievereisten"
+
+msgid "Pset_EnergyRequirements_DEFINITION"
+msgstr "Eigenschap ingesteld voor de toepassing van energievereisten op faciliteit en fysieke elementen"
+
+msgid "EnergyConsumption"
+msgstr "Energieverbruik"
+
+msgid "EnergyConsumption_DEFINITION"
+msgstr "Jaarlijks energieverbruik vereist"
+
+msgid "EnergyConversionEfficiency"
+msgstr "Efficiëntie van energieconversie"
+
+msgid "EnergyConversionEfficiency_DEFINITION"
+msgstr "Maatregelen van de efficiëntie van de omzetting van brandstofenergie in mechanische energie"
+
+msgid "EnergySourceLabel"
+msgstr "Energiebron label"
+
+msgid "EnergySourceLabel_DEFINITION"
+msgstr "[[Type]] van energiebron bijv. [[Electricity]], Diesel, LPG etc. gebruikt door het element."
+
+msgid "PowerDemand"
+msgstr "Vermogen vraag"
+
+msgid "PowerDemand_DEFINITION"
+msgstr "[[Power]] eis van het element"
+
+msgid "Pset_EnvironmentalEmissions"
+msgstr "Eigenschapsset: Environmental Emissies"
+
+msgid "Pset_EnvironmentalEmissions_DEFINITION"
+msgstr "De eigenschap is vastgesteld voor de toepassing van energieemissies die worden geproduceerd door installaties en fysieke elementen."
+
+msgid "CarbonDioxideEmissions"
+msgstr "Carbon Dioxide Emissies"
+
+msgid "CarbonDioxideEmissions_DEFINITION"
+msgstr "Tarief van de uitstoot van kooldioxide"
+
+msgid "NitrogenOxidesEmissions"
+msgstr "Nitrogen Oxides emissies"
+
+msgid "NitrogenOxidesEmissions_DEFINITION"
+msgstr "Tarief van emissie van stikstofoxiden"
+
+msgid "NoiseEmissions"
+msgstr "Geluidsemissies"
+
+msgid "NoiseEmissions_DEFINITION"
+msgstr "Niveau van geluidsemissie"
+
+msgid "ParticulateMatterEmissions"
+msgstr "Particulaire Matter Emissies"
+
+msgid "ParticulateMatterEmissions_DEFINITION"
+msgstr "Tarief van emissie van deeltjes"
+
+msgid "SulphurDioxideEmissions"
+msgstr "Zwavelse Dioxide Emissies"
+
+msgid "SulphurDioxideEmissions_DEFINITION"
+msgstr "Tarief van emissie van zwaveldioxide"
+
+msgid "Pset_ElectricalDeviceCompliance"
+msgstr "Eigenschapsset: naleving van elektrische apparaten"
+
+msgid "Pset_ElectricalDeviceCompliance_DEFINITION"
+msgstr "Eigenschappen gerelateerd aan informatie over de naleving van normen of regelgeving van elektrische apparaten."
+
+msgid "ElectroMagneticStandardsCompliance"
+msgstr "Electro Magnetische normen voldoen"
+
+msgid "ElectroMagneticStandardsCompliance_DEFINITION"
+msgstr "Informatie over de naleving van elektro magnetische normen."
+
+msgid "ElectroMagneticStandardsCompliance_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ExplosiveAtmosphereStandardsCompliance"
+msgstr "Explosieve sfeernormen naleving"
+
+msgid "ExplosiveAtmosphereStandardsCompliance_DEFINITION"
+msgstr "Informatie over de naleving van normen voor explosieve atmosfeer."
+
+msgid "ExplosiveAtmosphereStandardsCompliance_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "FireProofingStandardsCompliance"
+msgstr "Vuur P Daknormen Compliance"
+
+msgid "FireProofingStandardsCompliance_DEFINITION"
+msgstr "Informatie over de naleving van brandbestendige normen."
+
+msgid "FireProofingStandardsCompliance_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "LightningProtectionStandardsCompliance"
+msgstr "Naleving Bliksembescherming normen"
+
+msgid "LightningProtectionStandardsCompliance_DEFINITION"
+msgstr "Informatie over de naleving van de normen voor bliksembescherming."
+
+msgid "LightningProtectionStandardsCompliance_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_EnvironmentalImpactIndicators"
+msgstr "Eigenschapsset: Environmental impact indicatoren"
+
+msgid "Pset_EnvironmentalImpactIndicators_DEFINITION"
+msgstr "Milieu-effectindicatoren houden verband met een bepaald functionele eenheid (ISO 14040). Een voorbeeld van een functionele eenheid is een 'dubbel glazingsvenster met PVC-frame' en de unit is 'één vierkante meter opening elementen die door dit product worden ingevuld. Indicatorwaarden zijn geldig voor de hele levenscyclus of slechts een specifieke fase (zie [[LifeCyclePhase]] eigenschap). De waarden van alle indicatoren worden per jaar uitgedrukt op basis van het verwachte levensduur van de diensten. De eerste vijf eigenschappen vastleggen de kenmerken van de functionele eenheid. De volgende eigenschappen hebben betrekking op milieu-indicatoren. Er bestaat een internationaal consensusakkoord voor de vijf eigenschappen. De laatste zijn nog niet volledig en formeel overeengekomen op internationaal niveau."
+
+msgid "AtmosphericAcidificationPerUnit"
+msgstr "Atmosferische acculatie Per eenheid"
+
+msgid "AtmosphericAcidificationPerUnit_DEFINITION"
+msgstr "Hoeveelheid aan gassen die verantwoordelijk zijn voor de verzuring in de atmosfeer, berekend in equivalent SO2"
+
+msgid "ClimateChangePerUnit"
+msgstr "Klimaatverandering per eenheid"
+
+msgid "ClimateChangePerUnit_DEFINITION"
+msgstr "Hoeveelheid broeikasgassen, berekend op gelijkwaardige CO2-tegenhanger"
+
+msgid "EutrophicationPerUnit"
+msgstr "Eutrophicatie Per Eenheid"
+
+msgid "EutrophicationPerUnit_DEFINITION"
+msgstr "Aantal eutrofiërende verbindingen berekend in gelijkwaardige PO4"
+
+msgid "ExpectedServiceLife"
+msgstr "Verwachte Service Leven"
+
+msgid "ExpectedServiceLife_DEFINITION"
+msgstr "Verwachte levensduur in jaren."
+
+msgid "FunctionalUnitReference"
+msgstr "Functie Al Unit Referentie"
+
+msgid "FunctionalUnitReference_DEFINITION"
+msgstr "Verwijzing naar een database of een classificatie"
+
+msgid "HazardousWastePerUnit"
+msgstr "Gevaarlijke verspilling Per Stuk"
+
+msgid "HazardousWastePerUnit_DEFINITION"
+msgstr "Aantal gegenereerde gevaarlijke afvalstoffen"
+
+msgid "IndicatorsUnit"
+msgstr "Indicatoren eenheid"
+
+msgid "IndicatorsUnit_DEFINITION"
+msgstr "De eenheid van de kwantiteit waarmee milieuindicatoren verbonden zijn."
+
+msgid "InertWastePerUnit"
+msgstr "Inert afval Per Eenheid"
+
+msgid "InertWastePerUnit_DEFINITION"
+msgstr "Aantal gegenereerde inert afval"
+
+msgid "LifeCyclePhase"
+msgstr "Levenscyclus fase"
+
+msgid "LifeCyclePhase_DEFINITION"
+msgstr "De hele levenscyclus of slechts een bepaalde fase waaruit milieugegevens geldig zijn."
+
+msgid "LifeCyclePhase_ACQUISITION"
+msgstr "Verwerving"
+
+msgid "LifeCyclePhase_CRADLETOSITE"
+msgstr "Vervaardigen naar site"
+
+msgid "LifeCyclePhase_DECONSTRUCTION"
+msgstr "De [[Construction]]"
+
+msgid "LifeCyclePhase_DISPOSAL"
+msgstr "Vuilnisbak"
+
+msgid "LifeCyclePhase_DISPOSALTRANSPORT"
+msgstr "Vervoer verwijderen"
+
+msgid "LifeCyclePhase_GROWTH"
+msgstr "Groei"
+
+msgid "LifeCyclePhase_INSTALLATION"
+msgstr "Installatie"
+
+msgid "LifeCyclePhase_MAINTENANCE"
+msgstr "Onderhoud"
+
+msgid "LifeCyclePhase_MANUFACTURE"
+msgstr "Produceer"
+
+msgid "LifeCyclePhase_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "LifeCyclePhase_OCCUPANCY"
+msgstr "Bezetting"
+
+msgid "LifeCyclePhase_OPERATION"
+msgstr "[[Operation]]"
+
+msgid "LifeCyclePhase_PROCUREMENT"
+msgstr "Aanschaf"
+
+msgid "LifeCyclePhase_PRODUCTION"
+msgstr "Productie"
+
+msgid "LifeCyclePhase_PRODUCTIONTRANSPORT"
+msgstr "Productie vervoer"
+
+msgid "LifeCyclePhase_RECOVERY"
+msgstr "Herstellen"
+
+msgid "LifeCyclePhase_REFURBISHMENT"
+msgstr "Reparatie"
+
+msgid "LifeCyclePhase_REPAIR"
+msgstr "Herstellen"
+
+msgid "LifeCyclePhase_REPLACEMENT"
+msgstr "Re Plaatsing"
+
+msgid "LifeCyclePhase_TRANSPORT"
+msgstr "Vervoer"
+
+msgid "LifeCyclePhase_USAGE"
+msgstr "Gebruik"
+
+msgid "LifeCyclePhase_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "LifeCyclePhase_WASTE"
+msgstr "Afval"
+
+msgid "LifeCyclePhase_WHOLELIFECYCLE"
+msgstr "Hele levenscyclus"
+
+msgid "NonHazardousWastePerUnit"
+msgstr "Aantal niet gevaarlijke afvalstoffen per eenheid"
+
+msgid "NonHazardousWastePerUnit_DEFINITION"
+msgstr "Gegenereerde hoeveelheid niet-gevaarlijke afvalstoffen"
+
+msgid "NonRenewableEnergyConsumptionPerUnit"
+msgstr "Niet hernieuwbare energie per eenheid"
+
+msgid "NonRenewableEnergyConsumptionPerUnit_DEFINITION"
+msgstr "2007"
+
+msgid "PhotochemicalOzoneFormationPerUnit"
+msgstr "Fotochemische Ozone Formatie Per Eenheid"
+
+msgid "PhotochemicalOzoneFormationPerUnit_DEFINITION"
+msgstr "Aantal gassen die de fotochemische ozon creëren, berekend in gelijkwaardige ethyleen"
+
+msgid "RadioactiveWastePerUnit"
+msgstr "Radioactieve verspilling Per Eenheid"
+
+msgid "RadioactiveWastePerUnit_DEFINITION"
+msgstr "Hoeveelheid radioactief afval"
+
+msgid "RenewableEnergyConsumptionPerUnit"
+msgstr "Hernieuwbaar energieverbruik per eenheid"
+
+msgid "RenewableEnergyConsumptionPerUnit_DEFINITION"
+msgstr "2007"
+
+msgid "ResourceDepletionPerUnit"
+msgstr "Grondstof Depletie Per Eenheid"
+
+msgid "ResourceDepletionPerUnit_DEFINITION"
+msgstr "Hoeveelheid gebruikte middelen berekend in gelijkwaardige anmonie"
+
+msgid "StratosphericOzoneLayerDestructionPerUnit"
+msgstr "Stratoferische Ozone Laag Vernietiging Per Eenheid"
+
+msgid "StratosphericOzoneLayerDestructionPerUnit_DEFINITION"
+msgstr "Aantal gassen die de stratosferische ozonlaag vernietigen, berekend in gelijkwaardige CFC-R11"
+
+msgid "TotalPrimaryEnergyConsumptionPerUnit"
+msgstr "Totale primaire energieverbruik per eenheid"
+
+msgid "TotalPrimaryEnergyConsumptionPerUnit_DEFINITION"
+msgstr "2007."
+
+msgid "WaterConsumptionPerUnit"
+msgstr "Water Verbruik Per Unit"
+
+msgid "WaterConsumptionPerUnit_DEFINITION"
+msgstr "Hoeveelheid water gebruikt."
+
+msgid "Pset_EnvironmentalImpactValues"
+msgstr "Eigenschapsset: Environmental impact waarden"
+
+msgid "Pset_EnvironmentalImpactValues_DEFINITION"
+msgstr "De volgende eigenschappen nemen milieu-impact waarden van een element op. Ze komen overeen met de indicatoren die zijn gedefinieerd in [[Pset_EnvironmentalImpactIndicators]]. Milieu-impact waarden worden verkregen met een vermenigvuldiging van de indicator waarde per eenheid door de relevante hoeveelheid van het element."
+
+msgid "AtmosphericAcidification"
+msgstr "Atmosfeer Acidificatie"
+
+msgid "AtmosphericAcidification_DEFINITION"
+msgstr "Het aantal gassen dat verantwoordelijk is voor de verzuring in de atmosfeer, berekend in equivalent SO2."
+
+msgid "ClimateChange"
+msgstr "Klimaatverandering"
+
+msgid "ClimateChange_DEFINITION"
+msgstr "Het aantal broeikasgassen dat wordt uitgestoten is berekend op equivalent van de CO2-uitstoot."
+
+msgid "Duration"
+msgstr "Duur"
+
+msgid "Duration_DEFINITION"
+msgstr "[[Duration]]."
+
+msgid "Eutrophication"
+msgstr "Eutrofiëring"
+
+msgid "Eutrophication_DEFINITION"
+msgstr "Hoeveelheid eutrofiërende verbindingen berekend in gelijkwaardige PO4."
+
+msgid "HazardousWaste"
+msgstr "Gevaarlijke verspilling"
+
+msgid "HazardousWaste_DEFINITION"
+msgstr "Hoeveelheid gevaarlijke afvalstoffen gegenereerd."
+
+msgid "InertWaste"
+msgstr "Inert afval"
+
+msgid "InertWaste_DEFINITION"
+msgstr "Hoeveelheid inert afval gegenereerd."
+
+msgid "LeadInTime"
+msgstr "Lead in tijd"
+
+msgid "LeadInTime_DEFINITION"
+msgstr "Lead in tijd voordat het proces begint."
+
+msgid "LeadOutTime"
+msgstr "Lead Uit Tijd"
+
+msgid "LeadOutTime_DEFINITION"
+msgstr "Lead de tijd na het einde van het proces."
+
+msgid "NonHazardousWaste"
+msgstr "Niet gevaarlijk afval"
+
+msgid "NonHazardousWaste_DEFINITION"
+msgstr "Hoeveelheid niet-gevaarlijke afvalstoffen gegenereerd."
+
+msgid "NonRenewableEnergyConsumption"
+msgstr "Niet hernieuwbare energie verbruik"
+
+msgid "NonRenewableEnergyConsumption_DEFINITION"
+msgstr "2007"
+
+msgid "PhotochemicalOzoneFormation"
+msgstr "Photochemische Ozonvorming"
+
+msgid "PhotochemicalOzoneFormation_DEFINITION"
+msgstr "Hoeveelheid van gassen die de fotochemische ozon creëren en die worden berekend in gelijkwaardige ethyleen."
+
+msgid "RadioactiveWaste"
+msgstr "Radioactieve verspilling"
+
+msgid "RadioactiveWaste_DEFINITION"
+msgstr "De hoeveelheid radioactief afval is geproduceerd."
+
+msgid "RenewableEnergyConsumption"
+msgstr "Hernieuwbaar energieverbruik"
+
+msgid "RenewableEnergyConsumption_DEFINITION"
+msgstr "2007"
+
+msgid "ResourceDepletion"
+msgstr "Grondstof Depletie"
+
+msgid "ResourceDepletion_DEFINITION"
+msgstr "Hoeveelheid gebruikte middelen, berekend in equivalente antimonium."
+
+msgid "StratosphericOzoneLayerDestruction"
+msgstr "Stratoferische Ozone Laag Vernietiging"
+
+msgid "StratosphericOzoneLayerDestruction_DEFINITION"
+msgstr "Hoeveelheid gassen die de stratosferische ozonlaag vernietigen, berekend in equivalent CFC-R11."
+
+msgid "TotalPrimaryEnergyConsumption"
+msgstr "Totale primaire energie verbruik"
+
+msgid "TotalPrimaryEnergyConsumption_DEFINITION"
+msgstr "2007."
+
+msgid "WaterConsumption"
+msgstr "Water Verbruik"
+
+msgid "WaterConsumption_DEFINITION"
+msgstr "Hoeveelheid water gebruikt."
+
+msgid "Pset_EnvironmentalCondition"
+msgstr "Eigenschapsset: Milieuvoorwaarde"
+
+msgid "Pset_EnvironmentalCondition_DEFINITION"
+msgstr "Eigenschappen definiëren omgevingsvoorwaarden die vereist zijn voor het element."
+
+msgid "MaximumAtmosphericPressure"
+msgstr "Maximale Atmobolische druk"
+
+msgid "MaximumAtmosphericPressure_DEFINITION"
+msgstr "Maximale luchtdruk waarin de apparatuur effectief kan werken."
+
+msgid "MaximumRainIntensity"
+msgstr "Maximale Regenintensiteit"
+
+msgid "MaximumRainIntensity_DEFINITION"
+msgstr "Maximale hoeveelheid regenintensiteit waarin de apparatuur effectief kan werken. Meestal wordt deze gemeten in millimeter per uur (mm/u)."
+
+msgid "MaximumSolarRadiation"
+msgstr "Maximale zonnestraling"
+
+msgid "MaximumSolarRadiation_DEFINITION"
+msgstr "Maximaal niveau van zonne-straling waarin de apparatuur effectief kan werken. Dit wordt meestal getest en gemeten volgens een nationale of internationale standaard. De waarde geeft aan dat stroomdichtheid gemeten in watt per vierkante meter (w/m2)."
+
+msgid "MaximumWindSpeed"
+msgstr "Maximale windsnelheid"
+
+msgid "MaximumWindSpeed_DEFINITION"
+msgstr "Maximale weerstand tegen windlastblootstelling."
+
+msgid "OperationalTemperatureRange"
+msgstr "Operationele temperatuur bereik"
+
+msgid "OperationalTemperatureRange_DEFINITION"
+msgstr "Het temperatuurbereik waarin het apparaat normaal werkt."
+
+msgid "ReferenceAirRelativeHumidity"
+msgstr "Referentie lucht relatieve vochtigheid"
+
+msgid "ReferenceAirRelativeHumidity_DEFINITION"
+msgstr "Meet de verhouding van de waterdamp in de lucht."
+
+msgid "ReferenceEnvironmentTemperature"
+msgstr "Referentie milieu temperatuur"
+
+msgid "ReferenceEnvironmentTemperature_DEFINITION"
+msgstr "Ideaal temperatuurbereik."
+
+msgid "SaltMistLevel"
+msgstr "Salt Mist Niveau"
+
+msgid "SaltMistLevel_DEFINITION"
+msgstr "De maximale hoeveelheid zoutmist waarin de apparatuur effectief kan werken, wordt geleverd volgens een internationale of nationale norm."
+
+msgid "SeismicResistance"
+msgstr "Seismisch resistentie"
+
+msgid "SeismicResistance_DEFINITION"
+msgstr "Maximale aardbeving van de aardbeving waar de uitrusting aan voldoet. De waarde duidt op aardbevingsintensiteit gemeten in de schaal van Richter."
+
+msgid "SmokeLevel"
+msgstr "Rook niveau"
+
+msgid "SmokeLevel_DEFINITION"
+msgstr "Het maximale rookniveau waaraan de uitrusting voldoet, is volgens een internationale of nationale norm."
+
+msgid "StorageTemperatureRange"
+msgstr "Temperatuur opslagruimte bereik"
+
+msgid "StorageTemperatureRange_DEFINITION"
+msgstr "Toegestane opslagtemperatuur bereik waar het element aan voldoet."
+
+msgid "Pset_InstallationOccurrence"
+msgstr "Eigenschapsset: Installatiegebeurtenis"
+
+msgid "Pset_InstallationOccurrence_DEFINITION"
+msgstr "Eigenschappen die installatie informatie definiëren voor voorvallen van elementen, activa of systeem."
+
+msgid "AcceptanceDate"
+msgstr "Aanvaarding datum"
+
+msgid "AcceptanceDate_DEFINITION"
+msgstr "Datum waarop het element wordt geaccepteerd door de beheerder of beheerder."
+
+msgid "InstallationDate"
+msgstr "Installatie datum"
+
+msgid "InstallationDate_DEFINITION"
+msgstr "Datum waarop het element is geïnstalleerd."
+
+msgid "PutIntoOperationDate"
+msgstr "Zet in werking datum"
+
+msgid "PutIntoOperationDate_DEFINITION"
+msgstr "Datum waarop het element in werking wordt gesteld."
+
+msgid "Pset_RepairOccurrence"
+msgstr "Eigenschapsset: Reparatie"
+
+msgid "Pset_RepairOccurrence_DEFINITION"
+msgstr "Eigenschappen definiëren reparatie-informatie voor voorvallen van elementen, activa of systeem."
+
+msgid "MeanTimeToRepair"
+msgstr "Gemiddelde tijd tot reparatie"
+
+msgid "MeanTimeToRepair_DEFINITION"
+msgstr "Gemiddelde tijd om te repareren."
+
+msgid "RepairContent"
+msgstr "Inhoud van reparatie"
+
+msgid "RepairContent_DEFINITION"
+msgstr "Inhoud van de reparatie, reden en natuur kan worden gegeven, bijvoorbeeld beeldfouten, communicatiefout, weergave uitwisseling."
+
+msgid "RepairDate"
+msgstr "Herstel Datum"
+
+msgid "RepairDate_DEFINITION"
+msgstr "Datum waarop de laatste reparatie wordt gedaan op het asset."
+
+msgid "Pset_Condition"
+msgstr "Eigenschap set: Voorwaarde"
+
+msgid "Pset_Condition_DEFINITION"
+msgstr "Bepaalt de staat of staat van een element op een bepaald moment."
+
+msgid "AssessmentCondition"
+msgstr "Toets conditie"
+
+msgid "AssessmentCondition_DEFINITION"
+msgstr "De algemene staat van het product is gebaseerd op een beoordeling van de bijdragen aan de algemene toestand waarin de verschillende criteria voorzien. De betekenis die wordt gegeven aan de waarden van beoordeelde aandoeningen moet worden vastgelegd en gedocumenteerd in lokale overeenkomsten. Zo wordt de algehele toestand gemeten op een schaal van 1 tot 10 of door namen als God, OK, Poor, toe te wijzen."
+
+msgid "AssessmentDate"
+msgstr "Toets datum"
+
+msgid "AssessmentDate_DEFINITION"
+msgstr "Datum waarop de algehele conditie wordt beoordeeld"
+
+msgid "AssessmentDescription"
+msgstr "Toets beschrijving"
+
+msgid "AssessmentDescription_DEFINITION"
+msgstr "Kwalitatieve beschrijving van de voorwaarde."
+
+msgid "AssessmentFrequency"
+msgstr "Beoordeling frequentie"
+
+msgid "AssessmentFrequency_DEFINITION"
+msgstr "Geeft aan hoe vaak de apparatuur moet worden beoordeeld, om een duidelijke inschatting te krijgen van de werkstaat. op basis waarvan het onderhoudspersoneel kan beslissen of het onderhoud vereist is of dat het bijgewerkt of vervangen moet worden."
+
+msgid "AssessmentMethod"
+msgstr "Toets methode"
+
+msgid "AssessmentMethod_DEFINITION"
+msgstr "Externe referentie naar de toetsingsmethode of de toepassing die wordt gebruikt om de toets uit te voeren."
+
+msgid "AssessmentMethod_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "AssessmentType"
+msgstr "Toets type"
+
+msgid "AssessmentType_DEFINITION"
+msgstr "[[Category]] van het laatste rapport over de beoordeling van condities van de activa."
+
+msgid "LastAssessmentReport"
+msgstr "Laatste toets rapport"
+
+msgid "LastAssessmentReport_DEFINITION"
+msgstr "Verwijzing naar de laatste staat van dienst (gezondheid) rapport."
+
+msgid "NextAssessmentDate"
+msgstr "Volgende toets datum"
+
+msgid "NextAssessmentDate_DEFINITION"
+msgstr "Datum van de volgende inspectie"
+
+msgid "Pset_ConstructionAdministration"
+msgstr "Eigenschap set: Constructie Beheer"
+
+msgid "Pset_ConstructionAdministration_DEFINITION"
+msgstr "Eigenschappen voor [[Construction]] Administratie. Vaak gebruikt voor faciliteit en vermogensbeheer."
+
+msgid "ProcurementMethod"
+msgstr "Aanschaffingsmethode"
+
+msgid "ProcurementMethod_DEFINITION"
+msgstr "De methode waarmee een IfcProductType/[[IfcProduct]] wordt verkregen en geïnstalleerd. FCI (betekent Contractor Ingebouwde Contractor geïnstalleerd), OFCI (bedoelde eigenaar ingebouwde Contractor geïnstalleerd), of OFOI (bedoelde eigenaar geïnstalleerd)."
+
+msgid "SpecificationSectionNumber"
+msgstr "Nummer specificatie sectie"
+
+msgid "SpecificationSectionNumber_DEFINITION"
+msgstr "Een referentienummer voor een externe contract waarin technische specificatie beschreven wordt (a) minimale prestatievereisten van een bepaalde IfcProductType/[[IfcProduct]] of (b) een voorverkiezing voor een specifieke IfcProductType/[[IfcProduct]] gemaakt voor dit project."
+
+msgid "SubmittalIdentifer"
+msgstr "Verzending ID"
+
+msgid "SubmittalIdentifer_DEFINITION"
+msgstr "Het referentienummer van een externe administratie die gebruikt wordt door de aannemer en/of onderaannemer om te controleren of de gerefereerde IfcProductType/[[IfcProduct]] selectie voldoet aan de vereisten gevonden in de verwijzende [[SpecificationSectionNumber]]."
+
+msgid "Pset_ConstructionOccurence"
+msgstr "Eigenschapsset: Opbouw gebeurtenis"
+
+msgid "Pset_ConstructionOccurence_DEFINITION"
+msgstr "Eigenschappen ingesteld voor constructie incident."
+
+msgid "AssetIdentifier"
+msgstr "Asset Identifier"
+
+msgid "AssetIdentifier_DEFINITION"
+msgstr "Een unieke identificatie toegewezen aan een activum dat het mogelijk maakt onderscheid te maken van andere activa."
+
+msgid "ModelNumber"
+msgstr "Model nummer"
+
+msgid "ModelNumber_DEFINITION"
+msgstr "Het modelnummer en/of de eenheidsaanduiding toegewezen door de fabrikant van het vervaardigde artikel."
+
+msgid "TagNumber"
+msgstr "Tag Nummer"
+
+msgid "TagNumber_DEFINITION"
+msgstr "Label nummer."
+
+msgid "Pset_MaintenanceStrategy"
+msgstr "Eigenschap set: Onderhoudsstrategie"
+
+msgid "Pset_MaintenanceStrategy_DEFINITION"
+msgstr "Eigenschappen ingesteld voor de koppeling van een onderhoudsstrategie aan een element, activa van het systeem."
+
+msgid "AccidentResponse"
+msgstr "Incident Antwoord"
+
+msgid "AccidentResponse_DEFINITION"
+msgstr "Onongevallenreactie gekozen voor de asset"
+
+msgid "AccidentResponse_EMERGENCYINSPECTION"
+msgstr "Inspectie voor noodgevallen"
+
+msgid "AccidentResponse_EMERGENCYPROCEDURE"
+msgstr "Procedure voor noodgevallen"
+
+msgid "AccidentResponse_REACTIVE"
+msgstr "Reactief"
+
+msgid "AccidentResponse_URGENTINSPECTION"
+msgstr "Dringende inspectie"
+
+msgid "AccidentResponse_URGENTPROCEDURE"
+msgstr "Dringende Procedure"
+
+msgid "AssetCriticality"
+msgstr "Asset kritiek"
+
+msgid "AssetCriticality_DEFINITION"
+msgstr "Een kritische beoordeling van het vermogen bij de werking van de faciliteit"
+
+msgid "AssetCriticality_HIGH"
+msgstr "hoog"
+
+msgid "AssetCriticality_LOW"
+msgstr "laag"
+
+msgid "AssetCriticality_MODERATE"
+msgstr "Matig"
+
+msgid "AssetCriticality_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "AssetCriticality_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "AssetFrailty"
+msgstr "Bezitting F Spoor Ty"
+
+msgid "AssetFrailty_DEFINITION"
+msgstr "Waardering van de kwetsbaarheid van het product tot ontbijt of achteruitgang"
+
+msgid "AssetFrailty_HIGH"
+msgstr "hoog"
+
+msgid "AssetFrailty_LOW"
+msgstr "laag"
+
+msgid "AssetFrailty_MODERATE"
+msgstr "Matig"
+
+msgid "AssetFrailty_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "AssetFrailty_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "AssetPriority"
+msgstr "Asset prioriteit"
+
+msgid "AssetPriority_DEFINITION"
+msgstr "Gecombineerde kritiek en zwakke rating geven de operationele en onderhoudsprioriteit aan van het activum"
+
+msgid "AssetPriority_HIGH"
+msgstr "hoog"
+
+msgid "AssetPriority_LOW"
+msgstr "laag"
+
+msgid "AssetPriority_MODERATE"
+msgstr "Matig"
+
+msgid "AssetPriority_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "AssetPriority_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "MonitoringType"
+msgstr "Type monitoring"
+
+msgid "MonitoringType_DEFINITION"
+msgstr "Toezicht strategie gekozen voor de asset"
+
+msgid "MonitoringType_FEEDBACK"
+msgstr "Feed terug"
+
+msgid "MonitoringType_INSPECTION"
+msgstr "Inspectie"
+
+msgid "MonitoringType_IOT"
+msgstr "IOT"
+
+msgid "MonitoringType_PPM"
+msgstr "PPM"
+
+msgid "MonitoringType_SENSORS"
+msgstr "Sensoren"
+
+msgid "Pset_MaintenanceTriggerCondition"
+msgstr "Eigenschapsset: Onderhoudsvoorwaarde"
+
+msgid "Pset_MaintenanceTriggerCondition_DEFINITION"
+msgstr "Triggerniveaus voor een activum met een op inspectie gebaseerde onderhoudsstrategie"
+
+msgid "ConditionDisposalLevel"
+msgstr "Voorwaarde schotelniveau"
+
+msgid "ConditionDisposalLevel_DEFINITION"
+msgstr "Staat die een verwijderingsproces zal starten"
+
+msgid "ConditionDisposalLevel_HIGH"
+msgstr "hoog"
+
+msgid "ConditionDisposalLevel_LOW"
+msgstr "laag"
+
+msgid "ConditionDisposalLevel_MODERATE"
+msgstr "Matig"
+
+msgid "ConditionDisposalLevel_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "ConditionDisposalLevel_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "ConditionMaintenanceLevel"
+msgstr "Onderhoudsniveau voorwaarde"
+
+msgid "ConditionMaintenanceLevel_DEFINITION"
+msgstr "Voorwaarde die het trigger onderhoud"
+
+msgid "ConditionMaintenanceLevel_HIGH"
+msgstr "hoog"
+
+msgid "ConditionMaintenanceLevel_LOW"
+msgstr "laag"
+
+msgid "ConditionMaintenanceLevel_MODERATE"
+msgstr "Matig"
+
+msgid "ConditionMaintenanceLevel_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "ConditionMaintenanceLevel_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "ConditionReplacementLevel"
+msgstr "Conditie Re Plaatsing Level"
+
+msgid "ConditionReplacementLevel_DEFINITION"
+msgstr "Voorwaarde die een vervangende procedure zal starten"
+
+msgid "ConditionReplacementLevel_HIGH"
+msgstr "hoog"
+
+msgid "ConditionReplacementLevel_LOW"
+msgstr "laag"
+
+msgid "ConditionReplacementLevel_MODERATE"
+msgstr "Matig"
+
+msgid "ConditionReplacementLevel_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "ConditionReplacementLevel_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "ConditionTargetPerformance"
+msgstr "Voorwaarde doelprestatie"
+
+msgid "ConditionTargetPerformance_DEFINITION"
+msgstr "Doelstaat van de troef"
+
+msgid "ConditionTargetPerformance_HIGH"
+msgstr "hoog"
+
+msgid "ConditionTargetPerformance_LOW"
+msgstr "laag"
+
+msgid "ConditionTargetPerformance_MODERATE"
+msgstr "Matig"
+
+msgid "ConditionTargetPerformance_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "ConditionTargetPerformance_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "Pset_MaintenanceTriggerDuration"
+msgstr "Eigenschapsset: Duur onderhoud"
+
+msgid "Pset_MaintenanceTriggerDuration_DEFINITION"
+msgstr "Triggerniveaus voor een activum met een PPM-gebaseerde onderhoudsstrategie."
+
+msgid "DurationDisposalLevel"
+msgstr "Duur depositie niveau"
+
+msgid "DurationDisposalLevel_DEFINITION"
+msgstr "[[Duration]] interval welke beschikbaar is uitgevoerd"
+
+msgid "DurationMaintenanceLevel"
+msgstr "Duur onderhoudsniveau"
+
+msgid "DurationMaintenanceLevel_DEFINITION"
+msgstr "[[Duration]] interval waarop onderhoud wordt uitgevoerd"
+
+msgid "DurationReplacementLevel"
+msgstr "Duur plaatsing niveau"
+
+msgid "DurationReplacementLevel_DEFINITION"
+msgstr "[[Duration]] interval waarop vervanging wordt uitgevoerd"
+
+msgid "DurationTargetPerformance"
+msgstr "Duur Doel Prestatie"
+
+msgid "DurationTargetPerformance_DEFINITION"
+msgstr "Bestemmings tijd tot mislukken van de asset"
+
+msgid "Pset_MaintenanceTriggerPerformance"
+msgstr "Eigenschapsset: Onderhoud Trigger Prestaties"
+
+msgid "Pset_MaintenanceTriggerPerformance_DEFINITION"
+msgstr "Eigenschappen voor op prestatie gebaseerd onderhoudsbeleid"
+
+msgid "DisposalLevel"
+msgstr "Vuilnisniveau"
+
+msgid "DisposalLevel_DEFINITION"
+msgstr "[[Performance]] niveau welke beschikbaar is"
+
+msgid "PerformanceMaintenanceLevel"
+msgstr "Prestatie onderhoudsniveau"
+
+msgid "PerformanceMaintenanceLevel_DEFINITION"
+msgstr "[[Performance]] niveau waarop onderhoud plaatsvindt"
+
+msgid "ReplacementLevel"
+msgstr "Re Plaatsing Level"
+
+msgid "ReplacementLevel_DEFINITION"
+msgstr "[[Performance]] niveau waarop de vervanging plaatsvindt"
+
+msgid "TargetPerformance"
+msgstr "Doel Prestatie"
+
+msgid "TargetPerformance_DEFINITION"
+msgstr "Doel capaciteit of prestaties van het asset. Eenheden van de prestatiewaarde worden opgegeven via het eigenschapWaarde eenheden attribuut."
+
+msgid "Pset_ManufacturerOccurrence"
+msgstr "Eigenschap Set: Fabrikant gebeurtenis"
+
+msgid "Pset_ManufacturerOccurrence_DEFINITION"
+msgstr "Definieert eigenschappen van individuele gevallen van industrieproducten die door de fabrikant kunnen worden gegeven;"
+
+msgid "AcquisitionDate"
+msgstr "Datum verwerving"
+
+msgid "AcquisitionDate_DEFINITION"
+msgstr "De datum waarop het gefabriceerde artikel werd gekocht."
+
+msgid "AssemblyPlace"
+msgstr "Plaats van Buurderij"
+
+msgid "AssemblyPlace_DEFINITION"
+msgstr "Optelling die bepaalt waar de assemblage moet plaatsvinden, ofwel in een fabriek, een andere offsite of op de bouwplaats."
+
+msgid "AssemblyPlace_FACTORY"
+msgstr "of in een fabriek"
+
+msgid "AssemblyPlace_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AssemblyPlace_OFFSITE"
+msgstr "andere offsite locatie of op de bouwplaats"
+
+msgid "AssemblyPlace_OTHER"
+msgstr "andere offsite locatie of op de bouwplaats"
+
+msgid "AssemblyPlace_SITE"
+msgstr "andere offsite locatie of op de bouwplaats"
+
+msgid "AssemblyPlace_UNSET"
+msgstr "Uitzetten"
+
+msgid "BarCode"
+msgstr "Staaf code"
+
+msgid "BarCode_DEFINITION"
+msgstr "De identiteit van de barcode die aan een gebeurtenis van het product wordt gegeven."
+
+msgid "BatchReference"
+msgstr "Batch referentie"
+
+msgid "BatchReference_DEFINITION"
+msgstr "De identiteit van de partijenreferentie waaruit een voorval van een product wordt afgenomen."
+
+msgid "ManufacturingDate"
+msgstr "Productie datum"
+
+msgid "ManufacturingDate_DEFINITION"
+msgstr "De datum waarop het element is vervaardigd."
+
+msgid "SerialNumber"
+msgstr "Serienummer"
+
+msgid "SerialNumber_DEFINITION"
+msgstr "Het serienummer van de fabrikant is toegewezen aan een gebeurtenis van een product."
+
+msgid "Pset_ManufacturerTypeInformation"
+msgstr "Eigenschap Set: Fabrikant Type informatie"
+
+msgid "Pset_ManufacturerTypeInformation_DEFINITION"
+msgstr "Definieert de eigenschappen van verschillende soorten producten (bereik) die door de fabrikant mogen worden gegeven. Merk op dat de term 'geproduceerde' ook kan worden gebruikt voor het verwijzen naar producten die zijn geleverd en geïdentificeerd door de leverancier of die buiten de site worden verzameld door een derde partijaanbieder.;"
+
+msgid "ArticleNumber"
+msgstr "Artikelnummer"
+
+msgid "ArticleNumber_DEFINITION"
+msgstr "Artikelnummer of referentie die wordt toegepast op een geconfigureerd product volgens een standaard systeem voor de definitie van artikelnummer zoals gedefinieerd door de fabrikant. Het wordt vaak gebruikt als het aankoopnummer."
+
+msgid "GlobalTradeItemNumber"
+msgstr "Globaal handelsartikelnummer"
+
+msgid "GlobalTradeItemNumber_DEFINITION"
+msgstr "Het Global Trade Item Number (GTIN) is een id voor handelsartikelen ontwikkeld door GS1 (www.gs1.org)."
+
+msgid "Manufacturer"
+msgstr "Fabrikant"
+
+msgid "Manufacturer_DEFINITION"
+msgstr "De organisatie die het product fabriceerde en/of assembleerde."
+
+msgid "ModelLabel"
+msgstr "Model Label"
+
+msgid "ModelLabel_DEFINITION"
+msgstr "De beschrijvende modelnaam van het productmodel (of productregel) zoals toegewezen door de fabrikant van het geproduceerde artikel."
+
+msgid "ModelReference"
+msgstr "Model referentie"
+
+msgid "ModelReference_DEFINITION"
+msgstr "Het modelnummer of de aanduiding van het productmodel (of productregel) als toegewezen door de fabrikant van het vervaardigde artikel."
+
+msgid "OperationalDocument"
+msgstr "Operationeel document"
+
+msgid "OperationalDocument_DEFINITION"
+msgstr "[[Manufacturer]]'s operationeel document"
+
+msgid "OperationalDocument_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "PerformanceCertificate"
+msgstr "Prestatie Certificaat"
+
+msgid "PerformanceCertificate_DEFINITION"
+msgstr "[[Manufacturer]]'s prestatiecertificaat"
+
+msgid "PerformanceCertificate_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ProductionYear"
+msgstr "Productie jaar"
+
+msgid "ProductionYear_DEFINITION"
+msgstr "Het productiejaar van het geproduceerde product."
+
+msgid "SafetyDocument"
+msgstr "Veiligheid Document"
+
+msgid "SafetyDocument_DEFINITION"
+msgstr "[[Manufacturer]]'s veiligheidsdocument"
+
+msgid "SafetyDocument_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ServiceLife"
+msgstr "Eigenschapsset: Service Leven"
+
+msgid "Pset_ServiceLife_DEFINITION"
+msgstr "Bepaalt de periode die een artefact zal duren."
+
+msgid "MeanTimeBetweenFailure"
+msgstr "Gemiddelde tijd tussen falen"
+
+msgid "MeanTimeBetweenFailure_DEFINITION"
+msgstr "De gemiddelde tijdsduur tussen gevallen van falen van een product."
+
+msgid "ServiceLifeDuration"
+msgstr "Service levensduur duur"
+
+msgid "ServiceLifeDuration_DEFINITION"
+msgstr "De lengte of duur van een service leven. Hij ondergaat, geeft het pessimistische leven van de dienstverlening, de bovenste band geeft het optimistische dienstverleningsleven weer, en het ingestelde punt geeft het normale leven van de dienstverlening aan."
+
+msgid "Pset_Warranty"
+msgstr "Eigenschap Set: Garantie"
+
+msgid "Pset_Warranty_DEFINITION"
+msgstr "Een door de verkoper of aanbieder van een artefact gegeven verzekering dat het artefact zonder gebreken is en zal functioneren zoals beschreven voor een bepaalde periode zonder falen, en dat als er in die tijd een defect optreedt. dat wordt gecorrigeerd door de verkoper of provider."
+
+msgid "Exclusions"
+msgstr "Uitsluitingen"
+
+msgid "Exclusions_DEFINITION"
+msgstr "Items, voorwaarden of acties die van de garantie uitgesloten kunnen worden of die tot gevolg kunnen hebben dat de garantie nietig wordt."
+
+msgid "IsExtendedWarranty"
+msgstr "Is uitgebreide garantie"
+
+msgid "IsExtendedWarranty_DEFINITION"
+msgstr "Indicatie of dit een verlengde garantie is waarvan de duur groter is dan die van een artefact (=TRUE) of niet (= FALSE)."
+
+msgid "PointOfContact"
+msgstr "Contactpunt"
+
+msgid "PointOfContact_DEFINITION"
+msgstr "De organisatie die gecontacteerd moet worden voor actie overeenkomstig de voorwaarden van de garantie. Merk op dat de rol van de organisatie (fabrikant, leverancier, installer etc.) wordt bepaald door het IfcActorRole attribuut van de IfcOrganisatie."
+
+msgid "WarrantyContent"
+msgstr "Garantie inhoud"
+
+msgid "WarrantyContent_DEFINITION"
+msgstr "De inhoud van de garantie."
+
+msgid "WarrantyIdentifier"
+msgstr "Garantie identificatie"
+
+msgid "WarrantyIdentifier_DEFINITION"
+msgstr "De identificatie toegewezen aan een garantie."
+
+msgid "WarrantyPeriod"
+msgstr "Garantie periode"
+
+msgid "WarrantyPeriod_DEFINITION"
+msgstr "De tijdsduur waarin een fabrikant of leverancier de prestaties van een artefact garandeert of rechtvaardigt."
+
+msgid "WarrantyStartDate"
+msgstr "Begindatum garantie"
+
+msgid "WarrantyStartDate_DEFINITION"
+msgstr "De datum waarop de garantie begint."
+
+msgid "Pset_ElementKinematics"
+msgstr "Eigenschapsset: Element Kinematics"
+
+msgid "Pset_ElementKinematics_DEFINITION"
+msgstr "Informatie die bevestigt dat het element cyclisch en/of gepassioneerd kinematisch gedrag heeft. De resulterende envelop kan beschikbaar zijn als vorm van 'clearing'."
+
+msgid "CyclicPath"
+msgstr "Cyclische pad"
+
+msgid "CyclicPath_DEFINITION"
+msgstr "hoek tabel van het kinematige gedrag."
+
+msgid "CyclicPath_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "CyclicRange"
+msgstr "Cyclische bereik"
+
+msgid "CyclicRange_DEFINITION"
+msgstr "Identificeert het hoekbereik van het kinematische gedrag"
+
+msgid "LinearPath"
+msgstr "Lineair pad"
+
+msgid "LinearPath_DEFINITION"
+msgstr "afstand tabel van het kinematige gedrag."
+
+msgid "LinearPath_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "LinearRange"
+msgstr "Linear Range"
+
+msgid "LinearRange_DEFINITION"
+msgstr "Identificeert het lineaire bereik van het kinematige gedrag."
+
+msgid "MaximumAngularVelocity"
+msgstr "Maximale hoeksnelheid"
+
+msgid "MaximumAngularVelocity_DEFINITION"
+msgstr "Identificeert de maximale hoeksnelheid van het kinematige gedrag."
+
+msgid "MaximumConstantSpeed"
+msgstr "Maximale Constante Snelheid"
+
+msgid "MaximumConstantSpeed_DEFINITION"
+msgstr "Identificeert de maximale constante snelheid over het kinematische pad."
+
+msgid "MinimumTime"
+msgstr "Minimale tijd"
+
+msgid "MinimumTime_DEFINITION"
+msgstr "Identificeert de minimale tijd voor het kinematige gedrag."
+
+msgid "Tag"
+msgstr "Label"
+
+msgid "Tag_DEFINITION"
+msgstr "De tag (of label) identifier op het specifieke exemplaar van een product, b.v. het serienummer of het positienummer. Het is de identifier op het herhalingsniveau."
+
+msgid "ElementType"
+msgstr "Element type"
+
+msgid "ElementType_DEFINITION"
+msgstr "Het type noteert een bepaald type dat het object verder aantoont. Het gebruik moet worden vastgesteld op het niveau van directe subtypes. Met name het bevat het gebruiker gedefinieerde type, als de opsomming van het kenmerk 'VoordefinedType' is ingesteld op [[USERDEFINED]]."
+
+msgid "Qto_BodyGeometryValidation"
+msgstr "Hoeveelheid set: body geometrie validatie"
+
+msgid "Qto_BodyGeometryValidation_DEFINITION"
+msgstr "Hoeveelheden geleverd om de juiste interpretatie van de body shape representatie bij de import te valideren. In het geval van meerdere representatieartikelen, worden de hoeveelheden samengevat voor elk van de items (ongeacht eventuele overlap). Het kiezen van een geschikte tolerantiewaarde voor het vergelijken van de opgegeven nummers met de getallen berekend op basis van de gereconstrueerde geometrie is aan de discretie van de importerende toepassing."
+
+msgid "GrossSurfaceArea"
+msgstr "Bruto oppervlakte"
+
+msgid "GrossSurfaceArea_DEFINITION"
+msgstr "Totale bruto oppervlakte van het object, normaal gesproken gegenereerd als omtrek * lengte + 2 * kruissectie gebied. Het is de som van [[OuterSurfaceArea]] + (2 x [[CrossSectionArea]]) en wordt alleen gegeven, als de [[OuterSurfaceArea]] en [[CrossSectionArea]] niet afzonderlijk kunnen worden opgericht."
+
+msgid "GrossVolume"
+msgstr "Bruto Volume"
+
+msgid "GrossVolume_DEFINITION"
+msgstr "Totale bruto volume van het object. Openingen, recesses, ingesloten objecten en projecties worden niet in aanmerking genomen."
+
+msgid "NetSurfaceArea"
+msgstr "Netto oppervlak"
+
+msgid "NetSurfaceArea_DEFINITION"
+msgstr "Netto oppervlak van het object, normaal gegenereerd als omtrek * lengte + 2 * cross sectie gebied, rekening houdend met mogelijke verwerkingsfuncties (uitsnijden, etc. of openingen en recessen."
+
+msgid "NetVolume"
+msgstr "Netto Volume"
+
+msgid "NetVolume_DEFINITION"
+msgstr "Totale netto volume van het object, rekening houdend met mogelijke verwerkingsfuncties (uitsnijden, etc.) of openingen en recessen."
+
+msgid "SurfaceGenusAfterFeatures"
+msgstr "Oppervlak Genus Na Functies"
+
+msgid "SurfaceGenusAfterFeatures_DEFINITION"
+msgstr "Het Oppervlak Genus van de geëvalueerde vertegenwoordigingsitems na toepassing van de geometrische kenmerken op productniveau, zoals openingen en projecties. urface Genus is een topologische maatregel die het aantal 'gaten' of 'handvatten' op een oppervlak weergeeft. Zo heeft een bol genus 0, en heeft een torus 1 genus. $\\chi=V-E+F$$With het aantal hoekpunten (V), Randen (E) en gezichten (F)$$\\chi=22gb$$With oppervlaktegenus (g) en het aantal afstanden (b) het laatste nul in geval van een gesloten volume."
+
+msgid "SurfaceGenusBeforeFeatures"
+msgstr "Oppervlak Genus voor functies"
+
+msgid "SurfaceGenusBeforeFeatures_DEFINITION"
+msgstr "Het Oppervlak Genus van de geëvalueerde vertegenwoordigingsitems voordat u product-geometrische kenmerken toepast, zoals openingen en projecties. urface Genus is een topologische maatregel die het aantal 'gaten' of 'handvatten' op een oppervlak weergeeft. Zo heeft een bol genus 0, en heeft een torus 1 genus. $\\chi=V-E+F$$With het aantal hoekpunten (V), Randen (E) en gezichten (F)$$\\chi=22gb$$With oppervlaktegenus (g) en het aantal afstanden (b) het laatste nul in geval van een gesloten volume."
+
+msgid "Pset_Tolerance"
+msgstr "Eigenschapsset: Tolerantie"
+
+msgid "Pset_Tolerance_DEFINITION"
+msgstr "Eigenschappen die de tolerantie vertonen met betrekking tot het lokaliseren en vormgeven van een bepaald element of kenmerk. [[Range]] diameters zijn niet-negatief voor een lineair, rechthoekig of boxed gebied."
+
+msgid "ElevationalFlatness"
+msgstr "Lichtgevende platte Ness"
+
+msgid "ElevationalFlatness_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik bereik geassocieerd met de hoge oppervlakte in ZX, indien anders dan de algehele flatness."
+
+msgid "HorizontalFlatness"
+msgstr "Horizontale platte Ness"
+
+msgid "HorizontalFlatness_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik bereik geassocieerd met het horizontale oppervlak in XY, indien anders dan de algehele plattegrond."
+
+msgid "HorizontalOrthogonality"
+msgstr "Horizontal Orthogonality"
+
+msgid "HorizontalOrthogonality_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik orthogonaliteit gekoppeld aan de horizontale vorm en oriëntatie in X, indien anders dan de algehele orthogonaliteit."
+
+msgid "HorizontalStraightness"
+msgstr "Horizontaal Straat"
+
+msgid "HorizontalStraightness_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand geassocieerd met de horizontale vorm in X, indien anders dan de algehele eenvoud."
+
+msgid "HorizontalTolerance"
+msgstr "Horizontale Tolerantie"
+
+msgid "HorizontalTolerance_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstandstolerantie gekoppeld aan de horizontale vorm en positie in X, indien anders dan de algehele tolerantie."
+
+msgid "OrthogonalOrthogonality"
+msgstr "Orthogonale Orthogonaliteit"
+
+msgid "OrthogonalOrthogonality_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik orthogonaliteit gekoppeld aan de horizontale vorm en oriëntatie in Y, indien anders dan de algehele orthogonaliteit."
+
+msgid "OrthogonalStraightness"
+msgstr "Orthogonale Straightness"
+
+msgid "OrthogonalStraightness_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand geassocieerd met de horizontale vorm in Y, indien anders dan de algehele eenvoud."
+
+msgid "OrthogonalTolerance"
+msgstr "Orthogonale tolerantie"
+
+msgid "OrthogonalTolerance_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand tolerantie gekoppeld aan de horizontale vorm en positie in Y, indien anders dan de algehele tolerantie."
+
+msgid "OverallOrthogonality"
+msgstr "Algehele Orthogonaliteit"
+
+msgid "OverallOrthogonality_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik van orthogonaliteit gekoppeld aan de gewenste vorm en oriëntatie in XYZ."
+
+msgid "OverallStraightness"
+msgstr "Algehele Straightness"
+
+msgid "OverallStraightness_DEFINITION"
+msgstr "Indicatief (95%-100%) bereik van de beoogde vorm."
+
+msgid "OverallTolerance"
+msgstr "Totale Tolerantie"
+
+msgid "OverallTolerance_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik tolerantie gekoppeld aan de gewenste vorm en positie in XYZ."
+
+msgid "PlanarFlatness"
+msgstr "Vlakke Ness vlakke vlakken"
+
+msgid "PlanarFlatness_DEFINITION"
+msgstr "Indicatief (95%-100%) bereik gekoppeld aan de gewenste vorm en positie in XYZ."
+
+msgid "SideFlatness"
+msgstr "Zijkant platte Ness"
+
+msgid "SideFlatness_DEFINITION"
+msgstr "Indicatief (95%-100%) bereik van de vlakte geassocieerd met de zijkant in YZ, indien anders dan de algehele plattegrond."
+
+msgid "ToleranceBasis"
+msgstr "Tolerantie Basis"
+
+msgid "ToleranceBasis_DEFINITION"
+msgstr "Indicatie van de basis van de tolerantievereiste"
+
+msgid "ToleranceBasis_APPEARANCE"
+msgstr "Uiterlijk"
+
+msgid "ToleranceBasis_ASSEMBLY"
+msgstr "Assemblage"
+
+msgid "ToleranceBasis_DEFLECTION"
+msgstr "Doorbuiging"
+
+msgid "ToleranceBasis_EXPANSION"
+msgstr "Uitbreiding"
+
+msgid "ToleranceBasis_FUNCTIONALITY"
+msgstr "[[Function]] Hoogte"
+
+msgid "ToleranceBasis_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ToleranceBasis_OTHER"
+msgstr "anders"
+
+msgid "ToleranceBasis_SETTLEMENT"
+msgstr "Afwikkeling"
+
+msgid "ToleranceBasis_STRUCTURAL"
+msgstr "Structureel"
+
+msgid "ToleranceBasis_UNSET"
+msgstr "Uitzetten"
+
+msgid "ToleranceDescription"
+msgstr "Beschrijving tolerantie"
+
+msgid "ToleranceDescription_DEFINITION"
+msgstr "Algemene beschrijving van de tolerantie voor het element of functie, de bron en implicaties."
+
+msgid "VerticalOrthogonality"
+msgstr "Verticale orthogonaliteit"
+
+msgid "VerticalOrthogonality_DEFINITION"
+msgstr "Indicatieve (95%-100%) bereik orthogonaliteit geassocieerd met de verticale vorm en oriëntatie in Z, indien anders dan de algehele orthogonaliteit."
+
+msgid "VerticalStraightness"
+msgstr "Verticale Straat"
+
+msgid "VerticalStraightness_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand geassocieerd met de verticale vorm in Z, indien anders dan de algehele eenvoud."
+
+msgid "VerticalTolerance"
+msgstr "Verticale tolerantie"
+
+msgid "VerticalTolerance_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand tolerantie gekoppeld aan de verticale vorm en positie in Z, indien anders dan de algehele tolerantie."
+
+msgid "Pset_Uncertainty"
+msgstr "Eigenschapsset: Onzekerheid"
+
+msgid "Pset_Uncertainty_DEFINITION"
+msgstr "De eigenschap omschrijft de geometrische onzekerheid met betrekking tot de metingen, waaronder de manier waarop die onzekerheid werd beoordeeld."
+
+msgid "HorizontalUncertainty"
+msgstr "Horizontale onzekerheid"
+
+msgid "HorizontalUncertainty_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand diameter gekoppeld aan de verticale vorm en positie in X, indien anders dan de lineaire onzekerheid."
+
+msgid "LinearUncertainty"
+msgstr "Lineaire onzekerheid"
+
+msgid "LinearUncertainty_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand diameter gekoppeld aan de algehele vorm en positie in XYZ."
+
+msgid "OrthogonalUncertainty"
+msgstr "Orthogonale onzekerheid"
+
+msgid "OrthogonalUncertainty_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand die gekoppeld is aan de horizontale vorm en positie in Y, als dit afwijkt van de horizontale onzekerheid."
+
+msgid "UncertaintyBasis"
+msgstr "Onzekerheid Basis"
+
+msgid "UncertaintyBasis_DEFINITION"
+msgstr "Indicatie van de basis van de onzekerheid"
+
+msgid "UncertaintyBasis_ASSESSMENT"
+msgstr "Toets"
+
+msgid "UncertaintyBasis_ESTIMATE"
+msgstr "Geschatte"
+
+msgid "UncertaintyBasis_INTERPRETATION"
+msgstr "Interpretatie"
+
+msgid "UncertaintyBasis_MEASUREMENT"
+msgstr "Meting"
+
+msgid "UncertaintyBasis_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "UncertaintyBasis_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "UncertaintyBasis_OBSERVATION"
+msgstr "Waarneming"
+
+msgid "UncertaintyBasis_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "UncertaintyDescription"
+msgstr "Onzekerheid Beschrijving"
+
+msgid "UncertaintyDescription_DEFINITION"
+msgstr "Algemene beschrijving van de onzekerheid van het element of functie, de bron en implicaties."
+
+msgid "VerticalUncertainty"
+msgstr "Verticale onzekerheid"
+
+msgid "VerticalUncertainty_DEFINITION"
+msgstr "Indicatieve (95%-100%) afstand diameter gekoppeld aan de verticale vorm en positie in Z, indien anders dan de lineaire onzekerheid."
+
+msgid "Pset_Risk"
+msgstr "Eigenschap set: Risico"
+
+msgid "Pset_Risk_DEFINITION"
+msgstr "Een indicatie van blootstelling aan kwaad, risico, gevaar of verlies. Documentatie van een potentieel gevaar, 2017, dat kan worden toegewezen aan of geassocieerd met een product, activiteit en/of locatie. Het kan ook worden toegewezen aan een ISO 3864 annotatie symbool."
+
+msgid "AssociatedActivity"
+msgstr "Gekoppelde activiteit"
+
+msgid "AssociatedActivity_DEFINITION"
+msgstr "Een indicatie of link naar een eventuele bijbehorende activiteit of proces die het gevaar kan veroorzaken. Indien direct gebruikt op een annotatie of semantische object. Voor een alternatief groepsgebruik gebruik codering sjabloon"
+
+msgid "AssociatedLocation"
+msgstr "Gekoppelde locatie"
+
+msgid "AssociatedLocation_DEFINITION"
+msgstr "Een indicatie of link naar een geassocieerde locatie of ruimte die het gevaar kan veroorzaken. Indien direct gebruikt op een annotatie of semantische object. Voor een alternatief groepsgebruik gebruik codering sjabloon"
+
+msgid "AssociatedProduct"
+msgstr "Gekoppeld product"
+
+msgid "AssociatedProduct_DEFINITION"
+msgstr "Een indicatie of link naar een willekeurig bijbehorend product of materiaal dat het gevaar kan veroorzaken. Indien direct gebruikt op een annotatie of semantische object. Voor een alternatief groepsgebruik gebruik codering sjabloon"
+
+msgid "MitigatedRiskConsequence"
+msgstr "Gemengde Risico Consequentie"
+
+msgid "MitigatedRiskConsequence_DEFINITION"
+msgstr "De gevolgen van het gevaar van de beoogde matiging worden vastgesteld."
+
+msgid "MitigatedRiskConsequence_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "MitigatedRiskConsequence_CRITICAL"
+msgstr "Kritiek"
+
+msgid "MitigatedRiskConsequence_HIGH"
+msgstr "hoog"
+
+msgid "MitigatedRiskConsequence_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "MitigatedRiskConsequence_LOW"
+msgstr "laag"
+
+msgid "MitigatedRiskConsequence_MODERATE"
+msgstr "Matig"
+
+msgid "MitigatedRiskConsequence_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "MitigatedRiskConsequence_OTHER"
+msgstr "anders"
+
+msgid "MitigatedRiskConsequence_SOME"
+msgstr "Sommige"
+
+msgid "MitigatedRiskConsequence_UNSET"
+msgstr "Uitzetten"
+
+msgid "MitigatedRiskConsequence_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "MitigatedRiskConsequence_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "MitigatedRiskLikelihood"
+msgstr "Geïtificeerde risico's"
+
+msgid "MitigatedRiskLikelihood_DEFINITION"
+msgstr "De waarschijnlijkheid van het gevaar in verband met de beoogde beperking wordt ingeschat."
+
+msgid "MitigatedRiskLikelihood_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "MitigatedRiskLikelihood_CRITICAL"
+msgstr "Kritiek"
+
+msgid "MitigatedRiskLikelihood_HIGH"
+msgstr "hoog"
+
+msgid "MitigatedRiskLikelihood_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "MitigatedRiskLikelihood_LOW"
+msgstr "laag"
+
+msgid "MitigatedRiskLikelihood_MODERATE"
+msgstr "Matig"
+
+msgid "MitigatedRiskLikelihood_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "MitigatedRiskLikelihood_OTHER"
+msgstr "anders"
+
+msgid "MitigatedRiskLikelihood_SOME"
+msgstr "Sommige"
+
+msgid "MitigatedRiskLikelihood_UNSET"
+msgstr "Uitzetten"
+
+msgid "MitigatedRiskLikelihood_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "MitigatedRiskLikelihood_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "MitigatedRiskSignificance"
+msgstr "Gemengd risico vergroting"
+
+msgid "MitigatedRiskSignificance_DEFINITION"
+msgstr "Identificeert de betekenis van het risico, gezien de matiging van de waarschijnlijkheid en de gevolgen."
+
+msgid "MitigatedRiskSignificance_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "MitigatedRiskSignificance_CRITICAL"
+msgstr "Kritiek"
+
+msgid "MitigatedRiskSignificance_HIGH"
+msgstr "hoog"
+
+msgid "MitigatedRiskSignificance_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "MitigatedRiskSignificance_LOW"
+msgstr "laag"
+
+msgid "MitigatedRiskSignificance_MODERATE"
+msgstr "Matig"
+
+msgid "MitigatedRiskSignificance_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "MitigatedRiskSignificance_OTHER"
+msgstr "anders"
+
+msgid "MitigatedRiskSignificance_SOME"
+msgstr "Sommige"
+
+msgid "MitigatedRiskSignificance_UNSET"
+msgstr "Uitzetten"
+
+msgid "MitigatedRiskSignificance_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "MitigatedRiskSignificance_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "MitigationPlanned"
+msgstr "Mitigatie gepland"
+
+msgid "MitigationPlanned_DEFINITION"
+msgstr "De overeengekomen en onherroepelijke verzachting van de waarschijnlijkheid en de gevolgen van het gevaar is gepland."
+
+msgid "MitigationProposed"
+msgstr "Mitigatie Voorgesteld"
+
+msgid "MitigationProposed_DEFINITION"
+msgstr "Alle voorstellen, maar nog niet overeengekomen en onherroepelijk, verzachting van de waarschijnlijkheid en gevolgen van het gevaar."
+
+msgid "NatureOfRisk"
+msgstr "Natuur van Risico"
+
+msgid "NatureOfRisk_DEFINITION"
+msgstr "Een beschrijving van de algemene aard van de context of het risico dat kan worden aangetroffen."
+
+msgid "RiskAssessmentMethodology"
+msgstr "Risico beoordelingsmethode"
+
+msgid "RiskAssessmentMethodology_DEFINITION"
+msgstr "Een indicatie of koppeling naar de gekozen risicobeoordelingsmethode, zoals de PAS1192-6 of de gekozen ISO13100 bijlage."
+
+msgid "RiskName"
+msgstr "Risico Naam"
+
+msgid "RiskName_DEFINITION"
+msgstr "Een lokaal unieke identificatie voor de risico-invoer die kan worden gebruikt om de ontwikkeling en beperking van het risico gedurende de gehele levenscyclus van het project te volgen"
+
+msgid "RiskType"
+msgstr "Risico Type"
+
+msgid "RiskType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde risicocypen waartegen het type verplicht kan worden ingesteld."
+
+msgid "RiskType_ASBESTOSEFFECTS"
+msgstr "Asbest Effecten"
+
+msgid "RiskType_ASPHIXIATION"
+msgstr "Asphixiatie"
+
+msgid "RiskType_BUSINESS"
+msgstr "Bedrijfsleven"
+
+msgid "RiskType_BUSINESSISSUES"
+msgstr "Zakelijke problemen"
+
+msgid "RiskType_CHEMICALEFFECTS"
+msgstr "Chemische effecten"
+
+msgid "RiskType_COMMERICALISSUES"
+msgstr "Commerciële problemen"
+
+msgid "RiskType_CONFINEMENT"
+msgstr "Confinement"
+
+msgid "RiskType_CRUSHING"
+msgstr "Vermalen"
+
+msgid "RiskType_DROWNINGANDFLOODING"
+msgstr "Gooien en plunderen"
+
+msgid "RiskType_ELECTRICSHOCK"
+msgstr "Elektrische schok"
+
+msgid "RiskType_ENVIRONMENTALISSUES"
+msgstr "Milieu-problemen"
+
+msgid "RiskType_EVENT"
+msgstr "Gebeurtenis"
+
+msgid "RiskType_FALL"
+msgstr "Val"
+
+msgid "RiskType_FALL_LADDER"
+msgstr "Herfst Ladder"
+
+msgid "RiskType_FALLEDGE"
+msgstr "Herfst Rand"
+
+msgid "RiskType_FALLFRAGILEMATERIAL"
+msgstr "Hoog Fragile Materiaal"
+
+msgid "RiskType_FALLSCAFFOLD"
+msgstr "Val Kruideniers"
+
+msgid "RiskType_FIRE_EXPLOSION"
+msgstr "Vuur Explosie"
+
+msgid "RiskType_HANDLING"
+msgstr "Afhandeling"
+
+msgid "RiskType_HAZARD"
+msgstr "Risico"
+
+msgid "RiskType_HAZARDOUSDUST"
+msgstr "Gevaarlijke stof"
+
+msgid "RiskType_HEALTHANDSAFETY"
+msgstr "Gezondheid en veiligheid"
+
+msgid "RiskType_HEALTHISSUE"
+msgstr "Probleem met gezondheid"
+
+msgid "RiskType_INSURANCE"
+msgstr "Verzekering"
+
+msgid "RiskType_INSURANCE_ISSUES"
+msgstr "Problemen met verzekeringen"
+
+msgid "RiskType_LEADEFFECTS"
+msgstr "Lead effecten"
+
+msgid "RiskType_MACHINERYGUARDING"
+msgstr "Machine Ryguarding"
+
+msgid "RiskType_MATERIALEFFECTS"
+msgstr "Materiaal Effecten"
+
+msgid "RiskType_MATERIALSHANDLING"
+msgstr "Materialen verwerken"
+
+msgid "RiskType_MECHANICAL_LIFTING"
+msgstr "Mechanische lift"
+
+msgid "RiskType_MECHANICALEFFECTS"
+msgstr "Mechanische effecten"
+
+msgid "RiskType_MOBILE_ELEVATEDWORKPLATFORM"
+msgstr "Mobiel Verhoogd werkplatform"
+
+msgid "RiskType_NOISE_EFFECTS"
+msgstr "Geluid Effecten"
+
+msgid "RiskType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "RiskType_OPERATIONALISSUES"
+msgstr "Operationele problemen"
+
+msgid "RiskType_OTHER"
+msgstr "anders"
+
+msgid "RiskType_OTHERISSUES"
+msgstr "Andere problemen"
+
+msgid "RiskType_OVERTURINGPLANT"
+msgstr "Plant overschrijven"
+
+msgid "RiskType_PUBLICPROTECTIONISSUES"
+msgstr "Publieke bescherming problemen"
+
+msgid "RiskType_SAFETYISSUE"
+msgstr "Veiligheid is belangrijk"
+
+msgid "RiskType_SILICADUST"
+msgstr "Silica Stof"
+
+msgid "RiskType_SLIPTRIP"
+msgstr "Sliptrip"
+
+msgid "RiskType_SOCIALISSUES"
+msgstr "Sociale problemen"
+
+msgid "RiskType_STRUCK"
+msgstr "Klauw"
+
+msgid "RiskType_STRUCKFALLINFOBJECT"
+msgstr "Prachtige Val Inf Object"
+
+msgid "RiskType_STRUCKVEHICLE"
+msgstr "Voertuig voertuig"
+
+msgid "RiskType_TOOLUSAGE"
+msgstr "Gereedschapsgebruik"
+
+msgid "RiskType_TRAPPED"
+msgstr "Vallen"
+
+msgid "RiskType_UNINTENDEDCOLLAPSE"
+msgstr "Onbedoelde ineenstorting"
+
+msgid "RiskType_UNSET"
+msgstr "Uitzetten"
+
+msgid "RiskType_VIBRATION"
+msgstr "Trillen"
+
+msgid "RiskType_WELFAREISSUE"
+msgstr "Welfareissue"
+
+msgid "RiskType_WOODDUST"
+msgstr "Houten Stof"
+
+msgid "RiskType_WORKINGOVERHEAD"
+msgstr "Werken boven"
+
+msgid "UnmitigatedRiskConsequence"
+msgstr "Onverminderde risico Consequentie"
+
+msgid "UnmitigatedRiskConsequence_DEFINITION"
+msgstr "Identificeert de gevolgen van het gevaar voorafgaand aan specifieke mitigatie."
+
+msgid "UnmitigatedRiskConsequence_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "UnmitigatedRiskConsequence_CRITICAL"
+msgstr "Kritiek"
+
+msgid "UnmitigatedRiskConsequence_HIGH"
+msgstr "hoog"
+
+msgid "UnmitigatedRiskConsequence_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "UnmitigatedRiskConsequence_LOW"
+msgstr "laag"
+
+msgid "UnmitigatedRiskConsequence_MODERATE"
+msgstr "Matig"
+
+msgid "UnmitigatedRiskConsequence_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "UnmitigatedRiskConsequence_OTHER"
+msgstr "anders"
+
+msgid "UnmitigatedRiskConsequence_SOME"
+msgstr "Sommige"
+
+msgid "UnmitigatedRiskConsequence_UNSET"
+msgstr "Uitzetten"
+
+msgid "UnmitigatedRiskConsequence_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "UnmitigatedRiskConsequence_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "UnmitigatedRiskLikelihood"
+msgstr "Onverminderd risico"
+
+msgid "UnmitigatedRiskLikelihood_DEFINITION"
+msgstr "De waarschijnlijkheid van het gevaar voorafgaand aan specifieke mitigatie wordt ingeschat."
+
+msgid "UnmitigatedRiskLikelihood_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "UnmitigatedRiskLikelihood_CRITICAL"
+msgstr "Kritiek"
+
+msgid "UnmitigatedRiskLikelihood_HIGH"
+msgstr "hoog"
+
+msgid "UnmitigatedRiskLikelihood_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "UnmitigatedRiskLikelihood_LOW"
+msgstr "laag"
+
+msgid "UnmitigatedRiskLikelihood_MODERATE"
+msgstr "Matig"
+
+msgid "UnmitigatedRiskLikelihood_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "UnmitigatedRiskLikelihood_OTHER"
+msgstr "anders"
+
+msgid "UnmitigatedRiskLikelihood_SOME"
+msgstr "Sommige"
+
+msgid "UnmitigatedRiskLikelihood_UNSET"
+msgstr "Uitzetten"
+
+msgid "UnmitigatedRiskLikelihood_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "UnmitigatedRiskLikelihood_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "UnmitigatedRiskSignificance"
+msgstr "Naamloze risicomanagement"
+
+msgid "UnmitigatedRiskSignificance_DEFINITION"
+msgstr "Het belang van het risico wordt geïdentificeerd voor de waarschijnlijkheid en het gevolg voorafgaand aan specifieke mitigatie."
+
+msgid "UnmitigatedRiskSignificance_CONSIDERABLE"
+msgstr "aanzienlijk"
+
+msgid "UnmitigatedRiskSignificance_CRITICAL"
+msgstr "Kritiek"
+
+msgid "UnmitigatedRiskSignificance_HIGH"
+msgstr "hoog"
+
+msgid "UnmitigatedRiskSignificance_INSIGNIFICANT"
+msgstr "Onbelangrijk"
+
+msgid "UnmitigatedRiskSignificance_LOW"
+msgstr "laag"
+
+msgid "UnmitigatedRiskSignificance_MODERATE"
+msgstr "Matig"
+
+msgid "UnmitigatedRiskSignificance_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "UnmitigatedRiskSignificance_OTHER"
+msgstr "anders"
+
+msgid "UnmitigatedRiskSignificance_SOME"
+msgstr "Sommige"
+
+msgid "UnmitigatedRiskSignificance_UNSET"
+msgstr "Uitzetten"
+
+msgid "UnmitigatedRiskSignificance_VERYHIGH"
+msgstr "Zeer hoog"
+
+msgid "UnmitigatedRiskSignificance_VERYLOW"
+msgstr "Zeer laag"
+
+msgid "ObjectType"
+msgstr "Object type"
+
+msgid "ObjectType_DEFINITION"
+msgstr "Het type noteert een bepaald type dat het object verder aantoont. Het gebruik moet worden vastgesteld op het niveau van directe subtypes. In het bijzonder bevat het de gebruiker gedefinieerde type, als de opsomming van het voorgedefinieerde attribuut type is ingesteld op [[USERDEFINED]] of wanneer de betonnen entiteit geïnstantieerd is geen PredefinedType attribuut. Dat laatste is het geval in enkele uitzonderlijke klassen en bij het direct inrichten van [[IfcBuiltElement]]."
+
+msgid "IfcAlarm"
+msgstr "Alarm"
+
+msgid "IfcAlarm_DEFINITION"
+msgstr "Een alarm is een apparaat dat het bestaan van een voorwaarde of situatie aangeeft die buiten de normale verwachting ligt of die een dergelijk apparaat activeert."
+
+msgid "Pset_AlarmPHistory"
+msgstr "Eigenschap Set: Alarm geschiedenis"
+
+msgid "Pset_AlarmPHistory_DEFINITION"
+msgstr "Eigenschappen van de geschiedenis van alarmwaarden."
+
+msgid "Acknowledge"
+msgstr "erkennen"
+
+msgid "Acknowledge_DEFINITION"
+msgstr "Geeft aan dat erkenning status van False vereist is en outstandstanding is, dat de ware staat is bepaald, en onbekend is dat er geen erkenning vereist is. Bij het opnieuw instellen van de conditie keert de erkenning terug naar onbekend."
+
+msgid "Acknowledge_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ConditionHistory"
+msgstr "Voorwaarde geschiedenis"
+
+msgid "ConditionHistory_DEFINITION"
+msgstr "Geeft de alarmvoorwaarde na verloop van tijd weer. Het bereik van mogelijke waarden en de betekenis ervan is gedefinieerd door [[Pset_AlarmTypeCommon]]. ondition. Een lege waarde geeft geen actuele alarmconditie aan."
+
+msgid "ConditionHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+msgid "Enabled_DEFINITION"
+msgstr "Geeft aan of het alarm is ingeschakeld of uitgeschakeld is op tijd."
+
+msgid "Enabled_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Severity"
+msgstr "Ernstigheid"
+
+msgid "Severity_DEFINITION"
+msgstr "Geeft de alarmernst van het alarm aan na verloop van tijd, waar de schaal van waarden wordt bepaald door de configuratieconfiguratie. Een nulwaarde geeft geen huidige alarm aan."
+
+msgid "Severity_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "UserHistory"
+msgstr "Gebruikers geschiedenis"
+
+msgid "UserHistory_DEFINITION"
+msgstr "Geeft aan dat de gebruiker na verloop van tijd wordt erkend door IfcPerson.[[Identification]] op een [[IfcActor]]."
+
+msgid "UserHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_AlarmTypeCommon"
+msgstr "Eigenschapsset: Alarm type gemeenschappelijk"
+
+msgid "Pset_AlarmTypeCommon_DEFINITION"
+msgstr "Alarm type gemeenschappelijke attributen."
+
+msgid "AlarmCondition"
+msgstr "Alarm Voorwaarde"
+
+msgid "AlarmCondition_DEFINITION"
+msgstr "Tabel alarmconditie identificeert aan beschrijvende labels, die gebruikt kunnen worden voor de interpretatie [[Pset_AlarmPHistory]].Condition."
+
+msgid "AlarmCondition_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Status"
+msgstr "status"
+
+msgid "Status_DEFINITION"
+msgstr "[[Status]] van het element, overwegend gebruikt in renovatie of retrofitting van projecten. De status kan worden toegewezen als 'Nieuw' - element ontworpen als nieuwe toevoeging, 'Beëindiging' - element bestaat en blijft, 'Afbreken' - element bestaat al, maar moet worden gesloopt, 'Tijdig' - element zal alleen tijdelijk bestaan (zoals een tijdelijke ondersteuningsstructuur)."
+
+msgid "Status_DEMOLISH"
+msgstr "'Vernietig' - element bestond al, maar moet worden vernietigd"
+
+msgid "Status_EXISTING"
+msgstr "'Bestaat' - element bestaat en blijft"
+
+msgid "Status_NEW"
+msgstr "De status kan worden toegewezen als 'Nieuw' - element ontworpen als nieuwe toevoeging"
+
+msgid "Status_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "Status_OTHER"
+msgstr "anders"
+
+msgid "Status_TEMPORARY"
+msgstr "'Tijdelijk' - element bestaat alleen tijdelijk (zoals een tijdelijke steunstructuur)"
+
+msgid "Status_UNSET"
+msgstr "Uitzetten"
+
+msgid "Qto_AlarmBaseQuantities"
+msgstr "Hoeveelheid Set: Alarm basishoeveelheden"
+
+msgid "Qto_AlarmBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van paniek."
+
+msgid "IfcController"
+msgstr "Regelaar"
+
+msgid "IfcController_DEFINITION"
+msgstr "Een controller is een apparaat dat inputs en besturingselementen binnen een automatiesysteem van gebouwen controleert."
+
+msgid "Pset_ControllerPHistory"
+msgstr "Eigenschapsset: Controller geschiedenis"
+
+msgid "Pset_ControllerPHistory_DEFINITION"
+msgstr "Eigenschappen voor geschiedenis van controlewaarden."
+
+msgid "Quality"
+msgstr "Kwaliteit"
+
+msgid "Quality_DEFINITION"
+msgstr "Geeft de kwaliteit aan van de meting of fout staat, welke verder gekwalificeerd kunnen zijn door de [[Status]]. stabiele waarden worden beschouwd als betrouwbaar; gemeten waarden worden niet betrouwbaar geacht (d.w.z. er is een fout ontdekt);betrouwbaarheid van waarden is onzeker."
+
+msgid "Quality_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ValueHistory"
+msgstr "Geschiedenis van waarden"
+
+msgid "ValueHistory_DEFINITION"
+msgstr "Geeft de waarde aan na verloop van tijd die continu of alleen wanneer gewijzigd wordt na een bepaalde dodband. Het bereik van mogelijke waarden wordt gedefinieerd door de [[Value]] eigenschap op de overeenkomstige set optredens eigenschappen ([[Pset_ControllerTypeFloating]], [[Pset_ControllerTypeProportional]], [[Pset_ControllerTypeMultiPosition]], of [[Pset_ControllerTypeTwoPosition]])."
+
+msgid "ValueHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ControllerTypeCommon"
+msgstr "Eigenschapsset: Regelaartype gemeenschappelijk"
+
+msgid "Pset_ControllerTypeCommon_DEFINITION"
+msgstr "Regelaar type gemeenschappelijke attributen."
+
+msgid "Qto_ControllerBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Controller basishoeveelheden"
+
+msgid "Qto_ControllerBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de controller."
+
+msgid "Pset_OnSiteTelecomControlUnit"
+msgstr "Eigenschapsset: Op de eenheid Telecom installatie"
+
+msgid "Pset_OnSiteTelecomControlUnit_DEFINITION"
+msgstr "Eigenschappen voor telecommunicatie-regeleenheid die gebruikt wordt voor het spoor."
+
+msgid "ControllerInterfaceType"
+msgstr "Interfacettype regelaar"
+
+msgid "ControllerInterfaceType_DEFINITION"
+msgstr "Geeft het type seriële interface aan dat gebruikt wordt door het apparaat."
+
+msgid "ControllerInterfaceType_EARTHQUAKERELAYINTERFACE"
+msgstr "Aardbeving Relay Interface"
+
+msgid "ControllerInterfaceType_FOREIGNOBJECTRELAYINTERFACE"
+msgstr "Externe Object Relay Interface"
+
+msgid "ControllerInterfaceType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ControllerInterfaceType_OTHER"
+msgstr "anders"
+
+msgid "ControllerInterfaceType_RS_422"
+msgstr "RS 422"
+
+msgid "ControllerInterfaceType_RS_485"
+msgstr "RS 485"
+
+msgid "ControllerInterfaceType_UNSET"
+msgstr "Uitzetten"
+
+msgid "HasEarthquakeAlarm"
+msgstr "Heeft Aardbeving Alarm"
+
+msgid "HasEarthquakeAlarm_DEFINITION"
+msgstr "Geeft aan of de alarmfunctie voor aardbevingen aanwezig is."
+
+msgid "HasEarthquakeCollection"
+msgstr "Heeft Aardbeving Collectie"
+
+msgid "HasEarthquakeCollection_DEFINITION"
+msgstr "Geeft aan of de regeleenheid ter plaatse informatie verzamelt over aardbevingen."
+
+msgid "HasForeignObjectCollection"
+msgstr "Heeft buitenlandobjectencollectie"
+
+msgid "HasForeignObjectCollection_DEFINITION"
+msgstr "Geeft aan of de regeleenheid ter plaatse informatie verzamelt over buitenlandse objecten."
+
+msgid "HasOutputFunction"
+msgstr "Heeft Uitvoer Functie"
+
+msgid "HasOutputFunction_DEFINITION"
+msgstr "Geeft aan of de regeleenheid een uitgangsfunctie bevat."
+
+msgid "HasRainCollection"
+msgstr "Heeft regen collectie"
+
+msgid "HasRainCollection_DEFINITION"
+msgstr "Geeft aan of de regeleenheid informatie over regen verzamelt."
+
+msgid "HasSnowCollection"
+msgstr "Heeft een Sneeuwcollectie"
+
+msgid "HasSnowCollection_DEFINITION"
+msgstr "Geeft aan of de regeleenheid informatie over sneeuwdiepte verzamelt."
+
+msgid "HasWindCollection"
+msgstr "Heeft Wind Collectie"
+
+msgid "HasWindCollection_DEFINITION"
+msgstr "Geeft aan of de regeleenheid informatie over wind verzamelt."
+
+msgid "IfcFlowInstrument"
+msgstr "Stroom Instrument"
+
+msgid "IfcFlowInstrument_DEFINITION"
+msgstr "Een debietinstrument leest en geeft de waarde weer van een bepaalde eigenschap van een systeem op een punt. of toont het verschil in de waarde van een eigenschap tussen twee punten."
+
+msgid "Pset_FlowInstrumentPHistory"
+msgstr "Eigenschapsset: Flow instrumentgeschiedenis"
+
+msgid "Pset_FlowInstrumentPHistory_DEFINITION"
+msgstr "Eigenschappen voor geschiedenis van instrument vloeistofwaarden."
+
+msgid "Value"
+msgstr "Waarde"
+
+msgid "Value_DEFINITION"
+msgstr "Het verwachte bereik en de standaardwaarde."
+
+msgid "Value_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_FlowInstrumentTypeCommon"
+msgstr "Eigenschapsset: Flow instrumenttype gemeenschappelijk"
+
+msgid "Pset_FlowInstrumentTypeCommon_DEFINITION"
+msgstr "Flow Instrument type veelvoorkomende kenmerken."
+
+msgid "Qto_FlowInstrumentBaseQuantities"
+msgstr "Hoeveelheid Set: Flow Instrument Basis Hoeveelheden"
+
+msgid "Qto_FlowInstrumentBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van het stroominstrument."
+
+msgid "IfcSensor"
+msgstr "Sensor"
+
+msgid "IfcSensor_DEFINITION"
+msgstr "Een sensor is een apparaat dat een fysieke hoeveelheid meet en deze omzet in een signaal dat kan worden gelezen door een waarnemer of door een instrument."
+
+msgid "Pset_SensorPHistory"
+msgstr "Eigenschapset: Sensorgeschiedenis"
+
+msgid "Pset_SensorPHistory_DEFINITION"
+msgstr "Eigenschappen voor geschiedenis van controlewaarden."
+
+msgid "Direction"
+msgstr "Richting"
+
+msgid "Direction_DEFINITION"
+msgstr "Geeft de waargenomen richting aan voor sensoren om de magnitude en de richting van True Noord (0 graden) vast te leggen in een klok richting"
+
+msgid "Direction_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_SensorTypeCommon"
+msgstr "Eigenschapsset: Sensortype (gebruiks)"
+
+msgid "Pset_SensorTypeCommon_DEFINITION"
+msgstr "Sensor type veelgebruikte kenmerken."
+
+msgid "Qto_SensorBaseQuantities"
+msgstr "Hoeveelheid set: Sensor Basishoeveelheid"
+
+msgid "Qto_SensorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van sensor."
+
+msgid "IfcUnitaryControlElement"
+msgstr "Unitary Control Element"
+
+msgid "IfcUnitaryControlElement_DEFINITION"
+msgstr "Een unitary control element combineert een aantal control componenten in één product, zoals een thermostaat of humidistat."
+
+msgid "Pset_UnitaryControlElementPHistory"
+msgstr "Eigenschap set: Unitary Control element geschiedenis"
+
+msgid "Pset_UnitaryControlElementPHistory_DEFINITION"
+msgstr "Eigenschappen voor geschiedenis en het exploiteren van schema's van thermostaten."
+
+msgid "Fan"
+msgstr "Ventilator"
+
+msgid "Fan_DEFINITION"
+msgstr "Geeft de werking van de ventilator aan waar waar waar waar waar waar staat staat, False is uit, en onbekend is automatisch."
+
+msgid "Fan_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "OperationModeHistory"
+msgstr "Operatiemodus Geschiedenis"
+
+msgid "OperationModeHistory_DEFINITION"
+msgstr "Geeft de werkingsmodus aan die corresponderend is met Pset_UnitaryControlTypeCommon.Mode. Bijvoorbeeld, 'HEAT', 'COOL', 'AUTO'."
+
+msgid "OperationModeHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "SetPoint"
+msgstr "Punt instellen"
+
+msgid "SetPoint_DEFINITION"
+msgstr "Geeft het instelpunt en label aan."
+
+msgid "SetPoint_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Temperature"
+msgstr "Temperatuur"
+
+msgid "Temperature_DEFINITION"
+msgstr "[[Temperature]] van de vloeistof."
+
+msgid "Temperature_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_UnitaryControlElementTypeCommon"
+msgstr "Eigenschap set: Unitary Control element type gemeenschappelijke"
+
+msgid "Pset_UnitaryControlElementTypeCommon_DEFINITION"
+msgstr "Unitary control element type algemene attributen."
+
+msgid "OperationMode"
+msgstr "Operatie modus"
+
+msgid "OperationMode_DEFINITION"
+msgstr "Tabel mapping modus identificeert beschrijvende labels, welke gebruikt kunnen worden voor de interpretatie [[Pset_UnitaryControlElementPHistory]].Mode."
+
+msgid "OperationMode_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Qto_UnitaryControlElementBaseQuantities"
+msgstr "Aantallen instellen: Unitary Control element basis hoeveelheden"
+
+msgid "Qto_UnitaryControlElementBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van het unitaire controleelement."
+
+msgid "IfcActuatorELECTRICACTUATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActuatorELECTRICACTUATOR"
+msgstr "Elektrische Actuator"
+
+msgid "IfcActuatorELECTRICACTUATOR_DEFINITION"
+msgstr "Een apparaat dat elektrisch werkt met een controle-element."
+
+msgid "IfcActuatorHANDOPERATEDACTUATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActuatorHANDOPERATEDACTUATOR"
+msgstr "Hand Operated Actuator"
+
+msgid "IfcActuatorHANDOPERATEDACTUATOR_DEFINITION"
+msgstr "Een apparaat dat handmatig een controleelement actualiseert."
+
+msgid "IfcActuatorHYDRAULICACTUATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActuatorHYDRAULICACTUATOR"
+msgstr "Hydraulische Actuator"
+
+msgid "IfcActuatorHYDRAULICACTUATOR_DEFINITION"
+msgstr "Een apparaat dat hydrauisch een controleelement actualiseert."
+
+msgid "IfcActuatorPNEUMATICACTUATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActuatorPNEUMATICACTUATOR"
+msgstr "Pneumatische Actuator"
+
+msgid "IfcActuatorPNEUMATICACTUATOR_DEFINITION"
+msgstr "Een apparaat dat pneumatische actualiseert een controle-element."
+
+msgid "IfcActuatorTHERMOSTATICACTUATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActuatorTHERMOSTATICACTUATOR"
+msgstr "Thermostatische Actuator"
+
+msgid "IfcActuatorTHERMOSTATICACTUATOR_DEFINITION"
+msgstr "Een apparaat dat thermostaatvereenzelvigt met een besturingselement."
+
+msgid "IfcAlarmBELL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmBELL"
+msgstr "Bel"
+
+msgid "IfcAlarmBELL_DEFINITION"
+msgstr "Een hoorbaar alarm."
+
+msgid "IfcAlarmBREAKGLASSBUTTON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmBREAKGLASSBUTTON"
+msgstr "Glazen Breek knop"
+
+msgid "IfcAlarmBREAKGLASSBUTTON_DEFINITION"
+msgstr "Een alarmactiveringsmechanisme waarbij een beschermend glas moet worden gebroken om een knop te kunnen indrukken."
+
+msgid "IfcAlarmLIGHT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmLIGHT"
+msgstr "Licht"
+
+msgid "IfcAlarmLIGHT_DEFINITION"
+msgstr "Een visuele alarm."
+
+msgid "IfcAlarmMANUALPULLBOX_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmMANUALPULLBOX"
+msgstr "Handmatige pull-box"
+
+msgid "IfcAlarmMANUALPULLBOX_DEFINITION"
+msgstr "Een alarmactiveringsmechanisme waarin activering wordt bereikt door een pull-actie."
+
+msgid "IfcAlarmRAILWAYCROCODILE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmRAILWAYCROCODILE"
+msgstr "Spoorweg krokodil"
+
+msgid "IfcAlarmRAILWAYCROCODILE_DEFINITION"
+msgstr "Een elektrisch contact geplaatst tussen de rails (in de viervoudige weg) om waarschuwingen te geven in de locomotieve cab."
+
+msgid "IfcAlarmRAILWAYDETONATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmRAILWAYDETONATOR"
+msgstr "Railway Detonator"
+
+msgid "IfcAlarmRAILWAYDETONATOR_DEFINITION"
+msgstr "Een reusachtig apparaat dat wordt gebruikt als een luid waarschuwingssignaal om chauffeurs op te leiden. Meestal wordt het aan de bovenkant van het spoor geplaatst, meestal voorzien van twee voorlopers, één aan elke kant."
+
+msgid "IfcAlarmSIREN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmSIREN"
+msgstr "Siren"
+
+msgid "IfcAlarmSIREN_DEFINITION"
+msgstr "Een hoorbaar alarm."
+
+msgid "IfcAlarmWHISTLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlarmWHISTLE"
+msgstr "Fluit"
+
+msgid "IfcAlarmWHISTLE_DEFINITION"
+msgstr "Een hoorbaar alarm."
+
+msgid "IfcControllerFLOATING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcControllerFLOATING"
+msgstr "Zwevend"
+
+msgid "IfcControllerFLOATING_DEFINITION"
+msgstr "Uitvoer verhoogt of vermindert met een constante of versnelde snelheid."
+
+msgid "IfcControllerMULTIPOSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcControllerMULTIPOSITION"
+msgstr "Multipositie"
+
+msgid "IfcControllerMULTIPOSITION_DEFINITION"
+msgstr "Uitvoer is een discrete waarde, kan een van de drie of meer waarden zijn."
+
+msgid "IfcControllerPROGRAMMABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcControllerPROGRAMMABLE"
+msgstr "Programmeerbaar"
+
+msgid "IfcControllerPROGRAMMABLE_DEFINITION"
+msgstr "Uitvoer is programmeerbaar zoals Discrete Digital Control (DDC)."
+
+msgid "IfcControllerPROPORTIONAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcControllerPROPORTIONAL"
+msgstr "Proportioneel"
+
+msgid "IfcControllerPROPORTIONAL_DEFINITION"
+msgstr "Uitvoer is proportioneel aan de controlefout en optioneel is het integrale en afgeleide tijd"
+
+msgid "IfcControllerTWOPOSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcControllerTWOPOSITION"
+msgstr "Twopositie"
+
+msgid "IfcControllerTWOPOSITION_DEFINITION"
+msgstr "Uitvoer kan aan of uit zijn."
+
+msgid "IfcFlowInstrumentAMMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentAMMETER"
+msgstr "AM Meter"
+
+msgid "IfcFlowInstrumentAMMETER_DEFINITION"
+msgstr "Een apparaat dat de huidige stroom leest en weergeeft in een circuit."
+
+msgid "IfcFlowInstrumentCOMBINED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentCOMBINED"
+msgstr "Gecombineerd"
+
+msgid "IfcFlowInstrumentCOMBINED_DEFINITION"
+msgstr "Een apparaat dat de waarde van meerdere eigenschappen van een systeem op een punt leest en weergeeft of toont het verschil in de waarde van een eigenschap tussen twee punten."
+
+msgid "IfcFlowInstrumentFREQUENCYMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentFREQUENCYMETER"
+msgstr "Frequentie Meter"
+
+msgid "IfcFlowInstrumentFREQUENCYMETER_DEFINITION"
+msgstr "Een apparaat dat de elektrische frequentie van een afwisselend schakelcircuit leest en weergeeft."
+
+msgid "IfcFlowInstrumentPHASEANGLEMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentPHASEANGLEMETER"
+msgstr "Fasehoek meter"
+
+msgid "IfcFlowInstrumentPHASEANGLEMETER_DEFINITION"
+msgstr "Een apparaat dat de fase hoek van een fase in een polyclisch elektrisch circuit leest en weergeeft."
+
+msgid "IfcFlowInstrumentPOWERFACTORMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentPOWERFACTORMETER"
+msgstr "Powerfactor meter"
+
+msgid "IfcFlowInstrumentPOWERFACTORMETER_DEFINITION"
+msgstr "Een apparaat dat de stroomfactor van een elektrisch circuit leest en weergeeft."
+
+msgid "IfcFlowInstrumentPRESSUREGAUGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentPRESSUREGAUGE"
+msgstr "Drukmeter"
+
+msgid "IfcFlowInstrumentPRESSUREGAUGE_DEFINITION"
+msgstr "Een apparaat dat een drukwaarde op een punt leest en weergeeft of het drukverschil tussen twee punten."
+
+msgid "IfcFlowInstrumentTHERMOMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentTHERMOMETER"
+msgstr "Thermo Meter"
+
+msgid "IfcFlowInstrumentTHERMOMETER_DEFINITION"
+msgstr "Een apparaat dat een temperatuurwaarde op een punt leest en weergeeft."
+
+msgid "IfcFlowInstrumentVOLTMETER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentVOLTMETER"
+msgstr "Volt Meter"
+
+msgid "IfcFlowInstrumentVOLTMETER_DEFINITION"
+msgstr "Een apparaat dat de spanning meet en toont in een circuit."
+
+msgid "IfcFlowInstrumentVOLTMETER_PEAK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentVOLTMETER_PEAK"
+msgstr "Volt Meter Peak"
+
+msgid "IfcFlowInstrumentVOLTMETER_PEAK_DEFINITION"
+msgstr "Een apparaat dat de piekspanning in een elektrisch circuit leest en weergeeft."
+
+msgid "IfcFlowInstrumentVOLTMETER_RMS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFlowInstrumentVOLTMETER_RMS"
+msgstr "Volt Meter Rms"
+
+msgid "IfcFlowInstrumentVOLTMETER_RMS_DEFINITION"
+msgstr "Een apparaat dat de spanning van RMS leest en weergeeft in een elektrisch circuit."
+
+msgid "IfcSensorCO2SENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorCO2SENSOR"
+msgstr "CO2-sensor"
+
+msgid "IfcSensorCO2SENSOR_DEFINITION"
+msgstr "Een apparaat dat kooldioxide detecteert of detecteert."
+
+msgid "IfcSensorCONDUCTANCESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorCONDUCTANCESENSOR"
+msgstr "Uitvoeringssensor"
+
+msgid "IfcSensorCONDUCTANCESENSOR_DEFINITION"
+msgstr "Een apparaat dat elektrisch geleidingsapparaat senseert of detecteert."
+
+msgid "IfcSensorCONTACTSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorCONTACTSENSOR"
+msgstr "Contactpersoon Sensor"
+
+msgid "IfcSensorCONTACTSENSOR_DEFINITION"
+msgstr "Een apparaat dat contact voelt of detecteert, zoals voor het opsporen van een deur."
+
+msgid "IfcSensorCOSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorCOSENSOR"
+msgstr "Cosensor"
+
+msgid "IfcSensorCOSENSOR_DEFINITION"
+msgstr "Een apparaat dat koolmonoxide senseert of detecteert."
+
+msgid "IfcSensorEARTHQUAKESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorEARTHQUAKESENSOR"
+msgstr "Aardbeving Sensor"
+
+msgid "IfcSensorEARTHQUAKESENSOR_DEFINITION"
+msgstr "Een apparaat dat de seismische golf detecteert of detecteert en de seismische intensiteit meet bij aardbevingen."
+
+msgid "IfcSensorFIRESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorFIRESENSOR"
+msgstr "Ontsla sensor"
+
+msgid "IfcSensorFIRESENSOR_DEFINITION"
+msgstr "Een apparaat dat vuur detecteert of detecteert"
+
+msgid "IfcSensorFLOWSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorFLOWSENSOR"
+msgstr "Stroom Sensor"
+
+msgid "IfcSensorFLOWSENSOR_DEFINITION"
+msgstr "Een apparaat dat een vloeiende vloeistof senseert of detecteert."
+
+msgid "IfcSensorFOREIGNOBJECTDETECTIONSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorFOREIGNOBJECTDETECTIONSENSOR"
+msgstr "Vreemde Object Detectie Sensor"
+
+msgid "IfcSensorFOREIGNOBJECTDETECTIONSENSOR_DEFINITION"
+msgstr "Een apparaat dat vreemde voorwerpen senseert of detecteert die schokken of het stroomnetwerk verbroken. Het kan alarm slaan wanneer zich dergelijke ongelukken voordoen."
+
+msgid "IfcSensorFROSTSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorFROSTSENSOR"
+msgstr "Frost Sensor"
+
+msgid "IfcSensorFROSTSENSOR_DEFINITION"
+msgstr "Een apparaat dat vorst opspoelt of detecteert op een raam."
+
+msgid "IfcSensorGASSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorGASSENSOR"
+msgstr "Gas Sensor"
+
+msgid "IfcSensorGASSENSOR_DEFINITION"
+msgstr "Een apparaat dat gasconcentratie detecteert of detecteert (behalve CO2)"
+
+msgid "IfcSensorHEATSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorHEATSENSOR"
+msgstr "Warmte Sensor"
+
+msgid "IfcSensorHEATSENSOR_DEFINITION"
+msgstr "Een apparaat dat hitte detecteert of detecteert."
+
+msgid "IfcSensorHUMIDITYSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorHUMIDITYSENSOR"
+msgstr "Humiditysensor"
+
+msgid "IfcSensorHUMIDITYSENSOR_DEFINITION"
+msgstr "Een apparaat dat vochtigheid opspoelt of detecteert."
+
+msgid "IfcSensorIDENTIFIERSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorIDENTIFIERSENSOR"
+msgstr "Identifiersensor"
+
+msgid "IfcSensorIDENTIFIERSENSOR_DEFINITION"
+msgstr "Een apparaat dat een tag leest, zoals het verkrijgen van toegang tot een deur of lift"
+
+msgid "IfcSensorIONCONCENTRATIONSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorIONCONCENTRATIONSENSOR"
+msgstr "Ionconcentrationsensor"
+
+msgid "IfcSensorIONCONCENTRATIONSENSOR_DEFINITION"
+msgstr "Een apparaat dat ion concentratie detecteert of detecteert, zoals voor water hardheid."
+
+msgid "IfcSensorLEVELSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorLEVELSENSOR"
+msgstr "Levelsensor"
+
+msgid "IfcSensorLEVELSENSOR_DEFINITION"
+msgstr "Een apparaat dat het vulniveau senseert of detecteert, zoals voor een tank."
+
+msgid "IfcSensorLIGHTSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorLIGHTSENSOR"
+msgstr "Lichte Sensor"
+
+msgid "IfcSensorLIGHTSENSOR_DEFINITION"
+msgstr "Een apparaat dat licht detecteert of sensor."
+
+msgid "IfcSensorMOISTURESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorMOISTURESENSOR"
+msgstr "Moisture Sensor"
+
+msgid "IfcSensorMOISTURESENSOR_DEFINITION"
+msgstr "Een apparaat dat vocht voelt of detecteert."
+
+msgid "IfcSensorMOVEMENTSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorMOVEMENTSENSOR"
+msgstr "Beweging Sensor"
+
+msgid "IfcSensorMOVEMENTSENSOR_DEFINITION"
+msgstr "Een apparaat dat beweging senseert of detecteert."
+
+msgid "IfcSensorOBSTACLESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorOBSTACLESENSOR"
+msgstr "Belemmering Sensor"
+
+msgid "IfcSensorOBSTACLESENSOR_DEFINITION"
+msgstr "Een apparaat dat elk obstakel senseert of detecteert dat objecten waarneemt die van een bridge, rockval detector etc. vallen."
+
+msgid "IfcSensorPHSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorPHSENSOR"
+msgstr "Phsensor"
+
+msgid "IfcSensorPHSENSOR_DEFINITION"
+msgstr "Een apparaat dat zuurstof senseert of detecteert."
+
+msgid "IfcSensorPRESSURESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorPRESSURESENSOR"
+msgstr "Druksensor"
+
+msgid "IfcSensorPRESSURESENSOR_DEFINITION"
+msgstr "Een apparaat dat druk senseert of detecteert."
+
+msgid "IfcSensorRADIATIONSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorRADIATIONSENSOR"
+msgstr "Radiatie Sensor"
+
+msgid "IfcSensorRADIATIONSENSOR_DEFINITION"
+msgstr "Een apparaat dat druk senseert of detecteert."
+
+msgid "IfcSensorRADIOACTIVITYSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorRADIOACTIVITYSENSOR"
+msgstr "Radioactiviteit Sensor"
+
+msgid "IfcSensorRADIOACTIVITYSENSOR_DEFINITION"
+msgstr "Een apparaat dat atoomverval senseert of detecteert."
+
+msgid "IfcSensorRAINSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorRAINSENSOR"
+msgstr "Rain Sensor"
+
+msgid "IfcSensorRAINSENSOR_DEFINITION"
+msgstr "Een apparaat dat regenval opwekt of opraakt."
+
+msgid "IfcSensorSMOKESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorSMOKESENSOR"
+msgstr "Rookmelder"
+
+msgid "IfcSensorSMOKESENSOR_DEFINITION"
+msgstr "Een apparaat dat rook senseert of detecteert."
+
+msgid "IfcSensorSNOWDEPTHSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorSNOWDEPTHSENSOR"
+msgstr "Sneeuw Diepte Sensor"
+
+msgid "IfcSensorSNOWDEPTHSENSOR_DEFINITION"
+msgstr "Een apparaat dat de diepte van sneeuw voelt of meet."
+
+msgid "IfcSensorSOUNDSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorSOUNDSENSOR"
+msgstr "Geluid Sensor"
+
+msgid "IfcSensorSOUNDSENSOR_DEFINITION"
+msgstr "Een apparaat dat geluid voelt of detecteert."
+
+msgid "IfcSensorTEMPERATURESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorTEMPERATURESENSOR"
+msgstr "Temperatuur Sensor"
+
+msgid "IfcSensorTEMPERATURESENSOR_DEFINITION"
+msgstr "Een apparaat dat de temperatuur voelt of detecteert."
+
+msgid "IfcSensorTRAINSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorTRAINSENSOR"
+msgstr "T Rain Sensor"
+
+msgid "IfcSensorTRAINSENSOR_DEFINITION"
+msgstr "Een apparaat, meestal bevestigd aan de achterkant van het laatste voertuig van de trein, het handelen met een vaste uitrusting om een indicatie te geven van de trein."
+
+msgid "IfcSensorTURNOUTCLOSURESENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorTURNOUTCLOSURESENSOR"
+msgstr "Schakel Sluitingssensor uit"
+
+msgid "IfcSensorTURNOUTCLOSURESENSOR_DEFINITION"
+msgstr "Een apparaat dat de positie van een blad van een opkomst voelt of detecteert."
+
+msgid "IfcSensorWHEELSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorWHEELSENSOR"
+msgstr "Wiel Sensor"
+
+msgid "IfcSensorWHEELSENSOR_DEFINITION"
+msgstr "Een apparaat dat de doorgang van een wiel voelt of detecteert."
+
+msgid "IfcSensorWINDSENSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSensorWINDSENSOR"
+msgstr "Wind Sensor"
+
+msgid "IfcSensorWINDSENSOR_DEFINITION"
+msgstr "Een apparaat dat luchtstroomsnelheid en richting detecteert of detecteert."
+
+msgid "IfcUnitaryControlElementALARMPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementALARMPANEL"
+msgstr "Alarm paneel"
+
+msgid "IfcUnitaryControlElementALARMPANEL_DEFINITION"
+msgstr "Een controle-element waarbij alarmen worden uitgebannen."
+
+msgid "IfcUnitaryControlElementBASESTATIONCONTROLLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementBASESTATIONCONTROLLER"
+msgstr "Basis Bestuurder"
+
+msgid "IfcUnitaryControlElementBASESTATIONCONTROLLER_DEFINITION"
+msgstr "Een basisstation controller (BSC) is een netwerkcomponent met de functies voor het besturen van één of meer basistransceiverstations. BSC is verantwoordelijk voor het beheer van verschillende interfaces, draadloze middelen en parameters, het teken van de verwerking van de oproep en de kanaaltoewijzing in de cel."
+
+msgid "IfcUnitaryControlElementCOMBINED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementCOMBINED"
+msgstr "Gecombineerd"
+
+msgid "IfcUnitaryControlElementCOMBINED_DEFINITION"
+msgstr "Combinatie van ten minste twee vooraf gedefinieerde types van unitary control element."
+
+msgid "IfcUnitaryControlElementCONTROLPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementCONTROLPANEL"
+msgstr "Controlepaneel"
+
+msgid "IfcUnitaryControlElementCONTROLPANEL_DEFINITION"
+msgstr "Een controle-element op welke apparaten die de werking van een site, gebouw of een deel van een gebouw controleren of controleren, zich bevinden"
+
+msgid "IfcUnitaryControlElementGASDETECTIONPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementGASDETECTIONPANEL"
+msgstr "Gas Detectie Paneel"
+
+msgid "IfcUnitaryControlElementGASDETECTIONPANEL_DEFINITION"
+msgstr "Een controle-element waarbij de opsporing van gas wordt uitgebannen."
+
+msgid "IfcUnitaryControlElementHUMIDISTAT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementHUMIDISTAT"
+msgstr "Humidistaat"
+
+msgid "IfcUnitaryControlElementHUMIDISTAT_DEFINITION"
+msgstr "Een controle-element dat de luchtvochtigheid van een systeem of ruimte bezielt en regelt zodat de luchtvochtigheid dicht bij een gewenste set blijft."
+
+msgid "IfcUnitaryControlElementINDICATORPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementINDICATORPANEL"
+msgstr "Indicator paneel"
+
+msgid "IfcUnitaryControlElementINDICATORPANEL_DEFINITION"
+msgstr "Een controleelement waarbij de operationele status van de apparatuur, conditie, veiligheidsstaat of andere vereiste parameters worden aangegeven."
+
+msgid "IfcUnitaryControlElementMIMICPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementMIMICPANEL"
+msgstr "Mimic Paneel"
+
+msgid "IfcUnitaryControlElementMIMICPANEL_DEFINITION"
+msgstr "Een controle-element waarop informatie die elders beschikbaar is, wordt herhaald of 'gemimicked'."
+
+msgid "IfcUnitaryControlElementTHERMOSTAT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementTHERMOSTAT"
+msgstr "Thermostaat"
+
+msgid "IfcUnitaryControlElementTHERMOSTAT_DEFINITION"
+msgstr "Een besturingselement dat de temperatuur van een element, systeem of ruimte detecteert en regelt zodat de temperatuur dicht bij de gewenste temperatuur wordt gehouden."
+
+msgid "IfcUnitaryControlElementWEATHERSTATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcUnitaryControlElementWEATHERSTATION"
+msgstr "Weerstation"
+
+msgid "IfcUnitaryControlElementWEATHERSTATION_DEFINITION"
+msgstr "Een controle-element dat meerdere klimaateigenschappen voelt, zoals temperatuur, vochtigheid, druk, wind en regen."
+

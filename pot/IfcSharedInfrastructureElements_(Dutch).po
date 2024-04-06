@@ -1,0 +1,1196 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedInfrastructureElements.pot\n"
+"X-Crowdin-File-ID: 194\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcBorehole"
+msgstr "Borehole"
+
+msgid "IfcBorehole_DEFINITION"
+msgstr "Vertegenwoordiging van het concept van een lineair geologisch en geotechnisch model, meestal een interpretatie, maar soms direct gebaseerd op doordringing van de bodem; De assemblage kan een van meer strata en andere elementen bevatten, zoals het aftappen en linken. De ingesloten subtypes van [[IfcGeotechnicalStratum]] zullen vorm representaties hebben gemaakt van rechte of gebogen buizen die de saaie diameter weerspiegelen. of schijft als een 'Yabuki'-topmodel wordt gebruikt."
+
+msgid "Pset_BoreholeCommon"
+msgstr "Eigenschapsset: Gewoon boorgat"
+
+msgid "Pset_BoreholeCommon_DEFINITION"
+msgstr "Eigenschappen die de functies van een boorgat beschrijven (indien niet apart gemodelleerd)."
+
+msgid "BoreholeState"
+msgstr "Borehole status"
+
+msgid "BoreholeState_DEFINITION"
+msgstr "De staat die het boorgat of de proef achter is gelaten (boreholeML)."
+
+msgid "BoreholeState_CAP_REPLACED"
+msgstr "Pet vervangen"
+
+msgid "BoreholeState_CASING_INSTALLED"
+msgstr "Casing geïnstalleerd"
+
+msgid "BoreholeState_CASING_PARTIALLY_REPLACED"
+msgstr "Gedeeltelijk overgedragen"
+
+msgid "BoreholeState_CASING_REPLACED"
+msgstr "Casing vervangen"
+
+msgid "BoreholeState_CHAMBER_RECONDITIONED"
+msgstr "Kamer Gereconstrueerd"
+
+msgid "BoreholeState_DECONSTRUCTED"
+msgstr "Deconstrueerd"
+
+msgid "BoreholeState_INSTALLED"
+msgstr "Geinstalleerd"
+
+msgid "BoreholeState_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "BoreholeState_OTHER"
+msgstr "anders"
+
+msgid "BoreholeState_PARTIALLY_DECONSTRUCTED"
+msgstr "Gedeeltelijk gedeconstrueerd"
+
+msgid "BoreholeState_PARTIALLY_REFILLED"
+msgstr "Gedeeltelijk Re Gevuld"
+
+msgid "BoreholeState_RECONDITIONED"
+msgstr "Herkend"
+
+msgid "BoreholeState_REFILLED"
+msgstr "re gevulde"
+
+msgid "BoreholeState_UNSET"
+msgstr "Uitzetten"
+
+msgid "CapDepth"
+msgstr "Cap diepte"
+
+msgid "CapDepth_DEFINITION"
+msgstr "[[Depth]] dop (boreholeML)."
+
+msgid "CapMaterial"
+msgstr "Cap Material"
+
+msgid "CapMaterial_DEFINITION"
+msgstr "Cap materiaal of 'NIET CAPPED' of '[[UNKNOWN]]' (boreholeML)."
+
+msgid "FillingDepth"
+msgstr "Vulende diepte"
+
+msgid "FillingDepth_DEFINITION"
+msgstr "[[Depth]] vulling (boreholeML)."
+
+msgid "FillingMaterial"
+msgstr "Materiaal vullen"
+
+msgid "FillingMaterial_DEFINITION"
+msgstr "Vullen van materiaal of 'NIET FILLED' of '[[UNKNOWN]]' (boregatML)."
+
+msgid "GroundwaterDepth"
+msgstr "Grondwater Diepte"
+
+msgid "GroundwaterDepth_DEFINITION"
+msgstr "[[Depth]] grondwater aangetroffen (boreholeML)."
+
+msgid "LiningMaterial"
+msgstr "Voering materiaal"
+
+msgid "LiningMaterial_DEFINITION"
+msgstr "Eend materiaal of 'NIET LINED' of '[[UNKNOWN]]' (boreholeML)."
+
+msgid "Pset_GeotechnicalAssemblyCommon"
+msgstr "Eigenschappen instellen: Gewone Geotechnische Assembly"
+
+msgid "Pset_GeotechnicalAssemblyCommon_DEFINITION"
+msgstr "Eigenschappen die de kenmerken van elk geotechnisch model beschrijven. Een [[Status]] van 'Nieuw' moet niet worden geassocieerd met een [[IfcGeotechnicalAssembly]] of [[IfcGeotechnicalStratum]], als andere entiteiten worden gebruikt voor aardwerken en cursussen."
+
+msgid "BoreHolePurpose"
+msgstr "Bore Hole Purpose"
+
+msgid "BoreHolePurpose_DEFINITION"
+msgstr "[[Purpose]] waarvoor het boorgat, onderdeel of volumemodel is gemaakt (EU Inspire, boregat ML)"
+
+msgid "BoreHolePurpose_DEPOSIT"
+msgstr "Storting"
+
+msgid "BoreHolePurpose_ENVIRONMENTAL"
+msgstr "Milieu"
+
+msgid "BoreHolePurpose_FEEDSTOCK"
+msgstr "Feed Voorraad"
+
+msgid "BoreHolePurpose_GEOLOGICAL"
+msgstr "Geologisch"
+
+msgid "BoreHolePurpose_GEOTHERMAL"
+msgstr "Geothermische"
+
+msgid "BoreHolePurpose_HYDROCARBON"
+msgstr "Hydrokoolstofdioxide"
+
+msgid "BoreHolePurpose_HYDROGEOLOGICAL"
+msgstr "Hydrogeologisch"
+
+msgid "BoreHolePurpose_MINERAL"
+msgstr "Mineraal"
+
+msgid "BoreHolePurpose_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "BoreHolePurpose_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "BoreHolePurpose_PEDOLOGICAL"
+msgstr "Pedologisch"
+
+msgid "BoreHolePurpose_SITE_INVESTIGATION"
+msgstr "Site Onderzoek"
+
+msgid "BoreHolePurpose_STORAGE"
+msgstr "Opslagruimte"
+
+msgid "BoreHolePurpose_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "Limitations"
+msgstr "Beperkingen"
+
+msgid "Limitations_DEFINITION"
+msgstr "[[Limitations]] over gebruik."
+
+msgid "Methodology"
+msgstr "Methodologie"
+
+msgid "Methodology_DEFINITION"
+msgstr "[[Methodology]werd gebruikt om de inhoud van de geotechnische vergadering voor te bereiden."
+
+msgid "IfcCourse"
+msgstr "Cursus"
+
+msgid "IfcCourse_DEFINITION"
+msgstr "Een gebouwd element waarvan de lengte de dikte en vaak ook de breedte overtreft, meestal één enkel materiaal dat ter plaatse wordt gelegd bovenop een ander horizontaal of bijna horizontaal gebouwd element. Een cursus is onderscheiden van een aardwerk-element in die zin dat een cursus een gelaagde granaat (die gebonden of losgebonden) materiaal is dat algemeen op een of andere manier wordt verwerkt, waar aardbodem elementen zijn gebaseerd op grond van grond die kunnen worden gevormd door verwijdering en transport van algemeen grondmateriaal. Structureel gezien heeft een cursus geen capaciteit om lasten over open span te dragen, of om te worden verwijderd of vervangen als één eenheid. * Gecorrigeerde aggregaat laag; * Zandlaag; * Beheerde materialen (CBM); * Asphalt lagen"
+
+msgid "Pset_BoundedCourseCommon"
+msgstr "Eigenschap Set: Gewonde Cursus Gemeenschappelijk"
+
+msgid "Pset_BoundedCourseCommon_DEFINITION"
+msgstr "Eigenschappen voor een begrensde cursus."
+
+msgid "SpreadingRate"
+msgstr "Verspreiding snelheid"
+
+msgid "SpreadingRate_DEFINITION"
+msgstr "De totale nominale hoeveelheid materiaal per gebied die door de cursus wordt gedekt."
+
+msgid "Pset_CourseApplicationConditions"
+msgstr "Eigenschapset: Toepassingsvoorwaarden van de Cursus"
+
+msgid "Pset_CourseApplicationConditions_DEFINITION"
+msgstr "Eigenschappen van de voorwaarden bij het toepassen van een cursus."
+
+msgid "ApplicationTemperature"
+msgstr "Applicatie temperatuur"
+
+msgid "ApplicationTemperature_DEFINITION"
+msgstr "Geeft de omgevingstemperatuur aan waarop de cursus wordt toegepast"
+
+msgid "WeatherConditions"
+msgstr "Weer Voorwaarden"
+
+msgid "WeatherConditions_DEFINITION"
+msgstr "Geeft de weersomstandigheden aan tijdens de toepassing van de cursus"
+
+msgid "Pset_CourseCommon"
+msgstr "Eigenschapsset: Cursus Gemeenschappelijk"
+
+msgid "Pset_CourseCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor cursussen."
+
+msgid "Qto_CourseBaseQuantities"
+msgstr "Hoeveelheid Set: Cursus basishoeveelheden"
+
+msgid "Qto_CourseBaseQuantities_DEFINITION"
+msgstr "Aantal ingesteld voor cursus base."
+
+msgid "Thickness"
+msgstr "Dikte"
+
+msgid "Thickness_DEFINITION"
+msgstr "De geometrische dikte van het object."
+
+msgid "IfcEarthworksCut"
+msgstr "Aardwerk Knip"
+
+msgid "IfcEarthworksCut_DEFINITION"
+msgstr "Het gevolg is dat bestaande terrein- of wegenstructuur niet aangepast kan worden door opgraving of door andere middelen om materiaal te verwijderen."
+
+msgid "Qto_EarthworksCutBaseQuantities"
+msgstr "Aantal Set: Aardwerken Kut Basis Hoeveelheid"
+
+msgid "Qto_EarthworksCutBaseQuantities_DEFINITION"
+msgstr "Hoeveelheid ingesteld voor Aardwerk Knip basis."
+
+msgid "LooseVolume"
+msgstr "Losse Volume"
+
+msgid "LooseVolume_DEFINITION"
+msgstr "[[Volume]] van de aarde werkt wanneer in een losse stapelde staat"
+
+msgid "UndisturbedVolume"
+msgstr "Onverstoord Volume"
+
+msgid "UndisturbedVolume_DEFINITION"
+msgstr "Ongestoord [[Volume]]"
+
+msgid "IfcEarthworksElement"
+msgstr "Aardwerk Element"
+
+msgid "IfcEarthworksElement_DEFINITION"
+msgstr "Een type van gebouwd element gemaakt door aardwerk activiteiten om subbeoordeling te bouwen, het niveau van de grond in het algemeen te verhogen of de bodem te versterken of te stabiliseren door een mechanische of chemische methode."
+
+msgid "IfcEarthworksFill"
+msgstr "Aardwerk Vullen"
+
+msgid "IfcEarthworksFill_DEFINITION"
+msgstr "Een type aardwerkelement dat door aardwerk wordt gecreëerd om onderwaardigheid te bouwen of om het niveau van de grond in het algemeen te verhogen."
+
+msgid "Qto_EarthworksFillBaseQuantities"
+msgstr "Hoeveelheid Set: Aardwerken Vul basishoeveelheden"
+
+msgid "Qto_EarthworksFillBaseQuantities_DEFINITION"
+msgstr "Hoeveelheid ingesteld voor Earthworks Vul basis."
+
+msgid "CompactedVolume"
+msgstr "Compacte Volume"
+
+msgid "CompactedVolume_DEFINITION"
+msgstr "[[Volume]] van de aarde werkt toen het klaar was en gecompacteerd werd."
+
+msgid "IfcGeomodel"
+msgstr "Geomodel"
+
+msgid "IfcGeomodel_DEFINITION"
+msgstr "Representatie van het concept van een volumetrisch geologisch en geotechnisch model, meestal een interpretatie, maar soms direct gebaseerd op doorborende meting van de grond. De assemblage kan een van meer strata en andere antropische elementen bevatten. De ingesloten subtypes van [[IfcGeotechnicalStratum]] hebben vorm representaties op basis van polyhedra of oppervlakte als een 'Yabuki' oppervlak model wordt gebruikt."
+
+msgid "IfcGeoslice"
+msgstr "Geoslice"
+
+msgid "IfcGeoslice_DEFINITION"
+msgstr "Representatie van het concept van een sectioneel plantair geologisch en geotechnisch model, meestal een interpretatie maar soms rechtstreeks vanuit de grond ontstaan. De assemblage kan een van meer strata en antropische elementen bevatten. De ingesloten subtypes van [[IfcGeotechnicalStratum]] hebben vorm representaties gemaakt uit veelhoeken die de zichtbare sectie of poly lijnen weergeven als een 'Yabuki' top oppervlaktemodel wordt gebruikt."
+
+msgid "IfcGeotechnicalAssembly"
+msgstr "Geotechnische Assembly"
+
+msgid "IfcGeotechnicalAssembly_DEFINITION"
+msgstr "Vertegenwoordiging van het abstracte concept van een geologisch en geotechnisch model, meestal een vertolking die soms rechtstreeks van de grond kwam. Het gebruik van een vergadering is facultatief maar kan de methodologie en de informatie over onzekerheid bevatten. In dergelijke assemblies worden [[IfcGeotechnicalStratum]] entiteitstypen opgenomen en kunnen andere entiteitstypen bevatten, zoals [[IfcPile]], [[IfcSlab]] of [[IfcSensor]] voor het weergeven van de aanwezige bijlagen, voering of logging apparatuur. [[IfcBorehole]] of [[IfcGeoslice]] kunnen een fysieke realiteit hebben als bouwgevaar naast de vervoerder voor de vertolkte resultaten. Geologische gevaren kunnen worden geassocieerd met een [[IfcGeotechnicalAssembly]] of [[IfcGeotechnicalStratum]]."
+
+msgid "IfcGeotechnicalElement"
+msgstr "Geotechnisch element"
+
+msgid "IfcGeotechnicalElement_DEFINITION"
+msgstr "Abstract supertype voor geotechnische entiteiten."
+
+msgid "IfcGeotechnicalStratum"
+msgstr "Geotechnisch Stratum"
+
+msgid "IfcGeotechnicalStratum_DEFINITION"
+msgstr "Representatie van het concept van een geïdentificeerd discreet en vrijwel homogeen geologisch kenmerk met een onregelmatige solide of 'Yabuki' bovenoppervlakte of een gewone voxel kubieke vorm. Een stratum wordt voorgesteld als een discrete entiteit, gespecialiseerd (sub getyped) van [[IfcElement]]. Een stratum kan worden opgesplitst in kleinere entiteiten als eigenschappen variëren tussen de stratum of als alternatief eigenschappen kunnen worden beschreven in een gebonden numerieke bereik. Een stratum kan informatie verstrekken over de fysieke vorm en de interpretatie ervan als geologisch product (GML). De gebruikte vorm weergaven moeten overeenkomen met het subtype van [[IfcGeotechnicalAssembly]] waarin het voorkomt"
+
+msgid "Pset_GeotechnicalStratumCommon"
+msgstr "Eigenschapsset: Geotechnische Stratum Gemeenschappelijk"
+
+msgid "Pset_GeotechnicalStratumCommon_DEFINITION"
+msgstr "Eigenschappen beschrijven de kenmerken van elk solide, water of leeg stratum. Een status van 'Nieuw' moet niet worden geassocieerd met een [[IfcGeotechnicalAssembly]] of IfcSolidStratum, omdat andere entiteiten worden gebruikt voor aardwerk en cursussen."
+
+msgid "IsTopographic"
+msgstr "Is Topografisch"
+
+msgid "IsTopographic_DEFINITION"
+msgstr "Is het stratum ooit de top, dus een zichtbare topografische functie"
+
+msgid "PiezometricHead"
+msgstr "Piezometrisch Hoofd"
+
+msgid "PiezometricHead_DEFINITION"
+msgstr "[[Pressure]] hoofd van water-inhoud."
+
+msgid "PiezometricPressure"
+msgstr "Piezometrische druk"
+
+msgid "PiezometricPressure_DEFINITION"
+msgstr "[[Pressure]] water inhoud."
+
+msgid "StratumColour"
+msgstr "Stratum kleur"
+
+msgid "StratumColour_DEFINITION"
+msgstr "Stratum kleur"
+
+msgid "Texture"
+msgstr "Textuur"
+
+msgid "Texture_DEFINITION"
+msgstr "Stratum texture"
+
+msgid "Qto_ArealStratumBaseQuantities"
+msgstr "Hoeveelheid Set: Areal Stratum Basis Hoeveelheden"
+
+msgid "Qto_ArealStratumBaseQuantities_DEFINITION"
+msgstr "De kwantiteitsmetingen die zijn gekoppeld aan areaal zoals in een geotechnische slice. Onzekerheid wordt gedocumenteerd in [[Pset_Uncertainty]]."
+
+msgid "PlanLength"
+msgstr "Plan Lengte"
+
+msgid "PlanLength_DEFINITION"
+msgstr "Verwachte plan lengte van bovenrand van plak."
+
+msgid "Qto_LinearStratumBaseQuantities"
+msgstr "Hoeveelheid Set: Lineaire tekenreeks"
+
+msgid "Qto_LinearStratumBaseQuantities_DEFINITION"
+msgstr "Onzekerheid wordt gedocumenteerd in [[Pset_Uncertainty] ]. Een lineaire stratum van een boorgat."
+
+msgid "Qto_VolumetricStratumBaseQuantities"
+msgstr "Hoeveelheid set: Volumetrische Stratum Basis Hoeveelheid"
+
+msgid "Qto_VolumetricStratumBaseQuantities_DEFINITION"
+msgstr "Hoeveelheidsmetingen geassocieerd met volumetrisch stratum zoals in een geotechnisch model. Onzekerheid wordt gedocumenteerd in [[Pset_Uncertainty]]."
+
+msgid "Mass"
+msgstr "Massa"
+
+msgid "Mass_DEFINITION"
+msgstr "[[Mass]] vertegenwoordigd, als lager oppervlak stratum gekend is."
+
+msgid "PlanArea"
+msgstr "Plan gebied"
+
+msgid "PlanArea_DEFINITION"
+msgstr "Verwachte planethoek van bovenaf model."
+
+msgid "IfcPavement"
+msgstr "Stoepwerk"
+
+msgid "IfcPavement_DEFINITION"
+msgstr "[[Type]] van gebouwd element in een weg- of ander geplaveerde gebied om een zelfvoorzienende belasting van voertuigen of voetgangers te leveren meestal meerdere cursussen omvatten;"
+
+msgid "Pset_PavementCommon"
+msgstr "Eigenschapset: Stoepwerk Gemeenschappelijk"
+
+msgid "Pset_PavementCommon_DEFINITION"
+msgstr "Beschrijft de gemeenschappelijke eigenschappen en de nominale afmetingen van het plak."
+
+msgid "NominalThicknessEnd"
+msgstr "Nominale Dikte End"
+
+msgid "NominalThicknessEnd_DEFINITION"
+msgstr "De nominale dikte van het object na een overgang van de oorspronkelijke waarde. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de afmetingen van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "StructuralSlope"
+msgstr "Structurele helling"
+
+msgid "StructuralSlope_DEFINITION"
+msgstr "De nominale zijkant helling van de stoepstructuur (bijlage) als een positieve omzetmaat. De richtingsinformatie wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters gaat het voorop. [[Value]] is meestal minder dan 1,1) maar kan groter zijn dan dat voor steeper hellingen."
+
+msgid "StructuralSlopeType"
+msgstr "Structurele Helling Type"
+
+msgid "StructuralSlopeType_DEFINITION"
+msgstr "Gebruiker gedefinieerde beschrijving van het type helling dat gebruikt wordt voor de stoepstructuur (niet inclusief zijden richting). Voorbeelden zijn 'Evene' of 'Stpped'."
+
+msgid "Pset_PavementSurfaceCommon"
+msgstr "Eigenschapset: Stoepterrein Gemeenschappelijk"
+
+msgid "Pset_PavementSurfaceCommon_DEFINITION"
+msgstr "Eigenschappen voor een stoepoppervlak."
+
+msgid "PavementRoughness"
+msgstr "Stoep- Roughness"
+
+msgid "PavementRoughness_DEFINITION"
+msgstr "Een beoordeling van de functionele staat van het stoepoppervlak aangegeven als een index volgens de Internationale [[Roughness]] index (IRI)."
+
+msgid "PavementTexture"
+msgstr "Stoepwerk Textuur"
+
+msgid "PavementTexture_DEFINITION"
+msgstr "Karakterisatie van de troepentextuur met gemiddelde profieldiepte"
+
+msgid "Qto_PavementBaseQuantities"
+msgstr "Set: Svement Base Hoeveelheid"
+
+msgid "Qto_PavementBaseQuantities_DEFINITION"
+msgstr "Aantal ingesteld voor Pavement."
+
+msgid "IfcReinforcedSoil"
+msgstr "Verstevigde grond"
+
+msgid "IfcReinforcedSoil_DEFINITION"
+msgstr "De bodem wordt versterkt of gestabiliseerd door een of andere mechanische of chemische methode."
+
+msgid "Qto_ReinforcedSoilBaseQuantities"
+msgstr "Hoeveelheid set: Verstevigde bodembasishoeveelheden"
+
+msgid "Qto_ReinforcedSoilBaseQuantities_DEFINITION"
+msgstr "Hoeveelheid sets voor Verstevigde Bodembasis."
+
+msgid "IfcSign"
+msgstr "Ondertekenen"
+
+msgid "IfcSign_DEFINITION"
+msgstr "Een bord is een melding op het scherm die informatie of instructies geeft in een geschreven, symbolisch of ander formulier. Signs zijn passief met de meest voorkomende vorm van een afbeeldingsvenster. Een exemplaar van [[IfcSign]] verwijst naar het voorkomen van een individueel paneel dat kan worden toegepast op een oppervlak zoals een muur of kan worden geaggregeerd in een Signaal Assembly dat meerdere merken kan bevatten en de bijbehorende structurele elementen kan ondersteunen (zie Signal Assembly bijvoorbeeld)."
+
+msgid "Pset_RailwaySignalAspect"
+msgstr "Eigenschap ingesteld: spoorsignaalaspect"
+
+msgid "Pset_RailwaySignalAspect_DEFINITION"
+msgstr "Eigenschappen van deze propertyset zijn van toepassing op [[IfcSignal]] en [[IfcSign]] op spoorwegen. Deze eigenschappen beschrijven het signaalaspect, wat de informatie is op het signaal of het teken dat wordt getoond aan de machinist."
+
+msgid "AppliesToTrainCategory"
+msgstr "Van toepassing op de T Regencategorie"
+
+msgid "AppliesToTrainCategory_DEFINITION"
+msgstr "Teken informatie met betrekking tot de categorie van de treinen, bijvoorbeeld vrachtvervoer, passagier."
+
+msgid "AppliesToTrainCategory_FREIGHT"
+msgstr "vracht"
+
+msgid "AppliesToTrainCategory_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AppliesToTrainCategory_OTHER"
+msgstr "anders"
+
+msgid "AppliesToTrainCategory_PASSENGER"
+msgstr "passagier"
+
+msgid "AppliesToTrainCategory_UNSET"
+msgstr "Uitzetten"
+
+msgid "SignalAspectSymbol"
+msgstr "Signaal Aspect Symbool"
+
+msgid "SignalAspectSymbol_DEFINITION"
+msgstr "Inhoud die wordt weergegeven op het signaal of teken, bijvoorbeeld tekst, nummer, pijl of pictogram."
+
+msgid "SignalAspectSymbol_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "SignalAspectType"
+msgstr "Type Signaalaspect"
+
+msgid "SignalAspectType_DEFINITION"
+msgstr "Het type van aspect, bijv. 2-weergave aspect voor verafgelegen signaal, 3-weergave aspect voor het bloksignaal."
+
+msgid "SignLegend"
+msgstr "Onderteken Legenda"
+
+msgid "SignLegend_DEFINITION"
+msgstr "[[Text]] informatie geschreven op het signaal of bord."
+
+msgid "Pset_RailwaySignalSighting"
+msgstr "Eigenschapsset: Railway Signaal gevechten"
+
+msgid "Pset_RailwaySignalSighting_DEFINITION"
+msgstr "Eigenschappen die informatie definiëren over signaalzicht of zichtbaarheid in spoorwegen. Deze eigenschappen zijn van toepassing op gebeurtenissen van [[IfcSignal]] en [[IfcSign]]."
+
+msgid "SignalSightingAchievableDistance"
+msgstr "Signal Sighting Bereikbare Afstand"
+
+msgid "SignalSightingAchievableDistance_DEFINITION"
+msgstr "De afstand tot het signaal, die met de hulp van de mitigatie kan worden bereikt, is groot."
+
+msgid "SignalSightingAvailableDistance"
+msgstr "Signal Sighting Beschikbare Afstand"
+
+msgid "SignalSightingAvailableDistance_DEFINITION"
+msgstr "Leest u de afstand van het signaal zonder dat u enige mitigatie heeft."
+
+msgid "SignalSightingCombinedWithRepeater"
+msgstr "Signaal Recht gecombineerd met Repeater"
+
+msgid "SignalSightingCombinedWithRepeater_DEFINITION"
+msgstr "Combineer leesafstand voor het signaal en alle bijbehorende repeaters."
+
+msgid "SignalSightingMinimum"
+msgstr "Minimaal Signal Vizier"
+
+msgid "SignalSightingMinimum_DEFINITION"
+msgstr "Minimale afstand waarin het signaal leesbaar moet zijn."
+
+msgid "SignalSightingPreferred"
+msgstr "Signal Vizier Voorkeur"
+
+msgid "SignalSightingPreferred_DEFINITION"
+msgstr "Voorkeursafstand waarin het signaal leesbaar is."
+
+msgid "SignalSightingRouteIndicator"
+msgstr "Signal Vizier Indicator"
+
+msgid "SignalSightingRouteIndicator_DEFINITION"
+msgstr "Vereiste leesafstand voor de route indicator."
+
+msgid "SignalViewingMinimumInFront"
+msgstr "Minimaal signaalweergave aan de voorkant"
+
+msgid "SignalViewingMinimumInFront_DEFINITION"
+msgstr "Kleinere afstand waar het signaal leesbaar moet zijn (voor de trein zeer dicht bij het signaal)."
+
+msgid "Pset_SignCommon"
+msgstr "Eigenschap Set: Bord Gemeenschappelijk"
+
+msgid "Pset_SignCommon_DEFINITION"
+msgstr "Veel voorkomende eigenschappen voor Signs."
+
+msgid "TactileMarking"
+msgstr "Tactiele markering"
+
+msgid "TactileMarking_DEFINITION"
+msgstr "Het soort tactische markering van het element."
+
+msgid "Qto_SignBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Onderteken basishoeveelheid"
+
+msgid "Qto_SignBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden voor Signs."
+
+msgid "IfcSignal"
+msgstr "Signaal"
+
+msgid "IfcSignal_DEFINITION"
+msgstr "Een signaal is een actief apparaat dat informatie of instructies overbrengt aan gebruikers, door middel van een audio, visueel signaal of een combinatie van beide. Het primaire onderscheid van een [[IfcSign]] is dat een signaal actief is en daarom een subtype van [[IfcFlowTerminal]] vereist meestal stroom- en gegevensverbindingen voor de bewerking. Een instantie van [[IfcSignal]] vertegenwoordigt een enkele signaleringsapparaat in een grotere verzamelde eenheid of aangesloten systeem zoals een individueel kader binnen een spoorwegsignaal, een enkele lichteenheid in een verkeerslichtsysteem, een audiosignaal of een op navigatiebuis aangesloten. Signalen kunnen fysiek samengevoegd worden in een vergadering die meerdere signaalinstellingen (en ook ondertekeningen) en de bijbehorende ondersteuning van structurele elementen kan bevatten, zoals een eenvoudige pool of een rigide frame gantry (zie Signal Assembly voor voorbeelden). Signalen kunnen logisch (functioneel) worden gegroepeerd in een signaleringssysteem (een type distributiesysteem) om een verbonden groep signalen te vertegenwoordigen, bijvoorbeeld een groep verkeerslichten die een wegkruispunt regelt."
+
+msgid "Pset_RailwaySignalOccurrence"
+msgstr "Eigenschapsset: Spoorway Signaal Voorval"
+
+msgid "Pset_RailwaySignalOccurrence_DEFINITION"
+msgstr "De gemeenschappelijke bezittingen met betrekking tot de definitie van het aantal voorvallen van [[IfcSignal]] gelden voor de spoorwegen."
+
+msgid "ApproachSpeed"
+msgstr "Snelheid aanpakken"
+
+msgid "ApproachSpeed_DEFINITION"
+msgstr "De ontwerpsnelheid van treinen die het signaal naderen als ze afwijken van de lijnsnelheid."
+
+msgid "DistanceToStopMark"
+msgstr "Afstand tot eindbeoordeling"
+
+msgid "DistanceToStopMark_DEFINITION"
+msgstr "Afstand van het signaal naar de dichtstbijzijnde haltemarkering op een platform."
+
+msgid "HandSignallingProhibited"
+msgstr "Hand Signal Ling Verbannen"
+
+msgid "HandSignallingProhibited_DEFINITION"
+msgstr "Geeft aan of handsignalering verboden is in geval van een storing."
+
+msgid "HinderingObstaclesDescription"
+msgstr "Beschrijving hinderende belemmeringen S"
+
+msgid "HinderingObstaclesDescription_DEFINITION"
+msgstr "[[Description]] obstakels die de zichtbaarheid van het personeel in het station in de weg staan."
+
+msgid "LimitedClearances"
+msgstr "Beperkte verwijderingen"
+
+msgid "LimitedClearances_DEFINITION"
+msgstr "tunnels, bruggen, viaducten."
+
+msgid "NumberOfLampsNotUsed"
+msgstr "Aantal niet gebruikte lampen"
+
+msgid "NumberOfLampsNotUsed_DEFINITION"
+msgstr "Aantal lampen die niet nodig zijn en leeg zijn (dichtgezocht)."
+
+msgid "RequiresBannerSignal"
+msgstr "Vereist banner signaal"
+
+msgid "RequiresBannerSignal_DEFINITION"
+msgstr "Geeft aan of een banner repeater signaal vereist is."
+
+msgid "RequiresOLEMesh"
+msgstr "Vereist OLE Mesh"
+
+msgid "RequiresOLEMesh_DEFINITION"
+msgstr "Geeft aan of een OLE maaswerk vereist is om het signaal of de onderhouder te beschermen."
+
+msgid "RequiresSafetyHandrail"
+msgstr "Vereist Veiligheid Hand Spoor"
+
+msgid "RequiresSafetyHandrail_DEFINITION"
+msgstr "Geeft aan of een veiligheids handspoor vereist is."
+
+msgid "SignalPostTelephoneID"
+msgstr "Telefoon nummer van Signaal Post"
+
+msgid "SignalPostTelephoneID_DEFINITION"
+msgstr "De identificatie van de signaalpost is verbonden met het signaal."
+
+msgid "SignalPostTelephoneType"
+msgstr "Telefoon type Signaal Bericht"
+
+msgid "SignalPostTelephoneType_DEFINITION"
+msgstr "Geeft het type signaal post telefoon aan, b.v. vergrendeld, direct lijn, telefoonnummer."
+
+msgid "SignalWalkwayLength"
+msgstr "Signaal loopduur"
+
+msgid "SignalWalkwayLength_DEFINITION"
+msgstr "Geeft de lengte aan van de walkway van signaal naar signaal na het versturen van telefoon."
+
+msgid "SpecialPositionArrangement"
+msgstr "Speciale Positie Regeling"
+
+msgid "SpecialPositionArrangement_DEFINITION"
+msgstr "[[Type]] met een speciale positie waar het signaal wordt geplaatst."
+
+msgid "Pset_RailwaySignalType"
+msgstr "Eigenschap Set: Spoorway Signaal Type"
+
+msgid "Pset_RailwaySignalType_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van voorvallen en types van [[IfcSignal]] gelden voor de spoorwegen."
+
+msgid "HasConductorRailGuardBoard"
+msgstr "Heeft Leider Rail Guard Board"
+
+msgid "HasConductorRailGuardBoard_DEFINITION"
+msgstr "Geeft aan of een bewakingsbord is verstrekt."
+
+msgid "HotStripOrientation"
+msgstr "Uitlijning snel afbreken"
+
+msgid "HotStripOrientation_DEFINITION"
+msgstr "Positie van de hete strip, die de richting aangeeft van de focus van de lichtstraal en wordt gegeven in termen als 'linker bovenste quadrant (LUQ)' of '5 uur'."
+
+msgid "IsHighType"
+msgstr "Is hoog type"
+
+msgid "IsHighType_DEFINITION"
+msgstr "Geeft aan of het signaal hoog is (TRUE) of dwarf (grond gemonteerd) (FALSE)."
+
+msgid "LensDiffuserOrientation"
+msgstr "Lens rooster oriëntatie"
+
+msgid "LensDiffuserOrientation_DEFINITION"
+msgstr "[[Orientation]] de lenzenrooster moet hebben, die de richting aangeeft van het lenzenrooster en wordt gegeven in termen als 'linker bovenste quadrant (LUQ)' of '5 uur'."
+
+msgid "LensDiffuserType"
+msgstr "Lens rooster type"
+
+msgid "LensDiffuserType_DEFINITION"
+msgstr "[[Type]] van de lenzen roosters waarmee het signaal is uitgerust."
+
+msgid "MaximumDisplayDistance"
+msgstr "Maximale weergave afstand"
+
+msgid "MaximumDisplayDistance_DEFINITION"
+msgstr "De maximale afstand die weergegeven kan worden. De waarde heeft alleen betrekking op het signaaltype, niet op de omstandigheden op een speciale positie."
+
+msgid "NumberOfLamps"
+msgstr "Aantal Lampen"
+
+msgid "NumberOfLamps_DEFINITION"
+msgstr "Aantal lampen waaruit het signaal bestaat."
+
+msgid "RailwaySignalType"
+msgstr "Spoorwegwijzertype"
+
+msgid "RailwaySignalType_DEFINITION"
+msgstr "Het type spoorwegsignaal, bijvoorbeeld het startsignaal, het startsignaal, het lichtsignaal, het grenssignaal."
+
+msgid "RailwaySignalType_APPROACHSIGNAL"
+msgstr "Benader Signaal"
+
+msgid "RailwaySignalType_BLOCKSIGNAL"
+msgstr "Blokkeer Signaal"
+
+msgid "RailwaySignalType_DISTANTSIGNAL"
+msgstr "Distant signaal"
+
+msgid "RailwaySignalType_HOMESIGNAL"
+msgstr "Home Signaal"
+
+msgid "RailwaySignalType_HUMPAUXILIARYSIGANL"
+msgstr "Hump Auxiliair Siganl"
+
+msgid "RailwaySignalType_HUMPSIGNAL"
+msgstr "Hump signaal"
+
+msgid "RailwaySignalType_LEVELCROSSINGSIGNAL"
+msgstr "Niveau Kruising Signaal"
+
+msgid "RailwaySignalType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "RailwaySignalType_OBSTRUCTIONSIGNAL"
+msgstr "Obstructie signaal"
+
+msgid "RailwaySignalType_OTHER"
+msgstr "anders"
+
+msgid "RailwaySignalType_REPEATINGSIGNAL"
+msgstr "Herhalend signaal"
+
+msgid "RailwaySignalType_SHUNTINGSIGNAL"
+msgstr "Verlichting signaal"
+
+msgid "RailwaySignalType_STARTINGSIGNAL"
+msgstr "Signaal starten"
+
+msgid "RailwaySignalType_UNSET"
+msgstr "Uitzetten"
+
+msgid "RequiredDisplayDistance"
+msgstr "Vereiste weergaveafstand"
+
+msgid "RequiredDisplayDistance_DEFINITION"
+msgstr "De vereiste afstand die moet worden weergegeven. De waarde heeft alleen betrekking op het signaaltype, niet op de omstandigheden op een speciale positie."
+
+msgid "SignalHoodLength"
+msgstr "Signaalkap lengte"
+
+msgid "SignalHoodLength_DEFINITION"
+msgstr "Nominale lengte van de signaalkap, de signaallamp die omhuld wordt tegen flagrante zon."
+
+msgid "SignalIndicatorType"
+msgstr "Signaal Indicator Type"
+
+msgid "SignalIndicatorType_DEFINITION"
+msgstr "[[Type]] van de indicatoren op een signaal, bijvoorbeeld route indicator, snelheidsbeperking indicator enz."
+
+msgid "SignalIndicatorType_DEPARTUREINDICATOR"
+msgstr "Vertrek Indicator"
+
+msgid "SignalIndicatorType_DEPARTUREROUTEINDICATOR"
+msgstr "Vertrek Route Indicator"
+
+msgid "SignalIndicatorType_DERAILINDICATOR"
+msgstr "Derail Indicator"
+
+msgid "SignalIndicatorType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "SignalIndicatorType_OTHER"
+msgstr "anders"
+
+msgid "SignalIndicatorType_ROLLINGSTOCKSTOPINDICATOR"
+msgstr "Rollende voorraad stopindicator"
+
+msgid "SignalIndicatorType_ROUTEINDICATOR"
+msgstr "Route indicator"
+
+msgid "SignalIndicatorType_SHUNTINGINDICATOR"
+msgstr "Verbruik Indicator"
+
+msgid "SignalIndicatorType_SWITCHINDICATOR"
+msgstr "Indicator wisselen"
+
+msgid "SignalIndicatorType_UNSET"
+msgstr "Uitzetten"
+
+msgid "SignalMessage"
+msgstr "Signaal Bericht"
+
+msgid "SignalMessage_DEFINITION"
+msgstr "Alle mogelijke berichten op dit signaal, bijvoorbeeld '3/4- weergave automatische blokkering'."
+
+msgid "Pset_SignalFrame"
+msgstr "Eigenschapsset: Signaal Frame"
+
+msgid "Pset_SignalFrame_DEFINITION"
+msgstr "Eigenschappen die signaal frame parameters definiëren voor voorvallen en types van [[IfcSignal]] toegepast in spoorwegen."
+
+msgid "BackboardType"
+msgstr "Type achterbord"
+
+msgid "BackboardType_DEFINITION"
+msgstr "Het type van de achtergrond van het signaalframe."
+
+msgid "SignalFrameBackboardDiameter"
+msgstr "Signal Frame Back Board Diameter"
+
+msgid "SignalFrameBackboardDiameter_DEFINITION"
+msgstr "De nominale diameter van het achtergrondbord van de signaalframe"
+
+msgid "SignalFrameBackboardHeight"
+msgstr "Signal Frame Back Board Hoogte"
+
+msgid "SignalFrameBackboardHeight_DEFINITION"
+msgstr "De nominale hoogte van het signaalframe achterbord."
+
+msgid "SignalFrameType"
+msgstr "Signaal Frame Type"
+
+msgid "SignalFrameType_DEFINITION"
+msgstr "[[Type]] frame, bijvoorbeeld hoofdframe, route indicator, snelheidsindicator, richting indicator, etc."
+
+msgid "Qto_SignalBaseQuantities"
+msgstr "Hoeveelheid ingesteld: signaalbasishoeveelheid"
+
+msgid "Qto_SignalBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden voor signalen."
+
+msgid "IfcCourseARMOUR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCourseARMOUR"
+msgstr "Harnas"
+
+msgid "IfcCourseARMOUR_DEFINITION"
+msgstr "Een Aggregate laag waarvan de primaire functie is het beschermen tegen erosie van het onderliggende materiaal door water, bv. riprap."
+
+msgid "IfcCourseBALLASTBED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCourseBALLASTBED"
+msgstr "Ballastbed"
+
+msgid "IfcCourseBALLASTBED_DEFINITION"
+msgstr "Laag bestaande uit gebroken stenen onder de sleepers."
+
+msgid "IfcCourseCORE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCourseCORE"
+msgstr "Kern"
+
+msgid "IfcCourseCORE_DEFINITION"
+msgstr "Een kernkoers is de interne structuur van de geaggregeerde structuren."
+
+msgid "IfcCourseFILTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCourseFILTER"
+msgstr "Filteren"
+
+msgid "IfcCourseFILTER_DEFINITION"
+msgstr "Een tussenliggende laag waarvan de primaire functie is het voorkomen van het wassen van mooie materialen."
+
+msgid "IfcCoursePAVEMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoursePAVEMENT"
+msgstr "Stoepwerk"
+
+msgid "IfcCoursePAVEMENT_DEFINITION"
+msgstr "Een laag binnen een stoepstructuur die een gebied of een weg is."
+
+msgid "IfcCoursePROTECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoursePROTECTION"
+msgstr "Bescherming"
+
+msgid "IfcCoursePROTECTION_DEFINITION"
+msgstr "Laag die als eerste taak heeft om bescherming tegen erosie en plaag te bieden."
+
+msgid "IfcEarthworksCutBASE_EXCAVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutBASE_EXCAVATION"
+msgstr "Basis Opgraving"
+
+msgid "IfcEarthworksCutBASE_EXCAVATION_DEFINITION"
+msgstr "Opgraving voor toewijzingen van gebouwen, abustrementen van bruggen of soortgelijke gebouwen gedeeltelijk of volledig onder de grondslag."
+
+msgid "IfcEarthworksCutCUT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutCUT"
+msgstr "Knippen"
+
+msgid "IfcEarthworksCutCUT_DEFINITION"
+msgstr "Vergraving van grond of steen onder de bodem tot de diepte die nodig is voor de aanleg van faciliteiten als wegen en spoorwegen. Het verwijderde materiaal kan worden gebruikt als opvulling ([[IfcEarthworksElement]]) voor bankieren of om een leveloppervlak te vormen waarop moet worden gebouwd."
+
+msgid "IfcEarthworksCutDREDGING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutDREDGING"
+msgstr "Dredging"
+
+msgid "IfcEarthworksCutDREDGING_DEFINITION"
+msgstr "Onderwater aangraving om materiaal te herstellen of om een grotere diepte van water te creëren."
+
+msgid "IfcEarthworksCutEXCAVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutEXCAVATION"
+msgstr "Opgraving"
+
+msgid "IfcEarthworksCutEXCAVATION_DEFINITION"
+msgstr "Algemene type opgraving wanneer nauwkeuriger type niet is opgegeven."
+
+msgid "IfcEarthworksCutOVEREXCAVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutOVEREXCAVATION"
+msgstr "Over opgraving"
+
+msgid "IfcEarthworksCutOVEREXCAVATION_DEFINITION"
+msgstr "Opgraving die verder gaat dan de diepte die nodig is voor constructie, om ongeschikt materiaal te vervangen."
+
+msgid "IfcEarthworksCutPAVEMENTMILLING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutPAVEMENTMILLING"
+msgstr "Stoeps Milling"
+
+msgid "IfcEarthworksCutPAVEMENTMILLING_DEFINITION"
+msgstr "Verwijdering van verlopen materiaal van de top van de stoep, te vervangen door nieuw materiaal."
+
+msgid "IfcEarthworksCutSTEPEXCAVATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutSTEPEXCAVATION"
+msgstr "Stap opgraving"
+
+msgid "IfcEarthworksCutSTEPEXCAVATION_DEFINITION"
+msgstr "Verwijdering van het zachte deel van de bestaande weghelling, waar het in stappen wordt gedreven, wanneer een weg wordt verbreed."
+
+msgid "IfcEarthworksCutTOPSOILREMOVAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutTOPSOILREMOVAL"
+msgstr "Top Grond Verwijdering"
+
+msgid "IfcEarthworksCutTOPSOILREMOVAL_DEFINITION"
+msgstr "Opgraving waar de bovenste laag van de bodem die organisch materiaal bevat, wordt verminderd of geschrapt. De verwijderde bovengrond kan worden gebruikt als opvulling (EarthworksElement) b.v. waar de aanplant gepland is."
+
+msgid "IfcEarthworksCutTRENCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksCutTRENCH"
+msgstr "Trench"
+
+msgid "IfcEarthworksCutTRENCH_DEFINITION"
+msgstr "Opgraving waarvan de lengte aanzienlijk groter is dan de diepte en de breedte. Trench wordt meestal uitgesneden voor stripbasis of voor begraven diensten zoals afvoer of kabel."
+
+msgid "IfcEarthworksFillBACKFILL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillBACKFILL"
+msgstr "Backfill"
+
+msgid "IfcEarthworksFillBACKFILL_DEFINITION"
+msgstr "Vul achter het bewaren van muren of andere constructies zoals kazernes, achter abumenten en bridges."
+
+msgid "IfcEarthworksFillCOUNTERWEIGHT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillCOUNTERWEIGHT"
+msgstr "Tegengewicht"
+
+msgid "IfcEarthworksFillCOUNTERWEIGHT_DEFINITION"
+msgstr "Embankment gebouwd aan de kant van de hoofdwegenstructuur om de schikking van de weg te verminderen."
+
+msgid "IfcEarthworksFillEMBANKMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillEMBANKMENT"
+msgstr "Embankment"
+
+msgid "IfcEarthworksFillEMBANKMENT_DEFINITION"
+msgstr "Normaal longitudinaal type aardwerk element zonder andere speciale toegewezen type, afhankelijk van zijn rol in Svement of Ondergrade;"
+
+msgid "IfcEarthworksFillSLOPEFILL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillSLOPEFILL"
+msgstr "Helling efill"
+
+msgid "IfcEarthworksFillSLOPEFILL_DEFINITION"
+msgstr "[[Side]] richtingscoëfficiënt (batterij) vult de wegdek of de helling af."
+
+msgid "IfcEarthworksFillSUBGRADE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillSUBGRADE"
+msgstr "Ondergraden"
+
+msgid "IfcEarthworksFillSUBGRADE_DEFINITION"
+msgstr "[[Type]] van het aardwerk element vormt het bouwwerk onderaan en boven de natuurlijke bodem;"
+
+msgid "IfcEarthworksFillSUBGRADEBED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillSUBGRADEBED"
+msgstr "Ondergronds bed"
+
+msgid "IfcEarthworksFillSUBGRADEBED_DEFINITION"
+msgstr "Het bovenste deel van de grond, de natuurlijke of de bouw, ondersteunt de ladingen die doorgegeven worden door de overmatige structuur van een weg-, start- of hetzelfde harde oppervlak."
+
+msgid "IfcEarthworksFillTRANSITIONSECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcEarthworksFillTRANSITIONSECTION"
+msgstr "Transitie Sectie"
+
+msgid "IfcEarthworksFillTRANSITIONSECTION_DEFINITION"
+msgstr "Sectie van subgrade om de consistentie van stijfheid te waarborgen en ongelijkheden te voorkomen. Transitie sectie kan verschijnen. .embankment en brug abut; embankment en transversale structuur; snoeien en tunnel; embankment en knuffel."
+
+msgid "IfcGeotechnicalStratumSOLID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeotechnicalStratumSOLID"
+msgstr "Solid"
+
+msgid "IfcGeotechnicalStratumSOLID_DEFINITION"
+msgstr "Representatie van het concept van een geïdentificeerde discrete solide solide geologische of oppervlakte functie, die vrijwel homogeen is, inclusief stopzetting van zaken als fouten, breuken, grenzen en interfaces die niet expliciet gemodelleerd zijn."
+
+msgid "IfcGeotechnicalStratumVOID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeotechnicalStratumVOID"
+msgstr "Ongeldig"
+
+msgid "IfcGeotechnicalStratumVOID_DEFINITION"
+msgstr "Representatie van het concept van een geïdentificeerde discrete lucht gevulde geologische functie, met inbegrip van grotten en andere leegtes."
+
+msgid "IfcGeotechnicalStratumWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcGeotechnicalStratumWATER"
+msgstr "Water"
+
+msgid "IfcGeotechnicalStratumWATER_DEFINITION"
+msgstr "Representatie van het concept van een geïdentificeerd discreet water gevuld geologisch of oppervlaktewater, waaronder meren, rivieren en zeeën."
+
+msgid "IfcPavementFLEXIBLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPavementFLEXIBLE"
+msgstr "Flexibel"
+
+msgid "IfcPavementFLEXIBLE_DEFINITION"
+msgstr "Stoepwerk met een bitumineuze oppervlakte en met een basislaag met of zonder een koolwaterstofband."
+
+msgid "IfcPavementRIGID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPavementRIGID"
+msgstr "Groei"
+
+msgid "IfcPavementRIGID_DEFINITION"
+msgstr "Stoepmiddel substantieel geconstrueerd met cement beton."
+
+msgid "IfcReinforcedSoilDYNAMICALLYCOMPACTED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilDYNAMICALLYCOMPACTED"
+msgstr "Dynamisch gecompacteerd"
+
+msgid "IfcReinforcedSoilDYNAMICALLYCOMPACTED_DEFINITION"
+msgstr "De methode om een dynamische tamping machine te gebruiken valt meestal vrij van een zware hamer van hoogte, compileren van de bodem en snel het draagvermogen van de stichting verbeteren."
+
+msgid "IfcReinforcedSoilGROUTED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilGROUTED"
+msgstr "Gegroepeerd"
+
+msgid "IfcReinforcedSoilGROUTED_DEFINITION"
+msgstr "Een methode om geneesbare zuiverheid in scheuren of poren van een geotechnische stichting te injecteren om haar fysieke en mechanische eigenschappen te verbeteren."
+
+msgid "IfcReinforcedSoilREPLACED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilREPLACED"
+msgstr "Vervangen"
+
+msgid "IfcReinforcedSoilREPLACED_DEFINITION"
+msgstr "Gooi de zachte grond in een bepaald bereik onder de basis en maak vervolgens een back-up van het gebied met een hoge sterkte, lage compressiabiliteit en geen corrosieve materialen."
+
+msgid "IfcReinforcedSoilROLLERCOMPACTED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilROLLERCOMPACTED"
+msgstr "Roll-up gecompacteerd"
+
+msgid "IfcReinforcedSoilROLLERCOMPACTED_DEFINITION"
+msgstr "Een soort compacte methode die rolmachines, herhaalde rollen en trillingen accepteert, compileert de grondgrond, verhoogt de sterkte en decreatie compressibiliteit."
+
+msgid "IfcReinforcedSoilSURCHARGEPRELOADED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilSURCHARGEPRELOADED"
+msgstr "Verzendingskosten vooraf geladen"
+
+msgid "IfcReinforcedSoilSURCHARGEPRELOADED_DEFINITION"
+msgstr "Een methode die de belasting op de stichting om water te lozen toepast en de stichting wordt geconsolideerd om de basiskracht te verbeteren. Ontladen wanneer de draagcapaciteit het vereiste niveau bereikt."
+
+msgid "IfcReinforcedSoilVERTICALLYDRAINED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcReinforcedSoilVERTICALLYDRAINED"
+msgstr "Verticaal Afgegeven"
+
+msgid "IfcReinforcedSoilVERTICALLYDRAINED_DEFINITION"
+msgstr "Een methode om verticale afvoermaatregelen in de stichting vast te stellen, zodat porenwater in de bodem wordt gestort en de basiskracht wordt verbeterd."
+
+msgid "IfcSignMARKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignMARKER"
+msgstr "Markeerpunt"
+
+msgid "IfcSignMARKER_DEFINITION"
+msgstr "Een bord type is een verticale post (met mogelijk wat lettering of symbolen) die meestal gebruikt wordt om de afstand of de locatie van wat uitrusting te scheiden."
+
+msgid "IfcSignMIRROR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignMIRROR"
+msgstr "Spiegel"
+
+msgid "IfcSignMIRROR_DEFINITION"
+msgstr "Een bord type dat informatie verstrekt via een reflecterende spiegelvlag."
+
+msgid "IfcSignPICTORAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignPICTORAL"
+msgstr "Pictoraal"
+
+msgid "IfcSignPICTORAL_DEFINITION"
+msgstr "Een bordtype is gevormd van een platte plaat met geschreven of symbolische beelden erop."
+
+msgid "IfcSignalAUDIO_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignalAUDIO"
+msgstr "Geluid"
+
+msgid "IfcSignalAUDIO_DEFINITION"
+msgstr "Een signaaltype is gevormd van een actief apparaat dat informatie verzendt door het uitzenden van een audiosignaal zoals een piep, ring, hoorn of explosief geluid."
+
+msgid "IfcSignalMIXED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignalMIXED"
+msgstr "Gemixt"
+
+msgid "IfcSignalMIXED_DEFINITION"
+msgstr "Een signaaltype is gevormd van een actief apparaat dat informatie op visuele en auditieve wijze verstuurt."
+
+msgid "IfcSignalVISUAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSignalVISUAL"
+msgstr "Visueel"
+
+msgid "IfcSignalVISUAL_DEFINITION"
+msgstr "Een signaaltype is gevormd door een actief apparaat dat op visuele wijze informatie verstuurt zoals een licht, cluster van lampen of mechanische bewegende vormen."
+

@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcStructuralLoadResource.pot\n"
+"X-Crowdin-File-ID: 202\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcStructuralLoad"
+msgstr "Structurele Lading"
+
+msgid "IfcStructuralLoad_DEFINITION"
+msgstr "Deze abstracte entiteit is het supertype van alle lasten (acties of reacties) of van bepaalde eisen die voortkomen uit structurele analyse. of bepaalde bepalingen die de structurele analyse beïnvloeden."
+
+msgid "IfcStructuralLoadLinearForce"
+msgstr "Structurele Lading Lineaire Kracht"
+
+msgid "IfcStructuralLoadLinearForce_DEFINITION"
+msgstr "Een exemplaar van de entiteit [[IfcStructuralLoadLinearForce]] moet worden gebruikt om acties op curves te definiëren."
+
+msgid "LinearForceX"
+msgstr "Lineaire Kracht X"
+
+msgid "LinearForceX_DEFINITION"
+msgstr "Lineaire force waarde in x-richting."
+
+msgid "LinearForceY"
+msgstr "Lineaire Kracht Y"
+
+msgid "LinearForceY_DEFINITION"
+msgstr "Lineaire force waarde in y-richting."
+
+msgid "LinearForceZ"
+msgstr "Lineaire Kracht Z"
+
+msgid "LinearForceZ_DEFINITION"
+msgstr "Lineaire force waarde in z-richting."
+
+msgid "LinearMomentX"
+msgstr "Lineair Moment X"
+
+msgid "LinearMomentX_DEFINITION"
+msgstr "Lineair moment voor de x-as."
+
+msgid "LinearMomentY"
+msgstr "Lineaire Moment Y"
+
+msgid "LinearMomentY_DEFINITION"
+msgstr "Lineair moment voor de y-as."
+
+msgid "LinearMomentZ"
+msgstr "Lineair Moment Z"
+
+msgid "LinearMomentZ_DEFINITION"
+msgstr "Lineair moment voor de z-as."
+
+msgid "IfcStructuralLoadPlanarForce"
+msgstr "Structurele Lading Planarkracht"
+
+msgid "IfcStructuralLoadPlanarForce_DEFINITION"
+msgstr "Een exemplaar van de entiteit [[IfcStructuralLoadPlanarForce]] zal worden gebruikt om acties op gezichten te definiëren."
+
+msgid "PlanarForceX"
+msgstr "Plannen Forceer X"
+
+msgid "PlanarForceX_DEFINITION"
+msgstr "Planar force waarde in x-richting."
+
+msgid "PlanarForceY"
+msgstr "Vlak Kracht Y"
+
+msgid "PlanarForceY_DEFINITION"
+msgstr "Planar force waarde in y-richting."
+
+msgid "PlanarForceZ"
+msgstr "Vlak Kracht Z"
+
+msgid "PlanarForceZ_DEFINITION"
+msgstr "Planar force waarde in z-richting."
+
+msgid "IfcStructuralLoadSingleForce"
+msgstr "Structurele Laden Enkele Kracht"
+
+msgid "IfcStructuralLoadSingleForce_DEFINITION"
+msgstr "De instanties van de entiteit [[IfcStructuralLoadSingleForce]] moeten worden gebruikt om de krachten en momenten van een actie op een enkel punt te definiëren."
+
+msgid "ForceX"
+msgstr "Last X"
+
+msgid "ForceX_DEFINITION"
+msgstr "[[Force]] waarde in x-richting."
+
+msgid "ForceY"
+msgstr "Last Y"
+
+msgid "ForceY_DEFINITION"
+msgstr "[[Force]] waarde in y-richting."
+
+msgid "ForceZ"
+msgstr "Last Z"
+
+msgid "ForceZ_DEFINITION"
+msgstr "[[Force]] waarde in z-richting."
+
+msgid "MomentX"
+msgstr "Moment X"
+
+msgid "MomentX_DEFINITION"
+msgstr "Moment over de x-as."
+
+msgid "MomentY"
+msgstr "Moment Y"
+
+msgid "MomentY_DEFINITION"
+msgstr "Moment over de y-as."
+
+msgid "MomentZ"
+msgstr "Moment Z"
+
+msgid "MomentZ_DEFINITION"
+msgstr "Moment over de z-as."
+
+msgid "IfcStructuralLoadStatic"
+msgstr "Structurele Lading Statisch"
+
+msgid "IfcStructuralLoadStatic_DEFINITION"
+msgstr "De abstracte entiteit [[IfcStructuralLoadStatic]] is het supertype van alle statische lasten (acties of reacties) die kunnen worden gedefinieerd. Binnen het toepassingsgebied zijn concentrerende krachten en momenten, lineaire i één. . ééndimensionaal gedistribueerde krachten en momenten, planar d.w.z. tweedimensionaal gedistribueerde troepen, daarnaast verplaatsing en temperatuurbelasting."
+
+msgid "IfcStructuralLoadTemperature"
+msgstr "Temperatuur structurele lading"
+
+msgid "IfcStructuralLoadTemperature_DEFINITION"
+msgstr "Een exemplaar van de entiteit [[IfcStructuralLoadTemperature]] zal worden gebruikt om acties te definiëren die worden veroorzaakt door een temperatuurwijziging. de temperatuurverandering wordt gegeven met een constante waarde die wordt toegepast op het volledige gedeelte en de waarden voor temperatuurverschillen tussen buitenste vezels van het onderdeel."
+
+msgid "DeltaTConstant"
+msgstr "Delta T Constante"
+
+msgid "DeltaTConstant_DEFINITION"
+msgstr "[[Temperature]] verandering die van invloed is op het volledige deel van het structurele lid, of het uniforme gedeelte van een niet-uniforme temperatuurwijziging."
+
+msgid "DeltaTY"
+msgstr "Delta Ty"
+
+msgid "DeltaTY_DEFINITION"
+msgstr "Niet-uniforme temperatuurwijziging gespecificeerd als het verschil van de temperatuurverandering op de buitenste vezel van de positieve y-richting min de temperatuurverandering op de buitenvezel van de negatieve y-richting van het analyse-lid."
+
+msgid "DeltaTZ"
+msgstr "Delta Tz"
+
+msgid "DeltaTZ_DEFINITION"
+msgstr "Niet-uniforme temperatuurwijziging gespecificeerd als het verschil van de temperatuurverandering op de buitenste vezel van de positieve z richting minus de temperatuurverandering op de buitenvezel van de negatieve z richting van het analyse-lid."
+

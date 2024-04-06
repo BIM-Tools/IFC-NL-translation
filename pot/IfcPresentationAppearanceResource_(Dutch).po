@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcPresentationAppearanceResource.pot\n"
+"X-Crowdin-File-ID: 176\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcExternallyDefinedHatchStyle"
+msgstr "Extern gedefinieerde batchstijl"
+
+msgid "IfcExternallyDefinedSurfaceStyle"
+msgstr "Extern gedefinieerde oppervlakte-stijl"
+
+msgid "IfcExternallyDefinedSurfaceStyle_DEFINITION"
+msgstr "[[IfcExternallyDefinedSurfaceStyle]] is een definitie van een oppervlaktestijl door te verwijzen naar een externe bron, zoals een materiaalbibliotheek voor het renderen van informatie."
+
+msgid "IfcExternallyDefinedTextFont"
+msgstr "Extern gedefinieerd tekstlettertype"
+
+msgid "IfcTextureCoordinateIndices"
+msgstr "Textuur coördinaat indexen"
+
+msgid "IfcTextureCoordinateIndices_DEFINITION"
+msgstr "De [[IfcTextureCoordinateIndices]] biedt de coördinaten van de textuur voor een IfcIndexedPolygonalFace. De [[TexCoordIndex]] bevat een lijst met indexen die wijzen op de IfcTextureVertextureVertexture-coördinaten die overeenkomen met de TexCoordsOf. oordIndex houdt een lijst van indexen vast die wijzen op de IfcCartesianPointList3D voor de top coördinaten."
+
+msgid "TexCoordIndex"
+msgstr "Tex Coord Index"
+
+msgid "TexCoordIndex_DEFINITION"
+msgstr "Lijst van indexaanwijzers in de IfcTextureVertextureVertextureLijst waarnaar wordt verwezen door de overgenomen attribuuttexCoords."
+
+msgid "IfcTextureCoordinateIndicesWithVoids"
+msgstr "Textuur Coördinaat Indices met Voids"
+
+msgid "IfcTextureCoordinateIndicesWithVoids_DEFINITION"
+msgstr "De [[IfcTextureCoordinateIndicesWithVoids]] is een subtype van [[IfcTextureCoordinateIndices]] dat moet worden gebruikt om texturecoördinaten te verstrekken aan polygonale gezichten met binnenloops."
+
+msgid "InnerTexCoordIndices"
+msgstr "Innerlijke Tex Coord Indices"
+

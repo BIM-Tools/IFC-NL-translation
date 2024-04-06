@@ -1,0 +1,3473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcElectricalDomain.pot\n"
+"X-Crowdin-File-ID: 162\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcAudioVisualAppliance"
+msgstr "Audio-visumapparaat"
+
+msgid "IfcAudioVisualAppliance_DEFINITION"
+msgstr "Een audiovisueel apparaat is een apparaat dat opnames, zendingen, audio of video weergeeft."
+
+msgid "Pset_AudioVisualAppliancePHistory"
+msgstr "Eigenschapset: AudioVisuele Apparaatgeschiedenis"
+
+msgid "Pset_AudioVisualAppliancePHistory_DEFINITION"
+msgstr "Maakt realtime informatie vast voor audio-videoapparaten, zoals voor beeldmateriaal voor beveiligingscamera's en retail-informatie weergaven."
+
+msgid "AudioVolumeHistory"
+msgstr "Audio Volume Geschiedenis"
+
+msgid "AudioVolumeHistory_DEFINITION"
+msgstr "Geeft het audio volume aan waar het integer niveau overeenkomt met een item of interpolatie binnen [[Pset_AudioVisualApplianceTypeCommon]].[[AudioVolume]]."
+
+msgid "AudioVolumeHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "MediaContent"
+msgstr "Media inhoud"
+
+msgid "MediaContent_DEFINITION"
+msgstr "Geeft de opslaglocatie voor media aan, zoals URLs aan camera-opnamen binnen bepaalde tijdsperioden."
+
+msgid "MediaContent_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "MediaSourceHistory"
+msgstr "Mediabron geschiedenis"
+
+msgid "MediaSourceHistory_DEFINITION"
+msgstr "Geeft de media bron aan waar de identifier correspondeert met een item binnen de tabel met beschikbare media bronnen op [[Pset_AudioVisualApplianceTypeCommon]].[[MediaSource]]."
+
+msgid "MediaSourceHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "PowerState"
+msgstr "Energie status"
+
+msgid "PowerState_DEFINITION"
+msgstr "Geeft de stroom status aan van het apparaat waar waar de True aan is en waar Onwaar is uitgeschakeld."
+
+msgid "PowerState_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_AudioVisualApplianceTypeCommon"
+msgstr "Eigenschapsset: Audio-Visuele Apparaattype Gemeenschappelijk"
+
+msgid "Pset_AudioVisualApplianceTypeCommon_DEFINITION"
+msgstr "Een audiovisuele apparaat is een apparaat dat audio en/of video weergeeft of vastlegt."
+
+msgid "AudioVolume"
+msgstr "Audio volume"
+
+msgid "AudioVolume_DEFINITION"
+msgstr "Geeft de discrete geluidsvolume en bijbehorende geluidsvermogensafwijkingen aan, indien van toepassing. Ontbrekende waarden kunnen worden interpolated."
+
+msgid "AudioVolume_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "MediaSource"
+msgstr "Media Bron"
+
+msgid "MediaSource_DEFINITION"
+msgstr "Geeft de media bronnen en de bijbehorende namen van poorten ([[IfcDistributionPort]] met [[FlowDirection]]=[[SINK]] en PredefinedType=[[AUDIOVISUAL]]) of geaggregeerde audio/video componenten ([[IfcAudioVisualAppliance]])."
+
+msgid "MediaSource_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Qto_AudioVisualApplianceBaseQuantities"
+msgstr "Hoeveelheid set: AudioVisuele Toepassing Basishoeveelheden"
+
+msgid "Qto_AudioVisualApplianceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle exemplaren van audiovisueel apparaat."
+
+msgid "Pset_ElementSize"
+msgstr "Eigenschapsset: Elementgrootte"
+
+msgid "Pset_ElementSize_DEFINITION"
+msgstr "Eigenschap set met eigenschappen over de grootte van het element."
+
+msgid "NominalHeight"
+msgstr "Nominale hoogte"
+
+msgid "NominalHeight_DEFINITION"
+msgstr "De nominale hoogte van het object. De informatie over de grootte wordt verstrekt naast de vorm representatie en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "NominalLength"
+msgstr "Nominale lengte"
+
+msgid "NominalLength_DEFINITION"
+msgstr "De nominale totale lengte van het object. De informatie wordt verstrekt naast de vorm representatie en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de afmetingen van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "NominalWidth"
+msgstr "Nominale breedte"
+
+msgid "NominalWidth_DEFINITION"
+msgstr "De nominale algemene breedte van het object. De informatie over de grootte wordt verstrekt naast de vorm representatie en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "Pset_SoundGeneration"
+msgstr "Property Set: Geluidsgeneratie"
+
+msgid "Pset_SoundGeneration_DEFINITION"
+msgstr "Gemeenschappelijke definitie om de eigenschappen van geluid vast te leggen die typisch worden gebruikt in de context van bouwdiensten en stroomdistributiesystemen. Deze eigenschap wordt meerdere keren geïnstantieerd op een object voor elke frequentieband."
+
+msgid "SoundCurve"
+msgstr "Geluidscurve"
+
+msgid "SoundCurve_DEFINITION"
+msgstr "[[Sound]] curve."
+
+msgid "SoundCurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "IfcCableCarrierFitting"
+msgstr "Kabel Drager Fitten"
+
+msgid "IfcCableCarrierFitting_DEFINITION"
+msgstr "Een kabeldrager is een pasvorm die op een kruispunt of overgang in een kabelvervoersysteem wordt geplaatst."
+
+msgid "Pset_CableCarrierFittingTypeCommon"
+msgstr "Property Set: Kabel vervoerderstype gemeenschappelijk"
+
+msgid "Pset_CableCarrierFittingTypeCommon_DEFINITION"
+msgstr "Veelvoorkomende eigenschappen voor de compatibiliteit van de kabeldrager."
+
+msgid "Qto_CableCarrierFittingBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kabel vervoerder Passende basishoeveelheden"
+
+msgid "Qto_CableCarrierFittingBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van kabeltransporteur."
+
+msgid "IfcCableCarrierSegment"
+msgstr "Kabel vervoerder Segment"
+
+msgid "IfcCableCarrierSegment_DEFINITION"
+msgstr "Een kabelbaan is een stroomsegment dat specifiek wordt gebruikt om kabels te dragen en te ondersteunen."
+
+msgid "Pset_CableCarrierSegmentTypeCommon"
+msgstr "Eigenschapsset: Cable Carrier Segment Type gemeenschappelijk"
+
+msgid "Pset_CableCarrierSegmentTypeCommon_DEFINITION"
+msgstr "Veelvoorkomende eigenschappen voor kabeltransporteur-segmenten."
+
+msgid "Qto_CableCarrierSegmentBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kabel vervoerderssegment basisaantallen"
+
+msgid "Qto_CableCarrierSegmentBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het segment van kabelvervoerder."
+
+msgid "CrossSectionArea"
+msgstr "Cross Sectie Gebied"
+
+msgid "CrossSectionArea_DEFINITION"
+msgstr "Totale oppervlakte van het kruispunt (of profiel) van het object."
+
+msgid "Length"
+msgstr "longueur"
+
+msgid "Length_DEFINITION"
+msgstr "De lengte van het object."
+
+msgid "OuterSurfaceArea"
+msgstr "Buitenste oppervlakte"
+
+msgid "OuterSurfaceArea_DEFINITION"
+msgstr "Totale oppervlakte van de oppervlakken van het object (niet rekening houdend met de eindcap gebieden), normaal gegenereerd als omtrek * lengte in geval van extrusies."
+
+msgid "Pset_RailwayCableCarrier"
+msgstr "Eigenschapsset: Spoorwegtransporteur"
+
+msgid "Pset_RailwayCableCarrier_DEFINITION"
+msgstr "Gemeenschappelijke bezittingen voor kabelmaatschappijen die in spoorwegprojecten zijn gebouwd."
+
+msgid "NumberOfCrossedTracks"
+msgstr "Aantal gekruist Banden"
+
+msgid "NumberOfCrossedTracks_DEFINITION"
+msgstr "Aantal tracks gekruist op kabelroute."
+
+msgid "IfcCableFitting"
+msgstr "Kabel Aanpassen"
+
+msgid "IfcCableFitting_DEFINITION"
+msgstr "Een kabelaansluiting is een pasvorm die op een kruispunt, overgang of beëindiging in een kabelsysteem staat."
+
+msgid "Pset_CableFittingTypeCommon"
+msgstr "Eigenschapsset: Kabel eigenschap eigenschap gemeenschappelijk"
+
+msgid "Pset_CableFittingTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor kabelconstructies."
+
+msgid "Qto_CableFittingBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kabel aansluiting basishoeveelheden"
+
+msgid "Qto_CableFittingBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van een stroomkabel passend zijn."
+
+msgid "Pset_TelecomCableGeneral"
+msgstr "Eigenschapsset: telecomkabelgeneraal"
+
+msgid "Pset_TelecomCableGeneral_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn voor gebeurtenissen en types van [[IfcCableSegment]] en [[IfcCableFitting]] van toepassing in het telecommunicatiedomein."
+
+msgid "Attenuation"
+msgstr "Demping"
+
+msgid "Attenuation_DEFINITION"
+msgstr "Geeft de optische of elektrische demping aan van de kabel gemeten in dB, op een bepaalde golflengte of frequentie, die verandert met de lengte van de kabel."
+
+msgid "CableArmourType"
+msgstr "Kabel Pantser Type"
+
+msgid "CableArmourType_DEFINITION"
+msgstr "Het pantsertype van de kabel voor mechanische bescherming."
+
+msgid "CableArmourType_DIELECTRIC"
+msgstr "Dielectric"
+
+msgid "CableArmourType_METALLIC"
+msgstr "Metalen"
+
+msgid "CableArmourType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "CableArmourType_OTHER"
+msgstr "anders"
+
+msgid "CableArmourType_UNSET"
+msgstr "Uitzetten"
+
+msgid "CableFunctionType"
+msgstr "Kabel Functie Type"
+
+msgid "CableFunctionType_DEFINITION"
+msgstr "Onderscheid tussen Telecom en [[Power]] Toevoerkabels"
+
+msgid "CableFunctionType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "CableFunctionType_OTHER"
+msgstr "anders"
+
+msgid "CableFunctionType_POWERSUPPLY"
+msgstr "Stroomtoevoer"
+
+msgid "CableFunctionType_TELECOMMUNICATION"
+msgstr "Telecommunicatie"
+
+msgid "CableFunctionType_UNSET"
+msgstr "Uitzetten"
+
+msgid "FireRating"
+msgstr "Waardering Vuur"
+
+msgid "FireRating_DEFINITION"
+msgstr "Brandrating voor dit object. Het wordt gegeven volgens de nationale classificatie van brandveiligheid."
+
+msgid "IsFireResistant"
+msgstr "Is brandbestendig"
+
+msgid "IsFireResistant_DEFINITION"
+msgstr "Geeft aan of de kabel brandwerend is."
+
+msgid "JacketColour"
+msgstr "Kleur jas"
+
+msgid "JacketColour_DEFINITION"
+msgstr "Geeft de kleur aan van de kabel of passerende jas."
+
+msgid "NominalDiameter"
+msgstr "Nominale Diameter"
+
+msgid "NominalDiameter_DEFINITION"
+msgstr "Nominale diameter of breedte van het object."
+
+msgid "IfcCableSegment"
+msgstr "Kabel segment"
+
+msgid "IfcCableSegment_DEFINITION"
+msgstr "Een kabelsegment is een stroomsegment dat gebruikt wordt voor het dragen van elektriciteit, data of telecommunicatiesignalen."
+
+msgid "Pset_CableSegmentOccurrence"
+msgstr "Eigenschapsset: Kabel segment"
+
+msgid "Pset_CableSegmentOccurrence_DEFINITION"
+msgstr "Eigenschappen voor het voorkomen van een elektrische kabel, kern of dirigent die voldoen aan een type dat is gespecificeerd volgens een passende typegoedkeuring binnen IFC."
+
+msgid "CarrierStackNumber"
+msgstr "Stack nummer vervoerder"
+
+msgid "CarrierStackNumber_DEFINITION"
+msgstr "Aantal carrier segmenten (tray, ladder etc. die verticaal gestapt worden (verticaal wordt gemeten als de z-as van het lokale coördinaatsysteem van het vervoerderssegment)."
+
+msgid "CurrentCarryingCapacity"
+msgstr "Huidige Draaicapaciteit"
+
+msgid "CurrentCarryingCapacity_DEFINITION"
+msgstr "Maximale waarde van elektrische stroom die voortdurend kan worden gedragen door een geleider, een apparaat of een apparaat, onder opgegeven omstandigheden zonder dat de vaste temperatuur ervan een opgegeven waarde overschrijdt. Gebaseerd op IEC60826-11-13."
+
+msgid "DesignAmbientTemperature"
+msgstr "Ontwerp Ambient Temperatuur"
+
+msgid "DesignAmbientTemperature_DEFINITION"
+msgstr "De hoogste en laagste lokale omgevingstemperatuur die waarschijnlijk wordt waargenomen."
+
+msgid "DistanceBetweenParallelCircuits"
+msgstr "Afstand tussen parallelle circuits S"
+
+msgid "DistanceBetweenParallelCircuits_DEFINITION"
+msgstr "Afstand gemeten tussen parallelle circuits."
+
+msgid "InstallationMethod"
+msgstr "Installatie Methode"
+
+msgid "InstallationMethod_DEFINITION"
+msgstr "Methode van installatie van kabel/dichter. Installatiemethoden worden doorgaans per referentie gedefinieerd in normen zoals IEC 60364-52, tabel 52A-1 of BS7671 Appendix 4 Tabel 4A1, enz. De selectie van de te gebruiken waarde moet worden bepaald van een dergelijke standaard op basis van lokaal gebruik."
+
+msgid "InstallationMethodFlagEnum"
+msgstr "Installatie Methode Vlag Enum"
+
+msgid "InstallationMethodFlagEnum_DEFINITION"
+msgstr "Verwijzingsmethodes C en D uit 2001"
+
+msgid "InstallationMethodFlagEnum_BELOWCEILING"
+msgstr "Belowceiling"
+
+msgid "InstallationMethodFlagEnum_INDUCT"
+msgstr "Induct"
+
+msgid "InstallationMethodFlagEnum_INSOIL"
+msgstr "Inbodem"
+
+msgid "InstallationMethodFlagEnum_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "InstallationMethodFlagEnum_ONWALL"
+msgstr "Op muur"
+
+msgid "InstallationMethodFlagEnum_OTHER"
+msgstr "anders"
+
+msgid "InstallationMethodFlagEnum_UNSET"
+msgstr "Uitzetten"
+
+msgid "IsHorizontalCable"
+msgstr "Is Horizontale Kabel"
+
+msgid "IsHorizontalCable_DEFINITION"
+msgstr "Indicatie of de kabel horizontaal gemonteerd is (= WAAR of verticaal (= FALSE)."
+
+msgid "IsMountedFlatCable"
+msgstr "Is gemonteerde platte kabel"
+
+msgid "IsMountedFlatCable_DEFINITION"
+msgstr "Bepaal of de kabel vlakke (= WAAR of in een trefoil patroon (= FALSE) gemonteerd is."
+
+msgid "MaximumCableLength"
+msgstr "Maximale kabellengte"
+
+msgid "MaximumCableLength_DEFINITION"
+msgstr "Maximale kabellengte gebaseerd op spanning."
+
+msgid "MountingMethod"
+msgstr "Montage methode"
+
+msgid "MountingMethod_DEFINITION"
+msgstr "De methode om kabelsegmenten te monteren op een kabeldrager optreden waarvandaan de vereiste methode kan worden geselecteerd. Dit is bedoeld om berekeningen uit te voeren over de \"slechtste gevallen\" en kan een conceptuele vereiste zijn in plaats van een opgave van de fysieke kenmerken van de kabel- en vervoerderssegmenten."
+
+msgid "MountingMethod_LADDER"
+msgstr "ladder"
+
+msgid "MountingMethod_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "MountingMethod_OTHER"
+msgstr "anders"
+
+msgid "MountingMethod_PERFORATEDTRAY"
+msgstr "Perfo rating plaat"
+
+msgid "MountingMethod_UNSET"
+msgstr "Uitzetten"
+
+msgid "NumberOfParallelCircuits"
+msgstr "Aantal parallelle circuits S"
+
+msgid "NumberOfParallelCircuits_DEFINITION"
+msgstr "Aantal parallelle circuits."
+
+msgid "PowerLoss"
+msgstr "Verlies voor energie"
+
+msgid "PowerLoss_DEFINITION"
+msgstr "Het stroomverlies in W."
+
+msgid "SequentialCode"
+msgstr "Sequentiële Code"
+
+msgid "SequentialCode_DEFINITION"
+msgstr "Geeft de opeenvolgende code van de kabel of draad weer."
+
+msgid "SoilConductivity"
+msgstr "Bodem ductiviteit"
+
+msgid "SoilConductivity_DEFINITION"
+msgstr "Thermische geleidelijkheid van de bodem. Over het algemeen is binnen normen als IEC 60364-52, tabel 52A-16, de bestendigheid van de bodem vereist (gemeten in SI eenheden degK. /W). Dit is de wederkerige waarde van de geleidelijkheid en moet dienovereenkomstig worden berekend."
+
+msgid "UserCorrectionFactor"
+msgstr "Gebruiker Correctie Factor"
+
+msgid "UserCorrectionFactor_DEFINITION"
+msgstr "Een willekeurige correctiefactor die kan worden toegepast door de gebruiker."
+
+msgid "Pset_CableSegmentTypeCommon"
+msgstr "Eigenschapsset: Kabel segment type gemeenschappelijk"
+
+msgid "Pset_CableSegmentTypeCommon_DEFINITION"
+msgstr "Eigenschappen voor de definities van elektriciteitskabelsegmenten."
+
+msgid "Qto_CableSegmentBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kabel Segment Basis Hoeveelheden"
+
+msgid "Qto_CableSegmentBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het kabelsegment."
+
+msgid "Pset_CableSegmentConnector"
+msgstr "Eigenschap Set: Kabel Segment Connector"
+
+msgid "Pset_CableSegmentConnector_DEFINITION"
+msgstr "Eigenschappen van kabelverbinders. Deze propertyset is van toepassing op een type of optreden van [[IfcCableSegment]], aangegeven dat het kabelsegment een of twee aangesloten connectoren heeft."
+
+msgid "ConnectorAColour"
+msgstr "Connector kleur"
+
+msgid "ConnectorAColour_DEFINITION"
+msgstr "Geeft de kleur A- einde van de connector."
+
+msgid "ConnectorAGender"
+msgstr "Connector Agender"
+
+msgid "ConnectorAGender_DEFINITION"
+msgstr "Geeft de geslacht aan van A-end connector."
+
+msgid "ConnectorAGender_FEMALE"
+msgstr "Vrouwelijk"
+
+msgid "ConnectorAGender_MALE"
+msgstr "Mannelijk"
+
+msgid "ConnectorAGender_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ConnectorAGender_OTHER"
+msgstr "anders"
+
+msgid "ConnectorAGender_UNSET"
+msgstr "Uitzetten"
+
+msgid "ConnectorAType"
+msgstr "Connector A Type"
+
+msgid "ConnectorAType_DEFINITION"
+msgstr "Geeft het type A-end connector aan."
+
+msgid "ConnectorBColour"
+msgstr "Connector kleur"
+
+msgid "ConnectorBColour_DEFINITION"
+msgstr "Geeft de kleur B- einde van de connector aan."
+
+msgid "ConnectorBGender"
+msgstr "Connector Knipperen"
+
+msgid "ConnectorBGender_DEFINITION"
+msgstr "Geeft het geslacht aan van B-end connector."
+
+msgid "ConnectorBGender_FEMALE"
+msgstr "Vrouwelijk"
+
+msgid "ConnectorBGender_MALE"
+msgstr "Mannelijk"
+
+msgid "ConnectorBGender_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ConnectorBGender_OTHER"
+msgstr "anders"
+
+msgid "ConnectorBGender_UNSET"
+msgstr "Uitzetten"
+
+msgid "ConnectorBType"
+msgstr "Connector B type"
+
+msgid "ConnectorBType_DEFINITION"
+msgstr "Geeft het type B-end connector aan."
+
+msgid "IfcCommunicationsAppliance"
+msgstr "Toestel voor communicatie"
+
+msgid "IfcCommunicationsAppliance_DEFINITION"
+msgstr "Een communicatiemiddel zendt elektronische of digitale informatie uit als gegevens of geluid."
+
+msgid "Pset_CommunicationsAppliancePHistory"
+msgstr "Eigenschapset: Kennisgeschiedenis van communicaties"
+
+msgid "Pset_CommunicationsAppliancePHistory_DEFINITION"
+msgstr "Vormt realtime informatie voor communicatieapparaten, zoals voor het server-agrarische energieverbruik."
+
+msgid "Pset_CommunicationsApplianceTypeCommon"
+msgstr "Eigenschapsset: Apparaattype communicatie"
+
+msgid "Pset_CommunicationsApplianceTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor communicatie-apparaten."
+
+msgid "Qto_CommunicationsApplianceBaseQuantities"
+msgstr "Aantallen set: Toedieningsapparatuur apparatuur hoeveelheden"
+
+msgid "Qto_CommunicationsApplianceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van communicatieapparaat."
+
+msgid "IfcDistributionBoard"
+msgstr "Distributie bord"
+
+msgid "IfcDistributionBoard_DEFINITION"
+msgstr "Een distributiekanaal is een stroomcontroleur waarbij elektrische of communicatiemiddelen op één plaats worden samengebracht voor een bepaald doel."
+
+msgid "IfcElectricAppliance"
+msgstr "Elektrische apparaat"
+
+msgid "IfcElectricAppliance_DEFINITION"
+msgstr "Een elektrische apparaat is een apparaat dat is bedoeld voor verbruiksgebruik dat wordt gevoed door elektriciteit."
+
+msgid "Pset_ElectricAppliancePHistory"
+msgstr "Eigenschapsset: Elektrische apparatengeschiedenis"
+
+msgid "Pset_ElectricAppliancePHistory_DEFINITION"
+msgstr "Vraagt realtime informatie op voor elektrische apparaten, zoals voor energieverbruik."
+
+msgid "Pset_ElectricApplianceTypeCommon"
+msgstr "Eigenschapsset: Elektrisch apparatentype gemeenschappelijk"
+
+msgid "Pset_ElectricApplianceTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor elektrische apparaten."
+
+msgid "Qto_ElectricApplianceBaseQuantities"
+msgstr "Hoeveelheidsset: Elektrische apparatenbasishoeveelheden"
+
+msgid "Qto_ElectricApplianceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van elektrische apparaten."
+
+msgid "IfcElectricFlowStorageDevice"
+msgstr "Elektrische flow opslagapparaat"
+
+msgid "IfcElectricFlowStorageDevice_DEFINITION"
+msgstr "Een elektrische stroomopslagapparaat is een apparaat waarin elektrische energie wordt opgeslagen en waaruit geleidelijk energie kan worden vrijgegeven."
+
+msgid "Pset_ElectricFlowStorageDeviceTypeCommon"
+msgstr "Eigenschapsset: Elektrische stroomstoringstype gemeenschappelijk opslagapparaat"
+
+msgid "Pset_ElectricFlowStorageDeviceTypeCommon_DEFINITION"
+msgstr "De kenmerken van de levering van een elektrisch apparaat, die fungeert als een bron van levering aan een distributiesysteem"
+
+msgid "ConnectedConductorFunction"
+msgstr "Verbonden Leider Functie"
+
+msgid "ConnectedConductorFunction_DEFINITION"
+msgstr "[[Function]] van de geleiders waarmee de lading is verbonden."
+
+msgid "ConnectedConductorFunction_NEUTRAL"
+msgstr "Neutraal"
+
+msgid "ConnectedConductorFunction_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ConnectedConductorFunction_OTHER"
+msgstr "anders"
+
+msgid "ConnectedConductorFunction_PHASE_L1"
+msgstr "[[Phase]] L1"
+
+msgid "ConnectedConductorFunction_PHASE_L2"
+msgstr "[[Phase]] L2"
+
+msgid "ConnectedConductorFunction_PHASE_L3"
+msgstr "[[Phase]] L3"
+
+msgid "ConnectedConductorFunction_PROTECTIVEEARTH"
+msgstr "Beschermende aarde"
+
+msgid "ConnectedConductorFunction_PROTECTIVEEARTHNEUTRAL"
+msgstr "Beschermende Aarde Neutraal"
+
+msgid "ConnectedConductorFunction_UNSET"
+msgstr "Uitzetten"
+
+msgid "EarthFault1PoleMaximumState"
+msgstr "Aardfout 1Pole Maximale Staat"
+
+msgid "EarthFault1PoleMaximumState_DEFINITION"
+msgstr "Maximale 1 pole aardefout stroom voorzien op het leveringspunt, d.w.z. de fout tussen 1 fase en PE/PEN."
+
+msgid "EarthFault1PoleMinimumState"
+msgstr "Aardfout 1Pole Minimumtoestand"
+
+msgid "EarthFault1PoleMinimumState_DEFINITION"
+msgstr "Minimale 1 polen aardingsfoutstroom voorzien op het leveringspunt, d.w.z. de fout tussen 1 fase en PEN."
+
+msgid "EarthFault1PolePowerFactorMaximumState"
+msgstr "Aardstoring 1Pole Power Factor Maximale Staat"
+
+msgid "EarthFault1PolePowerFactorMaximumState_DEFINITION"
+msgstr "[[Power]] factor van de maximale aardingsfout van 1 poel water, gegeven op het punt van levering i. . de fout tussen 1 fase en PE/PEN."
+
+msgid "EarthFault1PolePowerFactorMinimumState"
+msgstr "Earth Fault 1Pole Power Factor Minimale Staat"
+
+msgid "EarthFault1PolePowerFactorMinimumState_DEFINITION"
+msgstr "[[Power]] factor van de minimum 1 pole aardingsfout stroom gegeven op het punt van levering i. . de fout tussen 1 fase en PE/PEN."
+
+msgid "MaximumInsulatedVoltage"
+msgstr "Maximale geïsoleerde spanning"
+
+msgid "MaximumInsulatedVoltage_DEFINITION"
+msgstr "De maximale spanning die de isolatie normaal zou werken"
+
+msgid "NominalFrequency"
+msgstr "Nominale frequentie"
+
+msgid "NominalFrequency_DEFINITION"
+msgstr "De nominale frequentie van het aanbod."
+
+msgid "NominalSupplyVoltage"
+msgstr "Nominale spanning"
+
+msgid "NominalSupplyVoltage_DEFINITION"
+msgstr "De nominale spanning van het aanbod."
+
+msgid "NominalSupplyVoltageOffset"
+msgstr "Nominale spanning uit set"
+
+msgid "NominalSupplyVoltageOffset_DEFINITION"
+msgstr "De maximaal en minimaal toegestane spanning van de levering, b.v. grenzen van 380V/440V kunnen worden toegepast voor een nominale spanning van 400V."
+
+msgid "PowerCapacity"
+msgstr "Energie Capaciteit"
+
+msgid "PowerCapacity_DEFINITION"
+msgstr "[[Power]] capaciteit van de uitrusting"
+
+msgid "RatedCapacitance"
+msgstr "Nominale capaciteit"
+
+msgid "RatedCapacitance_DEFINITION"
+msgstr "[[Capacitance]] waarde bepaald onder de opgegeven voorwaarden en aangegeven door de fabrikant."
+
+msgid "ShortCircuit1PoleMaximumState"
+msgstr "Maximale korte-Circuit 1Pole Staat"
+
+msgid "ShortCircuit1PoleMaximumState_DEFINITION"
+msgstr "Maximaal 1 poel kort circuit stroom gegeven op het toevoerpunt, d.w.z. de fout tussen 1 fase en N."
+
+msgid "ShortCircuit1PoleMinimumState"
+msgstr "Korte Circuit 1Pole Minimale Staat"
+
+msgid "ShortCircuit1PoleMinimumState_DEFINITION"
+msgstr "Minimale 1 poel korte circuit stroom gegeven op het toevoerpunt, d.w.z. de fout tussen 1 fase en N."
+
+msgid "ShortCircuit1PolePowerFactorMaximumState"
+msgstr "Korte Circuit 1Pole Power Factor Maximale Staat"
+
+msgid "ShortCircuit1PolePowerFactorMaximumState_DEFINITION"
+msgstr "[[Power]] factor van de maximale 1 pool short circuit stroom gegeven op het punt van levering i. . de fout tussen 1 fase en N."
+
+msgid "ShortCircuit1PolePowerFactorMinimumState"
+msgstr "Minimale staat van kort circuit 1Pole Power Factor"
+
+msgid "ShortCircuit1PolePowerFactorMinimumState_DEFINITION"
+msgstr "[[Power]] factor van de minimum 1 poel short circuit stroom gegeven op het punt van levering i. . de fout tussen 1 fase en N."
+
+msgid "ShortCircuit2PoleMinimumState"
+msgstr "Korte Circuit 2Pole Minimale Staat"
+
+msgid "ShortCircuit2PoleMinimumState_DEFINITION"
+msgstr "Minimaal 2 pole short circuit stroom gegeven op het voorzieningspunt."
+
+msgid "ShortCircuit2PolePowerFactorMinimumState"
+msgstr "Korte Circuit 2Pole Power Factor Minimale Staat"
+
+msgid "ShortCircuit2PolePowerFactorMinimumState_DEFINITION"
+msgstr "[[Power]] factor van de minimale 2 pool short circuit stroom geboden bij de plaats van levering."
+
+msgid "ShortCircuit3PoleMaximumState"
+msgstr "Maximale status kort circuit 3 Pol"
+
+msgid "ShortCircuit3PoleMaximumState_DEFINITION"
+msgstr "Maximaal 3 pole short circuit stroom gegeven bij de leveringsplaats."
+
+msgid "ShortCircuit3PolePowerFactorMaximumState"
+msgstr "Korte Circuit 3Pole Power Factor Maximale Staat"
+
+msgid "ShortCircuit3PolePowerFactorMaximumState_DEFINITION"
+msgstr "[[Power]] factor van de maximale 3 pool short circuit stroom geboden bij de plaats van toevoer."
+
+msgid "Qto_ElectricFlowStorageDeviceBaseQuantities"
+msgstr "Hoeveelheid Set: Elektrische storing apparaat basishoeveelheid"
+
+msgid "Qto_ElectricFlowStorageDeviceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle exemplaren van elektrische stroom opslagapparaat."
+
+msgid "IfcElectricFlowTreatmentDevice"
+msgstr "Elektrisch Stroom Behandeling Apparaat"
+
+msgid "IfcElectricFlowTreatmentDevice_DEFINITION"
+msgstr "Een elektrische stroomverwerkingsapparaat wordt gebruikt om ongewenste stoffen uit een elektrisch of elektronisch signaal in een stroomdistributiesysteem te verwijderen."
+
+msgid "IfcElectricGenerator"
+msgstr "Elektrische Generator"
+
+msgid "IfcElectricGenerator_DEFINITION"
+msgstr "Een elektrische generator is een motor die een machine is voor het omzetten van mechanische energie in elektrische energie."
+
+msgid "Pset_ElectricGeneratorTypeCommon"
+msgstr "Eigenschapsset: Elektrische generator type gemeenschappelijk"
+
+msgid "Pset_ElectricGeneratorTypeCommon_DEFINITION"
+msgstr "Definieert een bepaald type motor dat een machine is voor het omzetten van mechanische energie in elektrische energie."
+
+msgid "ElectricGeneratorEfficiency"
+msgstr "Elektrische generator efficiëntie"
+
+msgid "ElectricGeneratorEfficiency_DEFINITION"
+msgstr "De verhouding van de uitvoercapaciteit tot de innamecapaciteit."
+
+msgid "MaximumPowerOutput"
+msgstr "Maximale Stroom Uitvoer"
+
+msgid "MaximumPowerOutput_DEFINITION"
+msgstr "De maximale waarde van het vermogen van de motor."
+
+msgid "StartCurrentFactor"
+msgstr "Huidige factor starten"
+
+msgid "StartCurrentFactor_DEFINITION"
+msgstr "IEC. Start huidige factor definieert hoe groot de piek die begint op de motor zal worden. [[StartCurrentFactor]] wordt vermenigvuldigd tot [[NominalCurrent]] en om de start stroom te geven."
+
+msgid "Qto_ElectricGeneratorBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Elektrische generator basishoeveelheid"
+
+msgid "Qto_ElectricGeneratorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van de elektrische generator."
+
+msgid "IfcElectricMotor"
+msgstr "Elektrische Motor"
+
+msgid "IfcElectricMotor_DEFINITION"
+msgstr "Een elektrische motor is een motor die een machine is om elektrische energie in mechanische energie om te zetten."
+
+msgid "Pset_ElectricMotorTypeCommon"
+msgstr "Eigenschapsset: Elektrisch Motor Type Gemeenschappelijk"
+
+msgid "Pset_ElectricMotorTypeCommon_DEFINITION"
+msgstr "Definieert een bepaald type motor dat een machine is voor het omzetten van elektrische energie in mechanische energie. Merk op dat in gevallen waarin een gekoppelde of monobold-pomp of de naaste koppel ventilator door de motor wordt gedreven, de motor zelf kan worden beschouwd als direct onderdeel van de pomp of de fan. In dit geval moet informatie over de motor misschien direct bij de pomp of fan worden opgegeven en niet via aparte motor/motorverbindingselementen."
+
+msgid "ElectricMotorEfficiency"
+msgstr "Elektrische motorische efficiëntie"
+
+msgid "ElectricMotorEfficiency_DEFINITION"
+msgstr "De verhouding van de uitvoercapaciteit tot de innamecapaciteit."
+
+msgid "FrameSize"
+msgstr "Frame grootte"
+
+msgid "FrameSize_DEFINITION"
+msgstr "Benoeming van de frame grootte volgens het genoemde scala van frame formaten aangewezen op de plaats van gebruik of volgens een bepaalde standaard."
+
+msgid "HasPartWinding"
+msgstr "Heeft Deel Wind Ing"
+
+msgid "HasPartWinding_DEFINITION"
+msgstr "Geeft aan of de motor een enkele snelheid heeft, d.w.z. een enkele winding (= FALSE) of meerdere snelheden, d.w.z. onderdeel winden (= WAUE) ."
+
+msgid "IsGuarded"
+msgstr "Is Bewakt"
+
+msgid "IsGuarded_DEFINITION"
+msgstr "Indicatie of de motor kast wordt bewaakt (= WAAR of niet (= FALSE)."
+
+msgid "LockedRotorCurrent"
+msgstr "Vergrendelde Rotor Stroom"
+
+msgid "LockedRotorCurrent_DEFINITION"
+msgstr "Ingangsstroom wanneer een armature van de motor gevoed wordt maar niet gedraaid."
+
+msgid "MotorEnclosureType"
+msgstr "Motor En Sluiting Type"
+
+msgid "MotorEnclosureType_DEFINITION"
+msgstr "Een lijst van de beschikbare soorten motorbehuizing waarvan de vereiste kan worden geselecteerd."
+
+msgid "MotorEnclosureType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "MotorEnclosureType_OPENDRIPPROOF"
+msgstr "Open Dripproof"
+
+msgid "MotorEnclosureType_OTHER"
+msgstr "anders"
+
+msgid "MotorEnclosureType_TOTALLYENCLOSEDAIROVER"
+msgstr "Gesloten lucht over"
+
+msgid "MotorEnclosureType_TOTALLYENCLOSEDFANCOOLED"
+msgstr "Volledig gesloten ventilator gekooid"
+
+msgid "MotorEnclosureType_TOTALLYENCLOSEDNONVENTILATED"
+msgstr "Totaal gesloten zonder ventilatie"
+
+msgid "MotorEnclosureType_UNSET"
+msgstr "Uitzetten"
+
+msgid "StartingTime"
+msgstr "Begintijd"
+
+msgid "StartingTime_DEFINITION"
+msgstr "De tijd (in s) die nodig is om de motor zijn rated snelheid te bereiken met bijbehorende geduwde uitrusting, vanaf standstill en bij de toepassing van de nominale spanning bij de aansluitingen."
+
+msgid "TeTime"
+msgstr "Te Tijd"
+
+msgid "TeTime_DEFINITION"
+msgstr "De maximale tijd (in s) waarop de motor kan werken met vergrendelde rotor wanneer de motor wordt gebruikt in een EX-omgeving. De tijd geeft aan dat een beschermend apparaat voor deze tijd moet rijden wanneer de startstroom van de motor door het apparaat stroomt."
+
+msgid "Qto_ElectricMotorBaseQuantities"
+msgstr "Hoeveelheid Set: Elektrische motorbasishoeveelheid"
+
+msgid "Qto_ElectricMotorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van elektrische motor."
+
+msgid "IfcElectricTimeControl"
+msgstr "Elektrische tijdcontrole"
+
+msgid "IfcElectricTimeControl_DEFINITION"
+msgstr "Een elektrische tijdcontrole is een apparaat dat na verloop van tijd de controle op de voorziening of stroom van elektrische energie toepast."
+
+msgid "Pset_ElectricTimeControlTypeCommon"
+msgstr "Eigenschapsset: Elektrisch regeltype gemeenschappelijk"
+
+msgid "Pset_ElectricTimeControlTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor elektrische tijdregelapparaten."
+
+msgid "Qto_ElectricTimeControlBaseQuantities"
+msgstr "Hoeveelheid Set: Elektrische tijdcontrole basishoeveelheid"
+
+msgid "Qto_ElectricTimeControlBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van elektrische tijdcontrole."
+
+msgid "IfcJunctionBox"
+msgstr "Junction Box"
+
+msgid "IfcJunctionBox_DEFINITION"
+msgstr "Een kruisdoos is een kast waarin kabels zijn aangesloten."
+
+msgid "Pset_JunctionBoxTypeCommon"
+msgstr "Eigenschap Set: Junction Box Type Gemeenschappelijk"
+
+msgid "Pset_JunctionBoxTypeCommon_DEFINITION"
+msgstr "Een kruisdoos is een kast waarin kabels zijn aangesloten."
+
+msgid "ClearDepth"
+msgstr "Verwijder diepte"
+
+msgid "ClearDepth_DEFINITION"
+msgstr "De duidelijke diepte."
+
+msgid "IsExternal"
+msgstr "Is extern"
+
+msgid "IsExternal_DEFINITION"
+msgstr "Geef aan of het element is ontworpen voor gebruik in het exterieur (WAAR ) of niet (FALSE). Als (TRUE) het een extern element is en wordt het buiten het gebouw gezicht."
+
+msgid "JunctionBoxMountingType"
+msgstr "Junction Box Mounting Type"
+
+msgid "JunctionBoxMountingType_DEFINITION"
+msgstr "De methode van montage om te worden gebruikt voor het type kruising box."
+
+msgid "JunctionBoxMountingType_CUT_IN"
+msgstr "Knip in"
+
+msgid "JunctionBoxMountingType_FACENAIL"
+msgstr "Gezicht nagel"
+
+msgid "JunctionBoxMountingType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "JunctionBoxMountingType_OTHER"
+msgstr "anders"
+
+msgid "JunctionBoxMountingType_SIDENAIL"
+msgstr "[[Side]] nagel"
+
+msgid "JunctionBoxMountingType_UNSET"
+msgstr "Uitzetten"
+
+msgid "NumberOfGangs"
+msgstr "Aantal Gangs"
+
+msgid "NumberOfGangs_DEFINITION"
+msgstr "Aantal bendes in het object."
+
+msgid "PlacingType"
+msgstr "Type plaatsing"
+
+msgid "PlacingType_DEFINITION"
+msgstr "Locatie waar het type knooppunt kan worden gevonden."
+
+msgid "PlacingType_CEILING"
+msgstr "Plafond"
+
+msgid "PlacingType_FLOOR"
+msgstr "Vloer"
+
+msgid "PlacingType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "PlacingType_OTHER"
+msgstr "anders"
+
+msgid "PlacingType_UNSET"
+msgstr "Uitzetten"
+
+msgid "PlacingType_WALL"
+msgstr "Prikbord"
+
+msgid "ShapeType"
+msgstr "Vorm Type"
+
+msgid "ShapeType_DEFINITION"
+msgstr "Vorm van de koppelvak."
+
+msgid "ShapeType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ShapeType_OTHER"
+msgstr "anders"
+
+msgid "ShapeType_RECTANGULAR"
+msgstr "Rechthoekig"
+
+msgid "ShapeType_ROUND"
+msgstr "Ronde"
+
+msgid "ShapeType_SLOT"
+msgstr "Plek"
+
+msgid "ShapeType_UNSET"
+msgstr "Uitzetten"
+
+msgid "Qto_JunctionBoxBaseQuantities"
+msgstr "Aantal Set: Junction Box Base Hoeveelheden"
+
+msgid "Qto_JunctionBoxBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van junction box."
+
+msgid "Height"
+msgstr "Højde"
+
+msgid "Height_DEFINITION"
+msgstr "Karakteristische hoogte"
+
+msgid "Width"
+msgstr "Width"
+
+msgid "Width_DEFINITION"
+msgstr "De breedte van het object. Alleen opgegeven, als het object een constante dikte heeft (prismatic)."
+
+msgid "IfcLamp"
+msgstr "Lamp"
+
+msgid "IfcLamp_DEFINITION"
+msgstr "Een lamp is een kunstmatige lichtbron zoals een gloeilamp of buis."
+
+msgid "Pset_LampTypeCommon"
+msgstr "Eigenschapsset: Lamptype gemeenschappelijk"
+
+msgid "Pset_LampTypeCommon_DEFINITION"
+msgstr "Een lamp is een onderdeel in een licht fix dat is ontworpen om licht uit te stoten."
+
+msgid "ColourAppearance"
+msgstr "Kleuren uiterlijk"
+
+msgid "ColourAppearance_DEFINITION"
+msgstr "In zowel de DIN als de CIE-normen worden kunstmatige lichte bronnen geclassificeerd op basis van hun kleurverschijnsel. Tot het menselijk oog lijken ze allemaal wit; het verschil kan alleen worden vastgesteld door middel van directe vergelijking. Visuele prestaties worden niet direct beïnvloed door verschillen in kleurvorm."
+
+msgid "ColourRenderingIndex"
+msgstr "Colour Rendering Index"
+
+msgid "ColourRenderingIndex_DEFINITION"
+msgstr "De CRI geeft aan hoe goed een lichtbron acht standaard kleuren weergeeft ten opzichte van de perfecte referentielamp met dezelfde kleurtemperatuur. De CRI schaal varieert van 1 tot 100, met 100 vertegenwoordigen perfecte rendering eigenschappen."
+
+msgid "ColourTemperature"
+msgstr "Temperatuur kleur"
+
+msgid "ColourTemperature_DEFINITION"
+msgstr "De kleurtemperatuur van elke bron van straling wordt gedefinieerd als de temperatuur (in Kelvin) van een lichaamsbeweging of Planckiaanse radiator waarvan de straling dezelfde chromatisiteit heeft als de bron van straling. Vaak zijn de waarden slechts gekleurde temperaturen en kunnen de lichaamsradiator niet elke chromatiStadswaarde uitstoten. De kleurtemperaturen van de meest voorkomende kunstmatige lichtbronnen variëren van minder dan 3000K (warme wit) tot 4000K (tussenland) en meer dan 5000K (daglicht)."
+
+msgid "ContributedLuminousFlux"
+msgstr "Bijgedragen Doorzichtige Flux"
+
+msgid "ContributedLuminousFlux_DEFINITION"
+msgstr "Lichtgevende flux is een fotometrische maat van stralingsvloeistof, d.w.z. de hoeveelheid licht die wordt uitgestoten van een lichtbron. De luide vloeistof wordt ofwel gemeten voor het binnenland als geheel of voor een deel van het binnenland (gedeeltelijke flux voor een stevige hoek). Alle andere fostometrische parameters zijn afgeleide van luwe vloeistof. Lichtgevend flux wordt gemeten in lumens (lm). De lichte flux wordt gegeven als nominale waarde voor elke lamp."
+
+msgid "LampBallastType"
+msgstr "Lamp Ballast Type"
+
+msgid "LampBallastType_DEFINITION"
+msgstr "Het type ballast dat wordt gebruikt om gaslozing te stabiliseren door de huidige levensduur te beperken en de noodzakelijke opvallende spanning te leveren om te beginnen. Er is een balans nodig om de ontladingslampen zoals Fluorescent, Compact Fluorescent, een hoge druk Mercurius, Metalen Halide en hoge druk natriumlappen. Door een magnetische ballast worden de huidige lampen die op basis van zelfbeïnvloeding door een serie zijn geleerd, aan banden gelegd. Het resultaat van de huidige situatie en de kracht zijn van doorslaggevend belang voor de efficiënte werking van de lamp. Voor elk type lamp is een speciaal ontworpen ballast nodig om te voldoen aan de lamprating in termen van Lumineuze Flux, Kleuruiterlijk en levensduur De twee soorten magnetische balves voor fluorescentielampen zijn KVG conventioneel (EC-A-serie) en VVG Low-losbalal (EC-B-series). Baal met een laag verlies heeft een hogere efficiëntie, wat betekent dat de ballast minder verlies lijdt en een lagere thermische lading. Elektronische ballast wordt gebruikt om fluorescentielampen te houden bij hoge frequenties (ongeveer 35 tot 40 kHz)."
+
+msgid "LampBallastType_CONVENTIONAL"
+msgstr "De twee soorten magnetische balves voor fluorescente lampen zijn KVG conventionele (EC-A-serie) en VVG Low-losbalal (EC-B-serie)"
+
+msgid "LampBallastType_ELECTRONIC"
+msgstr "Elektronische ballast wordt gebruikt om fluorescentielampen te laten lopen bij hoge frequenties (ongeveer"
+
+msgid "LampBallastType_LOWLOSS"
+msgstr "Lage verliezen"
+
+msgid "LampBallastType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "LampBallastType_OTHER"
+msgstr "anders"
+
+msgid "LampBallastType_RESISTOR"
+msgstr "resistent"
+
+msgid "LampBallastType_UNSET"
+msgstr "Uitzetten"
+
+msgid "LampCompensationType"
+msgstr "Lamp Compensatie Type"
+
+msgid "LampCompensationType_DEFINITION"
+msgstr "Identificeert de vorm van compensatie die wordt gebruikt voor correctie van de stroomfactor en radiofrequenties."
+
+msgid "LampCompensationType_CAPACITIVE"
+msgstr "Capacitief"
+
+msgid "LampCompensationType_INDUCTIVE"
+msgstr "Inductief"
+
+msgid "LampCompensationType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "LampCompensationType_OTHER"
+msgstr "anders"
+
+msgid "LampCompensationType_UNSET"
+msgstr "Uitzetten"
+
+msgid "LampMaintenanceFactor"
+msgstr "Onderhoudsfactor lamp"
+
+msgid "LampMaintenanceFactor_DEFINITION"
+msgstr "Niet herstelbare verliezen van gloeiende flux van een lamp als gevolg van depreciatie van de lamp; i. . de verlaging van de lichtopbrengst van een armatuur als gevolg van verouderd en vuil."
+
+msgid "LightEmitterNominalPower"
+msgstr "Lichtemmering nominaal vermogen"
+
+msgid "LightEmitterNominalPower_DEFINITION"
+msgstr "Lichte uitstoter nominale kracht."
+
+msgid "Spectrum"
+msgstr "Spectrum"
+
+msgid "Spectrum_DEFINITION"
+msgstr "Het stralingsspectrum beschrijft zijn samenstelling met betrekking tot de golflengte. Als gevolg van bijvoorbeeld elektromagnetische straling die zichtbaar is voor het menselijk oog, is straling met golflengtes binnen ongeveer het assortiment. 380 tot 780 nm (1 nm = 10 m). Het bijbehorende assortiment aan kleuren varieert van vioet tot indigo, blauw, groen, geel, oranje en rood. Deze kleuren vormen een continu spectrum, waarin de verschillende toeristensectoren samensmelten."
+
+msgid "Spectrum_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Qto_LampBaseQuantities"
+msgstr "Hoeveelheid set: Lamp basishoeveelheid"
+
+msgid "Qto_LampBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van de lamp."
+
+msgid "IfcLightFixture"
+msgstr "Lichte Fixture"
+
+msgid "IfcLightFixture_DEFINITION"
+msgstr "Een lichtfixatie is een container die is ontworpen om een of meer lampen en optioneel bedienende apparaten te huisvesten beperken of variëren van hun emissie."
+
+msgid "Pset_LightFixtureTypeCommon"
+msgstr "Eigenschap Set: Lichte Fixture Type Gemeenschappelijk"
+
+msgid "Pset_LightFixtureTypeCommon_DEFINITION"
+msgstr "Veelvoorkomende gegevens voor lampen."
+
+msgid "LightFixtureMountingType"
+msgstr "Lichte Fixture Mounting Type"
+
+msgid "LightFixtureMountingType_DEFINITION"
+msgstr "Een lijst met beschikbare koppelingstypes voor lamplampen waaruit de benodigde eventueel geselecteerd kan worden."
+
+msgid "LightFixtureMountingType_CABLESPANNED"
+msgstr "Kabel Geputte"
+
+msgid "LightFixtureMountingType_FREESTANDING"
+msgstr "Vrijzijdig"
+
+msgid "LightFixtureMountingType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "LightFixtureMountingType_OTHER"
+msgstr "anders"
+
+msgid "LightFixtureMountingType_POLE_SIDE"
+msgstr "Pool [[Side]]"
+
+msgid "LightFixtureMountingType_POLE_TOP"
+msgstr "Pool boven"
+
+msgid "LightFixtureMountingType_RECESSED"
+msgstr "Geïnstalleerd"
+
+msgid "LightFixtureMountingType_SURFACE"
+msgstr "Oppervlak"
+
+msgid "LightFixtureMountingType_SUSPENDED"
+msgstr "Gestopt"
+
+msgid "LightFixtureMountingType_TRACKMOUNTED"
+msgstr "Track gemonteerd"
+
+msgid "LightFixtureMountingType_UNSET"
+msgstr "Uitzetten"
+
+msgid "LightFixturePlacingType"
+msgstr "Lichte Fixture Plaatsing Type"
+
+msgid "LightFixturePlacingType_DEFINITION"
+msgstr "Een lijst van de beschikbare typen plaatsen van specificaties voor lamplampen waaruit die nodig kunnen worden geselecteerd."
+
+msgid "LightFixturePlacingType_CEILING"
+msgstr "Plafond"
+
+msgid "LightFixturePlacingType_FLOOR"
+msgstr "Vloer"
+
+msgid "LightFixturePlacingType_FURNITURE"
+msgstr "Meubels"
+
+msgid "LightFixturePlacingType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "LightFixturePlacingType_OTHER"
+msgstr "anders"
+
+msgid "LightFixturePlacingType_POLE"
+msgstr "Pool"
+
+msgid "LightFixturePlacingType_UNSET"
+msgstr "Uitzetten"
+
+msgid "LightFixturePlacingType_WALL"
+msgstr "Prikbord"
+
+msgid "MaintenanceFactor"
+msgstr "Onderhoudsfactor"
+
+msgid "MaintenanceFactor_DEFINITION"
+msgstr "De rekenkundige vergoeding voor de afwaardering van lampen en reflecterende apparatuur van hun oorspronkelijke waarden als gevolg van stof, uitlaatgassen of leeftijd."
+
+msgid "MaximumPlenumSensibleLoad"
+msgstr "Maximale Plenum Sensibele lading"
+
+msgid "MaximumPlenumSensibleLoad_DEFINITION"
+msgstr "Maximaal of piek zinvolle thermische lading bijgedragen aan retourlucht door de lichtfixatie."
+
+msgid "MaximumSpaceSensibleLoad"
+msgstr "Maximale ruimte gevoelige lading"
+
+msgid "MaximumSpaceSensibleLoad_DEFINITION"
+msgstr "Maximaal of piek zinvolle thermische lading bijgedragen aan de ruimte in conditie door het licht vast te leggen."
+
+msgid "NumberOfSources"
+msgstr "Aantal Bron S"
+
+msgid "NumberOfSources_DEFINITION"
+msgstr "Aantal bronnen ."
+
+msgid "SensibleLoadToRadiant"
+msgstr "Vermoedelijke lading naar Radiant"
+
+msgid "SensibleLoadToRadiant_DEFINITION"
+msgstr "Percentage zinvolle thermische belasting op stralingshitte."
+
+msgid "TotalWattage"
+msgstr "Totale bevestiging"
+
+msgid "TotalWattage_DEFINITION"
+msgstr "Aan het hele lichtfitingapparaat hangen met alle bronnen intact."
+
+msgid "Qto_LightFixtureBaseQuantities"
+msgstr "Hoeveelheid Set: Lichte Fixture Basis Hoeveelheden"
+
+msgid "Qto_LightFixtureBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van lichte fixatie."
+
+msgid "IfcMobileTelecommunicationsAppliance"
+msgstr "Mobiele Telecommunicatie-apparaat"
+
+msgid "IfcMobileTelecommunicationsAppliance_DEFINITION"
+msgstr "Een mobiel telecommunicatieapparaat is een apparaat dat signalen die worden gebruikt in mobiele netwerken verzendt, omzet, uitbreidt of ontvangt. Deze entiteit wordt gebruikt om specifieke apparaten in mobiele telecommunicatienetwerken te definiëren. Algemene communicatie-apparaten en apparaten die in vaste transmissienetwerken worden geïnstantieerd met [[IfcCommunicationsAppliance]]."
+
+msgid "Pset_MobileTelecommunicationsApplianceTypeCommon"
+msgstr "Eigenschapsset: Mobiele Telecommunicatietype Gemeenschappelijk"
+
+msgid "Pset_MobileTelecommunicationsApplianceTypeCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMobileTelecommunicationsAppliance]] en IfcMobileTelecommunicationsApplianceType."
+
+msgid "IfcMotorConnection"
+msgstr "Motor verbinding"
+
+msgid "IfcMotorConnection_DEFINITION"
+msgstr "Een motorverbinding biedt de middelen om een motor als rijder apparaat aan te sluiten op het gemotoriseerde apparaat."
+
+msgid "Pset_MotorConnectionTypeCommon"
+msgstr "Eigenschap Set: Motor verbindingstype gemeenschappelijk"
+
+msgid "Pset_MotorConnectionTypeCommon_DEFINITION"
+msgstr "Veelvoorkomende eigenschappen voor motorverbindingen."
+
+msgid "Qto_MotorConnectionBaseQuantities"
+msgstr "Hoeveelheid set: Motor verbinding basishoeveelheden"
+
+msgid "Qto_MotorConnectionBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van motorverbinding."
+
+msgid "IfcOutlet"
+msgstr "Uitvoer"
+
+msgid "IfcOutlet_DEFINITION"
+msgstr "Een uitlaat is op een punt geïnstalleerd om één of meer aangesloten stekkers te ontvangen voor stroom of communicatie."
+
+msgid "Pset_OutletTypeCommon"
+msgstr "Eigenschapsset: Uitlaattype gemeenschappelijk"
+
+msgid "Pset_OutletTypeCommon_DEFINITION"
+msgstr "Algemene eigenschappen voor verschillende uitlaattypes."
+
+msgid "IsPluggableOutlet"
+msgstr "Is Plug Gable Uitlaat"
+
+msgid "IsPluggableOutlet_DEFINITION"
+msgstr "Indicatie of de uitlaat een losse stekker verbinding accepteert (= WAAR ) of dat deze direct verbonden is (= FALSE) of dat het verbindingsformulier nog niet is vastgesteld (= [[UNKNOWN]])."
+
+msgid "NumberOfSockets"
+msgstr "Aantal sokken"
+
+msgid "NumberOfSockets_DEFINITION"
+msgstr "Het aantal sockets dat verbonden kan zijn. In geval van inconsistentie hebben sockets die gedefinieerd zijn in havens voorrang gekregen."
+
+msgid "Qto_OutletBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Uitlaat basishoeveelheden"
+
+msgid "Qto_OutletBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van de outlet."
+
+msgid "IfcProtectiveDevice"
+msgstr "Beschermend apparaat"
+
+msgid "IfcProtectiveDevice_DEFINITION"
+msgstr "Een beschermend apparaat breekt een elektrisch circuit wanneer een vermelde elektrische stroom die erdoorheen gaat, wordt overschreden."
+
+msgid "Pset_ProtectiveDeviceBreakerUnitI2TCurve"
+msgstr "Eigenschap Set: Protective Device Breaker Unit I2Tcurve"
+
+msgid "Pset_ProtectiveDeviceBreakerUnitI2TCurve_DEFINITION"
+msgstr "Een samenhangende set van kenmerken die een curve voor het doorlaten van energie van een beschermend apparaat vertegenwoordigen. Opmerking: Een beschermend apparaat kan worden geassocieerd met verschillende exemplaren van deze set en geeft informatie gerelateerd aan verschillende basiskenmerken"
+
+msgid "BreakerUnitCurve"
+msgstr "Breker Unit Curve"
+
+msgid "BreakerUnitCurve_DEFINITION"
+msgstr "Een curve die de ruimte door middel van energie van een meeteenheid vastlegt wanneer een bepaalde prospectieve stroom wordt toegepast. lijst van minimaal 2 en maximaal 16 nummers die de stroom in A geven voor punten in de tijdspanne/I2t log/log coördinatie. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten. Een lijst van minimaal 2 en maximaal 16 nummers die de laatste hand bieden aan energie, I2t, in A2s voor punten in de tijd/I2t log/log coördinatie. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten."
+
+msgid "BreakerUnitCurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "NominalCurrent"
+msgstr "Nominale stroom"
+
+msgid "NominalCurrent_DEFINITION"
+msgstr "De nominale stroom die ontworpen is om te worden gemeten."
+
+msgid "VoltageLevel"
+msgstr "Spanning Niveau"
+
+msgid "VoltageLevel_DEFINITION"
+msgstr "De spanningsniveaus waarvoor de data van het exemplaar geldig is. Meer dan één waarde kan geselecteerd worden in de enumeratie."
+
+msgid "VoltageLevel_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "VoltageLevel_OTHER"
+msgstr "anders"
+
+msgid "VoltageLevel_U1000"
+msgstr "[[U1000]]"
+
+msgid "VoltageLevel_U230"
+msgstr "[[U230]]"
+
+msgid "VoltageLevel_U400"
+msgstr "[[U400]]"
+
+msgid "VoltageLevel_U440"
+msgstr "[[U440]]"
+
+msgid "VoltageLevel_U525"
+msgstr "[[U525]]"
+
+msgid "VoltageLevel_U690"
+msgstr "[[U690]]"
+
+msgid "VoltageLevel_UNSET"
+msgstr "Uitzetten"
+
+msgid "Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve"
+msgstr "Eigenschap Set: Protective Device Breaker Unit I2Tfuse Curve"
+
+msgid "Pset_ProtectiveDeviceBreakerUnitI2TFuseCurve_DEFINITION"
+msgstr "Een samenhangende reeks attributen die curves voor het smelten en doorbreken van een zeker. Opmerking: een zekering kan worden geassocieerd met verschillende instanties van deze propertyset die informatie verstrekt gerelateerd aan verschillende basiskenmerken."
+
+msgid "BreakerUnitFuseBreakingingCurve"
+msgstr "Breker Unit Fuse Breekende Curve"
+
+msgid "BreakerUnitFuseBreakingingCurve_DEFINITION"
+msgstr "Een curve die de ruimte vastlegt door middel van het slopen van energie van een breaker unit wanneer een bepaalde potentiële doorbreking van de stroom wordt toegepast. lijst van minimaal 2 en maximaal 8 nummers die de stroom in A leveren voor punten in de; stroom/sloppen-/log coördinatie. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten. Een lijst met minimaal 2 en maximaal 8 getallen die zorgen voor de onderbreking van de energie waardoor de zekering is onderbroken, I2t, in A2s voor punten in het current/breakting_energy log/log coördinaat. De curve wordt getekend als een rechte lijn tussen twee opeenvolgende lijnen."
+
+msgid "BreakerUnitFuseBreakingingCurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "BreakerUnitFuseMeltingCurve"
+msgstr "Breaker Eenheid Fusscurve"
+
+msgid "BreakerUnitFuseMeltingCurve_DEFINITION"
+msgstr "Een curve die de energie vaststelt die nodig is om de zekering van een schakeleenheid te smelten wanneer een bepaalde potentiële smeltende stroom wordt toegepast. lijst van minimaal 2 en maximaal 8 nummers die de stroom in A leveren voor punten in de; huidige/melting_energy log/log coördinatie. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten. Een lijst met minimaal 2 en maximaal 8 nummers die de energie leveren waardoor de zekering begint te smelten, I2t, in A2s voor punten in het huidige/melting_energy log/log coördinaat. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten."
+
+msgid "BreakerUnitFuseMeltingCurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ProtectiveDeviceBreakerUnitIPICurve"
+msgstr "Eigenschap Set: Protective Device Breaker Unit Ipicurve"
+
+msgid "Pset_ProtectiveDeviceBreakerUnitIPICurve_DEFINITION"
+msgstr "Een samenhangende set van attributen die curves weergeeft voor het doorlaten van stroken van een beschermend apparaat. Opmerking: Een beschermend apparaat kan worden geassocieerd met verschillende instanties van deze pSet die informatie geven gerelateerd aan verschillende basiskenmerken."
+
+msgid "BreakerUnitIPICurve"
+msgstr "Breaker Unit Ipi Curve"
+
+msgid "BreakerUnitIPICurve_DEFINITION"
+msgstr "Een curve die vaststelt dat bij toepassing van een bepaalde prospectieve stroom de loop door de piekstroom van een breaker unit wordt doorgegeven. lijst van minimaal 2 en maximaal 16 nummers die de stromingen in A bieden voor punten in de ruimte I/Itmlog/log coördinaat. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten. Een lijst van minimaal 2 en maximaal 16 nummers die de laat-door-door-piekstroom, IŞ, in A bieden voor punten in de I/Iρlog-coördinatenruimte. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten."
+
+msgid "BreakerUnitIPICurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ProtectiveDeviceBreakerUnitTypeMotorProtectio"
+msgstr "Eigenschapsset: Bescherming Apparaat Breaker Unit Type Motor"
+
+msgid "Pset_ProtectiveDeviceBreakerUnitTypeMotorProtectio_DEFINITION"
+msgstr "Een samenhangende set attributen die verschillende capaciteiten van een motorrijtuigenbeschermingsapparaat weergeeft, gedefinieerd in overeenstemming met IEC 60947. Opmerking: Een beschermend apparaat kan worden geassocieerd met verschillende exemplaren van deze Pset."
+
+msgid "ICM60947"
+msgstr "Icm60947"
+
+msgid "ICM60947_DEFINITION"
+msgstr "De productiecapaciteit in A voor een circuitonderbreker of motorbeschermingsapparaat dat is getest in overeenstemming met de IEC 60947 serie."
+
+msgid "ICS60947"
+msgstr "IJs60947"
+
+msgid "ICS60947_DEFINITION"
+msgstr "De servicecapaciteit in A voor een object dat is getest in overeenstemming met de serie IEC 60947."
+
+msgid "ICU60947"
+msgstr "Icu60947"
+
+msgid "ICU60947_DEFINITION"
+msgstr "De ultieme sloopcapaciteit in A voor een object dat getest is in overeenstemming met de serie IEC 60947."
+
+msgid "ICW60947"
+msgstr "Icw60947"
+
+msgid "ICW60947_DEFINITION"
+msgstr "De thermische weerstroom in A voor een circuitonderbreker of motorbeschermingsapparaat dat is getest in overeenstemming met de IEC 60947 serie. De waarde is gerelateerd aan 1 s."
+
+msgid "PerformanceClasses"
+msgstr "Lessen voor prestaties"
+
+msgid "PerformanceClasses_DEFINITION"
+msgstr "Een reeks prestatiebenamingen voor de breaker unit waarvoor de gegevens van deze instantie geldig zijn."
+
+msgid "Pset_ProtectiveDeviceOccurrence"
+msgstr "Eigenschapsset: Beschermende apparaatgebeurtenis"
+
+msgid "Pset_ProtectiveDeviceOccurrence_DEFINITION"
+msgstr "Eigenschappen die worden toegepast op het voorkomen van een beschermend apparaat."
+
+msgid "GroundFaultCurrentSetValue"
+msgstr "Stroom van grondstortingwaarde"
+
+msgid "GroundFaultCurrentSetValue_DEFINITION"
+msgstr "De ingestelde grondfout waarde. De ingestelde waarde van de gronddoorslagstroom indien aanpasbaar."
+
+msgid "GroundFaultFunction"
+msgstr "Grond Fault Functie"
+
+msgid "GroundFaultFunction_DEFINITION"
+msgstr "Grondstoringsfunctie wordt toegepast. Een vlag die aangeeft dat de grondstoringsfunctie van het apparaat wordt gebruikt. De waarde moet worden ingesteld op FALSE voor apparaten die geen grondstoringsfunctie hebben, of als de basis storingsfunctie niet is geselecteerd om te worden gebruikt."
+
+msgid "GroundFaulti2tFunction"
+msgstr "Grondstoring I2T Functie"
+
+msgid "GroundFaulti2tFunction_DEFINITION"
+msgstr "Grondfout i2t functie wordt toegepast. Een vlag die aangeeft dat de storingsfunctie van het apparaat wordt gebruikt. De waarde mag alleen worden ingesteld op TRUE als de I2t-functie expliciet is geselecteerd voor het apparaat."
+
+msgid "GroundFaultTrippingTime"
+msgstr "Grond Fault doorslagtijd"
+
+msgid "GroundFaultTrippingTime_DEFINITION"
+msgstr "Grond fout doorslagtijd. De ingestelde waarde van de ondergrond doorslagstroom indien aanpasbaar."
+
+msgid "InstantaneousCurrentSetValue"
+msgstr "Stroomsterkte ingestelde waarde"
+
+msgid "InstantaneousCurrentSetValue_DEFINITION"
+msgstr "Direct ingestelde waarde. De ingestelde waarde van de onmiddellijke doorslag stroom indien aanpasbaar."
+
+msgid "InstantaneousTrippingTime"
+msgstr "Directe doorslagtijd"
+
+msgid "InstantaneousTrippingTime_DEFINITION"
+msgstr "Directe doorsnede tijd. De ingestelde waarde van de bijgaande doorlooptijd indien aanpasbaar."
+
+msgid "LongTimeCurrentSetValue"
+msgstr "Lang Tijd Huidige Waarde instellen"
+
+msgid "LongTimeCurrentSetValue_DEFINITION"
+msgstr "Lang tijd huidige waarde instellen. De ingestelde waarde van de lange tijd van de tripping stroom indien aanpasbaar."
+
+msgid "LongTimeDelay"
+msgstr "Lange Tijd Vertraging"
+
+msgid "LongTimeDelay_DEFINITION"
+msgstr "Lange tijd vertraging. De ingestelde waarde van de lange termijn indien aanpasbaar."
+
+msgid "LongTimeFunction"
+msgstr "Lange Tijd Functie"
+
+msgid "LongTimeFunction_DEFINITION"
+msgstr "Lange tijdfunctie toepassen; Een vlag die aangeeft dat de lange tijdfunctie (d.w.z. de thermische tripping) van het apparaat wordt gebruikt. De waarde moet worden ingesteld op TRUE voor alle apparaten, behalve die waarmee de lange tijd functie van het apparaat niet kan worden gebruikt."
+
+msgid "PoleUsage"
+msgstr "Poel gebruik"
+
+msgid "PoleUsage_DEFINITION"
+msgstr "Pool gebruik."
+
+msgid "PoleUsage_1P"
+msgstr "1P"
+
+msgid "PoleUsage_1PN"
+msgstr "1pn"
+
+msgid "PoleUsage_2P"
+msgstr "2P"
+
+msgid "PoleUsage_3P"
+msgstr "3P"
+
+msgid "PoleUsage_3PN"
+msgstr "3pn"
+
+msgid "PoleUsage_4P"
+msgstr "4P"
+
+msgid "PoleUsage_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "PoleUsage_OTHER"
+msgstr "anders"
+
+msgid "PoleUsage_UNSET"
+msgstr "Uitzetten"
+
+msgid "ShortTimeCurrentSetValue"
+msgstr "Korte tijd huidige waarde instellen"
+
+msgid "ShortTimeCurrentSetValue_DEFINITION"
+msgstr "Korte tijd huidige waarde ingesteld. De ingestelde waarde van de lange tijd van de tripping stroom indien aanpasbaar."
+
+msgid "ShortTimeFunction"
+msgstr "Korte tijd functie"
+
+msgid "ShortTimeFunction_DEFINITION"
+msgstr "Het toepassen van de korte tijdfunctie Een vlag die aangeeft dat de korte tijdfunctie van het apparaat wordt gebruikt. De waarde moet worden ingesteld op FALSE voor apparaten die geen korte tijdfunctie hebben, of als de korte tijdfunctie niet is geselecteerd om te worden gebruikt."
+
+msgid "ShortTimei2tFunction"
+msgstr "Korte tijd I2T Functie"
+
+msgid "ShortTimei2tFunction_DEFINITION"
+msgstr "De korte i2t-functie wordt toegepast. Een vlag die aangeeft dat de korte tijd functie van het apparaat wordt gebruikt. De waarde mag alleen worden ingesteld op TRUE als de I2t-functie expliciet is geselecteerd voor het apparaat."
+
+msgid "ShortTimeTrippingTime"
+msgstr "Korte tijd doorslagtijd"
+
+msgid "ShortTimeTrippingTime_DEFINITION"
+msgstr "Korte tijd doorslagtijd. De ingestelde waarde van de korte tijd als deze kan worden aangepast."
+
+msgid "Pset_ProtectiveDeviceTrippingCurve"
+msgstr "Eigenschapsset: Protective Device Tripping Curve"
+
+msgid "Pset_ProtectiveDeviceTrippingCurve_DEFINITION"
+msgstr "Tripping curves worden toegepast op thermische, thermische magnetische of MCB_RCD tripping units (bijv. doorslageenheden met type-eigendommen voor thermische, thermische magnetische of MCB_RCD doorslag gedefinieerd). Ze worden niet toegepast op elektronische doorslageenheden."
+
+msgid "TrippingCurve"
+msgstr "Tripping Curve"
+
+msgid "TrippingCurve_DEFINITION"
+msgstr "Een curve die de vrijgaveduur van een doorslageenheid vaststelt wanneer een bepaalde potentiële stroom wordt toegepast. 1) Het definiëren van de waarde is de prospectief [[Current]] wat een lijst is van minimaal 2 en maximaal 16 nummers die de stromingen in x geven voor punten in het huidige / tijd log/log coördinatie. De curve wordt getekend als een rechte lijn tussen twee achtereenvolgende punten. (2) Definitieve waarde is een lijst met minimaal 2 en maximaal 16 nummers die de release_time in s voor punten in de tijd-logboek/log coördinatenruimte bieden. De curve wordt getekend als een rechte lijn tussen twee opeenvolgende punten. Merk op dat een gedefinieerde interpolatie."
+
+msgid "TrippingCurve_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TrippingCurveType"
+msgstr "Tripping Curve Type"
+
+msgid "TrippingCurveType_DEFINITION"
+msgstr "Het type doorslagcurve dat wordt weergegeven door de propertyset."
+
+msgid "TrippingCurveType_LOWER"
+msgstr "Lager"
+
+msgid "TrippingCurveType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "TrippingCurveType_OTHER"
+msgstr "anders"
+
+msgid "TrippingCurveType_UNSET"
+msgstr "Uitzetten"
+
+msgid "TrippingCurveType_UPPER"
+msgstr "Bovenste"
+
+msgid "Pset_ProtectiveDeviceTypeCommon"
+msgstr "Eigenschapsset: Protective Device Type Common"
+
+msgid "Pset_ProtectiveDeviceTypeCommon_DEFINITION"
+msgstr "Eigenschappen die worden toegepast op een definitie van een beschermend apparaat."
+
+msgid "Qto_ProtectiveDeviceBaseQuantities"
+msgstr "Aantal Set: Beschermende apparaat basishoeveelheden"
+
+msgid "Qto_ProtectiveDeviceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van beschermende toestellen."
+
+msgid "IfcSolarDevice"
+msgstr "Zonne-energie apparaat"
+
+msgid "IfcSolarDevice_DEFINITION"
+msgstr "Een zonneapparaat zet zonnestraling om in andere energie zoals stroom- of thermische energie."
+
+msgid "Pset_SolarDeviceTypeCommon"
+msgstr "Eigenschapsset: Zonneapparaat type gemeenschappelijk"
+
+msgid "Pset_SolarDeviceTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor type zonne-apparaten."
+
+msgid "Qto_SolarDeviceBaseQuantities"
+msgstr "Hoeveelheid Set: Zonneapparaat basishoeveelheden"
+
+msgid "Qto_SolarDeviceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van zonne-koolwaterstoffen."
+
+msgid "GrossArea"
+msgstr "Bruto gebied"
+
+msgid "GrossArea_DEFINITION"
+msgstr "Bruto [[Area]] van het object. Openingen, recesses, projecties en doorsnijdingen worden niet in aanmerking genomen."
+
+msgid "IfcSwitchingDevice"
+msgstr "Schakelen van apparaat"
+
+msgid "IfcSwitchingDevice_DEFINITION"
+msgstr "Er wordt een schakelaar gebruikt in een kabeldistributiesysteem (elektrisch circuit) om de stroom van elektriciteit te controleren of te moduleren."
+
+msgid "Pset_SwitchingDeviceTypeCommon"
+msgstr "Eigenschap Set: Schakelen van apparaat type (standaard)"
+
+msgid "Pset_SwitchingDeviceTypeCommon_DEFINITION"
+msgstr "Een wisselend apparaat is een apparaat ontworpen om de stroom in een of meer elektrische circuits te maken of te breken."
+
+msgid "HasLock"
+msgstr "Heeft Vergrendeling"
+
+msgid "HasLock_DEFINITION"
+msgstr "Geef aan of een schakelapparaat een sleutelvergrendeling heeft (=WAAR ) of niet (= FALSE)."
+
+msgid "IsIlluminated"
+msgstr "Is weggelicht"
+
+msgid "IsIlluminated_DEFINITION"
+msgstr "Een indicatie van of er een verlichte indicator is om te laten zien dat de schakelaar aan staat (=TRUE) of niet (= FALSE)."
+
+msgid "Legend"
+msgstr "Legenda"
+
+msgid "Legend_DEFINITION"
+msgstr "Een tekst die is ingeschreven of toegepast op de schakelaar als legende voor het doel of de functie."
+
+msgid "SwitchFunction"
+msgstr "Wissel functie"
+
+msgid "SwitchFunction_DEFINITION"
+msgstr "Geeft aan of er schakelaars zijn die verschillen in functionaliteit."
+
+msgid "SwitchFunction_DOUBLETHROWSWITCH"
+msgstr "Dubbele Gooischakelaar"
+
+msgid "SwitchFunction_INTERMEDIATESWITCH"
+msgstr "Tussenliggende schakelaar"
+
+msgid "SwitchFunction_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "SwitchFunction_ONOFFSWITCH"
+msgstr "Bij Uit Switch"
+
+msgid "SwitchFunction_OTHER"
+msgstr "anders"
+
+msgid "SwitchFunction_UNSET"
+msgstr "Uitzetten"
+
+msgid "Pset_SwitchingDeviceTypePHistory"
+msgstr "Eigenschap Set: Schakelen van apparaattype geschiedenis"
+
+msgid "Pset_SwitchingDeviceTypePHistory_DEFINITION"
+msgstr "Geeft aan hoe posities of niveaus in de loop der tijd gewisseld worden, zoals voor energiebeheer of toezicht."
+
+msgid "SetPointHistory"
+msgstr "Stel puntgeschiedenis in"
+
+msgid "SetPointHistory_DEFINITION"
+msgstr "Geeft de schakelpositie na verloop van tijd weer volgens [[Pset_SwitchingDeviceTypeCommon]].[[SetPoint]]."
+
+msgid "SetPointHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Qto_SwitchingDeviceBaseQuantities"
+msgstr "Hoeveelheid Set: Schakelen apparaat basishoeveelheden"
+
+msgid "Qto_SwitchingDeviceBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van het wisselen van apparaat."
+
+msgid "IfcTransformer"
+msgstr "Transformator"
+
+msgid "IfcTransformer_DEFINITION"
+msgstr "Een transformator is een inductief stationair apparaat dat elektrische energie van het ene circuit naar het andere stuurt."
+
+msgid "Pset_TransformerTypeCommon"
+msgstr "Eigenschapsset: Transformator type gemeenschappelijk"
+
+msgid "Pset_TransformerTypeCommon_DEFINITION"
+msgstr "Een inductief stationair apparaat dat elektrische energie van het ene circuit naar het andere stuurt."
+
+msgid "ImaginaryImpedanceRatio"
+msgstr "Imaginaire imedance verhouding"
+
+msgid "ImaginaryImpedanceRatio_DEFINITION"
+msgstr "De verhouding tussen het denkbeeldige deel van de nul-sequentie en het denkbeeldige deel van de positieve impact (d.w.z. denkbeeldig deel van de korte-circuit voltage) van de transformering; Gebruikt voor drie fases transformator inclusief een N-conducteur."
+
+msgid "IsNeutralPrimaryTerminalAvailable"
+msgstr "Is Neutrale primaire terminal beschikbaar"
+
+msgid "IsNeutralPrimaryTerminalAvailable_DEFINITION"
+msgstr "Een indicatie of het neutrale punt van de primaire winding beschikbaar is als een terminal (=TRUE) of niet (= FALSE)."
+
+msgid "IsNeutralSecondaryTerminalAvailable"
+msgstr "Is Neutrale Secundaire Terminal beschikbaar"
+
+msgid "IsNeutralSecondaryTerminalAvailable_DEFINITION"
+msgstr "Een indicatie of het neutrale punt van de secundaire winding beschikbaar is als een terminal (=TRUE) of niet (= FALSE)."
+
+msgid "MaximumApparentPower"
+msgstr "Maximum schijnbaar vermogen"
+
+msgid "MaximumApparentPower_DEFINITION"
+msgstr "Maximale schijnkracht/capaciteit in VA (volt ampere)."
+
+msgid "PrimaryApparentPower"
+msgstr "Primair schijnbaar vermogen"
+
+msgid "PrimaryApparentPower_DEFINITION"
+msgstr "De kracht in de VA (volt ampere) die is getransformeerd en die naar de transformator aan de primaire kant loopt."
+
+msgid "PrimaryCurrent"
+msgstr "Primaire stroom"
+
+msgid "PrimaryCurrent_DEFINITION"
+msgstr "De stroom die zal worden veranderd en die aan de primaire kant in de transformator terechtkomt."
+
+msgid "PrimaryFrequency"
+msgstr "Primaire frequentie"
+
+msgid "PrimaryFrequency_DEFINITION"
+msgstr "De frequentie die zal worden getransformeerd en die terechtkomt in de transformator aan de primaire kant."
+
+msgid "PrimaryVoltage"
+msgstr "Primaire spanning"
+
+msgid "PrimaryVoltage_DEFINITION"
+msgstr "De spanning die zal veranderen en die aan de primaire kant in de transformator terechtkomt."
+
+msgid "RealImpedanceRatio"
+msgstr "Echte impliciete verhouding"
+
+msgid "RealImpedanceRatio_DEFINITION"
+msgstr "De verhouding tussen het echte deel van de nul-reeks en het werkelijke deel van de positieve impact (d.w.z. echt deel van de korte-circuit voltage) van de transformering; Gebruikt voor driefasentransformer met een N-dirigent inbegrepen."
+
+msgid "SecondaryApparentPower"
+msgstr "Secundaire schijnbaar vermogen"
+
+msgid "SecondaryApparentPower_DEFINITION"
+msgstr "De kracht in de VA (volt ampere) die is getransformeerd en de transformator aan de secundaire kant raakt."
+
+msgid "SecondaryCurrent"
+msgstr "Secundaire stroom"
+
+msgid "SecondaryCurrent_DEFINITION"
+msgstr "De stroom die is getransformeerd en de transformator aan de secundaire kant raakt op."
+
+msgid "SecondaryCurrentType"
+msgstr "Secundaire huidige type"
+
+msgid "SecondaryCurrentType_DEFINITION"
+msgstr "Een lijst van de secundaire huidige types die kunnen resulteren uit transformatoruitvoer."
+
+msgid "SecondaryCurrentType_AC"
+msgstr "AC"
+
+msgid "SecondaryCurrentType_DC"
+msgstr "DC"
+
+msgid "SecondaryCurrentType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "SecondaryCurrentType_UNSET"
+msgstr "Uitzetten"
+
+msgid "SecondaryFrequency"
+msgstr "Secundaire frequentie"
+
+msgid "SecondaryFrequency_DEFINITION"
+msgstr "De frequentie die is veranderd en aan de secundaire kant raakt de transformator op."
+
+msgid "SecondaryVoltage"
+msgstr "Secundaire spanning"
+
+msgid "SecondaryVoltage_DEFINITION"
+msgstr "De spanning die veranderd is en raakt aan de secundaire kant van de transformator op."
+
+msgid "ShortCircuitVoltage"
+msgstr "Korte circuitspanning"
+
+msgid "ShortCircuitVoltage_DEFINITION"
+msgstr "Een complex getal dat de reële en denkbeeldige delen van de korte circuitspanning specificeert tijdens de wisselkoers van een in % gegeven transformator."
+
+msgid "TransformerVectorGroup"
+msgstr "Transformer Vector Groep"
+
+msgid "TransformerVectorGroup_DEFINITION"
+msgstr "Lijst van mogelijke vectorgroepen voor de transformator waarvan de vereiste kan worden ingesteld. Waarden in de enumeration list volgen een standaard internationale code waar de eerste letter beschrijft hoe de primaire windings zijn aangesloten; de tweede brief beschrijft hoe de secundaire wisselkoersen met elkaar verbonden zijn, en de getallen beschrijven de rotatie van voltages en stromingen van de primaire tot de secundaire zijde in veelvoud van 30 graden. eans dat de winden met een dele-connectie te maken hebben; betekent dat de winden met een star-verbinding zijn verbonden. betekent dat de wikkelingen zig-zag zijn aangesloten (een speciale startaansluiting die voorziet in lage reacties op de transformatie); De connectiviteit is alleen relevant voor transformaties in drie fasen."
+
+msgid "TransformerVectorGroup_DD0"
+msgstr "Dd0"
+
+msgid "TransformerVectorGroup_DD6"
+msgstr "Dd6"
+
+msgid "TransformerVectorGroup_DY11"
+msgstr "Dy11"
+
+msgid "TransformerVectorGroup_DY5"
+msgstr "Dy5"
+
+msgid "TransformerVectorGroup_DZ0"
+msgstr "Dz0"
+
+msgid "TransformerVectorGroup_DZ6"
+msgstr "Dz6"
+
+msgid "TransformerVectorGroup_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "TransformerVectorGroup_OTHER"
+msgstr "anders"
+
+msgid "TransformerVectorGroup_UNSET"
+msgstr "Uitzetten"
+
+msgid "TransformerVectorGroup_YD11"
+msgstr "Jd11"
+
+msgid "TransformerVectorGroup_YD5"
+msgstr "Yd5"
+
+msgid "TransformerVectorGroup_YY0"
+msgstr "Jy0"
+
+msgid "TransformerVectorGroup_YY6"
+msgstr "Yy6"
+
+msgid "TransformerVectorGroup_YZ11"
+msgstr "Yz11"
+
+msgid "TransformerVectorGroup_YZ5"
+msgstr "Yz5"
+
+msgid "Qto_TransformerBaseQuantities"
+msgstr "Hoeveelheid set: Transformer basishoeveelheid"
+
+msgid "Qto_TransformerBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van transformatie."
+
+msgid "IfcAudioVisualApplianceAMPLIFIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceAMPLIFIER"
+msgstr "Versterker"
+
+msgid "IfcAudioVisualApplianceAMPLIFIER_DEFINITION"
+msgstr "Een apparaat dat een audiosignaal ontvangt en dit versterkt om door sprekers af te spelen."
+
+msgid "IfcAudioVisualApplianceCAMERA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceCAMERA"
+msgstr "camera"
+
+msgid "IfcAudioVisualApplianceCAMERA_DEFINITION"
+msgstr "Een apparaat dat afbeeldingen opneemt, als een nog steeds foto of als bewegende afbeeldingen, bekend als video's of films. Merk op dat een camera kan functioneren met licht vanuit het zichtbare spectrum of vanuit andere delen van het elektromagnetische spectrum, zoals infrastructuur of ultraviolet."
+
+msgid "IfcAudioVisualApplianceCOMMUNICATIONTERMINAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceCOMMUNICATIONTERMINAL"
+msgstr "Communicatie Terminal"
+
+msgid "IfcAudioVisualApplianceCOMMUNICATIONTERMINAL_DEFINITION"
+msgstr "Een communicatie-terminal is een audio-verbindingsapparaat dat meestal wordt geïnstalleerd langs de transportinfrastructuur (spoorwegen, wegen, tunnels etc. om te worden gebruikt door het grote publiek of de operatoren voor communicatie. Het kan specifiek worden gebruikt voor oproepen aan hulpdiensten in tunnels."
+
+msgid "IfcAudioVisualApplianceDISPLAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceDISPLAY"
+msgstr "Weergeven"
+
+msgid "IfcAudioVisualApplianceDISPLAY_DEFINITION"
+msgstr "Een elektronisch apparaat dat informatie in visuele vorm weergeeft, zoals een flatpaneelscherm of televisie."
+
+msgid "IfcAudioVisualApplianceMICROPHONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceMICROPHONE"
+msgstr "Microfoon"
+
+msgid "IfcAudioVisualApplianceMICROPHONE_DEFINITION"
+msgstr "Een elektrische transducer of sensor die geluid converteert naar een elektrisch signaal. Het gebruik van microfoons omvat elektromagnetische inductie (dynamische microfoonen), capaciteitswijziging (condensator microfoonen) of de piezo-elektrische opwekking om het signaal van mechanische trillingen te laten zien."
+
+msgid "IfcAudioVisualAppliancePLAYER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualAppliancePLAYER"
+msgstr "P laag"
+
+msgid "IfcAudioVisualAppliancePLAYER_DEFINITION"
+msgstr "Een apparaat dat audio- en/of videoinhoud direct of naar een ander apparaat afspeelt met vaste of verwijderbare opslagmedia."
+
+msgid "IfcAudioVisualAppliancePROJECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualAppliancePROJECTOR"
+msgstr "Projector"
+
+msgid "IfcAudioVisualAppliancePROJECTOR_DEFINITION"
+msgstr "Een apparaat voor het projecteren van een afbeelding op een scherm. Of het apparaat een overheen, slide projector of een filmprojector is, het wordt meestal aangeduid als gewoon een projector."
+
+msgid "IfcAudioVisualApplianceRECEIVER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceRECEIVER"
+msgstr "Ontvanger"
+
+msgid "IfcAudioVisualApplianceRECEIVER_DEFINITION"
+msgstr "Een apparaat dat audio- en/of video-signalen ontvangt, schakelt van bronnen en versterkt signalen om door sprekers af te spelen."
+
+msgid "IfcAudioVisualApplianceRECORDINGEQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceRECORDINGEQUIPMENT"
+msgstr "Uitrusting opnemen"
+
+msgid "IfcAudioVisualApplianceRECORDINGEQUIPMENT_DEFINITION"
+msgstr "Een opnameapparaat is een apparaat dat telefoongesprekken of andere soorten audiogegevens opneemt. Het zorgt ook voor de functie van archivering en onmiddellijke replay."
+
+msgid "IfcAudioVisualApplianceSPEAKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceSPEAKER"
+msgstr "Spreker"
+
+msgid "IfcAudioVisualApplianceSPEAKER_DEFINITION"
+msgstr "Een luidspreker, spreker of luidsprekersysteem is een elektroacoustische transducator die een elektrisch signaal naar geluid converteert."
+
+msgid "IfcAudioVisualApplianceSWITCHER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceSWITCHER"
+msgstr "Wisselaar"
+
+msgid "IfcAudioVisualApplianceSWITCHER_DEFINITION"
+msgstr "Een apparaat dat audio- en/of video-signalen ontvangt, van bron wisselt en signalen uitzendt naar downstream-apparaten."
+
+msgid "IfcAudioVisualApplianceTELEPHONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceTELEPHONE"
+msgstr "Telefoon"
+
+msgid "IfcAudioVisualApplianceTELEPHONE_DEFINITION"
+msgstr "Een telecommunicatieapparaat dat wordt gebruikt voor het verzenden en ontvangen van geluid en eventueel video."
+
+msgid "IfcAudioVisualApplianceTUNER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAudioVisualApplianceTUNER"
+msgstr "Tuner"
+
+msgid "IfcAudioVisualApplianceTUNER_DEFINITION"
+msgstr "Een elektronische ontvanger die verzonden signalen detecteert, degradeert en versterkt."
+
+msgid "IfcCableCarrierFittingBEND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingBEND"
+msgstr "Buigen"
+
+msgid "IfcCableCarrierFittingBEND_DEFINITION"
+msgstr "Een passend pak verandert de route van de kabelbaan."
+
+msgid "IfcCableCarrierFittingCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingCONNECTOR"
+msgstr "Connector"
+
+msgid "IfcCableCarrierFittingCONNECTOR_DEFINITION"
+msgstr "Connector passeert, meestal gebruikt om twee poorten samen te voegen binnen een debiteurdistributiesysteem (bijv. een koppeling die wordt gebruikt om twee kanaalsegmenten aan te sluiten)."
+
+msgid "IfcCableCarrierFittingCROSS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingCROSS"
+msgstr "Doorkruisen"
+
+msgid "IfcCableCarrierFittingCROSS_DEFINITION"
+msgstr "Een pasvorm waarin twee takken tegelijk uit de hoofdroute van de kabeltransporteur worden gehaald."
+
+msgid "IfcCableCarrierFittingJUNCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingJUNCTION"
+msgstr "Wissel"
+
+msgid "IfcCableCarrierFittingJUNCTION_DEFINITION"
+msgstr "Een passend product met meestal meer dan twee poorten die gebruikt worden om de stroom te herverdelen over de havens en/of om de richting van de stroom tussen de verbonden elementen te wijzigen (bv. , thee, cross, wye, etc.)."
+
+msgid "IfcCableCarrierFittingREDUCER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingREDUCER"
+msgstr "Verminderder"
+
+msgid "IfcCableCarrierFittingREDUCER_DEFINITION"
+msgstr "Een aanpassing die verandert de fysieke grootte van de hoofdroute van de kabelmaatschappij."
+
+msgid "IfcCableCarrierFittingTEE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingTEE"
+msgstr "Thee"
+
+msgid "IfcCableCarrierFittingTEE_DEFINITION"
+msgstr "Een pasvorm waarin een filiaal van de hoofdroute van de kabelmaatschappij wordt genomen."
+
+msgid "IfcCableCarrierFittingTRANSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierFittingTRANSITION"
+msgstr "Transitie"
+
+msgid "IfcCableCarrierFittingTRANSITION_DEFINITION"
+msgstr "Een aanpassing met meestal twee poorten met verschillende vormen of groottes. Kan ook worden gebruikt om de richting van de stroom tussen verbonden elementen te veranderen."
+
+msgid "IfcCableCarrierSegmentCABLEBRACKET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCABLEBRACKET"
+msgstr "Kabel Haakje"
+
+msgid "IfcCableCarrierSegmentCABLEBRACKET_DEFINITION"
+msgstr "Een kabelbeugel is een horizontale kabelondersteuning vastgesteld op slechts één eindpunt, met tussensteken, waarop kabels rusten."
+
+msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT"
+msgstr "Kabel ladder Segment"
+
+msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT_DEFINITION"
+msgstr "Een open vervoerderssegment waarop kabels worden gedragen op een ladderstructuur."
+
+msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT"
+msgstr "Kabel Tray Segment"
+
+msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT_DEFINITION"
+msgstr "Een (typisch) open vervoerderssegment waarop kabels worden geplaatst."
+
+msgid "IfcCableCarrierSegmentCABLETRUNKINGSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCABLETRUNKINGSEGMENT"
+msgstr "Kabel besliste segment"
+
+msgid "IfcCableCarrierSegmentCABLETRUNKINGSEGMENT_DEFINITION"
+msgstr "Een gesloten vervoerderssegment met één of meer vakken in welke kabels worden geplaatst."
+
+msgid "IfcCableCarrierSegmentCATENARYWIRE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCATENARYWIRE"
+msgstr "Catenaire Traad"
+
+msgid "IfcCableCarrierSegmentCATENARYWIRE_DEFINITION"
+msgstr "Een catenaire draad is een longitudinale draad die de geloveerde contactdraden direct of indirect ondersteunt. ;definitie van UIC 719-1."
+
+msgid "IfcCableCarrierSegmentCONDUITSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentCONDUITSEGMENT"
+msgstr "Leiding segment"
+
+msgid "IfcCableCarrierSegmentCONDUITSEGMENT_DEFINITION"
+msgstr "Een gesloten tubulaire drager segment door welke kabels worden gesleept."
+
+msgid "IfcCableCarrierSegmentDROPPER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableCarrierSegmentDROPPER"
+msgstr "Druppel"
+
+msgid "IfcCableCarrierSegmentDROPPER_DEFINITION"
+msgstr "Een dropper is een kabeldrager die gebruikt wordt om de kabel van een andere kabel op te schorten. Hij kan ook elektriciteit verbruiken."
+
+msgid "IfcCableFittingCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingCONNECTOR"
+msgstr "Connector"
+
+msgid "IfcCableFittingCONNECTOR_DEFINITION"
+msgstr "Een fitting die twee kabelsegmenten van hetzelfde connectortype toevoegt (hoewel mogelijk verschillend gender)."
+
+msgid "IfcCableFittingENTRY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingENTRY"
+msgstr "Aanmelding"
+
+msgid "IfcCableFittingENTRY_DEFINITION"
+msgstr "Een passeren die een kabelsegment begint op een niet-elektrisch element zoals een grondklem die is gekoppeld aan een pijp."
+
+msgid "IfcCableFittingEXIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingEXIT"
+msgstr "Afsluiten"
+
+msgid "IfcCableFittingEXIT_DEFINITION"
+msgstr "Een passeren die een kabelsegment afsluit op een niet-elektrisch element zoals een grondklem gekoppeld aan een pijp of aan de grond."
+
+msgid "IfcCableFittingFANOUT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingFANOUT"
+msgstr "Fanout"
+
+msgid "IfcCableFittingFANOUT_DEFINITION"
+msgstr "Een fan out is een speciale kabel die voorziet in een veilige overgang van multi-vezelkabel-eenheden naar individuele vezels."
+
+msgid "IfcCableFittingJUNCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingJUNCTION"
+msgstr "Wissel"
+
+msgid "IfcCableFittingJUNCTION_DEFINITION"
+msgstr "Een passerende die drie of meer segmenten van willekeurige connector typen voor signaalsplitsing of multiplexing."
+
+msgid "IfcCableFittingTRANSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableFittingTRANSITION"
+msgstr "Transitie"
+
+msgid "IfcCableFittingTRANSITION_DEFINITION"
+msgstr "Een passend die twee kabelsegmenten van verschillende connectortypes aansluit."
+
+msgid "IfcCableSegmentBUSBARSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentBUSBARSEGMENT"
+msgstr "Busbar Segment"
+
+msgid "IfcCableSegmentBUSBARSEGMENT_DEFINITION"
+msgstr "Elektrische conducteur die een gemeenschappelijke verbinding maakt tussen verschillende elektrische circuits. Eigenschappen van een verzamelbalk zijn hetzelfde als die van een kabelsegment en worden vastgelegd in de set van de kabelsegmenteigenschappen."
+
+msgid "IfcCableSegmentCABLESEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentCABLESEGMENT"
+msgstr "Kabel segment"
+
+msgid "IfcCableSegmentCABLESEGMENT_DEFINITION"
+msgstr "Kabel met een specifiek doel om elektrische stroom te leiden binnen een circuit of een andere elektrische constructie. Bevat alle soorten elektrische kabels, voornamelijk verschillende kernsegmenten of geleidersegmenten samen."
+
+msgid "IfcCableSegmentCONDUCTORSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentCONDUCTORSEGMENT"
+msgstr "Conductors Ei"
+
+msgid "IfcCableSegmentCONDUCTORSEGMENT_DEFINITION"
+msgstr "Een enkel lineair element binnen een kabel of een blootgestelde draad (zoals voor grondstoffen) met het specifieke doel om elektrische stroom te leiden data of een telecommunicatiesignaal."
+
+msgid "IfcCableSegmentCONTACTWIRESEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentCONTACTWIRESEGMENT"
+msgstr "Contact met Wire Segment"
+
+msgid "IfcCableSegmentCONTACTWIRESEGMENT_DEFINITION"
+msgstr "Een elektrische geleider van een contactlijn waarmee de huidige verzamelaars contact opnemen.;definitie van IEC60050 811-33-15."
+
+msgid "IfcCableSegmentCORESEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentCORESEGMENT"
+msgstr "Kern segment"
+
+msgid "IfcCableSegmentCORESEGMENT_DEFINITION"
+msgstr "Een onderdeel van een kabel met een of meer geleiders en schaapjes. De kern van één lood is normaal gesproken één draad of meerdere draaddraden die met elkaar verweven zijn."
+
+msgid "IfcCableSegmentFIBERSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentFIBERSEGMENT"
+msgstr "Vezel segment"
+
+msgid "IfcCableSegmentFIBERSEGMENT_DEFINITION"
+msgstr "Een vezelsegment is een individuele optische vezel die gebruikt wordt in telecommunicatiesystemen om gegevens door middel van optische signalen te verzenden."
+
+msgid "IfcCableSegmentFIBERTUBE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentFIBERTUBE"
+msgstr "Vezel Buis"
+
+msgid "IfcCableSegmentFIBERTUBE_DEFINITION"
+msgstr "Een vezelbuis is semi-rigide holle kunststof buis met een zeer kleine straal die huizen en een bepaald aantal optische vezelsegmenten beschermt. Een optisch kabelsegment kan veel vezelbuizen bevatten."
+
+msgid "IfcCableSegmentOPTICALCABLESEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentOPTICALCABLESEGMENT"
+msgstr "Optisch kabelsegment"
+
+msgid "IfcCableSegmentOPTICALCABLESEGMENT_DEFINITION"
+msgstr "Een optisch kabelsegment is een kabelsegment dat een variabele aantal optische vezelsegmenten bevat."
+
+msgid "IfcCableSegmentSTITCHWIRE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentSTITCHWIRE"
+msgstr "Stitch Wire"
+
+msgid "IfcCableSegmentSTITCHWIRE_DEFINITION"
+msgstr "Een stiksel bestaat uit hulpdraden en verschillende componenten (klem) die worden gebruikt in de stikte."
+
+msgid "IfcCableSegmentWIREPAIRSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCableSegmentWIREPAIRSEGMENT"
+msgstr "Wi Reparatie Segment"
+
+msgid "IfcCableSegmentWIREPAIRSEGMENT_DEFINITION"
+msgstr "Een paar geleiders in een koperen kabel. Het paar wordt altijd samen gebruikt om een circuit te vormen om gegevens door middel van elektrische signalen te verzenden."
+
+msgid "IfcCommunicationsApplianceANTENNA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceANTENNA"
+msgstr "Antenne"
+
+msgid "IfcCommunicationsApplianceANTENNA_DEFINITION"
+msgstr "Een transducer ontworpen om elektromagnetische golven te verzenden of te ontvangen."
+
+msgid "IfcCommunicationsApplianceAUTOMATON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceAUTOMATON"
+msgstr "Automatisering"
+
+msgid "IfcCommunicationsApplianceAUTOMATON_DEFINITION"
+msgstr "Een zelfwerkende kunstmatige apparaat, het gedrag van deze organisatie wordt ofwel stiefwijs geregeld door bepaalde besluitvormingsregels ofwel voortdurend op tijd door vastgestelde relaties. terwijl de output variabelen worden gemaakt uit input en status variabelen. definitie van IEC 60050-351-42-32."
+
+msgid "IfcCommunicationsApplianceCOMPUTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceCOMPUTER"
+msgstr "Computer"
+
+msgid "IfcCommunicationsApplianceCOMPUTER_DEFINITION"
+msgstr "Een bureaublad, laptop, tablet, of een ander type computer die van de ene naar de andere plaats kan worden verplaatst en via een aangesloten aansluiting op een elektrische toevoer."
+
+msgid "IfcCommunicationsApplianceFAX_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceFAX"
+msgstr "Faxnummer"
+
+msgid "IfcCommunicationsApplianceFAX_DEFINITION"
+msgstr "Een machine die de primaire functie heeft van het versturen van een gefactureerde kopie van gedrukte materie via een telefoonlijn."
+
+msgid "IfcCommunicationsApplianceGATEWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceGATEWAY"
+msgstr "Gateway"
+
+msgid "IfcCommunicationsApplianceGATEWAY_DEFINITION"
+msgstr "Een gateway verbindt meerdere netwerksegmenten met verschillende protocollen aan alle lagen (lagen 1-7) van het Open Systems Interconnectie (OSI)."
+
+msgid "IfcCommunicationsApplianceINTELLIGENTPERIPHERAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceINTELLIGENTPERIPHERAL"
+msgstr "Intelligente perifeer"
+
+msgid "IfcCommunicationsApplianceINTELLIGENTPERIPHERAL_DEFINITION"
+msgstr "Een intelligente perifeer is een apparaat dat een verscheidenheid aan gespecialiseerde bronnen biedt volgens het corresponderende service logische programma onder controle van SCP. Deze bronnen bevatten de ontvanger van DTMF (Multi-Tone Dual-Tone Frequentie, signaal generator, opname kennisgeving, enz.). Een intelligente periferie biedt speciale hulpbronfuncties in het intelligente netwerk, toewijzen, besturen en beheren van verschillende specifieke hulpbronnen. communiceert met andere entiteiten in het netwerk, en completeert SRF bronfuncties evenals het onderhoud, beheer en statistieken functies van bronnen."
+
+msgid "IfcCommunicationsApplianceIPNETWORKEQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceIPNETWORKEQUIPMENT"
+msgstr "IP Netwerk Uitrusting"
+
+msgid "IfcCommunicationsApplianceIPNETWORKEQUIPMENT_DEFINITION"
+msgstr "Een IP-netwerkapparatuur is een apparaat dat IP-gegevenstransmissiekanalen aanbiedt voor telecomsubsystemen of andere subsystemen, zoals routers, netwerkschakelaars of firewalls."
+
+msgid "IfcCommunicationsApplianceLINESIDEELECTRONICUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceLINESIDEELECTRONICUNIT"
+msgstr "Lijn zijkant Elektronische Eenheid"
+
+msgid "IfcCommunicationsApplianceLINESIDEELECTRONICUNIT_DEFINITION"
+msgstr "De elektronische eenheid lijndivisie (LEU) is de interface tussen het balise en aangrijping op het spoor. De LEU verkrijgt de informatie van de interlocatie, en stuurt de juiste informatie in overeenstemming met de lineside signalisatie (indien beschikbaar)."
+
+msgid "IfcCommunicationsApplianceMODEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceMODEM"
+msgstr "Modem"
+
+msgid "IfcCommunicationsApplianceMODEM_DEFINITION"
+msgstr "Een modem (van modulator-demodulator) is een apparaat dat een analoge provider signaal moduleert om digitale informatie te coderen. en demotivert een dergelijk vervoerderssignaal om de verzonden informatie te decoderen."
+
+msgid "IfcCommunicationsApplianceNETWORKAPPLIANCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceNETWORKAPPLIANCE"
+msgstr "Netwerk apparaat"
+
+msgid "IfcCommunicationsApplianceNETWORKAPPLIANCE_DEFINITION"
+msgstr "Een netwerkapparaat voert een speciale functie uit zoals firewallbescherming, het filteren van inhoud, het balanceren van apparatuur of het beheren van apparatuur."
+
+msgid "IfcCommunicationsApplianceNETWORKBRIDGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceNETWORKBRIDGE"
+msgstr "Netwerk Brug"
+
+msgid "IfcCommunicationsApplianceNETWORKBRIDGE_DEFINITION"
+msgstr "Een netwerkbrug verbindt meerdere netwerksegmenten op de gegevenskoppellaag (laag 2) van het OSI-model, en de term laag 2-schakelaar wordt zeer vaak gebruikt met wisselende bridge."
+
+msgid "IfcCommunicationsApplianceNETWORKHUB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceNETWORKHUB"
+msgstr "Netwerk Hub"
+
+msgid "IfcCommunicationsApplianceNETWORKHUB_DEFINITION"
+msgstr "Een netwerkknooppunt verbindt meerdere netwerksegmenten aan de fysieke laag (laag 1) van het OSI-model."
+
+msgid "IfcCommunicationsApplianceOPTICALLINETERMINAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceOPTICALLINETERMINAL"
+msgstr "Opticalline Terminal"
+
+msgid "IfcCommunicationsApplianceOPTICALLINETERMINAL_DEFINITION"
+msgstr "Een optische lijnterminal is een eindpunt van een serviceprovider van een passief of actief optisch netwerk. Het is de terminal apparatuur voor het verbinden van vezeloptische pukjes."
+
+msgid "IfcCommunicationsApplianceOPTICALNETWORKUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceOPTICALNETWORKUNIT"
+msgstr "Optische netwerkeenheid"
+
+msgid "IfcCommunicationsApplianceOPTICALNETWORKUNIT_DEFINITION"
+msgstr "Een optische netwerkeenheid is een soort optische verbindingsapparatuur voor transmissienetwerken die op de gebruikerskant is geïnstalleerd."
+
+msgid "IfcCommunicationsAppliancePRINTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsAppliancePRINTER"
+msgstr "Printer"
+
+msgid "IfcCommunicationsAppliancePRINTER_DEFINITION"
+msgstr "Een machine met de primaire functie van het afdrukken van tekst en/of afbeeldingen op papier of andere media."
+
+msgid "IfcCommunicationsApplianceRADIOBLOCKCENTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceRADIOBLOCKCENTER"
+msgstr "Radio Block Center"
+
+msgid "IfcCommunicationsApplianceRADIOBLOCKCENTER_DEFINITION"
+msgstr "Een radioblok center is een gespecialiseerd computerapparaat in het spoor met specificatie voor het genereren van Movement Authorities (MA) en het verzenden naar treinen. Het krijgt informatie van signaleringscontrole en van de treinen in zijn afdeling."
+
+msgid "IfcCommunicationsApplianceREPEATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceREPEATER"
+msgstr "Herhaler"
+
+msgid "IfcCommunicationsApplianceREPEATER_DEFINITION"
+msgstr "Een repeater is een elektronisch apparaat dat een signaal ontvangt en deze op een hoger niveau en/of hoger vermogen zendt of op de andere kant van een belemmering, zodat het signaal langere afstanden zonder afbraak kan bedekken."
+
+msgid "IfcCommunicationsApplianceROUTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceROUTER"
+msgstr "Router"
+
+msgid "IfcCommunicationsApplianceROUTER_DEFINITION"
+msgstr "Een router is een netwerkapparaat waarvan de software en hardware gewoonlijk zijn afgestemd op de taken van het routeren en doorsturen van informatie. Op het internet wordt informatie bijvoorbeeld per router naar verschillende wegen doorgestuurd."
+
+msgid "IfcCommunicationsApplianceSCANNER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceSCANNER"
+msgstr "Scanner"
+
+msgid "IfcCommunicationsApplianceSCANNER_DEFINITION"
+msgstr "Een machine die de primaire functie heeft om de inhoud van gedrukte zaken te scannen en om te zetten in digitaal formaat dat op een computer kan worden opgeslagen."
+
+msgid "IfcCommunicationsApplianceTELECOMMAND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceTELECOMMAND"
+msgstr "Telecommaan"
+
+msgid "IfcCommunicationsApplianceTELECOMMAND_DEFINITION"
+msgstr "Een systeem dat opdracht stuurt om de schakelaars en circuitonderbrekers of systemen direct of niet aangesloten te controleren (bv. . via draden) binnen het traction power system op afstand."
+
+msgid "IfcCommunicationsApplianceTELEPHONYEXCHANGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceTELEPHONYEXCHANGE"
+msgstr "Telefonische Exchange"
+
+msgid "IfcCommunicationsApplianceTELEPHONYEXCHANGE_DEFINITION"
+msgstr "Een telefonische uitwisseling is een apparaat dat de doorvoer van telefoongesprekken en communicatie garandeert."
+
+msgid "IfcCommunicationsApplianceTRANSITIONCOMPONENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceTRANSITIONCOMPONENT"
+msgstr "Transitie component"
+
+msgid "IfcCommunicationsApplianceTRANSITIONCOMPONENT_DEFINITION"
+msgstr "Een overgangscomponent is een klein actief apparaat dat elektrische signalen converteert naar optische signalen bij de afzender, en zet optische signalen om naar elektrische signalen bij de ontvanger."
+
+msgid "IfcCommunicationsApplianceTRANSPONDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceTRANSPONDER"
+msgstr "Transponder"
+
+msgid "IfcCommunicationsApplianceTRANSPONDER_DEFINITION"
+msgstr "Een transponder is een communicatie, monitoring of controle-apparaat dat na het ontvangen van een signaal een ander signaal uitgeeft in een reactie. Transponen kunnen passief of actief zijn (bijv. elektronisch beacon, balisering)."
+
+msgid "IfcCommunicationsApplianceTRANSPORTEQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCommunicationsApplianceTRANSPORTEQUIPMENT"
+msgstr "Transportapparatuur"
+
+msgid "IfcCommunicationsApplianceTRANSPORTEQUIPMENT_DEFINITION"
+msgstr "Een transportapparatuur is een netwerkelement dat verantwoordelijk is voor de functionaliteit van het vervoer, multiplexen, overschakelen, beheren van en toezicht houden op de transmissiekanalen tussen verschillende gastheren. Hij bandbreedte, de jitter en de pakketverlieskoers."
+
+msgid "IfcDistributionBoardCONSUMERUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardCONSUMERUNIT"
+msgstr "Consumenteneenheid"
+
+msgid "IfcDistributionBoardCONSUMERUNIT_DEFINITION"
+msgstr "Een distributiepunt voor de inkomende elektriciteitsvoorziening, meestal in binnenlandse gebouwen, waar beschermende apparaten zich bevinden."
+
+msgid "IfcDistributionBoardDISPATCHINGBOARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardDISPATCHINGBOARD"
+msgstr "Bord versturen"
+
+msgid "IfcDistributionBoardDISPATCHINGBOARD_DEFINITION"
+msgstr "Een distributiepunt waarop spraak- en data-communicatiekanalen worden beheerd tussen communicatieapparaten."
+
+msgid "IfcDistributionBoardDISTRIBUTIONBOARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardDISTRIBUTIONBOARD"
+msgstr "Distributie bord"
+
+msgid "IfcDistributionBoardDISTRIBUTIONBOARD_DEFINITION"
+msgstr "Een distributiepunt waarop aansluitingen worden gemaakt voor de distributie van elektrische circuits, meestal via beschermende apparaten."
+
+msgid "IfcDistributionBoardDISTRIBUTIONFRAME_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardDISTRIBUTIONFRAME"
+msgstr "Distributie frame"
+
+msgid "IfcDistributionBoardDISTRIBUTIONFRAME_DEFINITION"
+msgstr "Een distributiekader wordt gebruikt om de bedrading tussen actieve apparatuur en abonnee te verbinden en te beheren. Het kan bestaan uit meerdere distributiekantoren en andere componenten."
+
+msgid "IfcDistributionBoardMOTORCONTROLCENTRE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardMOTORCONTROLCENTRE"
+msgstr "Motor Besturingscentrum"
+
+msgid "IfcDistributionBoardMOTORCONTROLCENTRE_DEFINITION"
+msgstr "Een distributiepunt waarop de start- en controleapparaten voor grote plantenvoorwerpen zich bevinden."
+
+msgid "IfcDistributionBoardSWITCHBOARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionBoardSWITCHBOARD"
+msgstr "Wissel bord"
+
+msgid "IfcDistributionBoardSWITCHBOARD_DEFINITION"
+msgstr "Een distributiepunt waarop het wisselen van apparaten zich bevindt."
+
+msgid "IfcElectricApplianceDISHWASHER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceDISHWASHER"
+msgstr "Vaatwasser"
+
+msgid "IfcElectricApplianceDISHWASHER_DEFINITION"
+msgstr "Een apparaat dat de primaire functie van afwas heeft."
+
+msgid "IfcElectricApplianceELECTRICCOOKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceELECTRICCOOKER"
+msgstr "Elektrische koker"
+
+msgid "IfcElectricApplianceELECTRICCOOKER_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie van kookvoer heeft (waaronder oven, hob, grill)."
+
+msgid "IfcElectricApplianceFREESTANDINGELECTRICHEATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFREESTANDINGELECTRICHEATER"
+msgstr "Elektrische gasverwarmer vrijgegeven"
+
+msgid "IfcElectricApplianceFREESTANDINGELECTRICHEATER_DEFINITION"
+msgstr "Een elektrische apparaat dat af en toe wordt gebruikt om hitte te leveren. Een losstaande elektrische verwarming is een 'ingesloten' apparaat waarvan de lading uit een elektrisch circuit kan worden verwijderd."
+
+msgid "IfcElectricApplianceFREESTANDINGFAN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFREESTANDINGFAN"
+msgstr "Vrijstaande ventilator"
+
+msgid "IfcElectricApplianceFREESTANDINGFAN_DEFINITION"
+msgstr "Een elektrische apparaat dat af en toe wordt gebruikt om ventilatie te bieden. Een losstaande ventilator is een 'plugged' apparaat waarvan de apparatuur uit een elektrisch circuit kan worden verwijderd."
+
+msgid "IfcElectricApplianceFREESTANDINGWATERCOOLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFREESTANDINGWATERCOOLER"
+msgstr "Vrijstaande waterkoeler"
+
+msgid "IfcElectricApplianceFREESTANDINGWATERCOOLER_DEFINITION"
+msgstr "Een klein lokaal elektrisch apparaat voor het koelen van water. Een losse koeler is een 'plugged' apparaat waarvan de lading uit een elektrisch circuit kan worden verwijderd."
+
+msgid "IfcElectricApplianceFREESTANDINGWATERHEATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFREESTANDINGWATERHEATER"
+msgstr "Water Water Verwarmer"
+
+msgid "IfcElectricApplianceFREESTANDINGWATERHEATER_DEFINITION"
+msgstr "Een klein lokaal elektrisch apparaat voor het verwarmen van water. Een losstaande waterverwarming is een 'geplaatste' apparaat, waarvan de lading kan worden verwijderd uit een elektrisch circuit."
+
+msgid "IfcElectricApplianceFREEZER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFREEZER"
+msgstr "Bevriezer"
+
+msgid "IfcElectricApplianceFREEZER_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie heeft van het opslaan van voedsel op temperaturen onder het vriespunt van water."
+
+msgid "IfcElectricApplianceFRIDGE_FREEZER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceFRIDGE_FREEZER"
+msgstr "Koelkast Vriezer"
+
+msgid "IfcElectricApplianceFRIDGE_FREEZER_DEFINITION"
+msgstr "Een elektrisch apparaat dat de functies van een vriezer en een koelkast combineert door middel van de levering van aparte vakken."
+
+msgid "IfcElectricApplianceHANDDRYER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceHANDDRYER"
+msgstr "Hand droger"
+
+msgid "IfcElectricApplianceHANDDRYER_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie heeft van drooghanden."
+
+msgid "IfcElectricApplianceKITCHENMACHINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceKITCHENMACHINE"
+msgstr "Keuken Machine"
+
+msgid "IfcElectricApplianceKITCHENMACHINE_DEFINITION"
+msgstr "Een gespecialiseerd apparaat dat gebruikt wordt in commerciële keukens zoals een mengaar."
+
+msgid "IfcElectricApplianceMICROWAVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceMICROWAVE"
+msgstr "Microgolven"
+
+msgid "IfcElectricApplianceMICROWAVE_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie van het koken van voedsel met behulp van microgolven heeft."
+
+msgid "IfcElectricAppliancePHOTOCOPIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricAppliancePHOTOCOPIER"
+msgstr "Photocopier"
+
+msgid "IfcElectricAppliancePHOTOCOPIER_DEFINITION"
+msgstr "Een machine die de primaire functie heeft van het reproduceren van gedrukte materiaal."
+
+msgid "IfcElectricApplianceREFRIGERATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceREFRIGERATOR"
+msgstr "Koelkast"
+
+msgid "IfcElectricApplianceREFRIGERATOR_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie heeft van het opslaan van voedsel op lage temperatuur, maar boven het vriespunt van water."
+
+msgid "IfcElectricApplianceTUMBLEDRYER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceTUMBLEDRYER"
+msgstr "Tumble droger"
+
+msgid "IfcElectricApplianceTUMBLEDRYER_DEFINITION"
+msgstr "Een elektrisch apparaat dat de primaire functie van droge kleding heeft."
+
+msgid "IfcElectricApplianceVENDINGMACHINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceVENDINGMACHINE"
+msgstr "Verkoop Machine"
+
+msgid "IfcElectricApplianceVENDINGMACHINE_DEFINITION"
+msgstr "Een apparaat dat goederen bewaart en verhandelt, waaronder eten, drinken, tickets en goederen van verschillende soorten."
+
+msgid "IfcElectricApplianceWASHINGMACHINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricApplianceWASHINGMACHINE"
+msgstr "Machine wassen"
+
+msgid "IfcElectricApplianceWASHINGMACHINE_DEFINITION"
+msgstr "Een apparaat dat de primaire functie van waskleren heeft."
+
+msgid "IfcElectricFlowStorageDeviceBATTERY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceBATTERY"
+msgstr "Accu"
+
+msgid "IfcElectricFlowStorageDeviceBATTERY_DEFINITION"
+msgstr "Een apparaat voor het opslaan van energie in chemische vorm zodat deze als elektrische energie kan worden vrijgegeven."
+
+msgid "IfcElectricFlowStorageDeviceCAPACITOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceCAPACITOR"
+msgstr "Condensator"
+
+msgid "IfcElectricFlowStorageDeviceCAPACITOR_DEFINITION"
+msgstr "Een apparaat dat elektrische opslaat wanneer een externe stroomtoevoer aanwezig is met behulp van de elektrische eigenschap van capaciteit. Twee-terminale apparaat gekenmerkt door zijn capaciteit.;definitie van IEC 60050 151-13-28."
+
+msgid "IfcElectricFlowStorageDeviceCAPACITORBANK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceCAPACITORBANK"
+msgstr "Condensatiebank"
+
+msgid "IfcElectricFlowStorageDeviceCAPACITORBANK_DEFINITION"
+msgstr "Een apparaat dat elektrische energie opslaat wanneer een externe stroomtoevoer aanwezig is met behulp van het elektrisch vermogen van capaciteit."
+
+msgid "IfcElectricFlowStorageDeviceCOMPENSATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceCOMPENSATOR"
+msgstr "Compensator"
+
+msgid "IfcElectricFlowStorageDeviceCOMPENSATOR_DEFINITION"
+msgstr "Een apparaat dat wordt gebruikt voor het repareren of aanpassen van de parameter van elektrische energie, zoals spanningsverlies, stroomfactor enzovoort."
+
+msgid "IfcElectricFlowStorageDeviceHARMONICFILTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceHARMONICFILTER"
+msgstr "Harmonisch filter"
+
+msgid "IfcElectricFlowStorageDeviceHARMONICFILTER_DEFINITION"
+msgstr "Een apparaat dat continu stroom injecteert die precies overeenkomt met de harmonische componenten getekend door de belasting."
+
+msgid "IfcElectricFlowStorageDeviceINDUCTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceINDUCTOR"
+msgstr "Inductor"
+
+msgid "IfcElectricFlowStorageDeviceINDUCTOR_DEFINITION"
+msgstr "Een apparaat dat gebruikt wordt in circuits of stroomsystemen door hun inductance, fungeert als onderdeel van een elektrische opslagapparaat."
+
+msgid "IfcElectricFlowStorageDeviceINDUCTORBANK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceINDUCTORBANK"
+msgstr "Inductor Bank"
+
+msgid "IfcElectricFlowStorageDeviceINDUCTORBANK_DEFINITION"
+msgstr "Een apparaat dat elektrische energie opslaat in een magnetisch veld met elektrisch eigendom van inductance."
+
+msgid "IfcElectricFlowStorageDeviceRECHARGER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceRECHARGER"
+msgstr "Oplader"
+
+msgid "IfcElectricFlowStorageDeviceRECHARGER_DEFINITION"
+msgstr "Een oplader of batterijlader is een apparaat dat wordt gebruikt om energie in een secundaire cel of oplaadbare batterij te stoppen door er een elektrische stroom door te drukken."
+
+msgid "IfcElectricFlowStorageDeviceUPS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowStorageDeviceUPS"
+msgstr "UPS"
+
+msgid "IfcElectricFlowStorageDeviceUPS_DEFINITION"
+msgstr "Een apparaat dat een tijdslimiet alternatieve bron van stroomvoorziening biedt in geval van falen van de hoofdvoorziening."
+
+msgid "IfcElectricFlowTreatmentDeviceELECTRONICFILTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricFlowTreatmentDeviceELECTRONICFILTER"
+msgstr "Elektronisch filter"
+
+msgid "IfcElectricFlowTreatmentDeviceELECTRONICFILTER_DEFINITION"
+msgstr "Lineair twee-poort-apparaat ontworpen om spectrale componenten van de invoerhoeveelheid te verzenden volgens een specifieke wet, over het algemeen om de onderdelen in bepaalde frequentiebanden te passeren en de onderdelen in andere banden af te dempen"
+
+msgid "IfcElectricGeneratorCHP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricGeneratorCHP"
+msgstr "CHP"
+
+msgid "IfcElectricGeneratorCHP_DEFINITION"
+msgstr "Warmtekrachtkoppeling wordt niet alleen gebruikt als energiebron maar ook als verwarmingsbron voor het gebouw. Het kan dus niet alleen een deel van een elektrisch systeem zijn, maar ook van een verwarmingssysteem."
+
+msgid "IfcElectricGeneratorENGINEGENERATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricGeneratorENGINEGENERATOR"
+msgstr "Motor Generator"
+
+msgid "IfcElectricGeneratorENGINEGENERATOR_DEFINITION"
+msgstr "Elektrische generator met een door brandstof gedreven motor, bijvoorbeeld een door diesel gedreven noodstroomvoorziening."
+
+msgid "IfcElectricGeneratorSTANDALONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricGeneratorSTANDALONE"
+msgstr "Zelfstandig"
+
+msgid "IfcElectricGeneratorSTANDALONE_DEFINITION"
+msgstr "Elektrische generator die zijn kinetische energiebron, dat wil zeggen een motor, motor of turbine niet omvat, wordt allemaal afzonderlijk gemodelleerd."
+
+msgid "IfcElectricMotorDC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricMotorDC"
+msgstr "DC"
+
+msgid "IfcElectricMotorDC_DEFINITION"
+msgstr "Een motor die ofwel gegenereerd of gecorrigeerd wordt door Direct [[Current]] (DC) vermogen."
+
+msgid "IfcElectricMotorINDUCTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricMotorINDUCTION"
+msgstr "Inductie"
+
+msgid "IfcElectricMotorINDUCTION_DEFINITION"
+msgstr "Een afwisselende huidige motor waarin de primaire winding van een lid (meestal de stat) is aangesloten op de stroombron en een secundaire wind of een eekhoorn secundaire kooi wikkeling op het andere lid (meestal de rotor) de geïnduceerde stroom draagt. Er is geen fysieke elektrische verbinding met de secundaire winning, de stroom wordt aangezwengeld."
+
+msgid "IfcElectricMotorPOLYPHASE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricMotorPOLYPHASE"
+msgstr "Polyfase"
+
+msgid "IfcElectricMotorPOLYPHASE_DEFINITION"
+msgstr "Een inducerende motor van twee of drie fasen, waarin de winden, één voor elke fase, gelijkmatig worden verdeeld door hetzelfde aantal elektrische graden."
+
+msgid "IfcElectricMotorRELUCTANCESYNCHRONOUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricMotorRELUCTANCESYNCHRONOUS"
+msgstr "Betalingsopdracht gesynchroniseerd"
+
+msgid "IfcElectricMotorRELUCTANCESYNCHRONOUS_DEFINITION"
+msgstr "Een synchrone motor met een speciaal rotorontwerp dat de rotor direct naar boven leidt met het roterende magnetische veld van de stator, staat geen slip toe onder belasting."
+
+msgid "IfcElectricMotorSYNCHRONOUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricMotorSYNCHRONOUS"
+msgstr "Synchroon"
+
+msgid "IfcElectricMotorSYNCHRONOUS_DEFINITION"
+msgstr "Een motor die constant opereert tot volledige lading. De snelheid van de rotor is gelijk aan de snelheid van het roterende magnetische veld van de stator; er is geen slip."
+
+msgid "IfcElectricTimeControlRELAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricTimeControlRELAY"
+msgstr "verzenden"
+
+msgid "IfcElectricTimeControlRELAY_DEFINITION"
+msgstr "Elektromagnetisch geopereerde contactschakelaar om een controlecircuit te maken of te breken."
+
+msgid "IfcElectricTimeControlTIMECLOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricTimeControlTIMECLOCK"
+msgstr "Tijd Klok"
+
+msgid "IfcElectricTimeControlTIMECLOCK_DEFINITION"
+msgstr "Een controle die zorgt voor actie op ingestelde tijden."
+
+msgid "IfcElectricTimeControlTIMEDELAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcElectricTimeControlTIMEDELAY"
+msgstr "Tijd Vertraging"
+
+msgid "IfcElectricTimeControlTIMEDELAY_DEFINITION"
+msgstr "Een controle die ervoor zorgt dat de actie plaatsvindt na een ingestelde duur."
+
+msgid "IfcJunctionBoxDATA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcJunctionBoxDATA"
+msgstr "Gegevens"
+
+msgid "IfcJunctionBoxDATA_DEFINITION"
+msgstr "Bevat kabels, verkooppunten en/of schakelaars voor communicatiegebruik."
+
+msgid "IfcJunctionBoxPOWER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcJunctionBoxPOWER"
+msgstr "Vermogen"
+
+msgid "IfcJunctionBoxPOWER_DEFINITION"
+msgstr "Bevat kabels, outlets, en/of schakelt uit voor stroom."
+
+msgid "IfcLampCOMPACTFLUORESCENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampCOMPACTFLUORESCENT"
+msgstr "Compactfluorescent"
+
+msgid "IfcLampCOMPACTFLUORESCENT_DEFINITION"
+msgstr "Een fluorescerende lamp met een compacte vormfactor die is geproduceerd door de tube vorm te geven."
+
+msgid "IfcLampFLUORESCENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampFLUORESCENT"
+msgstr "Fluorescerend"
+
+msgid "IfcLampFLUORESCENT_DEFINITION"
+msgstr "Een typisch tubulaire lozingslamp waarin het meeste licht wordt uitgestoten door één of meerdere fosforlagen die door ultraviolette straling van de lozing worden uitgezonden."
+
+msgid "IfcLampHALOGEN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampHALOGEN"
+msgstr "Halogeen"
+
+msgid "IfcLampHALOGEN_DEFINITION"
+msgstr "Een incandescente lamp waarin een wolfraamfilmje wordt verzegeld in een compacte transportenvelop, gevuld met inert gas en een kleine hoeveelheid halogeen zoals jodium of broom."
+
+msgid "IfcLampHIGHPRESSUREMERCURY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampHIGHPRESSUREMERCURY"
+msgstr "Hoge druk kwik"
+
+msgid "IfcLampHIGHPRESSUREMERCURY_DEFINITION"
+msgstr "Een lozingslamp waarin het licht voor het grootste deel wordt uitgestoten door spannend kwik onder hoge druk."
+
+msgid "IfcLampHIGHPRESSURESODIUM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampHIGHPRESSURESODIUM"
+msgstr "Hoge druk natrium"
+
+msgid "IfcLampHIGHPRESSURESODIUM_DEFINITION"
+msgstr "Een kwijtingslamp waarin het grootste deel van het licht wordt uitgestoten door spannend natrium, onder hoge druk."
+
+msgid "IfcLampLED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampLED"
+msgstr "LED"
+
+msgid "IfcLampLED_DEFINITION"
+msgstr "Een solide staat lamp die gebruik maakt van licht-uitlaatdieven als lichtbron."
+
+msgid "IfcLampMETALHALIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampMETALHALIDE"
+msgstr "Metalhalide"
+
+msgid "IfcLampMETALHALIDE_DEFINITION"
+msgstr "Een kwijtingslamp waarin het licht voor het grootste deel wordt uitgestoten door spannende metalen halide."
+
+msgid "IfcLampOLED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampOLED"
+msgstr "OLED"
+
+msgid "IfcLampOLED_DEFINITION"
+msgstr "Een solide staat die gebruik maakt van licht-uitstootdieven als de lichtbron waarvan de emissie elektroluminescente laag bestaat uit een film van organische verbindingen."
+
+msgid "IfcLampTUNGSTENFILAMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLampTUNGSTENFILAMENT"
+msgstr "Tungsten Filament"
+
+msgid "IfcLampTUNGSTENFILAMENT_DEFINITION"
+msgstr "Een lamp die licht uitgestoten door een elektrische stroom door een wolfraamdraad in een nabij vacuüm te passeren."
+
+msgid "IfcLightFixtureDIRECTIONSOURCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLightFixtureDIRECTIONSOURCE"
+msgstr "Richting bron"
+
+msgid "IfcLightFixtureDIRECTIONSOURCE_DEFINITION"
+msgstr "Een lichtfixatie die wordt beschouwd als een lengte- of oppervlaktegebied waaruit het licht in een richting uitgaat. Een lichtarmatuur met een of meer fluorescerende lampen is een voorbeeld van een richtingsbron."
+
+msgid "IfcLightFixturePOINTSOURCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLightFixturePOINTSOURCE"
+msgstr "Punt Bron"
+
+msgid "IfcLightFixturePOINTSOURCE_DEFINITION"
+msgstr "Een lichtfixatie die wordt beschouwd als een verwaarloosbaar gebied en die licht uitstraalt met ongeveer gelijke intensiteit in alle richtingen. Een lichte fixatie met een wolfraam, halogeen of soortgelijke gloeilamp is een voorbeeld van een puntbron."
+
+msgid "IfcLightFixtureSECURITYLIGHTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLightFixtureSECURITYLIGHTING"
+msgstr "Ing beveiligingslicht"
+
+msgid "IfcLightFixtureSECURITYLIGHTING_DEFINITION"
+msgstr "Een lichtfixatie heeft specifiek tot doel mensen in een noodsituatie te leiden, zoals een verlichte uitlaatplaat of noodlogenlicht."
+
+msgid "IfcMobileTelecommunicationsApplianceACCESSPOINT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceACCESSPOINT"
+msgstr "Toegangs punt"
+
+msgid "IfcMobileTelecommunicationsApplianceACCESSPOINT_DEFINITION"
+msgstr "Een toegangspunt is een apparaat waarmee draadloze apparaten verbinding kunnen maken met een aangesloten netwerk."
+
+msgid "IfcMobileTelecommunicationsApplianceBASEBANDUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceBASEBANDUNIT"
+msgstr "Basis banddivisie"
+
+msgid "IfcMobileTelecommunicationsApplianceBASEBANDUNIT_DEFINITION"
+msgstr "Een basebandeenheid is een onderdeel van een gedistribueerd basistransceiverstation voor het implementeren van basebandverwerkingsfuncties."
+
+msgid "IfcMobileTelecommunicationsApplianceBASETRANSCEIVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceBASETRANSCEIVE"
+msgstr "Basis Transceivers Tatie"
+
+msgid "IfcMobileTelecommunicationsApplianceBASETRANSCEIVE_DEFINITION"
+msgstr "Een basistransceiverstation (BTS) is een netwerkcomponent die één cel dient. Het voltooit de conversie tussen het basisstation controller en het draadloze kanaal, en realiseert de draadloze transmissie- en aanverwante besturingsfuncties tussen de basisstation controller en de mobiele schakeling via de luchtinterface."
+
+msgid "IfcMobileTelecommunicationsApplianceE_UTRAN_NODE_B_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceE_UTRAN_NODE_B"
+msgstr "E Utran Node B"
+
+msgid "IfcMobileTelecommunicationsApplianceE_UTRAN_NODE_B_DEFINITION"
+msgstr "Een E-utraanse nodel B is een logisch netwerkonderdeel dat een of meer E-utran-cellen dient. Het is de hardware die verbonden is met de ontwikkelde packet core (EPC), meer in het bijzonder met de entiteit voor mobiliteitsbeheer (MME), die op draadloze wijze rechtstreeks met de apparatuur van de gebruiker communiceert."
+
+msgid "IfcMobileTelecommunicationsApplianceGATEWAY_GPRS_S_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceGATEWAY_GPRS_S"
+msgstr "Gateway GPRS Support Node"
+
+msgid "IfcMobileTelecommunicationsApplianceGATEWAY_GPRS_S_DEFINITION"
+msgstr "De communicatie-eenheid GPRS-ondersteuningsnode is een onderdeel van het GPRS-core-netwerk dat de GSM uitbreidt om pakjes van functies te kunnen wisselen. Dit component is verantwoordelijk voor het internetwerken tussen het GPRS-netwerk en externe netwerken die van pakket gewisseld worden (bijv. het internet)."
+
+msgid "IfcMobileTelecommunicationsApplianceMASTERUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceMASTERUNIT"
+msgstr "Eenheid Meester"
+
+msgid "IfcMobileTelecommunicationsApplianceMASTERUNIT_DEFINITION"
+msgstr "Een master-eenheid is een onderdeel van een repeater voor signalen van koppelingstation."
+
+msgid "IfcMobileTelecommunicationsApplianceMOBILESWITCHIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceMOBILESWITCHIN"
+msgstr "Mobiel wisselcentrum"
+
+msgid "IfcMobileTelecommunicationsApplianceMOBILESWITCHIN_DEFINITION"
+msgstr "Het mobiele schakelcentrum (MSC) vormt de interface tussen het radiosysteem en de vaste netwerken. Het is een uitwisseling die alle wissel- en signaleringsfuncties voor mobiele stations uitvoert in een geografisch gebied dat is aangewezen als het MSC-gebied. Het bestaat uit een MSC-server en een media-gateway."
+
+msgid "IfcMobileTelecommunicationsApplianceMSCSERVER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceMSCSERVER"
+msgstr "MSC-server"
+
+msgid "IfcMobileTelecommunicationsApplianceMSCSERVER_DEFINITION"
+msgstr "De MSC-server bestaat hoofdzakelijk uit call-control (CC) en mobiliteitsbeheersingsonderdelen van een mobiel schakelcentrum (MSC). Een MSC-server en een media-gateway vormen de volledige functionaliteit van een MSC."
+
+msgid "IfcMobileTelecommunicationsAppliancePACKETCONTROLU_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsAppliancePACKETCONTROLU"
+msgstr "Packet Control Unit"
+
+msgid "IfcMobileTelecommunicationsAppliancePACKETCONTROLU_DEFINITION"
+msgstr "Een packet control unit voert sommige verwerkingstaken uit van de base station controller voor pakketgegevens. Het is verantwoordelijk voor datapakket, draadloos kanaalbeheer, detectie van het verzenden en automatische doorzending."
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTERADIOUNI_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTERADIOUNI"
+msgstr "Eenheid voor externe radio"
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTERADIOUNI_DEFINITION"
+msgstr "Een externe radioeenheid is een component van een gedistribueerd basistransceiverstation dat digitale basebandsignalen converteert naar signalen met een hoge frequentie (rf) en hoogfrequentie- (rf) signalen stuurt naar de antenne voor straling."
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTEUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTEUNIT"
+msgstr "Externe eenheid"
+
+msgid "IfcMobileTelecommunicationsApplianceREMOTEUNIT_DEFINITION"
+msgstr "Een externe eenheid is een apparaat dat gebruikt wordt om een basisstationssignaal te versterken."
+
+msgid "IfcMobileTelecommunicationsApplianceSERVICE_GPRS_S_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceSERVICE_GPRS_S"
+msgstr "Service GPRS Support Node"
+
+msgid "IfcMobileTelecommunicationsApplianceSERVICE_GPRS_S_DEFINITION"
+msgstr "De service GPRS support node (SGSN) is een onderdeel van het GPRS core netwerk. Het is de GPRS-ondersteuningsknooppunt van mobiele stations en het kan mobiliteitsbeheer en pakketroutering en -overdracht bereiken."
+
+msgid "IfcMobileTelecommunicationsApplianceSUBSCRIBERSERV_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMobileTelecommunicationsApplianceSUBSCRIBERSERV"
+msgstr "Ontvangers Server"
+
+msgid "IfcMobileTelecommunicationsApplianceSUBSCRIBERSERV_DEFINITION"
+msgstr "Het is een database die verantwoordelijk is voor het beheer van mobiele abonnees. Het kan een authenticatiecentrum (AuC) of een thuislocatie registreren (HLR)."
+
+msgid "IfcMotorConnectionBELTDRIVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMotorConnectionBELTDRIVE"
+msgstr "Rijden band"
+
+msgid "IfcMotorConnectionBELTDRIVE_DEFINITION"
+msgstr "Een indirecte verbinding gemaakt via het medium van een gevormde, flexibele continue lus."
+
+msgid "IfcMotorConnectionCOUPLING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMotorConnectionCOUPLING"
+msgstr "Koppeling"
+
+msgid "IfcMotorConnectionCOUPLING_DEFINITION"
+msgstr "Een indirecte verbinding gemaakt door middel van de luiheid van een vloeistof."
+
+msgid "IfcMotorConnectionDIRECTDRIVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMotorConnectionDIRECTDRIVE"
+msgstr "Directe Drive"
+
+msgid "IfcMotorConnectionDIRECTDRIVE_DEFINITION"
+msgstr "Een directe, fysieke verbinding gemaakt tussen de motor en het gemotoriseerde apparaat."
+
+msgid "IfcOutletAUDIOVISUALOUTLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOutletAUDIOVISUALOUTLET"
+msgstr "Audiovisuele uitlaat"
+
+msgid "IfcOutletAUDIOVISUALOUTLET_DEFINITION"
+msgstr "Een uitlaat gebruikt voor een audio of visuele toestel."
+
+msgid "IfcOutletCOMMUNICATIONSOUTLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOutletCOMMUNICATIONSOUTLET"
+msgstr "Communicatie Uitvoer"
+
+msgid "IfcOutletCOMMUNICATIONSOUTLET_DEFINITION"
+msgstr "Een uitlaat gebruikt voor het aansluiten van communicatieapparatuur."
+
+msgid "IfcOutletDATAOUTLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOutletDATAOUTLET"
+msgstr "Data Uitlaat"
+
+msgid "IfcOutletDATAOUTLET_DEFINITION"
+msgstr "Een uitlaat die gebruikt wordt voor het aansluiten van gegevensverbinding."
+
+msgid "IfcOutletPOWEROUTLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOutletPOWEROUTLET"
+msgstr "Kracht Uitvoer"
+
+msgid "IfcOutletPOWEROUTLET_DEFINITION"
+msgstr "Een uitlaat gebruikt voor het aansluiten van elektrische apparaten waarvoor stroom nodig is."
+
+msgid "IfcOutletTELEPHONEOUTLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOutletTELEPHONEOUTLET"
+msgstr "Telefoon Uitlaat"
+
+msgid "IfcOutletTELEPHONEOUTLET_DEFINITION"
+msgstr "Een uitlaat voor het aansluiten van een telefoonverbindingsobject."
+
+msgid "IfcProtectiveDeviceANTI_ARCING_DEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceANTI_ARCING_DEVICE"
+msgstr "Anti Boog Apparaat"
+
+msgid "IfcProtectiveDeviceANTI_ARCING_DEVICE_DEFINITION"
+msgstr "Een anti-doorborend apparaat is een uitrusting die elektrische boog voorkomt."
+
+msgid "IfcProtectiveDeviceCIRCUITBREAKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceCIRCUITBREAKER"
+msgstr "Circuit Breker"
+
+msgid "IfcProtectiveDeviceCIRCUITBREAKER_DEFINITION"
+msgstr "Een mechanisch schakelapparaat dat in staat is te maken, te dragen en de stroom te breken onder normale circuit omstandigheden en ook maken, Bij een opgegeven tijd en onderbreking, stroom onder gespecificeerde abnormale circuitomstandigheden zoals kortsluiting."
+
+msgid "IfcProtectiveDeviceEARTHINGSWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceEARTHINGSWITCH"
+msgstr "Aarding schakelaar"
+
+msgid "IfcProtectiveDeviceEARTHINGSWITCH_DEFINITION"
+msgstr "Een veiligheidsapparaat dat wordt gebruikt om een circuit te openen of te sluiten wanneer er geen stroom is. Gebruikt om een deel van een circuit te isoleren, een machine, een deel van een bovengrondse of ondergrondse lijn zodat onderhoud veilig kan worden uitgevoerd."
+
+msgid "IfcProtectiveDeviceEARTHLEAKAGECIRCUITBREAKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceEARTHLEAKAGECIRCUITBREAKER"
+msgstr "Lekke Aarde Circuit Breker"
+
+msgid "IfcProtectiveDeviceEARTHLEAKAGECIRCUITBREAKER_DEFINITION"
+msgstr "Een apparaat dat een circuit opent of sluit of isoleert en bescherming heeft tegen een kort circuit maar geen bescherming tegen overbelasting. Het probeert het circuit te doorbreken wanneer er een stroomlek van fase tot aarde is, door de spanning op de aardschrijver te meten."
+
+msgid "IfcProtectiveDeviceFUSEDISCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceFUSEDISCONNECTOR"
+msgstr "Ontbinder verbroken"
+
+msgid "IfcProtectiveDeviceFUSEDISCONNECTOR_DEFINITION"
+msgstr "Een apparaat dat stroomopwaarts het circuit opent na een periode van verlengde, abnormale huidige stroom."
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER"
+msgstr "Residualcurrent circuitonderbreker"
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTCIRCUITBREAKER_DEFINITION"
+msgstr "Een apparaat dat een circuit opent of sluit of isoleert en een korte circuit en bescherming heeft tegen overbelasting. Het probeert het circuit te breken wanneer er een verschil is in de huidige twee fasen. Misschien wordt ook wel 'Ground Fault Interupter (GFI)' of 'Ground Fault Circuit Interuptor (GFCI)' genoemd."
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTSWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTSWITCH"
+msgstr "Resterende Stroomstroom Heks"
+
+msgid "IfcProtectiveDeviceRESIDUALCURRENTSWITCH_DEFINITION"
+msgstr "Een apparaat dat een circuit opent of sluit of isoleert en geen korte bescherming heeft van het circuit of overbelasting. Kan ook worden geïdentificeerd als een 'grondfoutschakelaar'."
+
+msgid "IfcProtectiveDeviceSPARKGAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceSPARKGAP"
+msgstr "Vonk Plooi"
+
+msgid "IfcProtectiveDeviceSPARKGAP_DEFINITION"
+msgstr "Een vonk gat is een apparaat dat gebruikt wordt om een circuit met de aarde te verbinden bij een fout in levende circuits."
+
+msgid "IfcProtectiveDeviceVARISTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceVARISTOR"
+msgstr "Varkensman"
+
+msgid "IfcProtectiveDeviceVARISTOR_DEFINITION"
+msgstr "Een hoog spanningsbeveiligingsapparaat."
+
+msgid "IfcProtectiveDeviceVOLTAGELIMITER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceVOLTAGELIMITER"
+msgstr "Spanning Limiet"
+
+msgid "IfcProtectiveDeviceVOLTAGELIMITER_DEFINITION"
+msgstr "een spanningsbegrenzing is een uitrusting die overspanning voorkomt."
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTROMAGNETIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTROMAGNETIC"
+msgstr "Elektromagnetisch"
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTROMAGNETIC_DEFINITION"
+msgstr "Een doorslageenheid geactiveerd door elektromagnetische actie."
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTRONIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTRONIC"
+msgstr "Elektronisch"
+
+msgid "IfcProtectiveDeviceTrippingUnitELECTRONIC_DEFINITION"
+msgstr "Een doorslageenheid geactiveerd door elektronische actie."
+
+msgid "IfcProtectiveDeviceTrippingUnitRESIDUALCURRENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceTrippingUnitRESIDUALCURRENT"
+msgstr "Residualcurrent"
+
+msgid "IfcProtectiveDeviceTrippingUnitRESIDUALCURRENT_DEFINITION"
+msgstr "Een doorslageenheid geactiveerd door reduale huidige detectie."
+
+msgid "IfcProtectiveDeviceTrippingUnitTHERMAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProtectiveDeviceTrippingUnitTHERMAL"
+msgstr "Thermisch"
+
+msgid "IfcProtectiveDeviceTrippingUnitTHERMAL_DEFINITION"
+msgstr "Een doorslageenheid geactiveerd door thermische actie."
+
+msgid "IfcSolarDeviceSOLARCOLLECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSolarDeviceSOLARCOLLECTOR"
+msgstr "Zonne-verzamelaar"
+
+msgid "IfcSolarDeviceSOLARCOLLECTOR_DEFINITION"
+msgstr "Een apparaat dat zonnestraling converteert naar thermische energie (verwarming water, enz.)."
+
+msgid "IfcSolarDeviceSOLARPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSolarDeviceSOLARPANEL"
+msgstr "Zonnepaneel"
+
+msgid "IfcSolarDeviceSOLARPANEL_DEFINITION"
+msgstr "Een apparaat dat zonnestraling omzet naar stroomstroom."
+
+msgid "IfcSwitchingDeviceCONTACTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceCONTACTOR"
+msgstr "Contact opnemen of"
+
+msgid "IfcSwitchingDeviceCONTACTOR_DEFINITION"
+msgstr "Een elektrisch apparaat wordt gebruikt om de stroom stroom stroom stroom in of uit te voeren."
+
+msgid "IfcSwitchingDeviceDIMMERSWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceDIMMERSWITCH"
+msgstr "Dimmer schakelaar"
+
+msgid "IfcSwitchingDeviceDIMMERSWITCH_DEFINITION"
+msgstr "Een dimmer schakelaar heeft variabele posities en kan elektriciteit of andere instellingen aanpassen (volgens het geschakelde poorttype)."
+
+msgid "IfcSwitchingDeviceEMERGENCYSTOP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceEMERGENCYSTOP"
+msgstr "Stoppen bij noodgevallen"
+
+msgid "IfcSwitchingDeviceEMERGENCYSTOP_DEFINITION"
+msgstr "Een noodstopapparaat neemt zo snel mogelijk alle onverwachtse gevaren weg."
+
+msgid "IfcSwitchingDeviceKEYPAD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceKEYPAD"
+msgstr "Sleutel Pad"
+
+msgid "IfcSwitchingDeviceKEYPAD_DEFINITION"
+msgstr "Een set van knoppen of schakelingen, die mogelijk van toepassing zijn op een ander apparaat."
+
+msgid "IfcSwitchingDeviceMOMENTARYSWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceMOMENTARYSWITCH"
+msgstr "Momentaire schakelaar"
+
+msgid "IfcSwitchingDeviceMOMENTARYSWITCH_DEFINITION"
+msgstr "Een momentschakelaar heeft geen positie, en kan sommige actie activeren."
+
+msgid "IfcSwitchingDeviceRELAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceRELAY"
+msgstr "verzenden"
+
+msgid "IfcSwitchingDeviceRELAY_DEFINITION"
+msgstr "Een apparaat ontworpen om plotselinge vooraf bepaalde veranderingen te produceren in een of meer elektrische output circuits, wanneer aan bepaalde voorwaarden wordt voldaan in het elektrische invoercircuit dat het apparaat beheert. definitie van IEC 60050 151-13-31."
+
+msgid "IfcSwitchingDeviceSELECTORSWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceSELECTORSWITCH"
+msgstr "Kiezer schakelaar"
+
+msgid "IfcSwitchingDeviceSELECTORSWITCH_DEFINITION"
+msgstr "Een selector-schakelaar heeft meerdere posities en kan de bron of niveau van vermogen of andere instelling wijzigen (afhankelijk van het gewisselde poorttype)."
+
+msgid "IfcSwitchingDeviceSTARTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceSTARTER"
+msgstr "Beginner"
+
+msgid "IfcSwitchingDeviceSTARTER_DEFINITION"
+msgstr "Een starter is een schakelaar die in de gesloten positie de toepassing van stroom op een elektrisch apparaat controleert."
+
+msgid "IfcSwitchingDeviceSTART_AND_STOP_EQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceSTART_AND_STOP_EQUIPMENT"
+msgstr "Start en stop Uitrusting"
+
+msgid "IfcSwitchingDeviceSTART_AND_STOP_EQUIPMENT_DEFINITION"
+msgstr "Een schakelaar om een of meer elektrische circuits te sluiten en te openen."
+
+msgid "IfcSwitchingDeviceSWITCHDISCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceSWITCHDISCONNECTOR"
+msgstr "Wissel Disconnector"
+
+msgid "IfcSwitchingDeviceSWITCHDISCONNECTOR_DEFINITION"
+msgstr "Een schakelscheidingsschakelaar is een schakelaar die in de open positie aan de isolatienormen voldoet die zijn opgegeven voor een disconnector."
+
+msgid "IfcSwitchingDeviceTOGGLESWITCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSwitchingDeviceTOGGLESWITCH"
+msgstr "Schakelaar wisselen"
+
+msgid "IfcSwitchingDeviceTOGGLESWITCH_DEFINITION"
+msgstr "Een schakelschakelaar heeft twee posities en kan elektrische of andere instellingen in- of isoleren (volgens het geschakelde poorttype)."
+
+msgid "IfcTransformerCHOPPER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerCHOPPER"
+msgstr "Chopper"
+
+msgid "IfcTransformerCHOPPER_DEFINITION"
+msgstr "Een chopper is een elektronische DC-convertor zonder een tussenliggende AC link die een variabele uitgangsspanning geeft door de periodes van geleiding en niet-geleiding in een verstelbare verhouding te variëren."
+
+msgid "IfcTransformerCOMBINED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerCOMBINED"
+msgstr "Gecombineerd"
+
+msgid "IfcTransformerCOMBINED_DEFINITION"
+msgstr "Een transformator die verschillende hoeveelheden tussen circuits wijzigt."
+
+msgid "IfcTransformerCURRENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerCURRENT"
+msgstr "Stroom"
+
+msgid "IfcTransformerCURRENT_DEFINITION"
+msgstr "Een transformator die de stroom tussen circuits verandert."
+
+msgid "IfcTransformerFREQUENCY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerFREQUENCY"
+msgstr "Frequentie"
+
+msgid "IfcTransformerFREQUENCY_DEFINITION"
+msgstr "Een transformator die de frequentie tussen circuits wijzigt."
+
+msgid "IfcTransformerINVERTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerINVERTER"
+msgstr "Wisselrichter"
+
+msgid "IfcTransformerINVERTER_DEFINITION"
+msgstr "Een transformator die van directe stroom (DC) converteert naar wisselende stroom (AC)."
+
+msgid "IfcTransformerRECTIFIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerRECTIFIER"
+msgstr "Rectifier"
+
+msgid "IfcTransformerRECTIFIER_DEFINITION"
+msgstr "Een transformator die converteert van wisselstroom (AC) naar directe stroom (DC)."
+
+msgid "IfcTransformerVOLTAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTransformerVOLTAGE"
+msgstr "Spanning"
+
+msgid "IfcTransformerVOLTAGE_DEFINITION"
+msgstr "Een transformator die de spanning tussen circuits verandert."
+

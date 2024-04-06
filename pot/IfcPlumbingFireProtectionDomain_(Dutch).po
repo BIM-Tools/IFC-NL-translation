@@ -1,0 +1,425 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcPlumbingFireProtectionDomain.pot\n"
+"X-Crowdin-File-ID: 172\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcFireSuppressionTerminal"
+msgstr "Brandbestrijdingsterminal"
+
+msgid "IfcFireSuppressionTerminal_DEFINITION"
+msgstr "Een brandbestrijdingsterminal heeft als doel om een vloeistof (gas of liquid) te leveren die een vuur onderdrukt."
+
+msgid "Pset_FireSuppressionTerminalTypeCommon"
+msgstr "Eigenschapsset: brandbestrijdingsterminal type standaard"
+
+msgid "Pset_FireSuppressionTerminalTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor brandbestrijdingsterminal."
+
+msgid "Qto_FireSuppressionTerminalBaseQuantities"
+msgstr "Hoeveelheid set: Brandbestrijdingsterminal basishoeveelheden"
+
+msgid "Qto_FireSuppressionTerminalBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die generiek zijn met de definitie van alle voorvallen van brandbestrijding terminal."
+
+msgid "IfcInterceptor"
+msgstr "Interceptor"
+
+msgid "IfcInterceptor_DEFINITION"
+msgstr "Een onderschepper is een apparaat ontworpen en geïnstalleerd om verwijderingsonderdelen te scheiden en te behouden, gevaarlijke of ongewenste zaak terwijl normale riool- of vloeistoffen in een inzamelingssysteem met de ernst mogen lozen."
+
+msgid "Pset_InterceptorTypeCommon"
+msgstr "Eigenschap Set: Interceptor Type Gemeenschappelijk"
+
+msgid "Pset_InterceptorTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen van onderscheppers."
+
+msgid "CoverLength"
+msgstr "Cover Lengte"
+
+msgid "CoverLength_DEFINITION"
+msgstr "De lengte gemeten langs de x-as in het lokale coördinaatsysteem of de radius (in het geval van een circulaire vorm in plan) van de dekking van het object."
+
+msgid "CoverWidth"
+msgstr "Dekking breedte"
+
+msgid "CoverWidth_DEFINITION"
+msgstr "De lengte gemeten langs de y-as in het lokale coördinaatsysteem van de dekking van het object."
+
+msgid "InletConnectionSize"
+msgstr "Afmeting verbinding"
+
+msgid "InletConnectionSize_DEFINITION"
+msgstr "[[Size]] van de inlaatverbinding.; Let op dat alle inlaatverbindingen dezelfde grootte hebben."
+
+msgid "NominalBodyDepth"
+msgstr "Nominale lichaamsdiepte"
+
+msgid "NominalBodyDepth_DEFINITION"
+msgstr "De nominale of geciteerde lengte gemeten langs de z-as van het lokale coördinaatsysteem van het object."
+
+msgid "NominalBodyLength"
+msgstr "Nominale carrosserielengte"
+
+msgid "NominalBodyLength_DEFINITION"
+msgstr "Nominale of geciteerde lengte gemeten langs de x-as van het lokale coördinaatsysteem van het object."
+
+msgid "NominalBodyWidth"
+msgstr "Nominale body breedte"
+
+msgid "NominalBodyWidth_DEFINITION"
+msgstr "Lengte nominaal of aanhalingstekens, gemeten langs de y-as van het lokale coördinaatsysteem van het object."
+
+msgid "OutletConnectionSize"
+msgstr "Afvoer verbindingsgrootte"
+
+msgid "OutletConnectionSize_DEFINITION"
+msgstr "[[Size]] van de uitlaat verbinding van het object."
+
+msgid "VentilatingPipeSize"
+msgstr "Ventileer Pijp Grootte"
+
+msgid "VentilatingPipeSize_DEFINITION"
+msgstr "[[Size]] van de ventilerende buis(en)."
+
+msgid "Qto_InterceptorBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Interceptor basishoeveelheid"
+
+msgid "Qto_InterceptorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van onderschepper."
+
+msgid "IfcSanitaryTerminal"
+msgstr "Sanitaire Terminal"
+
+msgid "IfcSanitaryTerminal_DEFINITION"
+msgstr "Een sanitaire terminal is een vaste appartement of terminal die meestal wordt geleverd met water en wordt gebruikt om te drinken. schoonmaken of het vernietigen van water of dat is een uitrusting die direct wordt gebruikt met een dergelijk apparaat of terminal."
+
+msgid "Pset_SanitaryTerminalTypeCommon"
+msgstr "Eigenschapsset: Sanitaire Terminal type Common"
+
+msgid "Pset_SanitaryTerminalTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor sanitaire terminals."
+
+msgid "Qto_SanitaryTerminalBaseQuantities"
+msgstr "Aantallen instellen: Sanitaire Terminal basishoeveelheden"
+
+msgid "Qto_SanitaryTerminalBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van sanitaire terminal."
+
+msgid "IfcStackTerminal"
+msgstr "Stack Terminal"
+
+msgid "IfcStackTerminal_DEFINITION"
+msgstr "Een steenterminal wordt boven aan een ventilatiestack geplaatst (zoals het voorkomen van ingangen door vogels of regenwater) of regenwaterpijp (om te fungeren als verzamelaar of hopper voor ontleding van verstotendingen)."
+
+msgid "Pset_StackTerminalTypeCommon"
+msgstr "Eigenschapsset: Stack Terminal type Common"
+
+msgid "Pset_StackTerminalTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor stapelaansluitingen."
+
+msgid "Qto_StackTerminalBaseQuantities"
+msgstr "Aantal Set: Stack Terminal Basis Hoeveelheden"
+
+msgid "Qto_StackTerminalBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle gebeurtenissen van de stapelterminal."
+
+msgid "IfcWasteTerminal"
+msgstr "Terminal verspilling"
+
+msgid "IfcWasteTerminal_DEFINITION"
+msgstr "Een stortplaats heeft als doel afval te verzamelen of te onderscheppen van een of meer sanitaire terminals of ander vloeibaar afval dat apparatuur voortbrengt en te lozen tot één afval- en afvoersysteem."
+
+msgid "Pset_WasteTerminalTypeCommon"
+msgstr "Eigenschapsset: Afvalterminal type gebruikt"
+
+msgid "Pset_WasteTerminalTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor afvalterminals."
+
+msgid "Qto_WasteTerminalBaseQuantities"
+msgstr "Hoeveelheid Set: Afval Terminal basishoeveelheden"
+
+msgid "Qto_WasteTerminalBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van afvalterminal."
+
+msgid "IfcFireSuppressionTerminalBREECHINGINLET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalBREECHINGINLET"
+msgstr "Breekende Inlaat"
+
+msgid "IfcFireSuppressionTerminalBREECHINGINLET_DEFINITION"
+msgstr "Symmetrische buis die twee of meer inlets verenigt in één pijp. Een brouwstof kan worden gebruikt op een natte of droge risant. Gebruikt door brandweerpersoneel voor een snelle verbinding van brandweerapparatuur. Kan ook gebruikt worden voor schuim."
+
+msgid "IfcFireSuppressionTerminalFIREHYDRANT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalFIREHYDRANT"
+msgstr "Vuur Hydrant"
+
+msgid "IfcFireSuppressionTerminalFIREHYDRANT_DEFINITION"
+msgstr "Apparaat, gemonteerd op een pijp, waarmee een tijdelijke watertoevoer kan worden geleverd. Meestal wordt een staande pijp genoemd."
+
+msgid "IfcFireSuppressionTerminalFIREMONITOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalFIREMONITOR"
+msgstr "Vuur Monitor"
+
+msgid "IfcFireSuppressionTerminalFIREMONITOR_DEFINITION"
+msgstr "Ontsla monitor."
+
+msgid "IfcFireSuppressionTerminalHOSEREEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalHOSEREEL"
+msgstr "Hees Seel"
+
+msgid "IfcFireSuppressionTerminalHOSEREEL_DEFINITION"
+msgstr "Een ondersteunend kader waarbinnen een gat kan worden gevloeid."
+
+msgid "IfcFireSuppressionTerminalSPRINKLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalSPRINKLER"
+msgstr "Sprinkler"
+
+msgid "IfcFireSuppressionTerminalSPRINKLER_DEFINITION"
+msgstr "Apparaat voor het ontspoelen van water uit een pijp onder druk over een gebied."
+
+msgid "IfcFireSuppressionTerminalSPRINKLERDEFLECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFireSuppressionTerminalSPRINKLERDEFLECTOR"
+msgstr "Sprinkler doorbuiger"
+
+msgid "IfcFireSuppressionTerminalSPRINKLERDEFLECTOR_DEFINITION"
+msgstr "Apparaat gekoppeld aan een sprinkler om de waterstroom om te zetten in een spreadpatroon om het benodigde gebied te bedekken."
+
+msgid "IfcInterceptorCYCLONIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInterceptorCYCLONIC"
+msgstr "Cyclisch"
+
+msgid "IfcInterceptorCYCLONIC_DEFINITION"
+msgstr "Verwijdert grotere vloeistofdruppels of grotere vaste deeltjes."
+
+msgid "IfcInterceptorGREASE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInterceptorGREASE"
+msgstr "Smeer"
+
+msgid "IfcInterceptorGREASE_DEFINITION"
+msgstr "aanwezigheid, op de lijn van een afvoer- of ontwaterleiding, die voorkomt dat smeergeld in een afvoersysteem terechtkomt."
+
+msgid "IfcInterceptorOIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInterceptorOIL"
+msgstr "Olie"
+
+msgid "IfcInterceptorOIL_DEFINITION"
+msgstr "Een of meer kamers hebben een of meer omhulsel ingesteld om olielasten te voorkomen die de olie voor de verwijdering in een later stadium behouden."
+
+msgid "IfcInterceptorPETROL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInterceptorPETROL"
+msgstr "Benzine"
+
+msgid "IfcInterceptorPETROL_DEFINITION"
+msgstr "Twee of meer kamers met inlaat en uitlaatpijpen die voorzien zijn van benzine en benzine die op het oppervlak van het water naar ze worden gehaald om te verdampen door ventilerende buizen."
+
+msgid "IfcSanitaryTerminalBATH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalBATH"
+msgstr "Pad"
+
+msgid "IfcSanitaryTerminalBATH_DEFINITION"
+msgstr "Voor een Sanitair apparaat of voor delen van het menselijk lichaam."
+
+msgid "IfcSanitaryTerminalBIDET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalBIDET"
+msgstr "Bidet"
+
+msgid "IfcSanitaryTerminalBIDET_DEFINITION"
+msgstr "Stort water met het afwassen van de uitscheidingsorganen terwijl je op de kruid zit."
+
+msgid "IfcSanitaryTerminalCISTERN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalCISTERN"
+msgstr "Kisten"
+
+msgid "IfcSanitaryTerminalCISTERN_DEFINITION"
+msgstr "Een wateropslageenheid aangesloten aan een sanitaire terminal die is uitgerust met een apparaat, automatisch wordt uitgevoerd of door de gebruiker, die water leent om een waterkast te zuiveren (toilet) pan, urine of slop hopper."
+
+msgid "IfcSanitaryTerminalSANITARYFOUNTAIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalSANITARYFOUNTAIN"
+msgstr "Sanitaire Fontein"
+
+msgid "IfcSanitaryTerminalSANITARYFOUNTAIN_DEFINITION"
+msgstr "Een sanitaire terminal met een lage druk op water voor een specifiek doel."
+
+msgid "IfcSanitaryTerminalSHOWER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalSHOWER"
+msgstr "Douche"
+
+msgid "IfcSanitaryTerminalSHOWER_DEFINITION"
+msgstr "Installatie of afvalwaterapparaat dat een sproei water uitstoten om het menselijk lichaam te wassen."
+
+msgid "IfcSanitaryTerminalSINK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalSINK"
+msgstr "Zaak"
+
+msgid "IfcSanitaryTerminalSINK_DEFINITION"
+msgstr "Stortingswater gebruiken om vloeistoffen in huishoudelijke, culinaire, laboratorium- of industriële processen te ontvangen, te behouden of te verwijderen."
+
+msgid "IfcSanitaryTerminalTOILETPAN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalTOILETPAN"
+msgstr "Toilet Huisdier"
+
+msgid "IfcSanitaryTerminalTOILETPAN_DEFINITION"
+msgstr "bodemtoepassing om uitwerpselen te verwijderen."
+
+msgid "IfcSanitaryTerminalURINAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalURINAL"
+msgstr "Urinaal"
+
+msgid "IfcSanitaryTerminalURINAL_DEFINITION"
+msgstr "Bodems die urine krijgen en naar een afvalbak leiden."
+
+msgid "IfcSanitaryTerminalWASHHANDBASIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalWASHHANDBASIN"
+msgstr "Washand Behoort"
+
+msgid "IfcSanitaryTerminalWASHHANDBASIN_DEFINITION"
+msgstr "Stort water voor het wassen van de bovenste delen van het lichaam."
+
+msgid "IfcSanitaryTerminalWCSEAT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSanitaryTerminalWCSEAT"
+msgstr "Wc Seat"
+
+msgid "IfcSanitaryTerminalWCSEAT_DEFINITION"
+msgstr "Verouderd vastplaats dat op de bovenkant van een waterkast (WC) paneel past."
+
+msgid "IfcStackTerminalBIRDCAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStackTerminalBIRDCAGE"
+msgstr "Vogelvogel Kooi"
+
+msgid "IfcStackTerminalBIRDCAGE_DEFINITION"
+msgstr "Beschermingskooi, meestal draadmesh, bovenaan de stapel die de toegang van vogels belemmert."
+
+msgid "IfcStackTerminalCOWL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStackTerminalCOWL"
+msgstr "Koe"
+
+msgid "IfcStackTerminalCOWL_DEFINITION"
+msgstr "Een koeien geplaatst boven op een stapel om het neerklappen uit te bannen."
+
+msgid "IfcStackTerminalRAINWATERHOPPER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStackTerminalRAINWATERHOPPER"
+msgstr "Regen watertrechter"
+
+msgid "IfcStackTerminalRAINWATERHOPPER_DEFINITION"
+msgstr "Een doos geplaatst aan de bovenkant van een regenwateromleiding om regenwater te vangen van het verpruttering."
+
+msgid "IfcWasteTerminalFLOORTRAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalFLOORTRAP"
+msgstr "Vloerval"
+
+msgid "IfcWasteTerminalFLOORTRAP_DEFINITION"
+msgstr "Pijp pasvorm, ingesteld op de vloer, die vloeistof behoudt om de doorgang van foute lucht te voorkomen"
+
+msgid "IfcWasteTerminalFLOORWASTE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalFLOORWASTE"
+msgstr "Vloer Afval"
+
+msgid "IfcWasteTerminalFLOORWASTE_DEFINITION"
+msgstr "Pijp aansluiting, op de vloer, die afvalwater inzamelt en het in een aparte val lost."
+
+msgid "IfcWasteTerminalGULLYSUMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalGULLYSUMP"
+msgstr "Volledig Sump"
+
+msgid "IfcWasteTerminalGULLYSUMP_DEFINITION"
+msgstr "Leiding monteren of verzamelen van uitrustingen om oppervlaktewater of afvalwater te ontvangen, uitgerust met een verzegelde omslag."
+
+msgid "IfcWasteTerminalGULLYTRAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalGULLYTRAP"
+msgstr "Gullytrap"
+
+msgid "IfcWasteTerminalGULLYTRAP_DEFINITION"
+msgstr "Leiding monteren of assemblage van uitrusting die oppervlaktewater of afvalwater ontvangen; gemonteerd met een versneden of verzegelde omslag die water door een val lost."
+
+msgid "IfcWasteTerminalROOFDRAIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalROOFDRAIN"
+msgstr "Roofd Rain"
+
+msgid "IfcWasteTerminalROOFDRAIN_DEFINITION"
+msgstr "Pijp past in het dak, die regenwater verzamelt voor lozing in het regenwatersysteem."
+
+msgid "IfcWasteTerminalWASTEDISPOSALUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalWASTEDISPOSALUNIT"
+msgstr "Eenheid voor verwijdering van afval"
+
+msgid "IfcWasteTerminalWASTEDISPOSALUNIT_DEFINITION"
+msgstr "Elektrisch geëxploiteerd apparaat dat de keuken of ander afval reduceert tot kleine fragmenten om in een afwateringssysteem te worden gedumpt."
+
+msgid "IfcWasteTerminalWASTETRAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWasteTerminalWASTETRAP"
+msgstr "Afval (Afval)"
+
+msgid "IfcWasteTerminalWASTETRAP_DEFINITION"
+msgstr "Pijp past in de buurt van een sanitaire terminal, die vloeistof behoudt om doorvoer van buiklucht te voorkomen."
+

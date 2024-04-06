@@ -1,0 +1,866 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedBldgServiceElements.pot\n"
+"X-Crowdin-File-ID: 188\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcDistributionChamberElement"
+msgstr "Verdeelkamer element"
+
+msgid "IfcDistributionChamberElement_DEFINITION"
+msgstr "Een distributiekamer definieert een plaats waar distributiesystemen en hun bestanddelen gecontroleerd kunnen worden of waar ze doorheen kunnen reizen."
+
+msgid "Pset_DistributionChamberElementCommon"
+msgstr "Eigenschapsset: Gedeelde distributiekamer"
+
+msgid "Pset_DistributionChamberElementCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen van alle voorvallen van [[IfcDistributionChamberElement]]."
+
+msgid "Qto_DistributionChamberElementBaseQuantities"
+msgstr "Hoeveelheid set: Distributie Kamer element basishoeveelheden"
+
+msgid "Qto_DistributionChamberElementBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van distributiekamerelementen."
+
+msgid "IfcDistributionCircuit"
+msgstr "Distributie circuit"
+
+msgid "IfcDistributionCircuit_DEFINITION"
+msgstr "Een distributiekanaal is een partitie van een distributiesysteem dat voorwaardelijk wordt omgeschakeld zoals een elektrisch circuit."
+
+msgid "IfcDistributionControlElement"
+msgstr "Distributieknooppunt"
+
+msgid "IfcDistributionControlElement_DEFINITION"
+msgstr "Het distributie-element [[IfcDistributionControlElement]] definieert voorvallen van een bouwautomatiseringscontrolesysteem dat gebruikt wordt om elementen van een distributiesysteem over te dragen."
+
+msgid "IfcDistributionFlowElement"
+msgstr "Verdeelstuk element"
+
+msgid "IfcDistributionFlowElement_DEFINITION"
+msgstr "Het distributie-element [[IfcDistributionFlowElement]] definieert voorvallen van een distributiesysteem dat de distributie van energie of materie, vergemakkelijkt, zoals lucht, water of energie."
+
+msgid "IfcDistributionPort"
+msgstr "Verdeelpunt"
+
+msgid "IfcDistributionPort_DEFINITION"
+msgstr "Een distributiehaven is een inlaat of uitlaat van een product waar een bepaalde stof doorheen kan stromen."
+
+msgid "Pset_DistributionPortCommon"
+msgstr "Property Set: Distribution Port Common"
+
+msgid "Pset_DistributionPortCommon_DEFINITION"
+msgstr "Gemeenschappelijke attributen gekoppeld aan een instantie van [[IfcDistributionPort]]."
+
+msgid "ColourCode"
+msgstr "Kleur code"
+
+msgid "ColourCode_DEFINITION"
+msgstr "[[Name]] van een kleur voor het identificeren van de connector, indien van toepassing."
+
+msgid "PortNumber"
+msgstr "Nummer van poort"
+
+msgid "PortNumber_DEFINITION"
+msgstr "De poortindex voor het logischerwijs bestellen van de poort binnen het element of element type."
+
+msgid "FlowDirection"
+msgstr "Stroomrichting"
+
+msgid "FlowDirection_DEFINITION"
+msgstr "Nummering die aangeeft of deze poort een Sink (inlet) is, een bron (outlet) of een beide SinkAndSource."
+
+msgid "FlowDirection_SINK"
+msgstr "Nummering die aangeeft of deze poort een Sink (inlet) is"
+
+msgid "FlowDirection_SOURCE"
+msgstr "een bron (outlet) of beide een SinkAndSource"
+
+msgid "FlowDirection_SOURCEANDSINK"
+msgstr "Bron en Sink"
+
+msgid "FlowDirection_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "SystemType"
+msgstr "Systeem type"
+
+msgid "SystemType_DEFINITION"
+msgstr "Opsomming die het systeemtype identificeert. Als een systeemtype is gedefinieerd, kan de poort alleen worden aangesloten op andere havens met hetzelfde systeemtype."
+
+msgid "SystemType_AIRCONDITIONING"
+msgstr "Lucht conditie"
+
+msgid "SystemType_AUDIOVISUAL"
+msgstr "Audiovisuele"
+
+msgid "SystemType_CATENARY_SYSTEM"
+msgstr "Catenlijst [[System]]"
+
+msgid "SystemType_CHEMICAL"
+msgstr "Chemisch"
+
+msgid "SystemType_CHILLEDWATER"
+msgstr "Gekoeld [[Water]]"
+
+msgid "SystemType_COMMUNICATION"
+msgstr "Communicatie"
+
+msgid "SystemType_COMPRESSEDAIR"
+msgstr "Gecomprimeerde lucht"
+
+msgid "SystemType_CONDENSERWATER"
+msgstr "Condensator [[Water]]"
+
+msgid "SystemType_CONTROL"
+msgstr "Bediening"
+
+msgid "SystemType_CONVEYING"
+msgstr "Bevestigen"
+
+msgid "SystemType_DATA"
+msgstr "Gegevens"
+
+msgid "SystemType_DISPOSAL"
+msgstr "Vuilnisbak"
+
+msgid "SystemType_DOMESTICCOLDWATER"
+msgstr "Binnenlandse Koud [[Water]]"
+
+msgid "SystemType_DOMESTICHOTWATER"
+msgstr "Binnenlandse hete [[Water]]"
+
+msgid "SystemType_DRAINAGE"
+msgstr "Afvoer"
+
+msgid "SystemType_EARTHING"
+msgstr "Aarding"
+
+msgid "SystemType_ELECTRICAL"
+msgstr "Elektrisch"
+
+msgid "SystemType_ELECTROACOUSTIC"
+msgstr "Electro akoestisch"
+
+msgid "SystemType_EXHAUST"
+msgstr "Afvoer"
+
+msgid "SystemType_FIREPROTECTION"
+msgstr "Vuur Bescherming"
+
+msgid "SystemType_FIXEDTRANSMISSIONNETWORK"
+msgstr "Vast transmissienetwerk"
+
+msgid "SystemType_FUEL"
+msgstr "Brandstof"
+
+msgid "SystemType_GAS"
+msgstr "gas"
+
+msgid "SystemType_HAZARDOUS"
+msgstr "Gevaarlijke"
+
+msgid "SystemType_HEATING"
+msgstr "Verwarming"
+
+msgid "SystemType_LIGHTING"
+msgstr "Lichte Ing"
+
+msgid "SystemType_LIGHTNINGPROTECTION"
+msgstr "Bliksem bescherming"
+
+msgid "SystemType_MOBILENETWORK"
+msgstr "Mobiel netwerk"
+
+msgid "SystemType_MONITORINGSYSTEM"
+msgstr "Monitoring [[System]]"
+
+msgid "SystemType_MUNICIPALSOLIDWASTE"
+msgstr "Gemetaalachtig Stevig afval"
+
+msgid "SystemType_OIL"
+msgstr "Olie"
+
+msgid "SystemType_OPERATIONAL"
+msgstr "Operationeel"
+
+msgid "SystemType_OPERATIONALTELEPHONYSYSTEM"
+msgstr "Operationele Telefoon [[System]]"
+
+msgid "SystemType_OVERHEAD_CONTACTLINE_SYSTEM"
+msgstr "Overhead contact lijn [[System]]"
+
+msgid "SystemType_POWERGENERATION"
+msgstr "[[Power]] Generatie"
+
+msgid "SystemType_RAINWATER"
+msgstr "Regen [[Water]]"
+
+msgid "SystemType_REFRIGERATION"
+msgstr "Koeling"
+
+msgid "SystemType_RETURN_CIRCUIT"
+msgstr "Retourneer circuit"
+
+msgid "SystemType_SECURITY"
+msgstr "Beveiliging"
+
+msgid "SystemType_SEWAGE"
+msgstr "Riolatie"
+
+msgid "SystemType_SIGNAL"
+msgstr "Signaal"
+
+msgid "SystemType_STORMWATER"
+msgstr "Storm [[Water]]"
+
+msgid "SystemType_TELEPHONE"
+msgstr "Telefoon"
+
+msgid "SystemType_TV"
+msgstr "Televisie"
+
+msgid "SystemType_VACUUM"
+msgstr "Vacuüm"
+
+msgid "SystemType_VENT"
+msgstr "Vuur"
+
+msgid "SystemType_VENTILATION"
+msgstr "[[Ventilation]]"
+
+msgid "SystemType_WASTEWATER"
+msgstr "Afval [[Water]]"
+
+msgid "SystemType_WATERSUPPLY"
+msgstr "[[Water]] Toevoer"
+
+msgid "SystemType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "SystemType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "IfcDistributionSystem"
+msgstr "Distributienetwerk"
+
+msgid "IfcDistributionSystem_DEFINITION"
+msgstr "Een distributiesysteem is een netwerk ontworpen om de stroom van distributiemiddelen te ontvangen, te bewaren, te onderhouden, distribueren of te beheren. Een veelvoorkomend voorbeeld is een warmwatersysteem dat bestaat uit een pomp, een tank, en een onderling verbonden leidingsysteem voor de distributie van warm water naar de terminals."
+
+msgid "IfcEnergyConversionDevice"
+msgstr "Energieomzetter"
+
+msgid "IfcEnergyConversionDevice_DEFINITION"
+msgstr "Het distributiemomzettingselement [[IfcEnergyConversionDevice]] definieert het optreden van een apparaat dat wordt gebruikt voor energieconversie of warmteoverdracht, en neemt doorgaans deel aan een stroomdistributiesysteem. Het type wordt gedefinieerd door IfcEnergyConversionDeviceType of de bijbehorende subtypes."
+
+msgid "IfcFlowController"
+msgstr "Doorstroomregelaar"
+
+msgid "IfcFlowController_DEFINITION"
+msgstr "Het verspreidingsstroomelement [[IfcFlowController]] definieert het aantal elementen van een distributiesysteem dat wordt gebruikt om de stroom te reguleren via een distributiesysteem. Voorbeelden zijn dammerijen, klepkranen, schakelaars en lagen. Het type wordt gedefinieerd door IfcFlowControllerType of subtypes."
+
+msgid "IfcFlowFitting"
+msgstr "Stromingsfitting"
+
+msgid "IfcFlowFitting_DEFINITION"
+msgstr "Het distributiefonds element [[IfcFlowFitting]] definieert de aanwezigheid van een kruising of overgang in een distributiesysteem zoals een elleboog of thee. Het type wordt gedefinieerd door IfcFlowFittingType of de bijbehorende subtypes."
+
+msgid "IfcFlowMovingDevice"
+msgstr "Stromingsregelaar"
+
+msgid "IfcFlowMovingDevice_DEFINITION"
+msgstr "Het verspreidingsstroomelement [[IfcFlowMovingDevice]] definieert de aanwezigheid van een apparaat dat wordt gebruikt om vloeistoffen te verdelen, te circuleren of uit te voeren inclusief vloeistoffen en gassen (zoals een pomp of een franje), en neemt meestal deel aan een distributiesysteem. Het type wordt gedefinieerd door IfcFlowMovingDeviceType of zijn subtypes."
+
+msgid "IfcFlowSegment"
+msgstr "Stroomsegment"
+
+msgid "IfcFlowSegment_DEFINITION"
+msgstr "Het distributiefonds element [[IfcFlowSegment]] definieert de aanwezigheid van een segment van een stroomdistributiesysteem."
+
+msgid "IfcFlowStorageDevice"
+msgstr "Stroomopslagapparaat"
+
+msgid "IfcFlowStorageDevice_DEFINITION"
+msgstr "Het distributie flow element [[IfcFlowStorageDevice]] definieert de aanwezigheid van een apparaat dat deelneemt aan een distributiesysteem en wordt gebruikt voor tijdelijke opslag (zoals een tank). Het type wordt gedefinieerd door IfcFlowStorageDeviceType of de bijbehorende subtypes."
+
+msgid "IfcFlowTerminal"
+msgstr "Stromingsmeter"
+
+msgid "IfcFlowTerminal_DEFINITION"
+msgstr "Het verspreidingsstroomelement [[IfcFlowTerminal]] definieert de aanwezigheid van een permanent aangesloten element dat fungeert als een terminus of als begin van een distributiesysteem (zoals een luchtuitval, droog, water bijna of zink). Een terminal is meestal een punt waarop een systeem interfaces met een externe omgeving. Het type wordt gedefinieerd door IfcFlowTerminalType of de bijbehorende subtypes."
+
+msgid "IfcFlowTreatmentDevice"
+msgstr "Stroombehandelingstoestel"
+
+msgid "IfcFlowTreatmentDevice_DEFINITION"
+msgstr "Het distributie flow element [[IfcFlowTreatmentDevice]] definieert de aanwezigheid van een apparaat dat meestal wordt gebruikt om ongewenste zaken van een vloeistof te verwijderen. vloeibaar of gas en neemt meestal deel aan een stroomdistributiesysteem. Het type wordt gedefinieerd door IfcFlowTreatmentDeviceType of zijn subtypes."
+
+msgid "IfcDistributionChamberElementFORMEDDUCT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementFORMEDDUCT"
+msgstr "Formed kanaal"
+
+msgid "IfcDistributionChamberElementFORMEDDUCT_DEFINITION"
+msgstr "Er ontstond ruimte op de grond voor het doordringen van buizen, kabels, kanalen, kanalen."
+
+msgid "IfcDistributionChamberElementINSPECTIONCHAMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementINSPECTIONCHAMBER"
+msgstr "Inspectie Kamer"
+
+msgid "IfcDistributionChamberElementINSPECTIONCHAMBER_DEFINITION"
+msgstr "Kamer gebouwd op een afvoer, riool of pijpleiding met een afneembare omslag die zichtbare inspectie toestaat."
+
+msgid "IfcDistributionChamberElementINSPECTIONPIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementINSPECTIONPIT"
+msgstr "Inspectie Pit"
+
+msgid "IfcDistributionChamberElementINSPECTIONPIT_DEFINITION"
+msgstr "Er is kennis of kamer opgericht om toegang te krijgen tot de substructuur en diensten."
+
+msgid "IfcDistributionChamberElementMANHOLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementMANHOLE"
+msgstr "Manhole"
+
+msgid "IfcDistributionChamberElementMANHOLE_DEFINITION"
+msgstr "Kamer gebouwd op een afvoer, riool of pijpleiding met een uitneembare afdekking die het mogelijk maakt een persoon binnen te komen."
+
+msgid "IfcDistributionChamberElementMETERCHAMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementMETERCHAMBER"
+msgstr "Meter kamer"
+
+msgid "IfcDistributionChamberElementMETERCHAMBER_DEFINITION"
+msgstr "Kamer waar een meter(en) wonen."
+
+msgid "IfcDistributionChamberElementSUMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementSUMP"
+msgstr "Sump"
+
+msgid "IfcDistributionChamberElementSUMP_DEFINITION"
+msgstr "Gewapende of kleine kamer waarin vloeistof wordt afgevoerd om het te kunnen verwijderen."
+
+msgid "IfcDistributionChamberElementTRENCH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementTRENCH"
+msgstr "Trench"
+
+msgid "IfcDistributionChamberElementTRENCH_DEFINITION"
+msgstr "Verboden kamer, waarvan de lengte meestal groter is dan de breedte."
+
+msgid "IfcDistributionChamberElementVALVECHAMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionChamberElementVALVECHAMBER"
+msgstr "Radiatorkraan Kamer"
+
+msgid "IfcDistributionChamberElementVALVECHAMBER_DEFINITION"
+msgstr "Kamer waar een klep(n) woont."
+
+msgid "IfcDistributionPortCABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionPortCABLE"
+msgstr "Kabel"
+
+msgid "IfcDistributionPortCABLE_DEFINITION"
+msgstr "Verbinding met kabel segment of passend voor de distributie van elektriciteit."
+
+msgid "IfcDistributionPortCABLECARRIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionPortCABLECARRIER"
+msgstr "Kabel vervoerder"
+
+msgid "IfcDistributionPortCABLECARRIER_DEFINITION"
+msgstr "Verbinding maken met kabeldrager of passend bij omsluitende kabels."
+
+msgid "IfcDistributionPortDUCT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionPortDUCT"
+msgstr "Leiding"
+
+msgid "IfcDistributionPortDUCT_DEFINITION"
+msgstr "Verbinding met kanaal segment of passend voor de verdeling van de lucht."
+
+msgid "IfcDistributionPortPIPE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionPortPIPE"
+msgstr "Leiding"
+
+msgid "IfcDistributionPortPIPE_DEFINITION"
+msgstr "Verbinding met buissegment of passend voor distributie van solide, liquide of gas."
+
+msgid "IfcDistributionPortWIRELESS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionPortWIRELESS"
+msgstr "Minder Wire"
+
+msgid "IfcDistributionPortWIRELESS_DEFINITION"
+msgstr "Draadloze verbinding met communicatie-apparaten voor de distributie van gegevens of communicatie."
+
+msgid "IfcDistributionSystemAIRCONDITIONING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemAIRCONDITIONING"
+msgstr "Lucht conditie"
+
+msgid "IfcDistributionSystemAIRCONDITIONING_DEFINITION"
+msgstr "Voorwaardelijk luchtdistributiesysteem om een temperatuurbereik binnen een of meer ruimten te onderhouden."
+
+msgid "IfcDistributionSystemAUDIOVISUAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemAUDIOVISUAL"
+msgstr "Audiovisuele"
+
+msgid "IfcDistributionSystemAUDIOVISUAL_DEFINITION"
+msgstr "Een transport van een enkele mediabron met audio- en/of videostreams."
+
+msgid "IfcDistributionSystemCATENARY_SYSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCATENARY_SYSTEM"
+msgstr "Catenary System"
+
+msgid "IfcDistributionSystemCATENARY_SYSTEM_DEFINITION"
+msgstr "Een longitudinaal distributiesysteem dat contactdraden ondersteunt, waaronder catenary drappers en draadstiksels."
+
+msgid "IfcDistributionSystemCHEMICAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCHEMICAL"
+msgstr "Chemisch"
+
+msgid "IfcDistributionSystemCHEMICAL_DEFINITION"
+msgstr "Willekeurige chemische stof nader gekwalificeerd door vastgoedset zoals voor medisch of industrieel gebruik."
+
+msgid "IfcDistributionSystemCHILLEDWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCHILLEDWATER"
+msgstr "Gekoeld Water"
+
+msgid "IfcDistributionSystemCHILLEDWATER_DEFINITION"
+msgstr "Onpotabel gekoeld water, zoals verspreid door een verdamper."
+
+msgid "IfcDistributionSystemCOMMUNICATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCOMMUNICATION"
+msgstr "Communicatie"
+
+msgid "IfcDistributionSystemCOMMUNICATION_DEFINITION"
+msgstr "Communicatie"
+
+msgid "IfcDistributionSystemCOMPRESSEDAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCOMPRESSEDAIR"
+msgstr "Gecomprimeerde lucht"
+
+msgid "IfcDistributionSystemCOMPRESSEDAIR_DEFINITION"
+msgstr "Gecomprimeerd luchtsysteem."
+
+msgid "IfcDistributionSystemCONDENSERWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCONDENSERWATER"
+msgstr "Water condensator"
+
+msgid "IfcDistributionSystemCONDENSERWATER_DEFINITION"
+msgstr "Onpotabel water, zoals gecirculeerd via een condenser."
+
+msgid "IfcDistributionSystemCONTROL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCONTROL"
+msgstr "Bediening"
+
+msgid "IfcDistributionSystemCONTROL_DEFINITION"
+msgstr "Een transport of netwerk gewijd aan besturingssysteemgebruik."
+
+msgid "IfcDistributionSystemCONVEYING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemCONVEYING"
+msgstr "Bevestigen"
+
+msgid "IfcDistributionSystemCONVEYING_DEFINITION"
+msgstr "Willekeurige voorraad stoffen."
+
+msgid "IfcDistributionSystemDATA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemDATA"
+msgstr "Gegevens"
+
+msgid "IfcDistributionSystemDATA_DEFINITION"
+msgstr "Een netwerk met algemeen doel."
+
+msgid "IfcDistributionSystemDISPOSAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemDISPOSAL"
+msgstr "Vuilnisbak"
+
+msgid "IfcDistributionSystemDISPOSAL_DEFINITION"
+msgstr "Willekeurige verwijdering van stoffen."
+
+msgid "IfcDistributionSystemDOMESTICCOLDWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemDOMESTICCOLDWATER"
+msgstr "Huiselijk koud water"
+
+msgid "IfcDistributionSystemDOMESTICCOLDWATER_DEFINITION"
+msgstr "Onverwarmd drinkwaterdistributiesysteem"
+
+msgid "IfcDistributionSystemDOMESTICHOTWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemDOMESTICHOTWATER"
+msgstr "Huiselijk warm water"
+
+msgid "IfcDistributionSystemDOMESTICHOTWATER_DEFINITION"
+msgstr "Verwarmd potable water systeem"
+
+msgid "IfcDistributionSystemDRAINAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemDRAINAGE"
+msgstr "Afvoer"
+
+msgid "IfcDistributionSystemDRAINAGE_DEFINITION"
+msgstr "Afvoer ophaalsysteem."
+
+msgid "IfcDistributionSystemEARTHING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemEARTHING"
+msgstr "Aarding"
+
+msgid "IfcDistributionSystemEARTHING_DEFINITION"
+msgstr "Een route voor de aandrijving van een obligatie, met een stroom naar de grond."
+
+msgid "IfcDistributionSystemELECTRICAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemELECTRICAL"
+msgstr "Elektrisch"
+
+msgid "IfcDistributionSystemELECTRICAL_DEFINITION"
+msgstr "Een circuit voor het leveren van stroom."
+
+msgid "IfcDistributionSystemELECTROACOUSTIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemELECTROACOUSTIC"
+msgstr "Electro akoestisch"
+
+msgid "IfcDistributionSystemELECTROACOUSTIC_DEFINITION"
+msgstr "Een versterkt audiosignaal zoals voor luidsprekers."
+
+msgid "IfcDistributionSystemEXHAUST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemEXHAUST"
+msgstr "Afvoer"
+
+msgid "IfcDistributionSystemEXHAUST_DEFINITION"
+msgstr "Uitlaatlucht inzamelingssysteem voor het verwijderen van verouderde of schadelijke lucht uit een of meer ruimten."
+
+msgid "IfcDistributionSystemFIREPROTECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemFIREPROTECTION"
+msgstr "Vuur Bescherming"
+
+msgid "IfcDistributionSystemFIREPROTECTION_DEFINITION"
+msgstr "Vuurbescherming sprinkler systeem."
+
+msgid "IfcDistributionSystemFIXEDTRANSMISSIONNETWORK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemFIXEDTRANSMISSIONNETWORK"
+msgstr "Vast transmissienetwerk"
+
+msgid "IfcDistributionSystemFIXEDTRANSMISSIONNETWORK_DEFINITION"
+msgstr "Vertegenwoordigt alle bedrade netwerken die een gegevenstransmissiekanaal bieden met optische vezelkabels, koperen kabels of beide. Het voegt veel technologieën samen die gebaseerd zijn op de multiplexingsmethode."
+
+msgid "IfcDistributionSystemFUEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemFUEL"
+msgstr "Brandstof"
+
+msgid "IfcDistributionSystemFUEL_DEFINITION"
+msgstr "Willekeurige brandstofvoorziening."
+
+msgid "IfcDistributionSystemGAS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemGAS"
+msgstr "gas"
+
+msgid "IfcDistributionSystemGAS_DEFINITION"
+msgstr "Gasfase-materiaal zoals methaan of aardgas."
+
+msgid "IfcDistributionSystemHAZARDOUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemHAZARDOUS"
+msgstr "Gevaarlijke"
+
+msgid "IfcDistributionSystemHAZARDOUS_DEFINITION"
+msgstr "Gevaarlijk materiaal of vloeistof collectiesysteem."
+
+msgid "IfcDistributionSystemHEATING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemHEATING"
+msgstr "Verwarming"
+
+msgid "IfcDistributionSystemHEATING_DEFINITION"
+msgstr "[[Water]] of stoom verwarmd door een cv-ketel en verspreid via de radiatoren."
+
+msgid "IfcDistributionSystemLIGHTING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemLIGHTING"
+msgstr "Lichte Ing"
+
+msgid "IfcDistributionSystemLIGHTING_DEFINITION"
+msgstr "Een speciaal circuit voor verlichting, zoals een wedstrijd met sokken voor lampen."
+
+msgid "IfcDistributionSystemLIGHTNINGPROTECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemLIGHTNINGPROTECTION"
+msgstr "Bliksem bescherming"
+
+msgid "IfcDistributionSystemLIGHTNINGPROTECTION_DEFINITION"
+msgstr "Een pad om bliksemstroom naar de grond uit te voeren."
+
+msgid "IfcDistributionSystemMOBILENETWORK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemMOBILENETWORK"
+msgstr "Mobiel netwerk"
+
+msgid "IfcDistributionSystemMOBILENETWORK_DEFINITION"
+msgstr "Mobiel netwerk verzekert draadloze communicatie door een veilig platform te bieden voor spraak- en data-communicatie tussen infrastructuurbeheerders, inclusief chauffeurs, dispatchers, slingers teamleden en stationcontroleurs."
+
+msgid "IfcDistributionSystemMONITORINGSYSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemMONITORINGSYSTEM"
+msgstr "Toezicht systeem"
+
+msgid "IfcDistributionSystemMONITORINGSYSTEM_DEFINITION"
+msgstr "Sensorgebaseerd systeem voor de bouw en verspreiding van milieucontroles en -controle."
+
+msgid "IfcDistributionSystemMUNICIPALSOLIDWASTE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemMUNICIPALSOLIDWASTE"
+msgstr "Gemetaalachtig Stevig afval"
+
+msgid "IfcDistributionSystemMUNICIPALSOLIDWASTE_DEFINITION"
+msgstr "Items geconsumeerd en verwijderd, algemeen bekend als prullenbak of garbage."
+
+msgid "IfcDistributionSystemOIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemOIL"
+msgstr "Olie"
+
+msgid "IfcDistributionSystemOIL_DEFINITION"
+msgstr "Oliedistributie systeem."
+
+msgid "IfcDistributionSystemOPERATIONAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemOPERATIONAL"
+msgstr "Operationeel"
+
+msgid "IfcDistributionSystemOPERATIONAL_DEFINITION"
+msgstr "Bedrijfsleveranciers systeem."
+
+msgid "IfcDistributionSystemOPERATIONALTELEPHONYSYSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemOPERATIONALTELEPHONYSYSTEM"
+msgstr "Operationeel Telefoon Systeem"
+
+msgid "IfcDistributionSystemOPERATIONALTELEPHONYSYSTEM_DEFINITION"
+msgstr "Een systeem dat communicatie tussen exploitanten mogelijk maakt (bijvoorbeeld switchtender, verkeersregelgever, operationele agenten, etc. in operationele centra en op de plaats van de infrastructuur (bijvoorbeeld spoorwegen, tunnel of weg)."
+
+msgid "IfcDistributionSystemOVERHEAD_CONTACTLINE_SYSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemOVERHEAD_CONTACTLINE_SYSTEM"
+msgstr "Overschrijding contact lijn systeem"
+
+msgid "IfcDistributionSystemOVERHEAD_CONTACTLINE_SYSTEM_DEFINITION"
+msgstr "Een contactlijn boven de bovengrens van de trein met behulp van een bovengrondse contactlijn en een catenarium systeem om stroom aan tractie-eenheden te bevoorraden."
+
+msgid "IfcDistributionSystemPOWERGENERATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemPOWERGENERATION"
+msgstr "Energie Genereren"
+
+msgid "IfcDistributionSystemPOWERGENERATION_DEFINITION"
+msgstr "Een pad voor energieopwekking."
+
+msgid "IfcDistributionSystemRAINWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemRAINWATER"
+msgstr "Regen water"
+
+msgid "IfcDistributionSystemRAINWATER_DEFINITION"
+msgstr "Regenwater afkomstig van neerslag die direct op een pakketje valt."
+
+msgid "IfcDistributionSystemREFRIGERATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemREFRIGERATION"
+msgstr "Koeling"
+
+msgid "IfcDistributionSystemREFRIGERATION_DEFINITION"
+msgstr "Koudemiddel voor het voldoen aan alle of delen van een koelcyclus."
+
+msgid "IfcDistributionSystemRETURN_CIRCUIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemRETURN_CIRCUIT"
+msgstr "Retourneer circuit"
+
+msgid "IfcDistributionSystemRETURN_CIRCUIT_DEFINITION"
+msgstr "Een distributiesysteem dat het juiste pad vormt voor de terugkomst van de tractie en de huidige onder storende omstandigheden."
+
+msgid "IfcDistributionSystemSECURITY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemSECURITY"
+msgstr "Beveiliging"
+
+msgid "IfcDistributionSystemSECURITY_DEFINITION"
+msgstr "Een transport of netwerk dat is gewijd aan het gebruik van beveiligingssystemen."
+
+msgid "IfcDistributionSystemSEWAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemSEWAGE"
+msgstr "Riolatie"
+
+msgid "IfcDistributionSystemSEWAGE_DEFINITION"
+msgstr "Afvoersystemen voor riolering."
+
+msgid "IfcDistributionSystemSIGNAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemSIGNAL"
+msgstr "Signaal"
+
+msgid "IfcDistributionSystemSIGNAL_DEFINITION"
+msgstr "Een rauw analoge signaal, zoals gemoduleerde data of metingen van sensoren."
+
+msgid "IfcDistributionSystemSTORMWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemSTORMWATER"
+msgstr "Storm Water"
+
+msgid "IfcDistributionSystemSTORMWATER_DEFINITION"
+msgstr "Stormwater als gevolg van neerslag die afloopt of over het grondoppervlak reist."
+
+msgid "IfcDistributionSystemTELEPHONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemTELEPHONE"
+msgstr "Telefoon"
+
+msgid "IfcDistributionSystemTELEPHONE_DEFINITION"
+msgstr "Een vervoer of een netwerk dat is gewijd aan het gebruik van telefoonsystemen."
+
+msgid "IfcDistributionSystemTV_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemTV"
+msgstr "Televisie"
+
+msgid "IfcDistributionSystemTV_DEFINITION"
+msgstr "Een transport van meerdere mediabronnen, zoals analoge kabeltelevisie, satelliet-tv of over-lucht TV."
+
+msgid "IfcDistributionSystemVACUUM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemVACUUM"
+msgstr "Vacuüm"
+
+msgid "IfcDistributionSystemVACUUM_DEFINITION"
+msgstr "Vacuum distributie systeem."
+
+msgid "IfcDistributionSystemVENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemVENT"
+msgstr "Vuur"
+
+msgid "IfcDistributionSystemVENT_DEFINITION"
+msgstr "Vent systeem voor afvalwaterleidingssystemen."
+
+msgid "IfcDistributionSystemVENTILATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemVENTILATION"
+msgstr "Ventilatie"
+
+msgid "IfcDistributionSystemVENTILATION_DEFINITION"
+msgstr "[[Ventilation]- luchtdistributiesysteem betrof zowel de uitwisseling van lucht naar de buitenwereld als de circulatie van lucht binnen een gebouw."
+
+msgid "IfcDistributionSystemWASTEWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemWASTEWATER"
+msgstr "Water verspillen"
+
+msgid "IfcDistributionSystemWASTEWATER_DEFINITION"
+msgstr "[[Water]] negatief beïnvloed door antropogene invloed, mogelijk afkomstig van riolering, afvoer of andere bron."
+
+msgid "IfcDistributionSystemWATERSUPPLY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDistributionSystemWATERSUPPLY"
+msgstr "Water Voorraad"
+
+msgid "IfcDistributionSystemWATERSUPPLY_DEFINITION"
+msgstr "Willekeurige watertoevoer."
+

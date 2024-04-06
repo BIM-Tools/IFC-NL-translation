@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcGeometricConstraintResource.pot\n"
+"X-Crowdin-File-ID: 164\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcAlignmentCantSegmentBLOSSCURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentBLOSSCURVE"
+msgstr "B Verlies Curve"
+
+msgid "IfcAlignmentCantSegmentBLOSSCURVE_DEFINITION"
+msgstr "Niet-lineaire kant-variatie volgens de basisformule van de verliescurve (Cant)$$ \\displaylines"
+
+msgid "IfcAlignmentCantSegmentCONSTANTCANT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentCONSTANTCANT"
+msgstr "Constante Cant"
+
+msgid "IfcAlignmentCantSegmentCONSTANTCANT_DEFINITION"
+msgstr "Voor horizontale rechte lijnen is compensatie van laterale versnelling niet nodig en moet dit worden vermeden, en daarom is de toegepaste kantwaarde constant 0. of horizontale circulaire vleugels, compensatie voor de latere versnelling is heel gewoon. In deze gevallen is de toegepaste blikwaarde een constante waarde van grotere 0.Base formule (kant)$$ D=Const $$"
+
+msgid "IfcAlignmentCantSegmentCOSINECURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentCOSINECURVE"
+msgstr "Cosinecurve"
+
+msgid "IfcAlignmentCantSegmentCOSINECURVE_DEFINITION"
+msgstr "Niet-lineaire kant-variatie volgens de basisformule van Cosine curve (kant)$$ \\displaylines"
+
+msgid "IfcAlignmentCantSegmentHELMERTCURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentHELMERTCURVE"
+msgstr "Helmertcurve"
+
+msgid "IfcAlignmentCantSegmentHELMERTCURVE_DEFINITION"
+msgstr "Niet-lineaire kant-variatie volgens basisformule Helmert curve (Cant)$$ \\displaylines"
+
+msgid "IfcAlignmentCantSegmentLINEARTRANSITION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentLINEARTRANSITION"
+msgstr "Lineaire overgang"
+
+msgid "IfcAlignmentCantSegmentLINEARTRANSITION_DEFINITION"
+msgstr "Lineaire kantvariatie. Dit is de 'natuurlijke' formule voor horizontale clothoids.Basis formule (kant)$$ \\displaylines"
+
+msgid "IfcAlignmentCantSegmentSINECURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentSINECURVE"
+msgstr "Sinecurve"
+
+msgid "IfcAlignmentCantSegmentSINECURVE_DEFINITION"
+msgstr "Niet-lineaire kant-variatie volgens de basisformule van de sinuscurve (Cant)$$ \\displaylines"
+
+msgid "IfcAlignmentCantSegmentVIENNESEBEND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentCantSegmentVIENNESEBEND"
+msgstr "Viennesebend"
+
+msgid "IfcAlignmentCantSegmentVIENNESEBEND_DEFINITION"
+msgstr "Niet lineaire kant-variatie volgens de Weense bocht basisformule. De bepalende invloed van de blikvariatie van de curve in de horizontale Cartesiaanse 2D-coördinaat ruimte is uniek binnen alle andere overgangscurfers. Basis formule (Cant)$$ \\displaylines"
+
+msgid "IfcAlignmentHorizontalSegmentBLOSSCURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentBLOSSCURVE"
+msgstr "B Verlies Curve"
+
+msgid "IfcAlignmentHorizontalSegmentBLOSSCURVE_DEFINITION"
+msgstr "De verliesovergang is een recentere vorm van een overgang met hoge prestaties, zoals voorgesteld in 1936. Er is nu geen sprake van een vaste geometrische benadering van de spoorwegen."
+
+msgid "IfcAlignmentHorizontalSegmentCIRCULARARC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentCIRCULARARC"
+msgstr "Ronde boog"
+
+msgid "IfcAlignmentHorizontalSegmentCIRCULARARC_DEFINITION"
+msgstr "In het geometrisch perspectief wordt een verband gelegd tussen twee punten die een circulaire route volgen. In het dynamische perspectief wordt een segment met een constante laterale versnelling van het rijdend voertuig i genoemd. . constante curvat.**Base formule (Durfvature) **$$ \\kappa = const, \\kappa 0 $$"
+
+msgid "IfcAlignmentHorizontalSegmentCLOTHOID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentCLOTHOID"
+msgstr "Clothoïde"
+
+msgid "IfcAlignmentHorizontalSegmentCLOTHOID_DEFINITION"
+msgstr "In het geometrisch perspectief geeft een clothoïde een verband aan tussen twee punten waarbij de straal van de kromming constant verandert langs het segment in een constant tempo. De clothoïde was een vroege verwezenlijking van geometrie, ook bekend als de spiraal van de euvel of de spiraal van Koran. Het is al erg populair geworden in het weg- en spoorwegontwerp nog voordat de algemene beschikbaarheid van computers op grote schaal was vanwege de beschikbaarheid van tabulaties van de genormaliseerde clothoid. Een goede toepassing van de zogenaamde clothoïde leverde altijd snelle oplossingen voor alle relevante parameters die nodig zijn om de clothoïde segmenten tussen twee opeenvolgende segmenten met constante curvatuur te integreren. In de meeste gevallen vlot de kromming tussen een rechte lijn en een circulaire boog. n het dynamische perspectief, het geeft een segment aan met een constant tempo van laterale versnelling veranderingen veroorzaakt door de curve. De kinematische eigenschappen van de clothoïde verminderen zowel de geoefende krachten op het spoor door een trein, verbetert de reiservaring van treinreizigers en vermindert ook de stress van automobilisten door plotselinge bewegingen van het stuur te voorkomen. Hij kinematische voordelen van de clothoïde als vloeiend segment zijn ook waar voor alle andere overgangsboden die momenteel in gebruik zijn.Basis formule (urvature)$$ \\displaylines"
+
+msgid "IfcAlignmentHorizontalSegmentCOSINECURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentCOSINECURVE"
+msgstr "Cosinecurve"
+
+msgid "IfcAlignmentHorizontalSegmentCOSINECURVE_DEFINITION"
+msgstr "Cosine transitie. De cosinustransitie werd al besproken in 1868. [[Width]] de komst van hogesnelheidstreinen die werd toegepast in productieontwerpen. Het is bijvoorbeeld geïnstalleerd op Japanse hogesnelheidslijn (Curvature)$$ \\displaylines"
+
+msgid "IfcAlignmentHorizontalSegmentCUBIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentCUBIC"
+msgstr "Cubic"
+
+msgid "IfcAlignmentHorizontalSegmentCUBIC_DEFINITION"
+msgstr "In IFC CUBIC wordt een overgangssegment genoemd waar x en y coördinaten een kubieke formule volgen. enerale formules $$ y = een \\cdot x3 + b \\cdot x2 + c \\cdot x + d $$It werd al eerder ontdekt dat er een instelling werd ingesteld op '1 / 6RL' en b, Met C en d tot 0 ontstaat in veel situaties een goede schatting van de kladbloed. ubic formule voor uitlijning$$ y = \\frac"
+
+msgid "IfcAlignmentHorizontalSegmentHELMERTCURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentHELMERTCURVE"
+msgstr "Helmertcurve"
+
+msgid "IfcAlignmentHorizontalSegmentHELMERTCURVE_DEFINITION"
+msgstr "De Helmert curve of Helmert transitie is een vroeg voorbeeld van een hoogwaardige transitie. In de relevante wetenschap en techniek is het nu algemeen aanvaard dat de lineaire verandering van de kleren ongewenste kinematische invloeden naar een lopende trein met snelheden hoger dan 125 km/h veroorzaakt. n het geometrieperspectief is het Helmert-segment de assemblee van twee delen van dezelfde lengte die dezelfde verandering in de curve weerspiegelen. Een ruwe benadering staat bekend als de biquadratische parabool."
+
+msgid "IfcAlignmentHorizontalSegmentLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentLINE"
+msgstr "Lijn"
+
+msgid "IfcAlignmentHorizontalSegmentLINE_DEFINITION"
+msgstr "In het perspectief van de geometrie wordt een rechtstreeks verband tussen twee punten aangehaald. In het dynamische perspectief wordt een segment met een kromming met een waarde van 0 genoemd. Dit betekent dat er geen laterale versnelling plaatsvindt op het bewegende voertuig.**Basis formule (kvature) **$$ \\kappa=0 $$"
+
+msgid "IfcAlignmentHorizontalSegmentSINECURVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentSINECURVE"
+msgstr "Sinecurve"
+
+msgid "IfcAlignmentHorizontalSegmentSINECURVE_DEFINITION"
+msgstr "Een inleidende overgang of sinusoïdale transitie werd voorgesteld 1937. De curvature functie is opgebouwd uit één periode van een sinine functie. De sinuscurve wordt gekenmerkt door bijzonder voordelige vloeiende eigenschappen aan de eindpunten."
+
+msgid "IfcAlignmentHorizontalSegmentVIENNESEBEND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentHorizontalSegmentVIENNESEBEND"
+msgstr "Viennesebend"
+
+msgid "IfcAlignmentHorizontalSegmentVIENNESEBEND_DEFINITION"
+msgstr "De Weense Bend (R) is een innovatief element voor de overgang naar de meetkunde van het spoor. In plaats van de voertuigbeweging op het spoorvlak te analyseren, richten de optimalisatie zich op een zwaartekracht middenlijn op een gedefinieerde hoogte boven de rails. is een gevolg van het pad van de horizontale uitlijningslijn ook beïnvloed door de omslagweergave. Het eerste deel van de curvate-formule wordt gecompileerd vanuit de basisfunctie zoals de andere overgangsbodes. De extra term bevat de bankenhoek '000000' en de zwaartekrachtlijnhoogte 'h' en is uniek voor de Wenenbocht (R). Deze term veroorzaakt een kleine beweging die in de richting van de x,y layout.Curvature formules $$ \\displaylines"
+
+msgid "IfcAlignmentVerticalSegmentCIRCULARARC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentVerticalSegmentCIRCULARARC"
+msgstr "Ronde boog"
+
+msgid "IfcAlignmentVerticalSegmentCIRCULARARC_DEFINITION"
+msgstr "Verticale uitlijningssegment waar de afgeleide van de verticale hoek met betrekking tot de hellinglengte langs het spoor (3D lengte) constant is.$$ \\kappa_v = \\frac"
+
+msgid "IfcAlignmentVerticalSegmentCLOTHOID_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentVerticalSegmentCLOTHOID"
+msgstr "Clothoïde"
+
+msgid "IfcAlignmentVerticalSegmentCLOTHOID_DEFINITION"
+msgstr "Verticale uitlijningssegment waar de afgeleide van de verticale hoek met betrekking tot de hellinglengte langs het spoor (3D-lengte) een lineaire verandering volgt.; $$ \\displaylines"
+
+msgid "IfcAlignmentVerticalSegmentCONSTANTGRADIENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentVerticalSegmentCONSTANTGRADIENT"
+msgstr "Constante Gradient"
+
+msgid "IfcAlignmentVerticalSegmentCONSTANTGRADIENT_DEFINITION"
+msgstr "Verticale uitlijningssegment met constante verloop."
+
+msgid "IfcAlignmentVerticalSegmentPARABOLICARC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcAlignmentVerticalSegmentPARABOLICARC"
+msgstr "Parabolische boog"
+
+msgid "IfcAlignmentVerticalSegmentPARABOLICARC_DEFINITION"
+msgstr "Verticale uitlijningssegment waar de afgeleide van gradiënt met betrekking tot de afstand constant is.$$ \\frac"
+

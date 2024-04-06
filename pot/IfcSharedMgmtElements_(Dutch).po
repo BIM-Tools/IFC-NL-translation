@@ -1,0 +1,290 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedMgmtElements.pot\n"
+"X-Crowdin-File-ID: 196\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcActionRequest"
+msgstr "Actie verzoek"
+
+msgid "IfcActionRequest_DEFINITION"
+msgstr "Een verzoek is de handeling of het geval om iets te vragen, zoals een verzoek om informatie, inzending of de uitvoering van de werkzaamheden."
+
+msgid "Pset_ActionRequest"
+msgstr "Eigenschapsset: Actieverzoek"
+
+msgid "Pset_ActionRequest_DEFINITION"
+msgstr "Een verzoek om actie is een verzoek om actie om aan een behoefte te voldoen."
+
+msgid "RequestComments"
+msgstr "Opmerkingen aanvragen"
+
+msgid "RequestComments_DEFINITION"
+msgstr "Reacties die gemaakt kunnen worden op het verzoek."
+
+msgid "RequestSourceLabel"
+msgstr "Verzoek bronlabel"
+
+msgid "RequestSourceLabel_DEFINITION"
+msgstr "Een specifieke naam of label die de identiteit van de bron van een verzoek verder kwalificeert. In het geval van een e-mail, kan dit het e-mailadres zijn."
+
+msgid "RequestSourceName"
+msgstr "Verzoek Bron Naam"
+
+msgid "RequestSourceName_DEFINITION"
+msgstr "De persoon die het verzoek doet, is daar bekend."
+
+msgid "RequestSourceName_DESCRIPTION"
+msgstr "Technisch opmerking: dit is een specifiek eigendom van IFC dat als zijn waarde een verwijzing naar IfcPerson neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "IfcCostItem"
+msgstr "Kosten item"
+
+msgid "IfcCostItem_DEFINITION"
+msgstr "Een [[IfcCostItem]] beschrijft een kosten- of financiële waarde samen met beschrijvende informatie die de context beschrijft in een vorm die het mogelijk maakt binnen een kostenschema te worden gebruikt. Een [[IfcCostItem]] kan worden gebruikt om de kosten van goederen en diensten weer te geven de uitvoering van werken volgens proces, kosten van levenscyclus en meer."
+
+msgid "IfcCostSchedule"
+msgstr "Kosten schema"
+
+msgid "IfcCostSchedule_DEFINITION"
+msgstr "Een [[IfcCostSchedule]] brengt gevallen samen van [[IfcCostItem]] voor het identificeren van puur kostengegevens, zoals in een schatting van de bouwkosten of voor het opnemen van kosteninformatie in een ander presentatieformulier zoals een werkopdracht."
+
+msgid "SubmittedOn"
+msgstr "Verzonden op"
+
+msgid "SubmittedOn_DEFINITION"
+msgstr "De datum en tijd waarop de kostenplanning is ingesteld.;"
+
+msgid "UpdateDate"
+msgstr "Datum bijwerken"
+
+msgid "UpdateDate_DEFINITION"
+msgstr "De datum en tijd waarop dit kostenschema wordt bijgewerkt; dit maakt het mogelijk om de schemageschiedenis bij te houden.;"
+
+msgid "IfcPermit"
+msgstr "Permit"
+
+msgid "IfcPermit_DEFINITION"
+msgstr "Een vergunning is een vergunning voor het uitvoeren van werk op plaatsen en op artefacten waar regelgevers, beveiligingen of andere toegangsbeperkingen van toepassing zijn."
+
+msgid "Pset_Permit"
+msgstr "Eigenschapsset: Toestemming"
+
+msgid "Pset_Permit_DEFINITION"
+msgstr "Een vergunning is een document dat toestemming geeft om toegang te krijgen tot een gebied of werk uit te voeren in een situatie waarin veiligheid of andere toegangsbeperkingen van toepassing zijn."
+
+msgid "EndDate"
+msgstr "Eind datum"
+
+msgid "EndDate_DEFINITION"
+msgstr "Datum en tijdstip waarop de vergunning niet meer geldig is."
+
+msgid "EscortRequirement"
+msgstr "Eenheid Escort"
+
+msgid "EscortRequirement_DEFINITION"
+msgstr "Geeft aan of een escorte vereist is om personen te vergezellen die een werkorder uitvoeren op of naar/vanaf de plaats van werk (= WAAR ) of niet (= FALSE)."
+
+msgid "SpecialRequirements"
+msgstr "Speciale Vereisten"
+
+msgid "SpecialRequirements_DEFINITION"
+msgstr "Eventuele extra speciale eisen die in de werkvergunning moeten worden opgenomen."
+
+msgid "StartDate"
+msgstr "Start datum"
+
+msgid "StartDate_DEFINITION"
+msgstr "Datum en tijd waarop de vergunning geldig wordt."
+
+msgid "IfcActionRequestEMAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActionRequestEMAIL"
+msgstr "E-mailadres"
+
+msgid "IfcActionRequestEMAIL_DEFINITION"
+msgstr "Verzoek is gemaakt via e-mail."
+
+msgid "IfcActionRequestFAX_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActionRequestFAX"
+msgstr "Faxnummer"
+
+msgid "IfcActionRequestFAX_DEFINITION"
+msgstr "Het verzoek is ingediend via facsimile."
+
+msgid "IfcActionRequestPHONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActionRequestPHONE"
+msgstr "Telefoonnummer"
+
+msgid "IfcActionRequestPHONE_DEFINITION"
+msgstr "Het verzoek is mondeling via een telefoon ingediend."
+
+msgid "IfcActionRequestPOST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActionRequestPOST"
+msgstr "Plaatsen"
+
+msgid "IfcActionRequestPOST_DEFINITION"
+msgstr "Verzoek is via post verzonden."
+
+msgid "IfcActionRequestVERBAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcActionRequestVERBAL"
+msgstr "Baal"
+
+msgid "IfcActionRequestVERBAL_DEFINITION"
+msgstr "Het verzoek is persoonlijk ingediend."
+
+msgid "IfcCostScheduleBUDGET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleBUDGET"
+msgstr "Begroting"
+
+msgid "IfcCostScheduleBUDGET_DEFINITION"
+msgstr "Het toewijzen van geld voor een bepaald doel."
+
+msgid "IfcCostScheduleCOSTPLAN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleCOSTPLAN"
+msgstr "Kosten Plan"
+
+msgid "IfcCostScheduleCOSTPLAN_DEFINITION"
+msgstr "Een beoordeling van de hoeveelheid geld die moet worden uitgegeven voor een bepaald doel op basis van onvolledige informatie over de goederen en diensten die nodig zijn voor een bouw of installatie."
+
+msgid "IfcCostScheduleESTIMATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleESTIMATE"
+msgstr "Geschatte"
+
+msgid "IfcCostScheduleESTIMATE_DEFINITION"
+msgstr "Een beoordeling van de hoeveelheid geld die moet worden uitgegeven voor een bepaald doel op basis van feitelijke informatie over de goederen en diensten die nodig zijn voor een bouw of installatie."
+
+msgid "IfcCostSchedulePRICEDBILLOFQUANTITIES_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostSchedulePRICEDBILLOFQUANTITIES"
+msgstr "Prijzen factuur van de hoeveelheid"
+
+msgid "IfcCostSchedulePRICEDBILLOFQUANTITIES_DEFINITION"
+msgstr "Een volledige lijst van alle werkitems die bouwwerken of installatie werken waarin kosten zijn toegewezen aan werkitems."
+
+msgid "IfcCostScheduleSCHEDULEOFRATES_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleSCHEDULEOFRATES"
+msgstr "Planning van tarieven"
+
+msgid "IfcCostScheduleSCHEDULEOFRATES_DEFINITION"
+msgstr "Een lijst van elk type goederen die de bouw of installatie vormen werkt met de kosten van de aankoop, constructie/installatie, boven koppen en winst toegewezen zodat extra items van dat type kunnen worden berekend."
+
+msgid "IfcCostScheduleTENDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleTENDER"
+msgstr "Tender"
+
+msgid "IfcCostScheduleTENDER_DEFINITION"
+msgstr "Een aanbod om goederen en diensten te leveren."
+
+msgid "IfcCostScheduleUNPRICEDBILLOFQUANTITIES_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCostScheduleUNPRICEDBILLOFQUANTITIES"
+msgstr "Ongeprijsde factuur hoeveelheid"
+
+msgid "IfcCostScheduleUNPRICEDBILLOFQUANTITIES_DEFINITION"
+msgstr "Een volledige lijst van alle werkitems die bouwen of installatie werken waarbij de kosten nog niet zijn toegewezen aan werkitems."
+
+msgid "IfcPermitACCESS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPermitACCESS"
+msgstr "Toegangsrechten"
+
+msgid "IfcPermitACCESS_DEFINITION"
+msgstr "Maakt toegang tot een geïdentificeerd gebied mogelijk."
+
+msgid "IfcPermitBUILDING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPermitBUILDING"
+msgstr "Gebouw"
+
+msgid "IfcPermitBUILDING_DEFINITION"
+msgstr "Maakt het mogelijk om verder te gaan met het verkrijgen van regelgevende machtigingen."
+
+msgid "IfcPermitWORK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPermitWORK"
+msgstr "Werk"
+
+msgid "IfcPermitWORK_DEFINITION"
+msgstr "Maakt het mogelijk om werk uit te voeren in een bepaald gebied."
+
+msgid "IfcProjectOrderCHANGEORDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectOrderCHANGEORDER"
+msgstr "Volgorde wijzigen"
+
+msgid "IfcProjectOrderCHANGEORDER_DEFINITION"
+msgstr "Een instructie om een wijziging aan te brengen in een product of werk dat wordt uitgevoerd en een beschrijving van het werk dat zal worden uitgevoerd."
+
+msgid "IfcProjectOrderMAINTENANCEWORKORDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectOrderMAINTENANCEWORKORDER"
+msgstr "Onderhoud werkorder"
+
+msgid "IfcProjectOrderMAINTENANCEWORKORDER_DEFINITION"
+msgstr "Een instructie voor het uitvoeren van onderhoudswerk en een beschrijving van het werk dat moet worden uitgevoerd."
+
+msgid "IfcProjectOrderMOVEORDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectOrderMOVEORDER"
+msgstr "Bestelling verplaatsen"
+
+msgid "IfcProjectOrderMOVEORDER_DEFINITION"
+msgstr "Een instructie voor het verplaatsen van personen en artefacten, een beschrijving van de verplaatsingslocaties, objecten om te verplaatsen, enz."
+
+msgid "IfcProjectOrderPURCHASEORDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectOrderPURCHASEORDER"
+msgstr "Inkooporder"
+
+msgid "IfcProjectOrderPURCHASEORDER_DEFINITION"
+msgstr "Een instructie om goederen en/of diensten te kopen en een beschrijving van de goederen en/of diensten die moeten worden gekocht die moeten worden uitgevoerd."
+
+msgid "IfcProjectOrderWORKORDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcProjectOrderWORKORDER"
+msgstr "Werk volgorde"
+
+msgid "IfcProjectOrderWORKORDER_DEFINITION"
+msgstr "Een algemene instructie voor het uitvoeren van werk en een beschrijving van het te verrichten werk. Let op het verschil tussen een werkorder in het algemeen en een onderhoudsopdracht."
+

@@ -1,0 +1,383 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcRoadDomain.pot\n"
+"X-Crowdin-File-ID: 184\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcKerb"
+msgstr "Kerb"
+
+msgid "IfcKerb_DEFINITION"
+msgstr "Een grens van steen, beton of ander rigide materiaal gevormd aan de rand van de wagon of voetbal."
+
+msgid "Pset_KerbCommon"
+msgstr "Eigenschapsset: Kerb Gemeenschappelijk"
+
+msgid "Pset_KerbCommon_DEFINITION"
+msgstr "Eigenschappen van een kerb."
+
+msgid "CombinedKerbGutter"
+msgstr "Gecombineerde Kerb Kutter"
+
+msgid "CombinedKerbGutter_DEFINITION"
+msgstr "Een indicatie van het gebruik van een gecombineerde kerel en gutter."
+
+msgid "Mountable"
+msgstr "Bergbaar"
+
+msgid "Mountable_DEFINITION"
+msgstr "Geeft aan of de kerel gemakkelijk kan worden beklommen door een voertuig."
+
+msgid "Upstand"
+msgstr "Upstand"
+
+msgid "Upstand_DEFINITION"
+msgstr "De hoogte verschilt tussen de twee gescheiden oppervlakken."
+
+msgid "Pset_KerbStone"
+msgstr "Eigenschapsset: Kerb Steen"
+
+msgid "Pset_KerbStone_DEFINITION"
+msgstr "Eigenschappen voor kerbeenstenen."
+
+msgid "StoneFinishes"
+msgstr "Steen Voltooid"
+
+msgid "StoneFinishes_DEFINITION"
+msgstr "Bijv. 'Gepolijt', 'Bush Hammered', 'Split', 'Zaag', 'Vlammen'"
+
+msgid "TypeDesignation"
+msgstr "Type aanduiding"
+
+msgid "TypeDesignation_DEFINITION"
+msgstr "[[Type]] aanduiding voor het element. De inhoud is afhankelijk van lokale normen. Bijv. 'Bull nose', 'Halve batterij, 'Dropper', 'Chamfer' etc."
+
+msgid "Pset_OnSiteCastKerb"
+msgstr "Eigenschapsset: Op Website Cast Kerb"
+
+msgid "Pset_OnSiteCastKerb_DEFINITION"
+msgstr "Eigenschappen voor een site cast kerb."
+
+msgid "Pset_PrecastKerbStone"
+msgstr "Eigenschapsset: Precast Kerb Steen"
+
+msgid "Pset_PrecastKerbStone_DEFINITION"
+msgstr "Eigenschappen voor eerdere kerksteen."
+
+msgid "Pset_RadiiKerbStone"
+msgstr "Eigenschapsset: Radii Kerb Steen"
+
+msgid "Pset_RadiiKerbStone_DEFINITION"
+msgstr "Eigenschappen die de kernstenen radii beschrijven."
+
+msgid "CurveShape"
+msgstr "Curve Vorm"
+
+msgid "CurveShape_DEFINITION"
+msgstr "Vorm volgens CurveShapeEnum"
+
+msgid "CurveShape_EXTERNAL"
+msgstr "Extern"
+
+msgid "CurveShape_INTERNAL"
+msgstr "Binnen"
+
+msgid "Radius"
+msgstr "Radius"
+
+msgid "Radius_DEFINITION"
+msgstr "De straal van het object. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "Qto_KerbBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kerb basishoeveelheid"
+
+msgid "Qto_KerbBaseQuantities_DEFINITION"
+msgstr "Hoeveelheid ingesteld voor Kerb Basis."
+
+msgid "IfcRoad"
+msgstr "Weg"
+
+msgid "IfcRoad_DEFINITION"
+msgstr "Een route die op land gebouwd is om van de ene locatie naar de andere te kunnen rijden, waaronder snelwegen, straten, fietsen en voetpaden, met uitzondering van de spoorwegen. Als type Faciliteit biedt weg het basiselement in de projectstructuur hiërarchie voor de onderdelen van een wegenproject (i. . elke onderneming als ontwerp, constructie of onderhoud."
+
+msgid "Pset_RoadDesignCriteriaCommon"
+msgstr "Eigenschapsset: Road Design Criteria gemeenschappelijk"
+
+msgid "Pset_RoadDesignCriteriaCommon_DEFINITION"
+msgstr "Criteria voor wegenontwerp die aan wegonderdelen kunnen worden gekoppeld."
+
+msgid "Crossfall"
+msgstr "Kruis val"
+
+msgid "Crossfall_DEFINITION"
+msgstr "Geeft de nominale kruisval aan als ratio (helling) op de locatie van het evenement."
+
+msgid "DesignSpeed"
+msgstr "Ontwerp snelheid"
+
+msgid "DesignSpeed_DEFINITION"
+msgstr "Snelheid geselecteerd in het ontwerpen van een nieuwe weg of in het moderniseren, versterken of herstellen van een bestaand weggedeelte, het bepalen van de verschillende geometrische ontwerpkenmerken van de wagon die het mogelijk maken om veilig op die snelheid te rijden, onder normale wegoppervlakte en weersomstandigheden."
+
+msgid "DesignTrafficVolume"
+msgstr "Ontwerp dataverkeer Volume"
+
+msgid "DesignTrafficVolume_DEFINITION"
+msgstr "Het verkeersvolume voor plannings- en ontwerpdoeleinden gespecificeerd als het aantal voertuigen per dag. Meestal gegeven als AADT - Gemiddelde Dagelijkse Verkeer"
+
+msgid "DesignVehicleClass"
+msgstr "Ontwerp autoklasse"
+
+msgid "DesignVehicleClass_DEFINITION"
+msgstr "Een voertuigondertekenaar met inhoud volgens lokale normen."
+
+msgid "LaneWidth"
+msgstr "Rane breedte"
+
+msgid "LaneWidth_DEFINITION"
+msgstr "[[Standard]] nominale breedte van één trouwe lane."
+
+msgid "NumberOfThroughLanes"
+msgstr "Aantal door de rijen heen"
+
+msgid "NumberOfThroughLanes_DEFINITION"
+msgstr "Het totale aantal door rijstroken op het segment. Dit exclusief hulpstromen, parkeerplaatsen en draaislannen, versnelling/vertragingstrajecten, laden etc."
+
+msgid "RoadDesignClass"
+msgstr "Wegontwerp les"
+
+msgid "RoadDesignClass_DEFINITION"
+msgstr "Een wegontwerpklasse aanduiding met inhoud volgens lokale normen."
+
+msgid "IfcRoadPart"
+msgstr "Width"
+
+msgid "IfcRoadPart_DEFINITION"
+msgstr "Specificeert de algemene eigenschappen voor een [[Width]] evenement."
+
+msgid "IfcRoadPartBICYCLECROSSING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartBICYCLECROSSING"
+msgstr "Fietsen kruisen"
+
+msgid "IfcRoadPartBICYCLECROSSING_DEFINITION"
+msgstr "Ontworpen level oversteek over een weg voor fietsers."
+
+msgid "IfcRoadPartBUS_STOP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartBUS_STOP"
+msgstr "Bus Stop"
+
+msgid "IfcRoadPartBUS_STOP_DEFINITION"
+msgstr "Lateral deel van de weg voor het stoppen van bussen, zodat ze uit de rijroutes kunnen trekken en korte periodes kunnen wachten."
+
+msgid "IfcRoadPartCARRIAGEWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartCARRIAGEWAY"
+msgstr "Vervoersverbinding"
+
+msgid "IfcRoadPartCARRIAGEWAY_DEFINITION"
+msgstr "Unitair lateral onderdeel van de weg die is gebouwd voor verkeer. Vervoersvervoer kan bestaan uit verschillende soorten verkeersroutes en lay-outs en transporteilanden, en in het geval van dubbele vervoerslijnen zijn ze gescheiden door een centrale reserve."
+
+msgid "IfcRoadPartCENTRALISLAND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartCENTRALISLAND"
+msgstr "Centraal Eiland"
+
+msgid "IfcRoadPartCENTRALISLAND_DEFINITION"
+msgstr "Het centrum van een rondetafelgesprek dat niet voor verkeer is bedoeld, kan worden geverfd of opgevoerd."
+
+msgid "IfcRoadPartCENTRALRESERVE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartCENTRALRESERVE"
+msgstr "Centraal Reserve"
+
+msgid "IfcRoadPartCENTRALRESERVE_DEFINITION"
+msgstr "Lateraal wegdeel scheidt twee slepen van dezelfde weg of scheidt rijroutes en zijwandelingen."
+
+msgid "IfcRoadPartHARDSHOULDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartHARDSHOULDER"
+msgstr "Harde Schouder"
+
+msgid "IfcRoadPartHARDSHOULDER_DEFINITION"
+msgstr "Een type schouder dat wordt oppervlakt, dat voorziet in veilig gebruik door voertuigen in nood."
+
+msgid "IfcRoadPartINTERSECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartINTERSECTION"
+msgstr "Doorsnede"
+
+msgid "IfcRoadPartINTERSECTION_DEFINITION"
+msgstr "Leerling van hoog niveau waar twee of meer wegen elkaar of kruisen. Intersecties kunnen verder worden geclassificeerd door het aantal wegsegmenten, verkeerscontroles, en/of rijstontwerp."
+
+msgid "IfcRoadPartLAYBY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartLAYBY"
+msgstr "Layby"
+
+msgid "IfcRoadPartLAYBY_DEFINITION"
+msgstr "Een lateraal deel van de weg waar voertuigen kunnen omleiden van de gewone verkeersstroom."
+
+msgid "IfcRoadPartPARKINGBAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartPARKINGBAY"
+msgstr "Baai parkeren"
+
+msgid "IfcRoadPartPARKINGBAY_DEFINITION"
+msgstr "Laterdeel van de weg voor parkeerauto's."
+
+msgid "IfcRoadPartPASSINGBAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartPASSINGBAY"
+msgstr "Wachtende baai"
+
+msgid "IfcRoadPartPASSINGBAY_DEFINITION"
+msgstr "Een lateraal deel van de weg dat een andere rijstrook waar een voertuig kan oversteken om een ander voertuig in staat te stellen door te rijden."
+
+msgid "IfcRoadPartPEDESTRIAN_CROSSING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartPEDESTRIAN_CROSSING"
+msgstr "Voetgangers Kruising"
+
+msgid "IfcRoadPartPEDESTRIAN_CROSSING_DEFINITION"
+msgstr "Ontworpen level kruist over een weg voor voetgangers."
+
+msgid "IfcRoadPartRAILWAYCROSSING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartRAILWAYCROSSING"
+msgstr "Spoorweg Kruising"
+
+msgid "IfcRoadPartRAILWAYCROSSING_DEFINITION"
+msgstr "At-gradale oversteek tussen weg en spoor."
+
+msgid "IfcRoadPartREFUGEISLAND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartREFUGEISLAND"
+msgstr "Ontspan Eiland"
+
+msgid "IfcRoadPartREFUGEISLAND_DEFINITION"
+msgstr "Een verhoogde platform of een bewaakt gebied zo in de transportbaan gelegen om de verkeersstromen te verdelen en een veiligheidsruimte te bieden voor voetgangers."
+
+msgid "IfcRoadPartROADSEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartROADSEGMENT"
+msgstr "Weg segment"
+
+msgid "IfcRoadPartROADSEGMENT_DEFINITION"
+msgstr "Longitudinaal, lineair segment van een weg, gedefinieerd door uniforme kenmerken, of als een overgangssegment (bijv. het aantal rijen verandert)."
+
+msgid "IfcRoadPartROADSIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartROADSIDE"
+msgstr "Zijde weg"
+
+msgid "IfcRoadPartROADSIDE_DEFINITION"
+msgstr "Een lateraal wegdeel gelegen langs de weg grenzend aan de buitenste randen van de schouders. Een algemeen concept dat de gebieden buiten het RoadwayPlateau omvat die niet voor voertuigen bestemd zijn."
+
+msgid "IfcRoadPartROADSIDEPART_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartROADSIDEPART"
+msgstr "Onderdeel wegzijde"
+
+msgid "IfcRoadPartROADSIDEPART_DEFINITION"
+msgstr "Een algemeen concept voor de verschillende onderdelen van de weg."
+
+msgid "IfcRoadPartROADWAYPLATEAU_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartROADWAYPLATEAU"
+msgstr "Roadway Plateau"
+
+msgid "IfcRoadPartROADWAYPLATEAU_DEFINITION"
+msgstr "Lateraal deel van de weg bestaat uit de dracht(s), schouders en medianen."
+
+msgid "IfcRoadPartROUNDABOUT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartROUNDABOUT"
+msgstr "Ronding"
+
+msgid "IfcRoadPartROUNDABOUT_DEFINITION"
+msgstr "[[Type]] van hoog niveau waarop verkeersstromen om een cirkel worden geleid."
+
+msgid "IfcRoadPartSHOULDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartSHOULDER"
+msgstr "Schouder"
+
+msgid "IfcRoadPartSHOULDER_DEFINITION"
+msgstr "Een lateraal deel van de weg grenst aan en meestal op hetzelfde niveau als de vervoerweg; niet bedoeld voor het autoverkeer, maar wel in geval van nood."
+
+msgid "IfcRoadPartSIDEWALK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartSIDEWALK"
+msgstr "Zijde wandeling"
+
+msgid "IfcRoadPartSIDEWALK_DEFINITION"
+msgstr "Een voetpad langs de kant van de weg. Kan gematigde veranderingen in rang (hoogte) doorvoeren en normaal gesproken worden gescheiden van de onderdelen van het voertuig door een kerb. Er kan een centraal reserve- of wegdek zijn tussen de zijloops en de verkeersroutes."
+
+msgid "IfcRoadPartSOFTSHOULDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartSOFTSHOULDER"
+msgstr "Zachte schouder"
+
+msgid "IfcRoadPartSOFTSHOULDER_DEFINITION"
+msgstr "Een type Shoulder dat niet is oppervlakt."
+
+msgid "IfcRoadPartTOLLPLAZA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartTOLLPLAZA"
+msgstr "Tol Plein"
+
+msgid "IfcRoadPartTOLLPLAZA_DEFINITION"
+msgstr "Een deel van de wegfaciliteit waar tol wordt geheven voor het gebruik van tolwegen, tunnel of brug."
+
+msgid "IfcRoadPartTRAFFICISLAND_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartTRAFFICISLAND"
+msgstr "Verkeer Eiland"
+
+msgid "IfcRoadPartTRAFFICISLAND_DEFINITION"
+msgstr "Een centraal of subsidiair gebied dat op de vrachtwagen is aangeduid of gemarkeerd is, meestal op een verkeersovergang of overlapping op een niveau vorm en positie om het verkeer rechtstreeks te verplaatsen en/of toevluchtsoord te bieden voor voetgangers."
+
+msgid "IfcRoadPartTRAFFICLANE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoadPartTRAFFICLANE"
+msgstr "Verkeer Ruit"
+
+msgid "IfcRoadPartTRAFFICLANE_DEFINITION"
+msgstr "Laterlijk deel van het vrachtverkeer voor een bepaald doel is aangewezen op het voertuig."
+

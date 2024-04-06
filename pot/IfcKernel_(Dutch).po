@@ -1,0 +1,317 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcKernel.pot\n"
+"X-Crowdin-File-ID: 168\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcActor"
+msgstr "Acteur"
+
+msgid "IfcActor_DEFINITION"
+msgstr "De [[IfcActor]] definieert alle acteurs of menselijke agenten die betrokken zijn bij een project gedurende de volledige levenscyclus. Het vergemakkelijkt het gebruik van persoon- en organisatiedefinities in het hulpbrondeel van het IFC-objectmodel. Dit omvat naam, adres, telecommunicatieadressen en rollen."
+
+msgid "Pset_Address"
+msgstr "Eigenschap set: Adres"
+
+msgid "Pset_Address_DEFINITION"
+msgstr "Deze propertyset vertegenwoordigt een adres voor levering van op papier gebaseerde post en andere postdiensten."
+
+msgid "AddressLines"
+msgstr "Adres regels"
+
+msgid "AddressLines_DEFINITION"
+msgstr "Het postadres."
+
+msgid "Country"
+msgstr "Land:"
+
+msgid "Country_DEFINITION"
+msgstr "De landcode van twee letters (van ISO 3166)."
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "Description_DEFINITION"
+msgstr "De [[Description]] van het object."
+
+msgid "ElectronicMailAddresses"
+msgstr "Elektronische e-mailadressen"
+
+msgid "ElectronicMailAddresses_DEFINITION"
+msgstr "De lijst met e-mailadressen waarop e-mail berichten kunnen worden ontvangen."
+
+msgid "FacsimileNumbers"
+msgstr "Facsimile getallen"
+
+msgid "FacsimileNumbers_DEFINITION"
+msgstr "De lijst met faxnummers waarop faxberichten mogen worden ontvangen."
+
+msgid "InternalLocation"
+msgstr "Interne locatie"
+
+msgid "InternalLocation_DEFINITION"
+msgstr "Een organisatie gedefinieerd adres voor interne mailbezorging."
+
+msgid "MessagingIDs"
+msgstr "Berichten Ids"
+
+msgid "MessagingIDs_DEFINITION"
+msgstr "ID's of adressen voor andere communicatiemiddelen, bijvoorbeeld onmiddellijke berichten, voice-over-IP of protocollen voor bestandsoverdracht,."
+
+msgid "PagerNumber"
+msgstr "Pagina nummer"
+
+msgid "PagerNumber_DEFINITION"
+msgstr "Het pagnenummer waarop pagingberichten kunnen worden ontvangen."
+
+msgid "PostalBox"
+msgstr "Postbus"
+
+msgid "PostalBox_DEFINITION"
+msgstr "Een adres dat wordt geïdentificeerd door een identificeerbare e-mail achtergrond."
+
+msgid "PostalCode"
+msgstr "Postcode"
+
+msgid "PostalCode_DEFINITION"
+msgstr "De code die wordt gebruikt door de postdienst van het land."
+
+msgid "Purpose"
+msgstr "Doel"
+
+msgid "Purpose_DEFINITION"
+msgstr "Indicatie van het doel van dit object"
+
+msgid "Purpose_DISTRIBUTIONPOINT"
+msgstr "Distributie punt"
+
+msgid "Purpose_HOME"
+msgstr "Startpagina"
+
+msgid "Purpose_OFFICE"
+msgstr "Werkruimte"
+
+msgid "Purpose_OTHER"
+msgstr "anders"
+
+msgid "Purpose_SITE"
+msgstr "Website"
+
+msgid "Purpose_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "Purpose_UNSET"
+msgstr "Uitzetten"
+
+msgid "Region"
+msgstr "Regio"
+
+msgid "Region_DEFINITION"
+msgstr "De naam van een regio."
+
+msgid "TelephoneNumbers"
+msgstr "Telefoon nummers"
+
+msgid "TelephoneNumbers_DEFINITION"
+msgstr "De lijst met telefoonnummers waarop telefoonberichten kunnen worden ontvangen."
+
+msgid "Town"
+msgstr "Stad"
+
+msgid "Town_DEFINITION"
+msgstr "De naam van een stad."
+
+msgid "UserDefinedPurpose"
+msgstr "Gebruiker gedefinieerd doel"
+
+msgid "UserDefinedPurpose_DEFINITION"
+msgstr "Staat toe voor specificatie van de gebruiker specifiek doel van het adres buiten de opsomingswaarden van [[Purpose]] attribuut van het type IfcAddressTypeEnum. Wanneer een waarde wordt opgegeven van attribuut [[UserDefinedPurpose]], in parallel heeft het attribuut [[Purpose]] een enumeratie waarde [[USERDEFINED]]."
+
+msgid "WWWHomePageURL"
+msgstr "URL van de WWW Homepagina"
+
+msgid "WWWHomePageURL_DEFINITION"
+msgstr "Het wereldwijde webadres waarop de voorlopige pagina van informatie voor de persoon of organisatie kan worden gevonden."
+
+msgid "Pset_ActorCommon"
+msgstr "Eigenschapsset: Actor Gemeenschappelijk"
+
+msgid "Pset_ActorCommon_DEFINITION"
+msgstr "Een vastgoedset dat verdere classificatie van actoren mogelijk maakt, waaronder de mogelijkheid om een aantal actoren aan te wijzen als bevolking. het nummer dat wordt opgegeven als een eigenschap die als een enkele waarde moet worden behandeld in plaats van een aantal exemplaren van [[IfcActor] ] samen te voegen."
+
+msgid "ActorCategory"
+msgstr "Acteur categorie"
+
+msgid "ActorCategory_DEFINITION"
+msgstr "De aanwijzing van de categorie waarin de actoren van de bevolking thuishoren."
+
+msgid "NumberOfActors"
+msgstr "Aantal Actoren"
+
+msgid "NumberOfActors_DEFINITION"
+msgstr "Het aantal actoren dat samen in de bevolking moet worden aangepakt."
+
+msgid "SkillLevel"
+msgstr "Vaardigheid Niveau"
+
+msgid "SkillLevel_DEFINITION"
+msgstr "Het door de acteur getoonde vaardigheidsniveau geeft een mate aan van hun vermogen om acties uit te voeren op de artefacten waarop ze kunnen handelen."
+
+msgid "IfcContext"
+msgstr "Context"
+
+msgid "IfcContext_DEFINITION"
+msgstr "[[IfcContext]] is de generalisatie van een projectcontext waarin objecten, objecten, vastgoedsets, en eigenschappen worden gedefinieerd. De [[IfcProject]] als subtype van [[IfcContext]] biedt de context voor alle informatie over een bouwproject. het kan een of meerdere [[IfcProjectLibrary]]'s als subtype van [[IfcContext]] bevatten om de opgenomen bibliotheken voor het project te registreren. Een bibliotheek van producten waarnaar wordt verwezen wordt binnen de [[IfcProjectLibrary]] als context van die bibliotheek uitgeroepen."
+
+msgid "LongName"
+msgstr "Lange naam"
+
+msgid "LongName_DEFINITION"
+msgstr "Lange naam voor de context zoals gebruikt voor referentie doeleinden."
+
+msgid "Phase"
+msgstr "Fase"
+
+msgid "Phase_DEFINITION"
+msgstr "[[Current]] projectfase of levenscyclus van dit project. Toepasbare waarden moeten worden overeengekomen door definities of implementatieovereenkomsten te bekijken."
+
+msgid "IfcControl"
+msgstr "Bediening"
+
+msgid "IfcControl_DEFINITION"
+msgstr "[[IfcControl]] is de abstracte generalisatie van alle concepten die controle of beperking van het gebruik van producten, processen of hulpbronnen in het algemeen mogelijk maken. Het kan worden gezien als een regeling, kostenschema, verzoek of bestelling of andere vereisten die van toepassing zijn op een product. proces of hulpbron waarvan de vereisten en bepalingen moeten worden vervuld."
+
+msgid "IfcGroup"
+msgstr "Groeperen"
+
+msgid "IfcGroup_DEFINITION"
+msgstr "[[IfcGroup]] is een generalisatie van elke willekeurige groep. Een groep is een logische verzameling objecten. Zij heeft geen eigen positie en kan ook geen eigen vorm van vertegenwoordiging hebben. Een groep is daarom een aggregatie onder enkele aspecten van niet-geometrische / topologische groeperingen."
+
+msgid "IfcObject"
+msgstr "Object"
+
+msgid "IfcObject_DEFINITION"
+msgstr "Een [[IfcObject]] is de generalisatie van een semantisch behandeld ding of proces. Objecten zijn dingen zoals ze lijken - d.w.z. voorvallen."
+
+msgid "IfcProcess"
+msgstr "Verwerk"
+
+msgid "IfcProcess_DEFINITION"
+msgstr "[[IfcProcess]] is gedefinieerd als één individuele activiteit of gebeurtenis, die op tijd wordt geordend, die sequentierelaties heeft met andere processen, welke input in output transformeert, en kan verbinden met andere processen via input uitvoerrelaties. Een [[IfcProcess]] kan een activiteit (of taak) zijn, of een evenement. Ze vindt meestal plaats in bouwwerken met de bedoeling om producten, of andere vergelijkbare of vergelijkbare taken of procedures te ontwerpen, te besparen, te verkrijgen, te bouwen of te onderhouden.."
+
+msgid "LongDescription"
+msgstr "Lange omschrijving"
+
+msgid "LongDescription_DEFINITION"
+msgstr "Een uitgebreide beschrijving of verhaling die kan worden verstrekt.;"
+
+msgid "IfcProduct"
+msgstr "product"
+
+msgid "IfcProduct_DEFINITION"
+msgstr "De [[IfcProduct]] is een abstracte weergave van elk object dat betrekking heeft op een geometrische of ruimtelijke context. Een [[IfcProduct]] vindt plaats op een specifieke locatie in de ruimte als er een geometrische vertegenwoordiging is toegewezen. Het kan relatief in andere producten worden geplaatst, maar uiteindelijk in verhouding tot het projectcoördinatiesysteem. De ObjectPlacement eigenschap creëert het coördinaatsysteem waarin alle punten en richtingen worden gebruikt door de geometrische vertegenwoordigingsitems onder vertegenwoordiging. De vertegenwoordiging wordt geleverd door een IfcProductDefinitionShape die ofwel een geometrische vorm representatie is. of een topologie representatie (met of zonder onderliggende geometrie van de topologische items)."
+
+msgid "IfcProject"
+msgstr "Project"
+
+msgid "IfcProject_DEFINITION"
+msgstr "[[IfcProject]] stelt de context vast om informatie uit te wisselen of te delen, en het kan een bouwproject zijn maar dat hoeft niet te gebeuren. Het belangrijkste doel van de [[IfcProject]] in een uitwisselingsstructuur is het bieden van de root instantie en de context voor alle andere informatie in de lijst."
+
+msgid "Pset_ProjectCommon"
+msgstr "Eigenschapsset: Project Gemeenschappelijk"
+
+msgid "Pset_ProjectCommon_DEFINITION"
+msgstr "Eigenschap ingesteld voor de toepassing van projectinformatie op hoog niveau."
+
+msgid "FundingSource"
+msgstr "Financiering bron"
+
+msgid "FundingSource_DEFINITION"
+msgstr "Bron van investeringsfinanciering"
+
+msgid "NetEarnedValue"
+msgstr "Netto verdiende waarde"
+
+msgid "NetEarnedValue_DEFINITION"
+msgstr "Netto verdiende waarde"
+
+msgid "NetEarnedValue_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcAppliedValue neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "PaybackPeriod"
+msgstr "Terugbetaling periode"
+
+msgid "PaybackPeriod_DEFINITION"
+msgstr "Terugbetalingsperiode van de investering"
+
+msgid "ProjectInvestmentEstimate"
+msgstr "Raming investering van project"
+
+msgid "ProjectInvestmentEstimate_DEFINITION"
+msgstr "Offerte van de investeringskosten"
+
+msgid "ProjectInvestmentEstimate_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcAppliedValue neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ProjectType"
+msgstr "Project type"
+
+msgid "ProjectType_DEFINITION"
+msgstr "Een project extra typen"
+
+msgid "ProjectType_MODIFICATION"
+msgstr "Wijziging"
+
+msgid "ProjectType_NEWBUILD"
+msgstr "Nieuwbouwer"
+
+msgid "ProjectType_OPERATIONMAINTENANCE"
+msgstr "[[Operation]] Onderhoud"
+
+msgid "ProjectType_RENOVATION"
+msgstr "Renovatie"
+
+msgid "ProjectType_REPAIR"
+msgstr "Herstellen"
+
+msgid "ROI"
+msgstr "Roi"
+
+msgid "ROI_DEFINITION"
+msgstr "Retourzending op investering"
+
+msgid "IfcProjectLibrary"
+msgstr "Project bibliotheek"
+
+msgid "IfcProjectLibrary_DEFINITION"
+msgstr "Een [[IfcProjectLibrary]] verzamelt alle bibliotheekelementen die zijn opgenomen in een gerefereerde projectgegevensset."
+
+msgid "IfcRoot"
+msgstr "Hoofd"
+
+msgid "IfcRoot_DEFINITION"
+msgstr "[[IfcRoot]] is de meest abstracte en root klasse voor alle entiteit definities die wortel in de kernel of in volgende lagen van de IFC-specificatie. Het is dus het algemene supertype van alle IFC-entiteiten, naast de entiteiten die in een IFC-hulpbronnenprogramma zijn omschreven. Alle entiteiten die subtypes zijn van [[IfcRoot]] kunnen onafhankelijk worden gebruikt, terwijl resource schema entiteiten zijn, die geen subtypes zijn van [[IfcRoot]], mogen geen onafhankelijke entiteiten zijn."
+
+msgid "GlobalId"
+msgstr "Globale ID"
+
+msgid "GlobalId_DEFINITION"
+msgstr "Toewijzing van een wereldwijd unieke identificatie binnen de hele softwarewereld."
+
+msgid "Name"
+msgstr "naam"
+
+msgid "Name_DEFINITION"
+msgstr "Optionele naam voor gebruik door deelnemende softwaresystemen of gebruikers. Voor sommige subtypes van [[IfcRoot]] kan de invoeging van de [[Name]] attribuut verplicht zijn. Dit zou door een daar geldende regel worden gehandhaafd."
+

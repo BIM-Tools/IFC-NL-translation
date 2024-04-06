@@ -1,0 +1,377 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedFacilitiesElements.pot\n"
+"X-Crowdin-File-ID: 192\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcAsset"
+msgstr "Asset"
+
+msgid "IfcAsset_DEFINITION"
+msgstr "Een activum is een unieke identificeerbare groepering van elementen die handelen als een enkele entiteit met een financiële waarde of waarop kan worden geopereerd als een enkele eenheid."
+
+msgid "Pset_Asset"
+msgstr "Eigenschapsset: Asset"
+
+msgid "Pset_Asset_DEFINITION"
+msgstr "Een activa is een uniek identificeerbaar element met een financiële waarde en waartegen onderhoudsacties worden geregistreerd."
+
+msgid "AssetAccountingType"
+msgstr "Type assetrekening"
+
+msgid "AssetAccountingType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde risicocypen waartegen het type verplicht kan worden ingesteld."
+
+msgid "AssetAccountingType_FIXED"
+msgstr "Opgelost"
+
+msgid "AssetAccountingType_NONFIXED"
+msgstr "Niet gereed"
+
+msgid "AssetAccountingType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AssetAccountingType_OTHER"
+msgstr "anders"
+
+msgid "AssetAccountingType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AssetInsuranceType"
+msgstr "Asset verzekerings type"
+
+msgid "AssetInsuranceType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde soorten verzekeringsbeoordeling van waaruit het type mag worden bepaald."
+
+msgid "AssetInsuranceType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AssetInsuranceType_OTHER"
+msgstr "anders"
+
+msgid "AssetInsuranceType_PERSONAL"
+msgstr "Persoonlijk"
+
+msgid "AssetInsuranceType_REAL"
+msgstr "Echt"
+
+msgid "AssetInsuranceType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AssetStatus"
+msgstr "Asset Status"
+
+msgid "AssetStatus_DEFINITION"
+msgstr "[[Current]] status of fase in de levenscyclus."
+
+msgid "AssetTaxType"
+msgstr "Soort vermogensbelasting"
+
+msgid "AssetTaxType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde soorten belastinggroep waaruit het type belasting kan worden ingesteld."
+
+msgid "AssetTaxType_CAPITALISED"
+msgstr "Gekapitaliseerd"
+
+msgid "AssetTaxType_EXPENSED"
+msgstr "Uitgaven"
+
+msgid "AssetTaxType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AssetTaxType_OTHER"
+msgstr "anders"
+
+msgid "AssetTaxType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AssetUse"
+msgstr "Materiaal gebruik"
+
+msgid "AssetUse_DEFINITION"
+msgstr "Algemene gebruikscategorie van de bezitting"
+
+msgid "IncorporationDate"
+msgstr "Inschrijving datum"
+
+msgid "IncorporationDate_DEFINITION"
+msgstr "De datum waarop een asset is opgenomen in de werken, geïnstalleerd, gebouwd, uitgebouwd of voltooid."
+
+msgid "IfcFurniture"
+msgstr "Meubel"
+
+msgid "IfcFurniture_DEFINITION"
+msgstr "Meubilair definieert complete meubels zoals een tafel, tafel, stoel of kabinet, die al dan niet permanent aan een bouwwerk bevestigd kunnen worden."
+
+msgid "Pset_FurnitureTypeCommon"
+msgstr "Eigenschappen Set: Meubeltype gemeenschappelijk"
+
+msgid "Pset_FurnitureTypeCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen voor alle soorten meubels zoals stoel, tafel, tafels en bestandskabinet."
+
+msgid "IsBuiltIn"
+msgstr "Is gebouwd in"
+
+msgid "IsBuiltIn_DEFINITION"
+msgstr "Geeft aan of het meubeltype bedoeld is om te worden 'ingebouwd', d.w.z. fysiek verbonden aan een gebouw of faciliteit (= WAAR ) of niet d.w.z. los en beweegbaar (= FALSE)."
+
+msgid "MainColour"
+msgstr "Hoofdkleur"
+
+msgid "MainColour_DEFINITION"
+msgstr "De hoofdkleur van dit type meubel."
+
+msgid "Style"
+msgstr "CSS"
+
+msgid "Style_DEFINITION"
+msgstr "[[Description]] van de meubelstijl."
+
+msgid "IfcInventory"
+msgstr "Inventaris"
+
+msgid "IfcInventory_DEFINITION"
+msgstr "Een inventaris is een lijst van items binnen een onderneming."
+
+msgid "LastUpdateDate"
+msgstr "Datum laatste update"
+
+msgid "LastUpdateDate_DEFINITION"
+msgstr "De datum waarop de laatste update van de inventaris is uitgevoerd."
+
+msgid "IfcOccupant"
+msgstr "Bezetter"
+
+msgid "IfcOccupant_DEFINITION"
+msgstr "Een bewoner is een soort acteur die de vorm van bezetting van een eigendom definieert."
+
+msgid "IfcSystemFurnitureElement"
+msgstr "Systeem Meubilair element"
+
+msgid "IfcSystemFurnitureElement_DEFINITION"
+msgstr "Een systeem meubilair element definieert componenten van modulaire meubilair die niet direct in een gebouwstructuur zijn geplaatst maar geaggregeerd binnen meubilair."
+
+msgid "Pset_SystemFurnitureElementTypeCommon"
+msgstr "Eigenschapsset: Systeem Meubilair Elementtype gemeenschappelijk"
+
+msgid "Pset_SystemFurnitureElementTypeCommon_DEFINITION"
+msgstr "Algemene eigenschappen voor alle systemen meubilair (I.e. modulaire meubilair) element types (bijv. verticale panelen, werkoppervlakten en opslag)."
+
+msgid "Finishing"
+msgstr "Afwerking"
+
+msgid "Finishing_DEFINITION"
+msgstr "De afwerking toegepast op systeemmeubilair elementen van dit type bv. walnot, stof."
+
+msgid "GroupCode"
+msgstr "Groep Code"
+
+msgid "GroupCode_DEFINITION"
+msgstr "bijv. panelen, werkoppervlakken, opslag, etc."
+
+msgid "IsUsed"
+msgstr "Wordt gebruikt"
+
+msgid "IsUsed_DEFINITION"
+msgstr "Geeft aan of het element wordt gebruikt in een werkstation (= WAAR ) of niet.(= FALSE)."
+
+msgid "IfcFurnitureBED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureBED"
+msgstr "Bedden"
+
+msgid "IfcFurnitureBED_DEFINITION"
+msgstr "Meubels om te slapen."
+
+msgid "IfcFurnitureCHAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureCHAIR"
+msgstr "Stoel"
+
+msgid "IfcFurnitureCHAIR_DEFINITION"
+msgstr "Meubels voor het plaatsen van één persoon."
+
+msgid "IfcFurnitureDESK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureDESK"
+msgstr "Bureau"
+
+msgid "IfcFurnitureDESK_DEFINITION"
+msgstr "Meubels met een tegenhanger en optionele lades voor één persoon."
+
+msgid "IfcFurnitureFILECABINET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureFILECABINET"
+msgstr "Archiefkast"
+
+msgid "IfcFurnitureFILECABINET_DEFINITION"
+msgstr "Meubel met glijdende lades voor het opslaan van bestanden."
+
+msgid "IfcFurnitureSHELF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureSHELF"
+msgstr "Schap"
+
+msgid "IfcFurnitureSHELF_DEFINITION"
+msgstr "Meubels voor het opslaan van boeken of andere items."
+
+msgid "IfcFurnitureSOFA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureSOFA"
+msgstr "Bank"
+
+msgid "IfcFurnitureSOFA_DEFINITION"
+msgstr "Meubels voor het plaatsen van meerdere mensen."
+
+msgid "IfcFurnitureTABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureTABLE"
+msgstr "Tafel"
+
+msgid "IfcFurnitureTABLE_DEFINITION"
+msgstr "Meubels met een tegenwicht voor meerdere mensen."
+
+msgid "IfcFurnitureTECHNICALCABINET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFurnitureTECHNICALCABINET"
+msgstr "Meterkast"
+
+msgid "IfcFurnitureTECHNICALCABINET_DEFINITION"
+msgstr "Een technisch kabinet is een meubeltje voor het behouden, tonen en beschermen van technische apparaten, meestal georganiseerd in winkels, lasters of racks."
+
+msgid "IfcInventoryASSETINVENTORY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInventoryASSETINVENTORY"
+msgstr "Asset voorraad"
+
+msgid "IfcInventoryASSETINVENTORY_DEFINITION"
+msgstr "Een verzameling van activa instanties van het type [[IfcAsset]]."
+
+msgid "IfcInventoryFURNITUREINVENTORY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInventoryFURNITUREINVENTORY"
+msgstr "Meubels Inventaris"
+
+msgid "IfcInventoryFURNITUREINVENTORY_DEFINITION"
+msgstr "Een verzameling van meubels instanties van het type [[IfcFurnishingElement]]."
+
+msgid "IfcInventorySPACEINVENTORY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcInventorySPACEINVENTORY"
+msgstr "Ruimte inventaris"
+
+msgid "IfcInventorySPACEINVENTORY_DEFINITION"
+msgstr "Een verzameling van unieke ruimte van het type [[IfcSpace]]."
+
+msgid "IfcOccupantASSIGNEE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantASSIGNEE"
+msgstr "Assignee"
+
+msgid "IfcOccupantASSIGNEE_DEFINITION"
+msgstr "Acteur die de opdracht van een vastgoedovereenkomst van een toegewezen persoon ontvangt."
+
+msgid "IfcOccupantASSIGNOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantASSIGNOR"
+msgstr "Toewijzen"
+
+msgid "IfcOccupantASSIGNOR_DEFINITION"
+msgstr "Acteur wijst een onroerendgoedovereenkomst toe aan een opdrachtgever."
+
+msgid "IfcOccupantLESSEE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantLESSEE"
+msgstr "Broessee"
+
+msgid "IfcOccupantLESSEE_DEFINITION"
+msgstr "Acteur die van een minder belangrijke eigenschap ontvangt."
+
+msgid "IfcOccupantLESSOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantLESSOR"
+msgstr "Loper"
+
+msgid "IfcOccupantLESSOR_DEFINITION"
+msgstr "Acteur leasen een eigenschap aan een minder goede adres."
+
+msgid "IfcOccupantLETTINGAGENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantLETTINGAGENT"
+msgstr "Agent schrijven"
+
+msgid "IfcOccupantLETTINGAGENT_DEFINITION"
+msgstr "Acteur neemt deel aan een onroerendgoedovereenkomst namens een eigenaar, minder of verantwoordelijke."
+
+msgid "IfcOccupantOWNER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantOWNER"
+msgstr "Eigenaar"
+
+msgid "IfcOccupantOWNER_DEFINITION"
+msgstr "Acteur die eigenaar is van een eigendom."
+
+msgid "IfcOccupantTENANT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcOccupantTENANT"
+msgstr "Bewoner"
+
+msgid "IfcOccupantTENANT_DEFINITION"
+msgstr "Acteur die het gebruik van een eigenschap fro een periode huurt."
+
+msgid "IfcSystemFurnitureElementPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSystemFurnitureElementPANEL"
+msgstr "Paneel"
+
+msgid "IfcSystemFurnitureElementPANEL_DEFINITION"
+msgstr "Verticaal paneel wordt gebruikt om werkruimtes te verdelen."
+
+msgid "IfcSystemFurnitureElementSUBRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSystemFurnitureElementSUBRACK"
+msgstr "Subrack"
+
+msgid "IfcSystemFurnitureElementSUBRACK_DEFINITION"
+msgstr "Een subrack is een deel van een technische kast die wordt gebruikt om pluggbare elektrische subeenheden op te slaan en te monteren."
+
+msgid "IfcSystemFurnitureElementWORKSURFACE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSystemFurnitureElementWORKSURFACE"
+msgstr "Werk oppervlak"
+
+msgid "IfcSystemFurnitureElementWORKSURFACE_DEFINITION"
+msgstr "Teller van werkstation."
+

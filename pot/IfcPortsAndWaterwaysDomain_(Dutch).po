@@ -1,0 +1,1733 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcPortsAndWaterwaysDomain.pot\n"
+"X-Crowdin-File-ID: 174\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcConveyorSegment"
+msgstr "Conveyor segment"
+
+msgid "IfcConveyorSegment_DEFINITION"
+msgstr "Een overbrengend segment definieert een optreden van een stroom-segment/ continue run binnen een vervoerderssysteem dat twee delen van het systeem omvat. deze kunnen gebruik maken van verschillende drachtmethoden zoals gordel, touw, kettingen, schroefbal, enz."
+
+msgid "IfcLiquidTerminal"
+msgstr "Vloeibare terminal"
+
+msgid "IfcLiquidTerminal_DEFINITION"
+msgstr "Een vloeistofterminal is een eindpunt of origineel punt voor de overdracht van vloeistof tussen distributiesystemen. Dit is het punt waar het liquide distributiesysteem een wisselwerking heeft met het externe milieu. Een voorbeeld hiervan is een laadarm voor het overbrengen van vloeistof van een aan een haven gelegen schip."
+
+msgid "IfcMarineFacility"
+msgstr "Mariene faciliteit"
+
+msgid "IfcMarineFacility_DEFINITION"
+msgstr "Een mariene faciliteit is een belangrijke structuur of entiteit die specifiek is voor havens en waterwegen. Voorbeelden hiervan zijn kaja's, jets, scheepswerven, ademhalingsbedrijven, enzovoort."
+
+msgid "Pset_MarineFacilityTransportation"
+msgstr "Eigenschapsset: Marine Faciliteit Vervoer"
+
+msgid "Pset_MarineFacilityTransportation_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMarineFacility]] die worden gecatagoriseerd als transportfaciliteiten zoals havens, marina's enzovoort."
+
+msgid "BerthCargoWeight"
+msgstr "Band Vracht Gewicht"
+
+msgid "BerthCargoWeight_DEFINITION"
+msgstr "Totale vrachtgewicht van liggenden binnen de faciliteit"
+
+msgid "BerthGrade"
+msgstr "Band graad"
+
+msgid "BerthGrade_DEFINITION"
+msgstr "Band graad"
+
+msgid "Berths"
+msgstr "Bleden"
+
+msgid "Berths_DEFINITION"
+msgstr "Aantal standaard liggenden binnen de faciliteit"
+
+msgid "Qto_MarineFacilityBaseQuantities"
+msgstr "Hoeveelheid Set: Marine Faciliteit Basis Hoeveelheden"
+
+msgid "Qto_MarineFacilityBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van [[IfcMarineFacility]]."
+
+msgid "Area"
+msgstr "Oppervlak"
+
+msgid "Area_DEFINITION"
+msgstr "Berekend gebied voor het object."
+
+msgid "Pset_PropertyAgreement"
+msgstr "Eigenschapsset: Property Agreement"
+
+msgid "Pset_PropertyAgreement_DEFINITION"
+msgstr "Een onroerendgoedovereenkomst is een overeenkomst die het mogelijk maakt om gedurende een bepaalde periode onroerend goed te bezetten."
+
+msgid "AgreementDate"
+msgstr "Datum overeenkomst"
+
+msgid "AgreementDate_DEFINITION"
+msgstr "De datum waarop de versie van de overeenkomst van toepassing werd."
+
+msgid "AgreementType"
+msgstr "Overeenkomst type"
+
+msgid "AgreementType_DEFINITION"
+msgstr "Identificeert de vooraf gedefinieerde soorten eigenschapsovereenkomst van waaruit het type mag worden ingesteld."
+
+msgid "AgreementType_ASSIGNMENT"
+msgstr "Opdracht"
+
+msgid "AgreementType_LEASE"
+msgstr "Lease"
+
+msgid "AgreementType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AgreementType_OTHER"
+msgstr "anders"
+
+msgid "AgreementType_TENANT"
+msgstr "Bewoner"
+
+msgid "AgreementType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AgreementVersion"
+msgstr "Overeenkomst versie"
+
+msgid "AgreementVersion_DEFINITION"
+msgstr "Het versienummer van de overeenkomst die is vastgesteld."
+
+msgid "CommencementDate"
+msgstr "Commentie datum"
+
+msgid "CommencementDate_DEFINITION"
+msgstr "Datum waarop de overeenkomst begint."
+
+msgid "ConditionCommencement"
+msgstr "Voorwaarde Commentie"
+
+msgid "ConditionCommencement_DEFINITION"
+msgstr "Staat van eigendom welke wordt verstrekt op het begin van de overeenkomst, b.v. koude shell, warm verlichtingsschild, broomschoon, draadje."
+
+msgid "ConditionTermination"
+msgstr "Voorwaarde Beëindiging"
+
+msgid "ConditionTermination_DEFINITION"
+msgstr "Staat van eigendom vereist bij het beëindigen van de overeenkomst, b.v. koude shell, warm verlichting, broomschoon, draadtoets"
+
+msgid "Options"
+msgstr "Instellingen"
+
+msgid "Options_DEFINITION"
+msgstr "Een verklaring van de opties die beschikbaar zijn in de overeenkomst."
+
+msgid "PropertyName"
+msgstr "Naam accommodatie"
+
+msgid "PropertyName_DEFINITION"
+msgstr "De details van het eigendom zoals vermeld in de overeenkomst."
+
+msgid "Restrictions"
+msgstr "Beperkingen"
+
+msgid "Restrictions_DEFINITION"
+msgstr "[[Restrictions]] dat kan worden geplaatst door een bevoegde autoriteit."
+
+msgid "TerminationDate"
+msgstr "Beëindiging Datum"
+
+msgid "TerminationDate_DEFINITION"
+msgstr "Datum waarop de overeenkomst afloopt."
+
+msgid "TrackingIdentifier"
+msgstr "Tracking ID"
+
+msgid "TrackingIdentifier_DEFINITION"
+msgstr "De identificatie die aan de overeenkomst is toegewezen met het oog op het volgen."
+
+msgid "CompositionType"
+msgstr "Compositie Type"
+
+msgid "CompositionType_DEFINITION"
+msgstr "Neemt aan, of het nu gaat om de vooraf gedefinieerde ruimtelijke structuur-element zichzelf of een geheel (complex) of een onderdeel (deel). De interpretatie wordt apart gegeven voor elk subtype van het ruimtelijke structuurelement. Als er geen [[CompositionType]] wordt geclaimd, is de standaard waarde ''[[ELEMENT]]'' van toepassing."
+
+msgid "CompositionType_COMPLEX"
+msgstr "of een aggregaat (complex) of een onderdeel (deel)"
+
+msgid "CompositionType_ELEMENT"
+msgstr "of het vooraf gedefinieerde ruimtelijk structuurelement zichzelf vertegenwoordigt"
+
+msgid "CompositionType_PARTIAL"
+msgstr "Gedeeltelijk"
+
+msgid "Pset_SpaceThermalPHistory"
+msgstr "Eigenschap Set: Ruimte Thermische geschiedenis"
+
+msgid "Pset_SpaceThermalPHistory_DEFINITION"
+msgstr "Thermische en luchtstroomcondities voor een ruimte of zone."
+
+msgid "CoolingAirFlowRate"
+msgstr "Koelende luchtstroomsnelheid"
+
+msgid "CoolingAirFlowRate_DEFINITION"
+msgstr "Koeling van de luchthoeveelheid in de ruimte."
+
+msgid "CoolingAirFlowRate_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ExhaustAirFlowRate"
+msgstr "Uitvoersnelheid luchtstroom"
+
+msgid "ExhaustAirFlowRate_DEFINITION"
+msgstr "Ontwerp de luchtstroomsnelheid van de afvoer voor de ruimte."
+
+msgid "ExhaustAirFlowRate_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "HeatingAirFlowRate"
+msgstr "Verwarming luchtstroom tarief"
+
+msgid "HeatingAirFlowRate_DEFINITION"
+msgstr "Verwarming luchtstroom snelheid in de ruimte."
+
+msgid "HeatingAirFlowRate_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "SpaceRelativeHumidity"
+msgstr "Ruimte relatieve vochtigheid"
+
+msgid "SpaceRelativeHumidity_DEFINITION"
+msgstr "De relatieve vochtigheid van de ruimte."
+
+msgid "SpaceRelativeHumidity_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "SpaceTemperatureHistory"
+msgstr "Ruimte temperatuur geschiedenis"
+
+msgid "SpaceTemperatureHistory_DEFINITION"
+msgstr "[[Temperature]] van de ruimte."
+
+msgid "SpaceTemperatureHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "VentilationAirFlowRateHistory"
+msgstr "Ventilatie luchtstroom geschiedenis"
+
+msgid "VentilationAirFlowRateHistory_DEFINITION"
+msgstr "[[Ventilation]] luchtstroomsnelheid in de ruimte."
+
+msgid "VentilationAirFlowRateHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_SpaceCommon"
+msgstr "Eigenschapsset: Ruimte Gemeenschappelijk"
+
+msgid "Pset_SpaceCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcSpace]]. Houd er rekening mee dat verschillende ruimteattributen direct worden afgehandeld in de [[IfcSpace]], het ruimtenummer (of korte naam) door [[IfcSpace]].[Name]], de naam van de ruimte (of lange naam) door [[IfcSpace]].[LongName]], en de beschrijving (of commentaar) van [[IfcSpace]].[[Description]]. De werkelijke ruimtehoeveelheden, zoals het ruimteschip en het ruimtevaartvolume worden geleverd door IfcElementQuantity, en ruimteclassificatie volgens de nationale bouwcode door IfcClassificationReferentie. Het niveau boven nul (ten opzichte van het gebouw) voor de slabrijconstructie wordt geleverd door de [[IfcBuildingStorey]].[Elevation]], het niveau boven nul (ten opzichte van het gebouw) voor de afwerking van de vloer is voorzien door de [[IfcSpace]].[[ElevationWithFlooring]]."
+
+msgid "GrossPlannedArea"
+msgstr "Bruto gepland gebied"
+
+msgid "GrossPlannedArea_DEFINITION"
+msgstr "Totaal gepland bruto gebied van het ruimtelijke structuurelement. Gebruikt voor het programmeren van het ruimtelijke structuurelement."
+
+msgid "HandicapAccessible"
+msgstr "Handicap toegankelijk"
+
+msgid "HandicapAccessible_DEFINITION"
+msgstr "Geef aan dat dit object is ontworpen om toegankelijk te zijn voor gehandicapten. Stel in op (TRUE) als dit object is beoordeeld als handicap die toegankelijk is volgens de lokale bouwcodes, anders (FALSE). Het geeft het volgens de eisen van de nationale bouwcode."
+
+msgid "NetPlannedArea"
+msgstr "Netto gepland gebied"
+
+msgid "NetPlannedArea_DEFINITION"
+msgstr "Totaal gepland netto gebied van het object. Wordt gebruikt voor het programmeren van het object."
+
+msgid "PubliclyAccessible"
+msgstr "Openbaar toegankelijk"
+
+msgid "PubliclyAccessible_DEFINITION"
+msgstr "Geeft aan of deze ruimte (in het geval van b.v. een toilet) is ontworpen om te dienen als een openbaar toegankelijke ruimte, e. ., for a public toilet (TRUE) or not (FALSE)."
+
+msgid "Pset_SpaceCoveringRequirements"
+msgstr "Eigenschapsset: Ruimte Afdekkingsvereisten"
+
+msgid "Pset_SpaceCoveringRequirements_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van de dekking van vereisten van [[IfcSpace]]. Deze eigenschappen bepalen de vereisten die uit een ruimteprogramma komen in vroege stadia van projecten en kunnen later worden gebruikt om de informatie uit het kamerboek te definiëren. als dergelijke omslagingen niet expliciet als elementen worden gemodelleerd."
+
+msgid "CeilingCovering"
+msgstr "Plafond dekking"
+
+msgid "CeilingCovering_DEFINITION"
+msgstr "Label om het materiaal of de afwerking van het ruimteplafond aan te geven. Het label wordt gebruikt voor kamerboekeninformatie en vaak in stemstempel weergegeven. De materiaalinformatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=[[CEILING]]) object met eigen vorm vertegenwoordiging en materiaaltoewijzing. In geval van inconsistentie krijgt het materiaal dat aan [[IfcCovering]] elementen is toegewezen voorrang"
+
+msgid "CeilingCoveringThickness"
+msgstr "Plafond dikte"
+
+msgid "CeilingCoveringThickness_DEFINITION"
+msgstr "[[Thickness]] van de materiaallagen voor het spatieplafond. Hij informatie over de dikte wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=[[CEILING]]) object met eigen vorm vertegenwoordiging. In gevallen van inconsistentie tussen de geometrische parameters van een toegewezen [[IfcCovering]] en dit bijgevoegde eigendom, hebben de geometrische parameters voorrang."
+
+msgid "ConcealedCeiling"
+msgstr "Geblokkeerd plafond"
+
+msgid "ConcealedCeiling_DEFINITION"
+msgstr "Geef aan of deze ruimte is ontworpen om een verborgen vloerruimte (WAAR) of niet (FALSE) te hebben. Een verborgen plafondruimte is normaal gesproken de ruimte tussen een slaap en een plafond."
+
+msgid "ConcealedCeilingOffset"
+msgstr "Verboden plafondset"
+
+msgid "ConcealedCeilingOffset_DEFINITION"
+msgstr "Afstand tussen de bovenste vloer en het verlaagde plafond, vaak gebruikt voor distributiesystemen. Vaak wordt het plenum genoemd."
+
+msgid "ConcealedFlooring"
+msgstr "Verstopte vloer"
+
+msgid "ConcealedFlooring_DEFINITION"
+msgstr "Geef aan of deze ruimte is ontworpen om een verborgen vloerruimte (WAAR) of niet (FALSE) te hebben. Een verborgen vloerruimte is normaal gesproken bedoeld als de ruimte onder een opgehoogde verdieping."
+
+msgid "ConcealedFlooringOffset"
+msgstr "Verstopte vloerset"
+
+msgid "ConcealedFlooringOffset_DEFINITION"
+msgstr "Afstand tussen de vloerplaat en de vloerbedekking, vaak gebruikt voor kabels en andere installaties. Vaak aangeduid als opgevoerde vloer."
+
+msgid "FloorCovering"
+msgstr "Vloer Omslag"
+
+msgid "FloorCovering_DEFINITION"
+msgstr "Label om het materiaal of de afwerking van de ruimtevloer aan te geven. Het label wordt gebruikt voor kamerboekeninformatie en vaak in stembriefjes weergegeven. De materiaalinformatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=FLOORING) object met eigen vorm vertegenwoordiging en materiaaltoewijzing. In geval van inconsistentie krijgt het materiaal dat aan [[IfcCovering]] elementen voorrang"
+
+msgid "FloorCoveringThickness"
+msgstr "Dikte vloerbedekking"
+
+msgid "FloorCoveringThickness_DEFINITION"
+msgstr "[[Thickness]] van de materiaallagen voor de spatievloer. Hij wordt informatie verstrekt in afwezigheid van een [[IfcCovering]] (type=FLOORING) object met eigen vorm vertegenwoordiging. In gevallen van inconsistentie tussen de geometrische parameters van een toegewezen [[IfcCovering]] en dit bijgevoegde eigendom, hebben de geometrische parameters voorrang."
+
+msgid "Molding"
+msgstr "Molend"
+
+msgid "Molding_DEFINITION"
+msgstr "Label om het materiaal of de constructie van het molding rond het ruimteplafond aan te geven. Het label wordt gebruikt voor kamerboekeninformatie. De materiaalinformatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=MOLDING) object met eigen vorm en materiaaltoewijzing. In geval van inconsistentie krijgt het materiaal dat aan [[IfcCovering]] elementen voorrang"
+
+msgid "MoldingHeight"
+msgstr "Molding hoogte"
+
+msgid "MoldingHeight_DEFINITION"
+msgstr "[[Height]] van het molten. Hij hoogte informatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=MOLDING) object met eigen vorm en materiaaltoewijzing. In geval van inconsistentie krijgt de hoogte die aan [[IfcCovering]] elementen is toegewezen voorrang"
+
+msgid "SkirtingBoard"
+msgstr "Rookplank"
+
+msgid "SkirtingBoard_DEFINITION"
+msgstr "Label om het materiaal of de constructie van het rokbord rond de ruimtevloer aan te geven. Het label wordt gebruikt voor kamerboekeninformatie. De materiaalinformatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=SKIRTINGBOARD) met eigen vorm representatie en materiaaltoewijzing. In geval van inconsistentie krijgt het materiaal dat aan [[IfcCovering]] elementen voorrang"
+
+msgid "SkirtingBoardHeight"
+msgstr "Rechter Hoogte"
+
+msgid "SkirtingBoardHeight_DEFINITION"
+msgstr "[[Height]] van de rokbord. Hij hoogte informatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=SKIRTINGBOARD) met eigen vorm representatie en materiaaltoewijzing. In geval van inconsistentie krijgt de hoogte die aan [[IfcCovering]] elementen is toegewezen voorrang"
+
+msgid "WallCovering"
+msgstr "Muur dekking"
+
+msgid "WallCovering_DEFINITION"
+msgstr "Label om het materiaal of de afwerking van de ruimtecladding aan te geven. Het label wordt gebruikt voor kamerboekeninformatie en vaak in stembriefjes weergegeven. De materiaalinformatie wordt verstrekt in afwezigheid van een [[IfcCovering]] (type=CLADDING) object met eigen vorm en materiaaltoewijzing. In geval van inconsistentie krijgt het materiaal dat aan [[IfcCovering]] elementen voorrang"
+
+msgid "WallCoveringThickness"
+msgstr "Dikte muurdekking"
+
+msgid "WallCoveringThickness_DEFINITION"
+msgstr "[[Thickness]] van de materiaallagen voor de ruimtekleding. Hij wordt informatie verstrekt in afwezigheid van een [[IfcCovering]] (type=CLADDING) object met eigen vorm vertegenwoordiging. In gevallen van inconsistentie tussen de geometrische parameters van een toegewezen [[IfcCovering]] en dit bijgevoegde eigendom, hebben de geometrische parameters voorrang."
+
+msgid "Pset_SpaceFireSafetyRequirements"
+msgstr "Eigenschapsset: Ruimte veiligheidsvereisten"
+
+msgid "Pset_SpaceFireSafetyRequirements_DEFINITION"
+msgstr "Eigenschappen gerelateerd aan brandbescherming van ruimtes die van toepassing zijn op gebeurtenissen van [[IfcSpace]] of [[IfcZone]]."
+
+msgid "AirPressurization"
+msgstr "Luchtdruk"
+
+msgid "AirPressurization_DEFINITION"
+msgstr "Bepaal of de ruimte vereist is om de lucht te hebben ingedrukt, of niet (FALSE)."
+
+msgid "FireExit"
+msgstr "Vuur afsluiten"
+
+msgid "FireExit_DEFINITION"
+msgstr "Geef aan of dit object is ontworpen als een uitgang in het geval van vuur (TRUE) of niet (FALSE)."
+
+msgid "FireRiskFactor"
+msgstr "Risico Brandweerfactor"
+
+msgid "FireRiskFactor_DEFINITION"
+msgstr "Risico brandweerfactor toegewezen aan de ruimte overeenkomstig de lokale bouwvoorschriften. Het definieert het brandgevaar van de ruimte op verschillende niveaus van brandgevaar."
+
+msgid "FlammableStorage"
+msgstr "Ontvlambare opslag"
+
+msgid "FlammableStorage_DEFINITION"
+msgstr "Geef aan of de ruimte bedoeld is als opslag van brandbaar materiaal (wat als zodanig wordt beschouwd door de voorzittende bouwcode. (TRUE) geeft aan ja, (FALSE) anders."
+
+msgid "SprinklerProtection"
+msgstr "Sprinkler Bescherming"
+
+msgid "SprinklerProtection_DEFINITION"
+msgstr "Geef aan of dit object beschermd is tegen sprinkler (TRUE) of niet (FALSE)."
+
+msgid "SprinklerProtectionAutomatic"
+msgstr "Sprinkler bescherming"
+
+msgid "SprinklerProtectionAutomatic_DEFINITION"
+msgstr "Geef aan of dit object een automatische sprinkler bescherming heeft (WAAR ) of niet (FALSE). Het mag alleen gegeven worden als de eigenschap '[[SprinklerProtection]]' is ingesteld op WAAR ."
+
+msgid "Pset_SpaceHVACDesign"
+msgstr "Property Set: Space Hvacdesign"
+
+msgid "Pset_SpaceHVACDesign_DEFINITION"
+msgstr "Eigenschappen voor HVAC-vereisten voor ruimten."
+
+msgid "AirConditioning"
+msgstr "Lucht conditie"
+
+msgid "AirConditioning_DEFINITION"
+msgstr "Bepaal of deze ruimte de airconditioning vereist (WAAR ) of niet (FALSE)."
+
+msgid "AirConditioningCentral"
+msgstr "Centrale luchtconditie"
+
+msgid "AirConditioningCentral_DEFINITION"
+msgstr "Geef aan of de ruimte een meegeleverde airconditioning vereist (WAAR ) of niet (FALSE). Het mag alleen gegeven worden als de eigenschap '[[AirConditioning]]' is ingesteld op WAAR ."
+
+msgid "AirHandlingName"
+msgstr "Naam luchtafhandeling"
+
+msgid "AirHandlingName_DEFINITION"
+msgstr "De naam van het systeem aan de luchtzijde. IfcRelServicesBuildings moeten worden gebruikt om het juiste AirHandlingSystem ([[IfcSystem] ]) te verwijzen"
+
+msgid "DiscontinuedHeating"
+msgstr "Verwarming stoppen"
+
+msgid "DiscontinuedHeating_DEFINITION"
+msgstr "Bepaal of stopzetting van de verwarming vereist is vanuit gebruiker/designer view point. (TRUE) als ja, anders (FALSE)."
+
+msgid "HumidityMax"
+msgstr "Luchtvochtigheid Max"
+
+msgid "HumidityMax_DEFINITION"
+msgstr "Maximale vochtigheid van de ruimte of zone die vereist is voor gebruiker/designer weergavepunt. Als er geen zomer- of wintervochtigheid nodig is, is deze van toepassing op het hele jaar, anders voor de tussenperiode."
+
+msgid "HumidityMin"
+msgstr "Min luchtvochtigheid"
+
+msgid "HumidityMin_DEFINITION"
+msgstr "Minimale luchtvochtigheid van de ruimte of zone die vereist is van gebruiker/designer weergavepunt. Als er geen zomer- of wintervochtigheid nodig is, is deze van toepassing op het hele jaar, anders voor de tussenperiode."
+
+msgid "HumiditySetPoint"
+msgstr "Spaarvochtigheid Set Punt"
+
+msgid "HumiditySetPoint_DEFINITION"
+msgstr "Luchtvochtigheid van de ruimte of zone die vereist is van gebruiker/ontwerpweergavepunt. Als er geen zomer- of wintervochtigheid nodig is, is deze van toepassing op het hele jaar, anders voor de tussenperiode. Geef deze eigenschap aan, indien er geen luchtvochtigheidsbereik is (Min-Max) beschikbaar."
+
+msgid "HumiditySummer"
+msgstr "Luchtvochtigheid Zomer"
+
+msgid "HumiditySummer_DEFINITION"
+msgstr "Luchtvochtigheid van de ruimte of zone voor de warme (zomer) periode, dit is vereist van gebruiker/ontwerpgezichtspunt en voorzien als vereiste voor koeling."
+
+msgid "HumidityWinter"
+msgstr "Luchtvochtigheid Winter"
+
+msgid "HumidityWinter_DEFINITION"
+msgstr "Luchtvochtigheid van de ruimte of zone voor de koude (winter) periode die vereist is voor gebruiker/ontwerper en als vereiste voor verwarming."
+
+msgid "MechanicalVentilation"
+msgstr "Mechanische vizier"
+
+msgid "MechanicalVentilation_DEFINITION"
+msgstr "Geef aan of de ruimte vereist is voor mechanische ventilatie (WAAR ) of niet (FALSE)."
+
+msgid "MechanicalVentilationRate"
+msgstr "Mechanische ventilatiegraad"
+
+msgid "MechanicalVentilationRate_DEFINITION"
+msgstr "Een indicatie van de eis van een bepaalde mechanische luchtventilatiegraad als gevolg van veranderingen in de lucht per uur."
+
+msgid "NaturalVentilation"
+msgstr "Natuurlijke ventilatie"
+
+msgid "NaturalVentilation_DEFINITION"
+msgstr "Geef aan of de ruimte vereist is voor natuurlijke ventilatie (WAAR ) of niet (FALSE)."
+
+msgid "NaturalVentilationRate"
+msgstr "Natuurlijke ventilatiegraad"
+
+msgid "NaturalVentilationRate_DEFINITION"
+msgstr "Een indicatie van de eis van een bepaalde natuurlijke luchtventilatiegraad als gevolg van de luchtschommelingen per uur."
+
+msgid "TemperatureMax"
+msgstr "Max. temperatuur"
+
+msgid "TemperatureMax_DEFINITION"
+msgstr "Maximale temperatuur van de ruimte of zone is vereist van gebruiker/designer weergavepunt. Als er geen behoefte aan zomer- of wintertemperatuur wordt gegeven, geldt dit al het jaar, anders voor de tussenperiode."
+
+msgid "TemperatureMin"
+msgstr "Temperatuur Min"
+
+msgid "TemperatureMin_DEFINITION"
+msgstr "Minimale temperatuur van de ruimte of zone is vereist van gebruiker/designer weergavepunt. Als er geen behoefte aan zomer- of wintertemperatuur wordt gegeven, geldt dit al het jaar, anders voor de tussenperiode."
+
+msgid "TemperatureSetPoint"
+msgstr "Temperatuur Set Punt"
+
+msgid "TemperatureSetPoint_DEFINITION"
+msgstr "Het temperatuurstelpunt en de standaard instelpunt."
+
+msgid "TemperatureSummerMax"
+msgstr "Temperatuur Zomer Max"
+
+msgid "TemperatureSummerMax_DEFINITION"
+msgstr "Maximale temperatuur van de ruimte of zone voor de warme (zomer) periode, die vereist is voor gebruiker/ontwerpweergavepunt en voorzien als vereiste voor koeling."
+
+msgid "TemperatureSummerMin"
+msgstr "Temperatuur Zomer Min"
+
+msgid "TemperatureSummerMin_DEFINITION"
+msgstr "Minimale temperatuur van de ruimte of zone voor de warme (zomer) periode, die vereist is voor gebruiker/designer view en voorzien als vereiste voor koeling."
+
+msgid "TemperatureWinterMax"
+msgstr "Temperatuur Winter Max"
+
+msgid "TemperatureWinterMax_DEFINITION"
+msgstr "Maximale temperatuur van de ruimte of zone voor de koude (winter) periode, die is vereist voor gebruiker/ontwerpweergavepunt en als vereiste voor verwarming."
+
+msgid "TemperatureWinterMin"
+msgstr "Temperatuur Winter Min"
+
+msgid "TemperatureWinterMin_DEFINITION"
+msgstr "Minimale temperatuur van de ruimte of zone voor de koude (winter) periode, dat is vereist van gebruiker/ontwerpgezichtspunt en als vereiste voor verwarming."
+
+msgid "Pset_SpaceLightingDesign"
+msgstr "Eigenschap Set: Ruimte Lichtontwerp"
+
+msgid "Pset_SpaceLightingDesign_DEFINITION"
+msgstr "Eigenschappen voor vereisten op [[Lighting]] van ruimten."
+
+msgid "ArtificialLighting"
+msgstr "Kunstmatige Lichte Ing"
+
+msgid "ArtificialLighting_DEFINITION"
+msgstr "Indicatie of voor deze ruimte kunstmatige verlichting nodig is (omdat natuurlijke verlichting niet voldoende is). (WAAR ) geeft aan ja (ALSE) anders aan."
+
+msgid "Illuminance"
+msgstr "Verlichting"
+
+msgid "Illuminance_DEFINITION"
+msgstr "Vereiste gemiddelde verlichtingswaarde voor deze ruimte."
+
+msgid "Pset_SpaceOccupancyRequirements"
+msgstr "Eigenschap Set: Ruimte Vereisten"
+
+msgid "Pset_SpaceOccupancyRequirements_DEFINITION"
+msgstr "Eigenschappen van activiteiten die plaatsvinden of die verwacht worden dat ze plaatsvinden binnen een of een reeks vergelijkbare elementen van de ruimtelijke structuur."
+
+msgid "AreaPerOccupant"
+msgstr "Oppervlakte per bezetter"
+
+msgid "AreaPerOccupant_DEFINITION"
+msgstr "Het laden van ontwerpgebruik voor dit type gebruik dat aan deze ruimte is toegewezen."
+
+msgid "IsOutlookDesirable"
+msgstr "Is Outlook Duurzaam"
+
+msgid "IsOutlookDesirable_DEFINITION"
+msgstr "Een indicatie of de uitstraling wenselijk is (maak WAAR in) of niet (maak FALSE)"
+
+msgid "MinimumHeadroom"
+msgstr "Minimale hoofdkamer"
+
+msgid "MinimumHeadroom_DEFINITION"
+msgstr "[[Headroom]] verplicht voor de activiteit die is toegewezen aan deze ruimte."
+
+msgid "OccupancyNumber"
+msgstr "Bezettingsnummer"
+
+msgid "OccupancyNumber_DEFINITION"
+msgstr "Aantal vereiste personen voor de activiteit die is toegewezen aan deze ruimte."
+
+msgid "OccupancyNumberPeak"
+msgstr "Bezettingsnummer piek"
+
+msgid "OccupancyNumberPeak_DEFINITION"
+msgstr "Maximaal aantal mensen vereist voor de activiteit die in piektijd aan deze ruimte is toegewezen."
+
+msgid "OccupancyTimePerDay"
+msgstr "Bezettijd per dag"
+
+msgid "OccupancyTimePerDay_DEFINITION"
+msgstr "De hoeveelheid tijd gedurende de dag dat de activiteit binnen deze ruimte vereist is."
+
+msgid "OccupancyType"
+msgstr "Bezettings Type"
+
+msgid "OccupancyType_DEFINITION"
+msgstr "Bezettingstype voor dit object. Het wordt gedefinieerd volgens de voorzittende nationale bouwcode."
+
+msgid "Pset_AirSideSystemInformation"
+msgstr "Eigenschapsset: Air Side System Information"
+
+msgid "Pset_AirSideSystemInformation_DEFINITION"
+msgstr "[[Attributes]] dat van toepassing is op een luchtzijde HVAC-systeem."
+
+msgid "AirFlowSensible"
+msgstr "Luchtstroom gevoelig"
+
+msgid "AirSideSystemDistributionType"
+msgstr "Side systeem distributietype"
+
+msgid "AirSideSystemDistributionType_DEFINITION"
+msgstr "Deze enumeratie definieert de basistypes van air side systemen (bijv. SingleDuct, DualDuct, Multizone, etc.)."
+
+msgid "AirSideSystemDistributionType_DUALDUCT"
+msgstr "Kanaal"
+
+msgid "AirSideSystemDistributionType_MULTIZONE"
+msgstr "Multizone"
+
+msgid "AirSideSystemDistributionType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AirSideSystemDistributionType_OTHER"
+msgstr "anders"
+
+msgid "AirSideSystemDistributionType_SINGLEDUCT"
+msgstr "Enkelvoudig"
+
+msgid "AirSideSystemDistributionType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AirSideSystemType"
+msgstr "Lucht Zijkant Systeem Type"
+
+msgid "AirSideSystemType_DEFINITION"
+msgstr "Deze opsomming specificeert de basistypes van mogelijke luchtside systemen (bijv. Constant [[Volume]], Variable [[Volume]], etc.)."
+
+msgid "AirSideSystemType_CONSTANTVOLUME"
+msgstr "Constante [[Volume]]"
+
+msgid "AirSideSystemType_CONSTANTVOLUMEBYPASS"
+msgstr "Constante [[Volume]] Bypass"
+
+msgid "AirSideSystemType_CONSTANTVOLUMEMULTIPLEZONEREHEAT"
+msgstr "Constante [[Volume]] Meerdere Zone Herverhitting"
+
+msgid "AirSideSystemType_CONSTANTVOLUMESINGLEZONE"
+msgstr "Constante [[Volume]] Één Zone"
+
+msgid "AirSideSystemType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "AirSideSystemType_OTHER"
+msgstr "anders"
+
+msgid "AirSideSystemType_UNSET"
+msgstr "Uitzetten"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUME"
+msgstr "Variabele lucht [[Volume]]"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEDUALCONDUIT"
+msgstr "Variabele lucht [[Volume]] Handleiding"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEFANPOWERED"
+msgstr "Variabele lucht [[Volume]] Fan Powered"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEINDUCTION"
+msgstr "Variabele lucht [[Volume]] Inductie"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEREHEAT"
+msgstr "Variabele lucht [[Volume]] Herverhitting"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEVARIABLEDIFFUSERS"
+msgstr "Variabele lucht [[Volume]] Variabele roosters"
+
+msgid "AirSideSystemType_VARIABLEAIRVOLUMEVARIABLETEMPERATURE"
+msgstr "Variabele lucht [[Volume]] Variabele [[Temperature]]"
+
+msgid "ApplianceDiversity"
+msgstr "Apparaatdichtheid"
+
+msgid "ApplianceDiversity_DEFINITION"
+msgstr "[[Diversity]] laden van toepassingen."
+
+msgid "CoolingTemperatureDelta"
+msgstr "Koeltemperatuur delta"
+
+msgid "CoolingTemperatureDelta_DEFINITION"
+msgstr "Temperatuurverschil koelen bij het berekenen van de luchtstroomsnelheid van de ruimte."
+
+msgid "EnergyGainSensible"
+msgstr "Energie winst gevoelig"
+
+msgid "EnergyGainSensible_DEFINITION"
+msgstr "De som van de totale energiewinst voor de ruimten die het systeem biedt tijdens de piekvolle koelomstandigheden, plus de eventuele verstandige energiewinst op systeemniveau."
+
+msgid "EnergyGainTotal"
+msgstr "Energie Gain Totaal"
+
+msgid "EnergyGainTotal_DEFINITION"
+msgstr "De totale hoeveelheid energiewinst voor de ruimten die door het systeem worden geserveerd tijdens de piekomstandigheden, plus alle totale energiewinst op systeemniveau."
+
+msgid "EnergyLoss"
+msgstr "Verlies van energie"
+
+msgid "EnergyLoss_DEFINITION"
+msgstr "De som van het energieverlies voor de ruimten die het systeem biedt tijdens de piekverwarmingsomstandigheden."
+
+msgid "FanPower"
+msgstr "Ventilator Kracht"
+
+msgid "FanPower_DEFINITION"
+msgstr "Ventilator motorbelasting draagt bij aan de koelbelasting."
+
+msgid "HeatingTemperatureDelta"
+msgstr "Verwarmingstemperatuur delta"
+
+msgid "HeatingTemperatureDelta_DEFINITION"
+msgstr "Temperatuurverschil verwarmen voor het berekenen van de luchtstroomsnelheid van de ruimte."
+
+msgid "InfiltrationDiversitySummer"
+msgstr "Infiltratie Diversiteit Zomer"
+
+msgid "InfiltrationDiversitySummer_DEFINITION"
+msgstr "[[Diversity]] factor voor zomerinfiltratie."
+
+msgid "InfiltrationDiversityWinter"
+msgstr "Infiltratie Diversiteit Winter"
+
+msgid "InfiltrationDiversityWinter_DEFINITION"
+msgstr "[[Diversity]] factor voor infiltratie Winter."
+
+msgid "TotalAirFlow"
+msgstr "Totale luchtstroom"
+
+msgid "Ventilation"
+msgstr "Ventilatie"
+
+msgid "Ventilation_DEFINITION"
+msgstr "Vereist buiten luchtventilatie."
+
+msgid "Pset_SpaceAirHandlingDimensioning"
+msgstr "Propertyset: Space Air Handling Dimensioning"
+
+msgid "Pset_SpaceAirHandlingDimensioning_DEFINITION"
+msgstr "Eigenschappen van de Space AirHandling Dimensioning."
+
+msgid "BoundaryAreaHeatLoss"
+msgstr "Gebiedsgebied Hitte Verlies"
+
+msgid "BoundaryAreaHeatLoss_DEFINITION"
+msgstr "[[Heat]] verlies per eenheid gebied voor de grens object. Dit is een ontwerpinvoerwaarde voor gebruik in afwezigheid van berekende belastingsgegevens."
+
+msgid "CeilingRAPlenum"
+msgstr "Ceiling Raplenum"
+
+msgid "CeilingRAPlenum_DEFINITION"
+msgstr "Plafond plenum voor retourlucht of niet. TRUE = Ja, FALSE = Nee."
+
+msgid "CoolingDesignAirFlow"
+msgstr "Koelende Design Air Flow"
+
+msgid "CoolingDesignAirFlow_DEFINITION"
+msgstr "De luchtstroomsnelheid vereist tijdens de piekomstandigheden."
+
+msgid "CoolingDryBulb"
+msgstr "Koelende droge stier"
+
+msgid "CoolingDryBulb_DEFINITION"
+msgstr "Droog lamptemperatuur, meestal voor een koeling ontwerp."
+
+msgid "CoolingRelativeHumidity"
+msgstr "Koeling relatieve vochtigheid"
+
+msgid "CoolingRelativeHumidity_DEFINITION"
+msgstr "Binnen relatieve vochtigheid voor koeling ontwerp."
+
+msgid "DesignAirFlow"
+msgstr "Ontwerp Air Flow"
+
+msgid "DesignAirFlow_DEFINITION"
+msgstr "Het ontwerp van de luchtstroom voor de ruimte."
+
+msgid "HeatingDesignAirFlow"
+msgstr "Verwarming Ontwerp Air Flow"
+
+msgid "HeatingDesignAirFlow_DEFINITION"
+msgstr "De luchtstroomsnelheid die vereist is tijdens de piekverwarmingsomstandigheden, maar kan ook worden bepaald door minimumvereisten inzake ventilatie of minimumvereisten voor luchtverandering."
+
+msgid "HeatingDryBulb"
+msgstr "Verwarming droge kogel"
+
+msgid "HeatingDryBulb_DEFINITION"
+msgstr "Droog lamptemperatuur voor ontwerp voor verwarming."
+
+msgid "HeatingRelativeHumidity"
+msgstr "Verwarming relatieve vochtigheid"
+
+msgid "HeatingRelativeHumidity_DEFINITION"
+msgstr "Binnen relatieve vochtigheid voor verwarmingsontwerp."
+
+msgid "SensibleHeatGain"
+msgstr "Voelbare Warmte Versterking"
+
+msgid "SensibleHeatGain_DEFINITION"
+msgstr "De hitte of energie die de ruimte heeft verkregen tijdens de piekomstandigheden."
+
+msgid "TotalHeatGain"
+msgstr "Totale Hitte Versterking"
+
+msgid "TotalHeatGain_DEFINITION"
+msgstr "De totale (gevoelig+latent) hoeveelheid hitte of energie verkregen door de ruimte op het moment van de koeling in de ruimte."
+
+msgid "TotalHeatLoss"
+msgstr "Totale warmte Verlies"
+
+msgid "TotalHeatLoss_DEFINITION"
+msgstr "De totale hoeveelheid warmte of energie is verloren door de ruimte op het moment van de piekomstandigheden van de ruimte."
+
+msgid "VentilationDesignAirFlow"
+msgstr "Ventilation Design Air Flow"
+
+msgid "VentilationDesignAirFlow_DEFINITION"
+msgstr "[[Ventilation]] buiten de luchteisen voor de ruimte."
+
+msgid "Pset_SpaceThermalLoad"
+msgstr "Eigenschapsset: Ruimte Thermische lading"
+
+msgid "Pset_SpaceThermalLoad_DEFINITION"
+msgstr "De thermische belasting van de ruimte definieert alle thermische verliezen en wint er binnen een ruimte of zone aan toe. De thermische belastingsbron eigenschap definieert een opsomming van mogelijke bronnen van de thermische lading. Het maximum, minimum, tijdreeks en app"
+
+msgid "AirExchangeRate"
+msgstr "Lucht wisselkoers"
+
+msgid "AirExchangeRate_DEFINITION"
+msgstr "Ladt van de luchtwisselkoers."
+
+msgid "DryBulbTemperature"
+msgstr "Temperatuur droge kogel"
+
+msgid "DryBulbTemperature_DEFINITION"
+msgstr "Droog lamptemperatuur van het object."
+
+msgid "EquipmentSensible"
+msgstr "Uitrusting gevoelig"
+
+msgid "EquipmentSensible_DEFINITION"
+msgstr "[[Heat]] winsten en verliezen van uitrusting."
+
+msgid "ExhaustAir"
+msgstr "Afvoer lucht"
+
+msgid "ExhaustAir_DEFINITION"
+msgstr "Ladingen van uitlaatlucht."
+
+msgid "InfiltrationSensible"
+msgstr "Infiltratie gevoelig"
+
+msgid "InfiltrationSensible_DEFINITION"
+msgstr "[[Heat]] wint en verlies van infiltratie."
+
+msgid "Lighting"
+msgstr "Lichte Ing"
+
+msgid "Lighting_DEFINITION"
+msgstr "[[Lighting]] laden"
+
+msgid "People"
+msgstr "Mensen"
+
+msgid "People_DEFINITION"
+msgstr "[[Heat]] krijgt en verliest van mensen."
+
+msgid "RecirculatedAir"
+msgstr "Recirculeerde lucht"
+
+msgid "RecirculatedAir_DEFINITION"
+msgstr "Ladingen van hercirculerende lucht."
+
+msgid "RelativeHumidity"
+msgstr "Relatieve vochtigheid"
+
+msgid "RelativeHumidity_DEFINITION"
+msgstr "Ladt van de relatieve vochtigheid."
+
+msgid "TotalLatentLoad"
+msgstr "Totale laatste lading"
+
+msgid "TotalLatentLoad_DEFINITION"
+msgstr "Totale energie die uit de lucht wordt gehaald of die de luchtvochtigheid of concentratie van waterdampen beïnvloedt. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "TotalRadiantLoad"
+msgstr "Totale stralende belasting"
+
+msgid "TotalRadiantLoad_DEFINITION"
+msgstr "Totale elektromagnetische energie toegevoegd of verwijderd door emissie of absorptie. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "TotalSensibleLoad"
+msgstr "Totale gevoelige lading"
+
+msgid "TotalSensibleLoad_DEFINITION"
+msgstr "Totale energie is toegevoegd of verwijderd uit de lucht en heeft invloed op de temperatuur. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "VentilationIndoorAir"
+msgstr "Ventilatie Binnenlucht"
+
+msgid "VentilationIndoorAir_DEFINITION"
+msgstr "[[Ventilation]] laadt van binnenlucht."
+
+msgid "VentilationOutdoorAir"
+msgstr "Ventilatie Buiten Lucht"
+
+msgid "VentilationOutdoorAir_DEFINITION"
+msgstr "[[Ventilation]] laadt van buitenlucht."
+
+msgid "Pset_SpaceThermalLoadPHistory"
+msgstr "Eigenschapsset: Ruimte Thermische Ladingsgeschiedenis"
+
+msgid "Pset_SpaceThermalLoadPHistory_DEFINITION"
+msgstr "Deze vastgoedset definieert de werkelijke thermische verliezen en winsten die plaatsvinden binnen een ruimte of zone. De thermische belasting bron eigenschap definieert een opsomming van mogelijke bronnen van de thermische lading."
+
+msgid "AirExchangeRateTimeHistory"
+msgstr "Lucht wisselkoers tijd geschiedenis"
+
+msgid "AirExchangeRateTimeHistory_DEFINITION"
+msgstr "Ladt van de luchtwisselkoers."
+
+msgid "AirExchangeRateTimeHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "DryBulbTemperatureHistory"
+msgstr "Temperatuurgeschiedenis droge kogel"
+
+msgid "DryBulbTemperatureHistory_DEFINITION"
+msgstr "Ladt van de droge lamptemperatuur."
+
+msgid "DryBulbTemperatureHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "EquipmentSensibleHistory"
+msgstr "Uitrusting Gevoelige geschiedenis"
+
+msgid "EquipmentSensibleHistory_DEFINITION"
+msgstr "[[Heat]] winsten en verliezen van uitrusting."
+
+msgid "EquipmentSensibleHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "ExhaustAirHistory"
+msgstr "Afvoer lucht geschiedenis"
+
+msgid "ExhaustAirHistory_DEFINITION"
+msgstr "Ladingen van uitlaatlucht."
+
+msgid "ExhaustAirHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "InfiltrationSensibleHistory"
+msgstr "Infiltratie gevoelige geschiedenis"
+
+msgid "InfiltrationSensibleHistory_DEFINITION"
+msgstr "[[Heat]] wint en verlies van infiltratie."
+
+msgid "InfiltrationSensibleHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "LightingHistory"
+msgstr "Lichte Ing Geschiedenis"
+
+msgid "LightingHistory_DEFINITION"
+msgstr "[[Lighting]] laden"
+
+msgid "LightingHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "PeopleHistory"
+msgstr "Geschiedenis van mensen"
+
+msgid "PeopleHistory_DEFINITION"
+msgstr "[[Heat]] krijgt en verliest van mensen."
+
+msgid "PeopleHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "RecirculatedAirHistory"
+msgstr "Herberekende luchtgeschiedenis"
+
+msgid "RecirculatedAirHistory_DEFINITION"
+msgstr "Ladingen van hercirculerende lucht."
+
+msgid "RecirculatedAirHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "RelativeHumidityHistory"
+msgstr "Relatieve vochtigheid geschiedenis"
+
+msgid "RelativeHumidityHistory_DEFINITION"
+msgstr "Ladt van de relatieve vochtigheid."
+
+msgid "RelativeHumidityHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TotalLatentLoadHistory"
+msgstr "Totale Laatste Laden Geschiedenis"
+
+msgid "TotalLatentLoadHistory_DEFINITION"
+msgstr "Totale energie die uit de lucht wordt gehaald of die de luchtvochtigheid of concentratie van waterdampen beïnvloedt. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "TotalLatentLoadHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TotalRadiantLoadHistory"
+msgstr "Totale stralingslading geschiedenis"
+
+msgid "TotalRadiantLoadHistory_DEFINITION"
+msgstr "Totale elektromagnetische energie toegevoegd of verwijderd door emissie of absorptie. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "TotalRadiantLoadHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TotalSensibleLoadHistory"
+msgstr "Totale gevoelige geschiedenis van lading"
+
+msgid "TotalSensibleLoadHistory_DEFINITION"
+msgstr "Totale energie is toegevoegd of verwijderd uit de lucht en heeft invloed op de temperatuur. Als een waarde minder dan nul is (negatief), dan wordt de thermische belasting uit de ruimte verloren. Als een waarde groter is dan nul (positief), dan is de thermische belasting een winst voor de ruimte."
+
+msgid "TotalSensibleLoadHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "VentilationIndoorAirHistory"
+msgstr "Ventilatie Binnenluchtgeschiedenis"
+
+msgid "VentilationIndoorAirHistory_DEFINITION"
+msgstr "[[Ventilation]] laadt van binnenlucht."
+
+msgid "VentilationIndoorAirHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "VentilationOutdoorAirHistory"
+msgstr "Ventilatie buitenlucht geschiedenis"
+
+msgid "VentilationOutdoorAirHistory_DEFINITION"
+msgstr "[[Ventilation]] laadt van buitenlucht."
+
+msgid "VentilationOutdoorAirHistory_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ThermalLoad"
+msgstr "Eigenschapsset: Thermische lading"
+
+msgid "Pset_ThermalLoad_DEFINITION"
+msgstr "Eigenschappen voor thermische ladingen van elementen."
+
+msgid "AppliancePercentLoadToRadiant"
+msgstr "Apparaatpercentage van de apparatuur naar radiant"
+
+msgid "AppliancePercentLoadToRadiant_DEFINITION"
+msgstr "Percentage verstandige belasting van stralingshitte."
+
+msgid "LightingDiversity"
+msgstr "Licht Ing Diversiteit"
+
+msgid "LightingDiversity_DEFINITION"
+msgstr "[[Lighting]] diversiteit."
+
+msgid "LightingLoadIntensity"
+msgstr "Lichte Ing Laadintensiteit"
+
+msgid "LightingLoadIntensity_DEFINITION"
+msgstr "Gemiddelde belastingsintensiteit van de verlichting in ruimte per eenheid (PowerMeasure/IfcAreaMeasure)."
+
+msgid "LightingPercentLoadToReturnAir"
+msgstr "Licht Ing Percentage Lading om terug te keren lucht"
+
+msgid "LightingPercentLoadToReturnAir_DEFINITION"
+msgstr "Percentage van de verlichtingslast naar het plenum van de terugreis."
+
+msgid "LoadSafetyFactor"
+msgstr "Veiligheidsfactor laden"
+
+msgid "LoadSafetyFactor_DEFINITION"
+msgstr "[[Load]] veiligheidsfactor."
+
+msgid "OccupancyDiversity"
+msgstr "Bezettings Diversiteit"
+
+msgid "OccupancyDiversity_DEFINITION"
+msgstr "[[Diversity]] factor die kan worden toegepast op het aantal mensen in de ruimte."
+
+msgid "OutsideAirPerPerson"
+msgstr "Side Air Per persoon"
+
+msgid "OutsideAirPerPerson_DEFINITION"
+msgstr "Ontwerp de hoeveelheid buitenlucht die per persoon in de ruimte wordt verstrekt."
+
+msgid "ReceptacleLoadIntensity"
+msgstr "Receptacle laadintensiteit"
+
+msgid "ReceptacleLoadIntensity_DEFINITION"
+msgstr "Gemiddeld stroomgebruik van apparaten en andere niet-HVAC-apparaten in de ruimte per eenheid gebied.(PowerMeasure/IfcAreaMeasure)."
+
+msgid "TotalCoolingLoad"
+msgstr "Totale koelapparatuur"
+
+msgid "TotalCoolingLoad_DEFINITION"
+msgstr "De piekbelasting voor het gebouw, de zone of de ruimte."
+
+msgid "TotalHeatingLoad"
+msgstr "Totale Verwarming Lading"
+
+msgid "TotalHeatingLoad_DEFINITION"
+msgstr "De totale verwarmingsbelasting voor het gebouw, de zone of de ruimte is piek."
+
+msgid "IfcMarinePart"
+msgstr "Onderdeel zee"
+
+msgid "IfcMarinePart_DEFINITION"
+msgstr "Een deel van een mariene faciliteit."
+
+msgid "Qto_FacilityPartBaseQuantities"
+msgstr "Hoeveelheid instellen: Faciliteit Onderdeel Basis Hoeveelheden"
+
+msgid "Qto_FacilityPartBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van [[IfcFacilityPart]]."
+
+msgid "UsageType"
+msgstr "Type gebruik"
+
+msgid "UsageType_DEFINITION"
+msgstr "Definieert het verdrag dat wordt gebruikt om de faciliteit te verdelen of te verdelen."
+
+msgid "UsageType_LATERAL"
+msgstr "Lateraal"
+
+msgid "UsageType_LONGITUDINAL"
+msgstr "Lengtegraadinaal"
+
+msgid "UsageType_REGION"
+msgstr "[[Region]]"
+
+msgid "UsageType_VERTICAL"
+msgstr "Verticaal"
+
+msgid "UsageType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "UsageType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "IfcMooringDevice"
+msgstr "Betoverend apparaat"
+
+msgid "IfcMooringDevice_DEFINITION"
+msgstr "Een aanmeren apparaat is een actief of passief bouwend element dat de primaire functie is om deel te nemen aan de afvaart van een boot, dit kan in de vorm van een vette gebruikt worden als bijlage punt voor lijnen of actieve apparatuur zoals snelle releasehaken."
+
+msgid "Pset_MooringDeviceCommon"
+msgstr "Eigenschap Set: Mooring Device Common"
+
+msgid "Pset_MooringDeviceCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMooringDevice]] en IfcMooringDeviceType."
+
+msgid "AnchorageType"
+msgstr "Anker type"
+
+msgid "AnchorageType_DEFINITION"
+msgstr "Nummering verankering apparaat type"
+
+msgid "AnchorageType_CASTIN"
+msgstr "Castin"
+
+msgid "AnchorageType_DRILLEDANDFIXED"
+msgstr "Drilledand vast"
+
+msgid "AnchorageType_THROUGHBOLTED"
+msgstr "Gedurende de boled"
+
+msgid "DeviceCapacity"
+msgstr "Apparaat capaciteit"
+
+msgid "DeviceCapacity_DEFINITION"
+msgstr "Bezig met afdwingen capaciteit"
+
+msgid "DeviceType"
+msgstr "Type apparaat"
+
+msgid "DeviceType_DEFINITION"
+msgstr "Mooring type apparaat"
+
+msgid "DeviceType_CLEAT"
+msgstr "Opschonen"
+
+msgid "DeviceType_DOUBLEBUTT"
+msgstr "Dubbele knop"
+
+msgid "DeviceType_HORN"
+msgstr "Hoorn"
+
+msgid "DeviceType_KIDNEY"
+msgstr "Broodje"
+
+msgid "DeviceType_PILLAR"
+msgstr "Pilaar"
+
+msgid "DeviceType_RING"
+msgstr "Mooring type apparaat"
+
+msgid "DeviceType_SINGLEBUTT"
+msgstr "Enkelvoudige knop"
+
+msgid "DeviceType_THEAD"
+msgstr "Theo"
+
+msgid "MaximumLineCount"
+msgstr "Maximum aantal regels"
+
+msgid "MaximumLineCount_DEFINITION"
+msgstr "Maximum aantal lijnen dat gemonteerd kan worden op het meubel."
+
+msgid "MaximumLineSlope"
+msgstr "Maximale helling regel"
+
+msgid "MaximumLineSlope_DEFINITION"
+msgstr "Maximale toegestane lijnhoek in graden (negatief als onder horizontaal vanaf quay)"
+
+msgid "MinumumLineSlope"
+msgstr "Minumum lijn helling"
+
+msgid "MinumumLineSlope_DEFINITION"
+msgstr "Minimale toegestane hoekte in graden (negatief als onder horizontaal vanaf quay)"
+
+msgid "IfcNavigationElement"
+msgstr "Navigatie element"
+
+msgid "IfcNavigationElement_DEFINITION"
+msgstr "Een navigatie-element is een actief of passief bouwend element dat de primaire functie is om navigatieinstructies en waarschuwingen aan de schepen te verstrekken, Dit zou kunnen gebeuren in de vorm van een zwevende buis, een vast baken. Navigatie-elementen kunnen andere onderdelen en elementen samenvoegen om de hele structuur te vormen. dit kan omvatten een framestructuur om het lichaam te vormen instanties van [[IfcSign]] voor signaal- of instanties van [[IfcSignal]] voor aanvullende lampen an/of geluidssignalen."
+
+msgid "IfcConveyorSegmentBELTCONVEYOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcConveyorSegmentBELTCONVEYOR"
+msgstr "Conveyor transportband"
+
+msgid "IfcConveyorSegmentBELTCONVEYOR_DEFINITION"
+msgstr "Een eindeloze transportband voor het dragen van materiaal zonder elasme."
+
+msgid "IfcConveyorSegmentBUCKETCONVEYOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcConveyorSegmentBUCKETCONVEYOR"
+msgstr "Emmer Conveyor"
+
+msgid "IfcConveyorSegmentBUCKETCONVEYOR_DEFINITION"
+msgstr "Een vervoerder in de vorm van verbonden emmers of segmenten die in een doorlopende lus bewegen"
+
+msgid "IfcConveyorSegmentCHUTECONVEYOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcConveyorSegmentCHUTECONVEYOR"
+msgstr "Conveyor van hut"
+
+msgid "IfcConveyorSegmentCHUTECONVEYOR_DEFINITION"
+msgstr "Gelaagde vervoerder waar media door een dwaze of koorts gaan."
+
+msgid "IfcConveyorSegmentSCREWCONVEYOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcConveyorSegmentSCREWCONVEYOR"
+msgstr "Schroef Conveyor"
+
+msgid "IfcConveyorSegmentSCREWCONVEYOR_DEFINITION"
+msgstr "samengesteld uit een longitudinale schroef in een rug of pijp die draait om media door het segment te drukken"
+
+msgid "IfcLiquidTerminalHOSEREEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLiquidTerminalHOSEREEL"
+msgstr "Hees Seel"
+
+msgid "IfcLiquidTerminalHOSEREEL_DEFINITION"
+msgstr "Een ondersteunend kader waarin een hemel kan zijn die als primaire doel heeft om verbinding te maken met de externe omgeving."
+
+msgid "IfcLiquidTerminalLOADINGARM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcLiquidTerminalLOADINGARM"
+msgstr "Arm laden"
+
+msgid "IfcLiquidTerminalLOADINGARM_DEFINITION"
+msgstr "Een laadarm maakt het overzetten van vloeibaar of vloeibaar gas van het ene systeem naar het andere mogelijk. door het gebruik van een gelede arm die verantwoordelijk is voor de verplaatsing van aan land gebrachte schepen."
+
+msgid "IfcMarineFacilityBARRIERBEACH_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityBARRIERBEACH"
+msgstr "Barrière Strand"
+
+msgid "IfcMarineFacilityBARRIERBEACH_DEFINITION"
+msgstr "een zandrug die licht boven het zeeoppervlak komt en ruwweg parallel loopt aan de kust, waarvan het gescheiden wordt door een lagoon."
+
+msgid "IfcMarineFacilityBREAKWATER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityBREAKWATER"
+msgstr "Breek water"
+
+msgid "IfcMarineFacilityBREAKWATER_DEFINITION"
+msgstr "Een longitudinale structuur die een kustgebied beschermt, buit, beken of estuarium van golven.;"
+
+msgid "IfcMarineFacilityCANAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityCANAL"
+msgstr "Kanaal"
+
+msgid "IfcMarineFacilityCANAL_DEFINITION"
+msgstr "Een door de mens gemaakte waterbaan werd gewoonlijk gebouwd om rivieren, meren of zeeën aan te sluiten en vaak van een formaat geschikt voor de scheepvaart."
+
+msgid "IfcMarineFacilityDRYDOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityDRYDOCK"
+msgstr "Droog dock"
+
+msgid "IfcMarineFacilityDRYDOCK_DEFINITION"
+msgstr "een droge dock is een gesloten kamer (door spoeling) die het afvoer van water voor de bouw of reparatie van schepen toestaat;"
+
+msgid "IfcMarineFacilityFLOATINGDOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityFLOATINGDOCK"
+msgstr "Zweefdock"
+
+msgid "IfcMarineFacilityFLOATINGDOCK_DEFINITION"
+msgstr "Een ruimtelijk element dat een zwevende droge dock en ondersteunende quay side ancillaries omvat."
+
+msgid "IfcMarineFacilityHYDROLIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityHYDROLIFT"
+msgstr "Hydrolift"
+
+msgid "IfcMarineFacilityHYDROLIFT_DEFINITION"
+msgstr "Een soort opruimingsfaciliteit voor schepen, ook wel bekend als een hydraulisch lift dock waar schepen verticaal worden opgevoerd door insluitingssystemen voor water. vervolgens zweef lateraal over het land naar bergen die vervolgens droog worden."
+
+msgid "IfcMarineFacilityJETTY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityJETTY"
+msgstr "Jetty"
+
+msgid "IfcMarineFacilityJETTY_DEFINITION"
+msgstr "Een structuur die zich uitstrekt tot de zee, die meestal langs de kust hangt, vooral voor de overdracht van vloeibare bulkmaterialen;"
+
+msgid "IfcMarineFacilityLAUNCHRECOVERY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityLAUNCHRECOVERY"
+msgstr "Herstellen starten"
+
+msgid "IfcMarineFacilityLAUNCHRECOVERY_DEFINITION"
+msgstr "Subset faciliteiten voor het lanceren of terugwinnen van schepen."
+
+msgid "IfcMarineFacilityMARINEDEFENCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityMARINEDEFENCE"
+msgstr "Marine Verdediging"
+
+msgid "IfcMarineFacilityMARINEDEFENCE_DEFINITION"
+msgstr "Een subset van voorzieningen met de primaire functie van bescherming of verdediging van een kust- of overstromingsgebied."
+
+msgid "IfcMarineFacilityNAVIGATIONALCHANNEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityNAVIGATIONALCHANNEL"
+msgstr "Navigatie kanaal"
+
+msgid "IfcMarineFacilityNAVIGATIONALCHANNEL_DEFINITION"
+msgstr "Een natuurlijke bevaarbare waterkoers (zoals een rivier) die beheerd moet worden of die verbeterd moet worden. Dit omvat gedefinieerde navigatiegebieden in open zeeën en bays;"
+
+msgid "IfcMarineFacilityPORT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityPORT"
+msgstr "Poort"
+
+msgid "IfcMarineFacilityPORT_DEFINITION"
+msgstr "Een complexe faciliteit voor scheepvaart en maritieme activiteiten, waaronder lading, mensen en opslag van schepen (marinas havens)."
+
+msgid "IfcMarineFacilityQUAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityQUAY"
+msgstr "Quay"
+
+msgid "IfcMarineFacilityQUAY_DEFINITION"
+msgstr "een voorziening voor het aanmeren van schepen die vergezeld gaan van het laden en lossen van vracht of passagiers of het onderhoud van schepen."
+
+msgid "IfcMarineFacilityREVETMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityREVETMENT"
+msgstr "Revetment"
+
+msgid "IfcMarineFacilityREVETMENT_DEFINITION"
+msgstr "Een mariene defensieve structuur gemaakt van aardwerken, masonry of activiteiten die zo gebouwd zijn dat ze de energie van het binnenkomende water absorberen."
+
+msgid "IfcMarineFacilitySHIPLIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilitySHIPLIFT"
+msgstr "Scheepslift"
+
+msgid "IfcMarineFacilitySHIPLIFT_DEFINITION"
+msgstr "Een soort herstelfaciliteit voor schepen, waarbij schepen verticaal uit het water worden gehaald op platforms verbonden aan wijnen, vervolgens horizontaal overgedragen naar land gebaseerd bogen op spoor, wiel of spoorsystemen."
+
+msgid "IfcMarineFacilitySHIPLOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilitySHIPLOCK"
+msgstr "Vergrendeling van schepen"
+
+msgid "IfcMarineFacilitySHIPLOCK_DEFINITION"
+msgstr "Een faciliteit voor het verbouwen en verlagen van schepen, schepen en andere waterboten tussen rivieren en rivieren die verschillende waterlagen hebben, of tussen verontreinigde stroomgebieden. Dit wordt bereikt door middel van een onbewaakte kamer van water die wordt gevuld en leeggemaakt."
+
+msgid "IfcMarineFacilitySHIPYARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilitySHIPYARD"
+msgstr "Yard verzenden"
+
+msgid "IfcMarineFacilitySHIPYARD_DEFINITION"
+msgstr "Een kust- en waterfaciliteit waar schepen worden gebouwd en gerepareerd."
+
+msgid "IfcMarineFacilitySLIPWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilitySLIPWAY"
+msgstr "Slipway"
+
+msgid "IfcMarineFacilitySLIPWAY_DEFINITION"
+msgstr "Een faciliteit voor de dynamische lancering of herstel van een schip dat gebruik maakt van een schuine helling en zwaartekracht of mechanische vervoersystemen."
+
+msgid "IfcMarineFacilityWATERWAY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityWATERWAY"
+msgstr "Waterweg"
+
+msgid "IfcMarineFacilityWATERWAY_DEFINITION"
+msgstr "Een subset van voorzieningen die de primaire functie hebben van het creëren van een bevaarbaar gebied van water."
+
+msgid "IfcMarineFacilityWATERWAYSHIPLIFT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarineFacilityWATERWAYSHIPLIFT"
+msgstr "Waterweg Schip Lift"
+
+msgid "IfcMarineFacilityWATERWAYSHIPLIFT_DEFINITION"
+msgstr "Een faciliteit voor het verbouwen en verlagen van schepen, schepen en andere waterboten tussen rivier- en kanaalwaterdelen of tussen verontreinigde stroomgebieden. Dit wordt bereikt door een kwelling van water dat mechanisch wordt opgeruimd."
+
+msgid "IfcMarinePartABOVEWATERLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartABOVEWATERLINE"
+msgstr "Boven water"
+
+msgid "IfcMarinePartABOVEWATERLINE_DEFINITION"
+msgstr "Een verticaal gedeelte dat het deel boven de gemiddelde waterlijn in het gebied van de locatie vertegenwoordigt."
+
+msgid "IfcMarinePartANCHORAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartANCHORAGE"
+msgstr "Anker"
+
+msgid "IfcMarinePartANCHORAGE_DEFINITION"
+msgstr "Een gebiedsdeel van een regio dat een beheerd gebied vormt voor het bemachtigen van schepen die in afwachting zijn van de ruimte en de voorwaarden om een haven aan te doen."
+
+msgid "IfcMarinePartAPPROACHCHANNEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartAPPROACHCHANNEL"
+msgstr "Benader Kanaal"
+
+msgid "IfcMarinePartAPPROACHCHANNEL_DEFINITION"
+msgstr "Een langitudinaal ruimtelijk deel van een waterweg of havenfaciliteit dat de aanwending van de primaire voorziening dekt."
+
+msgid "IfcMarinePartBELOWWATERLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartBELOWWATERLINE"
+msgstr "Onder waterlijn"
+
+msgid "IfcMarinePartBELOWWATERLINE_DEFINITION"
+msgstr "Een verticaal gedeelte dat het onderste deel van de gemiddelde waterlijn in het gebied van de site weergeeft."
+
+msgid "IfcMarinePartBERTHINGSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartBERTHINGSTRUCTURE"
+msgstr "Brouwsel Structuur"
+
+msgid "IfcMarinePartBERTHINGSTRUCTURE_DEFINITION"
+msgstr "Een langitudinaal ruimtelijk deel van een waterweg of havenfaciliteit, dat voorzieningen biedt op zee en in afwachting van de beschikbaarheid van de waterwegfaciliteit. Bijvoorbeeld wachten tot een slottyclus voltooid is en de vergrendeldeuren geopend zijn."
+
+msgid "IfcMarinePartCHAMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartCHAMBER"
+msgstr "Kamer"
+
+msgid "IfcMarinePartCHAMBER_DEFINITION"
+msgstr "Een langitudinaal ruimtelijk deel van een waterweg of havenfaciliteit dat de onbewaakte kamer van een faciliteit vormt, zoals een slot, een droog dock of waterlift"
+
+msgid "IfcMarinePartCILL_LEVEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartCILL_LEVEL"
+msgstr "Kook Niveau"
+
+msgid "IfcMarinePartCILL_LEVEL_DEFINITION"
+msgstr "Een verticaal gebiedsdeel dat de hoogte van het potlood en de vloer niveau van een onbewogen faciliteit weergeeft, zoals een scheepsslot of droge slot."
+
+msgid "IfcMarinePartCOPELEVEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartCOPELEVEL"
+msgstr "Kopelevel"
+
+msgid "IfcMarinePartCOPELEVEL_DEFINITION"
+msgstr "Een verticaal gebiedsdeel dat het verhoogde werkoppervlak van de kabel voor de plaatsing van koningsmeubels en -plant weergeeft."
+
+msgid "IfcMarinePartCORE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartCORE"
+msgstr "Kern"
+
+msgid "IfcMarinePartCORE_DEFINITION"
+msgstr "Een lateraal ruimteschip dat de kernstructuur van een faciliteit, zoals een ademhalingskwater of bankeman, verdeelt"
+
+msgid "IfcMarinePartCREST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartCREST"
+msgstr "Kruin"
+
+msgid "IfcMarinePartCREST_DEFINITION"
+msgstr "Een lateraal ruimtelijkeonderdeel dat het rustgebied van ademhaling vormt of embankieren waar extra constructies worden geplaatst, zoals toegangspunten of wegen."
+
+msgid "IfcMarinePartGATEHEAD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartGATEHEAD"
+msgstr "Poort Hoofd"
+
+msgid "IfcMarinePartGATEHEAD_DEFINITION"
+msgstr "Een langitudinaal ruimtelijk deel van een waterweg of havenfaciliteit dat de poort vormt, ondersteunende constructiefaciliteit van een aangetaste faciliteit, zoals een slot, droge dock of hydrolift."
+
+msgid "IfcMarinePartGUDINGSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartGUDINGSTRUCTURE"
+msgstr "Gegist structuur"
+
+msgid "IfcMarinePartGUDINGSTRUCTURE_DEFINITION"
+msgstr "Een langitudinaal ruimtelijk deel van een waterweg of havenfaciliteit dat de begeleidende en ondersteunende structuren bij de ingang van een onbezonnen instelling vormt."
+
+msgid "IfcMarinePartHIGHWATERLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartHIGHWATERLINE"
+msgstr "Hoge Waterlijn"
+
+msgid "IfcMarinePartHIGHWATERLINE_DEFINITION"
+msgstr "Een verticaal gebiedsdeel dat de hoogte van de hoogwaterlijn aangeeft, meerdere hoogwaterlijnen kunnen worden gebruikt om de verschillende hoogtetiketten te vertegenwoordigen."
+
+msgid "IfcMarinePartLANDFIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartLANDFIELD"
+msgstr "Land veld"
+
+msgid "IfcMarinePartLANDFIELD_DEFINITION"
+msgstr "Een regio of een laterale faciliteit die het landveld van een waterfaciliteit zoals een kade bestrijkt."
+
+msgid "IfcMarinePartLEEWARDSIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartLEEWARDSIDE"
+msgstr "Leiderende Zijde"
+
+msgid "IfcMarinePartLEEWARDSIDE_DEFINITION"
+msgstr "Een lateraal gebiedsdeel dat de kant van beschermende constructies bedekt die geen weer- of golfeffecten ervaren."
+
+msgid "IfcMarinePartLOWWATERLINE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartLOWWATERLINE"
+msgstr "Lage waterlijn"
+
+msgid "IfcMarinePartLOWWATERLINE_DEFINITION"
+msgstr "Een verticaal gebiedsdeel dat de hoogte van de lage waterlijn weergeeft, meerdere lage waterlijnen kunnen worden gebruikt om de verschillende lage tidemtypes weer te geven."
+
+msgid "IfcMarinePartMANUFACTURING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartMANUFACTURING"
+msgstr "Productie"
+
+msgid "IfcMarinePartMANUFACTURING_DEFINITION"
+msgstr "Een gebiedsdeel van een regio dat een sub opsplitsing vormt van een faciliteit voor de fabricage. Dit betreft gebieden die open lucht zijn en geen gebouw vormen, of het is slechts een klein deel van het hele gebied (in dit geval kan een kind van het type gebouw worden gebruikt)."
+
+msgid "IfcMarinePartNAVIGATIONALAREA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartNAVIGATIONALAREA"
+msgstr "Navigatiegebied"
+
+msgid "IfcMarinePartNAVIGATIONALAREA_DEFINITION"
+msgstr "Een gebiedsdeel van een regio die een beheerd navigatiegebied bestrijkt dat om operationele redenen wordt onderhouden dit zou een draai met een gekleed draai kunnen zijn of wachtgebied."
+
+msgid "IfcMarinePartPROTECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartPROTECTION"
+msgstr "Bescherming"
+
+msgid "IfcMarinePartPROTECTION_DEFINITION"
+msgstr "Een lateraal of regionaal ruimtelijk deel dat het gebied vormt dat beschermende maatregelen bevat voor de verspreiding en erosie van een faciliteit."
+
+msgid "IfcMarinePartSHIPTRANSFER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartSHIPTRANSFER"
+msgstr "Overdracht verzenden"
+
+msgid "IfcMarinePartSHIPTRANSFER_DEFINITION"
+msgstr "Een regionaal deel dat een duidelijk gebied vertegenwoordigt dat wordt gebruikt voor de overbrenging en verplaatsing van schepen van deze streek, kan complexe spoorlijnen en extra laadvereisten omvatten."
+
+msgid "IfcMarinePartSTORAGEAREA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartSTORAGEAREA"
+msgstr "Opslag gebied"
+
+msgid "IfcMarinePartSTORAGEAREA_DEFINITION"
+msgstr "Een gebiedsdeel van een regio dat een sub splitsing vormt van een faciliteit voor het opslaan van lading. Bijvoorbeeld containerstapels, scheepswerven met droge bulk opslag, materiaalopslagtuinen."
+
+msgid "IfcMarinePartVEHICLESERVICING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartVEHICLESERVICING"
+msgstr "Voertuig onderhoud"
+
+msgid "IfcMarinePartVEHICLESERVICING_DEFINITION"
+msgstr "Een gebiedsdeel van de regio dat een functionele afdeling omvat die is ontworpen voor het onderhoud en/of de opslag van voertuigen die voor installatiewerkzaamheden worden gebruikt."
+
+msgid "IfcMarinePartWATERFIELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartWATERFIELD"
+msgstr "Water veld"
+
+msgid "IfcMarinePartWATERFIELD_DEFINITION"
+msgstr "Een regio of een laterale faciliteit die het waterveld van een waterzijdige faciliteit zoals een kade bestrijkt."
+
+msgid "IfcMarinePartWEATHERSIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMarinePartWEATHERSIDE"
+msgstr "Weer Side"
+
+msgid "IfcMarinePartWEATHERSIDE_DEFINITION"
+msgstr "Een lateraal gebiedsdeel dat de kant van beschermende constructies bestrijkt die is ontworpen om te beschermen en te worden beïnvloed door het weer of door golfgolfbewegingen. zoals de buitenzijde van ademhalingstekens of de rivier van overstromingsembanken."
+
+msgid "IfcMooringDeviceBOLLARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMooringDeviceBOLLARD"
+msgstr "Vetgebeid"
+
+msgid "IfcMooringDeviceBOLLARD_DEFINITION"
+msgstr "een korte, dikke post op het dek van een schip of een kazerne zijde, waartoe het touw van het schip kan worden beveiligd. niet te verwarren met verkeerstuitering."
+
+msgid "IfcMooringDeviceLINETENSIONER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMooringDeviceLINETENSIONER"
+msgstr "Lijn spanner"
+
+msgid "IfcMooringDeviceLINETENSIONER_DEFINITION"
+msgstr "Een mechanisch apparaat wordt gebruikt om een spanningslast toe te passen op de aanleglijnen om de stabiliteit van de schepen voor de havenoperaties te verbeteren."
+
+msgid "IfcMooringDeviceMAGNETICDEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMooringDeviceMAGNETICDEVICE"
+msgstr "Magnetisch apparaat"
+
+msgid "IfcMooringDeviceMAGNETICDEVICE_DEFINITION"
+msgstr "Moordenaar die magneet gebruikt als primaire methode om het schip te beveiligen."
+
+msgid "IfcMooringDeviceMOORINGHOOKS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMooringDeviceMOORINGHOOKS"
+msgstr "Moorende Hooks"
+
+msgid "IfcMooringDeviceMOORINGHOOKS_DEFINITION"
+msgstr "Snelle release voor afhaken - een actief apparaat dat wordt gebruikt om een schip te beveiligen en automatisch vrijgeven van schepen."
+
+msgid "IfcMooringDeviceVACUUMDEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMooringDeviceVACUUMDEVICE"
+msgstr "Vacuum apparaat"
+
+msgid "IfcMooringDeviceVACUUMDEVICE_DEFINITION"
+msgstr "Sleepapparaat dat gebruik maakt van vacuümzuiging als primaire methode om het schip te beveiligen."
+
+msgid "IfcNavigationElementBEACON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcNavigationElementBEACON"
+msgstr "Baken"
+
+msgid "IfcNavigationElementBEACON_DEFINITION"
+msgstr "een vaste verticale structuur die dienst doet als navigatieplicht, om riffen of andere gevaren te laten zien, of navigatierichtingen te geven."
+
+msgid "IfcNavigationElementBUOY_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcNavigationElementBUOY"
+msgstr "Boei"
+
+msgid "IfcNavigationElementBUOY_DEFINITION"
+msgstr "een vast zwevend gebouw dat als navigatiemerk fungeert, riffen of andere risico's laat zien, of navigatierichtingen aanbieden."
+

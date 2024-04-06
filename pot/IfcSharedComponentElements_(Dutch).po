@@ -1,0 +1,686 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedComponentElements.pot\n"
+"X-Crowdin-File-ID: 190\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcBuildingElementPart"
+msgstr "Bouw element onderdeel"
+
+msgid "IfcBuildingElementPart_DEFINITION"
+msgstr "[[IfcBuildingElementPart]] vertegenwoordigt belangrijke onderdelen als ondergeschikte onderdelen van een bouwelement. Gebruikelijke voorbeelden van gebruik zijn eerdere betonnen sandwich muren, waar de lagen verschillende geometrie weergaven kunnen hebben. In dit geval beschrijft de gelaagde materiële vertegenwoordiging het element niet. Elke laag wordt vertegenwoordigd door een eigen exemplaar van de [[IfcBuildingElementPart]] met zijn eigen geometrie omschrijving."
+
+msgid "IfcDiscreteAccessory"
+msgstr "Accessoire Discrete"
+
+msgid "IfcDiscreteAccessory_DEFINITION"
+msgstr "Een discrete accessoire is een vertegenwoordiging van verschillende soorten accessoires die zijn opgenomen of zijn toegevoegd aan elementen."
+
+msgid "Pset_DiscreteAccessoryCornerFixingPlate"
+msgstr "Property Set: Accessoire Hoek Fixing Plaat"
+
+msgid "Pset_DiscreteAccessoryCornerFixingPlate_DEFINITION"
+msgstr "Eigenschappen specifiek voor de hoek vaste platen."
+
+msgid "CornerFixingPlateFlangeWidthInPlaneX"
+msgstr "Hoek vaste plaat flens breedte in vlak X"
+
+msgid "CornerFixingPlateFlangeWidthInPlaneX_DEFINITION"
+msgstr "De flens breedte van de L-vormige hoek plaat in vlak X."
+
+msgid "CornerFixingPlateFlangeWidthInPlaneZ"
+msgstr "Hoek vaste plaat flens breedte in vlak Z"
+
+msgid "CornerFixingPlateFlangeWidthInPlaneZ_DEFINITION"
+msgstr "De flens breedte van de L-vormige hoek plaat in vlak Z."
+
+msgid "CornerFixingPlateLength"
+msgstr "Lengte hoek vaste plaat"
+
+msgid "CornerFixingPlateLength_DEFINITION"
+msgstr "De lengte van het L-vormige hoekplaat."
+
+msgid "CornerFixingPlateThickness"
+msgstr "Dikte hoek reparatie plaat"
+
+msgid "CornerFixingPlateThickness_DEFINITION"
+msgstr "De dikte van de L-vormige hoek."
+
+msgid "Pset_DiscreteAccessoryDiagonalTrussConnector"
+msgstr "Eigenschap Set: Accessoire Diagonale Routers Connector"
+
+msgid "Pset_DiscreteAccessoryDiagonalTrussConnector_DEFINITION"
+msgstr "Vorm eigenschappen die specifiek zijn voor het verbinden van accessoires in truss vorm met diagonale kruisstreepjes."
+
+msgid "DiagonalTrussBaseBarDiameter"
+msgstr "Diagonale Truss Basis Bar Diameter"
+
+msgid "DiagonalTrussBaseBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de basis balk."
+
+msgid "DiagonalTrussCrossBarDiameter"
+msgstr "Diagonale Truss Cross Bar Diameter"
+
+msgid "DiagonalTrussCrossBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de diagonale kruisbars."
+
+msgid "DiagonalTrussCrossBarSpacing"
+msgstr "Diagonale Truss Cross Bar afstand"
+
+msgid "DiagonalTrussCrossBarSpacing_DEFINITION"
+msgstr "De afstand tussen diagonale kruisbalksecties."
+
+msgid "DiagonalTrussHeight"
+msgstr "Diagonale Truss Hoogte"
+
+msgid "DiagonalTrussHeight_DEFINITION"
+msgstr "De algemene hoogte van de truss-connector."
+
+msgid "DiagonalTrussLength"
+msgstr "Diagonale Randen Lengte"
+
+msgid "DiagonalTrussLength_DEFINITION"
+msgstr "De totale lengte van de truss-connector."
+
+msgid "DiagonalTrussSecondaryBarDiameter"
+msgstr "Diagonale Trai Secundaire Balk Diameter"
+
+msgid "DiagonalTrussSecondaryBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de secundaire balk."
+
+msgid "Pset_DiscreteAccessoryEdgeFixingPlate"
+msgstr "Eigenschap Set: Accessoire Edge Bord Plaat"
+
+msgid "Pset_DiscreteAccessoryEdgeFixingPlate_DEFINITION"
+msgstr "Eigenschappen specifiek voor de rand van de platen."
+
+msgid "EdgeFixingPlateFlangeWidthInPlaneX"
+msgstr "Ronde plank Breedte in vlak X"
+
+msgid "EdgeFixingPlateFlangeWidthInPlaneX_DEFINITION"
+msgstr "De flens breedte van de L-vormige randplaat in vlak X."
+
+msgid "EdgeFixingPlateFlangeWidthInPlaneZ"
+msgstr "Ronde plank Breedte in vlak Z"
+
+msgid "EdgeFixingPlateFlangeWidthInPlaneZ_DEFINITION"
+msgstr "De flens breedte van de L-vormige randplaat in vlak Z."
+
+msgid "EdgeFixingPlateLength"
+msgstr "Lengte rand reparatie plaat"
+
+msgid "EdgeFixingPlateLength_DEFINITION"
+msgstr "De lengte van het L-vormige randplaat."
+
+msgid "EdgeFixingPlateThickness"
+msgstr "Dikte rand gerepareerde plaat"
+
+msgid "EdgeFixingPlateThickness_DEFINITION"
+msgstr "De dikte van het L-vormige randplaat."
+
+msgid "Pset_DiscreteAccessoryFixingSocket"
+msgstr "Property Set: Accessoire Fixing Socket Discrete"
+
+msgid "Pset_DiscreteAccessoryFixingSocket_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn aan het repareren van sockets."
+
+msgid "FixingSocketHeight"
+msgstr "Fixing Socket Hoogte"
+
+msgid "FixingSocketHeight_DEFINITION"
+msgstr "De totale hoogte van het stopcontact."
+
+msgid "FixingSocketThreadDiameter"
+msgstr "Fixing Socket Thread Diameter"
+
+msgid "FixingSocketThreadDiameter_DEFINITION"
+msgstr "De nominale diameter van de thread."
+
+msgid "FixingSocketThreadLength"
+msgstr "Fixing Socket Thread Lengte"
+
+msgid "FixingSocketThreadLength_DEFINITION"
+msgstr "De lengte van het drieluik deel van de fixing socket."
+
+msgid "FixingSocketTypeReference"
+msgstr "Fixing Socket Type Referentie"
+
+msgid "FixingSocketTypeReference_DEFINITION"
+msgstr "[[Type]] referentie voor de fixing socket volgens lokale normen."
+
+msgid "FixingSocketTypeReference_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_DiscreteAccessoryLadderTrussConnector"
+msgstr "Eigenschap Set: Accessoire Ladder Truss Connector"
+
+msgid "Pset_DiscreteAccessoryLadderTrussConnector_DEFINITION"
+msgstr "Vorm eigenschappen die specifiek zijn voor het verbinden van accessoires in truss vorm met rechte dwarsbalken in laddervorm."
+
+msgid "LadderTrussBaseBarDiameter"
+msgstr "Ladder Truss Basis Bar Diameter"
+
+msgid "LadderTrussBaseBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de basis balk."
+
+msgid "LadderTrussCrossBarDiameter"
+msgstr "Ladder Truss Cross Bar Diameter"
+
+msgid "LadderTrussCrossBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de rechte kruisbars."
+
+msgid "LadderTrussCrossBarSpacing"
+msgstr "Ladder Truss Cross Bar afstand"
+
+msgid "LadderTrussCrossBarSpacing_DEFINITION"
+msgstr "De afstand tussen de rechte kruisstreepjes."
+
+msgid "LadderTrussHeight"
+msgstr "Ladder Truss Hoogte"
+
+msgid "LadderTrussHeight_DEFINITION"
+msgstr "De algemene hoogte van de truss-connector."
+
+msgid "LadderTrussLength"
+msgstr "Ladder Truss Lengte"
+
+msgid "LadderTrussLength_DEFINITION"
+msgstr "De totale lengte van de truss-connector."
+
+msgid "LadderTrussSecondaryBarDiameter"
+msgstr "Ladder Truss Secundaire Balk Diameter"
+
+msgid "LadderTrussSecondaryBarDiameter_DEFINITION"
+msgstr "De nominale diameter van de secundaire balk."
+
+msgid "Pset_DiscreteAccessoryStandardFixingPlate"
+msgstr "Property Set: Accessoire Standaard Fixing Plaat"
+
+msgid "Pset_DiscreteAccessoryStandardFixingPlate_DEFINITION"
+msgstr "Eigenschappen specifiek voor de standaard vaste platen."
+
+msgid "StandardFixingPlateDepth"
+msgstr "Standaard Fixing Plaat Diepte"
+
+msgid "StandardFixingPlateDepth_DEFINITION"
+msgstr "De diepte van de standaard fixing plate."
+
+msgid "StandardFixingPlateThickness"
+msgstr "Dikte van vaste plaat"
+
+msgid "StandardFixingPlateThickness_DEFINITION"
+msgstr "De dikte van de standaard fixing plate."
+
+msgid "StandardFixingPlateWidth"
+msgstr "Standaard vaste plaat breedte"
+
+msgid "StandardFixingPlateWidth_DEFINITION"
+msgstr "De breedte van de standaard fixing plate."
+
+msgid "Pset_DiscreteAccessoryWireLoop"
+msgstr "Eigenschap set: Onbeton accessoire draai"
+
+msgid "Pset_DiscreteAccessoryWireLoop_DEFINITION"
+msgstr "Vorm eigenschappen die gebruikelijk zijn voor gezamenlijke aansluitingen."
+
+msgid "WireDiameter"
+msgstr "Draad Diameter"
+
+msgid "WireDiameter_DEFINITION"
+msgstr "De nominale diameter van de draad."
+
+msgid "WireEmbeddingLength"
+msgstr "Draad insluiten lengte"
+
+msgid "WireEmbeddingLength_DEFINITION"
+msgstr "De lengte van het deel van de draad dat is ingebed in het voorafgaande, betonnen element."
+
+msgid "WireLoopBasePlateLength"
+msgstr "Lengte draai standaard plaat"
+
+msgid "WireLoopBasePlateLength_DEFINITION"
+msgstr "De lengte van de basis plate."
+
+msgid "WireLoopBasePlateThickness"
+msgstr "Dikte draai van een standaard plaat"
+
+msgid "WireLoopBasePlateThickness_DEFINITION"
+msgstr "De dikte van de basis plate."
+
+msgid "WireLoopBasePlateWidth"
+msgstr "Wire Loop Basis Plaat Breedte"
+
+msgid "WireLoopBasePlateWidth_DEFINITION"
+msgstr "De breedte van het basisbord."
+
+msgid "WireLoopLength"
+msgstr "Wire Loop Lengte"
+
+msgid "WireLoopLength_DEFINITION"
+msgstr "De lengte van de bevestigingslus van de draad."
+
+msgid "IfcElementComponent"
+msgstr "Element component"
+
+msgid "IfcElementComponent_DEFINITION"
+msgstr "Een element is een representatie voor kleine items inbegrepen in, toegevoegd of verbinden met of tussen elementen, die meestal niet van belang zijn vanuit het oogpunt van de algehele gebouwenstructuur. Deze kleine onderdelen kunnen echter van levensbelang zijn en de functies binnen de bouw dragen, aangezien ze geen werkelijke ruimtegrenzen bieden. Typische voorbeelden van _IfcElementComponent_s bevatten verschillende soorten bevestigingsmiddelen en verschillende accessoires."
+
+msgid "IfcFastener"
+msgstr "Sneller"
+
+msgid "IfcFastener_DEFINITION"
+msgstr "Representaties van vaste onderdelen die worden gebruikt als sluiters om elementen te verbinden of deel te nemen aan andere elementen. Uitgesloten zijn mechanische bevestigingssystemen die zijn gemodelleerd door een aparte entiteit ([[IfcMechanicalFastener]])."
+
+msgid "IfcMechanicalFastener"
+msgstr "Mechanische Sneller"
+
+msgid "IfcMechanicalFastener_DEFINITION"
+msgstr "Een mechanische sluiters die bouwelementen of onderdelen mechanisch met elkaar verbinden. Een enkel geval van deze klas kan een of veel van de feitelijke mechanische bevestigingsmiddelen vertegenwoordigen, bijvoorbeeld een reeks bouts of een rij nagels."
+
+msgid "IfcBuildingElementPartAPRON_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuildingElementPartAPRON"
+msgstr "Apron"
+
+msgid "IfcBuildingElementPartAPRON_DEFINITION"
+msgstr "Een vorm van ontwenningsbescherming die bestaat uit hout, beton, riprap, plak of andere bouwwerken die grenzend zijn aan abutties en piers om ondermijning te voorkomen."
+
+msgid "IfcBuildingElementPartARMOURUNIT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuildingElementPartARMOURUNIT"
+msgstr "Harnas Eenheid"
+
+msgid "IfcBuildingElementPartARMOURUNIT_DEFINITION"
+msgstr "Een grote steen- of betonnen eenheid gebruikt als erosiepreventie op hellingen zoals kweekvijgen en ademhalingen. Deze eenheden worden in een cursuslaag gegroepeerd."
+
+msgid "IfcBuildingElementPartINSULATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuildingElementPartINSULATION"
+msgstr "Isolatie"
+
+msgid "IfcBuildingElementPartINSULATION_DEFINITION"
+msgstr "Het onderdeel voorziet in thermische isolatie, bijvoorbeeld als isolatielaag tussen wandpanelen in sandwich muren of als infill in dompelen."
+
+msgid "IfcBuildingElementPartPRECASTPANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuildingElementPartPRECASTPANEL"
+msgstr "Precast paneel"
+
+msgid "IfcBuildingElementPartPRECASTPANEL_DEFINITION"
+msgstr "Het deel is een voorloper panel, meestal als een interne of externe laag in een sandwich wandpaneel."
+
+msgid "IfcBuildingElementPartSAFETYCAGE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBuildingElementPartSAFETYCAGE"
+msgstr "Veiligheidskooi"
+
+msgid "IfcBuildingElementPartSAFETYCAGE_DEFINITION"
+msgstr "Veiligheidskooien zijn een assemblee van circulaire en verticale bars die aan de stijlen van vaste ladders zijn geplakt en die het pad van een werknemer bij het klimmen van de ladder kunnen omslaan. Ladders so enclosed zijn ook bekend als kooi- of ophangladders."
+
+msgid "IfcDiscreteAccessoryANCHORPLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryANCHORPLATE"
+msgstr "Ankerplaat"
+
+msgid "IfcDiscreteAccessoryANCHORPLATE_DEFINITION"
+msgstr "Een accessoire bestaande uit een stalen bord, afschudden van stud-connectors of gelekte rebar die in het oppervlak van een betonelement is ingebed zodat andere elementen later kunnen worden gelast of opgeblazen."
+
+msgid "IfcDiscreteAccessoryBIRDPROTECTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryBIRDPROTECTION"
+msgstr "Vogel bescherming"
+
+msgid "IfcDiscreteAccessoryBIRDPROTECTION_DEFINITION"
+msgstr "Een apparaat dat een verblijf van vogels op elektrisch kritieke punten verhindert en waarmee vogels worden beschermd tegen elektrische schokken en verstoringen door een kort circuit voorkomen."
+
+msgid "IfcDiscreteAccessoryBRACKET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryBRACKET"
+msgstr "Haakje"
+
+msgid "IfcDiscreteAccessoryBRACKET_DEFINITION"
+msgstr "Een L-vormige of een soortgelijk vormgegeven accessoire bevestigd in een hoek tussen elementen om ze samen te houden of om een secundair element te dragen."
+
+msgid "IfcDiscreteAccessoryCABLEARRANGER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryCABLEARRANGER"
+msgstr "Kabel Arranger"
+
+msgid "IfcDiscreteAccessoryCABLEARRANGER_DEFINITION"
+msgstr "Een kabelbord is een flexibel accessoire of een onderdeel van een component rond kabels geplaatst om de buiging ervan te ordenen en minimaliseren op het punt waar het is geplaatst."
+
+msgid "IfcDiscreteAccessoryELASTIC_CUSHION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryELASTIC_CUSHION"
+msgstr "Elastische kussen"
+
+msgid "IfcDiscreteAccessoryELASTIC_CUSHION_DEFINITION"
+msgstr "Een bijpassende elastische kussen is een soort laag aan plantaardige kanten van een betonnen basis, die wordt gebruikt om de gevolgen van longitudinale en laterale belasting op de spoorstructuren te verzachten. Een elastische kussen wordt alleen weergegeven in ballingloze spoorstructuren."
+
+msgid "IfcDiscreteAccessoryEXPANSION_JOINT_DEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryEXPANSION_JOINT_DEVICE"
+msgstr "Uitbreiding Gezamenlijk Apparaat"
+
+msgid "IfcDiscreteAccessoryEXPANSION_JOINT_DEVICE_DEFINITION"
+msgstr "Assembly-verbindingselement tussen constructie-elementen om thermische verschillen te vergroten."
+
+msgid "IfcDiscreteAccessoryFILLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryFILLER"
+msgstr "Opvulling"
+
+msgid "IfcDiscreteAccessoryFILLER_DEFINITION"
+msgstr "Zeeklang, gaatjesstaaf, verpakkingsmateriaal of andere zaken werden gebruikt om een gat te dichten."
+
+msgid "IfcDiscreteAccessoryFLASHING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryFLASHING"
+msgstr "Flashen"
+
+msgid "IfcDiscreteAccessoryFLASHING_DEFINITION"
+msgstr "[[Construction]] materiaal dat wordt gebruikt voor het beheren van de waterdoorvoer om objecten."
+
+msgid "IfcDiscreteAccessoryINSULATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryINSULATOR"
+msgstr "Insulator"
+
+msgid "IfcDiscreteAccessoryINSULATOR_DEFINITION"
+msgstr "Een apparaat ontworpen om een geleidend element te ondersteunen en te isoleren.;definitie van IEC 151-15-39."
+
+msgid "IfcDiscreteAccessoryLOCK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryLOCK"
+msgstr "Vergrendelen"
+
+msgid "IfcDiscreteAccessoryLOCK_DEFINITION"
+msgstr "Een slot is een mechanische of elektronische bevestigingsapparaat dat ofwel vrijgegeven wordt door een fysieke object (bijv. sleutel, vingerafdruk, RFID kaart, security token enz.), door het verstrekken van geheime informatie (bijv. nummer permutatie, wachtwoord) of door een combinatie daarvan."
+
+msgid "IfcDiscreteAccessoryPANEL_STRENGTHENING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryPANEL_STRENGTHENING"
+msgstr "Paneel Versterking"
+
+msgid "IfcDiscreteAccessoryPANEL_STRENGTHENING_DEFINITION"
+msgstr "Een component die pompeffecten van de substructuur minimaliseert."
+
+msgid "IfcDiscreteAccessoryPOINTMACHINEMOUNTINGDEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryPOINTMACHINEMOUNTINGDEVICE"
+msgstr "Punt Machine Mounting Apparaat"
+
+msgid "IfcDiscreteAccessoryPOINTMACHINEMOUNTINGDEVICE_DEFINITION"
+msgstr "Punt machine montage apparaat."
+
+msgid "IfcDiscreteAccessoryPOINT_MACHINE_LOCKING_DEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryPOINT_MACHINE_LOCKING_DEVICE"
+msgstr "Punt Machine Vergrendeling Apparaat"
+
+msgid "IfcDiscreteAccessoryPOINT_MACHINE_LOCKING_DEVICE_DEFINITION"
+msgstr "Punt machine vergrendeling apparaat."
+
+msgid "IfcDiscreteAccessoryRAILBRACE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryRAILBRACE"
+msgstr "Spoor explosie"
+
+msgid "IfcDiscreteAccessoryRAILBRACE_DEFINITION"
+msgstr "Een spoorwegcomponent die ervoor zorgt dat rails geen fooi en draaien."
+
+msgid "IfcDiscreteAccessoryRAILPAD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryRAILPAD"
+msgstr "Spoor Pad"
+
+msgid "IfcDiscreteAccessoryRAILPAD_DEFINITION"
+msgstr "Een niet-metaalachtig pad geplaatst tussen spoor en baseplaat of spoor en slaappleister, drager of slab.; definitie van EN 13481-1."
+
+msgid "IfcDiscreteAccessoryRAIL_LUBRICATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryRAIL_LUBRICATION"
+msgstr "Spoor Lubricatie"
+
+msgid "IfcDiscreteAccessoryRAIL_LUBRICATION_DEFINITION"
+msgstr "Een apparaat dat het dragen van de rails door de hele flens van het wiel verhindert om geluidsemissies te verminderen. Het bevindt zich vaak aan de binnenzijde van de buitenste rails in een curve of in de buurt van opkomstcijfers (hangt af van functiebeperking of geluidsbeperking)."
+
+msgid "IfcDiscreteAccessoryRAIL_MECHANICAL_EQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryRAIL_MECHANICAL_EQUIPMENT"
+msgstr "Spoor Mechanische Uitrusting"
+
+msgid "IfcDiscreteAccessoryRAIL_MECHANICAL_EQUIPMENT_DEFINITION"
+msgstr "Een mechanische spoorwegapparatuur is een mechnische uitrusting die op de rails is geïnstalleerd, zoals blokkeringsapparaat, snelheidsregelaar, bias geladen inspecteur, spoor schaal of controleerbare retarder."
+
+msgid "IfcDiscreteAccessorySHOE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessorySHOE"
+msgstr "Schoen"
+
+msgid "IfcDiscreteAccessorySHOE_DEFINITION"
+msgstr "Een kolom schoen of een balkschoen (balkhanger) wordt gebruikt om een element te ondersteunen of veilig te maken."
+
+msgid "IfcDiscreteAccessorySLIDINGCHAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessorySLIDINGCHAIR"
+msgstr "Schuifstoel"
+
+msgid "IfcDiscreteAccessorySLIDINGCHAIR_DEFINITION"
+msgstr "Een onderdeel dat het aandelenspoor en een plat oppervlak waarop de voet van de schakelrails glijt, ondersteunt en behoudt."
+
+msgid "IfcDiscreteAccessorySOUNDABSORPTION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessorySOUNDABSORPTION"
+msgstr "Geluid Opname"
+
+msgid "IfcDiscreteAccessorySOUNDABSORPTION_DEFINITION"
+msgstr "Een component op het spoor voor geluidsabsorptie en kan ook trillingen absorberen. Het wordt vaak gebruikt in combinatie met plaknummers."
+
+msgid "IfcDiscreteAccessoryTENSIONINGEQUIPMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDiscreteAccessoryTENSIONINGEQUIPMENT"
+msgstr "Spanning Uitrusting"
+
+msgid "IfcDiscreteAccessoryTENSIONINGEQUIPMENT_DEFINITION"
+msgstr "Een uitrusting die gebruikt wordt om de spanning van geleiders of kabels te onderhouden."
+
+msgid "IfcFastenerGLUE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFastenerGLUE"
+msgstr "Lijm"
+
+msgid "IfcFastenerGLUE_DEFINITION"
+msgstr "Een bevestigende verbinding waar lijm wordt gebruikt om elementen samen te voegen."
+
+msgid "IfcFastenerMORTAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFastenerMORTAR"
+msgstr "Mortier"
+
+msgid "IfcFastenerMORTAR_DEFINITION"
+msgstr "Een samenstelling van minerale of andere materialen die gebruikt worden om gaten te vullen en mogelijk een lastdragende rol te vervullen."
+
+msgid "IfcFastenerWELD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcFastenerWELD"
+msgstr "Kabel"
+
+msgid "IfcFastenerWELD_DEFINITION"
+msgstr "Een paspelnaad tussen delen van metallic materiaal of andere geschikte materialen."
+
+msgid "IfcMechanicalFastenerANCHORBOLT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerANCHORBOLT"
+msgstr "Ankerpijl"
+
+msgid "IfcMechanicalFastenerANCHORBOLT_DEFINITION"
+msgstr "Een speciale bout die is verankerd in beton, steen of bakstenen."
+
+msgid "IfcMechanicalFastenerBOLT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerBOLT"
+msgstr "Taxify"
+
+msgid "IfcMechanicalFastenerBOLT_DEFINITION"
+msgstr "Een draadloze cilindrische stang die een vergelijkbaar versleten gat in een nop of een ander deel bevat om een bevestigingsstof te vormen. De mechanische sluiter omvat vaak ook één of meer wassers, één of meer noten."
+
+msgid "IfcMechanicalFastenerCHAIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerCHAIN"
+msgstr "keten"
+
+msgid "IfcMechanicalFastenerCHAIN_DEFINITION"
+msgstr "een reeks gekoppelde metalen ringen gebruikt om iets vast te leggen of te beveiligen, of om belasting te trekken."
+
+msgid "IfcMechanicalFastenerCOUPLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerCOUPLER"
+msgstr "Kortingscode"
+
+msgid "IfcMechanicalFastenerCOUPLER_DEFINITION"
+msgstr "Een deel dat twee staven of staven verbindt, zoals versterkingsstaven."
+
+msgid "IfcMechanicalFastenerDOWEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerDOWEL"
+msgstr "Dowel"
+
+msgid "IfcMechanicalFastenerDOWEL_DEFINITION"
+msgstr "Een cilindrische staaf die in gaten wordt gehouden van de verbonden stukken."
+
+msgid "IfcMechanicalFastenerNAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerNAIL"
+msgstr "Slak"
+
+msgid "IfcMechanicalFastenerNAIL_DEFINITION"
+msgstr "Een dun stuk metaal dat in materialen wordt gehamerd als bevestigingsmiddel."
+
+msgid "IfcMechanicalFastenerNAILPLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerNAILPLATE"
+msgstr "Nijl plaat"
+
+msgid "IfcMechanicalFastenerNAILPLATE_DEFINITION"
+msgstr "Een metaal van het plaatmateriaal met geplooide punten die de aangesloten stukken overlapt en in hun materiaal wordt gestreken."
+
+msgid "IfcMechanicalFastenerRAILFASTENING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerRAILFASTENING"
+msgstr "Spoor Sneller"
+
+msgid "IfcMechanicalFastenerRAILFASTENING_DEFINITION"
+msgstr "Een assemblage van onderdelen die een spoor naar de ondersteunende structuur beveiligt en deze in de vereiste positie behoudt en alle noodzakelijke verticale elementen toestaat laterale en longitudinale beweging. definitie van EN 13481-1."
+
+msgid "IfcMechanicalFastenerRAILJOINT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerRAILJOINT"
+msgstr "Spoor Gemeenschappelijk"
+
+msgid "IfcMechanicalFastenerRAILJOINT_DEFINITION"
+msgstr "Een mechanische assemblage met bijvoorbeeld vissersplaten om aan te sluiten op twee rails eindigt met optionele functies (isolatie of uitbreidingscapaciteit)."
+
+msgid "IfcMechanicalFastenerRIVET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerRIVET"
+msgstr "Zeekleding"
+
+msgid "IfcMechanicalFastenerRIVET_DEFINITION"
+msgstr "Een bevestigend deel met een kop aan de ene kant en de andere kant wordt plat gehamerd nadat hij door de gaten in de stukken die samen worden vastgeklapt."
+
+msgid "IfcMechanicalFastenerROPE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerROPE"
+msgstr "Touw"
+
+msgid "IfcMechanicalFastenerROPE_DEFINITION"
+msgstr "een lengte van dik stevig koord gemaakt door hennep, sisal, nylon of vergelijkbaar materiaal samen te vegen voor vissersvaartuigen"
+
+msgid "IfcMechanicalFastenerSCREW_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerSCREW"
+msgstr "Schroef"
+
+msgid "IfcMechanicalFastenerSCREW_DEFINITION"
+msgstr "Een sluiter met afgeronde rotzooi en een geslokte hoofd."
+
+msgid "IfcMechanicalFastenerSHEARCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerSHEARCONNECTOR"
+msgstr "Afschuiving Connector"
+
+msgid "IfcMechanicalFastenerSHEARCONNECTOR_DEFINITION"
+msgstr "Een ringconnector die wordt geaccepteerd door ring snelwegen in de aangesloten stukken; of een getooste circulaire of vierkante connector die in de aangesloten stukken wordt gedrukt."
+
+msgid "IfcMechanicalFastenerSTAPLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerSTAPLE"
+msgstr "Stevig"
+
+msgid "IfcMechanicalFastenerSTAPLE_DEFINITION"
+msgstr "Een dubbelzijdig stuk metaal dat als bevestigingsstof in materialen wordt geduwd."
+
+msgid "IfcMechanicalFastenerSTUDSHEARCONNECTOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMechanicalFastenerSTUDSHEARCONNECTOR"
+msgstr "Stud Afschudding Connector"
+
+msgid "IfcMechanicalFastenerSTUDSHEARCONNECTOR_DEFINITION"
+msgstr "Stud afschuifconnectors zijn cillindrische bevestigingsonderdelen met één kant van een hoofd. Aan de andere kant worden ze aan de leden opgehangen voor gebruik in samengestelde staal en betonnen structuren."
+

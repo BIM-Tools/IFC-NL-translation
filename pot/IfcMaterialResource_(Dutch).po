@@ -1,0 +1,692 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcMaterialResource.pot\n"
+"X-Crowdin-File-ID: 170\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcMaterial"
+msgstr "Materiaal"
+
+msgid "IfcMaterial_DEFINITION"
+msgstr "[[IfcMaterial]] is een homogene of onhomogene stof die kan worden gebruikt om elementen te vormen (fysieke producten of hun onderdelen)."
+
+msgid "Pset_MaterialCombustion"
+msgstr "Eigenschapsset: Materiaal verbranding"
+
+msgid "Pset_MaterialCombustion_DEFINITION"
+msgstr "Een set uitgebreide materiële eigenschappen van producten van verbranding gegenereerd door elementen die meestal gebruikt worden in het kader van bouw- en stroomdistributiesystemen."
+
+msgid "CO2Content"
+msgstr "CO2 inhoud"
+
+msgid "CO2Content_DEFINITION"
+msgstr "Het gehalte aan koolstofdioxide (CO2) van de verbrandingsproducten wordt gemeten in het gewicht van CO2 per eenheid en dus eenstemmig is."
+
+msgid "COContent"
+msgstr "CO COntent"
+
+msgid "COContent_DEFINITION"
+msgstr "Carbon monoxide (CO) inhoud van de producten van verbranding. Dit wordt gemeten in het gewicht van de CO per eenheid gewicht en is daarom eenstemmig."
+
+msgid "N20Content"
+msgstr "N20 inhoud"
+
+msgid "N20Content_DEFINITION"
+msgstr "Het gehalte aan nitroet oxide (N2O) aan verbrandingsproducten wordt gemeten in het gewicht van N2O per eenheid en dus eenstemmig gewicht."
+
+msgid "SpecificHeatCapacity"
+msgstr "Specifieke Warmtecapaciteit"
+
+msgid "SpecificHeatCapacity_DEFINITION"
+msgstr "Definieert de specifieke warmtecapaciteit van een materiaal."
+
+msgid "Pset_MaterialCommon"
+msgstr "Eigenschapsset: Materiaal gemeenschappelijke"
+
+msgid "Pset_MaterialCommon_DEFINITION"
+msgstr "Een set algemene materiële eigenschappen."
+
+msgid "MassDensity"
+msgstr "Massa dichtheid"
+
+msgid "MassDensity_DEFINITION"
+msgstr "Materiaal massadichtheid."
+
+msgid "MolecularWeight"
+msgstr "Moleculair gewicht"
+
+msgid "MolecularWeight_DEFINITION"
+msgstr "Moleculair gewicht van materiaal (meestal gas)."
+
+msgid "Porosity"
+msgstr "Porositeit"
+
+msgid "Porosity_DEFINITION"
+msgstr "Vermijd deel van het totale volume dat wordt ingenomen door materiaal (Vbr - Vnet)/Vbr."
+
+msgid "Pset_MaterialConcrete"
+msgstr "Eigenschapsset: Materiaal beton"
+
+msgid "Pset_MaterialConcrete_DEFINITION"
+msgstr "Een set uitgebreide mechanische eigenschappen gerelateerd aan betonnen materialen."
+
+msgid "AdmixturesDescription"
+msgstr "Beschrijving Admixtures"
+
+msgid "AdmixturesDescription_DEFINITION"
+msgstr "[[Description]] van de toevoegingen aan de betonnen mix."
+
+msgid "CompressiveStrength"
+msgstr "Compressieve Kracht"
+
+msgid "CompressiveStrength_DEFINITION"
+msgstr "De compressieve sterkte van het object of materiaal."
+
+msgid "MaxAggregateSize"
+msgstr "Maximale Aggregate Grootte"
+
+msgid "MaxAggregateSize_DEFINITION"
+msgstr "De maximale totale grootte van het beton."
+
+msgid "ProtectivePoreRatio"
+msgstr "Verhouding van beschermende poren"
+
+msgid "ProtectivePoreRatio_DEFINITION"
+msgstr "De beschermende porenverhouding die de vorstweerstand van het beton aangeeft."
+
+msgid "WaterImpermeability"
+msgstr "Water Impermeability"
+
+msgid "WaterImpermeability_DEFINITION"
+msgstr "[[Description]] van de waterzuiverheid ontkent eigenschappen die waterafstotend zijn."
+
+msgid "Workability"
+msgstr "Beroepbaar"
+
+msgid "Workability_DEFINITION"
+msgstr "[[Description]] van de werkbaarheid van het verse beton dat volgens lokale normen is gedefinieerd."
+
+msgid "Pset_MaterialEnergy"
+msgstr "Eigenschapsset: Materiaal energie"
+
+msgid "Pset_MaterialEnergy_DEFINITION"
+msgstr "Een set met uitgebreide materiaaleigenschappen voor energieberekeningsdoeleinden."
+
+msgid "GasPressure"
+msgstr "Gas druk"
+
+msgid "GasPressure_DEFINITION"
+msgstr "Druk opvullen (bijv. de druk die wordt uitgeoefend door een massa gas die in een constant volume wordt vastgehouden."
+
+msgid "MoistureCapacityThermalGradient"
+msgstr "Vochtigheid Capaciteit Thermische Gradient"
+
+msgid "MoistureCapacityThermalGradient_DEFINITION"
+msgstr "Thermische kleurovergang coëfficiënt voor vochtcapaciteit, gebaseerd op waterdagendichtheid."
+
+msgid "SolarRefractionIndex"
+msgstr "Index zonnepanelen"
+
+msgid "SolarRefractionIndex_DEFINITION"
+msgstr "Index van refractie (zonne) definieert de 'buding' van de zonnestraal wanneer deze van het ene medium naar het andere gaat."
+
+msgid "SpecificHeatTemperatureDerivative"
+msgstr "Specifieke Warmtetemperatuur Afgeleiding"
+
+msgid "SpecificHeatTemperatureDerivative_DEFINITION"
+msgstr "Specifieke afgeleide warmtetemperatuur"
+
+msgid "ThermalConductivityTemperatureDerivative"
+msgstr "Temperatuur temperatuur temperatuur temperatuur temperatuur"
+
+msgid "ThermalConductivityTemperatureDerivative_DEFINITION"
+msgstr "Thermische geleidingstemperatuurderivaat."
+
+msgid "ViscosityTemperatureDerivative"
+msgstr "Viscosity Temperatuur Afgeleiders"
+
+msgid "ViscosityTemperatureDerivative_DEFINITION"
+msgstr "Viscosity temperatuurderivatief."
+
+msgid "VisibleRefractionIndex"
+msgstr "Zichtbare Refractie-index"
+
+msgid "VisibleRefractionIndex_DEFINITION"
+msgstr "Index van refractie (zichtbaar) definieert de 'buiging' van de sola! r ray in het zichtbare spectrum wanneer het van het ene medium naar het andere doorgaat."
+
+msgid "Pset_MaterialFuel"
+msgstr "Eigenschapsset: Materiaal brandstof"
+
+msgid "Pset_MaterialFuel_DEFINITION"
+msgstr "Een reeks uitgebreide materiële eigenschappen van brandstof die doorgaans wordt gebruikt in het kader van bouwdiensten en stroomdistributiesystemen."
+
+msgid "CarbonContent"
+msgstr "Koolstof inhoud"
+
+msgid "CarbonContent_DEFINITION"
+msgstr "Het kooldioxidegehalte in de brandstof wordt gemeten in het gewicht van de koolstof per eenheid van brandstof en is dus eenstemmig van aard."
+
+msgid "CombustionTemperature"
+msgstr "Temperatuur voor verbranding"
+
+msgid "CombustionTemperature_DEFINITION"
+msgstr "Temperatuur voor verbranding."
+
+msgid "HigherHeatingValue"
+msgstr "Verwarmingswaarde hoog"
+
+msgid "HigherHeatingValue_DEFINITION"
+msgstr "Hogere Verwarming [[Value]] wordt gedefinieerd als de hoeveelheid energie die vrijkomt (MJ/kg) wanneer een brandstof volledig verbrand wordt, en H2O zijn vloeibaar in de verbrandingsproducten."
+
+msgid "LowerHeatingValue"
+msgstr "Verwarmingswaarde verlagen"
+
+msgid "LowerHeatingValue_DEFINITION"
+msgstr "Lagere verwarming [[Value]] wordt gedefinieerd als de hoeveelheid energie die vrijkomt (MJ/kg) wanneer een brandstof volledig verbrand wordt, en H2O zijn in dampvorm in de verbrandingsproducten."
+
+msgid "Pset_MaterialHygroscopic"
+msgstr "Eigenschapsset: Materiaal Hygroscopisch"
+
+msgid "Pset_MaterialHygroscopic_DEFINITION"
+msgstr "Een set hygroscopische eigenschappen van materialen."
+
+msgid "IsothermalMoistureCapacity"
+msgstr "Isothermische Vochtigheid Capaciteit"
+
+msgid "IsothermalMoistureCapacity_DEFINITION"
+msgstr "Gebaseerd op waterdampigheid."
+
+msgid "LowerVaporResistanceFactor"
+msgstr "Verzetsfactor kleiner dan weerstandsfactor"
+
+msgid "LowerVaporResistanceFactor_DEFINITION"
+msgstr "De leefbaarheid van de damp/materiaal (meestal waarde > 1), gemeten in lage relatieve vochtigheid (meestal in 0/50 % RH)."
+
+msgid "MoistureDiffusivity"
+msgstr "Vochtigheid Diffusiviteit"
+
+msgid "MoistureDiffusivity_DEFINITION"
+msgstr "Vocht diffusiviteit is een vervoermiddel dat vaak wordt gebruikt bij de hygrothermische analyse van bouwonderdelen."
+
+msgid "UpperVaporResistanceFactor"
+msgstr "Hoger Vapor Weerstand Factor"
+
+msgid "UpperVaporResistanceFactor_DEFINITION"
+msgstr "De leefbaarheid van de damp/materiaal (meestal waarde > 1), gemeten in een hoge relatieve luchtvochtigheid (meestal in 95/50 % RH)."
+
+msgid "VaporPermeability"
+msgstr "Vapor Permeability"
+
+msgid "VaporPermeability_DEFINITION"
+msgstr "De snelheid van de waterdampen per stuk per eenheid per eenheid verschil in druk per eenheid onder testomstandigheden."
+
+msgid "Pset_MaterialMechanical"
+msgstr "Eigenschapsset: Materiaal mechaniek"
+
+msgid "Pset_MaterialMechanical_DEFINITION"
+msgstr "Een set van mechanische materiaaleigenschappen die normaal gebruikt worden voor structurele analyse doeleinden. Het bevat alle eigenschappen die onafhankelijk zijn van het werkelijke materiaaltype."
+
+msgid "DynamicViscosity"
+msgstr "Dynamisch Viscosity"
+
+msgid "DynamicViscosity_DEFINITION"
+msgstr "Een maat van de weerzin van het materiaal."
+
+msgid "PoissonRatio"
+msgstr "Poisson verhouding"
+
+msgid "PoissonRatio_DEFINITION"
+msgstr "Een maat van de laterale deformaties in het elastische bereik."
+
+msgid "ShearModulus"
+msgstr "Afschuiving Modulus"
+
+msgid "ShearModulus_DEFINITION"
+msgstr "Een maat van de afschuiving modulus van de elasticiteit van het materiaal."
+
+msgid "ThermalExpansionCoefficient"
+msgstr "Thermische Uitbreiding Coëfficiënt"
+
+msgid "ThermalExpansionCoefficient_DEFINITION"
+msgstr "Hoeveelheid karakteriseert de variatie met thermodynamische temperatuur T van de afstand l tussen twee punten van een lichaam, onder bepaalde voorwaarden (IEC 113-04-27). De verhouding is per Kelvin."
+
+msgid "YoungModulus"
+msgstr "Young Modulus"
+
+msgid "YoungModulus_DEFINITION"
+msgstr "Een maatstaf van de differentiatie van de Jonge aan elasticiteit van het materiaal."
+
+msgid "Pset_MaterialOptical"
+msgstr "Eigenschapsset: Materiaal optisch"
+
+msgid "Pset_MaterialOptical_DEFINITION"
+msgstr "Een set van optische eigenschappen van materialen."
+
+msgid "SolarReflectanceBack"
+msgstr "Zonne Reflectie terug"
+
+msgid "SolarReflectanceBack_DEFINITION"
+msgstr "achterzijde. Definieert het deel van het zonnestraal dat wordt weerspiegeld en niet wordt doorgegeven wanneer de straal van het ene medium naar het andere gaat. aan de 'achterzijde' van het andere materiaal, loodrecht op het oppervlak. Afhankelijk van materiaal en oppervlaktekenmerken."
+
+msgid "SolarReflectanceFront"
+msgstr "Zonne Reflectie voor"
+
+msgid "SolarReflectanceFront_DEFINITION"
+msgstr "voorzijde. Definieert het deel van het zonnestraal dat wordt weerspiegeld en niet wordt doorgegeven wanneer de straal van het ene medium naar het andere gaat. aan de voorzijde van het andere materiaal, het loodrecht op het oppervlak. Afhankelijk van materiaal en oppervlaktekenmerken."
+
+msgid "SolarTransmittance"
+msgstr "Zonne zender"
+
+msgid "SolarTransmittance_DEFINITION"
+msgstr "De verhouding van de incidentele zonnestraling die rechtstreeks via een systeem loopt (ook wel elektrisch genoemd). Noteer de volgende vergelijking Asol + Rsol + Tsol = 1"
+
+msgid "ThermalIrEmissivityBack"
+msgstr "Thermische IR Emissiviteit terug"
+
+msgid "ThermalIrEmissivityBack_DEFINITION"
+msgstr "achterzijde. Definieert de fractie van de thermische energie die per oppervlakte wordt uitgestoten naar 'blackbody' bij dezelfde temperatuur, via de 'achterkant' van het materiaal."
+
+msgid "ThermalIrEmissivityFront"
+msgstr "Thermische IR Emissivity Front"
+
+msgid "ThermalIrEmissivityFront_DEFINITION"
+msgstr "voorzijde. Definieert de fractie van de thermische energie die per oppervlakte wordt uitgestoten naar 'blackbody' bij dezelfde temperatuur, via de 'voorkant' van het materiaal."
+
+msgid "ThermalIrTransmittance"
+msgstr "Thermische IR transmissie"
+
+msgid "ThermalIrTransmittance_DEFINITION"
+msgstr "Thermische IR transmitatie met normale incidentie. Definieert de fractie van thermische energie die doorgaat per eenheid gebied, loodrecht op het oppervlak."
+
+msgid "VisibleReflectanceBack"
+msgstr "Zichtbare Reflectie terug"
+
+msgid "VisibleReflectanceBack_DEFINITION"
+msgstr "achterzijde. Definieert de fractie van de zonnestraal in het zichtbare spectrum dat wordt weerspiegeld en niet wordt verzonden wanneer de straal van het ene medium naar het andere gaat. aan de 'achterzijde' van het andere materiaal, loodrecht op het oppervlak. Afhankelijk van materiaal en oppervlaktekenmerken."
+
+msgid "VisibleReflectanceFront"
+msgstr "Zichtbare Reflectie Voorkant"
+
+msgid "VisibleReflectanceFront_DEFINITION"
+msgstr "voorzijde. Definieert de fractie van de zonnestraal in het zichtbare spectrum dat wordt weerspiegeld en niet wordt verzonden wanneer de straal van het ene medium naar het andere gaat. aan de voorzijde van het andere materiaal, het loodrecht op het oppervlak. Afhankelijk van materiaal en oppervlaktekenmerken."
+
+msgid "VisibleTransmittance"
+msgstr "Zichtbare transmissie"
+
+msgid "VisibleTransmittance_DEFINITION"
+msgstr "Transmitatie met normale incidentie (zichtbaar). Definieert de fractie van het zichtbare spectrum van zonnestraling dat door het gebied loopt per eenheid."
+
+msgid "Pset_MaterialSteel"
+msgstr "Eigenschapsset: Materiaal staal"
+
+msgid "Pset_MaterialSteel_DEFINITION"
+msgstr "Een set van uitgebreide mechanische eigenschappen gerelateerd aan staal (of ander metallic en isotropic) materialen."
+
+msgid "HardeningModule"
+msgstr "Verharde Module"
+
+msgid "HardeningModule_DEFINITION"
+msgstr "Een maat van de harde module van het materiaal (helling van stress versus stam na renderingsbereik)."
+
+msgid "PlasticStrain"
+msgstr "Plastic St Regen"
+
+msgid "PlasticStrain_DEFINITION"
+msgstr "Een maatregel van permanente ontheemding, zoals in slip of jumelage die blijft bestaan nadat de stress is weggenomen. Momenteel toegepast op een stam van 0,2 procent evenredige stress van het materiaal."
+
+msgid "ProportionalStress"
+msgstr "Proportionele Stress"
+
+msgid "ProportionalStress_DEFINITION"
+msgstr "Een maat van evenredige stress van het materiaal. Het beschrijft de stress voordat de eerste vervorming van plastic plaatsvindt en wordt meestal gemeten bij een vervorming van 0,01 procent."
+
+msgid "Relaxations"
+msgstr "Relaxaties"
+
+msgid "Relaxations_DEFINITION"
+msgstr "Maatregelen van afname in stress over lange tijd als gevolg van plastic stroom. Verschillende ontspanningswaarden voor verschillende initiële stressniveaus voor een materiaal kunnen worden gegeven. Het beschrijft de tijdafhankelijke relatieve ontspanningswaarde voor een bepaald eerste stressniveau onder constante druk. Relating waarden zijn de 'RelaxationValue'. Gerelateerde waarden zijn de 'InitialStress'"
+
+msgid "Relaxations_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "StructuralGrade"
+msgstr "Structurele beoordeling"
+
+msgid "StructuralGrade_DEFINITION"
+msgstr "Classificatielabel voor het definiëren van mechanische eigenschappen op basis van structurele niveaus gedefinieerd in gepubliceerde normen; aangewezen op cijfers, letters of een combinatie van beide."
+
+msgid "UltimateStrain"
+msgstr "Ultieme St. Regen"
+
+msgid "UltimateStrain_DEFINITION"
+msgstr "Een maat van de (engineerde) stam in de staat van de ultieme stress van het materiaal."
+
+msgid "UltimateStress"
+msgstr "Ultieme spanning"
+
+msgid "UltimateStress_DEFINITION"
+msgstr "Een maatstaf voor de ultieme stress van het materiaal."
+
+msgid "YieldStress"
+msgstr "Opbrengst Stress"
+
+msgid "YieldStress_DEFINITION"
+msgstr "Een maatstaf van de rendementsspanning (of karakteristieke 0,2 procent-bewijs) van het materiaal."
+
+msgid "Pset_MaterialThermal"
+msgstr "Eigenschapsset: Materiaal Thermal"
+
+msgid "Pset_MaterialThermal_DEFINITION"
+msgstr "Een set thermische materialen eigenschappen."
+
+msgid "BoilingPoint"
+msgstr "Kook punt"
+
+msgid "BoilingPoint_DEFINITION"
+msgstr "Het kookpunt van het materiaal (vloeistof)."
+
+msgid "FreezingPoint"
+msgstr "Bevriezende punt"
+
+msgid "FreezingPoint_DEFINITION"
+msgstr "Het vriespunt van het materiaal (vloeistof)."
+
+msgid "Pset_MaterialWater"
+msgstr "Eigenschapsset: Materiaal water"
+
+msgid "Pset_MaterialWater_DEFINITION"
+msgstr "Een set uitgebreide materiële eigenschappen voor water die meestal gebruikt worden in de context van bouwdiensten en stroomdistributiesystemen."
+
+msgid "AcidityConcentration"
+msgstr "Nauwkeurigheid concentratie"
+
+msgid "AcidityConcentration_DEFINITION"
+msgstr "Maximum CaCO3 equivalent dat het zuur neutraliseert."
+
+msgid "AlkalinityConcentration"
+msgstr "Alkaliteit Concentratie"
+
+msgid "AlkalinityConcentration_DEFINITION"
+msgstr "Maximale concentratie van alkaliniteit (maximale concentraties van elk van de negatieve ions stoffen gemeten als CaCO3)."
+
+msgid "DissolvedSolidsContent"
+msgstr "Verleurde Vast Vast S Inhoud"
+
+msgid "DissolvedSolidsContent_DEFINITION"
+msgstr "Breuk van de ontbonden deeltjes tot de totale hoeveelheid water. Dit wordt gemeten in gewicht van ontbonden soliden per watergewicht en is daarom eenstemmig van aard."
+
+msgid "Hardness"
+msgstr "Hardheid"
+
+msgid "Hardness_DEFINITION"
+msgstr "[[Water]] hardheid als positief, multivalente ioen concentratie in het water (meestal concentraties van calcium en magnesium ionen in termen van calcium carbonaat)."
+
+msgid "ImpuritiesContent"
+msgstr "Inhoud van ongeregeldheden"
+
+msgid "ImpuritiesContent_DEFINITION"
+msgstr "Breuk van onzuiverheden zoals stof tot de totale hoeveelheid water. Dit wordt gemeten in het gewicht van de verontreinigingen per watergewicht en is dus eenstemmig samen."
+
+msgid "IsPotable"
+msgstr "Is aanpasbaar"
+
+msgid "IsPotable_DEFINITION"
+msgstr "Als het goed gaat, wordt het water als drinkwater beschouwd."
+
+msgid "PHLevel"
+msgstr "Phlevel"
+
+msgid "PHLevel_DEFINITION"
+msgstr "Maximaal water PH in een bereik van 0-14."
+
+msgid "Pset_MaterialWood"
+msgstr "Eigenschapsset: Materiaal Hout"
+
+msgid "Pset_MaterialWood_DEFINITION"
+msgstr "Dit is een verzameling van eigenschappen die van toepassing zijn op houten materialen die zowel soort en kwaliteit van materiaal als vocht gerelateerde parameters specificeren."
+
+msgid "AppearanceGrade"
+msgstr "Weergave beoordeling"
+
+msgid "AppearanceGrade_DEFINITION"
+msgstr "Rang met betrekking tot visuele kwaliteit."
+
+msgid "DimensionalChangeCoefficient"
+msgstr "Dimensieverandering Coëfficiënt wijzigen"
+
+msgid "DimensionalChangeCoefficient_DEFINITION"
+msgstr "Gewogen afmetingen veranderen coëfficiënt, relatief tot 1% verandering in vocht inhoud."
+
+msgid "Layers"
+msgstr "Laag S"
+
+msgid "Layers_DEFINITION"
+msgstr "Aantal lagen."
+
+msgid "Layup"
+msgstr "Layup"
+
+msgid "Layup_DEFINITION"
+msgstr "Configuratie van de laminaat."
+
+msgid "MoistureContent"
+msgstr "Vochtigheid inhoud"
+
+msgid "MoistureContent_DEFINITION"
+msgstr "Totaal gewicht vocht ten opzichte van oven-gedroogd gewicht van het hout."
+
+msgid "Plies"
+msgstr "Pijlen"
+
+msgid "Plies_DEFINITION"
+msgstr "Aantal plichten."
+
+msgid "Species"
+msgstr "Soorten"
+
+msgid "Species_DEFINITION"
+msgstr "Houtsoorten van stevig hout of gelamineerd hout."
+
+msgid "StrengthGrade"
+msgstr "Klasse der kracht"
+
+msgid "StrengthGrade_DEFINITION"
+msgstr "Rijd met betrekking tot de mechanische kracht en stijfheid."
+
+msgid "ThicknessSwelling"
+msgstr "Dikte Zwelling"
+
+msgid "ThicknessSwelling_DEFINITION"
+msgstr "Zwelling verhouding ten opzichte van boord diepte."
+
+msgid "Pset_MaterialWoodBasedStructure"
+msgstr "Eigenschapsset: Materiaal hout gebaseerd bouwwerk"
+
+msgid "Pset_MaterialWoodBasedStructure_DEFINITION"
+msgstr "Eigenschappen over Materiaal van Hout Gebaseerd [[Structure]]."
+
+msgid "ApplicableStructuralDesignMethod"
+msgstr "Toepassing structurele ontwerpmethode"
+
+msgid "ApplicableStructuralDesignMethod_DEFINITION"
+msgstr "Bepaalt of mechanische materiaaleigenschappen van toepassing zijn op 'ASD' = allowable stress design (werkstress design), 'LSD' = limit state design, or 'LRFD' = ontwerp voor belasting en weerstand factor"
+
+msgid "Pset_MechanicalBeamInPlane"
+msgstr "Eigenschapsset: Mechanische Straal in Vlak"
+
+msgid "Pset_MechanicalBeamInPlane_DEFINITION"
+msgstr "Eigenschappen van Mechanische Straal in Vlak."
+
+msgid "BendingStrength"
+msgstr "Buiging Kracht"
+
+msgid "BendingStrength_DEFINITION"
+msgstr "Buigingssterkte."
+
+msgid "CompStrength"
+msgstr "Comp Kracht"
+
+msgid "CompStrength_DEFINITION"
+msgstr "Compressieve kracht, ρ=0°."
+
+msgid "CompStrengthPerp"
+msgstr "Comp Sterkte Voordeel"
+
+msgid "CompStrengthPerp_DEFINITION"
+msgstr "Compressieve kracht, ρ=90°."
+
+msgid "InstabilityFactors"
+msgstr "Instabiliteit Factoren"
+
+msgid "InstabilityFactors_DEFINITION"
+msgstr "helderheid verhouding; ofwel factoren ofwel delers van de kracht, delers)."
+
+msgid "InstabilityFactors_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "RaisedCompStrengthPerp"
+msgstr "Opgeroepen Comp Kracht Perp"
+
+msgid "RaisedCompStrengthPerp_DEFINITION"
+msgstr "Alternatieve waarde voor compressieve sterkte, ρ=90°, welke gebruikt kan worden onder materiaal- en code-afhankelijke omstandigheden (bijv. als vervorming aanvaardbaar of ver van het einde van het lid is; de voorwaarden moeten worden vermeld in IfcProperty.[[Description]]."
+
+msgid "ReferenceDepth"
+msgstr "Referentie diepte"
+
+msgid "ReferenceDepth_DEFINITION"
+msgstr "[[Depth]] in buiging waarvoor de mechanische eigenschappen geldig; Aangeleverd als een middel om de integriteit van materiële toewijzingen te controleren."
+
+msgid "ShearModulusMin"
+msgstr "Afschuiving Modulus Min"
+
+msgid "ShearModulusMin_DEFINITION"
+msgstr "Afschuiving modulus, minimale waarde."
+
+msgid "ShearStrength"
+msgstr "Afschuiving Sterkte"
+
+msgid "ShearStrength_DEFINITION"
+msgstr "・afschuift sterkte."
+
+msgid "TensileStrength"
+msgstr "Tensile Kracht"
+
+msgid "TensileStrength_DEFINITION"
+msgstr "Geeft het vermogen aan om uiteenvallen te weerstaan onder toegepaste kracht."
+
+msgid "TensileStrengthPerp"
+msgstr "Tensile Kracht Voordeel"
+
+msgid "TensileStrengthPerp_DEFINITION"
+msgstr "Stand van de spanning, × =90°."
+
+msgid "TorsionalStrength"
+msgstr "Torsionale Kracht"
+
+msgid "TorsionalStrength_DEFINITION"
+msgstr "Schuifkracht in marteling."
+
+msgid "YoungModulusMin"
+msgstr "Young Modulus Min"
+
+msgid "YoungModulusMin_DEFINITION"
+msgstr "Elastische modulus, minimale waarde, ρ=0°."
+
+msgid "YoungModulusPerp"
+msgstr "Young Modulus Perp"
+
+msgid "YoungModulusPerp_DEFINITION"
+msgstr "Elastische modulus, betekent waarde, ρ=90°."
+
+msgid "YoungModulusPerpMin"
+msgstr "Young Modulus Perp Min"
+
+msgid "YoungModulusPerpMin_DEFINITION"
+msgstr "Elastische modulus, minimale waarde, ο=90°."
+
+msgid "Pset_MechanicalBeamInPlaneNegative"
+msgstr "Eigenschapsset: Mechanische Straal in Vlak Negatief"
+
+msgid "Pset_MechanicalBeamInPlaneNegative_DEFINITION"
+msgstr "Eigenschappen van Mechanische Straal in Vlak Negatief."
+
+msgid "Pset_MechanicalBeamOutOfPlane"
+msgstr "Eigenschapsset: Mechanische Straal uit Vlak"
+
+msgid "Pset_MechanicalBeamOutOfPlane_DEFINITION"
+msgstr "Eigenschappen van Mechanical Straal out Plan."
+
+msgid "Pset_MechanicalPanelInPlane"
+msgstr "Eigenschapsset: Mechanisch Paneel in Vlak"
+
+msgid "Pset_MechanicalPanelInPlane_DEFINITION"
+msgstr "Eigenschappen voor mechanische panelen in vliegtuig."
+
+msgid "BearingStrength"
+msgstr "Richting Kracht"
+
+msgid "BearingStrength_DEFINITION"
+msgstr "・sterkte van boltgaten, d.w.z. druk voor intrados."
+
+msgid "BearingStrength_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "RaisedCompressiveStrength"
+msgstr "Opgeroepen Compressieve Kracht"
+
+msgid "RaisedCompressiveStrength_DEFINITION"
+msgstr "Alternatieve waarde voor compressieve sterkte die kan worden gebruikt onder materiaal en code afhankelijke omstandigheden (bijv. als vervorming aanvaardbaar of ver van het einde van het lid is; de voorwaarden moeten worden vermeld in IfcProperty.[[Description]]."
+
+msgid "YoungModulusBending"
+msgstr "Jonge Modulus Buiging"
+
+msgid "YoungModulusBending_DEFINITION"
+msgstr "ο;elastische modulus in buiging."
+
+msgid "YoungModulusBending_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "YoungModulusCompression"
+msgstr "Jonge Modulus Compressie"
+
+msgid "YoungModulusCompression_DEFINITION"
+msgstr "Elastische modulus in compressie."
+
+msgid "YoungModulusTension"
+msgstr "Jonge Modulus Tensie"
+
+msgid "YoungModulusTension_DEFINITION"
+msgstr "ο;elastische modulus in spanning."
+
+msgid "YoungModulusTension_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_MechanicalPanelOutOfPlane"
+msgstr "Eigenschapsset: Mechanisch Paneel uit vlak"
+
+msgid "Pset_MechanicalPanelOutOfPlane_DEFINITION"
+msgstr "Eigenschappen voor Mechanica lPanels Uit Plan."
+
+msgid "Pset_MechanicalPanelOutOfPlaneNegative"
+msgstr "Eigenschapsset: Mechanisch Paneel uit Vlak Negatief"
+
+msgid "Pset_MechanicalPanelOutOfPlaneNegative_DEFINITION"
+msgstr "Eigenschappen voor mechanische panelen uit Vlak Negatief."
+
+msgid "Category"
+msgstr "categorie"
+
+msgid "Category_DEFINITION"
+msgstr "Definitie van de categorie (groep of type) van materiaal, in meer algemene termen dan gegeven door attribuut [[Name]]. de aanbeveling is om gemeenschappelijke termen te gebruiken voor de materiaalcategorie,'bette', 'staal', 'aluminium', 'brick', 'steen', 'hout', 'glas', 'gypsum', 'plastic', 'earth'."
+

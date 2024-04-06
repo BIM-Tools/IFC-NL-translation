@@ -1,0 +1,731 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcStructuralAnalysisDomain.pot\n"
+"X-Crowdin-File-ID: 198\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:38\n"
+
+msgid "IfcProjectOrder"
+msgstr "Projectorder werkvolgorde"
+
+msgid "IfcProjectOrder_DEFINITION"
+msgstr "Definieert de vereisten voor inkooporders in een project."
+
+msgid "IfcStructuralAction"
+msgstr "Structurele actie"
+
+msgid "IfcStructuralAction_DEFINITION"
+msgstr "Structurele actie is een structurele activiteit die zich richt op een structureel onderdeel of bouwsel."
+
+msgid "DestabilizingLoad"
+msgstr "Uitzending wordt getoetst"
+
+msgid "DestabilizingLoad_DEFINITION"
+msgstr "Geeft aan of deze maatregel een stabiliteitsprobleem kan veroorzaken, en in dat geval is het \"FALSE\" geen verdere onderzoeken naar stabiliteitsproblemen nodig."
+
+msgid "GlobalOrLocal"
+msgstr "Globaal of lokaal"
+
+msgid "GlobalOrLocal_DEFINITION"
+msgstr "Geeft aan of de laadrichtingen verwijzen naar het globale coördinaatsysteem (globaal naar; het analysemodel, dat wil zeggen zoals bepaald door [[IfcStructuralAnalysisModel]]. haredPlacement); of het lokale coördinaatsysteem (lokaal aan de activiteit of verbonden item, zoals vastgesteld; een expliciete of impliciete representatie en de parameter ruimte)."
+
+msgid "GlobalOrLocal_GLOBAL_COORDS"
+msgstr "de betekenis van [[GLOBAL_COORDS]] moet daarom niet worden genomen als wereldcoördinerend systeem, maar als het analysemodel specifiek gedeeld coördinaatsysteem"
+
+msgid "GlobalOrLocal_LOCAL_COORDS"
+msgstr "[[LOCAL_COORDS]] moet worden genomen als coördinaten voor individuele structurele items en activiteiten"
+
+msgid "IfcStructuralActivity"
+msgstr "Structurele activiteit"
+
+msgid "IfcStructuralActivity_DEFINITION"
+msgstr "De abstracte entiteit [[IfcStructuralActivity]] combineert de definitie van acties (zoals krachten, verplaatsingen, etc. en reacties (ondersteuning voor reacties, interne krachten, afbuigingen, enz.) die gespecificeerd zijn door gebruik te maken van de basisdefinities van belasting uit de IfcStructuralLoadResource."
+
+msgid "IfcStructuralAnalysisModel"
+msgstr "Structurele Analyse Model"
+
+msgid "IfcStructuralAnalysisModel_DEFINITION"
+msgstr "De [[IfcStructuralAnalysisModel]] wordt gebruikt om alle informatie te verzamelen die nodig is om een structureel analysemodel te vertegenwoordigen. Het omvat bepaalde algemene eigenschappen (zoals analysetype), verwijzingen naar alle ingesloten structurele leden Structurele ondersteuning of verbindingen, evenals ladingen en de respectieve laadresultaten."
+
+msgid "IfcStructuralConnection"
+msgstr "Structurele verbinding"
+
+msgid "IfcStructuralConnection_DEFINITION"
+msgstr "Een [[IfcStructuralConnection]] vertegenwoordigt een structureel verbindingsobject (knooppunt verbinding, randverbinding of oppervlakte-verbinding) of ondersteuning."
+
+msgid "IfcStructuralCurveAction"
+msgstr "Structurele curve actie"
+
+msgid "IfcStructuralCurveAction_DEFINITION"
+msgstr "Een structurele curve actie definieert een actie die over een curve wordt verdeeld. Een curve actie kan verbonden worden met een curve lid of curve verbinding of oppervlakte-verbinding."
+
+msgid "ProjectedOrTrue"
+msgstr "Verwachte of waar"
+
+msgid "ProjectedOrTrue_DEFINITION"
+msgstr "Definieert of belastingswaarden worden gegeven per ware lengte van de curve waarop ze handelen of per lengte van de projectie van de curve in de geladen richting. Deze laatste is alleen van toepassing op ladingen die handelen in mondiale coördinerende richtingen."
+
+msgid "ProjectedOrTrue_PROJECTED_LENGTH"
+msgstr "Getekend [[Length]]"
+
+msgid "ProjectedOrTrue_TRUE_LENGTH"
+msgstr "Ware [[Length]]"
+
+msgid "IfcStructuralCurveConnection"
+msgstr "Structurele Curve Verbinding"
+
+msgid "IfcStructuralCurveConnection_DEFINITION"
+msgstr "Instanties van [[IfcStructuralCurveConnection]] beschrijven 'nee', d.w.z. Randen waar twee of meer oppervlak leden zijn aangesloten of ondersteuning aan de randen. Rondcurven kunnen recht of gebogen zijn."
+
+msgid "IfcStructuralCurveMember"
+msgstr "Structureel lid"
+
+msgid "IfcStructuralCurveMember_DEFINITION"
+msgstr "Instanties van [[IfcStructuralCurveMember]] beschrijven hoogspannende leden, d.w.z. structurele analyseidealisaties van stralen, kolommen, staven enz.. Curve leden kunnen direct of gebogen zijn."
+
+msgid "IfcStructuralCurveMemberVarying"
+msgstr "Structureel lid Varying"
+
+msgid "IfcStructuralCurveMemberVarying_DEFINITION"
+msgstr "Deze entiteit beschrijft leden met verschillende profieleigenschappen. Elk exemplaar van [[IfcStructuralCurveMemberVarying]] bestaat uit twee of meer instanties van [[IfcStructuralCurveMember]] met verschillende profieleigenschappen. Deze ondergeschikte leden hebben betrekking op de instantie van [[IfcStructuralCurveMemberVarying]] door IfcRelAggregates."
+
+msgid "IfcStructuralCurveReaction"
+msgstr "Structurele Curve reactie"
+
+msgid "IfcStructuralCurveReaction_DEFINITION"
+msgstr "Deze entiteit definieert een reactie die verspreid over een curve voorkomt. Een curve reactie kan verbonden worden met een curve lid of curve verbinding of oppervlakte-verbinding."
+
+msgid "IfcStructuralItem"
+msgstr "Structureel item"
+
+msgid "IfcStructuralItem_DEFINITION"
+msgstr "De abstract entiteit [[IfcStructuralItem]] is de generalisatie van structurele leden en structurele verbindingen, dat wil zeggen het analyseren van idealisaties van elementen in het bouwmodel. Het definieert de relatie tussen structurele leden en verbindingen met structurele activiteiten (acties en reacties)."
+
+msgid "IfcStructuralLinearAction"
+msgstr "Structurele Lineaire Actie"
+
+msgid "IfcStructuralLinearAction_DEFINITION"
+msgstr "Deze entiteit definieert een actie met een constante waarde die wordt verdeeld over een curve."
+
+msgid "IfcStructuralLoadCase"
+msgstr "Structurele Lading Geval"
+
+msgid "IfcStructuralLoadCase_DEFINITION"
+msgstr "Een belastingscase is een belastingsgroep, gebruikt vaak om lasten te groeperen van dezelfde actiebron."
+
+msgid "SelfWeightCoefficients"
+msgstr "Eigen gewicht Coëfficiënten"
+
+msgid "SelfWeightCoefficients_DEFINITION"
+msgstr "Eigen gewichtscoëfficiënten specificeren ratio's welke belast worden vanwege het gewicht van de leden in de belastingszaak. Deze ladingen worden niet expliciet gemodelleerd als instanties van [[IfcStructuralAction]]. In plaats daarvan zullen ze berekend worden op basis van geometrie, afdelingen en materiaal van elk lid. Hij heeft drie componenten van het gewicht vector die overeenkomen met de x,y,z richtingen van de zogenaamde globale coördinaten, i. . de richtingen van de gedeelde objectPlaatsing van alle items in een [[IfcStructuralAnalysisModel]]. Bijvoorbeeld, als de objectplaatsing een z-as definieert die recht heeft zoals het [[IfcProject]]'s wereld coördinaatsysteem Dan zou de zelfgewicht coëfficiënten doorgaans 0 zijn. 0,,-1. in een lading van dode ladingen met zelfgewicht. Hij algehele coëfficiënt van het overgenomen attribuut [[Coefficient]] zal niet worden toegepast op [[SelfWeightCoefficients]] van hetzelfde exemplaar van [[IfcStructuralLoadCase]]. Het is alleen van toepassing op acties en laadgroepen die onder de laadcase zijn gegroepeerd, niet op het berekening zelfgewicht van de belasting."
+
+msgid "ActionSource"
+msgstr "Bron actie"
+
+msgid "ActionSource_DEFINITION"
+msgstr "Bron van acties in de groep. Normaal nodig als 'PredefinedType' specificeert een LOAD_CASE."
+
+msgid "ActionSource_BRAKES"
+msgstr "Reuzen"
+
+msgid "ActionSource_BUOYANCY"
+msgstr "Boerderij"
+
+msgid "ActionSource_COMPLETION_G1"
+msgstr "Voltooiing G1"
+
+msgid "ActionSource_CREEP"
+msgstr "Slap"
+
+msgid "ActionSource_CURRENT"
+msgstr "[[Current]]"
+
+msgid "ActionSource_DEAD_LOAD_G"
+msgstr "Dood [[Load]] G"
+
+msgid "ActionSource_EARTHQUAKE_E"
+msgstr "Aardbeving E"
+
+msgid "ActionSource_ERECTION"
+msgstr "Erectie"
+
+msgid "ActionSource_FIRE"
+msgstr "Ontslaan"
+
+msgid "ActionSource_ICE"
+msgstr "IJs"
+
+msgid "ActionSource_IMPACT"
+msgstr "Invloed"
+
+msgid "ActionSource_IMPULSE"
+msgstr "Im Pulse"
+
+msgid "ActionSource_LACK_OF_FIT"
+msgstr "Gebrek aan Fit"
+
+msgid "ActionSource_LIVE_LOAD_Q"
+msgstr "Live [[Load]] Q"
+
+msgid "ActionSource_PRESTRESSING_P"
+msgstr "Voorbenadrukken P"
+
+msgid "ActionSource_PROPPING"
+msgstr "Uitpakken"
+
+msgid "ActionSource_RAIN"
+msgstr "Regen"
+
+msgid "ActionSource_SETTLEMENT_U"
+msgstr "Afwikkeling U"
+
+msgid "ActionSource_SHRINKAGE"
+msgstr "Verkleinen"
+
+msgid "ActionSource_SNOW_S"
+msgstr "Sneeuw S"
+
+msgid "ActionSource_SYSTEM_IMPERFECTION"
+msgstr "[[System]] perfectie"
+
+msgid "ActionSource_TEMPERATURE_T"
+msgstr "[[Temperature]T"
+
+msgid "ActionSource_TRANSPORT"
+msgstr "Vervoer"
+
+msgid "ActionSource_WAVE"
+msgstr "Golf"
+
+msgid "ActionSource_WIND_W"
+msgstr "Wind W"
+
+msgid "ActionSource_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "ActionSource_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "ActionType"
+msgstr "Actie Type"
+
+msgid "ActionType_DEFINITION"
+msgstr "[[Type]] van de acties in de groep. Normaal nodig als 'VoordefinieedType' specificeert een LOAD_CASE."
+
+msgid "ActionType_EXTRAORDINARY_A"
+msgstr "Buitengewone A"
+
+msgid "ActionType_PERMANENT_G"
+msgstr "Permanente G"
+
+msgid "ActionType_VARIABLE_Q"
+msgstr "Variabele Q"
+
+msgid "ActionType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "ActionType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "Coefficient"
+msgstr "Coëfficiënt"
+
+msgid "Coefficient_DEFINITION"
+msgstr "[[Load]] factor. Indien weggelaten is een factor nog niet bekend of niet opgegeven. Een belastingsfactor van 1.0 wordt expliciet geëxporteerd als [[Coefficient]] = 1,0."
+
+msgid "IfcStructuralLoadGroup"
+msgstr "Structurele Lading Groep"
+
+msgid "IfcStructuralLoadGroup_DEFINITION"
+msgstr "De entiteit [[IfcStructuralLoadGroup]] wordt gebruikt om de fysieke effecten te structureren. Door gebruik te maken van de groepsfuncties die zijn overgenomen van [[IfcGroup]], instanties van [[IfcStructuralAction]] (of zijn subklassen) en van [[IfcStructuralLoadGroup]] kunnen worden gebruikt om laadgroepen, laadzaken en laadcombinaties te definiëren. (Zie ook IfcLoadGroupTypeEnum.)"
+
+msgid "IfcStructuralMember"
+msgstr "Structureel lid"
+
+msgid "IfcStructuralMember_DEFINITION"
+msgstr "De abstract entiteit [[IfcStructuralMember]] is de superklasse van alle structurele items die het geïdealiseerd structurele gedrag van bouwelementen vertegenwoordigen."
+
+msgid "IfcStructuralPlanarAction"
+msgstr "Structurele Planaire actie"
+
+msgid "IfcStructuralPlanarAction_DEFINITION"
+msgstr "Deze entiteit definieert een actie met een constante waarde die over een oppervlak wordt verdeeld."
+
+msgid "IfcStructuralPointAction"
+msgstr "Structurele Punt actie"
+
+msgid "IfcStructuralPointAction_DEFINITION"
+msgstr "Deze entiteit definieert een actie die op een punt handelt. Een punt actie is meestal verbonden met een punt verbinding. Het kan ook verbonden zijn met een curve lid of een curve verbinding of oppervlakte-verbinding."
+
+msgid "IfcStructuralPointConnection"
+msgstr "Structurele Punt Verbinding"
+
+msgid "IfcStructuralPointConnection_DEFINITION"
+msgstr "Instanties van [[IfcStructuralPointConnection]] beschrijven structurele knooppunten of puntondersteuning."
+
+msgid "IfcStructuralPointReaction"
+msgstr "Structurele Punt Reactie"
+
+msgid "IfcStructuralPointReaction_DEFINITION"
+msgstr "Deze entiteit definieert een reactie die op een punt optreedt. Een punt reactie is meestal verbonden met een punt verbinding. Het kan ook verbonden zijn met een curve lid of een curve verbinding of oppervlakte-verbinding."
+
+msgid "IfcStructuralReaction"
+msgstr "Structurele Reactie"
+
+msgid "IfcStructuralReaction_DEFINITION"
+msgstr "Een structurele reactie is een structurele activiteit die voortvloeit uit een structurele actie die wordt opgelegd aan een structureel onderdeel of bouwsel. Voorbeelden hiervan zijn ondersteunende reacties, interne krachten en afleidingen."
+
+msgid "IfcStructuralResultGroup"
+msgstr "Structurele Resultaten Groep"
+
+msgid "IfcStructuralResultGroup_DEFINITION"
+msgstr "Instanties van de entiteit [[IfcStructuralResultGroup]] worden gebruikt om resultaten van structurele analyse berekeningen te groeperen en om de verbinding met de onderliggende basis laadgroep af te sluiten. De basisfunctionaliteit voor het groeperen van [[IfcGroup]] wordt gebruikt om instanties van [[IfcStructuralReaction]] of de respectievelijke subklassen te verzamelen."
+
+msgid "IsLinear"
+msgstr "Is Lineair"
+
+msgid "IsLinear_DEFINITION"
+msgstr "Deze waarde herkent gemakkelijk of er een lineaire analyse is toegepast (toestaan van de superpositie van analyse resultaten)."
+
+msgid "TheoryType"
+msgstr "Theorie type"
+
+msgid "TheoryType_DEFINITION"
+msgstr "Specificeert de analyse-theorie die wordt gebruikt om de betreffende resultaten te behalen."
+
+msgid "TheoryType_FIRST_ORDER_THEORY"
+msgstr "Eerste Order-theorie"
+
+msgid "TheoryType_FULL_NONLINEAR_THEORY"
+msgstr "Volledige Nonlinear theorie"
+
+msgid "TheoryType_SECOND_ORDER_THEORY"
+msgstr "Tweede Order-theorie"
+
+msgid "TheoryType_THIRD_ORDER_THEORY"
+msgstr "Derde order Theorie"
+
+msgid "TheoryType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "TheoryType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "IfcStructuralSurfaceAction"
+msgstr "Structurele Oppervlakte Actie"
+
+msgid "IfcStructuralSurfaceAction_DEFINITION"
+msgstr "Deze entiteit definieert een actie die over een oppervlak wordt verdeeld. Een oppervlakte actie kan verbonden worden met een oppervlakte-deelnemer of oppervlakte-verbinding."
+
+msgid "IfcStructuralSurfaceConnection"
+msgstr "Structurele Oppervlakte Verbinding"
+
+msgid "IfcStructuralSurfaceConnection_DEFINITION"
+msgstr "Instanties van [[IfcStructuralSurfaceConnection]] beschrijven \"nee” tegen gezichten, d.w.z. vlakken waar twee of meer oppervlakte leden zijn toegetreden of ondersteuning gezicht hebben. Gezicht kan planken of gebogen zijn."
+
+msgid "IfcStructuralSurfaceMember"
+msgstr "Structureel Vlaklid"
+
+msgid "IfcStructuralSurfaceMember_DEFINITION"
+msgstr "Instanties van [[IfcStructuralSurfaceMember]] beschrijven gezicht leden, dat wil zeggen structurele analyse idealisaties van slaven, muren en schelpen. Oppervlakte leden kunnen plat of gebogen zijn."
+
+msgid "IfcStructuralSurfaceMemberVarying"
+msgstr "Structurele Surfacelid Varying"
+
+msgid "IfcStructuralSurfaceMemberVarying_DEFINITION"
+msgstr "Deze entiteit beschrijft oppervlakte leden met verschillende sectie eigenschappen. De eigenschappen worden verstrekt door middel van [[Pset_StructuralSurfaceMemberVaryingThickness]] via IfcRelDefinesByProperties, n instantie van [[IfcStructuralSurfaceMemberVarying]] kan bestaan uit twee of meer instanties van [[IfcStructuralSurfaceMember]] met verschillende sectie-eigenschappen. Deze ondergeschikte leden hebben betrekking op de instantie van [[IfcStructuralSurfaceMemberVarying]] door IfcRelAggregates."
+
+msgid "Pset_StructuralSurfaceMemberVaryingThickness"
+msgstr "Eigenschapset: Structurele oppervlakte lid Varying Dikte"
+
+msgid "Pset_StructuralSurfaceMemberVaryingThickness_DEFINITION"
+msgstr "[[Thickness]] parameters van een oppervlaktelid (structurele analyse item) met verschillende dikte, vooral met lineair verschillende dikte. De dikte is interpolated/ geextrapoleerd op drie punten. De locaties van deze punten worden gegeven in de lokale x,y coördinaten van het oppervlak lid of in de globale X,Y,Z coördinaten. Hoe dan ook, deze punten moeten zich in het gezicht bevinden of op de rand van het gezicht van het oppervlak van het oppervlak en ze mogen niet op een gemeenschappelijke lijn worden geplaatst. Lokale en mondiale coördinaten zullen niet gemengd worden binnen dezelfde propertyset instantie."
+
+msgid "Location1Global"
+msgstr "Locatie1Globaal"
+
+msgid "Location1Global_DEFINITION"
+msgstr "Globale X,Y,Z coördinaten van het punt waarin [[Thickness1]] wordt gegeven"
+
+msgid "Location1Local"
+msgstr "Locatie1Lokaal"
+
+msgid "Location1Local_DEFINITION"
+msgstr "Lokale x,y coördinaten van het punt waarin [[Thickness1]] wordt gegeven"
+
+msgid "Location2Global"
+msgstr "Locatie2Globaal"
+
+msgid "Location2Global_DEFINITION"
+msgstr "Globale X,Y,Z coördinaten van het punt waarin [[Thickness2]] wordt gegeven"
+
+msgid "Location2Local"
+msgstr "Locatie2Lokaal"
+
+msgid "Location2Local_DEFINITION"
+msgstr "Lokale x,y coördinaten van het punt waarin [[Thickness2]] wordt gegeven"
+
+msgid "Location3Global"
+msgstr "Locatie3Globaal"
+
+msgid "Location3Global_DEFINITION"
+msgstr "Globale X,Y,Z coördinaten van het punt waarin [[Thickness3]] wordt gegeven"
+
+msgid "Location3Local"
+msgstr "Locatie3Lokaal"
+
+msgid "Location3Local_DEFINITION"
+msgstr "Lokale x,y coördinaten van het punt waarin [[Thickness3]] wordt gegeven"
+
+msgid "Thickness1"
+msgstr "Dikte 1"
+
+msgid "Thickness1_DEFINITION"
+msgstr "Eerste dikte parameter van een oppervlaktelid met verschillende dikte"
+
+msgid "Thickness2"
+msgstr "Dikte 2"
+
+msgid "Thickness2_DEFINITION"
+msgstr "Tweede dikte parameter van een oppervlak lid met verschillende dikte"
+
+msgid "Thickness3"
+msgstr "Dikte 3"
+
+msgid "Thickness3_DEFINITION"
+msgstr "Derde dikte parameter van een oppervlaktelid met verschillende dikte"
+
+msgid "IfcStructuralAnalysisModelIN_PLANE_LOADING_2D_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralAnalysisModelIN_PLANE_LOADING_2D"
+msgstr "In Vlak 2D laden"
+
+msgid "IfcStructuralAnalysisModelIN_PLANE_LOADING_2D_DEFINITION"
+msgstr "In plan laden 2D"
+
+msgid "IfcStructuralAnalysisModelLOADING_3D_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralAnalysisModelLOADING_3D"
+msgstr "3D wordt geladen"
+
+msgid "IfcStructuralAnalysisModelLOADING_3D_DEFINITION"
+msgstr "3D wordt geladen"
+
+msgid "IfcStructuralAnalysisModelOUT_PLANE_LOADING_2D_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralAnalysisModelOUT_PLANE_LOADING_2D"
+msgstr "Vliegtuig 2D laden"
+
+msgid "IfcStructuralAnalysisModelOUT_PLANE_LOADING_2D_DEFINITION"
+msgstr "2D toestel laden"
+
+msgid "IfcStructuralCurveActionCONST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionCONST"
+msgstr "Const"
+
+msgid "IfcStructuralCurveActionCONST_DEFINITION"
+msgstr "De last heeft een constante waarde over de gehele omvang."
+
+msgid "IfcStructuralCurveActionDISCRETE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionDISCRETE"
+msgstr "Onbeton"
+
+msgid "IfcStructuralCurveActionDISCRETE_DEFINITION"
+msgstr "De lading is gespecificeerd als een reeks van discrete laadpunten."
+
+msgid "IfcStructuralCurveActionEQUIDISTANT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionEQUIDISTANT"
+msgstr "Equidistant"
+
+msgid "IfcStructuralCurveActionEQUIDISTANT_DEFINITION"
+msgstr "De lading bestaat uit n opeenvolgende secties van dezelfde lengte en is opgegeven door n+1 laadsamples. Het interpolatietype over de segmenten wordt niet gedefinieerd door dit distributietype maar kan gekwalificeerd zijn in [[IfcObject]].[ObjectType]] gebaseerd op aanvullende overeenkomsten."
+
+msgid "IfcStructuralCurveActionLINEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionLINEAR"
+msgstr "Lineaire"
+
+msgid "IfcStructuralCurveActionLINEAR_DEFINITION"
+msgstr "De belastingswaarde wordt lineair verdeeld over de omvang van de lading."
+
+msgid "IfcStructuralCurveActionPARABOLA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionPARABOLA"
+msgstr "Parabola"
+
+msgid "IfcStructuralCurveActionPARABOLA_DEFINITION"
+msgstr "De belastingswaarde wordt verdeeld als een halve golf beschreven door een symmetrische kwadratische parabool."
+
+msgid "IfcStructuralCurveActionPOLYGONAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionPOLYGONAL"
+msgstr "Polygonal"
+
+msgid "IfcStructuralCurveActionPOLYGONAL_DEFINITION"
+msgstr "De lading bestaat uit verschillende opeenvolgende lineaire secties."
+
+msgid "IfcStructuralCurveActionSINUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveActionSINUS"
+msgstr "Sinus"
+
+msgid "IfcStructuralCurveActionSINUS_DEFINITION"
+msgstr "De belastingswaarde wordt verdeeld als een sinus halve golf."
+
+msgid "IfcStructuralCurveMemberCABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveMemberCABLE"
+msgstr "Kabel"
+
+msgid "IfcStructuralCurveMemberCABLE_DEFINITION"
+msgstr "Een spanningslid dat alleen bij grote doorbuiging transversale ladingen kan dragen."
+
+msgid "IfcStructuralCurveMemberCOMPRESSION_MEMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveMemberCOMPRESSION_MEMBER"
+msgstr "Compressie lid"
+
+msgid "IfcStructuralCurveMemberCOMPRESSION_MEMBER_DEFINITION"
+msgstr "Een lid zonder spanningsstijfheid."
+
+msgid "IfcStructuralCurveMemberPIN_JOINED_MEMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveMemberPIN_JOINED_MEMBER"
+msgstr "Vastgezet lid"
+
+msgid "IfcStructuralCurveMemberPIN_JOINED_MEMBER_DEFINITION"
+msgstr "Een lid met de capaciteit om axiale lasten alleen te dragen, d.w.z. een link. Meestal gebruikt in trussen."
+
+msgid "IfcStructuralCurveMemberRIGID_JOINED_MEMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveMemberRIGID_JOINED_MEMBER"
+msgstr "Rigid toegetreden lid"
+
+msgid "IfcStructuralCurveMemberRIGID_JOINED_MEMBER_DEFINITION"
+msgstr "Een lid met de capaciteit om transversale en axiale ladingen te dragen, d.w.z. een balk. De werkelijke gewrichten kunnen rigide of vastgepind zijn. Meestal gebruikt in stijve frames."
+
+msgid "IfcStructuralCurveMemberTENSION_MEMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveMemberTENSION_MEMBER"
+msgstr "Trek lid"
+
+msgid "IfcStructuralCurveMemberTENSION_MEMBER_DEFINITION"
+msgstr "Een lid zonder compressionale stijf."
+
+msgid "IfcStructuralCurveReactionCONST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionCONST"
+msgstr "Const"
+
+msgid "IfcStructuralCurveReactionCONST_DEFINITION"
+msgstr "De last heeft een constante waarde over de gehele omvang."
+
+msgid "IfcStructuralCurveReactionDISCRETE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionDISCRETE"
+msgstr "Onbeton"
+
+msgid "IfcStructuralCurveReactionDISCRETE_DEFINITION"
+msgstr "De lading is gespecificeerd als een reeks van discrete laadpunten."
+
+msgid "IfcStructuralCurveReactionEQUIDISTANT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionEQUIDISTANT"
+msgstr "Equidistant"
+
+msgid "IfcStructuralCurveReactionEQUIDISTANT_DEFINITION"
+msgstr "De lading bestaat uit n opeenvolgende secties van dezelfde lengte en is opgegeven door n+1 laadsamples. Het interpolatietype over de segmenten wordt niet gedefinieerd door dit distributietype maar kan gekwalificeerd zijn in [[IfcObject]].[ObjectType]] gebaseerd op aanvullende overeenkomsten."
+
+msgid "IfcStructuralCurveReactionLINEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionLINEAR"
+msgstr "Lineaire"
+
+msgid "IfcStructuralCurveReactionLINEAR_DEFINITION"
+msgstr "De belastingswaarde wordt lineair verdeeld over de omvang van de lading."
+
+msgid "IfcStructuralCurveReactionPARABOLA_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionPARABOLA"
+msgstr "Parabola"
+
+msgid "IfcStructuralCurveReactionPARABOLA_DEFINITION"
+msgstr "De belastingswaarde wordt verdeeld als een halve golf beschreven door een symmetrische kwadratische parabool."
+
+msgid "IfcStructuralCurveReactionPOLYGONAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionPOLYGONAL"
+msgstr "Polygonal"
+
+msgid "IfcStructuralCurveReactionPOLYGONAL_DEFINITION"
+msgstr "De lading bestaat uit verschillende opeenvolgende lineaire secties."
+
+msgid "IfcStructuralCurveReactionSINUS_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralCurveReactionSINUS"
+msgstr "Sinus"
+
+msgid "IfcStructuralCurveReactionSINUS_DEFINITION"
+msgstr "De belastingswaarde wordt verdeeld als een sinus halve golf."
+
+msgid "IfcStructuralLoadGroupLOAD_CASE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralLoadGroupLOAD_CASE"
+msgstr "Laad Geval"
+
+msgid "IfcStructuralLoadGroupLOAD_CASE_DEFINITION"
+msgstr "Groepen LOAD_GROUPs en sub-types van [[IfcStructuralAction]].; Het moet worden gebruikt als een container voor ladingen met dezelfde oorsprong."
+
+msgid "IfcStructuralLoadGroupLOAD_COMBINATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralLoadGroupLOAD_COMBINATION"
+msgstr "Combinatie van apparatuur"
+
+msgid "IfcStructuralLoadGroupLOAD_COMBINATION_DEFINITION"
+msgstr "Een tussenliggend niveau tussen LOAD_CASE en LOAD_COMBINATION. Dit niveau is verouderd en verouderd. Voor het introduceren van IfcRelAssignsToGroupByFactor, was het doel van dit niveau om een factor te geven waarmee een of meer LOAD_CASE's in een LOAD_COMBINATIE voorkomen."
+
+msgid "IfcStructuralLoadGroupLOAD_GROUP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralLoadGroupLOAD_GROUP"
+msgstr "Laad groep"
+
+msgid "IfcStructuralLoadGroupLOAD_GROUP_DEFINITION"
+msgstr "Groepeer voorbeelden van subtypes van [[IfcStructuralAction]]. Het zal worden gebruikt als container voor ladingen die samengevoegd worden voor specifieke doeleinden, zoals ladingen die deel uitmaken van een speciaal lastpatroon."
+
+msgid "IfcStructuralSurfaceActionBILINEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceActionBILINEAR"
+msgstr "Bilineair"
+
+msgid "IfcStructuralSurfaceActionBILINEAR_DEFINITION"
+msgstr "De belastingswaarde wordt gefactureerd over de omvang van de lading."
+
+msgid "IfcStructuralSurfaceActionCONST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceActionCONST"
+msgstr "Const"
+
+msgid "IfcStructuralSurfaceActionCONST_DEFINITION"
+msgstr "De last heeft een constante waarde over de gehele omvang."
+
+msgid "IfcStructuralSurfaceActionDISCRETE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceActionDISCRETE"
+msgstr "Onbeton"
+
+msgid "IfcStructuralSurfaceActionDISCRETE_DEFINITION"
+msgstr "De lading is gespecificeerd als een reeks van discrete laadpunten."
+
+msgid "IfcStructuralSurfaceActionISOCONTOUR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceActionISOCONTOUR"
+msgstr "Isocontour"
+
+msgid "IfcStructuralSurfaceActionISOCONTOUR_DEFINITION"
+msgstr "De lading is gespecificeerd in een reeks iso-curves (level sets), d.w.z. curves waarbij de laadwaarde constant is. Deze curves lopen vast op het laadverloop."
+
+msgid "IfcStructuralSurfaceMemberBENDING_ELEMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceMemberBENDING_ELEMENT"
+msgstr "Bochtend Element"
+
+msgid "IfcStructuralSurfaceMemberBENDING_ELEMENT_DEFINITION"
+msgstr "Een lid met capaciteit om out-of-plane load uit te voeren, d.w.z. een plate."
+
+msgid "IfcStructuralSurfaceMemberMEMBRANE_ELEMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceMemberMEMBRANE_ELEMENT"
+msgstr "Membraan element"
+
+msgid "IfcStructuralSurfaceMemberMEMBRANE_ELEMENT_DEFINITION"
+msgstr "Een lid met de capaciteit om in vliegtuiglading te dragen, bijvoorbeeld een afschuifmuur."
+
+msgid "IfcStructuralSurfaceMemberSHELL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceMemberSHELL"
+msgstr "Schil"
+
+msgid "IfcStructuralSurfaceMemberSHELL_DEFINITION"
+msgstr "Een lid met de capaciteit om in-plane en out-of-plane ladingen te vervoeren, d.w.z. een combinatie van buigelement en membraan element."
+
+msgid "IfcStructuralSurfaceReactionBILINEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceReactionBILINEAR"
+msgstr "Bilineair"
+
+msgid "IfcStructuralSurfaceReactionBILINEAR_DEFINITION"
+msgstr "De belastingswaarde wordt gefactureerd over de omvang van de lading."
+
+msgid "IfcStructuralSurfaceReactionCONST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceReactionCONST"
+msgstr "Const"
+
+msgid "IfcStructuralSurfaceReactionCONST_DEFINITION"
+msgstr "De last heeft een constante waarde over de gehele omvang."
+
+msgid "IfcStructuralSurfaceReactionDISCRETE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceReactionDISCRETE"
+msgstr "Onbeton"
+
+msgid "IfcStructuralSurfaceReactionDISCRETE_DEFINITION"
+msgstr "De lading is gespecificeerd als een reeks van discrete laadpunten."
+
+msgid "IfcStructuralSurfaceReactionISOCONTOUR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStructuralSurfaceReactionISOCONTOUR"
+msgstr "Isocontour"
+
+msgid "IfcStructuralSurfaceReactionISOCONTOUR_DEFINITION"
+msgstr "De lading is gespecificeerd in een reeks iso-curves (level sets), d.w.z. curves waarbij de laadwaarde constant is. Deze curves lopen vast op het laadverloop."
+

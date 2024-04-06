@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcRailDomain.pot\n"
+"X-Crowdin-File-ID: 182\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcRail"
+msgstr "Spoor"
+
+msgid "IfcRail_DEFINITION"
+msgstr "Een spoor is een overwegend lineair gebouwd element met een speciaal sectieprofiel. Het spoor is onderscheidend van de bouwstenen met vergelijkbare geometrische vormen (bijv. . - Laak, leed) De belangrijkste taak van het centrum is het sturen van voertuigen of andere machines."
+
+msgid "Qto_RailBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Spoor basishoeveelheid"
+
+msgid "Qto_RailBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van het spoor."
+
+msgid "IfcRailway"
+msgstr "Spoorweg"
+
+msgid "IfcRailway_DEFINITION"
+msgstr "Een [[IfcRailway]] is een ruimtelijke structuur-element als een route van de ene plaats naar de andere voor een begeleide doorgang van voertuigen op het spoor. Een [[IfcRailway]] fungeert als een basiselement van ruimtelijke ordening dat een spoorwegproject in hanteerbare onderdelen ondersteunt. nationaal of regionaal vervoerssysteem voor geleide doorvoer van wielvoertuigen op het spoor."
+
+msgid "IfcRailwayPart"
+msgstr "Spoorweg deel"
+
+msgid "IfcRailwayPart_DEFINITION"
+msgstr "Een deel van een spoorweg."
+
+msgid "IfcTrackElement"
+msgstr "Track element"
+
+msgid "IfcTrackElement_DEFINITION"
+msgstr "Een spoor element is een gebouwd element dat specifiek in het spoordomein wordt gebruikt in het spoor."
+
+msgid "IfcRailBLADE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailBLADE"
+msgstr "Zwaard"
+
+msgid "IfcRailBLADE_DEFINITION"
+msgstr "Een mes is een gemachineerd spoor, vaak van speciale afdelingen, maar met vaste en/of aangesloten aan het wiel om de continuïteit van de steun aan het wiel te waarborgen. De twee schakelrails in een set zitten de twee binnenrails. Een schakelspoor wordt beschreven als een rechter- of een linkerhand naargelang het deel uitmaakt van een rechterhand of een halfslachtige schakelaar. definitie van EN 13232-1-2004."
+
+msgid "IfcRailCHECKRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailCHECKRAIL"
+msgstr "Controleer Spoor"
+
+msgid "IfcRailCHECKRAIL_DEFINITION"
+msgstr "Een controlespoor is een spoor dicht bij de meter van een lopend spoor, dat deelneemt aan de laterale begeleiding van het wiel en voorkomt dat er ontsporingen plaatsvinden in kleine radius gebogen spoor en schakelt over en over de weg. definitie van EN 13481-1."
+
+msgid "IfcRailGUARDRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailGUARDRAIL"
+msgstr "Bewaker Spoor"
+
+msgid "IfcRailGUARDRAIL_DEFINITION"
+msgstr "Een bewakingsspoor is een spoor dat het risico op ontsporing van de trein beperkt, normaal gesproken niet geladen."
+
+msgid "IfcRailRACKRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailRACKRAIL"
+msgstr "Rack Spoor"
+
+msgid "IfcRailRACKRAIL_DEFINITION"
+msgstr "Een rack rail is een bouwmodule voor het verbeteren van tractie en gebroken prestaties."
+
+msgid "IfcRailRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailRAIL"
+msgstr "Spoor"
+
+msgid "IfcRailRAIL_DEFINITION"
+msgstr "Een spoor is een speciale sectiebalk (meestal staal) die zorgt voor de begeleiding van het wiel van een rollend materieel of andere zware machines. Op het spoor worden twee rails gecombineerd om een spoor te vormen."
+
+msgid "IfcRailSTOCKRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailSTOCKRAIL"
+msgstr "Standaard Spoor"
+
+msgid "IfcRailSTOCKRAIL_DEFINITION"
+msgstr "Een stock rail is een vast rail, dat zorgt voor de continuïteit op het hoofdspoor of divergerend spoor met de schakelaar in de open positie. Het gemachineerde deel van het spoor ondersteunt zijn schakelrails in de gesloten positie, wat continuïteit van de lijn door deze schakelrails geeft. De twee aandelenrails in een reeks schakelrails zijn de twee buitenrails. Een rails wordt beschreven als rechts of links met de hand op basis van de vraag of het deel uitmaakt van een rechterhand of van een linkerhand of van een halfvolle schakelaar. definitie van EN 13232-1-2004."
+
+msgid "IfcRailwayPartABOVETRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartABOVETRACK"
+msgstr "Boven track"
+
+msgid "IfcRailwayPartABOVETRACK_DEFINITION"
+msgstr "Een ruimtelijke structuurelement dat elementen bevat die boven of over het spoor zijn geplaatst, bijvoorbeeld catenaria's en ophangsystemen."
+
+msgid "IfcRailwayPartDILATIONTRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartDILATIONTRACK"
+msgstr "Dilation Track"
+
+msgid "IfcRailwayPartLINESIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartLINESIDE"
+msgstr "Lijn kant"
+
+msgid "IfcRailwayPartLINESIDE_DEFINITION"
+msgstr "Een ruimtelijke-structuurelement dat elementen van de spoorwegen bevat die niet binnen of over het spoor liggen, vandaar de lijnzijde."
+
+msgid "IfcRailwayPartLINESIDEPART_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartLINESIDEPART"
+msgstr "Lijn zijdeel"
+
+msgid "IfcRailwayPartLINESIDEPART_DEFINITION"
+msgstr "Een ruimtelijke structuurelement om een lijnzijdedeel verder te verdelen. Het kan worden gebruikt om onderdelen aan de lijn te onderscheiden in meer beheersbare volumes voor technische doeleinden."
+
+msgid "IfcRailwayPartPLAINTRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartPLAINTRACK"
+msgstr "Plaintrack"
+
+msgid "IfcRailwayPartPLAINTRACK_DEFINITION"
+msgstr "Een ruimtelijke structuur-element om een spoor verder te verdelen. Het bevat geen opkomstpaneel of loopplaatspaneel."
+
+msgid "IfcRailwayPartSUBSTRUCTURE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartSUBSTRUCTURE"
+msgstr "Sub structuur"
+
+msgid "IfcRailwayPartSUBSTRUCTURE_DEFINITION"
+msgstr "Een ruimtelijke-structuurelement dat elementen bevat die onder het spoor zijn geplaatst, bijvoorbeeld het aardwerkplatform, voorbereid subgrade- en bankfactuur. Dit kan boven of onder het voltooide grondniveau liggen."
+
+msgid "IfcRailwayPartTRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartTRACK"
+msgstr "Bijhouden"
+
+msgid "IfcRailwayPartTRACK_DEFINITION"
+msgstr "Een ruimtelijke structuurelement dat track-gerelateerde elementen bevat, bijvoorbeeld rails en mouwen."
+
+msgid "IfcRailwayPartTRACKPART_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartTRACKPART"
+msgstr "Trackpart"
+
+msgid "IfcRailwayPartTRACKPART_DEFINITION"
+msgstr "Een ruimtelijke structuurelement om verder te delen met een track,platte intrack, eindtrack, dilatation-track."
+
+msgid "IfcRailwayPartTURNOUTTRACK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailwayPartTURNOUTTRACK"
+msgstr "Draai Track"
+
+msgid "IfcRailwayPartTURNOUTTRACK_DEFINITION"
+msgstr "Een ruimtelijke structuur-element om een spoor verder te verdelen. Het bevat opkomstcijfers en bevat geen platte track of dilatatie paneel."
+
+msgid "IfcTrackElementBLOCKINGDEVICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementBLOCKINGDEVICE"
+msgstr "Blokkeer apparaat"
+
+msgid "IfcTrackElementBLOCKINGDEVICE_DEFINITION"
+msgstr "Een apparaat bestaande uit pneumatische, mechanische of elektrische componenten die het remmen van een trein in geval van nood veroorzaken."
+
+msgid "IfcTrackElementDERAILER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementDERAILER"
+msgstr "Derailer"
+
+msgid "IfcTrackElementDERAILER_DEFINITION"
+msgstr "Een vast apparaat dat, wanneer het op het spoor is geplaatst, de wielen van een voertuig ontspoort, en dient om een convergerende lijn te beschermen; definitie van IEC 60050-821."
+
+msgid "IfcTrackElementFROG_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementFROG"
+msgstr "Kikker"
+
+msgid "IfcTrackElementFROG_DEFINITION"
+msgstr "Een kikker is een regeling die ervoor zorgt dat twee randen van opkomst- of diamantovergangen en één doorgang van vee en twee wandelrails elkaar kruisen. definitie van EN 13232-1-2004."
+
+msgid "IfcTrackElementHALF_SET_OF_BLADES_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementHALF_SET_OF_BLADES"
+msgstr "Halve set van Bladen"
+
+msgid "IfcTrackElementHALF_SET_OF_BLADES_DEFINITION"
+msgstr "Een halve set vakken bestaat uit één aandelenspoor en het schakelspoor compleet met kleine fittings. Het is rechts of linker hand zoals gezien door een waarnemer in het midden van het spoor richting het schakelwiel van de schakelween. definitie van EN 13232-1-2004."
+
+msgid "IfcTrackElementSLEEPER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementSLEEPER"
+msgstr "Slaaper"
+
+msgid "IfcTrackElementSLEEPER_DEFINITION"
+msgstr "Een slaap is een track element dat lopende rails, bewakingsrails en controle van rails meestal aan de juiste hoeken van de as ondersteunt."
+
+msgid "IfcTrackElementSPEEDREGULATOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementSPEEDREGULATOR"
+msgstr "Snelheid Regelaar"
+
+msgid "IfcTrackElementSPEEDREGULATOR_DEFINITION"
+msgstr "Een apparaat bestaande uit pneumatische, mechanische of elektrische componenten waardoor een trein in geval van nood wordt onderbroken."
+
+msgid "IfcTrackElementTRACKENDOFALIGNMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementTRACKENDOFALIGNMENT"
+msgstr "Track einde van uitlijning"
+
+msgid "IfcTrackElementTRACKENDOFALIGNMENT_DEFINITION"
+msgstr "Een spoor einde van uitlijning is een speciale functionele installatie zoals het omschakelingspunt van de spoormeter of het vervoerderswagon laadpunt."
+
+msgid "IfcTrackElementVEHICLESTOP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcTrackElementVEHICLESTOP"
+msgstr "Voertuig Stop"
+
+msgid "IfcTrackElementVEHICLESTOP_DEFINITION"
+msgstr "Een vaste installatie aan het einde van het spoor dat elke bewegingen in het voertuig stopt (bijv. bufferstop, zand hump, enz.)."
+

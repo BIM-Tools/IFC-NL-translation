@@ -1,0 +1,2927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: 7478baf291faba855dd524435a261a19\n"
+"Report-Msgid-Bugs-To: bsdd_support@buildingsmart.org\n"
+"POT-Creation-Date: 2023-12-21 00:00\n"
+"X-Crowdin-SourceKey: msgstr\n"
+"Language-Team: Dutch\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: 7478baf291faba855dd524435a261a19\n"
+"X-Crowdin-Project-ID: 2\n"
+"X-Crowdin-Language: nl\n"
+"X-Crowdin-File: /master/pot/IfcSharedBldgElements.pot\n"
+"X-Crowdin-File-ID: 186\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: nl_NL\n"
+"PO-Revision-Date: 2024-04-05 11:37\n"
+
+msgid "IfcBeam"
+msgstr "Ligger"
+
+msgid "IfcBeam_DEFINITION"
+msgstr "Een [[IfcBeam]] is doorgaans een horizontaal of bijna horizontaal constructie onderdeel dat in staat is om belasting te weerstaan, voornamelijk doorbuiging. LoadBearing [true]. Vanuit architectonisch oogpunt bekeken behoeft het onderdeel niet te worden belast. LoadBearing [false]."
+
+msgid "Pset_BeamCommon"
+msgstr "Eigenschappen Set: Ligger Generiek"
+
+msgid "Pset_BeamCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen en type objecten van ligger."
+
+msgid "LoadBearing"
+msgstr "Dragend"
+
+msgid "LoadBearing_DEFINITION"
+msgstr "Geeft aan of het object bedoeld is om belast te worden (WAAR) of niet (ONWAAR)."
+
+msgid "Roll"
+msgstr "Straal"
+
+msgid "Roll_DEFINITION"
+msgstr "Staal rotatie tegen de longitudinale as."
+
+msgid "Slope"
+msgstr "Helling"
+
+msgid "Slope_DEFINITION"
+msgstr "[[Slope]] hoek - relatief ten opzichte van horizontaal (0,0 graden).De vorminformatie wordt gegeven als aanvulling op de vormrepresentatie en de geometrische parameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen, voorzien in de aangehechte eigenschap, hebben de geometrische parameters voorrang. Voor geometrische bewerkingstoepassingen moet deze waarde alleen schrijfbaar zijn."
+
+msgid "Span"
+msgstr "Overspanning"
+
+msgid "Span_DEFINITION"
+msgstr "Overspanning voor dit object.De vorminformatie wordt gegeven als aanvulling op de vormrepresentatie en de geometrische parameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen, voorzien in de aangehechte eigenschap, hebben de geometrische parameters voorrang. Voor geometrische bewerkingstoepassingen moet deze waarde alleen schrijfbaar zijn."
+
+msgid "ThermalTransmittance"
+msgstr "Warmtegeleiding"
+
+msgid "ThermalTransmittance_DEFINITION"
+msgstr "Warmtedoorgangscoëfficiënt (U-[[Value]]) van een element, in de richting van de thermische geleiding (inclusief alle materialen binnen het element)."
+
+msgid "Qto_BeamBaseQuantities"
+msgstr "Hoeveelheden Set: Ligger basishoeveelheden"
+
+msgid "Qto_BeamBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomende liggers."
+
+msgid "Pset_ConcreteElementGeneral"
+msgstr "Eigenschappen Set: algemeen beton-element"
+
+msgid "Pset_ConcreteElementGeneral_DEFINITION"
+msgstr "Algemene eigenschappen die gemeenschappelijk zijn voor verschillende soorten betonnen elementen, met inbegrip van versterkte betonnen elementen. De propertyset kan gebruikt worden door een aantal subtypes van [[IfcBuiltElement]], geeft aan dat dit element is ontworpen of gebouwd met een beton skelet."
+
+msgid "CastingMethod"
+msgstr "Bekisting methode"
+
+msgid "CastingMethod_DEFINITION"
+msgstr "De mal om het beton in zijn ontworpen vorm te gieten."
+
+msgid "CastingMethod_INSITU"
+msgstr "In situ"
+
+msgid "CastingMethod_PRECAST"
+msgstr "Prefab"
+
+msgid "CastingMethod_PRINTED"
+msgstr "Printen"
+
+msgid "CastingMethod_MIXED"
+msgstr "Gemixt"
+
+msgid "CastingMethod_OTHER"
+msgstr "anders"
+
+msgid "CastingMethod_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "CastingMethod_UNSET"
+msgstr "Ontkisten"
+
+msgid "ConcreteCover"
+msgstr "Betondekking"
+
+msgid "ConcreteCover_DEFINITION"
+msgstr "De beschermende betondekking op de wapening staven volgens de lokale bouwvoorschriften."
+
+msgid "ConcreteCoverAtLinks"
+msgstr "Betondekking op de beugels"
+
+msgid "ConcreteCoverAtLinks_DEFINITION"
+msgstr "De beschermende betondekking op de beugels volgens de lokale bouwvoorschriften."
+
+msgid "ConcreteCoverAtMainBars"
+msgstr "Betondekking op de hoofdwapening"
+
+msgid "ConcreteCoverAtMainBars_DEFINITION"
+msgstr "De betondekking op de hoofdwapening volgens de lokale bouwvoorschriften."
+
+msgid "ConstructionToleranceClass"
+msgstr "Maatafwijkingsklasse"
+
+msgid "ConstructionToleranceClass_DEFINITION"
+msgstr "De classificatie van de bouwtoleranties in het werk volgens lokale normen."
+
+msgid "DimensionalAccuracyClass"
+msgstr "Dimensionale nauwkeurigheid klasse"
+
+msgid "DimensionalAccuracyClass_DEFINITION"
+msgstr "Classificatie-aanduiding van de dimensionale nauwkeurigheid volgens lokale normen."
+
+msgid "ExposureClass"
+msgstr "Blootstelling klasse"
+
+msgid "ExposureClass_DEFINITION"
+msgstr "Classificatie van de blootstelling aan milieuvoorwaarden, meestal gespecificeerd in overeenstemming met de betonnen ontwerpcode die in het project wordt toegepast."
+
+msgid "ReinforcementAreaRatio"
+msgstr "Versterkingsgebied Verhouding"
+
+msgid "ReinforcementAreaRatio_DEFINITION"
+msgstr "De vereiste verhouding van het effectieve gebied van de versterking tot het effectieve gebied van het beton op elk onderdeel van een versterkt concreet structureel element."
+
+msgid "ReinforcementStrengthClass"
+msgstr "Versterking Kracht Klasse"
+
+msgid "ReinforcementStrengthClass_DEFINITION"
+msgstr "Classificatie van de versterkingskracht in overeenstemming met de betonnen ontwerpcode die in het project wordt toegepast. De klasse met versterkingskracht combineert vaak kracht en kanaal."
+
+msgid "ReinforcementVolumeRatio"
+msgstr "Versterking Volume Verhouding"
+
+msgid "ReinforcementVolumeRatio_DEFINITION"
+msgstr "De vereiste verhouding van de effectieve massa van de versterking van het effectieve volume van het beton van een versterkt concreet element."
+
+msgid "StrengthClass"
+msgstr "Sterkteklasse"
+
+msgid "StrengthClass_DEFINITION"
+msgstr "De classificatie van de betonnen sterkte in overeenstemming met de concrete ontwerpcode die in het project wordt toegepast."
+
+msgid "StructuralClass"
+msgstr "Structurele Klasse"
+
+msgid "StructuralClass_DEFINITION"
+msgstr "De structurele klasse gedefinieerd voor de betonstructuur (bijv. '1')."
+
+msgid "Pset_PrecastConcreteElementFabrication"
+msgstr "Eigenschappen Set: Prefab Beton Element Productie"
+
+msgid "Pset_PrecastConcreteElementFabrication_DEFINITION"
+msgstr "Productie- en fabricagegebonden eigenschappen die gemeenschappelijk zijn voor verschillende soorten prefab betonelementen. De Pset is van toepassing op geproduceerde onderdelen. Deze kan worden gebruikt door een aantal subtypes van [[IfcBuiltElement]]. Als het prefab betonelement"
+
+msgid "ActualErectionDate"
+msgstr "Werkelijke bouwdatum"
+
+msgid "ActualErectionDate_DEFINITION"
+msgstr "Datum uitgezet."
+
+msgid "ActualProductionDate"
+msgstr "Huidige productiedatum"
+
+msgid "ActualProductionDate_DEFINITION"
+msgstr "Productiedatum (afgebroken van formulier)."
+
+msgid "AsBuiltLocationNumber"
+msgstr "Zoals gebouwd locatienummer"
+
+msgid "AsBuiltLocationNumber_DEFINITION"
+msgstr "Definieert een unieke locatie in een gebouw, het slot waarin het stuk is geïnstalleerd. Waar stukjes hetzelfde punt delen, kunnen ze worden geïntervenieerd. De waarde is alleen bekend na het bouwen."
+
+msgid "PieceMark"
+msgstr "Stuk markering"
+
+msgid "PieceMark_DEFINITION"
+msgstr "Definieert een uniek stuk voor productiedoeleinden. Alle stukken met dezelfde merkwaarde zijn identiek en verwisselbaar. Het stukcijfer kan bestaan uit deelonderdelen met specifieke lokaal gedefinieerde betekenis (bijv. . B-1A kan een straal van algemeen type 1 en specifieke vorm A tekenen."
+
+msgid "ProductionLotId"
+msgstr "Productie Lot ID"
+
+msgid "ProductionLotId_DEFINITION"
+msgstr "De fabrikant produceert zich veel identifier."
+
+msgid "Pset_PrecastConcreteElementGeneral"
+msgstr "Eigenschapsset: Voorkeursverband element generaal"
+
+msgid "Pset_PrecastConcreteElementGeneral_DEFINITION"
+msgstr "Productie en productie gerelateerde eigenschappen die gemeenschappelijk zijn met verschillende soorten voorafgaandelijke betonnen elementen. De set kan gebruikt worden door een aantal subtypes van [[IfcBuiltElement]]. Als het precast beton element een sandwich wandpaneel is, kan elke structurele laag of granaat vertegenwoordigd door een [[IfcBuildingElementPart]] aan een aparte set van dit type worden gekoppeld, indien nodig. Sommige van de eigenschappen gelden alleen voor specifieke soorten precast betonnen elementen."
+
+msgid "BatterAtEnd"
+msgstr "Batter aan het einde"
+
+msgid "BatterAtEnd_DEFINITION"
+msgstr "De hoek, in radialen, waarmee het formele werk op het eindgezicht van een stuk van de verticale rotatie moet worden gerangschikt om de rotatie te compenseren van het gezicht dat zal optreden zodra het stuk uit de vorm is gehaald. inducerende kameber als gevolg van excentriek van prestress."
+
+msgid "BatterAtStart"
+msgstr "Batter bij start"
+
+msgid "BatterAtStart_DEFINITION"
+msgstr "De hoek, in radialen, waarmee het formele werk op het startgezicht van een stuk van de verticale rotatie moet worden gerangschikt om de rotatie te compenseren van het gezicht dat zal optreden zodra het stuk uit de vorm is gehaald. inducerende kameber als gevolg van excentriek van prestress."
+
+msgid "CamberAtMidspan"
+msgstr "Kamber bij Midspan"
+
+msgid "CamberAtMidspan_DEFINITION"
+msgstr "De kammendoorbuiging, gemeten vanaf het midden van een gekammeerd gezicht van een stuk tot het midden van het deel van de staf aan de uiteinden van hetzelfde gezicht. gedeeld door de originele (nominaal) rechte lengte van het gelaat van het stuk."
+
+msgid "CornerChamfer"
+msgstr "Hoek afschuining"
+
+msgid "CornerChamfer_DEFINITION"
+msgstr "De kamer in de hoeken van het eerste element. De kamer wordt geacht in beide richtingen gelijk te zijn."
+
+msgid "DesignLocationNumber"
+msgstr "Ontwerp Locatie Nummer"
+
+msgid "DesignLocationNumber_DEFINITION"
+msgstr "Definieert een unieke locatie in een structuur, het slot waarvoor het stuk is ontworpen."
+
+msgid "FormStrippingStrength"
+msgstr "Formulier Strip Ping Kracht"
+
+msgid "FormStrippingStrength_DEFINITION"
+msgstr "De minimaal vereiste compressieve sterkte van het beton op formulierstriptijd."
+
+msgid "HollowCorePlugging"
+msgstr "Hollow Core Plug Ging"
+
+msgid "HollowCorePlugging_DEFINITION"
+msgstr "ze kunnen open worden gelaten, gesloten met een stekker of verzegeld met cast beton. Waarden zouden zijn,'Unplugged', 'SealedWithConcrete'. Deze eigenschap is alleen van toepassing op holle core labs."
+
+msgid "InitialTension"
+msgstr "Initiële spanning"
+
+msgid "InitialTension_DEFINITION"
+msgstr "De aanvankelijke nadruk op de tendon, dit eigendom heeft alleen betrekking op vooraf benadrukte concrete elementen."
+
+msgid "LiftingStrength"
+msgstr "Lifting Kracht"
+
+msgid "LiftingStrength_DEFINITION"
+msgstr "De minimaal vereiste compressieve sterkte van het beton wanneer het betonelement wordt verwijderd."
+
+msgid "ManufacturingToleranceClass"
+msgstr "Productie Tolerance Klasse"
+
+msgid "ManufacturingToleranceClass_DEFINITION"
+msgstr "De classificatie van de productieredenen voldoet aan lokale normen."
+
+msgid "MinimumAllowableSupportLength"
+msgstr "Minimale ondersteuningslengte"
+
+msgid "MinimumAllowableSupportLength_DEFINITION"
+msgstr "De minimale lengte van de toegestane ondersteuning."
+
+msgid "ReleaseStrength"
+msgstr "Release Sterkte"
+
+msgid "ReleaseStrength_DEFINITION"
+msgstr "De minimaal vereiste compressieve sterkte van het beton wanneer de tendon stress wordt vrijgegeven. Deze eigenschap heeft alleen betrekking op vooraf gestresste concrete elementen."
+
+msgid "Shortening"
+msgstr "Verkorting"
+
+msgid "Shortening_DEFINITION"
+msgstr "De verhouding van de afstand waarmee een precast stuk wordt ingekort nadat het is vrijgegeven (door compressie geïnduceerd door prestressing) naar de oorspronkelijke (nominale) lengte."
+
+msgid "SupportDuringTransportDescription"
+msgstr "Ondersteuning tijdens vervoersbeschrijving"
+
+msgid "SupportDuringTransportDescription_DEFINITION"
+msgstr "Tekstuele beschrijving van hoe het betonelement tijdens het vervoer wordt ondersteund."
+
+msgid "SupportDuringTransportDocReference"
+msgstr "Ondersteuning tijdens het vervoer Doc Referentie"
+
+msgid "SupportDuringTransportDocReference_DEFINITION"
+msgstr "Verwijzing naar een extern document waarin wordt beschreven hoe het concrete element tijdens het vervoer wordt ondersteund."
+
+msgid "SupportDuringTransportDocReference_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcExternalReference. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TendonRelaxation"
+msgstr "Tendon Relaxatie"
+
+msgid "TendonRelaxation_DEFINITION"
+msgstr "De maximaal toegestane ontspanning van de tendon (meestal uitgedrukt als %/[[1000]] h).Deze eigenschap geldt alleen voor vooraf gestresste concrete elementen."
+
+msgid "TransportationStrength"
+msgstr "Transportatie Kracht"
+
+msgid "TransportationStrength_DEFINITION"
+msgstr "De minimaal vereiste compressieve sterkte van het beton dat nodig is voor vervoer."
+
+msgid "Twisting"
+msgstr "Wisselen"
+
+msgid "Twisting_DEFINITION"
+msgstr "De hoek, in radialen, waarmee het eindgezicht van een voorstuk wordt gedraaid met betrekking tot het startgezicht, langs zijn longitudinale as, als gevolg van niet-gebonden supporten. Deze maatregel wordt ook de oorlogszuchtige hoek genoemd."
+
+msgid "Pset_ReinforcementBarPitchOfBeam"
+msgstr "Eigenschapsset: Versterkingsbalk Pitch van Beam"
+
+msgid "Pset_ReinforcementBarPitchOfBeam_DEFINITION"
+msgstr "Informatie over de toonhoogte van versterking balk met de balk."
+
+msgid "SpacingBarPitch"
+msgstr "Afstand Bar Pitch"
+
+msgid "SpacingBarPitch_DEFINITION"
+msgstr "De toonhoogte van de spatiebalk."
+
+msgid "StirrupBarPitch"
+msgstr "Stirrup Bar Pitch"
+
+msgid "StirrupBarPitch_DEFINITION"
+msgstr "De toonhoogte van de stirrupbalk."
+
+msgid "IfcBearing"
+msgstr "Dragend"
+
+msgid "IfcBearing_DEFINITION"
+msgstr "[[Type]] bouwelement dat meestal wordt gebruikt voor het verzenden van lasten van superstructuur naar substructuur. en meestal staat u beweging (verdrijving of rotatie) toe in één of meer graden van vrijheid. Het is meestal een mechanische component die als geheel is aangeleverd en op de locatie is geïnstalleerd. maar in eenvoudige gevallen kan het op de site worden gebouwd (bestaande uit andere gebouwen, element componenten, enz.)."
+
+msgid "Pset_BearingCommon"
+msgstr "Eigenschapsset: Richting Gemeenschappelijk"
+
+msgid "Pset_BearingCommon_DEFINITION"
+msgstr "Gemeenschappelijke eigenschappen van [[IfcBearing]]."
+
+msgid "DisplacementAccommodated"
+msgstr "Dis Plaatsing Accommodated"
+
+msgid "DisplacementAccommodated_DEFINITION"
+msgstr "Een lijst met precies drie booleaanse waarden die een accommodatie verplaatsing vertegenwoordigen (waarde TRUE of 1) of geen verplaatsing (waarde waarde FALSE of 0) op de corresponderende as waar de eerste waarde staat voor de as X, as Y- en derde waarde as Z van de tweede waarde."
+
+msgid "RotationAccommodated"
+msgstr "Rotatie Accommodated"
+
+msgid "RotationAccommodated_DEFINITION"
+msgstr "Een lijst met precies drie booleaanse waarden die een accommodatie weergeven (waarde WAAR of 1) of geen rotatie (waarde FALSE of 0) over de corresponderende as waar de eerste waarde de as X vertegenwoordigt, as Y- en derde waarde as Z van de tweede waarde."
+
+msgid "IfcBuildingElementProxy"
+msgstr "Element Proxy Bouwen"
+
+msgid "IfcBuildingElementProxy_DEFINITION"
+msgstr "De [[IfcBuildingElementProxy]] is een proxydefinitie die dezelfde functionaliteit biedt als subtypes van [[IfcBuiltElement]], zonder een vooraf gedefinieerde betekenis te hebben voor het speciale type gebouw dat het vertegenwoordigt."
+
+msgid "Pset_BuildingElementProxyCommon"
+msgstr "Eigenschap set: Gebouw element Proxy"
+
+msgid "Pset_BuildingElementProxyCommon_DEFINITION"
+msgstr "Veelvoorkomende eigenschappen voor ingebouwde elementen die geen specifieke entiteitnaam hebben."
+
+msgid "Qto_BuildingElementProxyQuantities"
+msgstr "Hoeveelheid set: Inbouw element Proxy hoeveelheid"
+
+msgid "Qto_BuildingElementProxyQuantities_DEFINITION"
+msgstr "Hoeveelheid ingesteld voor Gebouw element Proxie."
+
+msgid "IfcChimney"
+msgstr "Schoorsteen"
+
+msgid "IfcChimney_DEFINITION"
+msgstr "Chimneys zijn doorgaans verticaal, of zelfs dicht bij verticaal, delen van het gebouw en een deel van de bouwstof. Vaak gemaakt door beton vooraf of insitu, tegenwoordig zelden door bakstenen. Chimneys worden gebruikt om vloeistoffen te evacueren van bijvoorbeeld ketels of brandplekken."
+
+msgid "Pset_ChimneyCommon"
+msgstr "Eigenschapsset: Schoorsteen Gemeenschappelijk"
+
+msgid "Pset_ChimneyCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen en type objecten van schoorvoeten."
+
+msgid "NumberOfDrafts"
+msgstr "Aantal concepten S"
+
+msgid "NumberOfDrafts_DEFINITION"
+msgstr "Aantal schoorteksten, voortdurende gaten in de schoorsteen waar de lucht doorheen gaat, binnen de schoorsteen."
+
+msgid "Qto_ChimneyBaseQuantities"
+msgstr "Hoeveelheid Set: Chimney Base Hoeveelheid"
+
+msgid "Qto_ChimneyBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van schoorvoeten."
+
+msgid "IfcColumn"
+msgstr "Kolom"
+
+msgid "IfcColumn_DEFINITION"
+msgstr "Een [[IfcColumn]] is een verticaal structureel of architectonisch lid dat vaak is afgestemd op een structurele raster kruising. In de meeste gevallen vertegenwoordigt het een verticaal, of bijna verticaal, structureel lid dat zendt, door compressie, het gewicht van de structuur boven op andere structurele elementen hieronder. Het kan ook een dergelijk lid vertegenwoordigen vanuit architectonisch oogpunt en in dat geval kan het een element van niet te belasten zijn. Of het een structureel draagpuntelement is of een niet laaddragend element wordt bepaald door de [[Pset_ColumnCommon]].[[LoadBearing]] eigenschappen."
+
+msgid "Pset_ColumnCommon"
+msgstr "Eigenschappenset: Kolom Generiek"
+
+msgid "Pset_ColumnCommon_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van kolom."
+
+msgid "Qto_ColumnBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Kolombasishoeveelheden"
+
+msgid "Qto_ColumnBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomende kolommen."
+
+msgid "Pset_ReinforcementBarPitchOfColumn"
+msgstr "Eigenschapsset: Versterkingsbalk van kolom"
+
+msgid "Pset_ReinforcementBarPitchOfColumn_DEFINITION"
+msgstr "De pitch length informatie van versterking balk met de kolom. De X en Y-richting zijn gebaseerd op het lokale coördinaatsysteem van bouw opslag. De X-en Y-richting van de versterkingsbalk zijn parallel met de X-en Y-as van het [[IfcBuildingStorey]]-lokale coördinatensysteem. respectievelijk."
+
+msgid "HoopBarPitch"
+msgstr "Hoop Bar Pitch"
+
+msgid "HoopBarPitch_DEFINITION"
+msgstr "De pitch lengte van de hoop balk."
+
+msgid "ReinforcementBarType"
+msgstr "Versterking Balk Type"
+
+msgid "ReinforcementBarType_DEFINITION"
+msgstr "Definieert het type versterking balk."
+
+msgid "ReinforcementBarType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "ReinforcementBarType_OTHER"
+msgstr "Overig"
+
+msgid "ReinforcementBarType_RING"
+msgstr "Beltoon"
+
+msgid "ReinforcementBarType_SPIRAL"
+msgstr "Spiraal"
+
+msgid "ReinforcementBarType_USERDEFINED"
+msgstr "Gebruiker gedefinieerd"
+
+msgid "XDirectionTieHoopBarPitch"
+msgstr "Xdirection Tie Hoop Bar Pitch"
+
+msgid "XDirectionTieHoopBarPitch_DEFINITION"
+msgstr "De X-richting pitch van de stropdas."
+
+msgid "XDirectionTieHoopCount"
+msgstr "Xdirection TIE Hoop Count"
+
+msgid "XDirectionTieHoopCount_DEFINITION"
+msgstr "Het aantal balken met X richtings-eindstreepjes."
+
+msgid "YDirectionTieHoopBarPitch"
+msgstr "Ydirection Tie Hoop Bar Pitch"
+
+msgid "YDirectionTieHoopBarPitch_DEFINITION"
+msgstr "De lengte van de hoep van de das is de Y-richting."
+
+msgid "YDirectionTieHoopCount"
+msgstr "Ydirection Teken Hoop Count"
+
+msgid "YDirectionTieHoopCount_DEFINITION"
+msgstr "Het aantal balken met Y-richting eindstreepjes."
+
+msgid "IfcCovering"
+msgstr "Afdekkingen"
+
+msgid "IfcCovering_DEFINITION"
+msgstr "Een deksel is een onderdeel van een ander element en is volledig afhankelijk van dat andere element. De [[IfcCovering]] definieert de aanwezigheid van een dekkingstype, die (indien gegeven) is uitgedrukt door het IfcCoveringType."
+
+msgid "Pset_CoveringCommon"
+msgstr "Eigenschappen Set: Afdekking Gemeenschappelijk"
+
+msgid "Pset_CoveringCommon_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn aan de definitie van alle voorvallen en type objecten van dekking"
+
+msgid "Combustible"
+msgstr "Combustible"
+
+msgid "Combustible_DEFINITION"
+msgstr "Geef aan of het object is gemaakt van brandbaar materiaal (WAAR ) of niet (FALSE)."
+
+msgid "Finish"
+msgstr "Beëindigen"
+
+msgid "Finish_DEFINITION"
+msgstr "[[Description]] van de (oppervlakte) afwerking van het object voor informatieve doeleinden."
+
+msgid "FlammabilityRating"
+msgstr "Vlambaarheid beoordeling"
+
+msgid "FlammabilityRating_DEFINITION"
+msgstr "Brandbaarheid beoordeling voor dit object. Het wordt gegeven volgens de nationale bouwcode die de beoordeling van vlambaarheid voor materialen regelt."
+
+msgid "FragilityRating"
+msgstr "Fragility Rating"
+
+msgid "FragilityRating_DEFINITION"
+msgstr "Indicatie op de kwetsbaarheid van de bedekking (bijv. onder brandomstandigheden). Deze wordt gegeven volgens de nationale bouwcode die een classificatie voor kwetsbaarheid zou kunnen bevatten."
+
+msgid "SurfaceSpreadOfFlame"
+msgstr "Oppervlakte spreiding van Vlam"
+
+msgid "SurfaceSpreadOfFlame_DEFINITION"
+msgstr "Geef aan hoe de vlammen zich verspreiden over het oppervlakte,; het wordt gegeven volgens de code van het nationale gebouw die het brandgedrag van materialen regelt."
+
+msgid "Pset_Tiling"
+msgstr "Eigenschap set: Knoppen"
+
+msgid "Pset_Tiling_DEFINITION"
+msgstr "Eigenschappen van tegels."
+
+msgid "Permeability"
+msgstr "Volrecht"
+
+msgid "Permeability_DEFINITION"
+msgstr "Verhouding van de doorlaatbaarheid van het plafond. Het rantsoen kan worden gebruikt om een open plafond aan te geven (dat maakt het mogelijk om vast te stellen of plafondbouw moet worden beschouwd als een belemmering voor de distributie van sproeiwater licht etc. van installaties binnen het plafondgebied)."
+
+msgid "TileLength"
+msgstr "Tegel Lengte"
+
+msgid "TileLength_DEFINITION"
+msgstr "[[Length]] van plafondtegels. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "TileWidth"
+msgstr "Tile Width"
+
+msgid "TileWidth_DEFINITION"
+msgstr "[[Width]] van plafondtegels. De informatie over de grootte wordt verstrekt naast de vorm en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de grootte van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "Qto_CoveringBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Omslag basishoeveelheden"
+
+msgid "Qto_CoveringBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van bedekkingen toegepast op ruimten."
+
+msgid "NetArea"
+msgstr "Netto Gebied"
+
+msgid "NetArea_DEFINITION"
+msgstr "Totale netto gebied van het object. Openingen, recessen en cut-outs worden meegenomen bij aftrekking, projecties per toevoeging."
+
+msgid "IfcCurtainWall"
+msgstr "Gordijn Muur"
+
+msgid "IfcCurtainWall_DEFINITION"
+msgstr "Een gordijn is een muur van een gebouw dat een assemblee van componenten is, hing aan de rand van de vloer/dakstructuur in plaats van op de vloer. Gordijnmuur is aangeduid als een bouwelement assemblage en geïmplementeerd als een subtype van [[IfcBuiltElement]] dat een IfcRelAggregates relatie gebruikt. Een gordijnmuur is vaak extern, maar het gebruik van [[Pset_CurtainWallCommon]].[[IsExternal]] kan worden gebruikt om de muur van het binnenste gordijn te definiëren."
+
+msgid "Pset_CurtainWallCommon"
+msgstr "Eigenschappen Set: Vliesgevel Gemeenschappelijk"
+
+msgid "Pset_CurtainWallCommon_DEFINITION"
+msgstr "Eigenschappen die generiek zijn voor de definitie van alle voorvallen van [[IfcCurtainWall]]."
+
+msgid "Qto_CurtainWallQuantities"
+msgstr "Aantal set: Gordijn Muur Hoeveelheid"
+
+msgid "Qto_CurtainWallQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van gordijnmuren."
+
+msgid "GrossSideArea"
+msgstr "Bruto Zijkant gebied"
+
+msgid "GrossSideArea_DEFINITION"
+msgstr "[[Area]] van de muur zoals bekeken door een hoogtebeeld van het middelste vlak van de muur. Er wordt geen rekening gehouden met muurwijzigingen (zoals openingen)."
+
+msgid "NetSideArea"
+msgstr "Net Side Area"
+
+msgid "NetSideArea_DEFINITION"
+msgstr "[[Area]] van het object zoals bekeken door een hoogtebeeld van het middelste vlak van het object. Alle wijzigingen in het object (zoals openingen) worden erin meegenomen."
+
+msgid "IfcDoor"
+msgstr "Deur"
+
+msgid "IfcDoor_DEFINITION"
+msgstr "De deur is een bouwsteen die overwegend wordt gebruikt om een gecontroleerde toegang te bieden aan mensen, goederen, dieren en voertuigen. Het omvat constructies met scharnierende, draaiende, schuivende en vouwende werking."
+
+msgid "Pset_DoorLiningProperties"
+msgstr "Eigenschapsset: Deur Ling Eigenschappen"
+
+msgid "Pset_DoorLiningProperties_DEFINITION"
+msgstr "Eigenschappen van de deurvoering."
+
+msgid "CasingDepth"
+msgstr "Casing diepte"
+
+msgid "CasingDepth_DEFINITION"
+msgstr "[[Depth]] van de behuizing."
+
+msgid "CasingThickness"
+msgstr "Casing Dikte"
+
+msgid "CasingThickness_DEFINITION"
+msgstr "[[Thickness]] van de behuizing."
+
+msgid "LiningDepth"
+msgstr "Voering diepte"
+
+msgid "LiningDepth_DEFINITION"
+msgstr "De diepte van de voering."
+
+msgid "LiningOffset"
+msgstr "Voering uit set"
+
+msgid "LiningOffset_DEFINITION"
+msgstr "Offset van de voering."
+
+msgid "LiningThickness"
+msgstr "Dikte Voering"
+
+msgid "LiningThickness_DEFINITION"
+msgstr "[[Thickness]] van de voering."
+
+msgid "LiningToPanelOffsetX"
+msgstr "Eten naar Paneel Uit Set X"
+
+msgid "LiningToPanelOffsetX_DEFINITION"
+msgstr "Verschuiving tussen de voering en het paneel, gemeten langs de x-as van de lokale plaatsing."
+
+msgid "LiningToPanelOffsetY"
+msgstr "Voering naar Paneel Uit Set Y"
+
+msgid "LiningToPanelOffsetY_DEFINITION"
+msgstr "Offset tussen de voering en het paneel, gemeten langs de y-as van de lokale plaatsing."
+
+msgid "ThresholdDepth"
+msgstr "Drempel diepte"
+
+msgid "ThresholdDepth_DEFINITION"
+msgstr "[[Depth]] (afmeting van de deurbladeren door het vliegtuig) van de deurgrens. Alleen gegeven als de deurvoering een drempelwaarde bevat. Indien weggelaten (en met een bepaalde waarde aan de drempeldikte) geeft dit een aanpasbare diepte aan (d.w.z. een diepte die zich aanpast aan de dikte van de muur waarin het voorkomen van deze deurstijl wordt ingevoegd)."
+
+msgid "ThresholdOffset"
+msgstr "Drempelwaarde uit Set"
+
+msgid "ThresholdOffset_DEFINITION"
+msgstr "Offset (afmeting in vliegtuig loodrecht op deurblad) van de deurgrens. De offset wordt gegeven als afstand tot de x-as van de lokale plaatsing. Alleen gegeven als de deurvoering een drempelwaarde bevat en de parameter bekend is."
+
+msgid "ThresholdThickness"
+msgstr "Dikte dikte"
+
+msgid "ThresholdThickness_DEFINITION"
+msgstr ". Als [[ThresholdThickness]] waarde 0 is. (nul) het geeft een deur zonder drempelwaarde ([[ThresholdDepth]] wordt in dit geval op NIL gezet). Als de [[ThresholdThickness]] NIL is, geeft het aan dat de informatie over een drempel niet beschikbaar is."
+
+msgid "TransomOffset"
+msgstr "Transom uitgeschakeld"
+
+msgid "TransomOffset_DEFINITION"
+msgstr "Offset van de transom (indien gegeven) die het deurblad van een glazen (of raam verdeelt hierboven. De offset wordt gegeven vanaf de onderkant van de deuropening."
+
+msgid "TransomThickness"
+msgstr "Dikte transom"
+
+msgid "TransomThickness_DEFINITION"
+msgstr "[[Thickness]] van de transom."
+
+msgid "Pset_DoorPanelProperties"
+msgstr "Eigenschapsset: Deur Paneel Eigenschappen"
+
+msgid "Pset_DoorPanelProperties_DEFINITION"
+msgstr "Eigenschappen van het deurpaneel."
+
+msgid "PanelDepth"
+msgstr "Paneel diepte"
+
+msgid "PanelDepth_DEFINITION"
+msgstr "[[Depth]] van het paneel."
+
+msgid "PanelOperation"
+msgstr "Paneel Bewerking"
+
+msgid "PanelOperation_DEFINITION"
+msgstr "Het functioneren van een panel."
+
+msgid "PanelOperation_DOUBLE_ACTING"
+msgstr "Dubbele werking"
+
+msgid "PanelOperation_FIXEDPANEL"
+msgstr "Vast paneel"
+
+msgid "PanelOperation_FOLDING"
+msgstr "Vouw"
+
+msgid "PanelOperation_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "PanelOperation_REVOLVING"
+msgstr "Rvolueren"
+
+msgid "PanelOperation_ROLLINGUP"
+msgstr "Rollingup"
+
+msgid "PanelOperation_SLIDING"
+msgstr "Schuiven"
+
+msgid "PanelOperation_SWINGING"
+msgstr "Zwingend"
+
+msgid "PanelOperation_OTHER"
+msgstr "anders"
+
+msgid "PanelOperation_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "PanelOperation_UNSET"
+msgstr "Uitzetten"
+
+msgid "PanelPosition"
+msgstr "Positie paneel"
+
+msgid "PanelPosition_DEFINITION"
+msgstr "Positie van het paneel."
+
+msgid "PanelPosition_LEFT"
+msgstr "Linkerkant"
+
+msgid "PanelPosition_MIDDLE"
+msgstr "Midden"
+
+msgid "PanelPosition_RIGHT"
+msgstr "Rechterkant"
+
+msgid "PanelPosition_OTHER"
+msgstr "anders"
+
+msgid "PanelPosition_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "PanelPosition_UNSET"
+msgstr "Uitzetten"
+
+msgid "PanelWidth"
+msgstr "Paneel Breedte"
+
+msgid "PanelWidth_DEFINITION"
+msgstr "[[Width]] van het paneel."
+
+msgid "Pset_PermeableCoveringProperties"
+msgstr "Eigenschapsset: Permeable Covering eigenschappen"
+
+msgid "Pset_PermeableCoveringProperties_DEFINITION"
+msgstr "Eigenschappen van de doorlatende dekking."
+
+msgid "OperationType"
+msgstr "Type bewerking"
+
+msgid "OperationType_DEFINITION"
+msgstr "[[Type]] van de verrichtingen. Ook gebruikt om standaard symbolische presentaties toe te kennen in overeenstemming met nationale bouwnormen."
+
+msgid "OperationType_GRILL"
+msgstr "Grill"
+
+msgid "OperationType_LOUVER"
+msgstr "Louver"
+
+msgid "OperationType_SCREEN"
+msgstr "Scherm"
+
+msgid "OperationType_OTHER"
+msgstr "anders"
+
+msgid "OperationType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "OperationType_UNSET"
+msgstr "Uitzetten"
+
+msgid "Pset_DoorCommon"
+msgstr "Eigenschappen Set: Deur Gemeenschappelijk"
+
+msgid "Pset_DoorCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van voorkomende gevallen van [[IfcDoor]]."
+
+msgid "DurabilityRating"
+msgstr "Duurzaamheid Rating"
+
+msgid "DurabilityRating_DEFINITION"
+msgstr "Duurzaamheid tegen mechanische stress, die wordt gegeven volgens de nationale code of regelgeving."
+
+msgid "GlazingAreaFraction"
+msgstr "Glazerig gebied gedeelte"
+
+msgid "GlazingAreaFraction_DEFINITION"
+msgstr "Breuk van het glazingsgebied ten opzichte van het totale gebied van het vulelement. Het wordt gebruikt als het glazingsgebied niet voor alle panelen apart wordt aangereikt."
+
+msgid "HasDrive"
+msgstr "Heeft Drive"
+
+msgid "HasDrive_DEFINITION"
+msgstr "Geef aan of dit object een automatische schijf heeft om het te bedienen (TRUE) of geen schijf (FALSE)"
+
+msgid "HygrothermalRating"
+msgstr "Hygrothermische Rating"
+
+msgid "HygrothermalRating_DEFINITION"
+msgstr "Weerstand tegen hygrothermische gevolgen van verschillende temperaturen en vochtigheden binnen en buiten. Het wordt gegeven volgens de nationale code of regelgeving."
+
+msgid "Infiltration"
+msgstr "Infiltratie"
+
+msgid "Infiltration_DEFINITION"
+msgstr "[[Infiltration]] stroomsnelheid van de buitenlucht voor het vuller object gebaseerd op het gebied van het vuller object op een drukniveau van 50 Pascals. Het zal gebruikt worden als de lengte van alle gewrichten onbekend is."
+
+msgid "MechanicalLoadRating"
+msgstr "Mechanische ladingsbeoordeling"
+
+msgid "MechanicalLoadRating_DEFINITION"
+msgstr "Mechanische lastbeoordeling voor dit object.; Het wordt verstrekt volgens de nationale bouwcode."
+
+msgid "SecurityRating"
+msgstr "Waardering beveiliging"
+
+msgid "SecurityRating_DEFINITION"
+msgstr "Index gebaseerd rating systeem geeft beveiligingsniveau aan.; het is gegeven volgens de nationale bouwcode."
+
+msgid "SelfClosing"
+msgstr "Zelf sluiten"
+
+msgid "SelfClosing_DEFINITION"
+msgstr "Geef aan of dit object is ontworpen om automatisch te sluiten na gebruik (TRUE) of niet (FALSE)."
+
+msgid "SmokeStop"
+msgstr "Stop met rook"
+
+msgid "SmokeStop_DEFINITION"
+msgstr "Geef aan of het object is ontworpen om een rookstop te geven (WAAR ) of niet (FALSE)."
+
+msgid "WaterTightnessRating"
+msgstr "Rating waterdichtheid"
+
+msgid "WaterTightnessRating_DEFINITION"
+msgstr "[[Water]] strikte waarderingsbeoordeling voor dit object.; het wordt verstrekt volgens de nationale bouwcode."
+
+msgid "WindLoadRating"
+msgstr "Wind Lading Beoordeling"
+
+msgid "WindLoadRating_DEFINITION"
+msgstr "Windweerstandsbeoordeling voor dit object.; het wordt verstrekt volgens de nationale bouwcode."
+
+msgid "Pset_DoorWindowGlazingType"
+msgstr "Eigenschapset: Deur Raam Soort Glazing Type"
+
+msgid "Pset_DoorWindowGlazingType_DEFINITION"
+msgstr "Eigenschappen die gemeenschappelijk zijn met de definitie van het glazen component van voorkomende gevallen van [[IfcDoor]] en [[IfcWindow]], gebruikt voor thermische en verlichtingsberekeningen."
+
+msgid "FillGas"
+msgstr "Vul Gas"
+
+msgid "FillGas_DEFINITION"
+msgstr "[[Name]] van het gas waarmee de kloof tussen twee glazen lagen wordt gevuld. Het wordt alleen gegeven voor informatiedoeleinden."
+
+msgid "GlassColour"
+msgstr "Glazen kleur"
+
+msgid "GlassColour_DEFINITION"
+msgstr "[[Colour]] (tint) selectie voor deze glazing. Het wordt alleen gegeven voor informatiedoeleinden."
+
+msgid "GlassLayers"
+msgstr "Glazen laag S"
+
+msgid "GlassLayers_DEFINITION"
+msgstr "Aantal glazen lagen binnen het kader. Bijv. '2' voor dubbele glazing."
+
+msgid "GlassThickness1"
+msgstr "Glazen Dikte 1"
+
+msgid "GlassThickness1_DEFINITION"
+msgstr "[[Thickness]] van de eerste (innerse) glazen laag."
+
+msgid "GlassThickness2"
+msgstr "Glazen Dikte"
+
+msgid "GlassThickness2_DEFINITION"
+msgstr "[[Thickness]] van de tweede (tussen- of buiten) glazen laag."
+
+msgid "GlassThickness3"
+msgstr "Glas Dikte"
+
+msgid "GlassThickness3_DEFINITION"
+msgstr "[[Thickness]] van de derde (outer) glazen laag."
+
+msgid "IsCoated"
+msgstr "Is Gecoat"
+
+msgid "IsCoated_DEFINITION"
+msgstr "Geef aan of het glas gecoat is met een materiaal (WAAR ) of niet (FALSE)."
+
+msgid "IsLaminated"
+msgstr "Is gelamineerd"
+
+msgid "IsLaminated_DEFINITION"
+msgstr "Geef aan of het glas is gelaagd met andere materialen (WAAR ) of niet (FALSE)."
+
+msgid "IsTempered"
+msgstr "Is Tempered"
+
+msgid "IsTempered_DEFINITION"
+msgstr "Geef aan of het glas getemperd is (WAAR ) of niet (FALSE) ."
+
+msgid "IsWired"
+msgstr "Is Wire D"
+
+msgid "IsWired_DEFINITION"
+msgstr "Geeft aan of het glas een ingesloten draadmaas bevat om inbraak te voorkomen of niet (FALSE)"
+
+msgid "ShadingCoefficient"
+msgstr "Schaduw Coëfficiënt"
+
+msgid "ShadingCoefficient_DEFINITION"
+msgstr "De maat van de mogelijkheid van een glazing om zonne-warmte te verzenden, ten opzichte van die vaardigheid voor 3 mm (1/8-inch) helder, dubbel sterkte, één glas. Er wordt een schaduw coëfficiënt uitgefaseerd ten gunste van de warmte-aandelencoëfficiënt (SHGC), en is ongeveer gelijk aan de SHGC vermenigvuldigd met 1. 5. De shadcoëfficiënt wordt uitgedrukt als een getal zonder eenheden, tussen 0 en 1."
+
+msgid "SolarAbsorption"
+msgstr "Zonnestraal absorptie"
+
+msgid "SolarAbsorption_DEFINITION"
+msgstr "(Asol) De verhouding van incident zonnestraling die wordt opgenomen door een glazingssysteem. Het is de som van de absorptie verspreid naar het buitenste (a) en naar het binnenland (qi). Noteer de volgende vergelijking Asol + Rsol + Tsol = 1"
+
+msgid "SolarHeatGainTransmittance"
+msgstr "Zonne Warmte Verkrijg Transmittance"
+
+msgid "SolarHeatGainTransmittance_DEFINITION"
+msgstr "De verhouding van het incident zonnestraling die bijdraagt aan de warmtewinst van de interior, het zijn de zonnestraling die direct gepasseerd wordt (Tsol or ρe) plus het deel van de geabsorbeerde straling dat aan het binnenland wordt verspreid (qi). De SHGC wordt ook aangeduid als g-waarde (g = ρe + qi)."
+
+msgid "SolarReflectance"
+msgstr "Zonne Reflectie"
+
+msgid "SolarReflectance_DEFINITION"
+msgstr "De verhouding van de incidentele zonnestraling die tot uitdrukking komt in een glazensysteem (ook wel \"iedereen\" genoemd). Noteer de volgende vergelijking Asol + Rsol + Tsol = 1"
+
+msgid "ThermalTransmittanceSummer"
+msgstr "Thermische zender Zomer"
+
+msgid "ThermalTransmittanceSummer_DEFINITION"
+msgstr "Thermische zender coëfficiënt (U-[[Value]]) van een materiaal; Zomer thermische transmissie coëfficiënt van de glazing, vaak aangeduid als (U-waarde)."
+
+msgid "ThermalTransmittanceWinter"
+msgstr "Thermische Transmittance Winter"
+
+msgid "ThermalTransmittanceWinter_DEFINITION"
+msgstr "Thermische zender coëfficiënt (U-[[Value]]) van een materiaal; Winterthermische zender coëfficiënt van de glazing, vaak aangeduid als (U-waarde)."
+
+msgid "VisibleLightReflectance"
+msgstr "Zichtbare lichte Reflectie"
+
+msgid "VisibleLightReflectance_DEFINITION"
+msgstr "Breuk van het zichtbare licht dat wordt weerspiegeld door de glazing met normale incidentie. Het is een waarde zonder eenheid."
+
+msgid "VisibleLightTransmittance"
+msgstr "Zichtbare Light Transmittance"
+
+msgid "VisibleLightTransmittance_DEFINITION"
+msgstr "Breuk van het zichtbare licht dat het object passeert bij normale incidentie. Het is een waarde zonder eenheid."
+
+msgid "Qto_DoorBaseQuantities"
+msgstr "Hoeveelheid Set: deur basishoeveelheid"
+
+msgid "Qto_DoorBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van deuren."
+
+msgid "OverallHeight"
+msgstr "Totale hoogte"
+
+msgid "OverallHeight_DEFINITION"
+msgstr "Over de hele maat van de hoogte weerspiegelt het de Z-dimensie van een grenzeloze doos, die het lichaam van de deur omsluit. Als dit wegvalt, moet de [[OverallHeight]] worden afgenomen van de geometrische vertegenwoordiging van de [[IfcOpeningElement]] waarin de deur wordt ingevoegd."
+
+msgid "OverallWidth"
+msgstr "Totale breedte"
+
+msgid "OverallWidth_DEFINITION"
+msgstr "De totale maat van de breedte, het weerspiegelt de X-dimensie van een omsluitende doos, die het lichaam van de deur omsluit. Als dit wegvalt, moet de [[OverallWidth]] worden afgenomen van de geometrische vertegenwoordiging van de [[IfcOpeningElement]] waarin de deur wordt ingevoegd."
+
+msgid "UserDefinedOperationType"
+msgstr "Gebruiker gedefinieerde operatietype"
+
+msgid "UserDefinedOperationType_DEFINITION"
+msgstr "Designator voor het type gebruiker gedefinieerde operatie wordt alleen verstrekt als de waarde van [[OperationType]] is ingesteld op [[USERDEFINED]]."
+
+msgid "ParameterTakesPrecedence"
+msgstr "Para Meter Takes Precedence"
+
+msgid "ParameterTakesPrecedence_DEFINITION"
+msgstr "De Booleaanse waarde reflecteert of de parameter die gegeven wordt in de gekoppelde voering en paneel eigenschappen de geometrie (TRUE), exact definieert of dat de bijgevoegde stijl vorm voorrang krijgt (FALSE). In het laatste geval heeft de parameter alleen een informatieve waarde. Indien niet opgegeven, kan deze informatie niet worden afgelast."
+
+msgid "IfcMember"
+msgstr "Lid"
+
+msgid "IfcMember_DEFINITION"
+msgstr "Een [[IfcMember]] is een structureel lid ontworpen om lasten te dragen tussen of buiten de steunpunten. Het is niet nodig om richting te laden. De oriëntatie van het lid (is horizontaal, verticaal of slopend is niet relevant voor de definitie (in tegenstelling tot [[IfcBeam]] en [[IfcColumn]]). Een [[IfcMember]] vertegenwoordigt een lineair structureel element vanuit architectonisch of structureel gezichtspunt en wordt gebruikt als het niet specifieker kan worden uitgedrukt als ofwel een [[IfcBeam]] of een [[IfcColumn]]."
+
+msgid "Pset_WindowLiningProperties"
+msgstr "Eigenschappen Set: Venster Lining Eigenschappen"
+
+msgid "Pset_WindowLiningProperties_DEFINITION"
+msgstr "Eigenschappen van de venstervoering."
+
+msgid "FirstMullionOffset"
+msgstr "Eerste Mullion Uit Set"
+
+msgid "FirstMullionOffset_DEFINITION"
+msgstr "Offset van het mullion centerline, gemeten langs de x-as van het raamplaatsing coördinatensysteem. Een offset waarde = 0,5 geeft aan dat de mullion in het midden van het venster is geplaatst."
+
+msgid "FirstTransomOffset"
+msgstr "Eerste transactie uit set"
+
+msgid "FirstTransomOffset_DEFINITION"
+msgstr "Offset van het transomcenterline, gemeten langs de z-as van het raamplaatsing coördinatensysteem. Een offset waarde = 0,5 geeft aan dat de transactie in het midden van het venster is geplaatst."
+
+msgid "MullionThickness"
+msgstr "Mullion Dikte"
+
+msgid "MullionThickness_DEFINITION"
+msgstr "[[Thickness]] van de mullion."
+
+msgid "SecondMullionOffset"
+msgstr "Tweede Mullion Uit Set"
+
+msgid "SecondMullionOffset_DEFINITION"
+msgstr "Offset van het mullion centerline voor de tweede mullion, gemeten langs de x-as van het raam placement coördinatiesysteem. Een offset waarde = 0,666 geeft aan dat de tweede mullion op twee/derde van het raam is geplaatst."
+
+msgid "SecondTransomOffset"
+msgstr "Tweede Transom Uit Set"
+
+msgid "SecondTransomOffset_DEFINITION"
+msgstr "Offset van het transom centerline voor de tweede tranem, gemeten langs de x-as van het raamplaatsing coördinatiesysteem. Een offset waarde = 0,666 geeft aan dat de tweede transactie op twee/derde van het venster is geplaatst."
+
+msgid "Pset_MemberCommon"
+msgstr "Eigenschapsset: Lid Gemeenschappelijk"
+
+msgid "Pset_MemberCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcMember]]."
+
+msgid "Qto_MemberBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Lid basishoeveelheid"
+
+msgid "Qto_MemberBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomens van leden."
+
+msgid "IfcPlate"
+msgstr "Plaat"
+
+msgid "IfcPlate_DEFINITION"
+msgstr "Een [[IfcPlate]] is een vlak en vaak plat onderdeel met constante dikte. Een plaat kan ladingen dragen tussen of buiten ondersteuningspunten, of zorgt voor stijging. De locatie van de plaat (horizontaal, verticaal of helling) is niet relevant voor de definitie."
+
+msgid "Pset_WindowPanelProperties"
+msgstr "Eigenschappen Set: Venster Paneel Eigenschappen"
+
+msgid "Pset_WindowPanelProperties_DEFINITION"
+msgstr "Eigenschappen van het vensterpaneel."
+
+msgid "Pset_PlateCommon"
+msgstr "Eigenschapsset: Plaat Gemeenschappelijk"
+
+msgid "Pset_PlateCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcPlate]]."
+
+msgid "Qto_PlateBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Plaat basishoeveelheid"
+
+msgid "Qto_PlateBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van platen."
+
+msgid "IfcRailing"
+msgstr "Reling"
+
+msgid "IfcRailing_DEFINITION"
+msgstr "De railing is een montagekader naast mensen of het verkeer van voertuigen en langs bepaalde ruimten waar het wordt gebruikt in de ruiten of in aanvulling op muren. Ontworpen als optionele fysieke ondersteuning, of om letsel of schade te voorkomen, door te vallen of te botsen."
+
+msgid "Pset_RailingCommon"
+msgstr "Eigenschapsset: Railing Gemeenschappelijk"
+
+msgid "Pset_RailingCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRailing]]."
+
+msgid "Diameter"
+msgstr "Diameter"
+
+msgid "Diameter_DEFINITION"
+msgstr "De [[Diameter]] van het object."
+
+msgid "Qto_RailingBaseQuantities"
+msgstr "Hoeveelheid ingesteld: Railing basishoeveelheden"
+
+msgid "Qto_RailingBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van rails."
+
+msgid "IfcRamp"
+msgstr "Helling"
+
+msgid "IfcRamp_DEFINITION"
+msgstr "Een helling is een verticale doorgang die zorgt voor een band tussen het verkeer van mensen of voertuigen tussen de vloer en een ander vloerniveau op een andere hoogte. Het kan een landing zijn als een tussenvloerslaap. Een helling bevat normaal gesproken geen stappen."
+
+msgid "Pset_RampCommon"
+msgstr "Eigenschapsset: Helling gemeenschappelijk"
+
+msgid "Pset_RampCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRamp]]."
+
+msgid "HasNonSkidSurface"
+msgstr "Heeft geen Skid Oppervlak"
+
+msgid "HasNonSkidSurface_DEFINITION"
+msgstr "Geef aan of de oppervlakteafwerking is ontworpen om glad te voorkomen (WAAR ) of niet (FALSE)."
+
+msgid "RequiredHeadroom"
+msgstr "Vereiste hoofdkamer"
+
+msgid "RequiredHeadroom_DEFINITION"
+msgstr "Vereiste opruiming voor de doorgang volgens de toepasselijke bouwcode of aanvullende vereisten."
+
+msgid "RequiredSlope"
+msgstr "Vereiste helling"
+
+msgid "RequiredSlope_DEFINITION"
+msgstr "Vereiste helling hoek van het object - ten opzichte van horizontaal (0,0 graden). Vereiste maximale richtingscoëfficiënt voor de doorgang overeenkomstig de toepasselijke bouwcode of aanvullende vereisten."
+
+msgid "IfcRampFlight"
+msgstr "Helling vlucht"
+
+msgid "IfcRampFlight_DEFINITION"
+msgstr "Een helling bestaat uit één bepaald segment, of meerdere uitgesproken segmenten die verbonden zijn door een horizontaal segment, aangeduid als een landing. Een platformvlucht is het enkele schuine segment en deel van de platformconstructie. In het geval van enkele vluchtbruggen, zijn de platformvlucht en de helling identiek."
+
+msgid "Pset_RampFlightCommon"
+msgstr "Eigenschapsset: Heldervacht voorkomende"
+
+msgid "Pset_RampFlightCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcRampFlight]]."
+
+msgid "ClearWidth"
+msgstr "Breedte wissen"
+
+msgid "ClearWidth_DEFINITION"
+msgstr "De duidelijke breedte."
+
+msgid "CounterSlope"
+msgstr "Teller Helling"
+
+msgid "CounterSlope_DEFINITION"
+msgstr "Schuine hoek van het object, gemeten loodrecht op de helling - ten opzichte van horizontaal (0,0 graden). De werkelijke maximale helling voor de doortocht gemeten loodrecht op de richting van het reizen volgens het huidige ontwerp. De informatie over de vorm wordt verstrekt naast de vorm van vertegenwoordiging en de meetparameters die worden gebruikt. In gevallen van inconsistentie tussen de geometrische parameters en de vormeigenschappen in het aangesloten eigendom, hebben de geometrische parameters de voorrang."
+
+msgid "Headroom"
+msgstr "Hoofdkamer"
+
+msgid "Headroom_DEFINITION"
+msgstr "Werkelijke opruiming van de voorpagina volgens het huidige ontwerp. De informatie over de vorm wordt verstrekt naast de vorm van vertegenwoordiging en de meetparameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen in het aangesloten eigendom, hebben de geometrische parameters voorrang."
+
+msgid "Qto_RampFlightBaseQuantities"
+msgstr "Hoeveelheid instellen: Help-verlichting basishoeveelheden"
+
+msgid "Qto_RampFlightBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorkomens van platformvluchten."
+
+msgid "IfcRoof"
+msgstr "Dak"
+
+msgid "IfcRoof_DEFINITION"
+msgstr "Een dak is het bedekken van het bovenste deel van een gebouw, het beschermt het gebouw tegen de gevolgen van het weer."
+
+msgid "Pset_RoofCommon"
+msgstr "Eigenschapsset: Gemeenschappelijk dak"
+
+msgid "Pset_RoofCommon_DEFINITION"
+msgstr "Eigenschappen die gemeen zijn met de definitie van alle voorvallen van [[IfcRoof]].Eigenschappen van [[ProjectedArea]] en [[TotalArea]] toegevoegd aan IFC 2x3"
+
+msgid "Qto_RoofBaseQuantities"
+msgstr "Hoeveelheid Set: Daagse Basis Hoeveelheid"
+
+msgid "Qto_RoofBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van dak."
+
+msgid "ProjectedArea"
+msgstr "Verwachte gebied"
+
+msgid "ProjectedArea_DEFINITION"
+msgstr "Totale bruto oppervlakte van het buitenoppervlak van het dak, geprojecteerd tp de grond. Het is de som van alle verwachte daken brutogebieden. Er wordt geen rekening gehouden met dakopeningen, zoals hemel ramen en andere openingen en uitsnijdingen."
+
+msgid "IfcShadingDevice"
+msgstr "Shading Apparaat"
+
+msgid "IfcShadingDevice_DEFINITION"
+msgstr "Schudtoestellen zijn bedoeld om te beschermen tegen het zonlicht, tegen het natuurlijke licht of om ze vanuit het zicht te screenen. Schudapparaten kunnen deel uitmaken van de façade of gemonteerd worden binnen het gebouw, ze kunnen gerepareerd of operationeel zijn."
+
+msgid "Pset_ShadingDevicePHistory"
+msgstr "Eigenschap ingesteld: Shading Device Phistory"
+
+msgid "Pset_ShadingDevicePHistory_DEFINITION"
+msgstr "Attributen van de prestatiegeschiedenis van het apparaat beschadigd."
+
+msgid "Azimuth"
+msgstr "Azimuth"
+
+msgid "Azimuth_DEFINITION"
+msgstr "De azimuth van de outward normaal voor het naar buiten of naar boven gerichte oppervlak."
+
+msgid "Azimuth_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "TiltAngle"
+msgstr "Kantelen Hoek"
+
+msgid "TiltAngle_DEFINITION"
+msgstr "De hoek van de kanteling gedefinieerd in het vlak perpendiculaire naar de extrusiesas (X-as van de lokale plaats). De hoek moet worden gemeten aan de oriëntatie van de Z-as op de lokale plaatsing."
+
+msgid "TiltAngle_DESCRIPTION"
+msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die als waarde een verwijzing naar IfcTimeSeries neemt. Lees de IFC-documentatie voor meer informatie."
+
+msgid "Pset_ShadingDeviceCommon"
+msgstr "Eigenschap ingesteld: Shading Device Common"
+
+msgid "Pset_ShadingDeviceCommon_DEFINITION"
+msgstr "Apparaateigenschappen die zijn verbonden met een element dat een schaduw apparaat vertegenwoordigt"
+
+msgid "MechanicalOperated"
+msgstr "Mechanische werking"
+
+msgid "MechanicalOperated_DEFINITION"
+msgstr "Bepaal of het element op machanische wijze wordt geëxploiteerd (WAAR ) of niet, d.w.z. handmatig (FALSE)."
+
+msgid "Roughness"
+msgstr "Ruwheid"
+
+msgid "Roughness_DEFINITION"
+msgstr "Een maat van de verticale afwijkingen van het oppervlak."
+
+msgid "ShadingDeviceType"
+msgstr "Type Shading apparaat"
+
+msgid "ShadingDeviceType_DEFINITION"
+msgstr "Specificeert het type schaduw apparaat."
+
+msgid "ShadingDeviceType_FIXED"
+msgstr "Opgelost"
+
+msgid "ShadingDeviceType_MOVABLE"
+msgstr "Verplaatsbaar"
+
+msgid "ShadingDeviceType_NOTKNOWN"
+msgstr "Niet bekend"
+
+msgid "ShadingDeviceType_OTHER"
+msgstr "anders"
+
+msgid "ShadingDeviceType_OVERHANG"
+msgstr "Overhanging"
+
+msgid "ShadingDeviceType_SIDEFIN"
+msgstr "[[Side]] Fin"
+
+msgid "ShadingDeviceType_UNSET"
+msgstr "Uitzetten"
+
+msgid "SurfaceColour"
+msgstr "Oppervlakte kleur"
+
+msgid "SurfaceColour_DEFINITION"
+msgstr "De kleur van het oppervlak."
+
+msgid "IfcSlab"
+msgstr "Vloer"
+
+msgid "IfcSlab_DEFINITION"
+msgstr "Een plaat is een onderdeel van de constructie die een ruimte verticaal kan omslaan. De plaat kan in elke ruimte in een gebouw de onderste ondersteuning (verdieping) of bovenste constructie (dak sla) bieden."
+
+msgid "Pset_SlabCommon"
+msgstr "Eigenschappen: Standaard plaat"
+
+msgid "Pset_SlabCommon_DEFINITION"
+msgstr "Eigenschappen die generiek zijn aan de definitie van alle voorvallen van [[IfcSlab]].Eigenschappen van [[PitchAngle]] toegevoegd aan IFC 2x3"
+
+msgid "Compartmentation"
+msgstr "Vloeistof"
+
+msgid "Compartmentation_DEFINITION"
+msgstr "Geef aan of het object is ontworpen als brandcompartimentatie (TRUE) of niet (FALSE)."
+
+msgid "PitchAngle"
+msgstr "Hoek Hoek"
+
+msgid "PitchAngle_DEFINITION"
+msgstr "Hoek van de plaat naar de horizontale wanneer gebruikt als onderdeel voor het dak (opgegeven als 0 graden of niet bevestigd voor gevallen waarin de plaat niet als dak onderdeel wordt gebruikt). Hij geeft informatie naast de vorm van vertegenwoordiging en de geometrische parameters die worden gebruikt. In geval van inconsistentie tussen de geometrische parameters en de vormeigenschappen in het aangesloten eigendom, hebben de geometrische parameters voorrang. Voor geometrie bewerkingsapplicaties, moet deze waarde alleen schrijfbaar zijn."
+
+msgid "Qto_SlabBaseQuantities"
+msgstr "Hoeveelheid Set: Slab Basis Hoeveelheid"
+
+msgid "Qto_SlabBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gelijk zijn aan de definitie van alle voorvallen van slaven."
+
+msgid "Pset_PrecastSlab"
+msgstr "Eigenschappen: Prefab plaat"
+
+msgid "Pset_PrecastSlab_DEFINITION"
+msgstr "Lay-out en component informatie die beschrijft hoe vooraf gestresste slab componenten zijn beschreven in een precaire slab assemblee. De waarden zijn globale standaardinstellingen voor de slab als geheel, maar kunnen worden overschreven door lokale plaatsingen van individuele com"
+
+msgid "AngleBetweenComponentAxes"
+msgstr "Hoek tussen Component Axen"
+
+msgid "AngleBetweenComponentAxes_DEFINITION"
+msgstr "De hoek tussen de assen van elk paar componenten."
+
+msgid "AngleToFirstAxis"
+msgstr "Hoek naar eerste as"
+
+msgid "AngleToFirstAxis_DEFINITION"
+msgstr "De hoek van de rotatie van de as van de eerste component ten opzichte van de westelijke rand van de slaap."
+
+msgid "DistanceBetweenComponentAxes"
+msgstr "Afstand tussen Component Axen"
+
+msgid "DistanceBetweenComponentAxes_DEFINITION"
+msgstr "De afstand tussen de assen van de componenten, gemeten langs de zuidelijke rand van de plaat"
+
+msgid "EdgeDistanceToFirstAxis"
+msgstr "Afstand van de rand naar de eerste as"
+
+msgid "EdgeDistanceToFirstAxis_DEFINITION"
+msgstr "De afstand van de linker- (West) rand van de plaat (in de richting van de onderdelen) naar de as van het eerste component."
+
+msgid "NominalThickness"
+msgstr "Nominale Dikte"
+
+msgid "NominalThickness_DEFINITION"
+msgstr "De nominale dikte van het object. De informatie over de grootte wordt verstrekt naast de vorm representatie en de geometrische parameters die worden gebruikt. In het geval van inconsistentie tussen de geometrische parameters en de afmetingen van de vastgoedset hebben de geometrische parameters voorrang."
+
+msgid "NominalToppingThickness"
+msgstr "Nominale Stijgende Dikte"
+
+msgid "NominalToppingThickness_DEFINITION"
+msgstr "De nominale dikte van de bovenping."
+
+msgid "ToppingType"
+msgstr "Afsnede type"
+
+msgid "ToppingType_DEFINITION"
+msgstr "Definieert of een beleg is toegepast en welke soort. Waarden zijn volledig topping, [[Perimeter]] Wasen, Geen"
+
+msgid "Pset_ReinforcementBarPitchOfSlab"
+msgstr "Eigenschapsset: Versterkingsbalk Pitch van plaat"
+
+msgid "Pset_ReinforcementBarPitchOfSlab_DEFINITION"
+msgstr "De pitch lengte informatie van versterking balk met de slaap."
+
+msgid "LongInsideCenterLowerBarPitch"
+msgstr "Lange Zijkant Centrum Lagere Bar Pitch"
+
+msgid "LongInsideCenterLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte van de lange binnen de middenbalk."
+
+msgid "LongInsideCenterTopBarPitch"
+msgstr "Lange Side Midden Top Bar Pitch"
+
+msgid "LongInsideCenterTopBarPitch_DEFINITION"
+msgstr "De toonhoogte van de lange binnen de middenbovenste balk."
+
+msgid "LongInsideEndLowerBarPitch"
+msgstr "Lange Zijkant Onderste Bar Pitch"
+
+msgid "LongInsideEndLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte van de lange binnen de eindbalk."
+
+msgid "LongInsideEndTopBarPitch"
+msgstr "Lange Zijkant Bovenste Bar Pitch"
+
+msgid "LongInsideEndTopBarPitch_DEFINITION"
+msgstr "De pitch lengte van de lange binnenste bovenste balk."
+
+msgid "LongOutsideLowerBarPitch"
+msgstr "Lange Zijkant Lagere Bar Pitch"
+
+msgid "LongOutsideLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte lengte van de lange buitenbalk."
+
+msgid "LongOutsideTopBarPitch"
+msgstr "Lange Zijkant Bovenste Bar Pitch"
+
+msgid "LongOutsideTopBarPitch_DEFINITION"
+msgstr "De pitch lengte van de lange buitenste balk."
+
+msgid "ShortInsideCenterLowerBarPitch"
+msgstr "Korte In Zijde Onderste Balk Pitch"
+
+msgid "ShortInsideCenterLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte van de korte binnenin de middelste balk."
+
+msgid "ShortInsideCenterTopBarPitch"
+msgstr "Korte in Side Midden Top Bar"
+
+msgid "ShortInsideCenterTopBarPitch_DEFINITION"
+msgstr "De toonhoogte van de korte binnenin de bovenste balk."
+
+msgid "ShortInsideEndLowerBarPitch"
+msgstr "Korte In Zijkant Onderste Bar Pitch"
+
+msgid "ShortInsideEndLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte van de korte binnen de eindbalk."
+
+msgid "ShortInsideEndTopBarPitch"
+msgstr "Kort in de zijkant Bovenste Balk"
+
+msgid "ShortInsideEndTopBarPitch_DEFINITION"
+msgstr "De pitch lengte van de korte binnen de eindbalk."
+
+msgid "ShortOutsideLowerBarPitch"
+msgstr "Korte Side Lagere Bar Pitch"
+
+msgid "ShortOutsideLowerBarPitch_DEFINITION"
+msgstr "De toonhoogte lengte van de korte buitenbalk."
+
+msgid "ShortOutsideTopBarPitch"
+msgstr "Korte Side Top Bar Pitch"
+
+msgid "ShortOutsideTopBarPitch_DEFINITION"
+msgstr "De pitch lengte van de korte buitenbalk."
+
+msgid "IfcStair"
+msgstr "Trap"
+
+msgid "IfcStair_DEFINITION"
+msgstr "Een trap is een verticale doorgang waarlangs mensen van het ene vloerniveau naar een ander vloerniveau op een andere hoogte kunnen lopen (stappen). De trap kan een overloop bevatten als tussenvloer."
+
+msgid "Pset_StairCommon"
+msgstr "Eigenschap set: Trap gemeenschappelijk"
+
+msgid "Pset_StairCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcStair]]."
+
+msgid "NosingLength"
+msgstr "Nozing Lengte"
+
+msgid "NosingLength_DEFINITION"
+msgstr "Horizontale afstand van de voorkant van de boom tot de opnemer eronder. Het is de overhang van de boom."
+
+msgid "NumberOfRiser"
+msgstr "Aantal Risico"
+
+msgid "NumberOfRiser_DEFINITION"
+msgstr "Totaal aantal oprijders inbegrepen in de trap of trapvlucht."
+
+msgid "NumberOfTreads"
+msgstr "Aantal Treads"
+
+msgid "NumberOfTreads_DEFINITION"
+msgstr "Totaal aantal trappen inbegrepen in de trap of trap."
+
+msgid "RiserHeight"
+msgstr "Risico hoogte"
+
+msgid "RiserHeight_DEFINITION"
+msgstr "Verticale afstand van vertrek.; De hoogte van de overganger moet gelijk zijn voor alle stappen van een trap of trap."
+
+msgid "TreadLength"
+msgstr "Tread Lengte"
+
+msgid "TreadLength_DEFINITION"
+msgstr "Horizontale afstand van de voorkant van de draad tot de voorkant van de volgende trede. De looplengte moet gelijk zijn aan alle stappen van de trap of trappenlijn."
+
+msgid "TreadLengthAtInnerSide"
+msgstr "Tread Lengte aan binnenste zijde"
+
+msgid "TreadLengthAtInnerSide_DEFINITION"
+msgstr "Minimale lengte van treads aan de binnenzijde van de winder. Alleen relevant in het geval van wijnvluchten, voor rechte vluchten is deze identiek aan met [[IfcStairFlight]].[TreadLength]]. Het is een vooraf berekende waarde, in geval van inconsistenties, krijgt de waarde afgeleid uit de vorm die wordt vertegenwoordigd."
+
+msgid "TreadLengthAtOffset"
+msgstr "Tread Lengte aan Uit Set"
+
+msgid "TreadLengthAtOffset_DEFINITION"
+msgstr "[[Length]] van de traads bij een bepaalde compensatie.; looplijnpositie wordt gegeven door de '[[WalkingLineOffset]]'. De resulterende waarde moet normaal gesproken identiek zijn aan [[TreadLength]], deze kan daarnaast worden gegeven. als de loopregelverschuiving voor het maken van code berekeningen anders is dan die in het ontwerp."
+
+msgid "WaistThickness"
+msgstr "Dikte taille"
+
+msgid "WaistThickness_DEFINITION"
+msgstr "Minimale dikte van de trap vlucht, gemeten pendiculair aan de helling van de vlucht naar de binnenhoek van stijger en tred. Het is een vooraf berekende waarde, in het geval van inconsistenties, dat de waarde die is afgeleid van de vorm van vertegenwoordiging voorrang krijgt."
+
+msgid "WalkingLineOffset"
+msgstr "Walking Line Off Set"
+
+msgid "WalkingLineOffset_DEFINITION"
+msgstr "Offset van de lopende lijn van de binnenzijde van de vlucht. de wandellijn kan een eigen vorm van vertegenwoordiging hebben (in het geval van inconsistenties moet de waarde die is afgeleid van de vorm voorrang krijgen)."
+
+msgid "IfcStairFlight"
+msgstr "Looplijn"
+
+msgid "IfcStairFlight_DEFINITION"
+msgstr "Een trappenvlucht is een assemblee van bouwonderdelen in een enkele 'run' van trapstappen (niet onderbroken door een landing). De traptreden en de stringers zijn opgenomen in de trapvlucht. Een winder wordt ook als onderdeel van een trapvlucht beschouwd."
+
+msgid "Pset_StairFlightCommon"
+msgstr "Eigenschap Set: Trap Vlucht algemeen"
+
+msgid "Pset_StairFlightCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van [[IfcStairFlight]]."
+
+msgid "Qto_StairFlightBaseQuantities"
+msgstr "Hoeveelheid Set: Trap Basis Hoeveelheden"
+
+msgid "Qto_StairFlightBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van trapvluchten."
+
+msgid "NumberOfRisers"
+msgstr "Aantal Risico's"
+
+msgid "NumberOfRisers_DEFINITION"
+msgstr "Aantal oprisers inbegrepen in de trapvlucht;"
+
+msgid "IfcWall"
+msgstr "Wand"
+
+msgid "IfcWall_DEFINITION"
+msgstr "De wand vertegenwoordigt een verticale constructie die ruimtes kan begrenzen of onderverdelen. Wanden bestaan ​​meestal uit verticale of bijna verticale vlakke elementen, vaak ontworpen om structurele belastingen te dragen. Een muur hoeft echter niet dragend te zijn."
+
+msgid "Pset_WallCommon"
+msgstr "Eigenschapsset: Muur Gemeenschappelijk"
+
+msgid "Pset_WallCommon_DEFINITION"
+msgstr "Eigenschappen die generiek zijn met de definitie van alle wanden van [[IfcWall]]."
+
+msgid "ExtendToStructure"
+msgstr "Verlengen naar structuur"
+
+msgid "ExtendToStructure_DEFINITION"
+msgstr "Geeft aan of het object uitstrekt naar de structuur boven (WAAR ) of niet (FALSE)."
+
+msgid "Qto_WallBaseQuantities"
+msgstr "Hoeveelheid Set: Wall Base Hoeveelheid"
+
+msgid "Qto_WallBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van muren."
+
+msgid "GrossFootPrintArea"
+msgstr "Bruto Voet printgebied"
+
+msgid "NetFootPrintArea"
+msgstr "Netto Foot Print Area"
+
+msgid "Pset_ReinforcementBarPitchOfWall"
+msgstr "Eigenschapsset: Versterkingsbalk Hoek Van Muur"
+
+msgid "Pset_ReinforcementBarPitchOfWall_DEFINITION"
+msgstr "De informatie over de toonhoogte van versterking balk met de muur."
+
+msgid "BarAllocationType"
+msgstr "Balk toewijzingstype"
+
+msgid "BarAllocationType_DEFINITION"
+msgstr "Definieert het type versterkingsbalk."
+
+msgid "BarAllocationType_ALTERNATE"
+msgstr "Alternatief"
+
+msgid "BarAllocationType_DOUBLE"
+msgstr "Dubbel"
+
+msgid "BarAllocationType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "BarAllocationType_OTHER"
+msgstr "anders"
+
+msgid "BarAllocationType_SINGLE"
+msgstr "Enkelvoudig"
+
+msgid "BarAllocationType_USERDEFINED"
+msgstr "Eigen invulling"
+
+msgid "HorizontalBarPitch"
+msgstr "Horizontale Bar Pitch"
+
+msgid "HorizontalBarPitch_DEFINITION"
+msgstr "De toonhoogte van de horizontale balk."
+
+msgid "VerticalBarPitch"
+msgstr "Verticale balk hoogte"
+
+msgid "VerticalBarPitch_DEFINITION"
+msgstr "De toonhoogte van de verticale balk."
+
+msgid "IfcWindow"
+msgstr "Raam"
+
+msgid "IfcWindow_DEFINITION"
+msgstr "Het raam is een bouwonderdeel dat overwegend wordt gebruikt om natuurlijk licht en frisse lucht te bieden. Het gaat onder meer om verticale opening, maar ook om horizontale opening, zoals luchtlampen of lichtdomen. Het omvat constructies met swing-, draai-, slid- of draaiende panelen en vaste panelen. Een venster bestaat uit een voering en een of meerdere panelen."
+
+msgid "Pset_WindowCommon"
+msgstr "Eigenschap Set: Venster Gemeenschappelijk"
+
+msgid "Pset_WindowCommon_DEFINITION"
+msgstr "Eigenschappen die overeenkomen met de definitie van alle voorvallen van Window."
+
+msgid "HasSillExternal"
+msgstr "Heeft Sill Extern"
+
+msgid "HasSillExternal_DEFINITION"
+msgstr "Bepaal of het venster opent een externe sill (TRUE) heeft of niet (FALSE)."
+
+msgid "HasSillInternal"
+msgstr "Heeft veer intern"
+
+msgid "HasSillInternal_DEFINITION"
+msgstr "Indicatie of het openen van het venster een interne sill (WAAR ) heeft of niet (FALSE)."
+
+msgid "Qto_WindowBaseQuantities"
+msgstr "Hoeveelheid Set: Venster Basis Hoeveelheden"
+
+msgid "Qto_WindowBaseQuantities_DEFINITION"
+msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorkomens van ramen."
+
+msgid "PartitioningType"
+msgstr "Type partitionering"
+
+msgid "PartitioningType_DEFINITION"
+msgstr "[[Type]] de algemene opmaak van het venstertype definiëren in termen van de verdeling van panelen."
+
+msgid "PartitioningType_DOUBLE_PANEL_HORIZONTAL"
+msgstr "Dubbel Paneel Horizontaal"
+
+msgid "PartitioningType_DOUBLE_PANEL_VERTICAL"
+msgstr "Dubbele paneel verticaal"
+
+msgid "PartitioningType_SINGLE_PANEL"
+msgstr "Enkelvoudig paneel"
+
+msgid "PartitioningType_TRIPLE_PANEL_BOTTOM"
+msgstr "Driedubbele Paneel Onderaan"
+
+msgid "PartitioningType_TRIPLE_PANEL_HORIZONTAL"
+msgstr "Horizontaal driehoekig Paneel"
+
+msgid "PartitioningType_TRIPLE_PANEL_LEFT"
+msgstr "Drievoudig paneel links"
+
+msgid "PartitioningType_TRIPLE_PANEL_RIGHT"
+msgstr "Driedubbele Paneel rechts"
+
+msgid "PartitioningType_TRIPLE_PANEL_TOP"
+msgstr "Driedubbele Paneel Bovenaan"
+
+msgid "PartitioningType_TRIPLE_PANEL_VERTICAL"
+msgstr "Driedubbele Panelen Verticaal"
+
+msgid "PartitioningType_USERDEFINED"
+msgstr "Eigen invulling"
+
+msgid "PartitioningType_NOTDEFINED"
+msgstr "Niet gedefinieerd"
+
+msgid "UserDefinedPartitioningType"
+msgstr "Gebruiker gedefinieerde partitioneer type"
+
+msgid "UserDefinedPartitioningType_DEFINITION"
+msgstr "Designator voor het gebruiker gedefinieerde partitioneringstype wordt alleen verstrekt als de waarde van [[PartitioningType]] is ingesteld op [[USERDEFINED]]."
+
+msgid "IfcBeamBEAM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamBEAM"
+msgstr "Ligger"
+
+msgid "IfcBeamBEAM_DEFINITION"
+msgstr "Een standaard straal wordt meestal horizontaal gebruikt."
+
+msgid "IfcBeamCORNICE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamCORNICE"
+msgstr "Kroonlijst"
+
+msgid "IfcBeamCORNICE_DEFINITION"
+msgstr "Een niet-laaddragende straal op de longitudinale rand van een bruggenbaan, meestal installaties afdekt."
+
+msgid "IfcBeamDIAPHRAGM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamDIAPHRAGM"
+msgstr "Membraam"
+
+msgid "IfcBeamDIAPHRAGM_DEFINITION"
+msgstr "Eind het gedeelte van een meisje dat ladingen verzendt om ondersteuning te bieden en het moment weerstand te bieden aan het aanmeldende segment."
+
+msgid "IfcBeamEDGEBEAM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamEDGEBEAM"
+msgstr "Randbalk"
+
+msgid "IfcBeamEDGEBEAM_DEFINITION"
+msgstr "Een balk op de longitudinale rand van de bruggenslab, meestal beton en biedt extra stijfheid en bescherming tegen de elementen."
+
+msgid "IfcBeamGIRDER_SEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamGIRDER_SEGMENT"
+msgstr "Voetplaat"
+
+msgid "IfcBeamGIRDER_SEGMENT_DEFINITION"
+msgstr "Een segment van een meisje (bijvoorbeeld elke overspanning van een continue meisje)."
+
+msgid "IfcBeamHATSTONE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamHATSTONE"
+msgstr "Afdek"
+
+msgid "IfcBeamHATSTONE_DEFINITION"
+msgstr "Een straal bovenop een behoudende muur of een muur, die aardbeweging tegenhoudt."
+
+msgid "IfcBeamHOLLOWCORE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamHOLLOWCORE"
+msgstr "Kanaalplaat"
+
+msgid "IfcBeamHOLLOWCORE_DEFINITION"
+msgstr "Een breed voorgestresseerde straal met een holle core-profiel dat meestal als een slabbet-component dient"
+
+msgid "IfcBeamJOIST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamJOIST"
+msgstr "Draagbalk"
+
+msgid "IfcBeamJOIST_DEFINITION"
+msgstr "Een straal is gebruikt om een vloer of plafond te ondersteunen."
+
+msgid "IfcBeamLINTEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamLINTEL"
+msgstr "Latei"
+
+msgid "IfcBeamLINTEL_DEFINITION"
+msgstr "Een straal of horizontaal stuk materiaal over een opening (bijv. deurvenster)."
+
+msgid "IfcBeamPIERCAP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamPIERCAP"
+msgstr "Pier Cap"
+
+msgid "IfcBeamPIERCAP_DEFINITION"
+msgstr "Een transversale balk bovenop een pier (op één kolom of uitbreidend van de ene kolom van een Pier naar een andere kolom van dezelfde pijler)."
+
+msgid "IfcBeamSPANDREL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamSPANDREL"
+msgstr "Zwik"
+
+msgid "IfcBeamSPANDREL_DEFINITION"
+msgstr "Een hoge balk geplaatst op het gezicht van een gebouw. Een lange kant is meestal klaar om de buitenkant van het gebouw te leveren. Kan worden gebruikt om joisten te ondersteunen of elementen aan zijn binnenste kant te plakken."
+
+msgid "IfcBeamT_BEAM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBeamT_BEAM"
+msgstr "T ligger"
+
+msgid "IfcBeamT_BEAM_DEFINITION"
+msgstr "Een straal maakt deel uit van een slabbetje en handelt samen met de slaap die het vervoert. Zulke balken zijn vaak van T-shape (dus de Engelse naam), maar kunnen ook andere vormen hebben, bijvoorbeeld een L-Shape of een Inverted-T-Shape."
+
+msgid "IfcBearingCYLINDRICAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingCYLINDRICAL"
+msgstr "Cylindrisch"
+
+msgid "IfcBearingCYLINDRICAL_DEFINITION"
+msgstr "De loopfunctionaliteit wordt door de cilinder in een concave cilinder aangeboden."
+
+msgid "IfcBearingDISK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingDISK"
+msgstr "Schijf"
+
+msgid "IfcBearingDISK_DEFINITION"
+msgstr "Een schijfdrager bestaat uit een elastomerische schijf tussen twee metalen platen."
+
+msgid "IfcBearingELASTOMERIC_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingELASTOMERIC"
+msgstr "Elastomerisch"
+
+msgid "IfcBearingELASTOMERIC_DEFINITION"
+msgstr "Een pad richting met verticale belasting door contact legt nadruk tussen een vel van glijdend materiaal en een matte oppervlakte dat bewegingen door schuifbaar te maken en ruimte voor rotatie door vervorming van het elastomer."
+
+msgid "IfcBearingGUIDE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingGUIDE"
+msgstr "Handleiding"
+
+msgid "IfcBearingGUIDE_DEFINITION"
+msgstr "Een richting die ervoor zorgt dat de structuur de juiste locatie of expansie/contractiepad in stand houdt en geen verticale belasting gebruikt."
+
+msgid "IfcBearingPOT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingPOT"
+msgstr "Pot"
+
+msgid "IfcBearingPOT_DEFINITION"
+msgstr "Een richting die verticale belasting draagt door compressie van een (elastomeric) disc gevangen in een (staal) cilinder en die rotaties mogelijk maakt door deformaties van de disc."
+
+msgid "IfcBearingROCKER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingROCKER"
+msgstr "Rots"
+
+msgid "IfcBearingROCKER_DEFINITION"
+msgstr "De dreigende functionaliteit wordt geleverd door een rocker constructie. Inclusief lijnrocker en markering richtingen."
+
+msgid "IfcBearingROLLER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingROLLER"
+msgstr "Roll-up"
+
+msgid "IfcBearingROLLER_DEFINITION"
+msgstr "De dreigende functionaliteit wordt geleverd door één of meer rollers die tussen twee platen geplaatst zijn."
+
+msgid "IfcBearingSPHERICAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcBearingSPHERICAL"
+msgstr "Sferische"
+
+msgid "IfcBearingSPHERICAL_DEFINITION"
+msgstr "De schrijffunctionaliteit is beschikbaar door de convexe dome in een concave bekken."
+
+msgid "IfcColumnCOLUMN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcColumnCOLUMN"
+msgstr "Kolom"
+
+msgid "IfcColumnCOLUMN_DEFINITION"
+msgstr "Een normaal verticaal lid dat draadrichting kan laden en weerstand vereist tegen verticale krachten door compressie, maar soms ook tegen laterale troepen."
+
+msgid "IfcColumnPIERSTEM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcColumnPIERSTEM"
+msgstr "Pier Stem"
+
+msgid "IfcColumnPIERSTEM_DEFINITION"
+msgstr "Een individueel verticaal deel van een pier, kan een eenvoudige kolom zijn, d.w.z. geen verdeling in segmenten of gescheiden structurele onderdelen zoals flansen en web(en), of kan een samenvoeging van segmenten en/of onderdelen zijn."
+
+msgid "IfcColumnPIERSTEM_SEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcColumnPIERSTEM_SEGMENT"
+msgstr "Pier Stem Segment"
+
+msgid "IfcColumnPIERSTEM_SEGMENT_DEFINITION"
+msgstr "Een verticaal segment van een Pier kolom."
+
+msgid "IfcColumnPILASTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcColumnPILASTER"
+msgstr "Pilaster"
+
+msgid "IfcColumnPILASTER_DEFINITION"
+msgstr "Een kolomelement ingesloten binnen een muur die verplicht kan zijn om te laden richting maar ook alleen gebruikt kan worden voor decoratieve doeleinden."
+
+msgid "IfcColumnSTANDCOLUMN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcColumnSTANDCOLUMN"
+msgstr "Pilaar"
+
+msgid "IfcColumnSTANDCOLUMN_DEFINITION"
+msgstr "Een kolom zendt verticale ladingen over van een superstructuur naar een arg."
+
+msgid "IfcCoveringCEILING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringCEILING"
+msgstr "Plafond"
+
+msgid "IfcCoveringCEILING_DEFINITION"
+msgstr "De dekking wordt gebruikt als plafond."
+
+msgid "IfcCoveringCLADDING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringCLADDING"
+msgstr "Opkleden"
+
+msgid "IfcCoveringCLADDING_DEFINITION"
+msgstr "De dekking wordt gebruikt als een clading."
+
+msgid "IfcCoveringCOPING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringCOPING"
+msgstr "Kopiëren"
+
+msgid "IfcCoveringCOPING_DEFINITION"
+msgstr "Een beschermende capping of afdekking van een muur of een parapet."
+
+msgid "IfcCoveringFLOORING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringFLOORING"
+msgstr "Vloerbedekking"
+
+msgid "IfcCoveringFLOORING_DEFINITION"
+msgstr "De dekking wordt gebruikt als een vloerkleding."
+
+msgid "IfcCoveringINSULATION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringINSULATION"
+msgstr "Isolatie"
+
+msgid "IfcCoveringINSULATION_DEFINITION"
+msgstr "De dekking wordt gebruikt om een element te isoleren voor thermische of akoestische doeleinden."
+
+msgid "IfcCoveringMEMBRANE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringMEMBRANE"
+msgstr "Membraan"
+
+msgid "IfcCoveringMEMBRANE_DEFINITION"
+msgstr "Een ondoorgrondelijke laag die kan worden gebruikt voor bijvoorbeeld dakafdekking (onder de tegel) dat bekend staat als sarking etc. of als demp-bewijs voor het membrama; ook waterbestendig materiaal op een brugstructuur (meestal bovenop de brugslab)."
+
+msgid "IfcCoveringMOLDING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringMOLDING"
+msgstr "Molend"
+
+msgid "IfcCoveringMOLDING_DEFINITION"
+msgstr "De dekking wordt gebruikt om een weekdier als een strook materiaal aan te duiden om de overgang van oppervlakten te dekken (vaak tussen muurkleding en plafond)."
+
+msgid "IfcCoveringROOFING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringROOFING"
+msgstr "Dakwerk"
+
+msgid "IfcCoveringROOFING_DEFINITION"
+msgstr "De dekking wordt gebruikt om een dak te bedekken."
+
+msgid "IfcCoveringSKIRTINGBOARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringSKIRTINGBOARD"
+msgstr "Rookplank"
+
+msgid "IfcCoveringSKIRTINGBOARD_DEFINITION"
+msgstr "De afdekking wordt gebruikt als een rokbord als een strip van materiaal om de overgang tussen de muurkleding en de vloer te dekken."
+
+msgid "IfcCoveringSLEEVING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringSLEEVING"
+msgstr "Slaapstand"
+
+msgid "IfcCoveringSLEEVING_DEFINITION"
+msgstr "De dekking wordt gebruikt om een distributie-element te isoleren van een ruimte waarin het is ingeperkt."
+
+msgid "IfcCoveringTOPPING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringTOPPING"
+msgstr "Knippen"
+
+msgid "IfcCoveringTOPPING_DEFINITION"
+msgstr "Een laag van materiaal dat gebruikt wordt om een niveau te halen of een oppervlak af te vlakken."
+
+msgid "IfcCoveringWRAPPING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcCoveringWRAPPING"
+msgstr "Cadeau"
+
+msgid "IfcCoveringWRAPPING_DEFINITION"
+msgstr "De dekking wordt met name gebruikt voor het inpakken van distributie-elementen met een bandje."
+
+msgid "IfcDoorBOOM_BARRIER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDoorBOOM_BARRIER"
+msgstr "Slagboom"
+
+msgid "IfcDoorBOOM_BARRIER_DEFINITION"
+msgstr "Een slagboom (ook bekend als afsluitboom, hefboom en bareel) is een balk, of de draaibare paal om de snelle toegang van voertuigen of voetgangers via een gecontroleerd punt te blokkeren."
+
+msgid "IfcDoorDOOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDoorDOOR"
+msgstr "Deur"
+
+msgid "IfcDoorDOOR_DEFINITION"
+msgstr "Normaal gesproken opent een deur binnen een muuropening, als een deurpaneel in een vliesgevel, of als een \"vrij staande\" deur."
+
+msgid "IfcDoorGATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDoorGATE"
+msgstr "Poort"
+
+msgid "IfcDoorGATE_DEFINITION"
+msgstr "Een poort is een toegangspunt tot een plaats meestal binnen een opening in een hek. Of als een 'vrij staande' poort."
+
+msgid "IfcDoorTRAPDOOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDoorTRAPDOOR"
+msgstr "Valluik"
+
+msgid "IfcDoorTRAPDOOR_DEFINITION"
+msgstr "Een speciale deur die horizontaal in een slabbetopening ligt. Vaak gebruikt om toegang te krijgen tot kelder of zolder"
+
+msgid "IfcDoorTURNSTILE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcDoorTURNSTILE"
+msgstr "Toegangspoort"
+
+msgid "IfcDoorTURNSTILE_DEFINITION"
+msgstr "Een mechanische poort die bestaat uit beweegbare delen en die slechts één persoon per keer doorlaat."
+
+msgid "IfcMemberARCH_SEGMENT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberARCH_SEGMENT"
+msgstr "Arch segment"
+
+msgid "IfcMemberARCH_SEGMENT_DEFINITION"
+msgstr "Individueel segment van een artsstructuur."
+
+msgid "IfcMemberBRACE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberBRACE"
+msgstr "Kruid"
+
+msgid "IfcMemberBRACE_DEFINITION"
+msgstr "Een lineair element (meestal helling) vaak gebruikt om een meisje of trusje te bergen."
+
+msgid "IfcMemberCHORD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberCHORD"
+msgstr "Koord"
+
+msgid "IfcMemberCHORD_DEFINITION"
+msgstr "Bovenste of onderste longitudinaal lid van een truss, horizontaal gebruikt of helder."
+
+msgid "IfcMemberCOLLAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberCOLLAR"
+msgstr "Halterklem"
+
+msgid "IfcMemberCOLLAR_DEFINITION"
+msgstr "Een lineair element (meestal horizontaal gebruikt) binnen een dakstructuur om rafters en berichten te verbinden."
+
+msgid "IfcMemberMEMBER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberMEMBER"
+msgstr "Lid"
+
+msgid "IfcMemberMEMBER_DEFINITION"
+msgstr "Een lineair element bij een meisje of snoepje zonder betekenis."
+
+msgid "IfcMemberMULLION_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberMULLION"
+msgstr "Mullion"
+
+msgid "IfcMemberMULLION_DEFINITION"
+msgstr "Een lineair element in een gordijnen-muur systeem om twee (of meer) panelen te verbinden."
+
+msgid "IfcMemberPLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberPLATE"
+msgstr "Plaat"
+
+msgid "IfcMemberPLATE_DEFINITION"
+msgstr "Een lineair continu horizontaal element in wandframing, zoals een kopstuk of een enkele plaat."
+
+msgid "IfcMemberPOST_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberPOST"
+msgstr "Plaatsen"
+
+msgid "IfcMemberPOST_DEFINITION"
+msgstr "Een lineair (meestal verticaal) lid wordt gebruikt om iets te ondersteunen of een punt te markeren."
+
+msgid "IfcMemberPURLIN_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberPURLIN"
+msgstr "Zuiver"
+
+msgid "IfcMemberPURLIN_DEFINITION"
+msgstr "Een lineair element (meestal horizontaal gebruikt) binnen een dakstructuur om rafters te ondersteunen."
+
+msgid "IfcMemberRAFTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberRAFTER"
+msgstr "Zeldzame"
+
+msgid "IfcMemberRAFTER_DEFINITION"
+msgstr "Een lineaire elementen die gebruikt worden om dakplaten of dakdekking te ondersteunen, meestal gebruikt met helling."
+
+msgid "IfcMemberSTAY_CABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTAY_CABLE"
+msgstr "Blijf kabel"
+
+msgid "IfcMemberSTAY_CABLE_DEFINITION"
+msgstr "Een schuin element schort een structuur (zoals brugdek) van een pylon."
+
+msgid "IfcMemberSTIFFENING_RIB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTIFFENING_RIB"
+msgstr "Stiffening Rib"
+
+msgid "IfcMemberSTIFFENING_RIB_DEFINITION"
+msgstr "Een lineair element toegevoegd aan een flens of een webplaat van een meisje voor lokale stijf."
+
+msgid "IfcMemberSTRINGER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTRINGER"
+msgstr "Tekenreeks"
+
+msgid "IfcMemberSTRINGER_DEFINITION"
+msgstr "Een lineair element gebruikt om trap- of platformvluchten te ondersteunen, meestal gebruikt met helling."
+
+msgid "IfcMemberSTRUCTURALCABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTRUCTURALCABLE"
+msgstr "Structurele Kabel"
+
+msgid "IfcMemberSTRUCTURALCABLE_DEFINITION"
+msgstr "Een lineair kabelelement dat gebruikt wordt om een structuur te beveiligen of te stabiliseren door het laterale en longitudinale laden alleen door spanning te weerstaan, maar kan compressie niet weerstaan. meestal gevormd door een flexibele kabel of draad."
+
+msgid "IfcMemberSTRUT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTRUT"
+msgstr "Strut"
+
+msgid "IfcMemberSTRUT_DEFINITION"
+msgstr "Een lineair element vaak gebruikt in een meisje of snoepje."
+
+msgid "IfcMemberSTUD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSTUD"
+msgstr "Stud"
+
+msgid "IfcMemberSTUD_DEFINITION"
+msgstr "Verticaal element in muurframing."
+
+msgid "IfcMemberSUSPENDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSUSPENDER"
+msgstr "Opschorter"
+
+msgid "IfcMemberSUSPENDER_DEFINITION"
+msgstr "Een verticaal element schort een structuur (zoals brugdek) van een ophangkabel of een boog."
+
+msgid "IfcMemberSUSPENSION_CABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberSUSPENSION_CABLE"
+msgstr "Schorsing Kabel"
+
+msgid "IfcMemberSUSPENSION_CABLE_DEFINITION"
+msgstr "Een opgeschorte element, meestal bestaande stalen draad, sheath, enz."
+
+msgid "IfcMemberTIEBAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcMemberTIEBAR"
+msgstr "Tiebar"
+
+msgid "IfcMemberTIEBAR_DEFINITION"
+msgstr "Een lineair bar-element gebruikt om een structuur te beveiligen of te stabiliseren door lateraal en langzaam-laden te weerstaan door spanning en compressie. meestal gevormd door een vaste balk."
+
+msgid "IfcPlateBASE_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateBASE_PLATE"
+msgstr "Standaard plaat"
+
+msgid "IfcPlateBASE_PLATE_DEFINITION"
+msgstr "Een plaat dat gebruikt wordt om de belasting over een oppervlak te verspreiden, zoals onder een lager of kolom."
+
+msgid "IfcPlateCOVER_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateCOVER_PLATE"
+msgstr "Afdeksel plaat"
+
+msgid "IfcPlateCOVER_PLATE_DEFINITION"
+msgstr "Een plaat (onder of hoger) een flens om extra belastingscapaciteit te bieden."
+
+msgid "IfcPlateCURTAIN_PANEL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateCURTAIN_PANEL"
+msgstr "Gordijn Paneel"
+
+msgid "IfcPlateCURTAIN_PANEL_DEFINITION"
+msgstr "Een vlak element binnen een gordijn, vaak bestaat uit een frame met vaste glazing."
+
+msgid "IfcPlateFLANGE_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateFLANGE_PLATE"
+msgstr "Flange Plate"
+
+msgid "IfcPlateFLANGE_PLATE_DEFINITION"
+msgstr "Een flusplaat in lineaire leden met doos of I-profiel (bijv. boven of onderste flens plaat in doos-meisje)."
+
+msgid "IfcPlateGUSSET_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateGUSSET_PLATE"
+msgstr "Gussetten plaat"
+
+msgid "IfcPlateGUSSET_PLATE_DEFINITION"
+msgstr "een plaat of beugel voor het versterken van een hoek in het kader (zoals in een gebouw of een brug)."
+
+msgid "IfcPlateSHEET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateSHEET"
+msgstr "Plaat"
+
+msgid "IfcPlateSHEET_DEFINITION"
+msgstr "Een planeet, plat en dunne element, komt meestal als metalen vel, en wordt vaak als extra onderdeel binnen een assemblage gebruikt."
+
+msgid "IfcPlateSPLICE_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateSPLICE_PLATE"
+msgstr "Splits plaat"
+
+msgid "IfcPlateSPLICE_PLATE_DEFINITION"
+msgstr "Een plaat die twee leden verbindt aan het eind."
+
+msgid "IfcPlateSTIFFENER_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateSTIFFENER_PLATE"
+msgstr "Stiffener Plate"
+
+msgid "IfcPlateSTIFFENER_PLATE_DEFINITION"
+msgstr "Een transversale plaat toegevoegd aan een flens of een webplaat voor lokale stijf."
+
+msgid "IfcPlateWEB_PLATE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcPlateWEB_PLATE"
+msgstr "Web plaat"
+
+msgid "IfcPlateWEB_PLATE_DEFINITION"
+msgstr "Een plaat verbindingsende flens platen in lineaire leden met box of I-profiel."
+
+msgid "IfcRailingBALUSTRADE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailingBALUSTRADE"
+msgstr "alustrade"
+
+msgid "IfcRailingBALUSTRADE_DEFINITION"
+msgstr "Bewaking gelegen aan de rand van een vloer, en dan een trap of helling. Voorbeelden zijn balustrades op daken of balkon of langs een brug of bovenop een behoudende muur."
+
+msgid "IfcRailingFENCE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailingFENCE"
+msgstr "Hek"
+
+msgid "IfcRailingGUARDRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailingGUARDRAIL"
+msgstr "Bewaker Spoor"
+
+msgid "IfcRailingGUARDRAIL_DEFINITION"
+msgstr "Een type railing dat bedoeld is om mensen of autobewoners te beschermen tegen het vallen van een trap, helling of landing waar een verticale druppel aan de rand van dergelijke vloer/landingen ligt, of om terughoudendheid te bieden aan een verkapte wegvoer, die op het centrale reservaat of naast een weg wordt geplaatst."
+
+msgid "IfcRailingHANDRAIL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRailingHANDRAIL"
+msgstr "Hand Spoor"
+
+msgid "IfcRailingHANDRAIL_DEFINITION"
+msgstr "Een type railing ontworpen om te dienen als optionele structurele steun voor ladingen die worden toegepast door mensen (hoogte). Over het algemeen gelegen naast laadbruggen en trappen. Over het algemeen is de vloer of muur gemonteerd."
+
+msgid "IfcRampHALF_TURN_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampHALF_TURN_RAMP"
+msgstr "Halve Draai Helling"
+
+msgid "IfcRampHALF_TURN_RAMP_DEFINITION"
+msgstr "Een ramp met een 180 ° draai, bestaande uit twee rechte vluchten met elkaar verbonden; door een halflege landing. De oriëntatie van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcRampQUARTER_TURN_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampQUARTER_TURN_RAMP"
+msgstr "Kwartaal Draai Helling"
+
+msgid "IfcRampQUARTER_TURN_RAMP_DEFINITION"
+msgstr "Een ramp van 90° draad, bestaande uit twee rechte vluchten die zijn aangesloten; een kwart landing. De richting van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcRampSPIRAL_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampSPIRAL_RAMP"
+msgstr "Spiraal Helling"
+
+msgid "IfcRampSPIRAL_RAMP_DEFINITION"
+msgstr "Een helling gebouwd rond een circulaire of elliptische maar goed zonder newelen en; landingen."
+
+msgid "IfcRampSTRAIGHT_RUN_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampSTRAIGHT_RUN_RAMP"
+msgstr "Rechte Run Helling"
+
+msgid "IfcRampSTRAIGHT_RUN_RAMP_DEFINITION"
+msgstr "Een helling - een afnemende vloer, wandelen of wegen - die twee niveaus verbindt. De rechte rit bestaat uit één rechte vlucht zonder omslag of wind."
+
+msgid "IfcRampTWO_QUARTER_TURN_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampTWO_QUARTER_TURN_RAMP"
+msgstr "Twee kwartaal Draai Helling"
+
+msgid "IfcRampTWO_QUARTER_TURN_RAMP_DEFINITION"
+msgstr "Een ramp die een 180° draai maakt, bestaande uit drie rechte vluchten met elkaar verbonden; door twee kwart landingen. De richting van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcRampTWO_STRAIGHT_RUN_RAMP_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampTWO_STRAIGHT_RUN_RAMP"
+msgstr "Twee Rechte Run Ramp"
+
+msgid "IfcRampTWO_STRAIGHT_RUN_RAMP_DEFINITION"
+msgstr "Een rechte spoorlijn bestaande uit twee rechte vluchten die niet worden uitgevoerd maar met één en dezelfde landing."
+
+msgid "IfcRampFlightSPIRAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampFlightSPIRAL"
+msgstr "Spiraal"
+
+msgid "IfcRampFlightSPIRAL_DEFINITION"
+msgstr "Een platformvlucht met een circulaire of elliptische wandellijn."
+
+msgid "IfcRampFlightSTRAIGHT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRampFlightSTRAIGHT"
+msgstr "Recht"
+
+msgid "IfcRampFlightSTRAIGHT_DEFINITION"
+msgstr "Een platformvlucht met een rechte wandellijn."
+
+msgid "IfcRoofBARREL_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofBARREL_ROOF"
+msgstr "Tondak"
+
+msgid "IfcRoofBARREL_ROOF_DEFINITION"
+msgstr "Een dak of plafond met een semicylindrische vorm."
+
+msgid "IfcRoofBUTTERFLY_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofBUTTERFLY_ROOF"
+msgstr "Vlinderdak"
+
+msgid "IfcRoofBUTTERFLY_ROOF_DEFINITION"
+msgstr "Een dak met twee hellingen, elk aflopend naar binnen van de ooien."
+
+msgid "IfcRoofDOME_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofDOME_ROOF"
+msgstr "Koepeldak"
+
+msgid "IfcRoofDOME_ROOF_DEFINITION"
+msgstr "Een hemisfere heupdak."
+
+msgid "IfcRoofFLAT_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofFLAT_ROOF"
+msgstr "Plat dak"
+
+msgid "IfcRoofFLAT_ROOF_DEFINITION"
+msgstr "Een dak zonder helling, of een dak met slechts een kleine pitch om af te voeren; regenwater."
+
+msgid "IfcRoofFREEFORM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofFREEFORM"
+msgstr "Vrije vorm"
+
+msgid "IfcRoofFREEFORM_DEFINITION"
+msgstr "Gratis formulierdak."
+
+msgid "IfcRoofGABLE_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofGABLE_ROOF"
+msgstr "Zadeldak"
+
+msgid "IfcRoofGABLE_ROOF_DEFINITION"
+msgstr "Een dak dat in twee delen van de middenrijder neerwaarts afglijdt om zich te vormen, aan elke kant gelijmd."
+
+msgid "IfcRoofGAMBREL_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofGAMBREL_ROOF"
+msgstr "Gambrel dak"
+
+msgid "IfcRoofGAMBREL_ROOF_DEFINITION"
+msgstr "Een dak dat in twee delen van de middenrijder neerwaarts afglijdt om zich te vormen, aan elke kant gelijmd."
+
+msgid "IfcRoofHIPPED_GABLE_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofHIPPED_GABLE_ROOF"
+msgstr "Gelegen Dak"
+
+msgid "IfcRoofHIPPED_GABLE_ROOF_DEFINITION"
+msgstr "Een dak met een haastig einde trunceert een gabel."
+
+msgid "IfcRoofHIP_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofHIP_ROOF"
+msgstr "Schilddak"
+
+msgid "IfcRoofHIP_ROOF_DEFINITION"
+msgstr "Een dak waar eindjes en partijen elkaar ontmoeten op een schuin project; hoek."
+
+msgid "IfcRoofMANSARD_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofMANSARD_ROOF"
+msgstr "Mansardedak"
+
+msgid "IfcRoofMANSARD_ROOF_DEFINITION"
+msgstr "Een dak dat aan elke zijde een steeper lager deel en een ondiepe bovenzijde heeft; onderdeel"
+
+msgid "IfcRoofPAVILION_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofPAVILION_ROOF"
+msgstr "Gebintendak"
+
+msgid "IfcRoofPAVILION_ROOF_DEFINITION"
+msgstr "Een piramide heupdak."
+
+msgid "IfcRoofRAINBOW_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofRAINBOW_ROOF"
+msgstr "Golvend dak"
+
+msgid "IfcRoofRAINBOW_ROOF_DEFINITION"
+msgstr "Een gaaf in de vorm van een brede Gothische kunst, met zachtaardige convex; oppervlakten."
+
+msgid "IfcRoofSHED_ROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcRoofSHED_ROOF"
+msgstr "Zaagdak"
+
+msgid "IfcRoofSHED_ROOF_DEFINITION"
+msgstr "Een dak met één enkele helling."
+
+msgid "IfcShadingDeviceAWNING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcShadingDeviceAWNING"
+msgstr "Awning"
+
+msgid "IfcShadingDeviceAWNING_DEFINITION"
+msgstr "Een dakachtige schuilplaats van canvas of ander materiaal die zich over een deurweg uitstrekt, vanaf de bovenkant van een raam. over een dek of iets dergelijks, om bescherming te bieden vanaf de zon."
+
+msgid "IfcShadingDeviceJALOUSIE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcShadingDeviceJALOUSIE"
+msgstr "Jalousie"
+
+msgid "IfcShadingDeviceJALOUSIE_DEFINITION"
+msgstr "Een blinde met verstelbare horizontale slat om licht en lucht toe te laten met uitzondering van direct zon en regen."
+
+msgid "IfcShadingDeviceSHUTTER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcShadingDeviceSHUTTER"
+msgstr "Sluitertijd"
+
+msgid "IfcShadingDeviceSHUTTER_DEFINITION"
+msgstr "Een mechanisch apparaat dat de doorgang van licht beperkt. Vaak gebruikt als stevige, luidruchtige omslag voor een raam."
+
+msgid "IfcSlabAPPROACH_SLAB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabAPPROACH_SLAB"
+msgstr "Aanrijdplaat"
+
+msgid "IfcSlabAPPROACH_SLAB_DEFINITION"
+msgstr "Maakt deel uit van het landhoofd van de brug en vormt de overgang van het talud naar de brug"
+
+msgid "IfcSlabBASESLAB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabBASESLAB"
+msgstr "Funderingsplaat"
+
+msgid "IfcSlabBASESLAB_DEFINITION"
+msgstr "De plaat wordt gebruikt om een vloerplaat tegen de grond te vertegenwoordigen (en dus deel uit maakt van de fundering). Een andere naam is funderingsplaat of grondplaat."
+
+msgid "IfcSlabFLOOR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabFLOOR"
+msgstr "Vloer"
+
+msgid "IfcSlabFLOOR_DEFINITION"
+msgstr "De vloer wordt gebruikt om een vloerveld of een brugdek te vertegenwoordigen."
+
+msgid "IfcSlabLANDING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabLANDING"
+msgstr "Bordes"
+
+msgid "IfcSlabLANDING_DEFINITION"
+msgstr "De plaat wordt gebruikt als een bordes binnen een trap of helling."
+
+msgid "IfcSlabPAVING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabPAVING"
+msgstr "Bestrating"
+
+msgid "IfcSlabPAVING_DEFINITION"
+msgstr "Opsluitband van een wegvlak of andere bestratingsvlak (meestal beton)."
+
+msgid "IfcSlabROOF_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabROOF"
+msgstr "Dakvloer"
+
+msgid "IfcSlabROOF_DEFINITION"
+msgstr "De vloer wordt gebruikt om een dakvloer te vertegenwoordigen (hetzij vlak of hellingen)."
+
+msgid "IfcSlabSIDEWALK_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabSIDEWALK"
+msgstr "Trottoir"
+
+msgid "IfcSlabSIDEWALK_DEFINITION"
+msgstr "De plaat wordt gebruikt om een stokje te vertegenwoordigen."
+
+msgid "IfcSlabTRACKSLAB_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabTRACKSLAB"
+msgstr "Laboratorium voor tracks"
+
+msgid "IfcSlabTRACKSLAB_DEFINITION"
+msgstr "Een track plaat is een verstevigde betonnen plaat of voorgekleurde betonnen slaap, wat een belangrijk element is van een slabbetje. Het kan worden voorfabriceerd of ingericht op de site en er kunnen slapen zijn ingesloten."
+
+msgid "IfcSlabWEARING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcSlabWEARING"
+msgstr "Deklaag"
+
+msgid "IfcSlabWEARING_DEFINITION"
+msgstr "De plaat wordt gebruikt om een drager oppervlak te vertegenwoordigen."
+
+msgid "IfcStairCURVED_RUN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairCURVED_RUN_STAIR"
+msgstr "Gebogen trap"
+
+msgid "IfcStairCURVED_RUN_STAIR_DEFINITION"
+msgstr "Een trap van het ene niveau naar het andere zonder bochten of winders. De trap bestaat uit een gebogen vlucht."
+
+msgid "IfcStairDOUBLE_RETURN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairDOUBLE_RETURN_STAIR"
+msgstr "Dubbele bordestrap"
+
+msgid "IfcStairDOUBLE_RETURN_STAIR_DEFINITION"
+msgstr "Een trap met één rechte vlucht naar een wijde kwart landing, en twee zijvluchten van die landing in tegengestelde richting. De trap maakt 90° draai. De richting van het verkeer wordt bepaald door de looplijn."
+
+msgid "IfcStairHALF_TURN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairHALF_TURN_STAIR"
+msgstr "Halve wenteltrap"
+
+msgid "IfcStairHALF_TURN_STAIR_DEFINITION"
+msgstr "Een trap die een 180 graden maakt, bestaande uit twee rechte vluchten verbonden met een halflege landing. De oriëntatie van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcStairHALF_WINDING_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairHALF_WINDING_STAIR"
+msgstr "Trap met 2 kwartslagen"
+
+msgid "IfcStairHALF_WINDING_STAIR_DEFINITION"
+msgstr "Een trap bestaande uit één vlucht met een halve winder, wat een draai van 180° maakt. De oriëntatie van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcStairLADDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairLADDER"
+msgstr "ladder"
+
+msgid "IfcStairLADDER_DEFINITION"
+msgstr "een uitrusting bestaande uit een reeks tralies of stappen tussen twee upright elementen, gebruikt om iets omhoog of omlaag te klimmen"
+
+msgid "IfcStairQUARTER_TURN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairQUARTER_TURN_STAIR"
+msgstr "Kwartierse Draai trap"
+
+msgid "IfcStairQUARTER_TURN_STAIR_DEFINITION"
+msgstr "Een trap die een draai van 90 graden maakt, bestaande uit twee rechte vluchten verbonden door een kwart landing. De richting van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcStairQUARTER_WINDING_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairQUARTER_WINDING_STAIR"
+msgstr "Trap kwartslag"
+
+msgid "IfcStairQUARTER_WINDING_STAIR_DEFINITION"
+msgstr "Een trap bestaande uit één vlucht met een kwart winder, wat een draai van 90° maakt. De richting van de beurt wordt bepaald door de looplijn."
+
+msgid "IfcStairSPIRAL_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairSPIRAL_STAIR"
+msgstr "Wenteltrap"
+
+msgid "IfcStairSPIRAL_STAIR_DEFINITION"
+msgstr "Een trap gebouwd met winders rond een cirkelvormige handdoek vaak zonder landing. Afhankelijk van de buitengrens kan het een circulaire, elliptische of rechthoekige wandeltrap zijn. De oriëntatie van de wikkeltrap wordt bepaald door de looplijn."
+
+msgid "IfcStairSTRAIGHT_RUN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairSTRAIGHT_RUN_STAIR"
+msgstr "Steektrap"
+
+msgid "IfcStairSTRAIGHT_RUN_STAIR_DEFINITION"
+msgstr "Een trap van het ene niveau naar het andere zonder bochten of winders. De trap bestaat uit één rechte vlucht."
+
+msgid "IfcStairTHREE_QUARTER_TURN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTHREE_QUARTER_TURN_STAIR"
+msgstr "Trap met 3 kwarten"
+
+msgid "IfcStairTHREE_QUARTER_TURN_STAIR_DEFINITION"
+msgstr "Een trap van 270° draad, bestaande uit vier rechte vluchten zijn met elkaar verbonden; met drie kwartaallandingen. De richting van de draai wordt bepaald door de looplijn."
+
+msgid "IfcStairTHREE_QUARTER_WINDING_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTHREE_QUARTER_WINDING_STAIR"
+msgstr "Drie kwarts wenteltrap"
+
+msgid "IfcStairTHREE_QUARTER_WINDING_STAIR_DEFINITION"
+msgstr "Een trap bestaande uit één vlucht met drie winnaars van drie, waardoor er 90° komt. De trap maakt een 270° draad. De richting van de bochten wordt bepaald door de looplijn."
+
+msgid "IfcStairTWO_CURVED_RUN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTWO_CURVED_RUN_STAIR"
+msgstr "Twee Gebogen Run Trap"
+
+msgid "IfcStairTWO_CURVED_RUN_STAIR_DEFINITION"
+msgstr "Een gebogen trap bestaande uit twee gebogen vluchten zonder bochten maar met één landing."
+
+msgid "IfcStairTWO_QUARTER_TURN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTWO_QUARTER_TURN_STAIR"
+msgstr "Twee kwartier Draai trap"
+
+msgid "IfcStairTWO_QUARTER_TURN_STAIR_DEFINITION"
+msgstr "Een trap die een 180° draai maakt, bestaande uit drie rechte vluchten verbonden door twee kwartruimtelandingen. De richting van de draai wordt bepaald door de looplijn."
+
+msgid "IfcStairTWO_QUARTER_WINDING_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTWO_QUARTER_WINDING_STAIR"
+msgstr "Twee kwartaal Wind Ing Stair"
+
+msgid "IfcStairTWO_QUARTER_WINDING_STAIR_DEFINITION"
+msgstr "Een trap bestaande uit één vlucht met twee winnaars van kwart en die zorgt voor 90°. De trap maakt een draai van 180° af. De richting van de bochten wordt bepaald door de looplijn."
+
+msgid "IfcStairTWO_STRAIGHT_RUN_STAIR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairTWO_STRAIGHT_RUN_STAIR"
+msgstr "Twee Rechte Run Trap"
+
+msgid "IfcStairTWO_STRAIGHT_RUN_STAIR_DEFINITION"
+msgstr "Een rechte trap bestaande uit twee rechte vluchten zonder botsing, maar met één landing."
+
+msgid "IfcStairFlightCURVED_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairFlightCURVED"
+msgstr "Gebogen"
+
+msgid "IfcStairFlightCURVED_DEFINITION"
+msgstr "Een trap vliegt met een gebogen wandellijn."
+
+msgid "IfcStairFlightFREEFORM_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairFlightFREEFORM"
+msgstr "Vrije vorm"
+
+msgid "IfcStairFlightFREEFORM_DEFINITION"
+msgstr "Een traptreden vlucht met een vrije looplijn (en buitengrenzen)."
+
+msgid "IfcStairFlightSPIRAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairFlightSPIRAL"
+msgstr "Spiraal"
+
+msgid "IfcStairFlightSPIRAL_DEFINITION"
+msgstr "Een trap vliegt met een circulaire of elliptische looplijn."
+
+msgid "IfcStairFlightSTRAIGHT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairFlightSTRAIGHT"
+msgstr "Recht"
+
+msgid "IfcStairFlightSTRAIGHT_DEFINITION"
+msgstr "Een trap vliegt met een rechte wandellijn."
+
+msgid "IfcStairFlightWINDER_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcStairFlightWINDER"
+msgstr "Winder"
+
+msgid "IfcStairFlightWINDER_DEFINITION"
+msgstr "Een trap vliegt met een wandellijn, inclusief rechte en gebogen secties."
+
+msgid "IfcWallELEMENTEDWALL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallELEMENTEDWALL"
+msgstr "Element muur"
+
+msgid "IfcWallELEMENTEDWALL_DEFINITION"
+msgstr "Een framewerk van staanders en liggers afgewerkt met plaatmateriaal, beschot of pleisterwerk."
+
+msgid "IfcWallMOVABLE_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallMOVABLE"
+msgstr "Verplaatsbaar"
+
+msgid "IfcWallMOVABLE_DEFINITION"
+msgstr "Een beweegbare muur die beweegbaar is, zoals vouwmuur of een glijdende muur, of kan gemakkelijk worden verwijderd als een muur van partitionering of montage. Bewegende muren bepalen normaal gesproken geen ruimtegrenzen en horen vaak tot het meubelsysteem."
+
+msgid "IfcWallPARAPET_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallPARAPET"
+msgstr "Borstwering"
+
+msgid "IfcWallPARAPET_DEFINITION"
+msgstr "Een muur-achtige barrière om mensen of voertuigen te beschermen tegen vallen of om de verspreiding van branden te voorkomen. Vaak ontworpen aan de rand van balkon of terras, daken, of langs randen van bruggen."
+
+msgid "IfcWallPARTITIONING_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallPARTITIONING"
+msgstr "Indeling"
+
+msgid "IfcWallPARTITIONING_DEFINITION"
+msgstr "Een muur ontworpen voor indeling van ruimtes die vaak een lichtgewicht, sandwich-achtige constructie hebben (bijv. door gebruik te maken van board). Lichte scheidingswanden zijn normaal gesproken niet dragend."
+
+msgid "IfcWallPLUMBINGWALL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallPLUMBINGWALL"
+msgstr "Voorzetwand"
+
+msgid "IfcWallPLUMBINGWALL_DEFINITION"
+msgstr "Een pier, behuizing of behuizing, die normaal gesproken wordt gebruikt voor de bedekking in sanitaire kamers. Dergelijke muren reiken vaak niet tot het plafond."
+
+msgid "IfcWallPOLYGONAL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallPOLYGONAL"
+msgstr "Polygonal"
+
+msgid "IfcWallPOLYGONAL_DEFINITION"
+msgstr "Een veelhoekige muur, die verticaal wordt uitgevlakt, waar de wanddikte varieert langs het wandpad."
+
+msgid "IfcWallRETAININGWALL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallRETAININGWALL"
+msgstr "Keerwand"
+
+msgid "IfcWallRETAININGWALL_DEFINITION"
+msgstr "Een ondersteunende muur die gebruikt wordt om te beschermen tegen bodemlagen achteraan. Speciale types van een behoudende muur kunnen bijvoorbeeld zijn Gabion muur en GRIB-muur. Voorbeelden van het bewaren van muren zijn vleugel, hoofdmuur, stakingsmuur en bescherming van muur."
+
+msgid "IfcWallSHEAR_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallSHEAR"
+msgstr "Schoor"
+
+msgid "IfcWallSHEAR_DEFINITION"
+msgstr "Een wand ontworpen om dwars belastingen te weerstaan. Voorbeelden van schoorwanden zijn diafragma in een doos, meestal op een peiler, om laterale krachten tegen te gaan en ze naar de steun over te brengen."
+
+msgid "IfcWallSOLIDWALL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallSOLIDWALL"
+msgstr "Massieve Wand"
+
+msgid "IfcWallSOLIDWALL_DEFINITION"
+msgstr "Een massieve wand constructie waarbij de opbouw in een enkele laag of meerdere lagen is opgebouwd. Zulke wanden zijn vaak gemetselde of betonnen wanden (beide in-situ of prefab) die constructief zijn en brandbescherming bieden."
+
+msgid "IfcWallSTANDARD_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallSTANDARD"
+msgstr "Standaard"
+
+msgid "IfcWallSTANDARD_DEFINITION"
+msgstr "Een standaard muur, verticaal opgetrokken met een constante dikte langs een lijn.;"
+
+msgid "IfcWallWAVEWALL_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWallWAVEWALL"
+msgstr "Golf breker"
+
+msgid "IfcWallWAVEWALL_DEFINITION"
+msgstr "Beschermende wand of scherm om overstroming en impact van golven te blokkeren"
+
+msgid "IfcWindowLIGHTDOME_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWindowLIGHTDOME"
+msgstr "Lichtkoepel"
+
+msgid "IfcWindowLIGHTDOME_DEFINITION"
+msgstr "Een speciaal venster dat horizontaal in een dak slabbetopening staat."
+
+msgid "IfcWindowSKYLIGHT_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWindowSKYLIGHT"
+msgstr "Dakraam"
+
+msgid "IfcWindowSKYLIGHT_DEFINITION"
+msgstr "Een venster binnen een schuin gebouwelement, meestal een slabbetje."
+
+msgid "IfcWindowWINDOW_DESCRIPTION"
+msgstr "Technische opmerking: Omdat deze les een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
+
+msgid "IfcWindowWINDOW"
+msgstr "Raam"
+
+msgid "IfcWindowWINDOW_DEFINITION"
+msgstr "Een standaard venster meestal binnen een muur, als een venster in een gordijnmand, of als een 'vrije stand' venster."
+
