@@ -2632,7 +2632,7 @@ msgid "IfcAlarmBELL_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcAlarmBELL"
-msgstr "Bel"
+msgstr "Schel"
 
 msgid "IfcAlarmBELL_DEFINITION"
 msgstr "Een hoorbaar alarm."
@@ -2839,7 +2839,7 @@ msgid "IfcSensorCO2SENSOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSensorCO2SENSOR"
-msgstr "CO2-sensor"
+msgstr "Co2-sensor"
 
 msgid "IfcSensorCO2SENSOR_DEFINITION"
 msgstr "Een apparaat dat kooldioxide detecteert of detecteert."
@@ -2884,7 +2884,7 @@ msgid "IfcSensorFIRESENSOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSensorFIRESENSOR"
-msgstr "Ontsla sensor"
+msgstr "Brandmelder"
 
 msgid "IfcSensorFIRESENSOR_DEFINITION"
 msgstr "Een apparaat dat vuur detecteert of detecteert"
@@ -2974,7 +2974,7 @@ msgid "IfcSensorLIGHTSENSOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSensorLIGHTSENSOR"
-msgstr "Lichte Sensor"
+msgstr "Lichtsensor"
 
 msgid "IfcSensorLIGHTSENSOR_DEFINITION"
 msgstr "Een apparaat dat licht detecteert of sensor."
@@ -2992,7 +2992,7 @@ msgid "IfcSensorMOVEMENTSENSOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSensorMOVEMENTSENSOR"
-msgstr "Beweging Sensor"
+msgstr "Bewegingssensor"
 
 msgid "IfcSensorMOVEMENTSENSOR_DEFINITION"
 msgstr "Een apparaat dat beweging senseert of detecteert."
@@ -3082,7 +3082,7 @@ msgid "IfcSensorTEMPERATURESENSOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSensorTEMPERATURESENSOR"
-msgstr "Temperatuur Sensor"
+msgstr "Temperatuursensor"
 
 msgid "IfcSensorTEMPERATURESENSOR_DEFINITION"
 msgstr "Een apparaat dat de temperatuur voelt of detecteert."

@@ -133,7 +133,7 @@ msgid "SoundCurve_DESCRIPTION"
 msgstr "Technische opmerking: dit is een specifieke eigenschap van IFC die een tabel als waarde heeft. Die tabel heeft twee kolommen (lijsten), een met definities en een voor gedefinieerde waarden. Lees de IFC-documentatie voor meer informatie."
 
 msgid "IfcCableCarrierFitting"
-msgstr "Kabel Drager Fitten"
+msgstr "Kabeldrager koppelstuk"
 
 msgid "IfcCableCarrierFitting_DEFINITION"
 msgstr "Een kabeldrager is een pasvorm die op een kruispunt of overgang in een kabelvervoersysteem wordt geplaatst."
@@ -151,7 +151,7 @@ msgid "Qto_CableCarrierFittingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van kabeltransporteur."
 
 msgid "IfcCableCarrierSegment"
-msgstr "Kabel vervoerder Segment"
+msgstr "Kabeldrager segment"
 
 msgid "IfcCableCarrierSegment_DEFINITION"
 msgstr "Een kabelbaan is een stroomsegment dat specifiek wordt gebruikt om kabels te dragen en te ondersteunen."
@@ -199,7 +199,7 @@ msgid "NumberOfCrossedTracks_DEFINITION"
 msgstr "Aantal tracks gekruist op kabelroute."
 
 msgid "IfcCableFitting"
-msgstr "Kabel Aanpassen"
+msgstr "Kabel koppelstuk"
 
 msgid "IfcCableFitting_DEFINITION"
 msgstr "Een kabelaansluiting is een pasvorm die op een kruispunt, overgang of beëindiging in een kabelsysteem staat."
@@ -295,7 +295,7 @@ msgid "NominalDiameter_DEFINITION"
 msgstr "Nominale diameter of breedte van het object."
 
 msgid "IfcCableSegment"
-msgstr "Kabel segment"
+msgstr "Kabel"
 
 msgid "IfcCableSegment_DEFINITION"
 msgstr "Een kabelsegment is een stroomsegment dat gebruikt wordt voor het dragen van elektriciteit, data of telecommunicatiesignalen."
@@ -1261,7 +1261,7 @@ msgid "Qto_MotorConnectionBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van motorverbinding."
 
 msgid "IfcOutlet"
-msgstr "Uitvoer"
+msgstr "Contactdoos"
 
 msgid "IfcOutlet_DEFINITION"
 msgstr "Een uitlaat is op een punt geïnstalleerd om één of meer aangesloten stekkers te ontvangen voor stroom of communicatie."
@@ -2053,7 +2053,7 @@ msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT"
-msgstr "Kabel ladder Segment"
+msgstr "Kabelladder"
 
 msgid "IfcCableCarrierSegmentCABLELADDERSEGMENT_DEFINITION"
 msgstr "Een open vervoerderssegment waarop kabels worden gedragen op een ladderstructuur."
@@ -2062,7 +2062,7 @@ msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT"
-msgstr "Kabel Tray Segment"
+msgstr "Kabelgoot"
 
 msgid "IfcCableCarrierSegmentCABLETRAYSEGMENT_DEFINITION"
 msgstr "Een (typisch) open vervoerderssegment waarop kabels worden geplaatst."
@@ -2089,7 +2089,7 @@ msgid "IfcCableCarrierSegmentCONDUITSEGMENT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcCableCarrierSegmentCONDUITSEGMENT"
-msgstr "Leiding segment"
+msgstr "Mantelbuis"
 
 msgid "IfcCableCarrierSegmentCONDUITSEGMENT_DEFINITION"
 msgstr "Een gesloten tubulaire drager segment door welke kabels worden gesleept."
@@ -3142,7 +3142,7 @@ msgid "IfcOutletDATAOUTLET_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcOutletDATAOUTLET"
-msgstr "Data Uitlaat"
+msgstr "Netwerkaansluitdoos"
 
 msgid "IfcOutletDATAOUTLET_DEFINITION"
 msgstr "Een uitlaat die gebruikt wordt voor het aansluiten van gegevensverbinding."
@@ -3295,7 +3295,7 @@ msgid "IfcSolarDeviceSOLARCOLLECTOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSolarDeviceSOLARCOLLECTOR"
-msgstr "Zonne-verzamelaar"
+msgstr "Zonneboiler"
 
 msgid "IfcSolarDeviceSOLARCOLLECTOR_DEFINITION"
 msgstr "Een apparaat dat zonnestraling converteert naar thermische energie (verwarming water, enz.)."
@@ -3322,7 +3322,7 @@ msgid "IfcSwitchingDeviceDIMMERSWITCH_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSwitchingDeviceDIMMERSWITCH"
-msgstr "Dimmer schakelaar"
+msgstr "Dimmer"
 
 msgid "IfcSwitchingDeviceDIMMERSWITCH_DEFINITION"
 msgstr "Een dimmer schakelaar heeft variabele posities en kan elektriciteit of andere instellingen aanpassen (volgens het geschakelde poorttype)."
@@ -3349,7 +3349,7 @@ msgid "IfcSwitchingDeviceMOMENTARYSWITCH_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSwitchingDeviceMOMENTARYSWITCH"
-msgstr "Momentaire schakelaar"
+msgstr "Pulsschakelaar"
 
 msgid "IfcSwitchingDeviceMOMENTARYSWITCH_DEFINITION"
 msgstr "Een momentschakelaar heeft geen positie, en kan sommige actie activeren."
@@ -3403,7 +3403,7 @@ msgid "IfcSwitchingDeviceTOGGLESWITCH_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSwitchingDeviceTOGGLESWITCH"
-msgstr "Schakelaar wisselen"
+msgstr "Schakelaar"
 
 msgid "IfcSwitchingDeviceTOGGLESWITCH_DEFINITION"
 msgstr "Een schakelschakelaar heeft twee posities en kan elektrische of andere instellingen in- of isoleren (volgens het geschakelde poorttype)."

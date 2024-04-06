@@ -16,7 +16,7 @@ msgstr ""
 "PO-Revision-Date: 2024-04-05 11:37\n"
 
 msgid "IfcFireSuppressionTerminal"
-msgstr "Brandbestrijdingsterminal"
+msgstr "Brandblusser"
 
 msgid "IfcFireSuppressionTerminal_DEFINITION"
 msgstr "Een brandbestrijdingsterminal heeft als doel om een vloeistof (gas of liquid) te leveren die een vuur onderdrukt."
@@ -100,7 +100,7 @@ msgid "Qto_InterceptorBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle voorvallen van onderschepper."
 
 msgid "IfcSanitaryTerminal"
-msgstr "Sanitaire Terminal"
+msgstr "Sanitair"
 
 msgid "IfcSanitaryTerminal_DEFINITION"
 msgstr "Een sanitaire terminal is een vaste appartement of terminal die meestal wordt geleverd met water en wordt gebruikt om te drinken. schoonmaken of het vernietigen van water of dat is een uitrusting die direct wordt gebruikt met een dergelijk apparaat of terminal."
@@ -166,7 +166,7 @@ msgid "IfcFireSuppressionTerminalFIREHYDRANT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcFireSuppressionTerminalFIREHYDRANT"
-msgstr "Vuur Hydrant"
+msgstr "Brandkraan"
 
 msgid "IfcFireSuppressionTerminalFIREHYDRANT_DEFINITION"
 msgstr "Apparaat, gemonteerd op een pijp, waarmee een tijdelijke watertoevoer kan worden geleverd. Meestal wordt een staande pijp genoemd."
@@ -184,7 +184,7 @@ msgid "IfcFireSuppressionTerminalHOSEREEL_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcFireSuppressionTerminalHOSEREEL"
-msgstr "Hees Seel"
+msgstr "Brandslanghaspel"
 
 msgid "IfcFireSuppressionTerminalHOSEREEL_DEFINITION"
 msgstr "Een ondersteunend kader waarbinnen een gat kan worden gevloeid."
@@ -247,7 +247,7 @@ msgid "IfcSanitaryTerminalBATH_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalBATH"
-msgstr "Pad"
+msgstr "Bad"
 
 msgid "IfcSanitaryTerminalBATH_DEFINITION"
 msgstr "Voor een Sanitair apparaat of voor delen van het menselijk lichaam."
@@ -292,7 +292,7 @@ msgid "IfcSanitaryTerminalSINK_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalSINK"
-msgstr "Zaak"
+msgstr "Spoelbak"
 
 msgid "IfcSanitaryTerminalSINK_DEFINITION"
 msgstr "Stortingswater gebruiken om vloeistoffen in huishoudelijke, culinaire, laboratorium- of industriële processen te ontvangen, te behouden of te verwijderen."
@@ -301,7 +301,7 @@ msgid "IfcSanitaryTerminalTOILETPAN_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalTOILETPAN"
-msgstr "Toilet Huisdier"
+msgstr "Toiletpot"
 
 msgid "IfcSanitaryTerminalTOILETPAN_DEFINITION"
 msgstr "bodemtoepassing om uitwerpselen te verwijderen."
@@ -310,7 +310,7 @@ msgid "IfcSanitaryTerminalURINAL_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalURINAL"
-msgstr "Urinaal"
+msgstr "Urinoir"
 
 msgid "IfcSanitaryTerminalURINAL_DEFINITION"
 msgstr "Bodems die urine krijgen en naar een afvalbak leiden."
@@ -319,7 +319,7 @@ msgid "IfcSanitaryTerminalWASHHANDBASIN_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalWASHHANDBASIN"
-msgstr "Washand Behoort"
+msgstr "Fontein"
 
 msgid "IfcSanitaryTerminalWASHHANDBASIN_DEFINITION"
 msgstr "Stort water voor het wassen van de bovenste delen van het lichaam."
@@ -328,7 +328,7 @@ msgid "IfcSanitaryTerminalWCSEAT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSanitaryTerminalWCSEAT"
-msgstr "Wc Seat"
+msgstr "Toiletbril"
 
 msgid "IfcSanitaryTerminalWCSEAT_DEFINITION"
 msgstr "Verouderd vastplaats dat op de bovenkant van een waterkast (WC) paneel past."

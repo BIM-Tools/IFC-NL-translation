@@ -16,7 +16,7 @@ msgstr ""
 "PO-Revision-Date: 2024-04-05 11:37\n"
 
 msgid "IfcAirTerminal"
-msgstr "Lucht terminal"
+msgstr "Ventilatieopening"
 
 msgid "IfcAirTerminal_DEFINITION"
 msgstr "Een luchtterminal is een eindpunt of origineel punt voor het overbrengen van lucht tussen distributiesysteem en een of meer ruimten. Het kan ook worden gebruikt voor het overbrengen van lucht tussen aangrenzende ruimten."
@@ -505,7 +505,7 @@ msgid "TotalSurfaceArea_DEFINITION"
 msgstr "Totaal oppervlak van het element."
 
 msgid "IfcAirTerminalBox"
-msgstr "Lucht terminal doos"
+msgstr "Ventilatieunit"
 
 msgid "IfcAirTerminalBox_DEFINITION"
 msgstr "Een luchtterminalbox neemt doorgaans deel aan een HVAC kanaal distributie systeem en wordt gebruikt om de hoeveelheid lucht geleverd in de stroomafwaarts gelegen ductwork te beheren of aan te passen. Een air terminaltype wordt vaak aangeduid als een 'air flow regulator'."
@@ -3751,7 +3751,7 @@ msgid "Pset_MedicalDeviceTypeCommon_DEFINITION"
 msgstr "Medisch apparaat type veelvoorkomende attributen."
 
 msgid "IfcPipeFitting"
-msgstr "Pijp Fitting"
+msgstr "Leiding koppelstuk"
 
 msgid "IfcPipeFitting_DEFINITION"
 msgstr "Een buisfit is een kruispunt of overgang in een buisstroomdistributiesysteem dat wordt gebruikt om buissegmenten te verbinden, resulteert in veranderingen in stroomkenmerken van de vloeistof zoals richting of stroomsnelheid."
@@ -3796,7 +3796,7 @@ msgid "Qto_PipeFittingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die gemeenschappelijk zijn met de definitie van alle soorten en voorvallen van buisaanpassingen."
 
 msgid "IfcPipeSegment"
-msgstr "Pijp Segment"
+msgstr "Leidingsegment"
 
 msgid "IfcPipeSegment_DEFINITION"
 msgstr "Een buissegment wordt gebruikt om meestal aan twee delen van een leidingnetwerk deel te nemen."
@@ -4945,7 +4945,7 @@ msgid "IfcAirTerminalGRILLE_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcAirTerminalGRILLE"
-msgstr "Grille"
+msgstr "Ventilatierooster"
 
 msgid "IfcAirTerminalGRILLE_DEFINITION"
 msgstr "Een dekking voor elk gebied waar de lucht doorstroomt."
@@ -5089,7 +5089,7 @@ msgid "IfcBoilerWATER_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcBoilerWATER"
-msgstr "Water"
+msgstr "Boiler"
 
 msgid "IfcBoilerWATER_DEFINITION"
 msgstr "[[Water]] cv-ketel."
@@ -6196,7 +6196,7 @@ msgid "IfcPipeSegmentCULVERT_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcPipeSegmentCULVERT"
-msgstr "Culvert"
+msgstr "Duiker"
 
 msgid "IfcPipeSegmentCULVERT_DEFINITION"
 msgstr "Een bedekte kanaal of grote pijp die een waterkoers onder de grond vormt, meestal onder een weg of spoor."
@@ -6214,7 +6214,7 @@ msgid "IfcPipeSegmentGUTTER_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcPipeSegmentGUTTER"
-msgstr "Gutter"
+msgstr "Goot"
 
 msgid "IfcPipeSegmentGUTTER_DEFINITION"
 msgstr "Een gutter segment is een continu open-kanaal segment van de buis."
@@ -6313,7 +6313,7 @@ msgid "IfcSpaceHeaterRADIATOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcSpaceHeaterRADIATOR"
-msgstr "Radiatorkraan"
+msgstr "Radiator"
 
 msgid "IfcSpaceHeaterRADIATOR_DEFINITION"
 msgstr "Een warmteverdelende eenheid die werkt met thermische straling."

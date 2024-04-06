@@ -34,7 +34,7 @@ msgid "IfcDeepFoundation_DEFINITION"
 msgstr "Diepe fundering is een type stichting die meer belasting overbrengt dan ondiep fundament onder de zachte grond die de bovenstaande structuur niet kan dragen. Afhankelijk van de bodemsterkte kan het naar beneden naar de steenlaag moeten komen."
 
 msgid "IfcFooting"
-msgstr "Voetstukken"
+msgstr "Fundering"
 
 msgid "IfcFooting_DEFINITION"
 msgstr "Een ondergrond is onderdeel van het fundament van een structuur die de lading verspreidt en doorstuurt naar de grond. Een basis wordt ook gekarakteriseerd als een ondiep fundament, waar de lasten worden overgebracht naar de grond aan de oppervlak."
@@ -100,7 +100,7 @@ msgid "Qto_FootingBaseQuantities_DEFINITION"
 msgstr "Basishoeveelheden die overeenkomen met de definitie van alle voorvallen van voeten."
 
 msgid "IfcPile"
-msgstr "Hoop"
+msgstr "Paal"
 
 msgid "IfcPile_DEFINITION"
 msgstr "Een stapel is een slordig hout, beton of staal structureel element, gedroogd, gejeted, of anders ingesloten op de grond om een lading te ondersteunen. Een stapel is ook een diepe basis, waar de lasten worden overgebracht naar diepere ondergrondse lagen."
@@ -352,7 +352,7 @@ msgid "IfcFootingFOOTING_BEAM_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcFootingFOOTING_BEAM"
-msgstr "Footing Straal"
+msgstr "Funderingsbalk"
 
 msgid "IfcFootingFOOTING_BEAM_DEFINITION"
 msgstr "Het eten van elementen die in buiging zijn en niet beschikbaar zijn over de grond. Ze zullen normaal gesproken tussen pieren, stapels of stapelcaps lopen. Ze onderscheiden zich van balken in de superstructuur van het gebouw, omdat ze normaal gesproken een lager niveau van afwerking nodig hebben. Ze onderscheiden zich van STRIP_FOOTING omdat ze buiten de grond liggen en daarom steun nodig hebben voor de onderste geest, terwijl het beton wordt gereden."
@@ -379,7 +379,7 @@ msgid "IfcFootingSTRIP_FOOTING_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcFootingSTRIP_FOOTING"
-msgstr "Strip Footing"
+msgstr "Funderingsstrook"
 
 msgid "IfcFootingSTRIP_FOOTING_DEFINITION"
 msgstr "Een lineair element dat lasten in de grond overdraagt van een continu element, zoals een muur of een reeks elementen, zoals kolommen."
@@ -388,7 +388,7 @@ msgid "IfcPileBORED_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcPileBORED"
-msgstr "Vervelen"
+msgstr "Boorpaal"
 
 msgid "IfcPileBORED_DEFINITION"
 msgstr "Een saaie stapel."
@@ -406,7 +406,7 @@ msgid "IfcPileDRIVEN_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcPileDRIVEN"
-msgstr "Gedroogd"
+msgstr "Heipaal"
 
 msgid "IfcPileDRIVEN_DEFINITION"
 msgstr "Een gerauwde, trilde of anderszins geduwde stapel."
@@ -424,7 +424,7 @@ msgid "IfcPileJETGROUTING_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcPileJETGROUTING"
-msgstr "Jetgrouting"
+msgstr "Groutanker"
 
 msgid "IfcPileJETGROUTING_DEFINITION"
 msgstr "Een geïnjecteerde pile-achtige constructie."

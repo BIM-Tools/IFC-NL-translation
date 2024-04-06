@@ -772,7 +772,7 @@ msgid "IfcElement_DEFINITION"
 msgstr "Een element is een generalisatie van alle componenten die een faciliteit vormen."
 
 msgid "IfcElementAssembly"
-msgstr "Element Assembly"
+msgstr "Samengesteld element"
 
 msgid "IfcElementAssembly_DEFINITION"
 msgstr "De [[IfcElementAssembly]] staat voor complexe elementen samengevoegd uit verschillende elementen, zoals discrete elementen, bouwelementen, of andere elementen."
@@ -970,7 +970,7 @@ msgid "Station_DEFINITION"
 msgstr "De stationswaarde op deze locatie."
 
 msgid "IfcSite"
-msgstr "Website"
+msgstr "Terrein"
 
 msgid "IfcSite_DEFINITION"
 msgstr "Een bouwterrein is een afgebakend gebied met water waarop de bouw van het project voltooid moet worden. Een site kan worden gebruikt voor het bouwen, retrofit of omdraaien van gebouw(en), of voor andere bouwgerelateerde ontwikkelingen."
@@ -1180,7 +1180,7 @@ msgid "CapacityWeight_DEFINITION"
 msgstr "[[Capacity]] van het transportelement gemeten naar gewicht."
 
 msgid "IfcTransportElement"
-msgstr "Transport element"
+msgstr "Transportelement"
 
 msgid "IfcTransportElement_DEFINITION"
 msgstr "Een vervoerselement is een algemene toepassing van alle vervoergerelateerde voorwerpen die mensen, dieren of goederen binnen de faciliteit verplaatsen. De [[IfcTransportElement]] definieert de aanwezigheid van een vervoerselement dat (indien gegeven) wordt uitgedrukt door het IfcTransportElementtype."
@@ -1954,7 +1954,7 @@ msgid "IfcGeographicElementVEGETATION_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcGeographicElementVEGETATION"
-msgstr "Vegetatie"
+msgstr "Beplanting"
 
 msgid "IfcGeographicElementVEGETATION_DEFINITION"
 msgstr "Plant- of plantenafdekking (vanaf een gebied). Bijvoorbeeld: bomen, klachten, kruiden, verven en moses."
@@ -2320,7 +2320,7 @@ msgid "IfcTransportElementESCALATOR_DESCRIPTION"
 msgstr "Technische opmerking: Omdat deze klasse een 'Vooraf gedefinieerd Type' is in IFC, wat een specialisatie van de bovenliggende klasse betekent, in IFC moet het worden vertegenwoordigd door de bovenliggende klasse, met alle relevante eigenschappen en kenmerken."
 
 msgid "IfcTransportElementESCALATOR"
-msgstr "Escalator"
+msgstr "Roltrap"
 
 msgid "IfcTransportElementESCALATOR_DEFINITION"
 msgstr "Escalator is een transportmiddel om mensen te verplaatsen. Het bestaat uit individuele gekoppelde stappen die omhoog en omlaag bewegen op het spoor terwijl de threads horizontaal blijven."
