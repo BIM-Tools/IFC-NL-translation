@@ -10,7 +10,7 @@ FIELDS = ['Code', 'Entity', 'PredefinedType', 'Name', 'Entity_NL', 'Definition',
 
 def split_code(code):
     reversed_code = code[::-1]
-    match = re.search(r'^([A-Z]+)([a-z].*)$', reversed_code)
+    match = re.search(r'^([A-Z_]+)([a-z].*)$', reversed_code)
     if match:
         return match.group(2)[::-1], match.group(1)[::-1]
     else:
